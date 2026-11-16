@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T17:23:00.616239Z",
+  "title": "Design System: Stock Upside Weekly",
+  "extensions": {
+    "colorMeta": {
+      "ledger-cobalt": {
+        "role": "primary",
+        "displayName": "Ledger Cobalt",
+        "canonical": "#1d5bbf",
+        "tonalRamp": [
+          "#162237",
+          "#1f3861",
+          "#234d8f",
+          "#2360c2",
+          "#4d83db",
+          "#91afde",
+          "#c8d5e9",
+          "#eef1f7"
+        ]
+      },
+      "cobalt-wash": {
+        "role": "primary",
+        "displayName": "Cobalt Wash",
+        "canonical": "#e3ecfa",
+        "tonalRamp": [
+          "#172336",
+          "#21395f",
+          "#264e8c",
+          "#2862be",
+          "#5085d7",
+          "#93b0dc",
+          "#c9d5e8",
+          "#eef1f6"
+        ]
+      },
+      "gain-green": {
+        "role": "semantic",
+        "displayName": "Gain Green",
+        "canonical": "#11805b",
+        "tonalRamp": [
+          "#15372c",
+          "#1e624b",
+          "#21916c",
+          "#20c58e",
+          "#4adead",
+          "#8fe0c5",
+          "#c8eade",
+          "#eef7f4"
+        ]
+      },
+      "loss-red": {
+        "role": "semantic",
+        "displayName": "Loss Red",
+        "canonical": "#c0392b",
+        "tonalRamp": [
+          "#341b18",
+          "#5c2923",
+          "#88342b",
+          "#b73b2e",
+          "#d16257",
+          "#d99d96",
+          "#e7cdcb",
+          "#f6efef"
+        ]
+      },
+      "caution-ochre": {
+        "role": "semantic",
+        "displayName": "Caution Ochre",
+        "canonical": "#9a6300",
+        "tonalRamp": [
+          "#3c2d10",
+          "#6c4c13",
+          "#a26e10",
+          "#df9207",
+          "#f5b033",
+          "#ecc783",
+          "#efdfc3",
+          "#f8f4ec"
+        ]
+      },
+      "caution-wash": {
+        "role": "semantic",
+        "displayName": "Caution Wash",
+        "canonical": "#fbf0d9",
+        "tonalRamp": [
+          "#382d14",
+          "#644d1c",
+          "#946e1e",
+          "#ca921b",
+          "#e2b046",
+          "#e2c78d",
+          "#ebdfc7",
+          "#f7f4ee"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#13202c",
+        "tonalRamp": [
+          "#1d272f",
+          "#2e4051",
+          "#3c5a76",
+          "#48749e",
+          "#6d95ba",
+          "#a3b8cc",
+          "#d0d9e2",
+          "#f0f2f5"
+        ]
+      },
+      "slate-muted": {
+        "role": "neutral",
+        "displayName": "Slate Muted",
+        "canonical": "#5a6a7b",
+        "tonalRamp": [
+          "#23262a",
+          "#394047",
+          "#4e5965",
+          "#627283",
+          "#8593a3",
+          "#afb7c0",
+          "#d5d9dc",
+          "#f1f2f3"
+        ]
+      },
+      "rule-line": {
+        "role": "neutral",
+        "displayName": "Rule Line",
+        "canonical": "#d9e0e8",
+        "tonalRamp": [
+          "#21262c",
+          "#353f4b",
+          "#47586b",
+          "#58718d",
+          "#7c92ac",
+          "#abb7c5",
+          "#d3d8de",
+          "#f1f2f4"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#f4f6f9",
+        "tonalRamp": [
+          "#20252d",
+          "#333d4d",
+          "#44556f",
+          "#536c92",
+          "#778eb0",
+          "#a8b5c7",
+          "#d2d7df",
+          "#f1f2f4"
+        ]
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Sheet",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#949494",
+          "#b8b8b8",
+          "#d9d9d9",
+          "#f2f2f2"
+        ]
+      },
+      "sunk": {
+        "role": "neutral",
+        "displayName": "Sunk",
+        "canonical": "#eaeef3",
+        "tonalRamp": [
+          "#20262c",
+          "#343e4c",
+          "#45576d",
+          "#556f90",
+          "#7991ae",
+          "#a9b6c6",
+          "#d3d8df",
+          "#f1f2f4"
+        ]
+      },
+      "dark-ledger-cobalt": {
+        "role": "primary",
+        "displayName": "Ledger Cobalt (dark)"
+      },
+      "dark-cobalt-wash": {
+        "role": "primary",
+        "displayName": "Cobalt Wash (dark)"
+      },
+      "dark-gain-green": {
+        "role": "semantic",
+        "displayName": "Gain Green (dark)"
+      },
+      "dark-loss-red": {
+        "role": "semantic",
+        "displayName": "Loss Red (dark)"
+      },
+      "dark-caution-ochre": {
+        "role": "semantic",
+        "displayName": "Caution Ochre (dark)"
+      },
+      "dark-caution-wash": {
+        "role": "semantic",
+        "displayName": "Caution Wash (dark)"
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Ink (dark)"
+      },
+      "dark-slate-muted": {
+        "role": "neutral",
+        "displayName": "Slate Muted (dark)"
+      },
+      "dark-rule-line": {
+        "role": "neutral",
+        "displayName": "Rule Line (dark)"
+      },
+      "dark-paper": {
+        "role": "neutral",
+        "displayName": "Paper (dark)"
+      },
+      "dark-sheet": {
+        "role": "neutral",
+        "displayName": "Sheet (dark)"
+      },
+      "dark-sunk": {
+        "role": "neutral",
+        "displayName": "Sunk (dark)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page title only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Card figures and case targets."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Detail-panel section titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All text and table data, tabular numerals."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase table column headers only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "hover-lift",
+        "value": "0 2px 10px -4px color-mix(in srgb, #1d5bbf 35%, transparent)",
+        "purpose": "Highlight cards on hover only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "150ms ease",
+        "purpose": "Border, shadow and row-background state changes; smooth scroll disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "cards-2up",
+        "value": "900px"
+      },
+      {
+        "name": "list-mode",
+        "value": "720px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Return pill",
+      "kind": "chip",
+      "refersTo": "pill-gain",
+      "description": "Signed one-decimal return, gain or loss tint; never wraps.",
+      "html": "<span class=\"ds-pill ds-pos\">+29.7%</span> <span class=\"ds-pill ds-neg\">−7.7%</span>",
+      "css": ":host{--accent:#1d5bbf;--accent-soft:#e3ecfa;--up:#11805b;--down:#c0392b;--warn:#9a6300;--warn-soft:#fbf0d9;--fg:#13202c;--muted:#5a6a7b;--line:#d9e0e8;--bg:#f4f6f9;--surface:#fff;--sunk:#eaeef3;font:14px Inter,system-ui,sans-serif;color:var(--fg)}.ds-pill{display:inline-block;white-space:nowrap;padding:2px 7px;border-radius:5px;font-weight:600;font-variant-numeric:tabular-nums}.ds-pos{color:var(--up);background:color-mix(in srgb,var(--up) 14%,transparent)}.ds-neg{color:var(--down);background:color-mix(in srgb,var(--down) 14%,transparent)}"
+    },
+    {
+      "name": "Status chips",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Neutral, accent and caution status tags.",
+      "html": "<span class=\"ds-chip\">12 named</span> <span class=\"ds-chip ds-acc\">partial</span> <span class=\"ds-chip ds-warn\">stale</span>",
+      "css": ":host{--accent:#1d5bbf;--accent-soft:#e3ecfa;--up:#11805b;--down:#c0392b;--warn:#9a6300;--warn-soft:#fbf0d9;--fg:#13202c;--muted:#5a6a7b;--line:#d9e0e8;--bg:#f4f6f9;--surface:#fff;--sunk:#eaeef3;font:14px Inter,system-ui,sans-serif;color:var(--fg)}.ds-chip{display:inline-block;font-size:11px;font-weight:600;padding:1px 7px;border-radius:99px;background:var(--sunk);color:var(--muted)}.ds-acc{background:var(--accent-soft);color:var(--accent)}.ds-warn{background:var(--warn-soft);color:var(--warn)}"
+    },
+    {
+      "name": "Highlight card",
+      "kind": "card",
+      "refersTo": "highlight-card",
+      "description": "Clickable weekly highlight with basis tag.",
+      "html": "<button class=\"ds-hl\"><span class=\"ds-k\">Highest base case</span><span class=\"ds-v\"><b>AVGO</b><span class=\"ds-pill\">+29.7%</span></span><span class=\"ds-n\">Broadcom Inc.</span><span class=\"ds-t\">Our valuation</span></button>",
+      "css": ":host{--accent:#1d5bbf;--accent-soft:#e3ecfa;--up:#11805b;--down:#c0392b;--warn:#9a6300;--warn-soft:#fbf0d9;--fg:#13202c;--muted:#5a6a7b;--line:#d9e0e8;--bg:#f4f6f9;--surface:#fff;--sunk:#eaeef3;font:14px Inter,system-ui,sans-serif;color:var(--fg)}.ds-hl{display:grid;gap:4px;text-align:left;width:220px;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:8px;cursor:pointer;font:inherit;color:inherit;transition:border-color .15s,box-shadow .15s}.ds-hl:hover{border-color:var(--accent);box-shadow:0 2px 10px -4px color-mix(in srgb,var(--accent) 35%,transparent)}.ds-hl:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.ds-k,.ds-n,.ds-t{font-size:12px;color:var(--muted)}.ds-t{font-size:11px}.ds-v{display:flex;justify-content:space-between;align-items:baseline}.ds-v b{font:700 20px 'Schibsted Grotesk',sans-serif}.ds-pill{padding:2px 7px;border-radius:5px;font-weight:600;color:var(--up);background:color-mix(in srgb,var(--up) 14%,transparent)}"
+    },
+    {
+      "name": "Tabs",
+      "kind": "nav",
+      "refersTo": "tab",
+      "description": "Text tabs with cobalt underline on the selected one.",
+      "html": "<nav class=\"ds-tabs\"><button aria-selected=\"true\">Independent valuation (18)</button><button>Street consensus (310)</button></nav>",
+      "css": ":host{--accent:#1d5bbf;--accent-soft:#e3ecfa;--up:#11805b;--down:#c0392b;--warn:#9a6300;--warn-soft:#fbf0d9;--fg:#13202c;--muted:#5a6a7b;--line:#d9e0e8;--bg:#f4f6f9;--surface:#fff;--sunk:#eaeef3;font:14px Inter,system-ui,sans-serif;color:var(--fg)}.ds-tabs{display:flex;gap:4px;border-bottom:1px solid var(--line)}.ds-tabs button{font:600 13.5px Inter,sans-serif;background:none;border:0;border-bottom:2px solid transparent;color:var(--muted);padding:10px 12px;cursor:pointer}.ds-tabs button[aria-selected=true]{color:var(--fg);border-color:var(--accent)}.ds-tabs button:hover{color:var(--fg)}.ds-tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}"
+    },
+    {
+      "name": "Search input",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Labelled filter input.",
+      "html": "<label class=\"ds-l\">Search<input class=\"ds-in\" placeholder=\"Ticker or company\"></label>",
+      "css": ":host{--accent:#1d5bbf;--accent-soft:#e3ecfa;--up:#11805b;--down:#c0392b;--warn:#9a6300;--warn-soft:#fbf0d9;--fg:#13202c;--muted:#5a6a7b;--line:#d9e0e8;--bg:#f4f6f9;--surface:#fff;--sunk:#eaeef3;font:14px Inter,system-ui,sans-serif;color:var(--fg)}.ds-l{display:grid;gap:4px;font-size:12px;color:var(--muted)}.ds-in{font:14px Inter,sans-serif;color:var(--fg);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:7px 9px}.ds-in:focus-visible{outline:2px solid var(--accent);outline-offset:2px}"
+    },
+    {
+      "name": "Scenario bar",
+      "kind": "custom",
+      "description": "Bear–base–bull on a shared −60% to +100% scale.",
+      "html": "<svg width=\"170\" height=\"22\" viewBox=\"0 0 170 22\"><line x1=\"62\" x2=\"62\" y1=\"2\" y2=\"20\" stroke=\"#5a6a7b\" stroke-dasharray=\"2 2\"/><rect x=\"50\" y=\"8\" width=\"80\" height=\"6\" rx=\"3\" fill=\"#e3ecfa\" stroke=\"#1d5bbf\" stroke-width=\".8\"/><circle cx=\"92\" cy=\"11\" r=\"4.5\" fill=\"#11805b\"/></svg>",
+      "css": ":host{--accent:#1d5bbf;--accent-soft:#e3ecfa;--up:#11805b;--down:#c0392b;--warn:#9a6300;--warn-soft:#fbf0d9;--fg:#13202c;--muted:#5a6a7b;--line:#d9e0e8;--bg:#f4f6f9;--surface:#fff;--sunk:#eaeef3;font:14px Inter,system-ui,sans-serif;color:var(--fg)}"
+    },
+    {
+      "name": "Target strip",
+      "kind": "custom",
+      "description": "Low–high analyst targets with average ring and close tick.",
+      "html": "<svg width=\"150\" height=\"26\" viewBox=\"0 0 150 26\"><line x1=\"10\" x2=\"140\" y1=\"13\" y2=\"13\" stroke=\"#d9e0e8\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"10\" cy=\"13\" r=\"2.5\" fill=\"#c0392b\"/><circle cx=\"140\" cy=\"13\" r=\"2.5\" fill=\"#11805b\"/><circle cx=\"95\" cy=\"13\" r=\"5\" fill=\"#fff\" stroke=\"#1d5bbf\" stroke-width=\"2.5\"/><line x1=\"60\" x2=\"60\" y1=\"5\" y2=\"21\" stroke=\"#13202c\" stroke-width=\"2\"/></svg>",
+      "css": ":host{--accent:#1d5bbf;--accent-soft:#e3ecfa;--up:#11805b;--down:#c0392b;--warn:#9a6300;--warn-soft:#fbf0d9;--fg:#13202c;--muted:#5a6a7b;--line:#d9e0e8;--bg:#f4f6f9;--surface:#fff;--sunk:#eaeef3;font:14px Inter,system-ui,sans-serif;color:var(--fg)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Weekly Ledger",
+    "overview": "The page is a ledger of names you scan line by line once a week. Numbers come first and decoration hardly appears. Hairline rules separate the rows, tabular figures line up the columns, and change is marked in the margin with small coloured pills, not loud fills. Calm and sourced is the attitude: every figure carries its basis, and the design makes those bases look different so they're never blended.",
+    "keyCharacteristics": [
+      "Dense, ruled and tabular: the page is the table.",
+      "Cool slate neutrals tinted toward the cobalt accent; no pure greys.",
+      "Semantic colour only: gain, loss, caution and an action or selection accent.",
+      "Every chart is drawn to one shared scale per row type, so rows compare.",
+      "Both light and dark themes, defined as tokens; dark is a separate palette, not an inversion."
+    ],
+    "rules": [
+      {
+        "name": "The Meaning-Only Colour Rule",
+        "body": "Green and red only ever mean gain and loss, and ochre only ever means caution. Never use them as decoration or for a category.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Bases Rule",
+        "body": "Independent-valuation figures and provider-aggregate figures never share a sort, and every place they appear (column header, card tag or basis line) names which one it is.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Any column, pill or stat that holds digits uses tabular numerals (font-variant-numeric: tabular-nums).",
+        "section": "typography"
+      },
+      {
+        "name": "The No-Eyebrow Rule",
+        "body": "No small uppercase label sits above a heading. Headings carry their own weight, and context goes in a chip beside the heading or a sentence below it.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-at-Rest Rule",
+        "body": "Nothing is lifted at rest. If an element needs separation, give it a rule line or a tone step.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do label every number's basis (our model, named analysts or the provider aggregate) in its header, tag or basis line.",
+      "Do keep negative returns, unresearched names and unverified caps visible, with a chip for their status.",
+      "Do draw every row of a given chart type on one shared scale.",
+      "Do style the browser's own details: text selection in cobalt wash, accent-color in cobalt, scrollbars in rule-line colour, and a 2px cobalt focus ring.",
+      "Do switch tables to stacked lists below 720px rather than letting the page scroll sideways."
+    ],
+    "donts": [
+      "Don't merge independent and provider-aggregate upside into one unlabelled sort.",
+      "Don't use green, red or ochre for decoration.",
+      "Don't add small uppercase labels above headings, numbered section markers, or Unicode or emoji glyphs as icons. Use drawn SVG.",
+      "Don't lift elements with shadows at rest.",
+      "Don't put display type in labels, buttons or table data."
+    ]
+  }
+}

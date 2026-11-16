@@ -26,16 +26,34 @@ h3 { font-size: 14px; font-weight: 700; }
 .eyebrow { font-size: 11px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 .num { font-variant-numeric: tabular-nums; }
 a { color: var(--accent); }
-header { display: grid; gap: 8px; }
-.meta { color: var(--muted); max-width: 80ch; }
+html { accent-color: var(--accent); scrollbar-color: var(--line) transparent; }
+::selection { background: var(--accent-soft); color: var(--fg); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+.wrap { grid-template-columns: minmax(0, 1fr); }
+.wrap > *, .panel > * { min-width: 0; }
+.panel { grid-template-columns: minmax(0, 1fr); }
+header { display: grid; gap: 10px; }
+.titlerow { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; }
+.asof { font-size: 12.5px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 3px 9px; border-radius: 99px; white-space: nowrap; }
+.meta { color: var(--muted); max-width: 72ch; margin: 0; }
 .note { font-size: 12.5px; color: var(--muted); }
-.disclaimer { font-size: 12.5px; background: var(--warn-soft); color: var(--fg); border-radius: 6px; padding: 8px 12px; justify-self: start; }
-.funnel { display: flex; flex-wrap: wrap; align-items: stretch; gap: 6px; }
-.stage { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; min-width: 112px; display: grid; gap: 2px; }
-.stage b { font-family: var(--display); font-size: 22px; font-weight: 700; }
-.stage span { font-size: 12px; color: var(--muted); }
-.stage.side { background: transparent; border-style: dashed; }
-.arrow { align-self: center; color: var(--muted); font-size: 16px; }
+.disclaimer { font-size: 12.5px; color: var(--warn); margin: 0; display: flex; gap: 6px; align-items: flex-start; }
+.disclaimer svg { margin-top: 2px; }
+.disclaimer svg { flex: none; }
+.pipe { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 4px; font-size: 13px; color: var(--muted); padding-block: 10px; border-block: 1px solid var(--line); }
+.pipe b { color: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; }
+.pipe .side { color: var(--muted); }
+.pipe svg { color: var(--line); flex: none; }
+.hl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
+.hl button { all: unset; box-sizing: border-box; cursor: pointer; display: grid; gap: 4px; align-content: start; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; min-width: 0; transition: border-color .15s, box-shadow .15s; }
+.hl button:hover { border-color: var(--accent); box-shadow: 0 2px 10px -4px color-mix(in srgb, var(--accent) 35%, transparent); }
+.hl button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.hl .k { font-size: 12px; color: var(--muted); }
+.hl .v { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.hl .v b { font-family: var(--display); font-size: 20px; font-weight: 700; }
+.hl .n { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.hl .basis-tag { font-size: 11px; color: var(--muted); }
+@media (max-width: 900px) { .hl { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
 .tabs button { font: 600 13.5px var(--body); background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); padding: 10px 12px; cursor: pointer; }
 .tabs button[aria-selected="true"] { color: var(--fg); border-color: var(--accent); }
@@ -79,7 +97,7 @@ tr.open td { background: var(--accent-soft); }
 .mix .lbl b { font-weight: 600; }
 .segs { display: flex; gap: 2px; }
 .segs i { flex: 1; height: 8px; border-radius: 2px; background: var(--sunk); }
-.pill { display: inline-block; padding: 2px 7px; border-radius: 5px; font-weight: 600; }
+.pill { display: inline-block; white-space: nowrap; padding: 2px 7px; border-radius: 5px; font-weight: 600; }
 .pill.pos { background: color-mix(in srgb, var(--up) 14%, transparent); }
 .pill.neg { background: color-mix(in srgb, var(--down) 14%, transparent); }
 th.sort { cursor: pointer; user-select: none; }
@@ -89,8 +107,33 @@ th.sort:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; 
 .strip { width: 150px; height: 26px; display: block; }
 .strip.wide { width: 100%; max-width: 420px; height: 46px; }
 .act { display: inline-flex; align-items: center; gap: 6px; }
-.act i { font-style: normal; width: 18px; height: 18px; border-radius: 4px; display: inline-grid; place-items: center; font-size: 11px; background: var(--sunk); color: var(--muted); }
-.act i.up { color: var(--up); } .act i.dn { color: var(--down); }
+.act i { font-style: normal; width: 20px; height: 20px; border-radius: 5px; display: inline-grid; place-items: center; background: var(--sunk); color: var(--muted); }
+.act i.up { color: var(--up); background: color-mix(in srgb, var(--up) 12%, transparent); }
+.act i.dn { color: var(--down); background: color-mix(in srgb, var(--down) 12%, transparent); }
+.mlist { display: none; list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.mlist > li + li { border-top: 1px solid var(--line); }
+.mrow { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 2px 10px; align-items: center; padding: 12px 14px; }
+.mrow:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.mrow[aria-expanded="true"] { background: var(--accent-soft); }
+.mrow .rk { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.mrow .sub { grid-column: 2 / 4; display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--muted); }
+.mrow .co small { max-width: none; }
+.mrow .sub > span:last-child { white-space: nowrap; }
+.mrow .sub .strip { width: 110px; }
+.mrow .sub .bar { width: 120px; }
+.mdetail { padding: 14px; background: var(--bg); border-top: 1px solid var(--line); }
+.mdetail .dgrid { position: static; width: auto !important; }
+.dgrid { grid-template-columns: minmax(0, 1fr); }
+.dgrid > *, .two > *, .mlist > li { min-width: 0; }
+.mdetail .two .kv { grid-template-columns: minmax(0, 1fr); }
+.mdetail .kv dt { margin-top: 6px; font-size: 12px; }
+@media (max-width: 720px) {
+  .tablebox.desk { display: none; }
+  .mlist { display: block; }
+  .controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .controls label:first-child { grid-column: 1 / -1; }
+  #q { width: 100%; max-width: none; } #minret { width: 100%; }
+}
 tr.divider td { background: var(--sunk); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; text-align: left; }
 details.wait { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
 details.wait summary { cursor: pointer; font-weight: 600; }
@@ -103,13 +146,14 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">Weekly screen · 12-month price horizon</div>
-    <h1>Stock Upside Weekly</h1>
+    <div class="titlerow"><h1>Stock Upside Weekly</h1><span class="asof" id="asof"></span></div>
     <p class="meta" id="meta"></p>
-    <div class="disclaimer">Research output, not investment advice. Figures come from public sources and model assumptions that can be wrong.</div>
+    <p class="disclaimer"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 4.5v4.2M8 10.8v.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Research output, not investment advice. Figures come from public sources and model assumptions that can be wrong.</p>
   </header>
 
-  <section class="funnel" id="funnel" aria-label="Screen counts"></section>
+  <section class="pipe" id="funnel" aria-label="Screen counts"></section>
+
+  <section class="hl" id="highlights" aria-label="This week's highlights"></section>
 
   <nav class="tabs" role="tablist">
     <button role="tab" id="tab-valuation" data-view="valuation">Independent valuation</button>
@@ -144,18 +188,46 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   const iss = Object.fromEntries(D.issuers.map(r => [r.symbol, r]));
   const C = D.counts;
 
-  $("#meta").innerHTML = `${esc(D.universe)}. Prices are regular-session closes on <strong>${day(D.reference_session)}</strong>; ` +
-    `market data fetched ${day(D.fetched_at)}, page built ${day(D.built_at)}. Updated every Saturday.`;
+  $("#asof").textContent = "Closes of " + day(D.reference_session);
+  $("#meta").innerHTML = `12-month price upside for ${esc(D.universe.replace(/^US-listed equities \(NYSE, Nasdaq, NYSE American\)/, "US-listed stocks"))}. ` +
+    `Market data fetched ${day(D.fetched_at)}, page built ${day(D.built_at)}. Updated every Saturday.`;
 
-  const stage = (n, label, cls) => `<div class="stage ${cls || ""}"><b class="num">${n}</b><span>${label}</span></div>`;
-  $("#funnel").innerHTML = [
-    stage(C.listings_checked, "listings above $40B screened"), '<span class="arrow" aria-hidden="true">→</span>',
-    stage(C.issuers, "distinct issuers"), '<span class="arrow" aria-hidden="true">→</span>',
-    stage(C.eligible, "eligible, cap &gt; $50B"),
-    stage(C.below_cutoff, "below $50B", "side"), stage(C.unverified, "too close to $50B to verify", "side"),
-    '<span class="arrow" aria-hidden="true">→</span>',
-    stage(C.rank_valued, "with independent valuation"), '<span class="arrow" aria-hidden="true">→</span>',
-    stage(C.rank_with_named_targets, "with named-analyst targets")].join("");
+  const ICON = {
+    up: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 10V2.5M2.5 6 6 2.5 9.5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    down: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v7.5M2.5 6 6 9.5 9.5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    same: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6h7.5M6.5 3 9.5 6 6.5 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+    dot: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="2.4" fill="currentColor"/></svg>',
+    chev: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5 8 6l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+  };
+  const step = (n, label) => `<span><b>${n}</b> ${label}</span>`;
+  $("#funnel").innerHTML = [step(C.listings_checked, "listings screened"), ICON.chev, step(C.issuers, "issuers"), ICON.chev,
+    step(C.eligible, "above $50B") + ` <span class="side">(${C.below_cutoff} below, ${C.unverified} unverified)</span>`, ICON.chev,
+    step(C.rank_valued, "valued in depth"), ICON.chev, step(C.rank_with_named_targets, "with named-analyst targets")].join("");
+
+  // Highlights: each card names its basis, so the two rankings never blur together.
+  function highlights() {
+    const R = D.ranked, elig = D.issuers.filter(r => r.status === "eligible" && r.aggregate.upside_pct != null);
+    const cards = [];
+    if (R.length) {
+      const top = R[0], low = R[R.length - 1];
+      cards.push({ k: "Highest base case", sym: top.symbol, v: top.scenarios_pct.base, tag: "Our valuation", view: "valuation" });
+      cards.push({ k: "Weakest base case", sym: low.symbol, v: low.scenarios_pct.base, tag: "Our valuation", view: "valuation" });
+      const gaps = R.map(r => ({ r, g: (iss[r.symbol].aggregate.upside_pct ?? null) })).filter(x => x.g != null)
+        .map(x => ({ sym: x.r.symbol, gap: x.g - x.r.scenarios_pct.base })).sort((a, b) => b.gap - a.gap);
+      if (gaps.length) cards.push({ k: "Street most above our base", sym: gaps[0].sym, v: gaps[0].gap, pp: true, tag: "Aggregate minus base", view: "valuation" });
+    }
+    if (elig.length) {
+      const fav = elig.slice().sort((a, b) => b.aggregate.upside_pct - a.aggregate.upside_pct)[0];
+      cards.push({ k: "Street's highest upside", sym: fav.symbol, v: fav.aggregate.upside_pct, tag: "Provider aggregate", view: "consensus" });
+    }
+    $("#highlights").innerHTML = cards.map((c, i) => `<button type="button" data-i="${i}">
+      <span class="k">${c.k}</span><span class="v"><b>${esc(c.sym)}</b>${c.pp ? `<span class="pill ${c.v >= 0 ? "pos" : "neg"}">${c.v >= 0 ? "+" : "−"}${Math.abs(c.v).toFixed(1)} pp</span>` : pill(c.v)}</span>
+      <span class="n">${esc((iss[c.sym] || {}).name)}</span><span class="basis-tag">${c.tag}</span></button>`).join("");
+    $("#highlights").hidden = !cards.length;
+    $("#highlights").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; const c = cards[+b.dataset.i];
+      view = c.view; open = c.view === "valuation" ? c.sym : null; $("#q").value = c.view === "consensus" ? c.sym : "";
+      history.replaceState(null, "", "#" + view); render(); const t = document.querySelector(".tabs"); if (t) t.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); });
+  }
 
   const sectors = [...new Set(D.issuers.map(r => r.sector).filter(Boolean))].sort();
   $("#sector").insertAdjacentHTML("beforeend", sectors.map(s => `<option>${esc(s)}</option>`).join(""));
@@ -224,16 +296,16 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
     rows.forEach(g => {
       if (earn && !divided && g.day <= earn) { h += `<tr class="divider"><td colspan="7">Before last earnings release · ${day(earn)}</td></tr>`; divided = true; }
       const r = g.rating, t = g.target;
-      let act = "Reiterated", icon = "→", cls = "";
+      let act = "Reiterated", icon = ICON.same, cls = "";
       if (r && r.prior_observed != null && r.bucket && RANK[r.bucket] != null) {
         const prior = (d.history.find(e => e.field === "rating" && e.analyst === g.analyst && e.value === r.prior_observed) || {}).bucket;
-        if (prior && RANK[r.bucket] > RANK[prior]) { act = "Upgrade"; icon = "↑"; cls = "up"; }
-        else if (prior && RANK[r.bucket] < RANK[prior]) { act = "Downgrade"; icon = "↓"; cls = "dn"; }
-      } else if (r && r.prior_observed == null && !t) { act = "First seen"; icon = "•"; }
-      else if (!r && t && t.direction) { act = { raise: "Target raised", cut: "Target cut", unchanged: "Target reaffirmed" }[t.direction]; icon = t.direction === "raise" ? "↑" : t.direction === "cut" ? "↓" : "→"; cls = t.direction === "raise" ? "up" : t.direction === "cut" ? "dn" : ""; }
-      else if (!r && t) { act = "First seen"; icon = "•"; }
+        if (prior && RANK[r.bucket] > RANK[prior]) { act = "Upgrade"; icon = ICON.up; cls = "up"; }
+        else if (prior && RANK[r.bucket] < RANK[prior]) { act = "Downgrade"; icon = ICON.down; cls = "dn"; }
+      } else if (r && r.prior_observed == null && !t) { act = "First seen"; icon = ICON.dot; }
+      else if (!r && t && t.direction) { act = { raise: "Target raised", cut: "Target cut", unchanged: "Target reaffirmed" }[t.direction]; icon = t.direction === "raise" ? ICON.up : t.direction === "cut" ? ICON.down : ICON.same; cls = t.direction === "raise" ? "up" : t.direction === "cut" ? "dn" : ""; }
+      else if (!r && t) { act = "First seen"; icon = ICON.dot; }
       if (act === "Reiterated" && t && (t.direction === "raise" || t.direction === "cut")) {
-        act = t.direction === "raise" ? "Target raised" : "Target cut"; icon = t.direction === "raise" ? "↑" : "↓"; cls = t.direction === "raise" ? "up" : "dn"; }
+        act = t.direction === "raise" ? "Target raised" : "Target cut"; icon = t.direction === "raise" ? ICON.up : ICON.down; cls = t.direction === "raise" ? "up" : "dn"; }
       const ratingTxt = r ? (r.prior_observed != null && r.prior_observed !== r.value ? `${esc(r.prior_observed)} → ` : "") + `<b>${esc(r.value)}</b>` : '<span class="na">—</span>';
       const prior = t ? (t.source_prior != null ? t.source_prior : t.prior_observed) : null;
       const tgt = t ? (prior != null && prior !== t.value ? `${money(prior)} → ` : "") + `<b>${money(t.value)}</b>` : '<span class="na">—</span>';
@@ -251,7 +323,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   function name(sym) {
     const r = iss[sym] || {};
     const extra = r.other_classes ? ` · also ${r.other_classes.join(", ")}` : "";
-    return `<div class="co"><b>${esc(sym)}</b><small title="${esc(r.name)}">${esc(r.name)}${esc(extra)}</small></div>`;
+    return `<span class="co"><b>${esc(sym)}</b><small title="${esc(r.name)}">${esc(r.name)}${esc(extra)}</small></span>`;
   }
 
   function valuation() {
@@ -265,7 +337,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
       `Analyst column is the 90-day half-life weighted target of the named analysts found (a sample, not full Street consensus). Gap = analyst upside minus base case. ` +
       `Returns are measured from this week's close; each name's research date is shown. About 15 names are researched in depth each week.</p>`;
     if (sorts.valuation.key !== "base") h += `<p class="basis">Re-sorted by the column you picked. # still shows the rank by base-case return.</p>`;
-    h += `<div class="tablebox"><table><thead><tr>${th("valuation", "rank", "#")}${th("valuation", "co", "Company", "l")}<th>Close</th>${th("valuation", "cap", "Mkt cap")}<th class="l">Bear · base · bull (−60% to +100%)</th>` +
+    h += `<div class="tablebox desk"><table><thead><tr>${th("valuation", "rank", "#")}${th("valuation", "co", "Company", "l")}<th>Close</th>${th("valuation", "cap", "Mkt cap")}<th class="l">Bear · base · bull (−60% to +100%)</th>` +
       `${th("valuation", "base", "Base")}${th("valuation", "bear", "Bear")}${th("valuation", "bull", "Bull")}${th("valuation", "an", "Analyst wtd")}${th("valuation", "gap", "Gap")}${th("valuation", "date", "Researched", "l")}</tr></thead><tbody>`;
     if (!rows.length) h += `<tr><td colspan="11" class="empty">${D.ranked.length ? "No researched names match these filters." : "No names have deep research yet. The first batch arrives with the next weekly run."}</td></tr>`;
     rows.forEach(r => {
@@ -278,6 +350,10 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
       if (isOpen) h += `<tr class="detail"><td colspan="11">${detail(r, d)}</td></tr>`;
     });
     h += `</tbody></table></div>`;
+    h += `<ol class="mlist">${rows.map(r => { const isOpen = open === r.symbol, s = r.scenarios_pct;
+      return `<li><button type="button" class="mrow" data-sym="${esc(r.symbol)}" aria-expanded="${isOpen}"><span class="rk">${rankOf[r.symbol]}</span>${name(r.symbol)}${pill(s.base)}
+        <span class="sub">${bar(s)}<span>Bear ${pct(s.bear, 0)} · Bull ${pct(s.bull, 0)}</span></span></button>
+        ${isOpen ? `<div class="mdetail">${detail(r, D.details[r.symbol] || {})}</div>` : ""}</li>`; }).join("") || `<li class="empty">No researched names match these filters.</li>`}</ol>`;
     const wl = waiting.filter(o => match(o.symbol, null) || $("#minret").value !== "");
     h += `<details class="wait"><summary>Awaiting deep research: ${waiting.length} eligible names</summary>
       <p class="note">They are listed under Street consensus meanwhile. Unresearched names are never mixed into this ranking.</p>
@@ -326,7 +402,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
     let h = `<p class="basis"><strong>Sorted by provider aggregate upside</strong>: the mean analyst target published by Yahoo Finance, measured against the ${day(D.reference_session)} close and fetched ${day(D.fetched_at)}. ` +
       `This is a separate ranking from the independent valuation and is never merged with it. Provider counts, collection windows and target dates are not disclosed per analyst.</p>`;
     if (sorts.consensus.key !== "agg") h += `<p class="basis">Re-sorted by the column you picked. # still shows the rank by aggregate upside.</p>`;
-    h += `<div class="tablebox"><table><thead><tr>${th("consensus", "rank", "#")}${th("consensus", "co", "Company", "l")}${th("consensus", "sector", "Sector", "l")}<th>Close</th>${th("consensus", "cap", "Mkt cap")}<th>Mean target</th>${th("consensus", "agg", "Aggregate upside")}<th class="l">Low · mean ○ · close | · high</th>${th("consensus", "n", "Analysts")}<th class="l">Rating</th><th class="l">Deep research</th></tr></thead><tbody>`;
+    h += `<div class="tablebox desk"><table><thead><tr>${th("consensus", "rank", "#")}${th("consensus", "co", "Company", "l")}${th("consensus", "sector", "Sector", "l")}<th>Close</th>${th("consensus", "cap", "Mkt cap")}<th>Mean target</th>${th("consensus", "agg", "Aggregate upside")}<th class="l">Low · mean ○ · close | · high</th>${th("consensus", "n", "Analysts")}<th class="l">Rating</th><th class="l">Deep research</th></tr></thead><tbody>`;
     if (!rows.length) h += `<tr><td colspan="11" class="empty">No names match these filters.</td></tr>`;
     rows.forEach(r => {
       const a = r.aggregate, rk = D.ranked.find(x => x.symbol === r.symbol);
@@ -334,7 +410,10 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
         <td>${money(a.mean)}</td><td>${pill(a.upside_pct)}</td><td class="l">${strip(a.low, a.high, a.mean, r.close)}</td><td>${a.analysts == null ? "n/a" : a.analysts}</td>
         <td class="l">${esc((a.recommendation || "n/a").replace("_", " "))}</td><td class="l">${rk ? `<span class="chip acc">base ${rk.scenarios_pct.base >= 0 ? "+" : "−"}${Math.abs(rk.scenarios_pct.base).toFixed(1)}%</span>` : '<span class="chip">pending</span>'}</td></tr>`;
     });
-    return h + `</tbody></table></div>`;
+    h += `</tbody></table></div>`;
+    return h + `<ol class="mlist">${rows.map(r => { const a = r.aggregate;
+      return `<li><div class="mrow" style="cursor:default"><span class="rk">${aggRank[r.symbol]}</span>${name(r.symbol)}${pill(a.upside_pct)}
+        <span class="sub">${strip(a.low, a.high, a.mean, r.close)}<span>${a.analysts == null ? "n/a" : a.analysts} analysts · ${esc((a.recommendation || "n/a").replace("_", " "))}</span></span></div></li>`; }).join("") || `<li class="empty">No names match these filters.</li>`}</ol>`;
   }
 
   function excluded() {
@@ -375,9 +454,9 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   const resort = e => { const h = e.target.closest("th.sort"); if (!h) return false;
     const s = sorts[h.dataset.tab]; if (s.key === h.dataset.key) s.dir *= -1; else { s.key = h.dataset.key; s.dir = ["co", "sector"].includes(s.key) ? 1 : -1; }
     render(); const again = document.querySelector(`th.sort[data-key="${h.dataset.key}"]`); if (again) again.focus(); return true; };
-  const toggle = e => { if (resort(e)) return; const tr = e.target.closest("tr.row"); if (!tr || e.target.closest("a")) return; open = open === tr.dataset.sym ? null : tr.dataset.sym; render(); };
+  const toggle = e => { if (resort(e)) return; const tr = e.target.closest("tr.row, button.mrow"); if (!tr || e.target.closest("a")) return; open = open === tr.dataset.sym ? null : tr.dataset.sym; render(); };
   $("#view").addEventListener("click", toggle);
-  $("#view").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { if (e.target.closest("tr.row, th.sort")) { e.preventDefault(); toggle(e); } } });
+  $("#view").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { if (e.target.closest("tr.row, th.sort")) { e.preventDefault(); toggle(e); } /* buttons get Enter/Space natively */ } });
   ["q", "sector", "minret"].forEach(id => $("#" + id).addEventListener("input", render));
   window.addEventListener("hashchange", () => { const v = location.hash.slice(1); if (["valuation", "consensus", "excluded"].includes(v)) { view = v; render(); } });
 
@@ -387,6 +466,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
     `<p><b>Data.</b> Universe from the <a href="https://www.nasdaq.com/market-activity/stocks/screener" target="_blank" rel="noopener">Nasdaq stock screener</a>; closes, shares and aggregate targets from Yahoo Finance via yfinance; deep research cites its own sources in each row. ` +
     `${D.failures.length ? D.failures.length + " listings failed to load this week. " : ""}${D.rejected.length ? D.rejected.length + " research files were rejected by validation this week." : ""}</p>`;
 
+  highlights();
   render();
 })();
 </script>

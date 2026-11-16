@@ -1,0 +1,164 @@
+{
+ "issuer_id": "Walmart Inc.",
+ "symbol": "WMT",
+ "researched_at": "2026-11-16",
+ "research_close": {
+  "close": 128.09,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-08-20T06:45:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Kate McShane",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 130,
+   "source_prior": 141,
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://wealthup.com/walmart-wmt-stock-price-cuts-082126/"
+  },
+  {
+   "analyst": "Kate McShane",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://wealthup.com/walmart-wmt-stock-price-cuts-082126/"
+  },
+  {
+   "analyst": "Christopher Nardone",
+   "firm": "Bank of America",
+   "field": "target",
+   "value": 126,
+   "source_prior": 144,
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://coincentral.com/walmart-wmt-stock-drops-as-goldman-sachs-and-bofa-cut-price-targets-after-q2-earnings/"
+  },
+  {
+   "analyst": "Christopher Nardone",
+   "firm": "Bank of America",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://coincentral.com/walmart-wmt-stock-drops-as-goldman-sachs-and-bofa-cut-price-targets-after-q2-earnings/"
+  },
+  {
+   "analyst": "Christopher Graja",
+   "firm": "Argus",
+   "field": "target",
+   "value": 130,
+   "source_prior": 145,
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://app.sentisense.ai/stories/walmart-faces-multiple-analyst-target-cuts-after-9-percent-selloff-08212026"
+  },
+  {
+   "analyst": "Christopher Graja",
+   "firm": "Argus",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://app.sentisense.ai/stories/walmart-faces-multiple-analyst-target-cuts-after-9-percent-selloff-08212026"
+  },
+  {
+   "analyst": "Christopher Horvers",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 145,
+   "source_prior": 125,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-walmart-nasdaq-wmt-price-target-raised-to-14500-2026-11-09/"
+  },
+  {
+   "analyst": "Christopher Horvers",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-walmart-nasdaq-wmt-price-target-raised-to-14500-2026-11-09/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. At the 12-month target date (Nov 2027) an investor prices roughly next-twelve-month adjusted EPS, about 1/6 FY2028 (Jan-2028 year end) and 5/6 FY2029. Base: FY2028 adj. EPS $3.22 (+13% on the $2.80-2.87 FY2027 guide, midpoint $2.835) and FY2029 $3.60 (+12%), blended NTM about $3.50. Model assumptions, not company guidance. USD listing, no ADR conversion.",
+  "bear": 91.0,
+  "base": 126.0,
+  "bull": 150.0,
+  "cases": {
+   "bear": {
+    "driver": "US comps stay near the six-year low seen in Q2 FY27, tariff-refund tailwind fades, EPS growth about 5% a year",
+    "assumption": "NTM EPS $3.25 at 28x",
+    "target": 91.0
+   },
+   "base": {
+    "driver": "Guided FY27 adj. EPS $2.80-2.87, then about 12-13% annual growth from sales growth of 4-5% and operating income growing faster than sales (advertising, membership, e-commerce profit)",
+    "assumption": "NTM EPS $3.50 at 36x",
+    "target": 126.0
+   },
+   "bull": {
+    "driver": "Operating income compounds 15%+, mix shift to advertising/membership holds premium multiple",
+    "assumption": "NTM EPS $3.75 at 40x",
+    "target": 150.0
+   }
+  },
+  "implied_by_close": "At base NTM EPS $3.50 the $128.09 close implies 36.6x; the base 36x multiple gives $126. A target of $145 (the latest JPMorgan call) needs 41.4x at $3.50 or about $4.03 EPS at 36x.",
+  "sensitivity": "One turn of P/E moves the base target by $3.50 (2.7 pp of return on the close).",
+  "watch_metric": "Walmart U.S. comparable sales growth ex-fuel and adjusted operating income growth versus the 2-4% Q3 guide; a sustained comp below about 4% would break the base case.",
+  "next_disclosure": "Q3 FY2027 earnings, scheduled for 2026-11-19 (guide: adj. EPS $0.62-0.64, net sales +3-3.75% cc)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Four named analysts found. After the Aug 20 Q2 report (stock -9% to $103.84) Goldman cut $141 to $130, BofA $144 to $126 and Argus $145 to $130, all keeping Buy; JPMorgan then raised $125 to $145 on Nov 9. Targets of $126-145 bracket the $126 base; JPMorgan's $145 needs about 41x or about $4.03 EPS versus the model. No target horizons were verified, so none enter the weighted target; the sample is small and 3 of 4 are the same-day post-earnings cuts.",
+ "sources": [
+  {
+   "label": "Goldman Sachs cut to $130 from $141, Buy (Aug 21 2026)",
+   "url": "https://wealthup.com/walmart-wmt-stock-price-cuts-082126/",
+   "supports": "Goldman Sachs target and rating"
+  },
+  {
+   "label": "BofA cut to $126 from $144, Buy",
+   "url": "https://coincentral.com/walmart-wmt-stock-drops-as-goldman-sachs-and-bofa-cut-price-targets-after-q2-earnings/",
+   "supports": "Bank of America target and rating"
+  },
+  {
+   "label": "Walmart faces multiple target cuts after 9% selloff (Argus)",
+   "url": "https://app.sentisense.ai/stories/walmart-faces-multiple-analyst-target-cuts-after-9-percent-selloff-08212026",
+   "supports": "Argus target and rating"
+  },
+  {
+   "label": "MarketBeat: JPMorgan raises WMT target to $145 from $125 (Nov 9 2026)",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-walmart-nasdaq-wmt-price-target-raised-to-14500-2026-11-09/",
+   "supports": "JPMorgan target and rating"
+  },
+  {
+   "label": "Walmart Q2 FY2027 results and guidance (coverage)",
+   "url": "https://chainstoreage.com/walmart-beats-street-q2-eps-revenues-misses-us-comp-sales",
+   "supports": "Q2 adj EPS $0.81, FY27 guide $2.80-2.87, comps"
+  },
+  {
+   "label": "Walmart Q3 FY2027 guidance",
+   "url": "https://www.marketbeat.com/instant-alerts/walmart-nasdaqwmt-issues-q3-2027-earnings-guidance-2026-08-20/",
+   "supports": "Q3 adj EPS $0.62-0.64"
+  },
+  {
+   "label": "Trefis: FY2028 EPS consensus range",
+   "url": "https://www.trefis.com/articles/619416/what-are-walmart-investors-betting-on/2026-10-20",
+   "supports": "FY2028 EPS $3.10-3.56 consensus context"
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "issuer_id": "Micron Technology, Inc.",
+ "symbol": "MU",
+ "researched_at": "2026-11-16",
+ "research_close": {
+  "close": 778.31,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-09-30T16:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Kevin Cassidy",
+   "firm": "Rosenblatt",
+   "field": "target",
+   "value": 1900,
+   "source_prior": 1500,
+   "issued_at": "2026-10-01",
+   "public_at": "2026-10-01T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.thestreet.com/investing/stocks/micron-stock-rosenblatt-price-target"
+  },
+  {
+   "analyst": "Kevin Cassidy",
+   "firm": "Rosenblatt",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-01",
+   "public_at": "2026-10-01T23:59:59-04:00",
+   "source": "https://www.thestreet.com/investing/stocks/micron-stock-rosenblatt-price-target"
+  },
+  {
+   "analyst": "Gil Luria",
+   "firm": "D.A. Davidson",
+   "field": "target",
+   "value": 3000,
+   "source_prior": 2100,
+   "issued_at": "2026-10-07",
+   "public_at": "2026-10-07T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://247wallst.com/investing/2026/10/07/this-wall-street-firm-just-put-a-3000-price-target-on-micron-stock/"
+  },
+  {
+   "analyst": "Gil Luria",
+   "firm": "D.A. Davidson",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-07",
+   "public_at": "2026-10-07T23:59:59-04:00",
+   "source": "https://247wallst.com/investing/2026/10/07/this-wall-street-firm-just-put-a-3000-price-target-on-micron-stock/"
+  },
+  {
+   "analyst": "Atif Malik",
+   "firm": "Citi",
+   "field": "target",
+   "value": 1300,
+   "source_prior": 1150,
+   "issued_at": "2026-09-23",
+   "public_at": "2026-09-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://247wallst.com/investing/2026/09/23/micron-price-target-raised-to-1300-by-citi-on-stronger-dram-pricing-undersupply/"
+  },
+  {
+   "analyst": "Atif Malik",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-23",
+   "public_at": "2026-09-23T23:59:59-04:00",
+   "source": "https://247wallst.com/investing/2026/09/23/micron-price-target-raised-to-1300-by-citi-on-stronger-dram-pricing-undersupply/"
+  },
+  {
+   "analyst": "Atif Malik",
+   "firm": "Citi",
+   "field": "target",
+   "value": 1300,
+   "source_prior": 1300,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mu/forecast/"
+  },
+  {
+   "analyst": "Atif Malik",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/mu/forecast/"
+  },
+  {
+   "analyst": "Mark Li",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 1300,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://finbold.com/analyst-sets-micron-mu-stock-price-target-for-the-next-12-months/"
+  },
+  {
+   "analyst": "Mark Li",
+   "firm": "Bernstein",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://finbold.com/analyst-sets-micron-mu-stock-price-target-for-the-next-12-months/"
+  },
+  {
+   "analyst": "Matt Bryson",
+   "firm": "Wedbush",
+   "field": "target",
+   "value": 1400,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mu/forecast/"
+  },
+  {
+   "analyst": "Matt Bryson",
+   "firm": "Wedbush",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/mu/forecast/"
+  },
+  {
+   "analyst": "Vivek Arya",
+   "firm": "Bank of America",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/mu/forecast/"
+  }
+ ],
+ "valuation": {
+  "method": "Cyclical forward EPS x P/E. Earnings period priced at the Nov 2027 target date is FY2028 (year to Aug 2028), non-GAAP diluted EPS on about 1.15B diluted shares (company Q1 FY27 outlook basis), 15% tax rate (FY26 effective rate 14.8%). Anchors: FY26 non-GAAP EPS $75.52; Q4 FY26 EPS $33.42 at 87.0% gross margin; Q1 FY27 guide revenue $61.5B +/- $1.5B, gross margin ~86.25%, EPS $38.15 +/- $1.00. Base FY27 EPS is about $158 (four quarters near the Q1 guide) and FY28 normalises lower as DRAM pricing plateaus and supply (including CXMT and Micron's own $25B+ capex) grows. Multiples of 5.5-8.5x reflect peak-margin memory earnings, not a through-cycle P/E. Net cash $68.3B (about $59 per share) is not added separately; it is assumed to be embedded in the multiple. Model assumptions, not company guidance, beyond Q1 FY27.",
+  "bear": 412.5,
+  "base": 980.0,
+  "bull": 1785.0,
+  "cases": {
+   "bear": {
+    "driver": "DRAM/NAND price roll-over in 2027 as AI-capex digestion and new supply cut gross margin to about 60%",
+    "assumption": "FY28 EPS $75 at 5.5x",
+    "target": 412.5
+   },
+   "base": {
+    "driver": "Prices plateau after FY27; gross margin eases from about 86% toward 80%; revenue near FY27 level",
+    "assumption": "FY28 EPS $140 at 7.0x",
+    "target": 980.0
+   },
+   "bull": {
+    "driver": "Supply stays tight through 2028, HBM and server DRAM contracts hold margins above 85%, buybacks offset dilution",
+    "assumption": "FY28 EPS $210 at 8.5x",
+    "target": 1785.0
+   }
+  },
+  "implied_by_close": "At base FY28 EPS of $140 the close implies 5.6x; the analyst-weighted target (about $1,700 from five named targets, mostly set before the early-November sell-off) implies about 12x on $140, or EPS of about $243 at 7x. At the Q1 FY27 guide annualised (about $153), the close is 5.1x.",
+  "sensitivity": "One turn of P/E moves the base target by $140 (18.0 pp of the close); $10 of FY28 EPS moves it $70 (9.0 pp).",
+  "watch_metric": "Non-GAAP gross margin and DRAM contract pricing trend versus the 86.25% Q1 FY27 guide; a margin below about 80% would break the base case.",
+  "next_disclosure": "Fiscal Q1 2027 earnings (quarter ends late November 2026; report expected in December 2026, date not confirmed in sources found)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named targets were set Sep 23-Oct 29, before the roughly 30% slide from Oct 29 to Nov 5 (reported close $656.39 on Nov 5), so every sampled target is stale relative to the price move; only Citi, Wedbush and Bernstein reaffirmed after the Q4 print. D.A. Davidson's $3,000 (19x FY27 EPS of about $158) dominates the spread; the other four cluster at $1,300-1,900. The gap to the base case is mostly multiple: analysts' targets need 10-12x on EPS near $140-160 versus 7x here. Five targets from six firms is a partial panel; published aggregate is $1,562 mean from 45-49 analysts (Yahoo/StockAnalysis).",
+ "sources": [
+  {
+   "label": "Micron Q4 FY2026 results press release (8-K Ex. 99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000723125/000072312526000018/a2026q4ex991-pressrelease.htm",
+   "supports": "EPS, guidance, cash and debt (figures seen via search summary; page not opened)"
+  },
+  {
+   "label": "Micron Q4 FY26 prepared remarks",
+   "url": "https://s25.q4cdn.com/621799436/files/doc_financials/2026/q4/Q4-FY26-Prepared-Remarks.pdf",
+   "supports": "gross margin, Q1 FY27 outlook (via search summary)"
+  },
+  {
+   "label": "Micron Q4 FY26 earnings summary",
+   "url": "https://quartr.com/events/micron-technology-mu-q4-2026_3Yxg2NZC",
+   "supports": "Q1 FY27 revenue and EPS guidance"
+  },
+  {
+   "label": "Rosenblatt target raise",
+   "url": "https://www.thestreet.com/investing/stocks/micron-stock-rosenblatt-price-target",
+   "supports": "Rosenblatt target and rating"
+  },
+  {
+   "label": "D.A. Davidson $3,000 target",
+   "url": "https://247wallst.com/investing/2026/10/07/this-wall-street-firm-just-put-a-3000-price-target-on-micron-stock/",
+   "supports": "D.A. Davidson target, 19x FY27 EPS"
+  },
+  {
+   "label": "Citi target raise",
+   "url": "https://247wallst.com/investing/2026/09/23/micron-price-target-raised-to-1300-by-citi-on-stronger-dram-pricing-undersupply/",
+   "supports": "Citi target and rating"
+  },
+  {
+   "label": "StockAnalysis MU forecast",
+   "url": "https://stockanalysis.com/stocks/mu/forecast/",
+   "supports": "Citi, Wedbush, BofA reaffirmations; aggregate consensus"
+  },
+  {
+   "label": "Finbold Bernstein target",
+   "url": "https://finbold.com/analyst-sets-micron-mu-stock-price-target-for-the-next-12-months/",
+   "supports": "Bernstein target"
+  }
+ ]
+}

@@ -666,9 +666,121 @@
         "high": 3708920307600
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 350,
+          "source_prior": 420,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says"
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says"
+        },
+        {
+          "analyst": "Brian Pitz",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 425,
+          "source_prior": 480,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340"
+        },
+        {
+          "analyst": "Brian Pitz",
+          "firm": "BMO Capital Markets",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340"
+        },
+        {
+          "analyst": "Scott Devitt",
+          "firm": "Rosenblatt",
+          "field": "target",
+          "value": 380,
+          "source_prior": 410,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340"
+        },
+        {
+          "analyst": "Scott Devitt",
+          "firm": "Rosenblatt",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340"
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 375,
+          "source_prior": 425,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finbold.com/18-wall-street-analysts-slash-google-stock-price-targets-after-q3-miss/"
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://finbold.com/18-wall-street-analysts-slash-google-stock-price-targets-after-q3-miss/"
+        },
+        {
+          "analyst": "Gil Luria",
+          "firm": "D.A. Davidson",
+          "field": "target",
+          "value": 300,
+          "source_prior": 350,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/news/is-this-the-quarter-we-feared-da-davidson-reacts-as-alphabet-stock-falls-after-q3-miss"
+        },
+        {
+          "analyst": "Gil Luria",
+          "firm": "D.A. Davidson",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.tipranks.com/news/is-this-the-quarter-we-feared-da-davidson-reacts-as-alphabet-stock-falls-after-q3-miss"
+        }
+      ],
+      "earnings_at": "2026-10-28T16:00:00-04:00",
+      "valuation": {
+        "bear": 225.0,
+        "base": 323.4,
+        "bull": 412.5
+      },
+      "dividend_per_share": 0.88
     },
     {
       "issuer_id": "Amazon.com, Inc.",
@@ -682,9 +794,99 @@
         "high": 2941100089892
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Stephen Ju",
+          "firm": "UBS",
+          "field": "target",
+          "value": 352,
+          "source_prior": 348,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/amzn/forecast"
+        },
+        {
+          "analyst": "Stephen Ju",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/amzn/forecast"
+        },
+        {
+          "analyst": "Brian Nowak",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 350,
+          "source_prior": 335,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://investinglive.com/stocks/icymi-morgan-stanley-names-amazon-a-top-pick-lifts-target-to-350-on-five-catalysts-led-by-aws/"
+        },
+        {
+          "analyst": "Brian Nowak",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "source": "https://investinglive.com/stocks/icymi-morgan-stanley-names-amazon-a-top-pick-lifts-target-to-350-on-five-catalysts-led-by-aws/"
+        },
+        {
+          "analyst": "Justin Post",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 317,
+          "source_prior": 320,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/amzn/forecast"
+        },
+        {
+          "analyst": "Justin Post",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/amzn/forecast"
+        },
+        {
+          "analyst": "John Blackledge",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 340,
+          "source_prior": 350,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/amzn-analysts-split-after-earnings-td-cowen-says-amazon-selloff-is-overdone-mizuho-raises-target/cZUht92R9T1"
+        },
+        {
+          "analyst": "John Blackledge",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/amzn-analysts-split-after-earnings-td-cowen-says-amazon-selloff-is-overdone-mizuho-raises-target/cZUht92R9T1"
+        }
+      ],
+      "earnings_at": "2026-10-29T16:00:00-04:00",
+      "valuation": {
+        "bear": 196.8,
+        "base": 286.5,
+        "bull": 365.5
+      }
     },
     {
       "issuer_id": "Taiwan Semiconductor Manufacturing Company Limited",
@@ -698,9 +900,123 @@
         "high": 2110116035279
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Mark Li",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 554,
+          "source_prior": 430,
+          "issued_at": "2026-08-11",
+          "public_at": "2026-08-11T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://cryptobriefing.com/bernstein-raises-tsmc-price-target-600/"
+        },
+        {
+          "analyst": "Mark Li",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 600,
+          "source_prior": 554,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://cryptobriefing.com/bernstein-raises-tsmc-price-target-600/"
+        },
+        {
+          "analyst": "Mark Li",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://cryptobriefing.com/bernstein-raises-tsmc-price-target-600/"
+        },
+        {
+          "analyst": "Barclays analyst (unnamed in source)",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 670,
+          "source_prior": 665,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://pluang.com/en/news-feed/tsmc-barclays-naikkan-target-harga-670"
+        },
+        {
+          "analyst": "Needham analyst (unnamed in source)",
+          "firm": "Needham",
+          "field": "target",
+          "value": 530,
+          "source_prior": 480,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/needham-company-llc-raises-taiwan-semiconductor-manufacturing-nysetsm-price-target-to-53000-2026-07-27/"
+        },
+        {
+          "analyst": "Needham analyst (unnamed in source)",
+          "firm": "Needham",
+          "field": "target",
+          "value": 560,
+          "source_prior": 530,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tradingkey.com/analysis/stocks/us-stocks/262213491-tsmc-q3-earnings-preview-profits-hit-record-high-sixth-straight-quarter-tradingkey"
+        },
+        {
+          "analyst": "Stifel analyst (unnamed in source)",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 520,
+          "source_prior": 515,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co-consensus-estimates"
+        },
+        {
+          "analyst": "Susquehanna analyst (unnamed in source)",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 600,
+          "source_prior": 575,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/needham-company-llc-raises-taiwan-semiconductor-manufacturing-nysetsm-price-target-to-53000-2026-07-27/"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed in source)",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 590,
+          "source_prior": 490,
+          "issued_at": "2026-06-25",
+          "public_at": "2026-06-25T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.fxleaders.com/news/2026/06/25/taiwan-semiconductor-stock-tsm-gains-5-as-ai-pricing-power-and-bofas-590-target-lift-sentiment/"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed in source)",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-06-25",
+          "public_at": "2026-06-25T23:59:59-04:00",
+          "source": "https://www.fxleaders.com/news/2026/06/25/taiwan-semiconductor-stock-tsm-gains-5-as-ai-pricing-power-and-bofas-590-target-lift-sentiment/"
+        }
+      ],
+      "earnings_at": "2026-10-15T13:30:00+08:00",
+      "valuation": {
+        "bear": 258.0,
+        "base": 457.0,
+        "bull": 582.0
+      }
     },
     {
       "issuer_id": "Space Exploration Technologies Corp.",
@@ -714,9 +1030,161 @@
         "high": 1927047008010
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Adam Jonas",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 300,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "Adam Jonas",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 500,
+          "source_prior": 240,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "Anthony Valentini",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 300,
+          "source_prior": 254,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "Anthony Valentini",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "John Godyn",
+          "firm": "Citi",
+          "field": "target",
+          "value": 240,
+          "source_prior": 200,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "John Godyn",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "Colin Canfield",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 345,
+          "source_prior": 246,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "Colin Canfield",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.cnbc.com/2026/10/21/spacex-stock-q3-earnings-analysts.html"
+        },
+        {
+          "analyst": "Eric Sheridan",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 245,
+          "source_prior": 230,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/news/spacex-stock-spcx-forecast-top-analysts-boost-price-targets-after-q3-beat"
+        },
+        {
+          "analyst": "Eric Sheridan",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/news/spacex-stock-spcx-forecast-top-analysts-boost-price-targets-after-q3-beat"
+        },
+        {
+          "analyst": "Kutgun Maral",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 275,
+          "source_prior": 230,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.cnbc.com/2026/10/16/spacex-evercore-isi-price-target.html"
+        },
+        {
+          "analyst": "Kutgun Maral",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://www.cnbc.com/2026/10/16/spacex-evercore-isi-price-target.html"
+        }
+      ],
+      "earnings_at": "2026-10-20T16:00:00-04:00",
+      "valuation": {
+        "bear": 61.25,
+        "base": 144.0,
+        "bull": 300.0
+      }
     },
     {
       "issuer_id": "Broadcom Inc.",
@@ -730,9 +1198,119 @@
         "high": 1689627245443
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "CJ Muse",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 600,
+          "source_prior": 525,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://parameter.io/broadcom-avgo-stock-could-nearly-double-cantor-fitzgerald-sets-600-price-target/"
+        },
+        {
+          "analyst": "CJ Muse",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://parameter.io/broadcom-avgo-stock-could-nearly-double-cantor-fitzgerald-sets-600-price-target/"
+        },
+        {
+          "analyst": "Sajal Dogra",
+          "firm": "Rosenblatt",
+          "field": "target",
+          "value": 600,
+          "source_prior": 600,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9145369/avgo-maintained-by-rosenblatt-price-target-stays-at-600"
+        },
+        {
+          "analyst": "Sajal Dogra",
+          "firm": "Rosenblatt",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "source": "https://www.gurufocus.com/news/9145369/avgo-maintained-by-rosenblatt-price-target-stays-at-600"
+        },
+        {
+          "analyst": "Ivan Feinseth",
+          "firm": "Tigress Financial",
+          "field": "target",
+          "value": 600,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/AVGO/price-targets"
+        },
+        {
+          "analyst": "Ivan Feinseth",
+          "firm": "Tigress Financial",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/quote/AVGO/price-targets"
+        },
+        {
+          "analyst": "Cody Acree",
+          "firm": "StoneX",
+          "field": "target",
+          "value": 545,
+          "source_prior": 545,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9146749/broadcom-avgo-analysts-maintain-buy-rating-with-545-target-price"
+        },
+        {
+          "analyst": "Cody Acree",
+          "firm": "StoneX",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.gurufocus.com/news/9146749/broadcom-avgo-analysts-maintain-buy-rating-with-545-target-price"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 500,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/AVGO/price-targets"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/quote/AVGO/price-targets"
+        }
+      ],
+      "earnings_at": "2026-09-02T16:15:00-04:00",
+      "valuation": {
+        "bear": 280.0,
+        "base": 450.0,
+        "bull": 630.0
+      },
+      "dividend_per_share": 2.6
     },
     {
       "issuer_id": "Meta Platforms, Inc.",
@@ -746,9 +1324,184 @@
         "high": 1673120738631
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ygal Arounian",
+          "firm": "Wedbush",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "target",
+          "value": 730,
+          "source_prior": 700,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Ygal Arounian",
+          "firm": "Wedbush",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold"
+        },
+        {
+          "analyst": "John Blackledge",
+          "firm": "TD Cowen",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "target",
+          "value": 830,
+          "source_prior": 865,
+          "horizon_months": null
+        },
+        {
+          "analyst": "John Blackledge",
+          "firm": "TD Cowen",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Nat Schindler",
+          "firm": "Scotiabank",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "target",
+          "value": 650,
+          "source_prior": 600,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Nat Schindler",
+          "firm": "Scotiabank",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold"
+        },
+        {
+          "analyst": "Barton Crockett",
+          "firm": "Rosenblatt",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "target",
+          "value": 900,
+          "source_prior": 886,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Barton Crockett",
+          "firm": "Rosenblatt",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Justin Patterson",
+          "firm": "KeyBanc",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "target",
+          "value": 905,
+          "source_prior": 900,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Justin Patterson",
+          "firm": "KeyBanc",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "target",
+          "value": 860,
+          "source_prior": 840,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Michael Morris",
+          "firm": "Guggenheim",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "target",
+          "value": 850,
+          "source_prior": 850,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Michael Morris",
+          "firm": "Guggenheim",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "target",
+          "value": 940,
+          "source_prior": 920,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62543931/meta-analysts-revise-price-target-after-q3-core-ad-strength-muse-concerns-remain",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy"
+        }
+      ],
+      "earnings_at": "2026-10-21T16:05:00-04:00",
+      "valuation": {
+        "bear": 438.72,
+        "base": 686.6,
+        "bull": 948.96
+      },
+      "dividend_per_share": 2.1
     },
     {
       "issuer_id": "Tesla, Inc.",
@@ -762,9 +1515,98 @@
         "high": 1573294109802
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Alexander Potter",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 475,
+          "source_prior": 450,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-tesla-stock-price-target-to-475-on-q3-results-93CH-4964938"
+        },
+        {
+          "analyst": "Alexander Potter",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-tesla-stock-price-target-to-475-on-q3-results-93CH-4964938"
+        },
+        {
+          "analyst": "Mark Delaney",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 360,
+          "source_prior": 360,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html"
+        },
+        {
+          "analyst": "Mark Delaney",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html"
+        },
+        {
+          "analyst": "Andrew Percoco",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 400,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.roic.ai/news/morgan-stanley-warms-up-to-tesla-ahead-of-q3-earnings-but-stays-on-the-sidelines-10-16-2026"
+        },
+        {
+          "analyst": "Andrew Percoco",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal-weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://www.roic.ai/news/morgan-stanley-warms-up-to-tesla-ahead-of-q3-earnings-but-stays-on-the-sidelines-10-16-2026"
+        },
+        {
+          "analyst": "Gordon Johnson",
+          "firm": "GLJ Research",
+          "field": "target",
+          "value": 24.86,
+          "source_prior": 24.86,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9176842/tsla-reiterated-by-glj-research-price-target-maintained-at-2486"
+        },
+        {
+          "analyst": "Gordon Johnson",
+          "firm": "GLJ Research",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.gurufocus.com/news/9176842/tsla-reiterated-by-glj-research-price-target-maintained-at-2486"
+        }
+      ],
+      "earnings_at": "2026-10-21T16:00:00-04:00",
+      "valuation": {
+        "bear": 150.0,
+        "base": 360.0,
+        "bull": 687.5
+      }
     },
     {
       "issuer_id": "Eli Lilly and Company",
@@ -778,9 +1620,57 @@
         "high": 1386209064017
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 1605,
+          "source_prior": 1300,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62752512/eli-lilly-deserves-stock-upside-analyst"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Sector Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62752512/eli-lilly-deserves-stock-upside-analyst"
+        },
+        {
+          "analyst": "Terence Flynn",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 1596,
+          "source_prior": 1430,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/stocks/NYSE/LLY/forecast/"
+        },
+        {
+          "analyst": "Terence Flynn",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/stocks/NYSE/LLY/forecast/"
+        }
+      ],
+      "earnings_at": "2026-10-29T06:30:00-04:00",
+      "valuation": {
+        "bear": 1025.0,
+        "base": 1488.0,
+        "bull": 1836.0
+      }
     },
     {
       "issuer_id": "Berkshire Hathaway Inc.",
@@ -794,9 +1684,56 @@
         "high": 1334802052751
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Brian Meredith",
+          "firm": "UBS",
+          "field": "target",
+          "value": 628,
+          "source_prior": 604,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://rallies.ai/news/berkshire-hathaway-ubs-raises-target-price-to-628-from-604-82fa257e88fa6098"
+        },
+        {
+          "analyst": "Brian Meredith",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/ubs-raised-berkshire-hathaway-stock-target-from-usd-604-to-usd-628/70421895"
+        },
+        {
+          "analyst": "Manyi Lu",
+          "firm": "DBS",
+          "field": "target",
+          "value": 540,
+          "issued_at": "2026-08-17",
+          "public_at": "2026-08-17T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://beinsure.com/news/berkshire-hathaway-brk-b-stock-price-forecast-insurance-and-other-businesses-held-359-2-bn-in-cash/"
+        },
+        {
+          "analyst": "Manyi Lu",
+          "firm": "DBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-17",
+          "public_at": "2026-08-17T23:59:59-04:00",
+          "source": "https://beinsure.com/news/berkshire-hathaway-brk-b-stock-price-forecast-insurance-and-other-businesses-held-359-2-bn-in-cash/"
+        }
+      ],
+      "earnings_at": "2026-11-07T16:00:00-05:00",
+      "valuation": {
+        "bear": 455.7,
+        "base": 594.2,
+        "bull": 712.5
+      }
     },
     {
       "issuer_id": "Walmart Inc.",
@@ -806,13 +1743,103 @@
       "exchange_tz": "America/New_York",
       "as_of": "2026-11-13T16:00:00-05:00",
       "market_cap_usd": {
-        "low": 995908884889,
-        "high": 1036558227130
+        "low": 995908884890,
+        "high": 1039737366143
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Kate McShane",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 130,
+          "source_prior": 141,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://wealthup.com/walmart-wmt-stock-price-cuts-082126/"
+        },
+        {
+          "analyst": "Kate McShane",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://wealthup.com/walmart-wmt-stock-price-cuts-082126/"
+        },
+        {
+          "analyst": "Christopher Nardone",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 126,
+          "source_prior": 144,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://coincentral.com/walmart-wmt-stock-drops-as-goldman-sachs-and-bofa-cut-price-targets-after-q2-earnings/"
+        },
+        {
+          "analyst": "Christopher Nardone",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://coincentral.com/walmart-wmt-stock-drops-as-goldman-sachs-and-bofa-cut-price-targets-after-q2-earnings/"
+        },
+        {
+          "analyst": "Christopher Graja",
+          "firm": "Argus",
+          "field": "target",
+          "value": 130,
+          "source_prior": 145,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://app.sentisense.ai/stories/walmart-faces-multiple-analyst-target-cuts-after-9-percent-selloff-08212026"
+        },
+        {
+          "analyst": "Christopher Graja",
+          "firm": "Argus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://app.sentisense.ai/stories/walmart-faces-multiple-analyst-target-cuts-after-9-percent-selloff-08212026"
+        },
+        {
+          "analyst": "Christopher Horvers",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 145,
+          "source_prior": 125,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-walmart-nasdaq-wmt-price-target-raised-to-14500-2026-11-09/"
+        },
+        {
+          "analyst": "Christopher Horvers",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-walmart-nasdaq-wmt-price-target-raised-to-14500-2026-11-09/"
+        }
+      ],
+      "earnings_at": "2026-08-20T06:45:00-04:00",
+      "valuation": {
+        "bear": 91.0,
+        "base": 126.0,
+        "bull": 150.0
+      }
     },
     {
       "issuer_id": "SK hynix Inc.",
@@ -826,9 +1853,163 @@
         "high": 979783279299
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Kevin Cassidy",
+          "firm": "Rosenblatt Securities",
+          "field": "target",
+          "value": 320,
+          "source_prior": null,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/sk-hynix-nasdaqskhy-now-covered-by-rosenblatt-securities-2026-08-04/"
+        },
+        {
+          "analyst": "Kevin Cassidy",
+          "firm": "Rosenblatt Securities",
+          "field": "target",
+          "value": 400,
+          "source_prior": 320,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/sk-hynix-has-slumped-since-september-why-rosenblatt-sees-175-upside"
+        },
+        {
+          "analyst": "Kevin Cassidy",
+          "firm": "Rosenblatt Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/sk-hynix-has-slumped-since-september-why-rosenblatt-sees-175-upside"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst (unnamed in source)",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 300,
+          "source_prior": null,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/cantor-fitzgerald-begins-coverage-on-sk-hynix-nasdaqskhy-2026-08-04/"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst (unnamed in source)",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 250,
+          "source_prior": 300,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/cantor-fitzgeralds-250-target-says-sk-hynixs-selloff-went-too-far"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst (unnamed in source)",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/cantor-fitzgeralds-250-target-says-sk-hynixs-selloff-went-too-far"
+        },
+        {
+          "analyst": "Chris Caso",
+          "firm": "Wolfe Research",
+          "field": "target",
+          "value": 250,
+          "source_prior": 200,
+          "issued_at": "2026-09-23",
+          "public_at": "2026-09-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/09/23/sk-hynix-falls-3-despite-wolfe-research-lifting-its-target-to-250-sandisk-drops-3-micron-slides-2/"
+        },
+        {
+          "analyst": "Chris Caso",
+          "firm": "Wolfe Research",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-09-23",
+          "public_at": "2026-09-23T23:59:59-04:00",
+          "source": "https://247wallst.com/investing/2026/09/23/sk-hynix-falls-3-despite-wolfe-research-lifting-its-target-to-250-sandisk-drops-3-micron-slides-2/"
+        },
+        {
+          "analyst": "Quinn Bolton",
+          "firm": "Needham",
+          "field": "target",
+          "value": 200,
+          "source_prior": null,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/sk-hynix-nasdaqskhy-coverage-initiated-at-needham-company-llc-2026-08-04/"
+        },
+        {
+          "analyst": "Quinn Bolton",
+          "firm": "Needham",
+          "field": "target",
+          "value": 220,
+          "source_prior": 200,
+          "issued_at": "2026-08-25",
+          "public_at": "2026-08-25T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://coincentral.com/sk-hynix-skhy-stock-needham-raises-price-target-to-220-after-record-buyback-plan/"
+        },
+        {
+          "analyst": "Quinn Bolton",
+          "firm": "Needham",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-25",
+          "public_at": "2026-08-25T23:59:59-04:00",
+          "source": "https://coincentral.com/sk-hynix-skhy-stock-needham-raises-price-target-to-220-after-record-buyback-plan/"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 200,
+          "source_prior": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/analyst-revamps-sk-hynix-stock-194855396.html"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital Markets",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/analyst-revamps-sk-hynix-stock-194855396.html"
+        },
+        {
+          "analyst": "Mehdi Hosseini",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/analyst-revamps-sk-hynix-stock-194855396.html"
+        }
+      ],
+      "earnings_at": "2026-10-28T05:00:00+09:00",
+      "valuation": {
+        "bear": 61.09,
+        "base": 165.79,
+        "bull": 245.67
+      }
     },
     {
       "issuer_id": "JPMorgan Chase & Co.",
@@ -842,9 +2023,139 @@
         "high": 937921975558
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Gerard Cassidy",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 370,
+          "source_prior": null,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/stocks/NYSE/JPM/forecast/"
+        },
+        {
+          "analyst": "Gerard Cassidy",
+          "firm": "RBC Capital Markets",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/stocks/NYSE/JPM/forecast/"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 400,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finspry.com/stocks/jpm/forecast"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://finspry.com/stocks/jpm/forecast"
+        },
+        {
+          "analyst": "Keith Horowitz",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 350,
+          "source_prior": 360,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62353255/jpmorgan-analysts-boost-their-forecasts-after-q3-results"
+        },
+        {
+          "analyst": "Keith Horowitz",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62353255/jpmorgan-analysts-boost-their-forecasts-after-q3-results"
+        },
+        {
+          "analyst": "John McDonald",
+          "firm": "Truist Securities",
+          "field": "target",
+          "value": 361,
+          "source_prior": 352,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62353255/jpmorgan-analysts-boost-their-forecasts-after-q3-results"
+        },
+        {
+          "analyst": "John McDonald",
+          "firm": "Truist Securities",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62353255/jpmorgan-analysts-boost-their-forecasts-after-q3-results"
+        },
+        {
+          "analyst": "Matt O'Connor",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 375,
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.google.com/finance/beta/quote/JPM:NYSE?hl=en"
+        },
+        {
+          "analyst": "Matt O'Connor",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "source": "https://www.google.com/finance/beta/quote/JPM:NYSE?hl=en"
+        },
+        {
+          "analyst": "Saul Martinez",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 340,
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.google.com/finance/beta/quote/JPM:NYSE?hl=en"
+        },
+        {
+          "analyst": "Saul Martinez",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "source": "https://www.google.com/finance/beta/quote/JPM:NYSE?hl=en"
+        }
+      ],
+      "earnings_at": "2026-10-13T06:30:00-04:00",
+      "valuation": {
+        "bear": 281.0,
+        "base": 363.0,
+        "bull": 422.0
+      },
+      "dividend_per_share": 6.6
     },
     {
       "issuer_id": "Micron Technology, Inc.",
@@ -858,9 +2169,149 @@
         "high": 898209960135
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Kevin Cassidy",
+          "firm": "Rosenblatt",
+          "field": "target",
+          "value": 1900,
+          "source_prior": 1500,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thestreet.com/investing/stocks/micron-stock-rosenblatt-price-target"
+        },
+        {
+          "analyst": "Kevin Cassidy",
+          "firm": "Rosenblatt",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "source": "https://www.thestreet.com/investing/stocks/micron-stock-rosenblatt-price-target"
+        },
+        {
+          "analyst": "Gil Luria",
+          "firm": "D.A. Davidson",
+          "field": "target",
+          "value": 3000,
+          "source_prior": 2100,
+          "issued_at": "2026-10-07",
+          "public_at": "2026-10-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/10/07/this-wall-street-firm-just-put-a-3000-price-target-on-micron-stock/"
+        },
+        {
+          "analyst": "Gil Luria",
+          "firm": "D.A. Davidson",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-07",
+          "public_at": "2026-10-07T23:59:59-04:00",
+          "source": "https://247wallst.com/investing/2026/10/07/this-wall-street-firm-just-put-a-3000-price-target-on-micron-stock/"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "target",
+          "value": 1300,
+          "source_prior": 1150,
+          "issued_at": "2026-09-23",
+          "public_at": "2026-09-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/09/23/micron-price-target-raised-to-1300-by-citi-on-stronger-dram-pricing-undersupply/"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-23",
+          "public_at": "2026-09-23T23:59:59-04:00",
+          "source": "https://247wallst.com/investing/2026/09/23/micron-price-target-raised-to-1300-by-citi-on-stronger-dram-pricing-undersupply/"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "target",
+          "value": 1300,
+          "source_prior": 1300,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mu/forecast/"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mu/forecast/"
+        },
+        {
+          "analyst": "Mark Li",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 1300,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finbold.com/analyst-sets-micron-mu-stock-price-target-for-the-next-12-months/"
+        },
+        {
+          "analyst": "Mark Li",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://finbold.com/analyst-sets-micron-mu-stock-price-target-for-the-next-12-months/"
+        },
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 1400,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mu/forecast/"
+        },
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mu/forecast/"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/mu/forecast/"
+        }
+      ],
+      "earnings_at": "2026-09-30T16:00:00-04:00",
+      "valuation": {
+        "bear": 412.5,
+        "base": 980.0,
+        "bull": 1785.0
+      }
     },
     {
       "issuer_id": "Advanced Micro Devices, Inc.",
@@ -874,9 +2325,140 @@
         "high": 893423097214
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Joe Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 650,
+          "source_prior": 700,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-amd-stock-price-target-on-data-center-strength-93CH-4998079"
+        },
+        {
+          "analyst": "Joe Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-amd-stock-price-target-on-data-center-strength-93CH-4998079"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 650,
+          "source_prior": 720,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930"
+        },
+        {
+          "analyst": "Ruben Roy",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 725,
+          "source_prior": 700,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+        },
+        {
+          "analyst": "Ruben Roy",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 610,
+          "source_prior": 705,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+        },
+        {
+          "analyst": "Harlan Sur",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 575,
+          "source_prior": 550,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930"
+        },
+        {
+          "analyst": "Harlan Sur",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930"
+        },
+        {
+          "analyst": "Rick Schafer",
+          "firm": "Oppenheimer",
+          "field": "target",
+          "value": 600,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/amd-s-server-and-data-center-success-is-undeniable-says-oppenheimer-sees-favorable-pricing-ahead/cNGr73NR9eV"
+        },
+        {
+          "analyst": "Rick Schafer",
+          "firm": "Oppenheimer",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/amd-s-server-and-data-center-success-is-undeniable-says-oppenheimer-sees-favorable-pricing-ahead/cNGr73NR9eV"
+        }
+      ],
+      "earnings_at": "2026-11-03T16:00:00-05:00",
+      "valuation": {
+        "bear": 255.0,
+        "base": 552.0,
+        "bull": 840.0
+      }
     },
     {
       "issuer_id": "Visa Inc.",
@@ -890,9 +2472,37 @@
         "high": 810270690742
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Bryan Bergin",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 450,
+          "source_prior": 420,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652659/visa-analysts-increase-their-forecasts-following-upbeat-q3-earnings"
+        },
+        {
+          "analyst": "Bryan Bergin",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652659/visa-analysts-increase-their-forecasts-following-upbeat-q3-earnings"
+        }
+      ],
+      "earnings_at": "2026-10-27T16:05:00-04:00",
+      "valuation": {
+        "bear": 312.4,
+        "base": 423.3,
+        "bull": 500.25
+      },
+      "dividend_per_share": 3.12
     },
     {
       "issuer_id": "ExxonMobil Holdings Corporation",
@@ -1583,7 +3193,7 @@
       "earnings_at": null
     },
     {
-      "issuer_id": "Comcast Holdings Corp.",
+      "issuer_id": "Comcast Holdings ZONES",
       "symbol": "CCZ",
       "currency": "USD",
       "close": 62.32,
@@ -2214,8 +3824,8 @@
       "exchange_tz": "America/New_York",
       "as_of": "2026-11-13T16:00:00-05:00",
       "market_cap_usd": {
-        "low": 144863613903,
-        "high": 151407919137
+        "low": 144847444285,
+        "high": 150776414471
       },
       "horizon_months": 12,
       "coverage": "aggregate_only",
@@ -2886,7 +4496,7 @@
       "exchange_tz": "America/New_York",
       "as_of": "2026-11-13T16:00:00-05:00",
       "market_cap_usd": {
-        "low": 110351214388,
+        "low": 110534717636,
         "high": 115822466803
       },
       "horizon_months": 12,
@@ -4295,7 +5905,7 @@
       "as_of": "2026-11-13T16:00:00-05:00",
       "market_cap_usd": {
         "low": 72530678594,
-        "high": 75491114456
+        "high": 75804930881
       },
       "horizon_months": 12,
       "coverage": "aggregate_only",
@@ -4342,7 +5952,7 @@
       "exchange_tz": "America/New_York",
       "as_of": "2026-11-13T16:00:00-05:00",
       "market_cap_usd": {
-        "low": 71878449251,
+        "low": 71879283866,
         "high": 74813132188
       },
       "horizon_months": 12,

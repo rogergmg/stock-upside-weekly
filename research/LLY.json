@@ -1,0 +1,44 @@
+{
+  "issuer_id": "Eli Lilly and Company",
+  "symbol": "LLY",
+  "researched_at": "2026-11-16",
+  "research_close": {"close": 1443.5, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-29T06:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Louise Chen", "firm": "Scotiabank", "field": "target", "value": 1605, "source_prior": 1300,
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62752512/eli-lilly-deserves-stock-upside-analyst"},
+    {"analyst": "Louise Chen", "firm": "Scotiabank", "field": "rating", "value": "Sector Outperform", "bucket": "Buy",
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00",
+     "source": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62752512/eli-lilly-deserves-stock-upside-analyst"},
+    {"analyst": "Terence Flynn", "firm": "Morgan Stanley", "field": "target", "value": 1596, "source_prior": 1430,
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/stocks/NYSE/LLY/forecast/"},
+    {"analyst": "Terence Flynn", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/stocks/NYSE/LLY/forecast/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. FY2026 anchor: revenue guidance $91-92B and non-GAAP EPS guidance $35.00-$36.00 (which absorbs about $4.57/share of Q3 acquired IPR&D, so underlying FY2026 EPS is roughly $40). FY2027 EPS is my own assumption (no IPR&D charge beyond a normal run-rate); consensus FY2027 EPS was not sourced.",
+    "bear": 1025.0, "base": 1488.0, "bull": 1836.0,
+    "cases": {
+      "bear": {"driver": "Tirzepatide price erosion and slower volume as Medicare/Medicaid pricing and competition (oral and next-gen GLP-1s) cut growth; repeat IPR&D charges.", "assumption": "FY2027 EPS $41 at 25x", "target": 1025.0},
+      "base": {"driver": "Revenue grows about 25% in 2027 on Mounjaro/Zepbound volume with modest net price decline; operating leverage offsets IPR&D run-rate; tax 19-20% per guidance.", "assumption": "FY2027 EPS $48 at 31x", "target": 1488.0},
+      "bull": {"driver": "Revenue growth above 30% with orforglipron launch and wider obesity coverage, margin expansion.", "assumption": "FY2027 EPS $54 at 34x", "target": 1836.0}
+    },
+    "implied_by_close": "At base EPS of $48 the $1,443.50 close implies 30.1x; the analyst target average of about $1,600 (Scotiabank, Morgan Stanley) implies 33.3x at $48, or about $51.6 EPS at 31x.",
+    "sensitivity": "One turn of P/E moves the base target by $48 (about 3.3 pp of the close).",
+    "watch_metric": "Combined Mounjaro and Zepbound quarterly revenue (Q3 2026: $10.7B and $5.35B) and net price per script, plus 2027 non-GAAP EPS guidance.",
+    "next_disclosure": "Q4 and FY2026 results with initial 2027 guidance, expected around early February 2027 (date not confirmed)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only two named analysts (Scotiabank, Morgan Stanley) were sourced with dated calls, both raising targets on Oct 30 after the Q3 beat and guidance raise (Scotiabank $1,300 to $1,605, Morgan Stanley $1,430 to $1,596). Both sit about 11% above the close and about 7-8% above my base case, equivalent to about $51-52 of FY2027 EPS at 31x or roughly 33x on my $48. Jefferies ($1,610 to $1,700, Nov 9), Argus, Wells Fargo and UBS/BMO/Leerink moves were seen only in search snippets without named analysts, and a Barclays raise to $1,550 dated Nov 16 falls after the reference close, so all are excluded. Horizon is unknown for both targets, so they stay out of the weighted target.",
+  "sources": [
+    {"label": "Lilly Q3 2026 results press release", "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-reports-third-quarter-2026-financial-results-raises-full", "supports": "Q3 EPS, FY2026 revenue and EPS guidance, IPR&D charge, tax rate"},
+    {"label": "Form 8-K Q3 2026 earnings", "url": "https://www.sec.gov/Archives/edgar/data/0000059478/000005947826000104/q326lillysalesandearningsp.htm", "supports": "Q3 2026 financials"},
+    {"label": "Benzinga Scotiabank note", "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/10/62752512/eli-lilly-deserves-stock-upside-analyst", "supports": "Scotiabank target and rating"},
+    {"label": "MarketBeat LLY forecast", "url": "https://www.marketbeat.com/stocks/NYSE/LLY/forecast/", "supports": "Morgan Stanley target and rating, consensus"}
+  ]
+}

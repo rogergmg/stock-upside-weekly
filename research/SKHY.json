@@ -1,0 +1,59 @@
+{
+  "issuer_id": "SK hynix Inc.",
+  "symbol": "SKHY",
+  "researched_at": "2026-11-16",
+  "research_close": {"close": 131.79, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-28T05:00:00+09:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Kevin Cassidy", "firm": "Rosenblatt Securities", "field": "target", "value": 320, "source_prior": null, "issued_at": "2026-08-04", "public_at": "2026-08-04T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/sk-hynix-nasdaqskhy-now-covered-by-rosenblatt-securities-2026-08-04/"},
+    {"analyst": "Kevin Cassidy", "firm": "Rosenblatt Securities", "field": "target", "value": 400, "source_prior": 320, "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00", "horizon_months": null, "source": "https://www.tikr.com/blog/sk-hynix-has-slumped-since-september-why-rosenblatt-sees-175-upside"},
+    {"analyst": "Kevin Cassidy", "firm": "Rosenblatt Securities", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00", "source": "https://www.tikr.com/blog/sk-hynix-has-slumped-since-september-why-rosenblatt-sees-175-upside"},
+    {"analyst": "Cantor Fitzgerald analyst (unnamed in source)", "firm": "Cantor Fitzgerald", "field": "target", "value": 300, "source_prior": null, "issued_at": "2026-08-04", "public_at": "2026-08-04T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/cantor-fitzgerald-begins-coverage-on-sk-hynix-nasdaqskhy-2026-08-04/"},
+    {"analyst": "Cantor Fitzgerald analyst (unnamed in source)", "firm": "Cantor Fitzgerald", "field": "target", "value": 250, "source_prior": 300, "issued_at": "2026-10-26", "public_at": "2026-10-26T23:59:59-04:00", "horizon_months": null, "source": "https://www.tikr.com/blog/cantor-fitzgeralds-250-target-says-sk-hynixs-selloff-went-too-far"},
+    {"analyst": "Cantor Fitzgerald analyst (unnamed in source)", "firm": "Cantor Fitzgerald", "field": "rating", "value": "Overweight", "bucket": "Buy", "issued_at": "2026-10-26", "public_at": "2026-10-26T23:59:59-04:00", "source": "https://www.tikr.com/blog/cantor-fitzgeralds-250-target-says-sk-hynixs-selloff-went-too-far"},
+    {"analyst": "Chris Caso", "firm": "Wolfe Research", "field": "target", "value": 250, "source_prior": 200, "issued_at": "2026-09-23", "public_at": "2026-09-23T23:59:59-04:00", "horizon_months": null, "source": "https://247wallst.com/investing/2026/09/23/sk-hynix-falls-3-despite-wolfe-research-lifting-its-target-to-250-sandisk-drops-3-micron-slides-2/"},
+    {"analyst": "Chris Caso", "firm": "Wolfe Research", "field": "rating", "value": "Outperform", "bucket": "Buy", "issued_at": "2026-09-23", "public_at": "2026-09-23T23:59:59-04:00", "source": "https://247wallst.com/investing/2026/09/23/sk-hynix-falls-3-despite-wolfe-research-lifting-its-target-to-250-sandisk-drops-3-micron-slides-2/"},
+    {"analyst": "Quinn Bolton", "firm": "Needham", "field": "target", "value": 200, "source_prior": null, "issued_at": "2026-08-04", "public_at": "2026-08-04T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/sk-hynix-nasdaqskhy-coverage-initiated-at-needham-company-llc-2026-08-04/"},
+    {"analyst": "Quinn Bolton", "firm": "Needham", "field": "target", "value": 220, "source_prior": 200, "issued_at": "2026-08-25", "public_at": "2026-08-25T23:59:59-04:00", "horizon_months": null, "source": "https://coincentral.com/sk-hynix-skhy-stock-needham-raises-price-target-to-220-after-record-buyback-plan/"},
+    {"analyst": "Quinn Bolton", "firm": "Needham", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-08-25", "public_at": "2026-08-25T23:59:59-04:00", "source": "https://coincentral.com/sk-hynix-skhy-stock-needham-raises-price-target-to-220-after-record-buyback-plan/"},
+    {"analyst": "Srini Pajjuri", "firm": "RBC Capital Markets", "field": "target", "value": 200, "source_prior": null, "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00", "horizon_months": null, "source": "https://finance.yahoo.com/markets/stocks/articles/analyst-revamps-sk-hynix-stock-194855396.html"},
+    {"analyst": "Srini Pajjuri", "firm": "RBC Capital Markets", "field": "rating", "value": "Outperform", "bucket": "Buy", "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00", "source": "https://finance.yahoo.com/markets/stocks/articles/analyst-revamps-sk-hynix-stock-194855396.html"},
+    {"analyst": "Mehdi Hosseini", "firm": "Susquehanna", "field": "rating", "value": "Neutral", "bucket": "Hold", "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00", "source": "https://finance.yahoo.com/markets/stocks/articles/analyst-revamps-sk-hynix-stock-194855396.html"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E at the 12-month target date, per ADR. SK hynix reports in KRW; 1 ADR (SKHY, Nasdaq) = 1/10 of a Seoul ordinary share (10 ADRs per share). FX: KRW 1,337.5 per USD, the Seoul close of 2026-11-10 (the latest dated rate found; the 2026-11-13 rate could not be sourced). Chain: FY2027 consolidated operating profit (KRW) x net-income conversion = net income; / FY2027 average ordinary shares = KRW EPS per share; / 1,337.5 / 10 = USD EPS per ADR; x P/E. Close of $131.79 per ADR = $1,317.90 per ordinary share = about KRW 1.76m. Share base: about 705m ordinary shares outstanding (aggregate data 7.05bn ADR-equivalents; about 729m issued less the 24.07m-share August buyback, cancellation pending). Dividends excluded (price-only). All FY2027 figures are my model assumptions; Q3 2026 results are preliminary and unaudited.",
+    "bear": 61.09,
+    "base": 165.79,
+    "bull": 245.67,
+    "cases": {
+      "bear": {"driver": "Memory down-cycle: FY2027 operating profit KRW 200tn (vs about KRW 269tn FY2026 = 9M actual KRW 181.5tn plus Q4 consensus KRW 87.3tn), net conversion 72%, 705m shares", "assumption": "EPS KRW 204,255 per share = US$15.27 per ADR at 4x", "target": 61.09},
+      "base": {"driver": "Q3/Q4 2026 run-rate (KRW 83.3tn and about 87tn per quarter) held roughly flat: FY2027 operating profit KRW 340tn, net conversion 75% (tax about 24%, no net non-operating loss), 690m average shares after buybacks", "assumption": "EPS KRW 369,565 per share = US$27.63 per ADR at 6x", "target": 165.79},
+      "bull": {"driver": "HBM4/DRAM pricing and contracted volumes keep rising: FY2027 operating profit KRW 420tn, net conversion 76%, 680m shares", "assumption": "EPS KRW 469,412 per share = US$35.10 per ADR at 7x", "target": 245.67}
+    },
+    "implied_by_close": "At base EPS US$27.63 the US$131.79 close implies 4.8x. The unweighted mean of the five latest named targets (400, 250, 250, 220, 200 = US$264) implies 9.6x base EPS, or EPS of about US$44 at 6x (about 59% above the model).",
+    "sensitivity": "One turn of P/E moves the base target by US$27.63 (21.0 pp of the close). A KRW 20tn change in FY2027 operating profit moves base EPS and target by about 5.9% (US$9.8).",
+    "watch_metric": "Quarterly DRAM/HBM average selling price change and operating margin (Q3 2026: revenue KRW 104.6tn, operating profit KRW 83.3tn, 80% margin), plus the non-operating line that cut Q3 net income to KRW 39.8tn",
+    "next_disclosure": "Q4 2026 earnings release, expected late January 2027 (date not confirmed in sources)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Named calls moved little in direction but widely in level since the Q3 print: Rosenblatt raised to $400 from $320 on 2026-10-28, while Cantor cut to $250 from $300 on 2026-10-26; Wolfe ($250), Needham ($220) and RBC ($200) sit in a $200-250 band, with Susquehanna Neutral. The base case of $165.79 is below every named target; the gap to the $264 mean is about 3 turns of P/E at base EPS (9.6x vs 6x) or about 59% more EPS at 6x. Several seats are unnamed or sourced from aggregators, no source documents a 12-month horizon so horizon is null and the sample stays out of the weighted target, and Needham's reported $235 and Barclays' $330 initiation could not be dated or confirmed.",
+  "sources": [
+    {"label": "SK hynix Q3 2026 business results (preliminary): revenue KRW 104.6tn, OP KRW 83.3tn, net KRW 39.8tn", "url": "https://news.skhynix.com/en/q3-2026-business-results/", "supports": "Q3 revenue, operating profit, net income, net cash, shareholder return plan"},
+    {"label": "InvestingLive: Q3 operating profit beat and KRW 100tn payout plan", "url": "https://investinglive.com/stocks/sk-hynix-q3-operating-profit-beats-at-83tn-won-unveils-100tn-won-shareholder-payout-plan/", "supports": "Q3 results and payout plan"},
+    {"label": "Stockhub: SK hynix Q3 2026 earnings call", "url": "https://stockhub.kr/en/insights/view_1793152574975_d6cb11f87d-20261028-000660-cy26q3-earnings-call", "supports": "2027 DRAM/NAND demand outlook, capex direction, buyback and cancellation"},
+    {"label": "TrendForce Q3 earnings preview", "url": "https://www.trendforce.com/news/2026/10/26/news-sk-hynix-3q-earnings-preview-record-profit-at-78-operating-margin-hbm4-ltas-solidigm-in-focus/", "supports": "Q4 operating profit consensus KRW 87.27tn (FnGuide)"},
+    {"label": "Asiae: ADR listing explained", "url": "https://www.asiae.co.kr/en/article/2026042314151273514", "supports": "ADR program background"},
+    {"label": "Tradersunion: SK hynix ADR sale", "url": "https://tradersunion.com/news/financial-news/show/2639041-sk-hynix-adr-sale/", "supports": "10 ADRs per ordinary share, $149 offer, Nasdaq listing"},
+    {"label": "Maeil Business: won-dollar close", "url": "https://www.mt.co.kr/en/economy/2026/11/10/2026111016284356804", "supports": "KRW 1,337.5 per USD on 2026-11-10"},
+    {"label": "TIKR: Rosenblatt $400 target", "url": "https://www.tikr.com/blog/sk-hynix-has-slumped-since-september-why-rosenblatt-sees-175-upside", "supports": "Rosenblatt 400 from 320, Buy"},
+    {"label": "MarketBeat: Rosenblatt initiation", "url": "https://www.marketbeat.com/instant-alerts/sk-hynix-nasdaqskhy-now-covered-by-rosenblatt-securities-2026-08-04/", "supports": "Rosenblatt 320 initiation"},
+    {"label": "TIKR: Cantor $250 target", "url": "https://www.tikr.com/blog/cantor-fitzgeralds-250-target-says-sk-hynixs-selloff-went-too-far", "supports": "Cantor 250 from 300, Overweight"},
+    {"label": "MarketBeat: Cantor initiation", "url": "https://www.marketbeat.com/instant-alerts/cantor-fitzgerald-begins-coverage-on-sk-hynix-nasdaqskhy-2026-08-04/", "supports": "Cantor 300 initiation"},
+    {"label": "24/7 Wall St: Wolfe $250", "url": "https://247wallst.com/investing/2026/09/23/sk-hynix-falls-3-despite-wolfe-research-lifting-its-target-to-250-sandisk-drops-3-micron-slides-2/", "supports": "Wolfe 250 from 200, Outperform"},
+    {"label": "MarketBeat: Needham initiation", "url": "https://www.marketbeat.com/instant-alerts/sk-hynix-nasdaqskhy-coverage-initiated-at-needham-company-llc-2026-08-04/", "supports": "Needham 200 initiation"},
+    {"label": "CoinCentral: Needham $220", "url": "https://coincentral.com/sk-hynix-skhy-stock-needham-raises-price-target-to-220-after-record-buyback-plan/", "supports": "Needham 220 from 200, Buy"},
+    {"label": "Yahoo Finance: analyst moves after Q3", "url": "https://finance.yahoo.com/markets/stocks/articles/analyst-revamps-sk-hynix-stock-194855396.html", "supports": "RBC Outperform/200 and Susquehanna Neutral"}
+  ]
+}

@@ -1,8 +1,8 @@
 {
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
-  "universe_retrieved_at": "2026-11-16T16:00:47.363735+00:00",
+  "universe_retrieved_at": "2026-11-16T16:36:05.714437+00:00",
   "reference_session": "2026-11-13",
-  "fetched_at": "2026-11-16T16:01:57.732592+00:00",
+  "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "cutoff_usd": 50000000000,
   "counts": {
     "listings_checked": 372,
@@ -465,10 +465,10 @@
       "close": 128.09,
       "close_date": "2026-11-13",
       "week_ago_close": 125.5199966430664,
-      "shares_used": 7933746241,
+      "shares_used": 7958079155,
       "market_cap_usd": {
-        "low": 995908884889,
-        "high": 1036558227130
+        "low": 995908884890,
+        "high": 1039737366143
       },
       "screener_cap_usd": 1016233556010.0,
       "status": "eligible",
@@ -765,14 +765,14 @@
       "earnings_ts": 1801056600,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 2111.6038,
-        "median": 2261.5105,
-        "high": 2797.9358,
-        "low": 851.74506,
+        "mean": 2111.8362,
+        "median": 2261.7593,
+        "high": 2798.2437,
+        "low": 851.83875,
         "analysts": 17,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.36585,
-        "upside_pct": 41.22928649776612
+        "upside_pct": 41.24482998475081
       }
     },
     {
@@ -1593,14 +1593,14 @@
       "earnings_ts": 1796304600,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 208.40906,
-        "median": 214.10689,
-        "high": 229.22235,
-        "low": 181.89793,
+        "mean": 208.41197,
+        "median": 214.10988,
+        "high": 229.22557,
+        "low": 181.90047,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.21429,
-        "upside_pct": 3.014710098363893
+        "upside_pct": 3.016148484998271
       }
     },
     {
@@ -2216,15 +2216,15 @@
       }
     },
     {
-      "issuer_id": "Comcast Holdings Corp.",
+      "issuer_id": "Comcast Holdings ZONES",
       "symbol": "CCZ",
       "yf_symbol": "CCZ",
-      "name": "Comcast Holdings Corp.",
+      "name": "Comcast Holdings ZONES",
       "country": "United States",
       "sector": "Telecommunications",
       "industry": "Cable & Other Pay Television Services",
       "currency": "USD",
-      "financial_currency": "USD",
+      "financial_currency": null,
       "exchange_tz": "America/New_York",
       "close": 62.32,
       "close_date": "2026-11-13",
@@ -2246,7 +2246,7 @@
         "high": null,
         "low": null,
         "analysts": null,
-        "recommendation": "none",
+        "recommendation": null,
         "recommendation_mean": null,
         "upside_pct": null
       }
@@ -2529,14 +2529,14 @@
       "earnings_ts": 1796304600,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 118.99254,
-        "median": 127.34078,
-        "high": 134.68184,
-        "low": 94.954994,
+        "mean": 118.9942,
+        "median": 127.34256,
+        "high": 134.68373,
+        "low": 94.95632,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.30769,
-        "upside_pct": -3.85218164188752
+        "upside_pct": -3.8508403361344534
       }
     },
     {
@@ -2997,14 +2997,14 @@
       "earnings_ts": 1801661400,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 45.430836,
-        "median": 42.424618,
-        "high": 64.166985,
-        "low": 39.487354,
+        "mean": 45.443817,
+        "median": 42.43674,
+        "high": 64.18532,
+        "low": 39.498634,
         "analysts": 12,
         "recommendation": "hold",
         "recommendation_mean": 2.71429,
-        "upside_pct": 9.130040835935604
+        "upside_pct": 9.16122267595485
       }
     },
     {
@@ -3633,10 +3633,10 @@
       "close": 134.37,
       "close_date": "2026-11-13",
       "week_ago_close": 135.3000030517578,
-      "shares_used": 1104704446,
+      "shares_used": 1099974061,
       "market_cap_usd": {
-        "low": 144863613903,
-        "high": 151407919137
+        "low": 144847444285,
+        "high": 150776414471
       },
       "screener_cap_usd": 147820014187.0,
       "status": "eligible",
@@ -3753,14 +3753,14 @@
       "earnings_ts": null,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.8084,
-        "median": 71.505394,
-        "high": 75.062744,
-        "low": 69.160065,
+        "mean": 71.82421,
+        "median": 71.52113,
+        "high": 75.07927,
+        "low": 69.175285,
         "analysts": 4,
         "recommendation": "buy",
         "recommendation_mean": 1.8,
-        "upside_pct": 8.455520314151954
+        "upside_pct": 8.479398882344057
       }
     },
     {
@@ -4473,14 +4473,14 @@
       "earnings_ts": 1792672200,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 636.5053,
-        "median": 646.06396,
-        "high": 736.9551,
-        "low": 451.23956,
+        "mean": 636.64545,
+        "median": 646.20624,
+        "high": 737.1174,
+        "low": 451.3389,
         "analysts": 38,
         "recommendation": "buy",
         "recommendation_mean": 1.70732,
-        "upside_pct": 3.897181006480266
+        "upside_pct": 3.920057783654074
       }
     },
     {
@@ -4761,14 +4761,14 @@
       "earnings_ts": 1796218200,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 164.91583,
-        "median": 170.358,
-        "high": 180.98956,
-        "low": 143.39992,
+        "mean": 164.93196,
+        "median": 170.37466,
+        "high": 181.00726,
+        "low": 143.41396,
         "analysts": 3,
         "recommendation": "hold",
         "recommendation_mean": 2.85714,
-        "upside_pct": -4.804993073193264
+        "upside_pct": -4.795682290464098
       }
     },
     {
@@ -5145,9 +5145,9 @@
       "close": 92.54,
       "close_date": "2026-11-13",
       "week_ago_close": 91.69000244140625,
-      "shares_used": 1216806570,
+      "shares_used": 1218830000,
       "market_cap_usd": {
-        "low": 110351214388,
+        "low": 110534717636,
         "high": 115822466803
       },
       "screener_cap_usd": 113551438042.0,
@@ -5157,14 +5157,14 @@
       "earnings_ts": 1796218200,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 90.10645,
-        "median": 96.25297,
-        "high": 98.49028,
-        "low": 75.5761,
+        "mean": 90.11463,
+        "median": 96.26171,
+        "high": 98.49922,
+        "low": 75.58297,
         "analysts": 3,
         "recommendation": "hold",
         "recommendation_mean": 2.53846,
-        "upside_pct": -2.6297276853252782
+        "upside_pct": -2.62088826453426
       }
     },
     {
@@ -5409,14 +5409,14 @@
       "earnings_ts": 1793971800,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 50.69307,
-        "median": 49.825966,
-        "high": 58.703888,
-        "low": 44.595108,
+        "mean": 50.69803,
+        "median": 49.83084,
+        "high": 58.70963,
+        "low": 44.59947,
         "analysts": 5,
         "recommendation": "buy",
         "recommendation_mean": 2.16667,
-        "upside_pct": 6.341661422278166
+        "upside_pct": 6.352066289070701
       }
     },
     {
@@ -5517,14 +5517,14 @@
       "earnings_ts": 1796304600,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 117.98756,
-        "median": 125.940605,
-        "high": 125.960175,
-        "low": 102.06188,
+        "mean": 117.998276,
+        "median": 125.95204,
+        "high": 125.97161,
+        "low": 102.07115,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.5,
-        "upside_pct": 1.8890846286701235
+        "upside_pct": 1.8983385146804865
       }
     },
     {
@@ -5805,14 +5805,14 @@
       "earnings_ts": 1793885400,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 48.865967,
-        "median": 48.22713,
-        "high": 57.878147,
-        "low": 43.334522,
+        "mean": 48.859135,
+        "median": 48.22039,
+        "high": 57.870056,
+        "low": 43.328465,
         "analysts": 5,
         "recommendation": "buy",
         "recommendation_mean": 2.21739,
-        "upside_pct": -1.7769507537688467
+        "upside_pct": -1.7906834170854258
       }
     },
     {
@@ -7641,14 +7641,14 @@
       "earnings_ts": 1793217600,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 96.697105,
-        "median": 98.21835,
-        "high": 103.98686,
-        "low": 73.30188,
+        "mean": 96.680885,
+        "median": 98.20188,
+        "high": 103.96942,
+        "low": 73.28959,
         "analysts": 13,
         "recommendation": "buy",
         "recommendation_mean": 1.80645,
-        "upside_pct": 2.7053690918746653
+        "upside_pct": 2.6881412639405244
       }
     },
     {
@@ -7713,14 +7713,14 @@
       "earnings_ts": 1793739600,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 74.293236,
-        "median": 76.518486,
-        "high": 77.84372,
-        "low": 68.51751,
+        "mean": 74.28078,
+        "median": 76.50565,
+        "high": 77.83066,
+        "low": 68.50602,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.0,
-        "upside_pct": 6.254628146453078
+        "upside_pct": 6.236813501144156
       }
     },
     {
@@ -8037,14 +8037,14 @@
       "earnings_ts": 1801229400,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 133.9587,
-        "median": 135.55882,
-        "high": 146.28644,
-        "low": 114.30209,
+        "mean": 133.93622,
+        "median": 135.53609,
+        "high": 146.2619,
+        "low": 114.28292,
         "analysts": 13,
         "recommendation": "buy",
         "recommendation_mean": 2.26667,
-        "upside_pct": 5.3300047177228915
+        "upside_pct": 5.312328982544412
       }
     },
     {
@@ -8313,10 +8313,10 @@
       "close": 231.68,
       "close_date": "2026-11-13",
       "week_ago_close": 231.08999633789062,
-      "shares_used": 319453110,
+      "shares_used": 320781076,
       "market_cap_usd": {
         "low": 72530678594,
-        "high": 75491114456
+        "high": 75804930881
       },
       "screener_cap_usd": 74010896525.0,
       "status": "eligible",
@@ -8421,9 +8421,9 @@
       "close": 161.45,
       "close_date": "2026-11-13",
       "week_ago_close": 158.41000366210938,
-      "shares_used": 454291461,
+      "shares_used": 454296736,
       "market_cap_usd": {
-        "low": 71878449251,
+        "low": 71879283866,
         "high": 74813132188
       },
       "screener_cap_usd": 73346208027.0,
@@ -8505,14 +8505,14 @@
       "earnings_ts": 1793826000,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 34.52296,
-        "median": 34.52296,
-        "high": 34.52296,
-        "low": 34.52296,
+        "mean": 34.51741,
+        "median": 34.51741,
+        "high": 34.51741,
+        "low": 34.51741,
         "analysts": 1,
         "recommendation": "buy",
         "recommendation_mean": 2.13333,
-        "upside_pct": -21.64557421697686
+        "upside_pct": -21.65817067635044
       }
     },
     {
@@ -8613,14 +8613,14 @@
       "earnings_ts": 1793712600,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 459.0699,
-        "median": 459.58774,
-        "high": 511.88904,
-        "low": 409.13034,
+        "mean": 459.17093,
+        "median": 459.6889,
+        "high": 512.0017,
+        "low": 409.2204,
         "analysts": 12,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.5,
-        "upside_pct": 11.660521003089052
+        "upside_pct": 11.685094738890367
       }
     },
     {
@@ -9117,14 +9117,14 @@
       "earnings_ts": 1801143000,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 22.889784,
-        "median": 21.85238,
-        "high": 26.046593,
-        "low": 20.770384,
+        "mean": 22.890358,
+        "median": 21.852928,
+        "high": 26.047245,
+        "low": 20.770905,
         "analysts": 3,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.0,
-        "upside_pct": 6.811871208586084
+        "upside_pct": 6.814549696686889
       }
     },
     {
@@ -9369,14 +9369,14 @@
       "earnings_ts": 1793885400,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 67.39079,
-        "median": 71.28818,
-        "high": 72.74761,
-        "low": 58.13658,
+        "mean": 67.37996,
+        "median": 71.27672,
+        "high": 72.735916,
+        "low": 58.127235,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 1.83333,
-        "upside_pct": 4.030240815066377
+        "upside_pct": 4.013522692188931
       }
     },
     {
@@ -9945,14 +9945,14 @@
       "earnings_ts": 1801229400,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 111.15259,
-        "median": 111.15259,
-        "high": 111.15259,
-        "low": 111.15259,
+        "mean": 111.13084,
+        "median": 111.13084,
+        "high": 111.13084,
+        "low": 111.13084,
         "analysts": 1,
         "recommendation": "underperform",
         "recommendation_mean": 3.72222,
-        "upside_pct": -13.63435120435119
+        "upside_pct": -13.651250971250962
       }
     },
     {
@@ -11025,14 +11025,14 @@
       "earnings_ts": null,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 113.09381,
-        "median": 117.37615,
-        "high": 126.87032,
-        "low": 90.24769,
+        "mean": 113.11871,
+        "median": 117.40199,
+        "high": 126.898254,
+        "low": 90.26756,
         "analysts": 12,
         "recommendation": "buy",
         "recommendation_mean": 2.0,
-        "upside_pct": -4.618529138905281
+        "upside_pct": -4.59752888589019
       }
     },
     {
@@ -11324,10 +11324,10 @@
       }
     },
     {
-      "issuer_id": "Vivmark Residential",
+      "issuer_id": "AvalonBay Communities, Inc.",
       "symbol": "VMRK",
       "yf_symbol": "VMRK",
-      "name": "Vivmark Residential",
+      "name": "AvalonBay Communities, Inc.",
       "country": "United States",
       "sector": "Real Estate",
       "industry": "REIT - Residential",
@@ -11553,9 +11553,9 @@
       "close": 173.96,
       "close_date": "2026-11-13",
       "week_ago_close": 174.75999450683594,
-      "shares_used": 281928854,
+      "shares_used": 281965813,
       "market_cap_usd": {
-        "low": 48063456573,
+        "low": 48069757373,
         "high": 50062614077
       },
       "screener_cap_usd": 49080994193.0,
@@ -12573,14 +12573,14 @@
       "earnings_ts": 1793131200,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 72.10076,
-        "median": 68.84412,
-        "high": 87.9029,
-        "low": 59.55526,
+        "mean": 72.11663,
+        "median": 68.859276,
+        "high": 87.92226,
+        "low": 59.56837,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.33333,
-        "upside_pct": 16.894876783398182
+        "upside_pct": 16.920606355382617
       }
     },
     {
@@ -13185,14 +13185,14 @@
       "earnings_ts": 1793826000,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 64.54673,
-        "median": 64.54673,
-        "high": 64.54673,
-        "low": 64.54673,
+        "mean": 64.53184,
+        "median": 64.53184,
+        "high": 64.53184,
+        "low": 64.53184,
         "analysts": 1,
         "recommendation": "hold",
         "recommendation_mean": 2.57143,
-        "upside_pct": -11.494954065542318
+        "upside_pct": -11.515370903606204
       }
     },
     {

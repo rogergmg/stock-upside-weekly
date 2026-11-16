@@ -1,0 +1,46 @@
+{
+  "issuer_id": "Berkshire Hathaway Inc.",
+  "symbol": "BRK/B",
+  "researched_at": "2026-11-16",
+  "research_close": {"close": 592.94, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-07T16:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Brian Meredith", "firm": "UBS", "field": "target", "value": 628, "source_prior": 604,
+     "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00", "horizon_months": null,
+     "source": "https://rallies.ai/news/berkshire-hathaway-ubs-raises-target-price-to-628-from-604-82fa257e88fa6098"},
+    {"analyst": "Brian Meredith", "firm": "UBS", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00",
+     "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/ubs-raised-berkshire-hathaway-stock-target-from-usd-604-to-usd-628/70421895"},
+    {"analyst": "Manyi Lu", "firm": "DBS", "field": "target", "value": 540,
+     "issued_at": "2026-08-17", "public_at": "2026-08-17T23:59:59-04:00", "horizon_months": null,
+     "source": "https://beinsure.com/news/berkshire-hathaway-brk-b-stock-price-forecast-insurance-and-other-businesses-held-359-2-bn-in-cash/"},
+    {"analyst": "Manyi Lu", "firm": "DBS", "field": "rating", "value": "Hold", "bucket": "Hold",
+     "issued_at": "2026-08-17", "public_at": "2026-08-17T23:59:59-04:00",
+     "source": "https://beinsure.com/news/berkshire-hathaway-brk-b-stock-price-forecast-insurance-and-other-businesses-held-359-2-bn-in-cash/"}
+  ],
+  "valuation": {
+    "method": "Forward operating EPS x P/E, per Class B share (USD, no ADR conversion). EPS is FY2027 operating earnings (excl. investment gains/losses) divided by Class B-equivalent shares (Class A = 1,500 Class B), viewed at the Nov-2027 target date. Q3 2026 operating earnings $12.705bn on ~1,426,372 average equivalent Class A shares (~2.14bn B-equivalent) = ~$5.94 per B share (my arithmetic; Berkshire reports operating EPS per Class A, ~$8,907). Nine-month 2026 operating earnings ~$37bn (+8%), annualised ~$49bn = ~$23/B share. FY2027 operating earnings and share counts are my assumptions, not company guidance. Operating-earnings multiple is applied to the whole company; ~$377bn of cash/T-bills is embedded in the multiple rather than added separately.",
+    "bear": 455.7, "base": 594.2, "bull": 712.5,
+    "cases": {
+      "bear": {"driver": "Insurance underwriting stays weak (Q3 underwriting -43% y/y) with a catastrophe-heavy year, lower T-bill yields cut investment income, and BNSF/manufacturing flat.", "assumption": "FY2027 operating earnings $46.0bn / 2.12bn B-equivalent shares = EPS $21.70 at 21x", "target": 455.7},
+      "base": {"driver": "Underwriting normalises, BNSF and manufacturing grow mid-single digits, buybacks (~$14.4bn in 9M 2026) trim the share count about 2%, T-bill income softens modestly.", "assumption": "FY2027 operating earnings $52.0bn / 2.10bn B-equivalent shares = EPS $24.76 at 24x", "target": 594.2},
+      "bull": {"driver": "Underwriting rebounds to a strong combined ratio, higher investment income on the cash pile, deployment of cash into acquisitions or accelerated buybacks.", "assumption": "FY2027 operating earnings $57.0bn / 2.08bn B-equivalent shares = EPS $27.40 at 26x", "target": 712.5}
+    },
+    "implied_by_close": "At base EPS $24.76 the $592.94 close implies 23.9x; the only 12-month-labelled-style call found (UBS $628) implies 25.4x base EPS, or EPS $26.17 at the base 24x. The weighted analyst target is not computed because no target has a documented 12-month horizon.",
+    "sensitivity": "One turn of P/E moves the base target by $24.76 (4.2 pp of the close).",
+    "watch_metric": "Quarterly insurance underwriting pre-tax earnings (Q3 2026: $1.35bn vs $2.37bn a year earlier) and the buyback pace.",
+    "next_disclosure": "Q4 2026 results and 2026 annual report/10-K, expected around late February 2027 (date not confirmed)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only two named analysts with dated calls were found, both before the Nov 7 earnings release, so none reflects Q3 results. UBS (Meredith, Buy) raised to $628 from $604 on Oct 22; DBS (Manyi Lu, Hold) had $540 in August. UBS $628 equals about 25.4x base EPS, about 1.4 turns or 5.7% above the base target; the multiple versus EPS split is not known. DA Davidson ($592, Buy, Aug 11) was reported by an aggregator without a named analyst and is excluded. No target horizon is documented, so none enters the weighted target.",
+  "sources": [
+    {"label": "Berkshire Q3 2026 news release (Business Wire via Morningstar)", "url": "https://www.morningstar.com/news/business-wire/20261107409212/berkshire-hathaway-inc-news-release", "supports": "Operating earnings, net earnings per B share, buybacks, release date"},
+    {"label": "AP: Berkshire buys back $9.6bn of stock, profit declines", "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/07/berkshire-hathaway-buys-back-96-billion-of-its-own-stock-but-its-profits-declined", "supports": "Operating EPS per Class A, cash $377.4bn, buybacks"},
+    {"label": "StockAnalysis: Q3 operating earnings fall, buybacks", "url": "https://stockanalysis.com/news/berkshire-q3-operating-earnings-fall-buybacks/", "supports": "Q3 operating earnings and segment results"},
+    {"label": "Rallies.ai: UBS raises target to $628 from $604", "url": "https://rallies.ai/news/berkshire-hathaway-ubs-raises-target-price-to-628-from-604-82fa257e88fa6098", "supports": "UBS target and prior"},
+    {"label": "Ad-hoc-news: UBS raised BRK target 604 to 628, Buy", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/ubs-raised-berkshire-hathaway-stock-target-from-usd-604-to-usd-628/70421895", "supports": "UBS Buy rating Oct 22"},
+    {"label": "Beinsure: BRK.B price forecast, DBS Hold $540", "url": "https://beinsure.com/news/berkshire-hathaway-brk-b-stock-price-forecast-insurance-and-other-businesses-held-359-2-bn-in-cash/", "supports": "DBS Manyi Lu Hold, $540, Aug 17"}
+  ]
+}

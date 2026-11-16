@@ -1,0 +1,188 @@
+{
+ "issuer_id": "Broadcom Inc.",
+ "symbol": "AVGO",
+ "researched_at": "2026-11-16",
+ "research_close": {
+  "close": 347.01,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-09-02T16:15:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "CJ Muse",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 600,
+   "source_prior": 525,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://parameter.io/broadcom-avgo-stock-could-nearly-double-cantor-fitzgerald-sets-600-price-target/"
+  },
+  {
+   "analyst": "CJ Muse",
+   "firm": "Cantor Fitzgerald",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://parameter.io/broadcom-avgo-stock-could-nearly-double-cantor-fitzgerald-sets-600-price-target/"
+  },
+  {
+   "analyst": "Sajal Dogra",
+   "firm": "Rosenblatt",
+   "field": "target",
+   "value": 600,
+   "source_prior": 600,
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.gurufocus.com/news/9145369/avgo-maintained-by-rosenblatt-price-target-stays-at-600"
+  },
+  {
+   "analyst": "Sajal Dogra",
+   "firm": "Rosenblatt",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59-04:00",
+   "source": "https://www.gurufocus.com/news/9145369/avgo-maintained-by-rosenblatt-price-target-stays-at-600"
+  },
+  {
+   "analyst": "Ivan Feinseth",
+   "firm": "Tigress Financial",
+   "field": "target",
+   "value": 600,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/AVGO/price-targets"
+  },
+  {
+   "analyst": "Ivan Feinseth",
+   "firm": "Tigress Financial",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.benzinga.com/quote/AVGO/price-targets"
+  },
+  {
+   "analyst": "Cody Acree",
+   "firm": "StoneX",
+   "field": "target",
+   "value": 545,
+   "source_prior": 545,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.gurufocus.com/news/9146749/broadcom-avgo-analysts-maintain-buy-rating-with-545-target-price"
+  },
+  {
+   "analyst": "Cody Acree",
+   "firm": "StoneX",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://www.gurufocus.com/news/9146749/broadcom-avgo-analysts-maintain-buy-rating-with-545-target-price"
+  },
+  {
+   "analyst": "Thomas O'Malley",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 500,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/AVGO/price-targets"
+  },
+  {
+   "analyst": "Thomas O'Malley",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://www.benzinga.com/quote/AVGO/price-targets"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E at the 12-month target date (mid-Nov 2026 + 12 months = Nov 2027, when investors price FY2028 (Oct 2028 year-end) non-GAAP diluted EPS). Listing is the US common stock, USD, no ADR conversion. Starting points: Q3 FY2026 (quarter ended 2 Aug 2026) revenue $29.6B, non-GAAP EPS $3.32, AI semiconductor revenue $16.7B; Q4 guide revenue ~$34.8B, AI $21.7B, non-GAAP operating margin ~66%; management AI revenue outlook ~$115B FY2027 and ~$230B FY2028 and 'on target to exceed $30 EPS in FY2028'; FY2027 consensus EPS ~$19.47 (24/7 Wall St., 2026-11-16). Base haircuts management's FY2028 EPS target by ~17%. Non-GAAP EPS basis; share count and net debt not independently verified (filing tables not retrievable).",
+  "bear": 280.0,
+  "base": 450.0,
+  "bull": 630.0,
+  "cases": {
+   "bear": {
+    "driver": "AI ramp slips and custom-silicon margins dilute (guide already implies lower operating margin of 66%); FY2028 EPS only ~$20, roughly FY2027 consensus plus ~3%",
+    "assumption": "EPS $20.00 x 14x = $280",
+    "target": 280.0
+   },
+   "base": {
+    "driver": "AI revenue grows toward but below management's ~$230B FY2028 outlook, with gross-margin dilution from systems mix; EPS ~17% below the >$30 management target",
+    "assumption": "EPS $25.00 x 18x = $450",
+    "target": 450.0
+   },
+   "bull": {
+    "driver": "Management delivers its >$30 FY2028 EPS target and demand exceeding outlook is supplied",
+    "assumption": "EPS $30.00 x 21x = $630",
+    "target": 630.0
+   }
+  },
+  "implied_by_close": "At base EPS $25 the $347.01 close implies 13.9x; the equal-weighted named-analyst target (about $569 across 5 analysts) implies 22.8x base EPS, or ~$31.6 EPS at 18x, i.e. slightly above management's FY2028 target.",
+  "sensitivity": "One turn of P/E moves the base target by $25 (7.2 pp of the close); $1 of FY2028 EPS moves it by $18 (5.2 pp).",
+  "watch_metric": "AI semiconductor revenue versus the $21.7B Q4 guide and the trajectory to ~$115B in FY2027, together with non-GAAP operating margin versus the 66% guide.",
+  "next_disclosure": "Q4 FY2026 earnings, expected around early-to-mid December 2026 (date not confirmed in sources)."
+ },
+ "dividend_per_share": 2.6,
+ "analyst_notes": "All five named calls are Buy/Overweight with targets of $500-$600; none is below 44% implied upside versus $347.01, a 1.4x to 1.7x multiple of the close, while the base case is $450 (+29.7%), so the analyst-minus-base gap is roughly 40+ pp, equivalent to about $6.6 more FY2028 EPS at 18x or ~22.8x on base EPS. Only Cantor's raise (525 to 600 after Q3) shows a revision; the rest are reaffirmations or an initiation in Oct 2026, all after the 2 Sep earnings release and before the stock's slide from ~$419 to $347. Not included: Rothschild & Co Redburn downgrade to Neutral with target cut to $398 from $595 (reported 13 Nov; analyst unnamed and intraday timing unverified), DA Davidson upgrade to Buy with $400 target on 27 Oct (analyst unnamed in sources), and a Seaport downgrade in April 2026. Sample is small (5 analysts), target horizons undocumented so none enters the weighted target.",
+ "sources": [
+  {
+   "label": "Broadcom Q3 FY2026 results (8-K Ex. 99)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000173016826000076/avgo-08022026x8kxex99.htm",
+   "supports": "Q3 revenue, EPS, Q4 guidance, dividend $0.65/qtr"
+  },
+  {
+   "label": "Broadcom Q3 FY2026 press release",
+   "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-inc-announces-third-quarter-fiscal-year-2026-financial",
+   "supports": "results and Q4 guide"
+  },
+  {
+   "label": "24/7 Wall St. AI revenue outlook, 2026-11-16",
+   "url": "https://247wallst.com/investing/2026/11/16/broadcom-management-says-ai-chip-revenue-to-double-to-115-billion-in-2027-giving-bulls-plenty-to-cheer/",
+   "supports": "FY2027 consensus EPS ~$19.47, AI revenue outlook"
+  },
+  {
+   "label": "Benzinga AVGO price targets",
+   "url": "https://www.benzinga.com/quote/AVGO/price-targets",
+   "supports": "Tigress and Barclays calls, Oct 2026"
+  },
+  {
+   "label": "GuruFocus Rosenblatt",
+   "url": "https://www.gurufocus.com/news/9145369/avgo-maintained-by-rosenblatt-price-target-stays-at-600",
+   "supports": "Rosenblatt Buy $600"
+  },
+  {
+   "label": "GuruFocus StoneX",
+   "url": "https://www.gurufocus.com/news/9146749/broadcom-avgo-analysts-maintain-buy-rating-with-545-target-price",
+   "supports": "StoneX Buy $545"
+  },
+  {
+   "label": "Parameter Cantor target",
+   "url": "https://parameter.io/broadcom-avgo-stock-could-nearly-double-cantor-fitzgerald-sets-600-price-target/",
+   "supports": "Cantor Overweight, $525 to $600"
+  },
+  {
+   "label": "MarketBeat AVGO 2026-11-16",
+   "url": "https://www.marketbeat.com/instant-alerts/filing-broadcom-inc-avgo-stock-diversified-trust-co-increases-position-2026-11-16/",
+   "supports": "$347.01 price"
+  }
+ ]
+}

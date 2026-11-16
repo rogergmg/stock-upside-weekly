@@ -1,0 +1,200 @@
+{
+ "issuer_id": "Advanced Micro Devices, Inc.",
+ "symbol": "AMD",
+ "researched_at": "2026-11-16",
+ "research_close": {
+  "close": 534.06,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-11-03T16:00:00-05:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Joe Quatrochi",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 650,
+   "source_prior": 700,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-amd-stock-price-target-on-data-center-strength-93CH-4998079"
+  },
+  {
+   "analyst": "Joe Quatrochi",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-amd-stock-price-target-on-data-center-strength-93CH-4998079"
+  },
+  {
+   "analyst": "Vivek Arya",
+   "firm": "BofA Securities",
+   "field": "target",
+   "value": 650,
+   "source_prior": 720,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930"
+  },
+  {
+   "analyst": "Vivek Arya",
+   "firm": "BofA Securities",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930"
+  },
+  {
+   "analyst": "Ruben Roy",
+   "firm": "Stifel",
+   "field": "target",
+   "value": 725,
+   "source_prior": 700,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+  },
+  {
+   "analyst": "Ruben Roy",
+   "firm": "Stifel",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+  },
+  {
+   "analyst": "Vijay Rakesh",
+   "firm": "Mizuho",
+   "field": "target",
+   "value": 610,
+   "source_prior": 705,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+  },
+  {
+   "analyst": "Vijay Rakesh",
+   "firm": "Mizuho",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results"
+  },
+  {
+   "analyst": "Harlan Sur",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 575,
+   "source_prior": 550,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930"
+  },
+  {
+   "analyst": "Harlan Sur",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930"
+  },
+  {
+   "analyst": "Rick Schafer",
+   "firm": "Oppenheimer",
+   "field": "target",
+   "value": 600,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stocktwits.com/news-articles/markets/equity/amd-s-server-and-data-center-success-is-undeniable-says-oppenheimer-sees-favorable-pricing-ahead/cNGr73NR9eV"
+  },
+  {
+   "analyst": "Rick Schafer",
+   "firm": "Oppenheimer",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/amd-s-server-and-data-center-success-is-undeniable-says-oppenheimer-sees-favorable-pricing-ahead/cNGr73NR9eV"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E at the 12-month target date. A mid-Nov 2027 investor prices FY2028 non-GAAP diluted EPS, so each case uses FY2028 EPS x a P/E; 1.67B diluted shares (Q4 2026 guide) with modest dilution/buyback offset. Q3 2026 base: revenue $13.38B, non-GAAP EPS $2.09, Q4 guide ~$17B +/-3%, ~55% non-GAAP GM, ~$3.75B opex, 13% tax. USD listing, no FX.",
+  "bear": 255.0,
+  "base": 552.0,
+  "bull": 840.0,
+  "cases": {
+   "bear": {
+    "driver": "MI450/Helios ramp slips or prices lower; AI capex digestion; client/gaming weak. Data center growth well under management's 'more than double' 2027 view; early MI450 gross margin below corporate average.",
+    "assumption": "FY2028 EPS $15.00 at 17x",
+    "target": 255.0
+   },
+   "base": {
+    "driver": "Data center roughly doubles in 2027 and grows again in 2028 as Helios/MI450 ramps (Meta, OpenAI, Anthropic commitments), with margin diluted by rack-scale mix; EPS below the ~$26 FY2028 figure cited in press.",
+    "assumption": "FY2028 EPS $23.00 at 24x",
+    "target": 552.0
+   },
+   "bull": {
+    "driver": "Full MI450 ramp on schedule with better pricing and GM recovery toward ~58%, server CPU share gains; EPS near the top of the Street range.",
+    "assumption": "FY2028 EPS $30.00 at 28x",
+    "target": 840.0
+   }
+  },
+  "implied_by_close": "At base EPS of $23.00 the $534.06 close implies 23.2x; the equal-weight named-analyst target of about $635 implies 27.6x on that EPS, or about $26.5 of EPS at 24x.",
+  "sensitivity": "One turn of P/E moves the base target by $23.00 (about 4.3 pp of the close); $1 of FY2028 EPS moves it by $24 (4.5 pp).",
+  "watch_metric": "Data Center segment revenue and non-GAAP gross margin as MI450/Helios ramps (Q4 guide: ~$17B revenue, ~55% GM).",
+  "next_disclosure": "Q4 2026 earnings release, expected early February 2027 (date not confirmed in sources)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Six named calls were found, all dated after the Nov 3 earnings release (Nov 4 to Nov 9), a subset of the Street. Post-earnings moves were mixed: Stifel and JPMorgan raised, Wells Fargo, BofA and Mizuho cut, and Oppenheimer upgraded to Outperform at $600; targets span $575 to $725 (mean about $635, +19% on the close), versus the $552 base (+3.4%). The 15.6 pp gap is about 27.6x vs 24x on the same $23 EPS, or about $26.5 EPS at 24x; the brokers' own assumptions are not known. Horizons are undocumented so none is marked 12-month and the calls carry no weighted-target weight. Morgan Stanley, Goldman and Jefferies calls could not be verified.",
+ "sources": [
+  {
+   "label": "AMD Q3 2026 results press release (via GlobeNewswire)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/03/3394824/0/en/amd-reports-third-quarter-2026-financial-results.html",
+   "supports": "Revenue, EPS, Q4 guidance, diluted shares"
+  },
+  {
+   "label": "AMD Q3 2026 earnings call transcript",
+   "url": "https://www.fool.com/earnings/call-transcripts/2026/11/04/amd-amd-q3-2026-earnings-call-transcript/",
+   "supports": "Cash $15.8B, debt $7.1B, Q4 opex, tax rate, 2027 outlook"
+  },
+  {
+   "label": "Benzinga post-Q3 analyst revisions",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62860971/these-analysts-revise-their-forecasts-on-amd-after-q3-results",
+   "supports": "Stifel and Mizuho targets"
+  },
+  {
+   "label": "Investing.com Wells Fargo AMD target",
+   "url": "https://www.investing.com/news/analyst-ratings/wells-fargo-cuts-amd-stock-price-target-on-data-center-strength-93CH-4998079",
+   "supports": "Wells Fargo 700 to 650"
+  },
+  {
+   "label": "Stocktwits post-earnings Street split",
+   "url": "https://stocktwits.com/news-articles/markets/equity/amd-earnings-checked-every-box-but-wall-street-remains-split-on-the-stock/cNGLXFjR930",
+   "supports": "BofA and JPMorgan targets"
+  },
+  {
+   "label": "Stocktwits Oppenheimer upgrade",
+   "url": "https://stocktwits.com/news-articles/markets/equity/amd-s-server-and-data-center-success-is-undeniable-says-oppenheimer-sees-favorable-pricing-ahead/cNGr73NR9eV",
+   "supports": "Oppenheimer upgrade to Outperform, $600"
+  }
+ ]
+}

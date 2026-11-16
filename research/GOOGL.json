@@ -1,0 +1,185 @@
+{
+  "issuer_id": "Alphabet Inc.",
+  "symbol": "GOOGL",
+  "researched_at": "2026-11-16",
+  "research_close": {
+    "close": 295.77,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T16:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Deepak Mathivanan",
+      "firm": "Cantor Fitzgerald",
+      "field": "target",
+      "value": 350,
+      "source_prior": 420,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says"
+    },
+    {
+      "analyst": "Deepak Mathivanan",
+      "firm": "Cantor Fitzgerald",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says"
+    },
+    {
+      "analyst": "Brian Pitz",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 425,
+      "source_prior": 480,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340"
+    },
+    {
+      "analyst": "Brian Pitz",
+      "firm": "BMO Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340"
+    },
+    {
+      "analyst": "Scott Devitt",
+      "firm": "Rosenblatt",
+      "field": "target",
+      "value": 380,
+      "source_prior": 410,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340"
+    },
+    {
+      "analyst": "Scott Devitt",
+      "firm": "Rosenblatt",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340"
+    },
+    {
+      "analyst": "Doug Anmuth",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 375,
+      "source_prior": 425,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://finbold.com/18-wall-street-analysts-slash-google-stock-price-targets-after-q3-miss/"
+    },
+    {
+      "analyst": "Doug Anmuth",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://finbold.com/18-wall-street-analysts-slash-google-stock-price-targets-after-q3-miss/"
+    },
+    {
+      "analyst": "Gil Luria",
+      "firm": "D.A. Davidson",
+      "field": "target",
+      "value": 300,
+      "source_prior": 350,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/news/is-this-the-quarter-we-feared-da-davidson-reacts-as-alphabet-stock-falls-after-q3-miss"
+    },
+    {
+      "analyst": "Gil Luria",
+      "firm": "D.A. Davidson",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.tipranks.com/news/is-this-the-quarter-we-feared-da-davidson-reacts-as-alphabet-stock-falls-after-q3-miss"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E. EPS is next-twelve-month diluted EPS as an investor would see it at the Nov-2027 target date (about FY2027 EPS of ~$13 grown ~13% toward FY2028), excluding unrealized gains/losses on marketable equity securities (SpaceX). Q3 2026 base: diluted EPS $2.12 reported, about $2.67 before the roughly $0.55 SpaceX mark; operating income +30% y/y to $40.6B on $127.6B revenue (31.8% margin); ~12.3B diluted shares. Model assumptions, not company guidance; I could not open the 10-Q so share count is inferred from net income $26.17B / EPS $2.12.",
+    "bear": 225.0,
+    "base": 323.4,
+    "bull": 412.5,
+    "cases": {
+      "bear": {
+        "driver": "Search/YouTube ad growth slows (Q3 missed), capex above $300B in 2027 lifts depreciation and compresses margin, Cloud growth normalizes",
+        "assumption": "EPS $12.50 at 18x",
+        "target": 225.0
+      },
+      "base": {
+        "driver": "Cloud growth stays far above company average, operating margin holds near 31-32% as depreciation rises, buybacks offset dilution",
+        "assumption": "EPS $14.70 at 22x",
+        "target": 323.4
+      },
+      "bull": {
+        "driver": "Cloud and AI monetization lift margin toward 35%, ads re-accelerate, capex converts to FCF",
+        "assumption": "EPS $16.50 at 25x (the multiple Cantor cites for FY2027)",
+        "target": 412.5
+      }
+    },
+    "implied_by_close": "At base EPS $14.70 the close of $295.77 implies 20.1x; the equal-weight mean of the five named targets ($366) implies 24.9x, and the Yahoo published mean of $400 implies 27.2x or EPS $18.18 at 22x (aggregate is published, not computed here).",
+    "sensitivity": "One turn of P/E moves the base target by $14.70 (5.0 pp of the close); $1 of EPS moves it by $22.",
+    "watch_metric": "Operating margin and Cloud revenue growth (Q3: Cloud +103% to $30.7B, group margin 31.8%) against quarterly capex (Q3 $51.4B; FY2026 guide about $195-205B per one source) and free cash flow (Q3 -$9.1B)",
+    "next_disclosure": "Q4 2026 earnings release, expected late January or early February 2027 (date not confirmed)"
+  },
+  "dividend_per_share": 0.88,
+  "analyst_notes": "Of 21 updates reported for Oct 29, 18 were target cuts, and the five named calls here all cut (-6% to -18%) while keeping Buy-equivalent ratings except D.A. Davidson (Neutral, $300). Cantor's $350 rests on 25x FY2027 EPS (down from 28x); at that multiple it needs about $14.00 FY2027 EPS, so the gap to the base case is mainly multiple (about 3 turns on my $14.70). Horizons are undocumented in the sources I could open, so none enter the weighted target, and the sample is only five names (coverage partial); Yahoo publishes a $400 mean from 53 analysts, which is not comparable.",
+  "sources": [
+    {
+      "label": "Alphabet Q3 2026 results summary (revenue, EPS, Cloud, capex)",
+      "url": "https://quartr.com/events/alphabet-goog-q3-2026_3ebmqmdr",
+      "supports": "Q3 revenue, EPS, Cloud, capex"
+    },
+    {
+      "label": "Alphabet Q3 2026 Form 10-Q",
+      "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/GOOG-10-Q-Q3-2026.pdf",
+      "supports": "Net income, other income/SpaceX loss (read via search summary only)"
+    },
+    {
+      "label": "247WallSt SpaceX 55 cent EPS impact",
+      "url": "https://247wallst.com/investing/2026/10/29/alphabets-spacex-bet-wiped-55-cents-off-its-earnings/",
+      "supports": "SpaceX mark effect on EPS"
+    },
+    {
+      "label": "Benzinga Cantor note",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62705724/alphabet-bulls-dig-in-after-messy-q3-ai-stack-keeps-us-bullish-cantor-says",
+      "supports": "Cantor target 350 from 420, 25x FY2027"
+    },
+    {
+      "label": "Investing.com BMO cut",
+      "url": "https://www.investing.com/news/analyst-ratings/bmo-cuts-alphabet-stock-price-target-on-search-miss-and-margin-pressure-93CH-4984340",
+      "supports": "BMO and Rosenblatt targets"
+    },
+    {
+      "label": "Finbold target cuts after Q3",
+      "url": "https://finbold.com/18-wall-street-analysts-slash-google-stock-price-targets-after-q3-miss/",
+      "supports": "JPMorgan target and 18 of 21 cuts"
+    },
+    {
+      "label": "TipRanks DA Davidson",
+      "url": "https://www.tipranks.com/news/is-this-the-quarter-we-feared-da-davidson-reacts-as-alphabet-stock-falls-after-q3-miss",
+      "supports": "DA Davidson target and Neutral"
+    }
+  ]
+}

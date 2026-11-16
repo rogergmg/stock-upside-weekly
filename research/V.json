@@ -1,0 +1,39 @@
+{
+  "issuer_id": "Visa Inc.",
+  "symbol": "V",
+  "researched_at": "2026-11-16",
+  "research_close": {"close": 425.76, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-27T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Bryan Bergin", "firm": "TD Cowen", "field": "target", "value": 450, "source_prior": 420,
+     "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652659/visa-analysts-increase-their-forecasts-following-upbeat-q3-earnings"},
+    {"analyst": "Bryan Bergin", "firm": "TD Cowen", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00",
+     "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652659/visa-analysts-increase-their-forecasts-following-upbeat-q3-earnings"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E. Non-GAAP diluted EPS FY2026 $13.27 (GAAP $12.32) grown per management's FY2027 outlook (adjusted EPS growth low double digits to low teens; secondary-source wording). At the 12-month target date (Nov 2027) an investor prices FY2028 EPS, so target = FY2028 EPS x P/E. USD listing, no FX or ADR conversion.",
+    "bear": 312.4, "base": 423.3, "bull": 500.25,
+    "cases": {
+      "bear": {"driver": "Consumer spending slowdown, regulatory/interchange settlement pressure and higher litigation/opex; EPS growth 9% in FY2027 and 8% in FY2028", "assumption": "FY2028 EPS $15.62 at 20.0x", "target": 312.4},
+      "base": {"driver": "Low-double-digit net revenue growth and about 12% EPS growth in both FY2027 and FY2028, value-added services growth in the low-to-mid 20s percent", "assumption": "FY2028 EPS $16.60 (FY2027 $14.86) at 25.5x", "target": 423.3},
+      "bull": {"driver": "Cross-border and value-added services outperform, 14% EPS growth in FY2027 and FY2028 with agentic commerce upside", "assumption": "FY2028 EPS $17.25 at 29.0x", "target": 500.25}
+    },
+    "implied_by_close": "At base FY2027 EPS $14.86 the close implies 28.7x (32.1x FY2026 EPS $13.27); the single sourced analyst target of $450 implies 27.1x on base FY2028 EPS, or EPS $17.65 at 25.5x (6.3% above model)",
+    "sensitivity": "One turn of P/E moves the base target by $16.60 (about 3.9 pp of the close)",
+    "watch_metric": "Net revenue growth and non-GAAP EPS growth versus the low-double-digit FY2027 outlook, plus value-added services growth",
+    "next_disclosure": "Fiscal Q1 2027 results, expected late January 2027 (date not confirmed)"
+  },
+  "dividend_per_share": 3.12,
+  "analyst_notes": "Only one named analyst call could be sourced (TD Cowen's Bryan Bergin, target $420 to $450, Buy, after the Oct 27 results), and its 12-month horizon is undocumented so it is excluded from the weighted target. Search snippets also listed Morgan Stanley ($416 to $471), Oppenheimer ($403 to $440), Cantor ($445, Overweight), Susquehanna ($427 to $480) and Bernstein ($475 to $486), but analyst names and dates could not be verified, so they are omitted. The $450 target implies about 27.1x base FY2028 EPS versus the 25.5x base multiple, a gap of 6.3% in EPS or about 1.6 turns.",
+  "sources": [
+    {"label": "Visa fiscal Q4 and full-year 2026 results press release", "url": "https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.22876.html", "supports": "FY2026 EPS and revenue (via search summary)"},
+    {"label": "Visa 8-K earnings release, Oct 27 2026", "url": "https://www.sec.gov/Archives/edgar/data/0001403161/000140316126000126/q42026earningsrelease.htm", "supports": "Dividend $0.78 quarterly, results date"},
+    {"label": "Zacks: Visa Q4 earnings call highlights FY27 outlook", "url": "https://www.tradingview.com/news/zacks:bb3f87b94094b:0-visa-q4-earnings-call-highlights-fy27-outlook-and-growth-priorities/", "supports": "FY2027 outlook"},
+    {"label": "Seeking Alpha: Visa FY2027 outlook", "url": "https://seekingalpha.com/news/4658569-visa-expects-fy-2027-adjusted-net-revenue-growth-in-the-low-double-digits-while-projecting", "supports": "Net revenue growth and VAS outlook"},
+    {"label": "Benzinga: Visa analysts increase forecasts", "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652659/visa-analysts-increase-their-forecasts-following-upbeat-q3-earnings", "supports": "TD Cowen target change"}
+  ]
+}

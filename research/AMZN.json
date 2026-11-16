@@ -1,0 +1,58 @@
+{
+  "issuer_id": "Amazon.com, Inc.",
+  "symbol": "AMZN",
+  "researched_at": "2026-11-16",
+  "research_close": {"close": 266.66, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-29T16:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Stephen Ju", "firm": "UBS", "field": "target", "value": 352, "source_prior": 348,
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.tipranks.com/stocks/amzn/forecast"},
+    {"analyst": "Stephen Ju", "firm": "UBS", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00",
+     "source": "https://www.tipranks.com/stocks/amzn/forecast"},
+    {"analyst": "Brian Nowak", "firm": "Morgan Stanley", "field": "target", "value": 350, "source_prior": 335,
+     "issued_at": "2026-10-19", "public_at": "2026-10-19T23:59:59-04:00", "horizon_months": null,
+     "source": "https://investinglive.com/stocks/icymi-morgan-stanley-names-amazon-a-top-pick-lifts-target-to-350-on-five-catalysts-led-by-aws/"},
+    {"analyst": "Brian Nowak", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-10-19", "public_at": "2026-10-19T23:59:59-04:00",
+     "source": "https://investinglive.com/stocks/icymi-morgan-stanley-names-amazon-a-top-pick-lifts-target-to-350-on-five-catalysts-led-by-aws/"},
+    {"analyst": "Justin Post", "firm": "BofA Securities", "field": "target", "value": 317, "source_prior": 320,
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.tipranks.com/stocks/amzn/forecast"},
+    {"analyst": "Justin Post", "firm": "BofA Securities", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00",
+     "source": "https://www.tipranks.com/stocks/amzn/forecast"},
+    {"analyst": "John Blackledge", "firm": "TD Cowen", "field": "target", "value": 340, "source_prior": 350,
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null,
+     "source": "https://stocktwits.com/news-articles/markets/equity/amzn-analysts-split-after-earnings-td-cowen-says-amazon-selloff-is-overdone-mizuho-raises-target/cZUht92R9T1"},
+    {"analyst": "John Blackledge", "firm": "TD Cowen", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00",
+     "source": "https://stocktwits.com/news-articles/markets/equity/amzn-analysts-split-after-earnings-td-cowen-says-amazon-selloff-is-overdone-mizuho-raises-target/cZUht92R9T1"}
+  ],
+  "valuation": {
+    "method": "Forward diluted EPS x P/E. EPS is the 12 months of operating income after Oct-2027 viewed at the 12-month target date (about FY2027), built as operating income x (1 - tax rate) / diluted shares; non-operating items (Anthropic mark-ups, which inflated GAAP EPS in Q2 2026 and Q3 2025) are excluded and interest assumed to net to zero. Diluted shares about 10.95B (Q3 2026 net income $20.7B / EPS $1.89). Anchors: Q3 2026 operating income $28.1B (13.9% margin), Q4 2026 guide $28.5-33.5B, 2026 capex about $220B with meaningfully more in 2027, management view of AWS growth above 40% in 2027 and 2028. Model assumptions, not company guidance.",
+    "bear": 196.8, "base": 286.5, "bull": 365.5,
+    "cases": {
+      "bear": {"driver": "AWS growth fades toward 25-30% while depreciation from the capex ramp compresses margin; operating income about $110B for the year", "assumption": "Operating income $110B, tax 18%, 11.0B shares: EPS $8.20 at 24x", "target": 196.8},
+      "base": {"driver": "Q4 2026 guide midpoint (about $31B) annualizes to about $124B, plus roughly 9% growth as AWS grows near 40% and retail margin holds; operating income about $135B", "assumption": "Operating income $135B, tax 17%, 10.95B shares: EPS $10.23 at 28x", "target": 286.5},
+      "bull": {"driver": "AWS sustains 40%+ growth with operating leverage and advertising keeps growing in the high teens; operating income about $160B", "assumption": "Operating income $160B, tax 17%, 10.9B shares: EPS $12.18 at 30x", "target": 365.5}
+    },
+    "implied_by_close": "At base EPS $10.23 the $266.66 close implies 26.1x; the simple-average analyst target of $340 (four named calls) implies 33.2x at base EPS, or EPS about $12.14 at 28x (about 19% above the model)",
+    "sensitivity": "One turn of P/E moves the base target by $10.23 (3.8 pp of the close); $10B of operating income moves base EPS by about $0.76 and the target by about $21",
+    "watch_metric": "AWS segment growth (39% in Q3 2026) and AWS operating margin (17.8B on 46.0B, about 38.7%), against capex and free cash flow (trailing-twelve-month free cash flow was an outflow of $42.4B)",
+    "next_disclosure": "Q4 2026 results, expected late January / early February 2027 (date not yet confirmed)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Four named analysts found (UBS, Morgan Stanley, BofA, TD Cowen), all Buy-equivalent; three updated after the Oct 29 release, with TD Cowen and BofA trimming targets slightly while UBS raised, and Morgan Stanley's raise to $350 predates earnings. Their $317-352 targets sit about 19% to 32% above the close; against the base case this gap equals roughly 2 EPS dollars at 28x or about 5 extra P/E turns at base EPS. Published consensus (about $332 across 60 analysts, S&P Global via Stocktwits) is similar, but the named sample is small and no 12-month horizon was documented, so these calls are excluded from the weighted target.",
+  "sources": [
+    {"label": "Amazon Q3 2026 results (aboutamazon.com)", "url": "https://aboutamazon.com/news/company-news/amazon-earnings-q3-2026-report", "supports": "Net sales, operating income, EPS, AWS, Q4 guide, capex"},
+    {"label": "Amazon Q3 2026 release (Finviz)", "url": "https://finviz.com/news/412054/amazoncom-announces-third-quarter-results", "supports": "Q3 net income and EPS, trailing-twelve-month cash flow"},
+    {"label": "Amazon Q2 2026 results", "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results", "supports": "Q2 EPS and Anthropic gains"},
+    {"label": "TipRanks AMZN forecast", "url": "https://www.tipranks.com/stocks/amzn/forecast", "supports": "UBS and BofA Oct 30 target changes"},
+    {"label": "Morgan Stanley top pick note", "url": "https://investinglive.com/stocks/icymi-morgan-stanley-names-amazon-a-top-pick-lifts-target-to-350-on-five-catalysts-led-by-aws/", "supports": "Morgan Stanley target and rating"},
+    {"label": "Stocktwits post-earnings analyst roundup", "url": "https://stocktwits.com/news-articles/markets/equity/amzn-analysts-split-after-earnings-td-cowen-says-amazon-selloff-is-overdone-mizuho-raises-target/cZUht92R9T1", "supports": "TD Cowen target and consensus"}
+  ]
+}

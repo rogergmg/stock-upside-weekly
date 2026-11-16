@@ -1,0 +1,60 @@
+{
+  "issuer_id": "Tesla, Inc.",
+  "symbol": "TSLA",
+  "researched_at": "2026-11-16",
+  "research_close": {"close": 390.22, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-21T16:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Alexander Potter", "firm": "Piper Sandler", "field": "target", "value": 475, "source_prior": 450,
+     "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-tesla-stock-price-target-to-475-on-q3-results-93CH-4964938"},
+    {"analyst": "Alexander Potter", "firm": "Piper Sandler", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00",
+     "source": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-tesla-stock-price-target-to-475-on-q3-results-93CH-4964938"},
+    {"analyst": "Mark Delaney", "firm": "Goldman Sachs", "field": "target", "value": 360, "source_prior": 360,
+     "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html"},
+    {"analyst": "Mark Delaney", "firm": "Goldman Sachs", "field": "rating", "value": "Neutral", "bucket": "Hold",
+     "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00",
+     "source": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html"},
+    {"analyst": "Andrew Percoco", "firm": "Morgan Stanley", "field": "target", "value": 400,
+     "issued_at": "2026-10-16", "public_at": "2026-10-16T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.roic.ai/news/morgan-stanley-warms-up-to-tesla-ahead-of-q3-earnings-but-stays-on-the-sidelines-10-16-2026"},
+    {"analyst": "Andrew Percoco", "firm": "Morgan Stanley", "field": "rating", "value": "Equal-weight", "bucket": "Hold",
+     "issued_at": "2026-10-16", "public_at": "2026-10-16T23:59:59-04:00",
+     "source": "https://www.roic.ai/news/morgan-stanley-warms-up-to-tesla-ahead-of-q3-earnings-but-stays-on-the-sidelines-10-16-2026"},
+    {"analyst": "Gordon Johnson", "firm": "GLJ Research", "field": "target", "value": 24.86, "source_prior": 24.86,
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null,
+     "source": "https://www.gurufocus.com/news/9176842/tsla-reiterated-by-glj-research-price-target-maintained-at-2486"},
+    {"analyst": "Gordon Johnson", "firm": "GLJ Research", "field": "rating", "value": "Sell", "bucket": "Sell",
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00",
+     "source": "https://www.gurufocus.com/news/9176842/tsla-reiterated-by-glj-research-price-target-maintained-at-2486"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E. At the 12-month target date (Nov 2027) an investor prices FY2028 non-GAAP diluted EPS (Tesla non-GAAP excludes stock comp, digital-asset and SpaceX-stake marks). Starting point: Q3 2026 non-GAAP EPS $0.48 (net income $1,697M on 3,541M weighted diluted shares), GAAP $0.22, revenue about $28.0B flat y/y, gross margin 19.6%, operating income $718M (-56%) as opex rose 39%, FCF about $1.5B, cash and investments $45.4B. Management cut 2026 capex guidance to about $20B and signalled tens of billions by 2028. EPS paths and multiples are my own model assumptions, not company guidance; the multiple is a justified premium for autonomy/robotics optionality, so the result is highly sensitive to it.",
+    "bear": 150.0, "base": 360.0, "bull": 687.5,
+    "cases": {
+      "bear": {"driver": "Robotaxi/Optimus slip, auto volumes keep falling, capex and opex compress margins; FY2028 non-GAAP EPS stays below the 2025 level.", "assumption": "EPS $1.50 at 100x", "target": 150.0},
+      "base": {"driver": "Auto margin recovery on mix, services and energy growth, gradual Cybercab fleet ramp; opex growth slows; FY2028 EPS about 1.6x the Q3 annualized run rate ($1.92).", "assumption": "EPS $3.00 at 120x", "target": 360.0},
+      "bull": {"driver": "Unsupervised FSD and Cybercab scale in 2027, robotaxi and software revenue lift margins sharply.", "assumption": "EPS $5.50 at 125x", "target": 687.5}
+    },
+    "implied_by_close": "At base EPS $3.00 the $390.22 close implies 130x. The mean of the four non-GLJ named targets (about $424) implies 141x at base EPS, or EPS about $3.53 at 120x (18% above base EPS).",
+    "sensitivity": "One turn of P/E moves the base target by $3.00 (0.8 pp of the close); $0.25 of FY2028 EPS moves it by $30 (7.7 pp).",
+    "watch_metric": "Automotive gross margin ex-credits and operating margin, versus opex growth (39% y/y in Q3), plus Cybercab/robotaxi paid-mile volume and the 2027 capex level.",
+    "next_disclosure": "Q4 2026 results and shareholder update, expected late January 2027 (date not confirmed); Q4 deliveries report in early January 2027."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only named calls found: Piper Sandler raised to $475 from $450 after Q3 (Oct 22); Goldman kept $360 Neutral; Morgan Stanley Equal-weight $400 (Oct 16, pre-earnings, reported prior $415 conflicts in sources); GLJ Sell at $24.86 is an extreme outlier. All horizons are undocumented, so none enter the weighted target. The four non-GLJ targets (mean about $424) sit about 18% above base EPS or 141x versus 120x base multiple; the gap is a multiple/EPS difference whose analyst assumptions are unknown. JPMorgan reaffirmed Neutral $430 on 2026-11-16, after the reference close, and is excluded. Panel is small (4 analysts) versus about 40 in the Yahoo aggregate (mean $412.48).",
+  "sources": [
+    {"label": "Tesla Q3 2026 Update (IR)", "url": "https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q3-2026-Update.pdf", "supports": "EPS, diluted shares, margins, cash"},
+    {"label": "Form 10-Q Q3 2026", "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026066775/tsla-20260930.htm", "supports": "weighted diluted shares, opex"},
+    {"label": "Form 8-K Q3 2026 release", "url": "https://www.sec.gov/Archives/edgar/data/0001318605/000162828026066738/exhibit9914.htm", "supports": "reported results"},
+    {"label": "Q3 2026 earnings call recap", "url": "https://www.notateslaapp.com/news/4867/tesla-q3-2026-earnings-call-recap-everything-you-need-to-know", "supports": "capex about $20B, Cybercab, Optimus"},
+    {"label": "Piper Sandler target raise", "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-raises-tesla-stock-price-target-to-475-on-q3-results-93CH-4964938", "supports": "Piper Sandler call"},
+    {"label": "CNBC post-Q3 analyst roundup", "url": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html", "supports": "Goldman Sachs call"},
+    {"label": "Morgan Stanley pre-Q3 note", "url": "https://www.roic.ai/news/morgan-stanley-warms-up-to-tesla-ahead-of-q3-earnings-but-stays-on-the-sidelines-10-16-2026", "supports": "Morgan Stanley call"},
+    {"label": "GLJ Research reiteration", "url": "https://www.gurufocus.com/news/9176842/tsla-reiterated-by-glj-research-price-target-maintained-at-2486", "supports": "GLJ call"}
+  ]
+}

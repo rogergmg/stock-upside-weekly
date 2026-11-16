@@ -1,0 +1,51 @@
+{
+  "issuer_id": "Taiwan Semiconductor Manufacturing Company Limited",
+  "symbol": "TSM",
+  "researched_at": "2026-11-16",
+  "research_close": {"close": 398.73, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-15T13:30:00+08:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Mark Li", "firm": "Bernstein", "field": "target", "value": 554, "source_prior": 430, "issued_at": "2026-08-11", "public_at": "2026-08-11T23:59:59-04:00", "horizon_months": null, "source": "https://cryptobriefing.com/bernstein-raises-tsmc-price-target-600/"},
+    {"analyst": "Mark Li", "firm": "Bernstein", "field": "target", "value": 600, "source_prior": 554, "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null, "source": "https://cryptobriefing.com/bernstein-raises-tsmc-price-target-600/"},
+    {"analyst": "Mark Li", "firm": "Bernstein", "field": "rating", "value": "Outperform", "bucket": "Buy", "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "source": "https://cryptobriefing.com/bernstein-raises-tsmc-price-target-600/"},
+    {"analyst": "Barclays analyst (unnamed in source)", "firm": "Barclays", "field": "target", "value": 670, "source_prior": 665, "issued_at": "2026-10-16", "public_at": "2026-10-16T23:59:59-04:00", "horizon_months": null, "source": "https://pluang.com/en/news-feed/tsmc-barclays-naikkan-target-harga-670"},
+    {"analyst": "Needham analyst (unnamed in source)", "firm": "Needham", "field": "target", "value": 530, "source_prior": 480, "issued_at": "2026-07-27", "public_at": "2026-07-27T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/needham-company-llc-raises-taiwan-semiconductor-manufacturing-nysetsm-price-target-to-53000-2026-07-27/"},
+    {"analyst": "Needham analyst (unnamed in source)", "firm": "Needham", "field": "target", "value": 560, "source_prior": 530, "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "horizon_months": null, "source": "https://www.tradingkey.com/analysis/stocks/us-stocks/262213491-tsmc-q3-earnings-preview-profits-hit-record-high-sixth-straight-quarter-tradingkey"},
+    {"analyst": "Stifel analyst (unnamed in source)", "firm": "Stifel", "field": "target", "value": 520, "source_prior": 515, "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "horizon_months": null, "source": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co-consensus-estimates"},
+    {"analyst": "Susquehanna analyst (unnamed in source)", "firm": "Susquehanna", "field": "target", "value": 600, "source_prior": 575, "issued_at": "2026-07-16", "public_at": "2026-07-16T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/needham-company-llc-raises-taiwan-semiconductor-manufacturing-nysetsm-price-target-to-53000-2026-07-27/"},
+    {"analyst": "Bank of America analyst (unnamed in source)", "firm": "Bank of America", "field": "target", "value": 590, "source_prior": 490, "issued_at": "2026-06-25", "public_at": "2026-06-25T23:59:59-04:00", "horizon_months": null, "source": "https://www.fxleaders.com/news/2026/06/25/taiwan-semiconductor-stock-tsm-gains-5-as-ai-pricing-power-and-bofas-590-target-lift-sentiment/"},
+    {"analyst": "Bank of America analyst (unnamed in source)", "firm": "Bank of America", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-06-25", "public_at": "2026-06-25T23:59:59-04:00", "source": "https://www.fxleaders.com/news/2026/06/25/taiwan-semiconductor-stock-tsm-gains-5-as-ai-pricing-power-and-bofas-590-target-lift-sentiment/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E per ADR. Reported in TWD; 1 ADR = 5 ordinary shares. Model: FY2027 USD revenue x NT$31.8/US$ (TSMC's own Q4 2026 guidance FX assumption; a dated market spot rate for 2026-11-13 could not be sourced, Q3 release implies about NT$32.0) x operating margin x 0.87 net-income-to-operating-income ratio (Q3 2026: NT$763.06bn / ~NT$877bn) / 25.93bn diluted shares (NT$763.06bn / NT$29.43 Q3 EPS) = NT$ EPS per ordinary share; x5 / 31.8 = US$ EPS per ADR; x P/E applied to FY2027 EPS at the Nov-2027 target date. FY2026 USD revenue about US$176bn built from Q1-Q3 reported (Q3 US$46.72bn) plus Q4 guidance midpoint US$53.3bn. Dividends excluded (price-only).",
+    "bear": 258.0,
+    "base": 457.0,
+    "bull": 582.0,
+    "cases": {
+      "bear": {"driver": "AI capex digestion: FY2027 USD revenue +12% (about US$197bn), 2nm/overseas dilution takes operating margin to 52%", "assumption": "EPS NT$109.5 per share = US$17.21 per ADR at 15x", "target": 258.0},
+      "base": {"driver": "Q4 2026 exit run-rate carries over: FY2027 USD revenue +28% (about US$225bn), operating margin 57.5% (Q4 guide 56.5-58.5%)", "assumption": "EPS NT$138.3 per share = US$21.75 per ADR at 21x", "target": 457.0},
+      "bull": {"driver": "AI demand exceeds supply through 2027: FY2027 USD revenue +38% (about US$243bn), operating margin 59.5%", "assumption": "EPS NT$154.3 per share = US$24.26 per ADR at 24x", "target": 582.0}
+    },
+    "implied_by_close": "At base EPS US$21.75 the US$398.73 close implies 18.3x; the unweighted mean of the four post-Q3-window named targets in the sample (about US$588) implies 27.0x, or EPS of about US$28 at 21x (about 29% above the model).",
+    "sensitivity": "One turn of P/E moves the base target by US$21.75 (5.5 pp of the close). A 1 pp change in FY2027 operating margin moves base EPS and target by about 1.7% (US$8).",
+    "watch_metric": "Quarterly USD revenue growth and gross/operating margin (Q4 2026 guide: revenue US$52.3-54.3bn, gross margin 65-67%, operating margin 56.5-58.5%) plus 2027 capex commentary",
+    "next_disclosure": "Q4 2026 earnings release, expected mid-January 2027 (date not yet confirmed in sources)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Named targets in the sample moved up after the Q3 2026 print (Barclays 670, Needham 560, Stifel 520; Bernstein 600 in early November), all well above the US$457 base case; the gap is about 29% in EPS at 21x or about 6 turns of P/E at base EPS (27.0x vs 21x). Seats are mostly unnamed in the sources and none documents a 12-month horizon, so horizon is null and the sample is excluded from the weighted target. Bank of America reportedly lifted to 620 before earnings but only one undated source supports it, so it is not entered. Coverage is a small, aggregator-sourced subset.",
+  "sources": [
+    {"label": "TSMC Q3 2026 earnings release (EPS NT$29.43, US$4.60 per ADR)", "url": "https://pr.tsmc.com/english/news/3346", "supports": "Q3 net income, EPS, share count, ADR EPS"},
+    {"label": "TSMC Form 6-K Q3 2026 with guidance", "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm", "supports": "Q4 revenue/margin guidance, NT$31.8 FX assumption, capex"},
+    {"label": "TSMC Q1 2026 EPS release", "url": "https://pr.tsmc.com/english/news/3297", "supports": "Q1 EPS NT$22.08"},
+    {"label": "TSMC Q2 2026 EPS release", "url": "https://pr.tsmc.com/english/news/3326", "supports": "Q2 EPS NT$27.25"},
+    {"label": "TSMC Q3 2026 call transcript", "url": "https://www.fool.com/earnings/call-transcripts/2026/10/15/tsmc-tsm-q3-2026-earnings-call-transcript/", "supports": "FY2026 growth outlook about 44% USD, margin dilution"},
+    {"label": "Bernstein $600 target", "url": "https://cryptobriefing.com/bernstein-raises-tsmc-price-target-600/", "supports": "Bernstein/Mark Li targets 554 and 600"},
+    {"label": "Barclays $670 target", "url": "https://pluang.com/en/news-feed/tsmc-barclays-naikkan-target-harga-670", "supports": "Barclays 670 from 665"},
+    {"label": "MarketBeat Needham July 2026", "url": "https://www.marketbeat.com/instant-alerts/needham-company-llc-raises-taiwan-semiconductor-manufacturing-nysetsm-price-target-to-53000-2026-07-27/", "supports": "Needham 530 and Susquehanna 600"},
+    {"label": "TradingKey Q3 preview/post targets", "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262213491-tsmc-q3-earnings-preview-profits-hit-record-high-sixth-straight-quarter-tradingkey", "supports": "Needham 560 (Oct 15)"},
+    {"label": "Investing.com TSM consensus table", "url": "https://www.investing.com/equities/taiwan-semicond.manufacturing-co-consensus-estimates", "supports": "Stifel 520 (Oct 15)"},
+    {"label": "FXLeaders BofA $590", "url": "https://www.fxleaders.com/news/2026/06/25/taiwan-semiconductor-stock-tsm-gains-5-as-ai-pricing-power-and-bofas-590-target-lift-sentiment/", "supports": "Bank of America 590 from 490, Buy"}
+  ]
+}

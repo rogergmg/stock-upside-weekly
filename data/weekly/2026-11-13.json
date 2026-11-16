@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-16T16:05:12.567299+00:00",
+  "built_at": "2026-11-16T16:25:21.698895+00:00",
   "fetched_at": "2026-11-16T16:01:57.732592+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -12562,13 +12562,13 @@
             "target": 297.0
           }
         },
-        "implied_by_close": "At base EPS $14.50 the $162.85 close implies 11.2x. The recency-weighted analyst target (about $275-280 by my rough calc, see engine output) implies roughly 19x at base EPS, or EPS near $19.80 at 14x.",
+        "implied_by_close": "At base EPS $14.50 the $162.85 close implies 11.2x. The engine's only active 12-month-horizon target (Baird $200) implies 13.8x base EPS, or EPS $14.29 at 14x; the broader named-target set (Wedbush $275, Morgan Stanley $300, Oppenheimer $315, Goldman $300, Truist $346) implies roughly 19-24x base EPS.",
         "sensitivity": "One turn of P/E moves the base target by $14.50 (8.9 pp of the close); $1 of EPS moves it by $14.",
         "watch_metric": "Data center revenue and Q4 FY27 revenue guidance versus the $108B Q3 guide, plus gross margin at or above 74% and commentary on Rubin timing and China",
         "next_disclosure": "Q3 FY2027 results, scheduled Nov 17, 2026 (after close; date per company notice, results not yet released as of Nov 16)"
       },
       "dividend_per_share": 1.0,
-      "analyst_notes": "Named calls before the Nov 13 close split into stale post-Q2 raises (Aug 27: Wedbush, Truist, Morgan Stanley, Oppenheimer, Goldman at $300-346) and sharp November resets (Wedbush $345 to $275, Baird $500 to $200 with a downgrade to Neutral). The weighted target is pulled toward the older, higher targets, and only two named analysts updated after the Huang resignation news. Many other cuts reported (HSBC Hold $170, Evercore, Rosenblatt, Bernstein, Craig-Hallum, BofA) lacked a named analyst or a verifiable pre-close time and are excluded, as are Nov 16 cuts (Barclays, TD Cowen, Mizuho) that postdate the reference close. The Street's roughly $270 aggregate implies about 19x my base EPS, versus Wedbush's 17.5x on its $15.53 FY2028 EPS; the gap is mostly multiple, since my EPS is only about 7% below consensus.",
+      "analyst_notes": "Named calls before the Nov 13 close split into stale post-Q2 raises (Aug 27: Wedbush, Truist, Morgan Stanley, Oppenheimer, Goldman at $300-346) and sharp November resets (Wedbush $345 to $275, Baird $500 to $200 with a downgrade to Neutral). Only Baird's target documents a 12-month horizon, so the engine's weighted target rests on that single call ($200); the other targets have a null horizon and sit well above it. Many other cuts reported (HSBC Hold $170, Evercore, Rosenblatt, Bernstein, Craig-Hallum, BofA) lacked a named analyst or a verifiable pre-close time and are excluded, as are Nov 16 cuts (Barclays, TD Cowen, Mizuho) that postdate the reference close. Wedbush's $275 uses 17.5x FY2028 EPS of $15.53; my base EPS is about 7% below that, so the gap to the Street is mostly multiple.",
       "sources": [
         {
           "label": "8-K Q2 FY2027 press release (SEC)",

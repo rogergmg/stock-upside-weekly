@@ -1,0 +1,47 @@
+{
+  "reference_session": "2026-11-13",
+  "batch": [
+    {
+      "symbol": "AAPL",
+      "yf_symbol": "AAPL",
+      "issuer_id": "Apple Inc.",
+      "name": "Apple Inc.",
+      "currency": "USD",
+      "financial_currency": "USD",
+      "close": 356.27,
+      "close_date": "2026-11-13",
+      "exchange_tz": "America/New_York",
+      "sector": "Technology",
+      "last_researched": null,
+      "file": "research/AAPL.json"
+    },
+    {
+      "symbol": "NVDA",
+      "yf_symbol": "NVDA",
+      "issuer_id": "NVIDIA Corporation",
+      "name": "NVIDIA Corporation",
+      "currency": "USD",
+      "financial_currency": "USD",
+      "close": 162.85,
+      "close_date": "2026-11-13",
+      "exchange_tz": "America/New_York",
+      "sector": "Technology",
+      "last_researched": null,
+      "file": "research/NVDA.json"
+    },
+    {
+      "symbol": "MSFT",
+      "yf_symbol": "MSFT",
+      "issuer_id": "Microsoft Corporation",
+      "name": "Microsoft Corporation",
+      "currency": "USD",
+      "financial_currency": "USD",
+      "close": 523.88,
+      "close_date": "2026-11-13",
+      "exchange_tz": "America/New_York",
+      "sector": "Technology",
+      "last_researched": null,
+      "file": "research/MSFT.json"
+    }
+  ]
+}

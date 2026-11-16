@@ -1,0 +1,315 @@
+{
+ "issuer_id": "Microsoft Corporation",
+ "symbol": "MSFT",
+ "researched_at": "2026-11-16",
+ "research_close": {
+  "close": 523.88,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-28T16:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Billy Fitzsimmons",
+   "firm": "Piper Sandler",
+   "field": "target",
+   "value": 650,
+   "source_prior": 610,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Billy Fitzsimmons",
+   "firm": "Piper Sandler",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Mark Moerdler",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 722,
+   "source_prior": 662,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+  },
+  {
+   "analyst": "Mark Moerdler",
+   "firm": "Bernstein",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+  },
+  {
+   "analyst": "Michael Turrin",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 750,
+   "source_prior": 725,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Michael Turrin",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Brad Reback",
+   "firm": "Stifel",
+   "field": "target",
+   "value": 650,
+   "source_prior": 575,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+  },
+  {
+   "analyst": "Brad Reback",
+   "firm": "Stifel",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+  },
+  {
+   "analyst": "Patrick Walravens",
+   "firm": "Citizens",
+   "field": "target",
+   "value": 625,
+   "source_prior": 550,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Patrick Walravens",
+   "firm": "Citizens",
+   "field": "rating",
+   "value": "Market Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Jackson Ader",
+   "firm": "KeyBanc",
+   "field": "target",
+   "value": 630,
+   "source_prior": 600,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+  },
+  {
+   "analyst": "Jackson Ader",
+   "firm": "KeyBanc",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+  },
+  {
+   "analyst": "Raimo Lenschow",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 610,
+   "source_prior": 600,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Raimo Lenschow",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Tyler Radke",
+   "firm": "Citi",
+   "field": "target",
+   "value": 680,
+   "source_prior": 636,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+  },
+  {
+   "analyst": "Tyler Radke",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+  },
+  {
+   "analyst": "Adam Wood",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 650,
+   "source_prior": 600,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Brian Schwartz",
+   "firm": "Oppenheimer",
+   "field": "target",
+   "value": 625,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Brian Schwartz",
+   "firm": "Oppenheimer",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Rishi Jaluria",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 640,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Rishi Jaluria",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Derrick Wood",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 650,
+   "source_prior": 625,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": 12,
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  },
+  {
+   "analyst": "Derrick Wood",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. EPS is non-GAAP diluted (ex OpenAI/Anthropic investment gains) for FY2028 (Jul 2027-Jun 2028), the forward year an investor is pricing at the Nov 2027 target date. Starting point: FY26 GAAP EPS $17.95 (includes investment gains); Q1 FY27 non-GAAP EPS $4.89 (+18%), revenue $92.3B (+19%), Azure +48%, diluted shares 7,446M, Q2 guide revenue ~$96-97.1B, Azure +49-50% cc, Q2 capex >$50B. My FY27 EPS ~$21.0 (quarterly run-rate $4.89 rising ~$0.2-0.3/qtr). Multiples are my assumptions, not sourced. Price in USD, no FX.",
+  "bear": 408.5,
+  "base": 576.0,
+  "bull": 742.0,
+  "cases": {
+   "bear": {
+    "driver": "AI capex ($170B+ FY27) depreciation outruns Azure revenue; margins compress, growth fades to high single digit",
+    "assumption": "FY28 EPS $21.50 (about flat vs FY27) at 19x",
+    "target": 408.5
+   },
+   "base": {
+    "driver": "Azure sustains ~40% growth through FY27 fading to ~30s; operating margin roughly stable near 46-47% as depreciation offsets scale",
+    "assumption": "FY28 EPS $24.00 (+14% vs FY27 $21.0) at 24x",
+    "target": 576.0
+   },
+   "bull": {
+    "driver": "Capacity additions convert backlog; Azure/Copilot monetization lifts revenue growth to high-teens and margin expands",
+    "assumption": "FY28 EPS $26.50 at 28x",
+    "target": 742.0
+   }
+  },
+  "implied_by_close": "At base FY28 EPS $24.00 the $523.88 close is 21.8x; the recent analyst target cluster (~$657 equal-weight) implies 27.4x on the same EPS or EPS ~$27.4 at 24x (+14% above model).",
+  "sensitivity": "One turn of P/E moves the base target by $24.00 (about 4.6 pp of price return); $1 of FY28 EPS moves it by $24.",
+  "watch_metric": "Azure growth vs the 49-50% constant-currency Q2 guide, together with operating margin and capex/depreciation growth",
+  "next_disclosure": "FY27 Q2 (December quarter) earnings, expected late January 2027 (date not yet confirmed)"
+ },
+ "dividend_per_share": 3.92,
+ "analyst_notes": "After the Oct 28 FY27 Q1 print, all 12 named analysts in the sample (sourced from two third-party roundups dated 29 Oct 2026, not primary notes) raised or reaffirmed targets, from $610 to $750 (Wells Fargo high $750); all stated ratings are Buy-equivalent. Their targets average about $657, equal to ~27.4x my $24 FY28 EPS or EPS near $27.4 at 24x, so the gap to my base case ($576) is mostly multiple/EPS optimism: base upside ~+10% vs analysts ~+25%. Concentration: every call is dated the same day, so recency weighting is flat; Yahoo's published mean is $636 (54 analysts, low $440). Several prior targets are as quoted by the roundup and unverified in the originals.",
+ "sources": [
+  {
+   "label": "Microsoft FY27 Q1 press release (Oct 28, 2026)",
+   "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+   "supports": "Revenue $92.3B, EPS $4.92 GAAP/$4.89 non-GAAP, diluted shares, dividends"
+  },
+  {
+   "label": "Microsoft FY26 Q4 results coverage",
+   "url": "https://ianslive.in/microsoft-q4-revenue-rises-18-pc-to-90-billion-azure-annual-revenue-tops-100-billion--20260730100216",
+   "supports": "FY26 revenue $331.8B, EPS $17.95, capex $116B"
+  },
+  {
+   "label": "Price targets roundup Oct 29 2026",
+   "url": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/",
+   "supports": "Analyst targets, priors and ratings"
+  },
+  {
+   "label": "Newsquawk sell-side post-earnings",
+   "url": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted",
+   "supports": "Bernstein, UBS, Citi, Stifel, KeyBanc target changes"
+  },
+  {
+   "label": "Microsoft capex FY27 and cash flow",
+   "url": "https://investinglive.com/stocks/microsoft-sees-170bn-capex-in-fiscal-2027-but-says-it-will-stay-cash-flow-positive/",
+   "supports": "FY27 capex guidance (~$170B)"
+  },
+  {
+   "label": "Earnings coverage Q2 guidance",
+   "url": "https://redmondmag.com/articles/2026/10/30/microsoft-revenue-jumps-as-azure-and-ai-demand--fuel-growth.aspx",
+   "supports": "Azure +48%, Q2 outlook"
+  }
+ ]
+}

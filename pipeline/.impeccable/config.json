@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "site/template.html"
+        ],
+        "createdAt": "2026-11-16T16:05:26.988Z",
+        "reason": "Claude: flagged pair is dark-theme muted #93a3b4 against light surface #ffffff, which never render together"
+      }
+    ]
+  }
+}

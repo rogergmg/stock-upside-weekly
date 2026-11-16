@@ -1,0 +1,3356 @@
+{
+  "source": "https://api.nasdaq.com/api/screener/stocks",
+  "retrieved_at": "2026-11-16T16:00:47.363735+00:00",
+  "listings_total": 7264,
+  "prefilter_usd": 40000000000,
+  "candidates": [
+    {
+      "symbol": "AAPL",
+      "yf_symbol": "AAPL",
+      "name": "Apple Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Manufacturing",
+      "screener_cap_usd": 5177380481140.0
+    },
+    {
+      "symbol": "NVDA",
+      "yf_symbol": "NVDA",
+      "name": "NVIDIA Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 3924685000000.0
+    },
+    {
+      "symbol": "MSFT",
+      "yf_symbol": "MSFT",
+      "name": "Microsoft Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 3890434801902.0
+    },
+    {
+      "symbol": "GOOGL",
+      "yf_symbol": "GOOGL",
+      "name": "Alphabet Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Programming Data Processing",
+      "screener_cap_usd": 3636196380000.0
+    },
+    {
+      "symbol": "GOOG",
+      "yf_symbol": "GOOG",
+      "name": "Alphabet Inc. Class C Capital Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Programming Data Processing",
+      "screener_cap_usd": 3596240880000.0
+    },
+    {
+      "symbol": "AMZN",
+      "yf_symbol": "AMZN",
+      "name": "Amazon.com Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Catalog/Specialty Distribution",
+      "screener_cap_usd": 2883431460678.0
+    },
+    {
+      "symbol": "TSM",
+      "yf_symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Company Ltd.",
+      "country": "Taiwan",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 2068741211058.0
+    },
+    {
+      "symbol": "SPCX",
+      "yf_symbol": "SPCX",
+      "name": "Space Exploration Technologies Corp. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Programming Data Processing",
+      "screener_cap_usd": 1889261772559.0
+    },
+    {
+      "symbol": "AVGO",
+      "yf_symbol": "AVGO",
+      "name": "Broadcom Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 1656497299454.0
+    },
+    {
+      "symbol": "META",
+      "yf_symbol": "META",
+      "name": "Meta Platforms Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Programming Data Processing",
+      "screener_cap_usd": 1640314449638.0
+    },
+    {
+      "symbol": "TSLA",
+      "yf_symbol": "TSLA",
+      "name": "Tesla Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Auto Manufacturing",
+      "screener_cap_usd": 1542445205688.0
+    },
+    {
+      "symbol": "LLY",
+      "yf_symbol": "LLY",
+      "name": "Eli Lilly and Company Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 1359028494134.0
+    },
+    {
+      "symbol": "BRK/B",
+      "yf_symbol": "BRK-B",
+      "name": "Berkshire Hathaway Inc.",
+      "country": "United States",
+      "sector": "",
+      "industry": "",
+      "screener_cap_usd": 1308629463481.0
+    },
+    {
+      "symbol": "BRK/A",
+      "yf_symbol": "BRK-A",
+      "name": "Berkshire Hathaway Inc.",
+      "country": "United States",
+      "sector": "",
+      "industry": "",
+      "screener_cap_usd": 1304018082857.0
+    },
+    {
+      "symbol": "WMT",
+      "yf_symbol": "WMT",
+      "name": "Walmart Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Department/Specialty Retail Stores",
+      "screener_cap_usd": 1016233556010.0
+    },
+    {
+      "symbol": "SKHY",
+      "yf_symbol": "SKHY",
+      "name": "SK hynix Inc. American Depositary Shares",
+      "country": "South Korea",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 960571842450.0
+    },
+    {
+      "symbol": "JPM",
+      "yf_symbol": "JPM",
+      "name": "JP Morgan Chase & Co. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 919531348586.0
+    },
+    {
+      "symbol": "MU",
+      "yf_symbol": "MU",
+      "name": "Micron Technology Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 880598000132.0
+    },
+    {
+      "symbol": "AMD",
+      "yf_symbol": "AMD",
+      "name": "Advanced Micro Devices Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 875904997269.0
+    },
+    {
+      "symbol": "V",
+      "yf_symbol": "V",
+      "name": "Visa Inc.",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 768236353048.0
+    },
+    {
+      "symbol": "XOM",
+      "yf_symbol": "XOM",
+      "name": "ExxonMobil Holdings Corporation Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 695956141171.0
+    },
+    {
+      "symbol": "JNJ",
+      "yf_symbol": "JNJ",
+      "name": "Johnson & Johnson Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 688755540205.0
+    },
+    {
+      "symbol": "ASML",
+      "yf_symbol": "ASML",
+      "name": "ASML Holding N.V. New York Registry Shares",
+      "country": "Netherlands",
+      "sector": "Technology",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 576261076001.0
+    },
+    {
+      "symbol": "MA",
+      "yf_symbol": "MA",
+      "name": "Mastercard Incorporated Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 576117475949.0
+    },
+    {
+      "symbol": "ABBV",
+      "yf_symbol": "ABBV",
+      "name": "AbbVie Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 521747305042.0
+    },
+    {
+      "symbol": "COST",
+      "yf_symbol": "COST",
+      "name": "Costco Wholesale Corporation Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Department/Specialty Retail Stores",
+      "screener_cap_usd": 490194117157.0
+    },
+    {
+      "symbol": "CVX",
+      "yf_symbol": "CVX",
+      "name": "Chevron Corporation Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 432156920318.0
+    },
+    {
+      "symbol": "KO",
+      "yf_symbol": "KO",
+      "name": "Coca-Cola Company (The) Common Stock",
+      "country": "United States",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 427006825772.0
+    },
+    {
+      "symbol": "PLTR",
+      "yf_symbol": "PLTR",
+      "name": "Palantir Technologies Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 404771480657.0
+    },
+    {
+      "symbol": "PG",
+      "yf_symbol": "PG",
+      "name": "Procter & Gamble Company (The) Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Package Goods/Cosmetics",
+      "screener_cap_usd": 393721822501.0
+    },
+    {
+      "symbol": "ORCL",
+      "yf_symbol": "ORCL",
+      "name": "Oracle Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 379085782320.0
+    },
+    {
+      "symbol": "CSCO",
+      "yf_symbol": "CSCO",
+      "name": "Cisco Systems Inc. Common Stock (DE)",
+      "country": "United States",
+      "sector": "Telecommunications",
+      "industry": "Computer Communications Equipment",
+      "screener_cap_usd": 377069008534.0
+    },
+    {
+      "symbol": "UNH",
+      "yf_symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated Common Stock (DE)",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical Specialities",
+      "screener_cap_usd": 365236736696.0
+    },
+    {
+      "symbol": "MRK",
+      "yf_symbol": "MRK",
+      "name": "Merck & Company Inc. Common Stock (new)",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 364314007773.0
+    },
+    {
+      "symbol": "BAC",
+      "yf_symbol": "BAC",
+      "name": "Bank of America Corporation Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 352048663486.0
+    },
+    {
+      "symbol": "HD",
+      "yf_symbol": "HD",
+      "name": "Home Depot Inc. (The) Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "RETAIL: Building Materials",
+      "screener_cap_usd": 347954233964.0
+    },
+    {
+      "symbol": "GE",
+      "yf_symbol": "GE",
+      "name": "GE Aerospace Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Consumer Electronics/Appliances",
+      "screener_cap_usd": 342855833869.0
+    },
+    {
+      "symbol": "INTC",
+      "yf_symbol": "INTC",
+      "name": "Intel Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 317092900000.0
+    },
+    {
+      "symbol": "PM",
+      "yf_symbol": "PM",
+      "name": "Philip Morris International Inc Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": " Medicinal Chemicals and Botanical Products ",
+      "screener_cap_usd": 310172470171.0
+    },
+    {
+      "symbol": "HSBC",
+      "yf_symbol": "HSBC",
+      "name": "HSBC Holdings plc. Common Stock",
+      "country": "United Kingdom",
+      "sector": "Finance",
+      "industry": "Savings Institutions",
+      "screener_cap_usd": 307730116938.0
+    },
+    {
+      "symbol": "NVS",
+      "yf_symbol": "NVS",
+      "name": "Novartis AG Common Stock",
+      "country": "Switzerland",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 306315589030.0
+    },
+    {
+      "symbol": "MS",
+      "yf_symbol": "MS",
+      "name": "Morgan Stanley Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 298351600000.0
+    },
+    {
+      "symbol": "AMAT",
+      "yf_symbol": "AMAT",
+      "name": "Applied Materials Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 294027852632.0
+    },
+    {
+      "symbol": "SAP",
+      "yf_symbol": "SAP",
+      "name": "SAP  SE ADS",
+      "country": "Germany",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 288600214181.0
+    },
+    {
+      "symbol": "AZN",
+      "yf_symbol": "AZN",
+      "name": "AstraZeneca PLC Ordinary Shares",
+      "country": "United Kingdom",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 286108922831.0
+    },
+    {
+      "symbol": "LRCX",
+      "yf_symbol": "LRCX",
+      "name": "Lam Research Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 282212712320.0
+    },
+    {
+      "symbol": "RY",
+      "yf_symbol": "RY",
+      "name": "Royal Bank Of Canada Common Stock",
+      "country": "Canada",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 280153214126.0
+    },
+    {
+      "symbol": "TXN",
+      "yf_symbol": "TXN",
+      "name": "Texas Instruments Incorporated Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 277420667938.0
+    },
+    {
+      "symbol": "TM",
+      "yf_symbol": "TM",
+      "name": "Toyota Motor Corporation Common Stock",
+      "country": "Japan",
+      "sector": "Industrials",
+      "industry": "Auto Manufacturing",
+      "screener_cap_usd": 276879816839.0
+    },
+    {
+      "symbol": "CAT",
+      "yf_symbol": "CAT",
+      "name": "Caterpillar Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Construction/Ag Equipment/Trucks",
+      "screener_cap_usd": 274638871351.0
+    },
+    {
+      "symbol": "SHEL",
+      "yf_symbol": "SHEL",
+      "name": "Shell PLC American Depositary Shares (each representing two (2) Ordinary Shares) ",
+      "country": "Netherlands",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 274076327252.0
+    },
+    {
+      "symbol": "RTX",
+      "yf_symbol": "RTX",
+      "name": "RTX Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Aerospace",
+      "screener_cap_usd": 268052870455.0
+    },
+    {
+      "symbol": "GS",
+      "yf_symbol": "GS",
+      "name": "Goldman Sachs Group Inc. (The) Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 264263764945.0
+    },
+    {
+      "symbol": "PANW",
+      "yf_symbol": "PANW",
+      "name": "Palo Alto Networks Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer peripheral equipment",
+      "screener_cap_usd": 263735108411.0
+    },
+    {
+      "symbol": "TMO",
+      "yf_symbol": "TMO",
+      "name": "Thermo Fisher Scientific Inc Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 259483377836.0
+    },
+    {
+      "symbol": "MUFG",
+      "yf_symbol": "MUFG",
+      "name": "Mitsubishi UFJ Financial Group Inc. Common Stock",
+      "country": "Japan",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 259190806493.0
+    },
+    {
+      "symbol": "WFC",
+      "yf_symbol": "WFC",
+      "name": "Wells Fargo & Company Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 258279201275.0
+    },
+    {
+      "symbol": "NFLX",
+      "yf_symbol": "NFLX",
+      "name": "Netflix Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Consumer Electronics/Video Chains",
+      "screener_cap_usd": 255208154871.0
+    },
+    {
+      "symbol": "AMGN",
+      "yf_symbol": "AMGN",
+      "name": "Amgen Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "screener_cap_usd": 251886253548.0
+    },
+    {
+      "symbol": "ANET",
+      "yf_symbol": "ANET",
+      "name": "Arista Networks Inc. Common Stock",
+      "country": "United States",
+      "sector": "Telecommunications",
+      "industry": "Computer Communications Equipment",
+      "screener_cap_usd": 249382986906.0
+    },
+    {
+      "symbol": "LIN",
+      "yf_symbol": "LIN",
+      "name": "Linde plc Ordinary Shares",
+      "country": "United States",
+      "sector": "Basic Materials",
+      "industry": "Major Chemicals",
+      "screener_cap_usd": 241505612781.0
+    },
+    {
+      "symbol": "IBM",
+      "yf_symbol": "IBM",
+      "name": "International Business Machines Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Manufacturing",
+      "screener_cap_usd": 233577155748.0
+    },
+    {
+      "symbol": "CRWD",
+      "yf_symbol": "CRWD",
+      "name": "CrowdStrike Holdings Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 232033874546.0
+    },
+    {
+      "symbol": "CCZ",
+      "yf_symbol": "CCZ",
+      "name": "Comcast Holdings ZONES",
+      "country": "United States",
+      "sector": "Telecommunications",
+      "industry": "Cable & Other Pay Television Services",
+      "screener_cap_usd": 220695043720.0
+    },
+    {
+      "symbol": "DELL",
+      "yf_symbol": "DELL",
+      "name": "Dell Technologies Inc. Class C Common Stock ",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Manufacturing",
+      "screener_cap_usd": 218897613570.0
+    },
+    {
+      "symbol": "AXP",
+      "yf_symbol": "AXP",
+      "name": "American Express Company Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Finance: Consumer Services",
+      "screener_cap_usd": 214975624211.0
+    },
+    {
+      "symbol": "GEV",
+      "yf_symbol": "GEV",
+      "name": "GE Vernova Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Consumer Electronics/Appliances",
+      "screener_cap_usd": 212461574420.0
+    },
+    {
+      "symbol": "GILD",
+      "yf_symbol": "GILD",
+      "name": "Gilead Sciences Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "screener_cap_usd": 208476114241.0
+    },
+    {
+      "symbol": "DIS",
+      "yf_symbol": "DIS",
+      "name": "Walt Disney Company (The) Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Services-Misc. Amusement & Recreation",
+      "screener_cap_usd": 205423940731.0
+    },
+    {
+      "symbol": "C",
+      "yf_symbol": "C",
+      "name": "Citigroup Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 205244800000.0
+    },
+    {
+      "symbol": "ARM",
+      "yf_symbol": "ARM",
+      "name": "Arm Holdings plc American Depositary Shares",
+      "country": "United Kingdom",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 202734447164.0
+    },
+    {
+      "symbol": "TD",
+      "yf_symbol": "TD",
+      "name": "Toronto Dominion Bank (The) Common Stock",
+      "country": "Canada",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 202214246493.0
+    },
+    {
+      "symbol": "BHP",
+      "yf_symbol": "BHP",
+      "name": "BHP Group Limited American Depositary Shares (Each representing two Ordinary Shares)",
+      "country": "Australia",
+      "sector": "Energy",
+      "industry": "Coal Mining",
+      "screener_cap_usd": 202070829885.0
+    },
+    {
+      "symbol": "KLAC",
+      "yf_symbol": "KLAC",
+      "name": "KLA Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "screener_cap_usd": 198467238099.0
+    },
+    {
+      "symbol": "PEP",
+      "yf_symbol": "PEP",
+      "name": "PepsiCo Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 198197064420.0
+    },
+    {
+      "symbol": "TTE",
+      "yf_symbol": "TTE",
+      "name": "TotalEnergies SE Ordinary Shares",
+      "country": "France",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 198069414567.0
+    },
+    {
+      "symbol": "APH",
+      "yf_symbol": "APH",
+      "name": "Amphenol Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Electrical Products",
+      "screener_cap_usd": 193269073185.0
+    },
+    {
+      "symbol": "ADI",
+      "yf_symbol": "ADI",
+      "name": "Analog Devices Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 192842518106.0
+    },
+    {
+      "symbol": "VZ",
+      "yf_symbol": "VZ",
+      "name": "Verizon Communications Inc. Common Stock",
+      "country": "United States",
+      "sector": "Telecommunications",
+      "industry": "Telecommunications Equipment",
+      "screener_cap_usd": 192185024840.0
+    },
+    {
+      "symbol": "MCD",
+      "yf_symbol": "MCD",
+      "name": "McDonald's Corporation Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Restaurants",
+      "screener_cap_usd": 191959334673.0
+    },
+    {
+      "symbol": "SHOP",
+      "yf_symbol": "SHOP",
+      "name": "Shopify Inc. Class A Subordinate Voting Shares",
+      "country": "Canada",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 189234522892.0
+    },
+    {
+      "symbol": "BLK",
+      "yf_symbol": "BLK",
+      "name": "BlackRock Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 188844401541.0
+    },
+    {
+      "symbol": "ABT",
+      "yf_symbol": "ABT",
+      "name": "Abbott Laboratories Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 188071538453.0
+    },
+    {
+      "symbol": "QCOM",
+      "yf_symbol": "QCOM",
+      "name": "QUALCOMM Incorporated Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Radio And Television Broadcasting And Communications Equipment",
+      "screener_cap_usd": 184542900000.0
+    },
+    {
+      "symbol": "NVO",
+      "yf_symbol": "NVO",
+      "name": "Novo Nordisk A/S Common Stock",
+      "country": "Denmark",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 184401166505.0
+    },
+    {
+      "symbol": "DE",
+      "yf_symbol": "DE",
+      "name": "Deere & Company Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 181571144949.0
+    },
+    {
+      "symbol": "TMUS",
+      "yf_symbol": "TMUS",
+      "name": "T-Mobile US Inc. Common Stock",
+      "country": "United States",
+      "sector": "Telecommunications",
+      "industry": "Telecommunications Equipment",
+      "screener_cap_usd": 180023373441.0
+    },
+    {
+      "symbol": "UNP",
+      "yf_symbol": "UNP",
+      "name": "Union Pacific Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "screener_cap_usd": 179814233377.0
+    },
+    {
+      "symbol": "WELL",
+      "yf_symbol": "WELL",
+      "name": "Welltower Inc. Common Stock",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 179389619799.0
+    },
+    {
+      "symbol": "CRM",
+      "yf_symbol": "CRM",
+      "name": "Salesforce Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 179315240000.0
+    },
+    {
+      "symbol": "NEE",
+      "yf_symbol": "NEE",
+      "name": "NextEra Energy Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Electric Utilities: Central",
+      "screener_cap_usd": 178585610072.0
+    },
+    {
+      "symbol": "SAN",
+      "yf_symbol": "SAN",
+      "name": "Banco Santander S.A. Sponsored ADR (Spain)",
+      "country": "Spain",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 176519069365.0
+    },
+    {
+      "symbol": "WMB",
+      "yf_symbol": "WMB",
+      "name": "Williams Companies Inc. (The) Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Natural Gas Distribution",
+      "screener_cap_usd": 175547729226.0
+    },
+    {
+      "symbol": "COP",
+      "yf_symbol": "COP",
+      "name": "ConocoPhillips Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 168317218715.0
+    },
+    {
+      "symbol": "ACN",
+      "yf_symbol": "ACN",
+      "name": "Accenture plc Class A Ordinary Shares (Ireland)",
+      "country": "Ireland",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 167635435014.0
+    },
+    {
+      "symbol": "BUD",
+      "yf_symbol": "BUD",
+      "name": "Anheuser-Busch Inbev SA Sponsored ADR (Belgium)",
+      "country": "Belgium",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 167256604310.0
+    },
+    {
+      "symbol": "PFE",
+      "yf_symbol": "PFE",
+      "name": "Pfizer Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 164697273615.0
+    },
+    {
+      "symbol": "DHR",
+      "yf_symbol": "DHR",
+      "name": "Danaher Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 163964891744.0
+    },
+    {
+      "symbol": "SCHW",
+      "yf_symbol": "SCHW",
+      "name": "Charles Schwab Corporation (The) Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 160466936334.0
+    },
+    {
+      "symbol": "SONY",
+      "yf_symbol": "SONY",
+      "name": "Sony Group Corporation American Depositary Shares ",
+      "country": "Japan",
+      "sector": "Consumer Staples",
+      "industry": "Consumer Electronics/Appliances",
+      "screener_cap_usd": 159576662374.0
+    },
+    {
+      "symbol": "SMFG",
+      "yf_symbol": "SMFG",
+      "name": "Sumitomo Mitsui Financial Group Inc Unsponsored American Depositary Shares (Japan)",
+      "country": "Japan",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 157888350036.0
+    },
+    {
+      "symbol": "ISRG",
+      "yf_symbol": "ISRG",
+      "name": "Intuitive Surgical Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Industrial Specialties",
+      "screener_cap_usd": 153767686868.0
+    },
+    {
+      "symbol": "UBS",
+      "yf_symbol": "UBS",
+      "name": "UBS Group AG Registered Ordinary Shares",
+      "country": "Switzerland",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 149957991715.0
+    },
+    {
+      "symbol": "T",
+      "yf_symbol": "T",
+      "name": "AT&T Inc.",
+      "country": "United States",
+      "sector": "Telecommunications",
+      "industry": "Telecommunications Equipment",
+      "screener_cap_usd": 149448663111.0
+    },
+    {
+      "symbol": "TJX",
+      "yf_symbol": "TJX",
+      "name": "TJX Companies Inc. (The) Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Clothing/Shoe/Accessory Stores",
+      "screener_cap_usd": 147820014187.0
+    },
+    {
+      "symbol": "BBVA",
+      "yf_symbol": "BBVA",
+      "name": "Banco Bilbao Vizcaya Argentaria S.A. Common Stock",
+      "country": "Spain",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 147047734528.0
+    },
+    {
+      "symbol": "CB",
+      "yf_symbol": "CB",
+      "name": "Chubb Limited  Common Stock",
+      "country": "Switzerland",
+      "sector": "Finance",
+      "industry": "Property-Casualty Insurers",
+      "screener_cap_usd": 143585371628.0
+    },
+    {
+      "symbol": "UL",
+      "yf_symbol": "UL",
+      "name": "Unilever PLC American Depositary Shares (each representing One Ordinary Share)",
+      "country": "United Kingdom",
+      "sector": "Consumer Discretionary",
+      "industry": "Package Goods/Cosmetics",
+      "screener_cap_usd": 142638013446.0
+    },
+    {
+      "symbol": "UBER",
+      "yf_symbol": "UBER",
+      "name": "Uber Technologies Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 142259038537.0
+    },
+    {
+      "symbol": "SCCO",
+      "yf_symbol": "SCCO",
+      "name": "Southern Copper Corporation Common Stock",
+      "country": "United States",
+      "sector": "Basic Materials",
+      "industry": "Metal Mining",
+      "screener_cap_usd": 138535621369.0
+    },
+    {
+      "symbol": "LMT",
+      "yf_symbol": "LMT",
+      "name": "Lockheed Martin Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Military/Government/Technical",
+      "screener_cap_usd": 137669525254.0
+    },
+    {
+      "symbol": "MRVL",
+      "yf_symbol": "MRVL",
+      "name": "Marvell Technology Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 137462844000.0
+    },
+    {
+      "symbol": "SPGI",
+      "yf_symbol": "SPGI",
+      "name": "S&P Global Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Finance: Consumer Services",
+      "screener_cap_usd": 137325630000.0
+    },
+    {
+      "symbol": "ETN",
+      "yf_symbol": "ETN",
+      "name": "Eaton Corporation PLC Ordinary Shares",
+      "country": "Ireland",
+      "sector": "Technology",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 137128845000.0
+    },
+    {
+      "symbol": "PGR",
+      "yf_symbol": "PGR",
+      "name": "Progressive Corporation (The) Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Property-Casualty Insurers",
+      "screener_cap_usd": 136590426378.0
+    },
+    {
+      "symbol": "VRTX",
+      "yf_symbol": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorporated Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 136555391216.0
+    },
+    {
+      "symbol": "BA",
+      "yf_symbol": "BA",
+      "name": "Boeing Company (The) Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Aerospace",
+      "screener_cap_usd": 135944787207.0
+    },
+    {
+      "symbol": "APP",
+      "yf_symbol": "APP",
+      "name": "Applovin Corporation Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Programming Data Processing",
+      "screener_cap_usd": 135543858019.0
+    },
+    {
+      "symbol": "BTI",
+      "yf_symbol": "BTI",
+      "name": "British American Tobacco  Industries p.l.c. Common Stock ADR",
+      "country": "United Kingdom",
+      "sector": "Health Care",
+      "industry": " Medicinal Chemicals and Botanical Products ",
+      "screener_cap_usd": 133681440383.0
+    },
+    {
+      "symbol": "HDB",
+      "yf_symbol": "HDB",
+      "name": "HDFC Bank Limited Common Stock",
+      "country": "India",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 132562556918.0
+    },
+    {
+      "symbol": "MDT",
+      "yf_symbol": "MDT",
+      "name": "Medtronic plc. Ordinary Shares",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+      "screener_cap_usd": 131597706123.0
+    },
+    {
+      "symbol": "MO",
+      "yf_symbol": "MO",
+      "name": "Altria Group Inc.",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": " Medicinal Chemicals and Botanical Products ",
+      "screener_cap_usd": 130862582103.0
+    },
+    {
+      "symbol": "BMY",
+      "yf_symbol": "BMY",
+      "name": "Bristol-Myers Squibb Company Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 129646143831.0
+    },
+    {
+      "symbol": "SPOT",
+      "yf_symbol": "SPOT",
+      "name": "Spotify Technology S.A. Ordinary Shares",
+      "country": "Luxembourg",
+      "sector": "Consumer Discretionary",
+      "industry": "Broadcasting",
+      "screener_cap_usd": 129146463856.0
+    },
+    {
+      "symbol": "MFG",
+      "yf_symbol": "MFG",
+      "name": "Mizuho Financial Group Inc. Sponosred ADR (Japan)",
+      "country": "Japan",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 128849664740.0
+    },
+    {
+      "symbol": "LOW",
+      "yf_symbol": "LOW",
+      "name": "Lowe's Companies Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "RETAIL: Building Materials",
+      "screener_cap_usd": 127847379310.0
+    },
+    {
+      "symbol": "MCK",
+      "yf_symbol": "MCK",
+      "name": "McKesson Corporation Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Other Pharmaceuticals",
+      "screener_cap_usd": 127316949809.0
+    },
+    {
+      "symbol": "SNDK",
+      "yf_symbol": "SNDK",
+      "name": "Sandisk Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "screener_cap_usd": 125927510919.0
+    },
+    {
+      "symbol": "IBN",
+      "yf_symbol": "IBN",
+      "name": "ICICI Bank Limited Common Stock",
+      "country": "India",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 123547742395.0
+    },
+    {
+      "symbol": "PLD",
+      "yf_symbol": "PLD",
+      "name": "Prologis Inc. Common Stock",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 122378548750.0
+    },
+    {
+      "symbol": "ADP",
+      "yf_symbol": "ADP",
+      "name": "Automatic Data Processing Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "EDP Services",
+      "screener_cap_usd": 122347790760.0
+    },
+    {
+      "symbol": "SBUX",
+      "yf_symbol": "SBUX",
+      "name": "Starbucks Corporation Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Restaurants",
+      "screener_cap_usd": 121352244000.0
+    },
+    {
+      "symbol": "STX",
+      "yf_symbol": "STX",
+      "name": "Seagate Technology Holdings PLC Ordinary Shares (Ireland)",
+      "country": "Ireland",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "screener_cap_usd": 121274838274.0
+    },
+    {
+      "symbol": "PH",
+      "yf_symbol": "PH",
+      "name": "Parker-Hannifin Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Metal Fabrications",
+      "screener_cap_usd": 120491792462.0
+    },
+    {
+      "symbol": "BMO",
+      "yf_symbol": "BMO",
+      "name": "Bank Of Montreal Common Stock",
+      "country": "Canada",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 120456009211.0
+    },
+    {
+      "symbol": "BP",
+      "yf_symbol": "BP",
+      "name": "BP p.l.c. Common Stock",
+      "country": "United Kingdom",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 119639419326.0
+    },
+    {
+      "symbol": "BKNG",
+      "yf_symbol": "BKNG",
+      "name": "Booking Holdings Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Transportation Services",
+      "screener_cap_usd": 118679846592.0
+    },
+    {
+      "symbol": "PBR",
+      "yf_symbol": "PBR",
+      "name": "Petroleo Brasileiro S.A. Petrobras ADS",
+      "country": "Brazil",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 118254123091.0
+    },
+    {
+      "symbol": "SNY",
+      "yf_symbol": "SNY",
+      "name": "Sanofi ADS",
+      "country": "France",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 117967377267.0
+    },
+    {
+      "symbol": "SYK",
+      "yf_symbol": "SYK",
+      "name": "Stryker Corporation Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical/Dental Instruments",
+      "screener_cap_usd": 117873355569.0
+    },
+    {
+      "symbol": "NEM",
+      "yf_symbol": "NEM",
+      "name": "Newmont Corporation",
+      "country": "United States",
+      "sector": "Basic Materials",
+      "industry": "Precious Metals",
+      "screener_cap_usd": 117636668542.0
+    },
+    {
+      "symbol": "COF",
+      "yf_symbol": "COF",
+      "name": "Capital One Financial Corporation Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 117377164145.0
+    },
+    {
+      "symbol": "CVS",
+      "yf_symbol": "CVS",
+      "name": "CVS Health Corporation Common Stock",
+      "country": "United States",
+      "sector": "Consumer Staples",
+      "industry": "Retail-Drug Stores and Proprietary Stores",
+      "screener_cap_usd": 114301826585.0
+    },
+    {
+      "symbol": "CME",
+      "yf_symbol": "CME",
+      "name": "CME Group Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 113811438037.0
+    },
+    {
+      "symbol": "BNS",
+      "yf_symbol": "BNS",
+      "name": "Bank Nova Scotia Halifax Pfd 3 Ordinary Shares",
+      "country": "Canada",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 113551438042.0
+    },
+    {
+      "symbol": "MPC",
+      "yf_symbol": "MPC",
+      "name": "Marathon Petroleum Corporation Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 112915461516.0
+    },
+    {
+      "symbol": "PDD",
+      "yf_symbol": "PDD",
+      "name": "PDD Holdings Inc. American Depositary Shares",
+      "country": "China",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 112405618604.0
+    },
+    {
+      "symbol": "WDC",
+      "yf_symbol": "WDC",
+      "name": "Western Digital Corporation Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "screener_cap_usd": 110668674480.0
+    },
+    {
+      "symbol": "ABNB",
+      "yf_symbol": "ABNB",
+      "name": "Airbnb Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Diversified Commercial Services",
+      "screener_cap_usd": 109741131556.0
+    },
+    {
+      "symbol": "NET",
+      "yf_symbol": "NET",
+      "name": "Cloudflare Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 109628606882.0
+    },
+    {
+      "symbol": "SO",
+      "yf_symbol": "SO",
+      "name": "Southern Company (The) Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Electric Utilities: Central",
+      "screener_cap_usd": 108974832314.0
+    },
+    {
+      "symbol": "MAR",
+      "yf_symbol": "MAR",
+      "name": "Marriott International Class A Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Hotels/Resorts",
+      "screener_cap_usd": 108965560635.0
+    },
+    {
+      "symbol": "EQNR",
+      "yf_symbol": "EQNR",
+      "name": "Equinor ASA",
+      "country": "Norway",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 107411643449.0
+    },
+    {
+      "symbol": "ENB",
+      "yf_symbol": "ENB",
+      "name": "Enbridge Inc Common Stock",
+      "country": "Canada",
+      "sector": "Energy",
+      "industry": "Natural Gas Distribution",
+      "screener_cap_usd": 106262239595.0
+    },
+    {
+      "symbol": "NOW",
+      "yf_symbol": "NOW",
+      "name": "ServiceNow Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 106166640000.0
+    },
+    {
+      "symbol": "VLO",
+      "yf_symbol": "VLO",
+      "name": "Valero Energy Corporation Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 105900773212.0
+    },
+    {
+      "symbol": "CM",
+      "yf_symbol": "CM",
+      "name": "Canadian Imperial Bank of Commerce Common Stock",
+      "country": "Canada",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 105082303631.0
+    },
+    {
+      "symbol": "EQIX",
+      "yf_symbol": "EQIX",
+      "name": "Equinix Inc. Common Stock REIT",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 104312899625.0
+    },
+    {
+      "symbol": "HCA",
+      "yf_symbol": "HCA",
+      "name": "HCA Healthcare Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Hospital/Nursing Management",
+      "screener_cap_usd": 104222735025.0
+    },
+    {
+      "symbol": "RIO",
+      "yf_symbol": "RIO",
+      "name": "Rio Tinto Plc Common Stock",
+      "country": "Australia",
+      "sector": "Basic Materials",
+      "industry": "Metal Mining",
+      "screener_cap_usd": 104194680736.0
+    },
+    {
+      "symbol": "PSX",
+      "yf_symbol": "PSX",
+      "name": "Phillips 66 Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 103326267970.0
+    },
+    {
+      "symbol": "BNY",
+      "yf_symbol": "BNY",
+      "name": "The Bank of New York Mellon Corporation Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 103209170396.0
+    },
+    {
+      "symbol": "SNOW",
+      "yf_symbol": "SNOW",
+      "name": "Snowflake Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 102664800000.0
+    },
+    {
+      "symbol": "GSK",
+      "yf_symbol": "GSK",
+      "name": "GSK plc American Depositary Shares (Each representing two Ordinary Shares)",
+      "country": "United Kingdom",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 102065725737.0
+    },
+    {
+      "symbol": "CNQ",
+      "yf_symbol": "CNQ",
+      "name": "Canadian Natural Resources Limited Common Stock",
+      "country": "Canada",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 101754591380.0
+    },
+    {
+      "symbol": "DUK",
+      "yf_symbol": "DUK",
+      "name": "Duke Energy Corporation (Holding Company) Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Power Generation",
+      "screener_cap_usd": 100714920723.0
+    },
+    {
+      "symbol": "BN",
+      "yf_symbol": "BN",
+      "name": "Brookfield Corporation Class A Limited Voting Shares",
+      "country": "Canada",
+      "sector": "Real Estate",
+      "industry": "Building operators",
+      "screener_cap_usd": 100419467523.0
+    },
+    {
+      "symbol": "ICE",
+      "yf_symbol": "ICE",
+      "name": "Intercontinental Exchange Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 99750637958.0
+    },
+    {
+      "symbol": "REGN",
+      "yf_symbol": "REGN",
+      "name": "Regeneron Pharmaceuticals Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 98841325839.0
+    },
+    {
+      "symbol": "MRSH",
+      "yf_symbol": "MRSH",
+      "name": "Marsh Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Specialty Insurers",
+      "screener_cap_usd": 98802366864.0
+    },
+    {
+      "symbol": "CEG",
+      "yf_symbol": "CEG",
+      "name": "Constellation Energy Corporation Common Stock ",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Electric Utilities: Central",
+      "screener_cap_usd": 98520702821.0
+    },
+    {
+      "symbol": "GLW",
+      "yf_symbol": "GLW",
+      "name": "Corning Incorporated Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Telecommunications Equipment",
+      "screener_cap_usd": 98251410150.0
+    },
+    {
+      "symbol": "GD",
+      "yf_symbol": "GD",
+      "name": "General Dynamics Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Marine Transportation",
+      "screener_cap_usd": 98189838021.0
+    },
+    {
+      "symbol": "WM",
+      "yf_symbol": "WM",
+      "name": "Waste Management Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Environmental Services",
+      "screener_cap_usd": 96947368870.0
+    },
+    {
+      "symbol": "ING",
+      "yf_symbol": "ING",
+      "name": "ING Group N.V. Common Stock",
+      "country": "Netherlands",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 96448004372.0
+    },
+    {
+      "symbol": "RACE",
+      "yf_symbol": "RACE",
+      "name": "Ferrari N.V. Common Shares",
+      "country": "Italy",
+      "sector": "Industrials",
+      "industry": "Auto Manufacturing",
+      "screener_cap_usd": 96205010717.0
+    },
+    {
+      "symbol": "CSX",
+      "yf_symbol": "CSX",
+      "name": "CSX Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "screener_cap_usd": 95948876831.0
+    },
+    {
+      "symbol": "UPS",
+      "yf_symbol": "UPS",
+      "name": "United Parcel Service Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Trucking Freight/Courier Services",
+      "screener_cap_usd": 95739216188.0
+    },
+    {
+      "symbol": "USB",
+      "yf_symbol": "USB",
+      "name": "U.S. Bancorp Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 95050738325.0
+    },
+    {
+      "symbol": "MMM",
+      "yf_symbol": "MMM",
+      "name": "3M Company Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical/Dental Instruments",
+      "screener_cap_usd": 94933557335.0
+    },
+    {
+      "symbol": "ADBE",
+      "yf_symbol": "ADBE",
+      "name": "Adobe Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 94606736000.0
+    },
+    {
+      "symbol": "FTNT",
+      "yf_symbol": "FTNT",
+      "name": "Fortinet Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer peripheral equipment",
+      "screener_cap_usd": 93469773250.0
+    },
+    {
+      "symbol": "ELV",
+      "yf_symbol": "ELV",
+      "name": "Elevance Health Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical Specialities",
+      "screener_cap_usd": 92856500834.0
+    },
+    {
+      "symbol": "PNC",
+      "yf_symbol": "PNC",
+      "name": "PNC Financial Services Group Inc. (The) Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 92159628150.0
+    },
+    {
+      "symbol": "TT",
+      "yf_symbol": "TT",
+      "name": "Trane Technologies plc",
+      "country": "Ireland",
+      "sector": "Industrials",
+      "industry": "Auto Parts:O.E.M.",
+      "screener_cap_usd": 91531085167.0
+    },
+    {
+      "symbol": "INTU",
+      "yf_symbol": "INTU",
+      "name": "Intuit Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 91314541200.0
+    },
+    {
+      "symbol": "EMR",
+      "yf_symbol": "EMR",
+      "name": "Emerson Electric Company Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Consumer Electronics/Appliances",
+      "screener_cap_usd": 91292526000.0
+    },
+    {
+      "symbol": "MNST",
+      "yf_symbol": "MNST",
+      "name": "Monster Beverage Corporation",
+      "country": "United States",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 90946003896.0
+    },
+    {
+      "symbol": "PWR",
+      "yf_symbol": "PWR",
+      "name": "Quanta Services Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Engineering & Construction",
+      "screener_cap_usd": 90703120976.0
+    },
+    {
+      "symbol": "E",
+      "yf_symbol": "E",
+      "name": "ENI S.p.A. Common Stock",
+      "country": "Italy",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 90579633806.0
+    },
+    {
+      "symbol": "MRNA",
+      "yf_symbol": "MRNA",
+      "name": "Moderna Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "screener_cap_usd": 90380187186.0
+    },
+    {
+      "symbol": "BX",
+      "yf_symbol": "BX",
+      "name": "Blackstone Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Managers",
+      "screener_cap_usd": 90276549950.0
+    },
+    {
+      "symbol": "AEM",
+      "yf_symbol": "AEM",
+      "name": "Agnico Eagle Mines Limited Common Stock",
+      "country": "Canada",
+      "sector": "Basic Materials",
+      "industry": "Precious Metals",
+      "screener_cap_usd": 90209714070.0
+    },
+    {
+      "symbol": "CTAS",
+      "yf_symbol": "CTAS",
+      "name": "Cintas Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Garments and Clothing",
+      "screener_cap_usd": 89834269040.0
+    },
+    {
+      "symbol": "CMCSA",
+      "yf_symbol": "CMCSA",
+      "name": "Comcast Corporation Class A Common Stock",
+      "country": "United States",
+      "sector": "Telecommunications",
+      "industry": "Cable & Other Pay Television Services",
+      "screener_cap_usd": 89343319389.0
+    },
+    {
+      "symbol": "AMT",
+      "yf_symbol": "AMT",
+      "name": "American Tower Corporation (REIT) Common Stock",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 88908111129.0
+    },
+    {
+      "symbol": "CDNS",
+      "yf_symbol": "CDNS",
+      "name": "Cadence Design Systems Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 88627160790.0
+    },
+    {
+      "symbol": "NGG",
+      "yf_symbol": "NGG",
+      "name": "National Grid Transco PLC National Grid PLC (NEW) American Depositary Shares",
+      "country": "United Kingdom",
+      "sector": "Utilities",
+      "industry": "Natural Gas Distribution",
+      "screener_cap_usd": 88506910776.0
+    },
+    {
+      "symbol": "MSI",
+      "yf_symbol": "MSI",
+      "name": "Motorola Solutions Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Radio And Television Broadcasting And Communications Equipment",
+      "screener_cap_usd": 87848535680.0
+    },
+    {
+      "symbol": "HWM",
+      "yf_symbol": "HWM",
+      "name": "Howmet Aerospace Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Metal Fabrications",
+      "screener_cap_usd": 87795482982.0
+    },
+    {
+      "symbol": "MCO",
+      "yf_symbol": "MCO",
+      "name": "Moody's Corporation Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Finance: Consumer Services",
+      "screener_cap_usd": 87617128000.0
+    },
+    {
+      "symbol": "KKR",
+      "yf_symbol": "KKR",
+      "name": "KKR & Co. Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Managers",
+      "screener_cap_usd": 87465359913.0
+    },
+    {
+      "symbol": "SNPS",
+      "yf_symbol": "SNPS",
+      "name": "Synopsys Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 87233001259.0
+    },
+    {
+      "symbol": "ECL",
+      "yf_symbol": "ECL",
+      "name": "Ecolab Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Package Goods/Cosmetics",
+      "screener_cap_usd": 86729053156.0
+    },
+    {
+      "symbol": "RCL",
+      "yf_symbol": "RCL",
+      "name": "Royal Caribbean Cruises Ltd. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Marine Transportation",
+      "screener_cap_usd": 86454627088.0
+    },
+    {
+      "symbol": "MDLZ",
+      "yf_symbol": "MDLZ",
+      "name": "Mondelez International Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Consumer Staples",
+      "industry": "Packaged Foods",
+      "screener_cap_usd": 85494724118.0
+    },
+    {
+      "symbol": "FCX",
+      "yf_symbol": "FCX",
+      "name": "Freeport-McMoRan Inc. Common Stock",
+      "country": "United States",
+      "sector": "Basic Materials",
+      "industry": "Metal Mining",
+      "screener_cap_usd": 85034309375.0
+    },
+    {
+      "symbol": "SHW",
+      "yf_symbol": "SHW",
+      "name": "Sherwin-Williams Company (The) Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "RETAIL: Building Materials",
+      "screener_cap_usd": 84572736365.0
+    },
+    {
+      "symbol": "JCI",
+      "yf_symbol": "JCI",
+      "name": "Johnson Controls International plc Ordinary Share",
+      "country": "Switzerland",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 83622828218.0
+    },
+    {
+      "symbol": "HLT",
+      "yf_symbol": "HLT",
+      "name": "Hilton Worldwide Holdings Inc. Common Stock ",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Hotels/Resorts",
+      "screener_cap_usd": 83014149807.0
+    },
+    {
+      "symbol": "TRV",
+      "yf_symbol": "TRV",
+      "name": "The Travelers Companies Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Property-Casualty Insurers",
+      "screener_cap_usd": 82636416574.0
+    },
+    {
+      "symbol": "EPD",
+      "yf_symbol": "EPD",
+      "name": "Enterprise Products Partners L.P. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Natural Gas Distribution",
+      "screener_cap_usd": 82576400013.0
+    },
+    {
+      "symbol": "BAM",
+      "yf_symbol": "BAM",
+      "name": "Brookfield Asset Management Inc Class A Limited Voting Shares",
+      "country": "",
+      "sector": "Real Estate",
+      "industry": "Building operators",
+      "screener_cap_usd": 82322684658.0
+    },
+    {
+      "symbol": "EOG",
+      "yf_symbol": "EOG",
+      "name": "EOG Resources Inc. Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 82055313290.0
+    },
+    {
+      "symbol": "CP",
+      "yf_symbol": "CP",
+      "name": "Canadian Pacific Kansas City Limited Common Shares",
+      "country": "Canada",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "screener_cap_usd": 81851187676.0
+    },
+    {
+      "symbol": "SU",
+      "yf_symbol": "SU",
+      "name": "Suncor Energy  Inc. Common Stock",
+      "country": "Canada",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 81757109879.0
+    },
+    {
+      "symbol": "ITW",
+      "yf_symbol": "ITW",
+      "name": "Illinois Tool Works Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 81707500000.0
+    },
+    {
+      "symbol": "CVNA",
+      "yf_symbol": "CVNA",
+      "name": "Carvana Co. Class A Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Retail-Auto Dealers and Gas Stations",
+      "screener_cap_usd": 79809907974.0
+    },
+    {
+      "symbol": "CL",
+      "yf_symbol": "CL",
+      "name": "Colgate-Palmolive Company Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Package Goods/Cosmetics",
+      "screener_cap_usd": 79229727531.0
+    },
+    {
+      "symbol": "ASX",
+      "yf_symbol": "ASX",
+      "name": "ASE Technology Holding Co. Ltd. American Depositary Shares (each representing Two Common Shares) ",
+      "country": "Taiwan",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 79155117526.0
+    },
+    {
+      "symbol": "CI",
+      "yf_symbol": "CI",
+      "name": "The Cigna Group Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical Specialities",
+      "screener_cap_usd": 78299786001.0
+    },
+    {
+      "symbol": "NOC",
+      "yf_symbol": "NOC",
+      "name": "Northrop Grumman Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 78237755382.0
+    },
+    {
+      "symbol": "NTES",
+      "yf_symbol": "NTES",
+      "name": "NetEase Inc. American Depositary Shares",
+      "country": "China",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 77963301228.0
+    },
+    {
+      "symbol": "VRT",
+      "yf_symbol": "VRT",
+      "name": "Vertiv Holdings LLC Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 77816860480.0
+    },
+    {
+      "symbol": "LYG",
+      "yf_symbol": "LYG",
+      "name": "Lloyds Banking Group Plc American Depositary Shares",
+      "country": "United Kingdom",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 77143377422.0
+    },
+    {
+      "symbol": "RSG",
+      "yf_symbol": "RSG",
+      "name": "Republic Services Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Environmental Services",
+      "screener_cap_usd": 77089064192.0
+    },
+    {
+      "symbol": "BCS",
+      "yf_symbol": "BCS",
+      "name": "Barclays PLC Common Stock",
+      "country": "United Kingdom",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 76866140679.0
+    },
+    {
+      "symbol": "SLB",
+      "yf_symbol": "SLB",
+      "name": "SLB Limited Common Shares",
+      "country": "France",
+      "sector": "Energy",
+      "industry": "Oilfield Services/Equipment",
+      "screener_cap_usd": 76295970696.0
+    },
+    {
+      "symbol": "CNI",
+      "yf_symbol": "CNI",
+      "name": "Canadian National Railway Company Common Stock",
+      "country": "Canada",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "screener_cap_usd": 76275843000.0
+    },
+    {
+      "symbol": "FDX",
+      "yf_symbol": "FDX",
+      "name": "FedEx Corporation Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Air Freight/Delivery Services",
+      "screener_cap_usd": 75960218152.0
+    },
+    {
+      "symbol": "MELI",
+      "yf_symbol": "MELI",
+      "name": "MercadoLibre Inc. Common Stock",
+      "country": "Argentina",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 75613773215.0
+    },
+    {
+      "symbol": "SPG",
+      "yf_symbol": "SPG",
+      "name": "Simon Property Group Inc. Common Stock",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 75164581482.0
+    },
+    {
+      "symbol": "DASH",
+      "yf_symbol": "DASH",
+      "name": "DoorDash Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 74774300530.0
+    },
+    {
+      "symbol": "ROST",
+      "yf_symbol": "ROST",
+      "name": "Ross Stores Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Clothing/Shoe/Accessory Stores",
+      "screener_cap_usd": 74010896525.0
+    },
+    {
+      "symbol": "ORLY",
+      "yf_symbol": "ORLY",
+      "name": "O'Reilly Automotive Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Auto & Home Supply Stores",
+      "screener_cap_usd": 73940872695.0
+    },
+    {
+      "symbol": "NSC",
+      "yf_symbol": "NSC",
+      "name": "Norfolk Southern Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "screener_cap_usd": 73633842005.0
+    },
+    {
+      "symbol": "TGT",
+      "yf_symbol": "TGT",
+      "name": "Target Corporation Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Department/Specialty Retail Stores",
+      "screener_cap_usd": 73346208027.0
+    },
+    {
+      "symbol": "APO",
+      "yf_symbol": "APO",
+      "name": "Apollo Global Management Inc. (New) Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Managers",
+      "screener_cap_usd": 72933184939.0
+    },
+    {
+      "symbol": "MFC",
+      "yf_symbol": "MFC",
+      "name": "Manulife Financial Corporation Common Stock",
+      "country": "Canada",
+      "sector": "Finance",
+      "industry": "Life Insurance",
+      "screener_cap_usd": 72793608499.0
+    },
+    {
+      "symbol": "GM",
+      "yf_symbol": "GM",
+      "name": "General Motors Company Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Auto Manufacturing",
+      "screener_cap_usd": 72570556861.0
+    },
+    {
+      "symbol": "AJG",
+      "yf_symbol": "AJG",
+      "name": "Arthur J. Gallagher & Co. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Specialty Insurers",
+      "screener_cap_usd": 72538124000.0
+    },
+    {
+      "symbol": "AON",
+      "yf_symbol": "AON",
+      "name": "Aon plc Class A Ordinary Shares (Ireland)",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Specialty Insurers",
+      "screener_cap_usd": 71787623643.0
+    },
+    {
+      "symbol": "KMI",
+      "yf_symbol": "KMI",
+      "name": "Kinder Morgan Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Natural Gas Distribution",
+      "screener_cap_usd": 71142085838.0
+    },
+    {
+      "symbol": "RELX",
+      "yf_symbol": "RELX",
+      "name": "RELX PLC PLC American Depositary Shares (Each representing One Ordinary Share)",
+      "country": "United Kingdom",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 70811149920.0
+    },
+    {
+      "symbol": "HON",
+      "yf_symbol": "HON",
+      "name": "Honeywell International Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Aerospace",
+      "screener_cap_usd": 70599575914.0
+    },
+    {
+      "symbol": "APD",
+      "yf_symbol": "APD",
+      "name": "Air Products and Chemicals Inc. Common Stock",
+      "country": "United States",
+      "sector": "Basic Materials",
+      "industry": "Major Chemicals",
+      "screener_cap_usd": 70520053640.0
+    },
+    {
+      "symbol": "AEP",
+      "yf_symbol": "AEP",
+      "name": "American Electric Power Company Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Electric Utilities: Central",
+      "screener_cap_usd": 70341911309.0
+    },
+    {
+      "symbol": "HOOD",
+      "yf_symbol": "HOOD",
+      "name": "Robinhood Markets Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 70112250827.0
+    },
+    {
+      "symbol": "GWW",
+      "yf_symbol": "GWW",
+      "name": "W.W. Grainger Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Office Equipment/Supplies/Services",
+      "screener_cap_usd": 69704861948.0
+    },
+    {
+      "symbol": "URI",
+      "yf_symbol": "URI",
+      "name": "United Rentals Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Diversified Commercial Services",
+      "screener_cap_usd": 69592387414.0
+    },
+    {
+      "symbol": "DB",
+      "yf_symbol": "DB",
+      "name": "Deutsche Bank AG Common Stock",
+      "country": "Germany",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 69001500000.0
+    },
+    {
+      "symbol": "COR",
+      "yf_symbol": "COR",
+      "name": "Cencora Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Other Pharmaceuticals",
+      "screener_cap_usd": 68543209396.0
+    },
+    {
+      "symbol": "DLR",
+      "yf_symbol": "DLR",
+      "name": "Digital Realty Trust Inc. Common Stock",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 68109996294.0
+    },
+    {
+      "symbol": "MPWR",
+      "yf_symbol": "MPWR",
+      "name": "Monolithic Power Systems Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 67813854720.0
+    },
+    {
+      "symbol": "TAK",
+      "yf_symbol": "TAK",
+      "name": "Takeda Pharmaceutical Company Limited American Depositary Shares (each representing 1/2 of a share of Common Stock)",
+      "country": "Japan",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 67731269172.0
+    },
+    {
+      "symbol": "KMB",
+      "yf_symbol": "KMB",
+      "name": "Kimberly-Clark Corporation Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Containers/Packaging",
+      "screener_cap_usd": 67154489611.0
+    },
+    {
+      "symbol": "NXPI",
+      "yf_symbol": "NXPI",
+      "name": "NXP Semiconductors N.V. Common Stock",
+      "country": "Netherlands",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 66816726589.0
+    },
+    {
+      "symbol": "DDOG",
+      "yf_symbol": "DDOG",
+      "name": "Datadog Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 66489595087.0
+    },
+    {
+      "symbol": "TDG",
+      "yf_symbol": "TDG",
+      "name": "Transdigm Group Incorporated Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Military/Government/Technical",
+      "screener_cap_usd": 66463125330.0
+    },
+    {
+      "symbol": "ALL",
+      "yf_symbol": "ALL",
+      "name": "Allstate Corporation (The) Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Property-Casualty Insurers",
+      "screener_cap_usd": 66257077049.0
+    },
+    {
+      "symbol": "CAH",
+      "yf_symbol": "CAH",
+      "name": "Cardinal Health Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Other Pharmaceuticals",
+      "screener_cap_usd": 64981759187.0
+    },
+    {
+      "symbol": "TRP",
+      "yf_symbol": "TRP",
+      "name": "TC Energy Corporation Common Stock",
+      "country": "Canada",
+      "sector": "Utilities",
+      "industry": "Natural Gas Distribution",
+      "screener_cap_usd": 64760000000.0
+    },
+    {
+      "symbol": "MET",
+      "yf_symbol": "MET",
+      "name": "MetLife Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Life Insurance",
+      "screener_cap_usd": 64509585979.0
+    },
+    {
+      "symbol": "BSX",
+      "yf_symbol": "BSX",
+      "name": "Boston Scientific Corporation Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical/Dental Instruments",
+      "screener_cap_usd": 64284137396.0
+    },
+    {
+      "symbol": "NU",
+      "yf_symbol": "NU",
+      "name": "Nu Holdings Ltd. Class A Ordinary Shares",
+      "country": "Cayman Islands",
+      "sector": "Finance",
+      "industry": "Finance: Consumer Services",
+      "screener_cap_usd": 64143448679.0
+    },
+    {
+      "symbol": "HPE",
+      "yf_symbol": "HPE",
+      "name": "Hewlett Packard Enterprise Company Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Retail: Computer Software & Peripheral Equipment",
+      "screener_cap_usd": 64116548826.0
+    },
+    {
+      "symbol": "TRGP",
+      "yf_symbol": "TRGP",
+      "name": "Targa Resources Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Natural Gas Distribution",
+      "screener_cap_usd": 63823381652.0
+    },
+    {
+      "symbol": "FAST",
+      "yf_symbol": "FAST",
+      "name": "Fastenal Company Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "RETAIL: Building Materials",
+      "screener_cap_usd": 63319569123.0
+    },
+    {
+      "symbol": "AFL",
+      "yf_symbol": "AFL",
+      "name": "AFLAC Incorporated Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Accident &Health Insurance",
+      "screener_cap_usd": 63116806927.0
+    },
+    {
+      "symbol": "LNG",
+      "yf_symbol": "LNG",
+      "name": "Cheniere Energy Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Oil/Gas Transmission",
+      "screener_cap_usd": 63031622134.0
+    },
+    {
+      "symbol": "NWG",
+      "yf_symbol": "NWG",
+      "name": "NatWest Group plc American Depositary Shares (each representing two (2) Ordinary Shares)",
+      "country": "United Kingdom",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 62944672780.0
+    },
+    {
+      "symbol": "PSA",
+      "yf_symbol": "PSA",
+      "name": "Public Storage Common Stock",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 62141328486.0
+    },
+    {
+      "symbol": "CRH",
+      "yf_symbol": "CRH",
+      "name": "CRH PLC Ordinary Shares",
+      "country": "Ireland",
+      "sector": "Industrials",
+      "industry": "Building Materials",
+      "screener_cap_usd": 62019462916.0
+    },
+    {
+      "symbol": "TEL",
+      "yf_symbol": "TEL",
+      "name": "TE Connectivity plc Ordinary Shares",
+      "country": "Ireland",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "screener_cap_usd": 61997814726.0
+    },
+    {
+      "symbol": "CMI",
+      "yf_symbol": "CMI",
+      "name": "Cummins Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 61974284848.0
+    },
+    {
+      "symbol": "EW",
+      "yf_symbol": "EW",
+      "name": "Edwards Lifesciences Corporation Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Industrial Specialties",
+      "screener_cap_usd": 61631375000.0
+    },
+    {
+      "symbol": "B",
+      "yf_symbol": "B",
+      "name": "Barrick Mining Corporation Common Shares",
+      "country": "Canada",
+      "sector": "Basic Materials",
+      "industry": "Precious Metals",
+      "screener_cap_usd": 61244732307.0
+    },
+    {
+      "symbol": "IMO",
+      "yf_symbol": "IMO",
+      "name": "Imperial Oil Limited Common Stock",
+      "country": "Canada",
+      "sector": "Energy",
+      "industry": "Integrated oil Companies",
+      "screener_cap_usd": 60780959100.0
+    },
+    {
+      "symbol": "NDAQ",
+      "yf_symbol": "NDAQ",
+      "name": "Nasdaq Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 60196809601.0
+    },
+    {
+      "symbol": "TFC",
+      "yf_symbol": "TFC",
+      "name": "Truist Financial Corporation Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 59894458390.0
+    },
+    {
+      "symbol": "WPM",
+      "yf_symbol": "WPM",
+      "name": "Wheaton Precious Metals Corp Common Shares (Canada)",
+      "country": "Canada",
+      "sector": "Basic Materials",
+      "industry": "Precious Metals",
+      "screener_cap_usd": 59721308060.0
+    },
+    {
+      "symbol": "ARGX",
+      "yf_symbol": "ARGX",
+      "name": "argenx SE American Depositary Shares",
+      "country": "Netherlands",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+      "screener_cap_usd": 59582854996.0
+    },
+    {
+      "symbol": "D",
+      "yf_symbol": "D",
+      "name": "Dominion Energy Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Electric Utilities: Central",
+      "screener_cap_usd": 59515838668.0
+    },
+    {
+      "symbol": "BDX",
+      "yf_symbol": "BDX",
+      "name": "Becton Dickinson and Company Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical/Dental Instruments",
+      "screener_cap_usd": 59391217872.0
+    },
+    {
+      "symbol": "OXY",
+      "yf_symbol": "OXY",
+      "name": "Occidental Petroleum Corporation Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 58743816269.0
+    },
+    {
+      "symbol": "BE",
+      "yf_symbol": "BE",
+      "name": "Bloom Energy Corporation Class A Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 56757214587.0
+    },
+    {
+      "symbol": "DAL",
+      "yf_symbol": "DAL",
+      "name": "Delta Air Lines Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Air Freight/Delivery Services",
+      "screener_cap_usd": 56712047156.0
+    },
+    {
+      "symbol": "NUE",
+      "yf_symbol": "NUE",
+      "name": "Nucor Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Steel/Iron Ore",
+      "screener_cap_usd": 56656689861.0
+    },
+    {
+      "symbol": "OKE",
+      "yf_symbol": "OKE",
+      "name": "ONEOK Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 56582926721.0
+    },
+    {
+      "symbol": "DEO",
+      "yf_symbol": "DEO",
+      "name": "Diageo plc Common Stock",
+      "country": "United Kingdom",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 56533368516.0
+    },
+    {
+      "symbol": "NKE",
+      "yf_symbol": "NKE",
+      "name": "Nike Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Shoe Manufacturing",
+      "screener_cap_usd": 56426882414.0
+    },
+    {
+      "symbol": "PCAR",
+      "yf_symbol": "PCAR",
+      "name": "PACCAR Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Auto Manufacturing",
+      "screener_cap_usd": 56157058391.0
+    },
+    {
+      "symbol": "O",
+      "yf_symbol": "O",
+      "name": "Realty Income Corporation Common Stock",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 55956666304.0
+    },
+    {
+      "symbol": "AME",
+      "yf_symbol": "AME",
+      "name": "AMETEK Inc.",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 55540819116.0
+    },
+    {
+      "symbol": "IDXX",
+      "yf_symbol": "IDXX",
+      "name": "IDEXX Laboratories Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+      "screener_cap_usd": 55483651401.0
+    },
+    {
+      "symbol": "ADSK",
+      "yf_symbol": "ADSK",
+      "name": "Autodesk Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 55263780000.0
+    },
+    {
+      "symbol": "GRMN",
+      "yf_symbol": "GRMN",
+      "name": "Garmin Ltd. Common Stock (Switzerland)",
+      "country": "Switzerland",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 54530842381.0
+    },
+    {
+      "symbol": "LITE",
+      "yf_symbol": "LITE",
+      "name": "Lumentum Holdings Inc. Common Stock",
+      "country": "United States",
+      "sector": "Telecommunications",
+      "industry": "Telecommunications Equipment",
+      "screener_cap_usd": 54113434000.0
+    },
+    {
+      "symbol": "HUM",
+      "yf_symbol": "HUM",
+      "name": "Humana Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical Specialities",
+      "screener_cap_usd": 54102911028.0
+    },
+    {
+      "symbol": "CCEP",
+      "yf_symbol": "CCEP",
+      "name": "Coca-Cola Europacific Partners plc Ordinary Shares",
+      "country": "United Kingdom",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 53828697081.0
+    },
+    {
+      "symbol": "ETR",
+      "yf_symbol": "ETR",
+      "name": "Entergy Corporation Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Electric Utilities: Central",
+      "screener_cap_usd": 53112873635.0
+    },
+    {
+      "symbol": "DVN",
+      "yf_symbol": "DVN",
+      "name": "Devon Energy Corporation Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 53110686846.0
+    },
+    {
+      "symbol": "EBAY",
+      "yf_symbol": "EBAY",
+      "name": "eBay Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 53083880000.0
+    },
+    {
+      "symbol": "CVE",
+      "yf_symbol": "CVE",
+      "name": "Cenovus Energy Inc Common Stock",
+      "country": "Canada",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 52825477560.0
+    },
+    {
+      "symbol": "AZO",
+      "yf_symbol": "AZO",
+      "name": "AutoZone Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Auto & Home Supply Stores",
+      "screener_cap_usd": 52463689018.0
+    },
+    {
+      "symbol": "XEL",
+      "yf_symbol": "XEL",
+      "name": "Xcel Energy Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Power Generation",
+      "screener_cap_usd": 52383373701.0
+    },
+    {
+      "symbol": "HONA",
+      "yf_symbol": "HONA",
+      "name": "Honeywell Aerospace Inc. Common Stock ",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Aerospace",
+      "screener_cap_usd": 52313423258.0
+    },
+    {
+      "symbol": "SRE",
+      "yf_symbol": "SRE",
+      "name": "DBA Sempra Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Natural Gas Distribution",
+      "screener_cap_usd": 52041754660.0
+    },
+    {
+      "symbol": "TEVA",
+      "yf_symbol": "TEVA",
+      "name": "Teva Pharmaceutical Industries Limited Ordinary Shares",
+      "country": "Israel",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 51970464959.0
+    },
+    {
+      "symbol": "MDLN",
+      "yf_symbol": "MDLN",
+      "name": "Medline Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical/Dental Instruments",
+      "screener_cap_usd": 51915737000.0
+    },
+    {
+      "symbol": "FANG",
+      "yf_symbol": "FANG",
+      "name": "Diamondback Energy Inc. Common Stock",
+      "country": "United States",
+      "sector": "Energy",
+      "industry": "Oil & Gas Production",
+      "screener_cap_usd": 51626508836.0
+    },
+    {
+      "symbol": "XYZ",
+      "yf_symbol": "XYZ",
+      "name": "Block Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 51136515980.0
+    },
+    {
+      "symbol": "LHX",
+      "yf_symbol": "LHX",
+      "name": "L3Harris Technologies Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 50730389706.0
+    },
+    {
+      "symbol": "KEYS",
+      "yf_symbol": "KEYS",
+      "name": "Keysight Technologies Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 50703992403.0
+    },
+    {
+      "symbol": "WAB",
+      "yf_symbol": "WAB",
+      "name": "Westinghouse Air Brake Technologies Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Railroads",
+      "screener_cap_usd": 50002593396.0
+    },
+    {
+      "symbol": "INFY",
+      "yf_symbol": "INFY",
+      "name": "Infosys Limited American Depositary Shares",
+      "country": "India",
+      "sector": "Technology",
+      "industry": "EDP Services",
+      "screener_cap_usd": 49852665518.0
+    },
+    {
+      "symbol": "VMRK",
+      "yf_symbol": "VMRK",
+      "name": "Vivmark Residential Common Shares of Beneficial Interest",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 49773058531.0
+    },
+    {
+      "symbol": "FERG",
+      "yf_symbol": "FERG",
+      "name": "Ferguson Enterprises Inc. Common Stock",
+      "country": "United Kingdom",
+      "sector": "Miscellaneous",
+      "industry": "Miscellaneous",
+      "screener_cap_usd": 49707659647.0
+    },
+    {
+      "symbol": "KDP",
+      "yf_symbol": "KDP",
+      "name": "Keurig Dr Pepper Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 49456863039.0
+    },
+    {
+      "symbol": "FITB",
+      "yf_symbol": "FITB",
+      "name": "Fifth Third Bancorp Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 49257730650.0
+    },
+    {
+      "symbol": "PYPL",
+      "yf_symbol": "PYPL",
+      "name": "PayPal Holdings Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Diversified Commercial Services",
+      "screener_cap_usd": 49241423905.0
+    },
+    {
+      "symbol": "BKR",
+      "yf_symbol": "BKR",
+      "name": "Baker Hughes Company Class A Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Oil and Gas Field Machinery",
+      "screener_cap_usd": 49097799705.0
+    },
+    {
+      "symbol": "A",
+      "yf_symbol": "A",
+      "name": "Agilent Technologies Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Biotechnology: Laboratory Analytical Instruments",
+      "screener_cap_usd": 49080994193.0
+    },
+    {
+      "symbol": "VEEV",
+      "yf_symbol": "VEEV",
+      "name": "Veeva Systems Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 48826851895.0
+    },
+    {
+      "symbol": "WCN",
+      "yf_symbol": "WCN",
+      "name": "Waste Connections Inc. Common Shares",
+      "country": "Canada",
+      "sector": "Utilities",
+      "industry": "Environmental Services",
+      "screener_cap_usd": 48519040931.0
+    },
+    {
+      "symbol": "VYLR",
+      "yf_symbol": "VYLR",
+      "name": "Vylor Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Staples",
+      "industry": "Farming/Seeds/Milling",
+      "screener_cap_usd": 48392815736.0
+    },
+    {
+      "symbol": "EXC",
+      "yf_symbol": "EXC",
+      "name": "Exelon Corporation Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Power Generation",
+      "screener_cap_usd": 47863971728.0
+    },
+    {
+      "symbol": "MT",
+      "yf_symbol": "MT",
+      "name": "Arcelor Mittal NY Registry Shares NEW",
+      "country": "Luxembourg",
+      "sector": "Industrials",
+      "industry": "Steel/Iron Ore",
+      "screener_cap_usd": 47783478917.0
+    },
+    {
+      "symbol": "FNV",
+      "yf_symbol": "FNV",
+      "name": "Franco-Nevada Corporation",
+      "country": "Canada",
+      "sector": "Basic Materials",
+      "industry": "Precious Metals",
+      "screener_cap_usd": 47635973594.0
+    },
+    {
+      "symbol": "F",
+      "yf_symbol": "F",
+      "name": "Ford Motor Company Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Auto Manufacturing",
+      "screener_cap_usd": 47599152195.0
+    },
+    {
+      "symbol": "ONC",
+      "yf_symbol": "ONC",
+      "name": "BeOne Medicines Ltd. American Depositary Shares",
+      "country": "Cayman Islands",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Pharmaceutical Preparations",
+      "screener_cap_usd": 47579730947.0
+    },
+    {
+      "symbol": "ROP",
+      "yf_symbol": "ROP",
+      "name": "Roper Technologies Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 47535010009.0
+    },
+    {
+      "symbol": "HEI",
+      "yf_symbol": "HEI",
+      "name": "Heico Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Aerospace",
+      "screener_cap_usd": 47516120126.0
+    },
+    {
+      "symbol": "TRI",
+      "yf_symbol": "TRI",
+      "name": "Thomson Reuters Corporation Common Shares",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Publishing",
+      "screener_cap_usd": 47377053945.0
+    },
+    {
+      "symbol": "WDAY",
+      "yf_symbol": "WDAY",
+      "name": "Workday Inc. Class A Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "EDP Services",
+      "screener_cap_usd": 47344450000.0
+    },
+    {
+      "symbol": "STT",
+      "yf_symbol": "STT",
+      "name": "State Street Corporation Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Major Banks",
+      "screener_cap_usd": 47205540461.0
+    },
+    {
+      "symbol": "MSTR",
+      "yf_symbol": "MSTR",
+      "name": "Strategy Inc Common Stock Class A",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 47143221233.0
+    },
+    {
+      "symbol": "MSCI",
+      "yf_symbol": "MSCI",
+      "name": "MSCI Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Business Services",
+      "screener_cap_usd": 47086325000.0
+    },
+    {
+      "symbol": "VTR",
+      "yf_symbol": "VTR",
+      "name": "Ventas Inc. Common Stock",
+      "country": "United States",
+      "sector": "Real Estate",
+      "industry": "Real Estate Investment Trusts",
+      "screener_cap_usd": 47043827200.0
+    },
+    {
+      "symbol": "NOK",
+      "yf_symbol": "NOK",
+      "name": "Nokia Corporation Sponsored American Depositary Shares",
+      "country": "Finland",
+      "sector": "Technology",
+      "industry": "Radio And Television Broadcasting And Communications Equipment",
+      "screener_cap_usd": 46339874347.0
+    },
+    {
+      "symbol": "NTRA",
+      "yf_symbol": "NTRA",
+      "name": "Natera Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Medical Specialities",
+      "screener_cap_usd": 46269492606.0
+    },
+    {
+      "symbol": "WAT",
+      "yf_symbol": "WAT",
+      "name": "Waters Corporation Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Biotechnology: Laboratory Analytical Instruments",
+      "screener_cap_usd": 45219254491.0
+    },
+    {
+      "symbol": "VST",
+      "yf_symbol": "VST",
+      "name": "Vistra Corp. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Electric Utilities: Central",
+      "screener_cap_usd": 45132704945.0
+    },
+    {
+      "symbol": "AMP",
+      "yf_symbol": "AMP",
+      "name": "Ameriprise Financial Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Managers",
+      "screener_cap_usd": 45115572015.0
+    },
+    {
+      "symbol": "FMX",
+      "yf_symbol": "FMX",
+      "name": "Fomento Economico Mexicano S.A.B. de C.V. Common Stock",
+      "country": "Mexico",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 44925665185.0
+    },
+    {
+      "symbol": "ED",
+      "yf_symbol": "ED",
+      "name": "Consolidated Edison Inc. Common Stock",
+      "country": "United States",
+      "sector": "Utilities",
+      "industry": "Power Generation",
+      "screener_cap_usd": 44905329291.0
+    },
+    {
+      "symbol": "CMG",
+      "yf_symbol": "CMG",
+      "name": "Chipotle Mexican Grill Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Restaurants",
+      "screener_cap_usd": 44647292625.0
+    },
+    {
+      "symbol": "HMC",
+      "yf_symbol": "HMC",
+      "name": "Honda Motor Company Ltd. Common Stock",
+      "country": "Japan",
+      "sector": "Industrials",
+      "industry": "Auto Manufacturing",
+      "screener_cap_usd": 44518144988.0
+    },
+    {
+      "symbol": "ARES",
+      "yf_symbol": "ARES",
+      "name": "Ares Management Corporation Class A Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Investment Managers",
+      "screener_cap_usd": 44477444328.0
+    },
+    {
+      "symbol": "FER",
+      "yf_symbol": "FER",
+      "name": "Ferrovial N.V. Ordinary Shares",
+      "country": "Netherlands",
+      "sector": "Industrials",
+      "industry": "Military/Government/Technical",
+      "screener_cap_usd": 44376154143.0
+    },
+    {
+      "symbol": "CARR",
+      "yf_symbol": "CARR",
+      "name": "Carrier Global Corporation Common Stock ",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 44352464767.0
+    },
+    {
+      "symbol": "ROK",
+      "yf_symbol": "ROK",
+      "name": "Rockwell Automation Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Industrial Machinery/Components",
+      "screener_cap_usd": 44212988658.0
+    },
+    {
+      "symbol": "IQV",
+      "yf_symbol": "IQV",
+      "name": "IQVIA Holdings Inc. Common Stock",
+      "country": "United States",
+      "sector": "Health Care",
+      "industry": "Biotechnology: Commercial Physical & Biological Resarch",
+      "screener_cap_usd": 43690128000.0
+    },
+    {
+      "symbol": "AU",
+      "yf_symbol": "AU",
+      "name": "AngloGold Ashanti PLC Ordinary Shares",
+      "country": "South Africa",
+      "sector": "Basic Materials",
+      "industry": "Precious Metals",
+      "screener_cap_usd": 43612482945.0
+    },
+    {
+      "symbol": "ABEV",
+      "yf_symbol": "ABEV",
+      "name": "Ambev S.A. American Depositary Shares (Each representing 1 Common Share)",
+      "country": "Brazil",
+      "sector": "Consumer Staples",
+      "industry": "Beverages (Production/Distribution)",
+      "screener_cap_usd": 43423314773.0
+    },
+    {
+      "symbol": "YUM",
+      "yf_symbol": "YUM",
+      "name": "Yum! Brands Inc.",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Restaurants",
+      "screener_cap_usd": 43274145254.0
+    },
+    {
+      "symbol": "COHR",
+      "yf_symbol": "COHR",
+      "name": "Coherent Corp. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Electronic Components",
+      "screener_cap_usd": 42978351162.0
+    },
+    {
+      "symbol": "AIG",
+      "yf_symbol": "AIG",
+      "name": "American International Group Inc. New Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Property-Casualty Insurers",
+      "screener_cap_usd": 42955253237.0
+    },
+    {
+      "symbol": "TTWO",
+      "yf_symbol": "TTWO",
+      "name": "Take-Two Interactive Software Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Computer Software: Prepackaged Software",
+      "screener_cap_usd": 42650976836.0
+    },
+    {
+      "symbol": "PRU",
+      "yf_symbol": "PRU",
+      "name": "Prudential Financial Inc. Common Stock",
+      "country": "United States",
+      "sector": "Finance",
+      "industry": "Life Insurance",
+      "screener_cap_usd": 42387940000.0
+    },
+    {
+      "symbol": "LYV",
+      "yf_symbol": "LYV",
+      "name": "Live Nation Entertainment Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Services-Misc. Amusement & Recreation",
+      "screener_cap_usd": 42064762029.0
+    },
+    {
+      "symbol": "CBOE",
+      "yf_symbol": "CBOE",
+      "name": "Cboe Global Markets Inc. Common Stock",
+      "country": "",
+      "sector": "Finance",
+      "industry": "Investment Bankers/Brokers/Service",
+      "screener_cap_usd": 42032668125.0
+    },
+    {
+      "symbol": "KR",
+      "yf_symbol": "KR",
+      "name": "Kroger Company (The) Common Stock",
+      "country": "United States",
+      "sector": "Consumer Staples",
+      "industry": "Food Chains",
+      "screener_cap_usd": 41822538791.0
+    },
+    {
+      "symbol": "STM",
+      "yf_symbol": "STM",
+      "name": "STMicroelectronics N.V. Common Stock",
+      "country": "Switzerland",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "screener_cap_usd": 41717562975.0
+    },
+    {
+      "symbol": "KB",
+      "yf_symbol": "KB",
+      "name": "KB Financial Group Inc",
+      "country": "South Korea",
+      "sector": "Finance",
+      "industry": "Commercial Banks",
+      "screener_cap_usd": 41650980604.0
+    },
+    {
+      "symbol": "PAYX",
+      "yf_symbol": "PAYX",
+      "name": "Paychex Inc. Common Stock",
+      "country": "United States",
+      "sector": "Industrials",
+      "industry": "Diversified Commercial Services",
+      "screener_cap_usd": 41179821117.0
+    },
+    {
+      "symbol": "DHI",
+      "yf_symbol": "DHI",
+      "name": "D.R. Horton Inc. Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Homebuilding",
+      "screener_cap_usd": 40718910450.0
+    },
+    {
+      "symbol": "UI",
+      "yf_symbol": "UI",
+      "name": "Ubiquiti Inc. Common Stock",
+      "country": "United States",
+      "sector": "Technology",
+      "industry": "Radio And Television Broadcasting And Communications Equipment",
+      "screener_cap_usd": 40503111105.0
+    },
+    {
+      "symbol": "EL",
+      "yf_symbol": "EL",
+      "name": "Estee Lauder Companies Inc. (The) Common Stock",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Package Goods/Cosmetics",
+      "screener_cap_usd": 40492240557.0
+    },
+    {
+      "symbol": "SLF",
+      "yf_symbol": "SLF",
+      "name": "Sun Life Financial Inc. Common Stock",
+      "country": "Canada",
+      "sector": "Finance",
+      "industry": "Life Insurance",
+      "screener_cap_usd": 40459500000.0
+    },
+    {
+      "symbol": "HLN",
+      "yf_symbol": "HLN",
+      "name": "Haleon plc American Depositary Shares (Each representing two Ordinary Shares)",
+      "country": "United Kingdom",
+      "sector": "Consumer Discretionary",
+      "industry": "Package Goods/Cosmetics",
+      "screener_cap_usd": 40376158919.0
+    },
+    {
+      "symbol": "VIK",
+      "yf_symbol": "VIK",
+      "name": "Viking Holdings Ltd Ordinary Shares",
+      "country": "United States",
+      "sector": "Consumer Discretionary",
+      "industry": "Marine Transportation",
+      "screener_cap_usd": 40067249185.0
+    }
+  ]
+}

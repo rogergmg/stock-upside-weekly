@@ -1,0 +1,301 @@
+<title>Stock Upside Weekly</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: an analyst tear sheet. Funnel summary on top, then a ruled ledger of names with scenario bars drawn to one shared scale. */
+:root {
+  --bg: #f4f6f9; --surface: #ffffff; --sunk: #eaeef3; --fg: #13202c; --muted: #5a6a7b; --line: #d9e0e8;
+  --accent: #1d5bbf; --accent-soft: #e3ecfa; --up: #11805b; --down: #c0392b; --warn: #9a6300; --warn-soft: #fbf0d9;
+  --display: "Schibsted Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0d131a; --surface: #141c25; --sunk: #1a2430; --fg: #e5ecf3; --muted: #93a3b4; --line: #26323f;
+  --accent: #74a6ff; --accent-soft: #1b2a42; --up: #3fcf8e; --down: #ff7b6c; --warn: #e2a63c; --warn-soft: #2e2512; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0d131a; --surface: #141c25; --sunk: #1a2430; --fg: #e5ecf3; --muted: #93a3b4; --line: #26323f;
+  --accent: #74a6ff; --accent-soft: #1b2a42; --up: #3fcf8e; --down: #ff7b6c; --warn: #e2a63c; --warn-soft: #2e2512; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 14px; line-height: 1.5; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 56px; display: grid; gap: 22px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+h1 { font-size: clamp(26px, 4vw, 36px); font-weight: 800; letter-spacing: -0.02em; }
+h2 { font-size: 18px; font-weight: 700; }
+h3 { font-size: 14px; font-weight: 700; }
+.eyebrow { font-size: 11px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.num { font-variant-numeric: tabular-nums; }
+a { color: var(--accent); }
+header { display: grid; gap: 8px; }
+.meta { color: var(--muted); max-width: 80ch; }
+.note { font-size: 12.5px; color: var(--muted); }
+.disclaimer { font-size: 12.5px; background: var(--warn-soft); color: var(--fg); border-radius: 6px; padding: 8px 12px; justify-self: start; }
+.funnel { display: flex; flex-wrap: wrap; align-items: stretch; gap: 6px; }
+.stage { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; min-width: 112px; display: grid; gap: 2px; }
+.stage b { font-family: var(--display); font-size: 22px; font-weight: 700; }
+.stage span { font-size: 12px; color: var(--muted); }
+.stage.side { background: transparent; border-style: dashed; }
+.arrow { align-self: center; color: var(--muted); font-size: 16px; }
+.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
+.tabs button { font: 600 13.5px var(--body); background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); padding: 10px 12px; cursor: pointer; }
+.tabs button[aria-selected="true"] { color: var(--fg); border-color: var(--accent); }
+.tabs button:focus-visible, .controls :focus-visible, tr.row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
+.controls label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
+.controls input, .controls select { font: 14px var(--body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; min-width: 0; }
+#q { width: 220px; max-width: 70vw; } #minret { width: 90px; }
+.panel { display: grid; gap: 12px; }
+.basis { font-size: 13px; color: var(--muted); max-width: 90ch; }
+.basis strong { color: var(--fg); }
+.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { padding: 8px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+th { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; background: var(--sunk); position: sticky; top: 0; }
+th.l, td.l { text-align: left; }
+tr.row { cursor: pointer; }
+tr.row:hover td { background: var(--sunk); }
+tr.open td { background: var(--accent-soft); }
+.co { display: grid; line-height: 1.25; min-width: 20ch; }
+.co b { font-weight: 600; }
+.co small { color: var(--muted); font-size: 12px; max-width: 26ch; overflow: hidden; text-overflow: ellipsis; }
+.pos { color: var(--up); } .neg { color: var(--down); } .na { color: var(--muted); }
+.chip { display: inline-block; font-size: 11px; font-weight: 600; padding: 1px 7px; border-radius: 99px; background: var(--sunk); color: var(--muted); }
+.chip.warn { background: var(--warn-soft); color: var(--warn); }
+.chip.acc { background: var(--accent-soft); color: var(--accent); }
+.bar { width: 170px; height: 22px; display: block; }
+.detail td { background: var(--bg); white-space: normal; text-align: left; padding: 18px 16px; }
+.dgrid { display: grid; gap: 18px; max-width: 1100px; position: sticky; left: 16px; box-sizing: border-box; }
+.cases { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.case { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 12px; display: grid; gap: 6px; align-content: start; min-width: 0; }
+.case .t { font-family: var(--display); font-size: 20px; font-weight: 700; }
+.kv { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 4px 14px; }
+.kv dt { color: var(--muted); } .kv dd { margin: 0; min-width: 0; }
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 18px; }
+.hist { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+.hist th, .hist td { font-size: 12.5px; padding: 6px 8px; }
+.srcs { margin: 0; padding-left: 18px; display: grid; gap: 3px; }
+.mixbar { display: flex; height: 8px; border-radius: 4px; overflow: hidden; background: var(--sunk); max-width: 260px; }
+.mixbar i { display: block; height: 100%; }
+details.wait { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
+details.wait summary { cursor: pointer; font-weight: 600; }
+.symlist { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; max-width: 95ch; }
+.empty { padding: 28px; text-align: center; color: var(--muted); }
+@media (max-width: 760px) { .cases, .two { grid-template-columns: minmax(0, 1fr); } .bar { width: 120px; } }
+@media (prefers-reduced-motion: no-preference) { tr.row td { transition: background .12s; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Weekly screen · 12-month price horizon</div>
+    <h1>Stock Upside Weekly</h1>
+    <p class="meta" id="meta"></p>
+    <div class="disclaimer">Research output, not investment advice. Figures come from public sources and model assumptions that can be wrong.</div>
+  </header>
+
+  <section class="funnel" id="funnel" aria-label="Screen counts"></section>
+
+  <nav class="tabs" role="tablist">
+    <button role="tab" id="tab-valuation" data-view="valuation">Independent valuation</button>
+    <button role="tab" id="tab-consensus" data-view="consensus">Street consensus</button>
+    <button role="tab" id="tab-excluded" data-view="excluded">Below cutoff or unverified</button>
+  </nav>
+
+  <div class="controls">
+    <label for="q">Search<input id="q" type="search" placeholder="Ticker or company"></label>
+    <label for="sector">Sector<select id="sector"><option value="">All sectors</option></select></label>
+    <label for="minret" id="minret-label">Min. return %<input id="minret" type="number" step="1" placeholder="any"></label>
+  </div>
+
+  <section class="panel" id="view"></section>
+
+  <footer id="footer"></footer>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  "use strict";
+  const D = JSON.parse(document.getElementById("data").textContent);
+  const $ = (s, el) => (el || document).querySelector(s);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const pct = (v, d = 1) => v == null ? '<span class="na">n/a</span>' : `<span class="${v >= 0 ? "pos" : "neg"}">${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(d)}%</span>`;
+  const pp = v => v == null ? '<span class="na">n/a</span>' : `${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(1)} pp`;
+  const money = (v, cur) => v == null ? "n/a" : (cur && cur !== "USD" ? cur + " " : "$") + Number(v).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const cap = c => { if (!c) return "n/a"; const m = (+c.low + +c.high) / 2; return m >= 1e12 ? "$" + (m / 1e12).toFixed(2) + "T" : "$" + (m / 1e9).toFixed(0) + "B"; };
+  const capRange = c => c ? `$${(c.low / 1e9).toFixed(1)}B – $${(c.high / 1e9).toFixed(1)}B` : "n/a";
+  const day = s => s ? new Date(s.length === 10 ? s + "T12:00:00" : s).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }) : "n/a";
+  const iss = Object.fromEntries(D.issuers.map(r => [r.symbol, r]));
+  const C = D.counts;
+
+  $("#meta").innerHTML = `${esc(D.universe)}. Prices are regular-session closes on <strong>${day(D.reference_session)}</strong>; ` +
+    `market data fetched ${day(D.fetched_at)}, page built ${day(D.built_at)}. Updated every Saturday.`;
+
+  const stage = (n, label, cls) => `<div class="stage ${cls || ""}"><b class="num">${n}</b><span>${label}</span></div>`;
+  $("#funnel").innerHTML = [
+    stage(C.listings_checked, "listings above $40B screened"), '<span class="arrow" aria-hidden="true">→</span>',
+    stage(C.issuers, "distinct issuers"), '<span class="arrow" aria-hidden="true">→</span>',
+    stage(C.eligible, "eligible, cap &gt; $50B"),
+    stage(C.below_cutoff, "below $50B", "side"), stage(C.unverified, "too close to $50B to verify", "side"),
+    '<span class="arrow" aria-hidden="true">→</span>',
+    stage(C.rank_valued, "with independent valuation"), '<span class="arrow" aria-hidden="true">→</span>',
+    stage(C.rank_with_named_targets, "with named-analyst targets")].join("");
+
+  const sectors = [...new Set(D.issuers.map(r => r.sector).filter(Boolean))].sort();
+  $("#sector").insertAdjacentHTML("beforeend", sectors.map(s => `<option>${esc(s)}</option>`).join(""));
+
+  let view = "valuation", open = null;
+  try { const v = localStorage.getItem("view"); if (v) view = v; } catch (e) {}
+  if (["#valuation", "#consensus", "#excluded"].includes(location.hash)) view = location.hash.slice(1);
+
+  function match(sym, ret) {
+    const r = iss[sym] || {}, q = $("#q").value.trim().toLowerCase(), sec = $("#sector").value, min = $("#minret").value;
+    if (q && !(sym.toLowerCase().includes(q) || (r.name || "").toLowerCase().includes(q))) return false;
+    if (sec && r.sector !== sec) return false;
+    if (min !== "" && view !== "excluded" && (ret == null || ret < +min)) return false;
+    return true;
+  }
+
+  // Scenario bar: one shared scale for every row, so bars compare across names.
+  const LO = -60, HI = 100;
+  function bar(s) {
+    const W = 170, x = v => 4 + (Math.max(LO, Math.min(HI, v)) - LO) / (HI - LO) * (W - 8);
+    const z = x(0);
+    return `<svg class="bar" viewBox="0 0 ${W} 22" role="img" aria-label="Bear ${s.bear.toFixed(0)}%, base ${s.base.toFixed(0)}%, bull ${s.bull.toFixed(0)}%">
+      <line x1="${z}" x2="${z}" y1="2" y2="20" stroke="var(--muted)" stroke-width="1" stroke-dasharray="2 2"/>
+      <rect x="${x(s.bear)}" y="8" width="${Math.max(2, x(s.bull) - x(s.bear))}" height="6" rx="3" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width=".8"/>
+      <circle cx="${x(s.base)}" cy="11" r="4.5" fill="${s.base >= 0 ? "var(--up)" : "var(--down)"}"/></svg>`;
+  }
+
+  function name(sym) {
+    const r = iss[sym] || {};
+    const extra = r.other_classes ? ` · also ${r.other_classes.join(", ")}` : "";
+    return `<div class="co"><b>${esc(sym)}</b><small title="${esc(r.name)}">${esc(r.name)}${esc(extra)}</small></div>`;
+  }
+
+  function valuation() {
+    const rows = D.ranked.filter(r => match(r.symbol, r.scenarios_pct.base));
+    const waiting = D.omitted.filter(o => o.reason === "independent valuation unavailable");
+    let h = `<p class="basis"><strong>Sorted by independent base-case 12-month price return</strong>, built from filings and stated operating assumptions. ` +
+      `Analyst column is the 90-day half-life weighted target of the named analysts found (a sample, not full Street consensus). Gap = analyst upside minus base case. ` +
+      `Returns are measured from this week's close; each name's research date is shown. About 15 names are researched in depth each week.</p>`;
+    h += `<div class="tablebox"><table><thead><tr><th>#</th><th class="l">Company</th><th>Close</th><th>Mkt cap</th><th class="l">Bear · base · bull (−60% to +100%)</th>` +
+      `<th>Base</th><th>Bear</th><th>Bull</th><th>Analyst wtd</th><th>Gap</th><th class="l">Researched</th></tr></thead><tbody>`;
+    if (!rows.length) h += `<tr><td colspan="11" class="empty">${D.ranked.length ? "No researched names match these filters." : "No names have deep research yet. The first batch arrives with the next weekly run."}</td></tr>`;
+    rows.forEach((r, i) => {
+      const d = D.details[r.symbol] || {}, isOpen = open === r.symbol;
+      h += `<tr class="row${isOpen ? " open" : ""}" tabindex="0" data-sym="${esc(r.symbol)}" aria-expanded="${isOpen}">
+        <td>${i + 1}</td><td class="l">${name(r.symbol)}</td><td>${money(r.close)}</td><td>${cap(r.market_cap_usd)}</td>
+        <td class="l">${bar(r.scenarios_pct)}</td><td><b>${pct(r.scenarios_pct.base)}</b></td><td>${pct(r.scenarios_pct.bear)}</td><td>${pct(r.scenarios_pct.bull)}</td>
+        <td>${pct(r.analyst_upside_pct)} <span class="chip">${r.target_count} named</span></td><td>${pp(r.analyst_minus_base_pp)}</td>
+        <td class="l">${day(d.researched_at)}${stale(d.researched_at) ? ' <span class="chip warn">stale</span>' : ""}</td></tr>`;
+      if (isOpen) h += `<tr class="detail"><td colspan="11">${detail(r, d)}</td></tr>`;
+    });
+    h += `</tbody></table></div>`;
+    const wl = waiting.filter(o => match(o.symbol, null) || $("#minret").value !== "");
+    h += `<details class="wait"><summary>Awaiting deep research: ${waiting.length} eligible names</summary>
+      <p class="note">They are listed under Street consensus meanwhile. Unresearched names are never mixed into this ranking.</p>
+      <div class="symlist">${wl.map(o => `<span class="chip">${esc(o.symbol)}</span>`).join("")}</div></details>`;
+    return h;
+  }
+
+  function stale(s) { return s && (new Date(D.reference_session) - new Date(s)) / 864e5 > 120; }
+
+  function detail(r, d) {
+    const v = d.valuation || {}, cs = v.cases || {}, t = d.targets || {}, rt = d.ratings || {}, se = d.sensitivity || {};
+    const caseCard = k => { const c = cs[k] || {}; return `<div class="case"><div class="eyebrow">${k} case</div>
+      <div class="t num">${money(v[k])} ${pct(r.scenarios_pct[k])}</div><div><b>Driver.</b> ${esc(c.driver)}</div><div class="note">${esc(c.assumption)}</div></div>`; };
+    const mix = rt.weighted_pct ? `<div class="mixbar" aria-hidden="true"><i style="width:${rt.weighted_pct.Buy}%;background:var(--up)"></i><i style="width:${rt.weighted_pct.Hold}%;background:var(--muted)"></i><i style="width:${rt.weighted_pct.Sell}%;background:var(--down)"></i></div>` : "";
+    const hist = (d.history || []).slice().sort((a, b) => (b.issued_at > a.issued_at ? 1 : -1));
+    return `<div class="dgrid">
+      <div class="cases">${caseCard("bear")}${caseCard("base")}${caseCard("bull")}</div>
+      <div class="two">
+        <dl class="kv"><dt>Method</dt><dd>${esc(v.method)}</dd><dt>Close implies</dt><dd>${esc(v.implied_by_close)}</dd>
+          <dt>Sensitivity</dt><dd>${esc(v.sensitivity)}</dd><dt>Watch</dt><dd>${esc(v.watch_metric)}</dd><dt>Next disclosure</dt><dd>${esc(v.next_disclosure)}</dd>
+          ${d.dividend_per_share != null ? `<dt>Dividends</dt><dd>${money(d.dividend_per_share)} expected; base total return ${pct(r.base_total_return_pct)}</dd>` : ""}
+          <dt>Research close</dt><dd>${d.research_close ? money(d.research_close.close) + " on " + day(d.research_close.close_date) : "n/a"}</dd></dl>
+        <dl class="kv"><dt>Coverage</dt><dd><span class="chip acc">${esc(d.coverage)}</span> named analysts found, not full Street</dd>
+          <dt>Ratings</dt><dd>Buy ${rt.counts ? rt.counts.Buy : 0} · Hold ${rt.counts ? rt.counts.Hold : 0} · Sell ${rt.counts ? rt.counts.Sell : 0}${rt.weighted_pct ? ` (weighted ${rt.weighted_pct.Buy.toFixed(0)}/${rt.weighted_pct.Hold.toFixed(0)}/${rt.weighted_pct.Sell.toFixed(0)}%)` : ""}${mix}</dd>
+          <dt>Targets</dt><dd>${t.count || 0} active · weighted ${money(t.target)} ${pct(t.upside_pct)} · equal-weight ${money(se.equal && se.equal.target)} ${pct(se.equal && se.equal.upside_pct)}</dd>
+          <dt>Range</dt><dd>${t.range ? money(t.range[0]) + " – " + money(t.range[1]) : "n/a"}; median age ${t.median_age_days != null ? t.median_age_days + " days" : "n/a"}; largest weight ${t.max_weight_pct != null ? t.max_weight_pct.toFixed(0) + "%" : "n/a"}</dd>
+          <dt>Since earnings</dt><dd>${t.post_earnings != null ? t.post_earnings + " of " + t.count + " targets updated after " + day(d.earnings_at) : "earnings date not recorded"}</dd>
+          <dt>Half-life check</dt><dd>45d ${pct(se["45"] && se["45"].upside_pct)} · 90d ${pct(se["90"] && se["90"].upside_pct)} · 180d ${pct(se["180"] && se["180"].upside_pct)}</dd></dl>
+      </div>
+      ${d.analyst_notes ? `<p style="margin:0;max-width:80ch">${esc(d.analyst_notes)}</p>` : ""}
+      <div><h3 style="margin-bottom:8px">Analyst timeline</h3><div class="hist"><table><thead><tr><th class="l">Issued</th><th class="l">Analyst</th><th class="l">Firm</th><th class="l">Field</th><th>Value</th><th>Prior</th><th>Change</th><th class="l">Status</th><th class="l">Source</th></tr></thead><tbody>
+        ${hist.map(e => `<tr><td class="l">${day(e.issued_at)}</td><td class="l">${esc(e.analyst)}</td><td class="l">${esc(e.firm)}</td><td class="l">${esc(e.field)}</td>
+          <td>${e.field === "target" ? money(e.value) : esc(e.value) + (e.bucket ? ` <span class="chip">${esc(e.bucket)}</span>` : "")}</td>
+          <td>${e.field === "target" ? (e.source_prior != null ? money(e.source_prior) : e.prior_observed != null ? money(e.prior_observed) : "") : esc(e.prior_observed || "")}</td>
+          <td>${e.revision_pct != null ? pct(e.revision_pct) : ""}</td><td class="l">${esc(e.status_at_cutoff || "")}</td>
+          <td class="l">${/^https?:/.test(e.source) ? `<a href="${esc(e.source)}" target="_blank" rel="noopener">link</a>` : esc(e.source)}</td></tr>`).join("") || '<tr><td colspan="9" class="empty">No named calls recorded.</td></tr>'}
+      </tbody></table></div></div>
+      <div><h3 style="margin-bottom:6px">Sources</h3><ol class="srcs">${(d.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || s.url)}</a>${s.supports ? ` <span class="note">· ${esc(s.supports)}</span>` : ""}</li>`).join("")}</ol></div>
+    </div>`;
+  }
+
+  function consensus() {
+    const rows = D.issuers.filter(r => r.status === "eligible").filter(r => match(r.symbol, r.aggregate.upside_pct))
+      .sort((a, b) => (b.aggregate.upside_pct == null) - (a.aggregate.upside_pct == null) || (b.aggregate.upside_pct || 0) - (a.aggregate.upside_pct || 0) || a.symbol.localeCompare(b.symbol));
+    let h = `<p class="basis"><strong>Sorted by provider aggregate upside</strong>: the mean analyst target published by Yahoo Finance, measured against the ${day(D.reference_session)} close and fetched ${day(D.fetched_at)}. ` +
+      `This is a separate ranking from the independent valuation and is never merged with it. Provider counts, collection windows and target dates are not disclosed per analyst.</p>`;
+    h += `<div class="tablebox"><table><thead><tr><th>#</th><th class="l">Company</th><th class="l">Sector</th><th>Close</th><th>Mkt cap</th><th>Mean target</th><th>Aggregate upside</th><th>Low – high</th><th>Analysts</th><th class="l">Rating</th><th class="l">Deep research</th></tr></thead><tbody>`;
+    if (!rows.length) h += `<tr><td colspan="11" class="empty">No names match these filters.</td></tr>`;
+    rows.forEach((r, i) => {
+      const a = r.aggregate, rk = D.ranked.find(x => x.symbol === r.symbol);
+      h += `<tr><td>${i + 1}</td><td class="l">${name(r.symbol)}</td><td class="l">${esc(r.sector)}</td><td>${money(r.close)}</td><td>${cap(r.market_cap_usd)}</td>
+        <td>${money(a.mean)}</td><td><b>${pct(a.upside_pct)}</b></td><td>${a.low != null ? money(a.low) + " – " + money(a.high) : "n/a"}</td><td>${a.analysts == null ? "n/a" : a.analysts}</td>
+        <td class="l">${esc((a.recommendation || "n/a").replace("_", " "))}</td><td class="l">${rk ? `<span class="chip acc">base ${rk.scenarios_pct.base >= 0 ? "+" : "−"}${Math.abs(rk.scenarios_pct.base).toFixed(1)}%</span>` : '<span class="chip">pending</span>'}</td></tr>`;
+    });
+    return h + `</tbody></table></div>`;
+  }
+
+  function excluded() {
+    const rows = D.issuers.filter(r => r.status !== "eligible").filter(r => match(r.symbol, null))
+      .sort((a, b) => (a.status > b.status ? -1 : a.status < b.status ? 1 : b.market_cap_usd.high - a.market_cap_usd.high));
+    let h = `<p class="basis">Issuers whose market cap is not verifiably <strong>above $50B</strong> at the reference close. The cap interval is close × shares outstanding, widened to include the screener's figure, ±2% for share-count lag. ` +
+      `If the interval straddles $50B the name is marked unverified rather than guessed.</p>`;
+    h += `<div class="tablebox"><table><thead><tr><th class="l">Company</th><th class="l">Status</th><th>Close</th><th>Cap interval</th><th class="l">Sector</th></tr></thead><tbody>`;
+    if (!rows.length) h += `<tr><td colspan="5" class="empty">No names match these filters.</td></tr>`;
+    rows.forEach(r => { h += `<tr><td class="l">${name(r.symbol)}</td><td class="l"><span class="chip ${r.status === "unverified" ? "warn" : ""}">${r.status === "unverified" ? "unverified" : "below $50B"}</span></td>
+      <td>${money(r.close)}</td><td>${capRange(r.market_cap_usd)}</td><td class="l">${esc(r.sector)}</td></tr>`; });
+    return h + `</tbody></table></div>`;
+  }
+
+  function render() {
+    document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.view === view)));
+    $("#tab-valuation").textContent = `Independent valuation (${D.ranked.length})`;
+    $("#tab-consensus").textContent = `Street consensus (${C.eligible})`;
+    $("#tab-excluded").textContent = `Below cutoff or unverified (${C.below_cutoff + C.unverified})`;
+    $("#minret-label").hidden = view === "excluded";
+    $("#view").innerHTML = view === "valuation" ? valuation() : view === "consensus" ? consensus() : excluded();
+    fitDetail();
+  }
+
+  // The detail panel lives in a wide table row; pin it to the visible width of the scroll box.
+  function fitDetail() {
+    const g = $(".dgrid"), box = $(".tablebox");
+    if (g && box) g.style.width = Math.max(260, box.clientWidth - 34) + "px";
+  }
+  window.addEventListener("resize", fitDetail);
+
+  document.querySelector(".tabs").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    view = b.dataset.view; open = null;
+    try { localStorage.setItem("view", view); } catch (err) {}
+    history.replaceState(null, "", "#" + view); render();
+  });
+  const toggle = e => { const tr = e.target.closest("tr.row"); if (!tr || e.target.closest("a")) return; open = open === tr.dataset.sym ? null : tr.dataset.sym; render(); };
+  $("#view").addEventListener("click", toggle);
+  $("#view").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { if (e.target.closest("tr.row")) { e.preventDefault(); toggle(e); } } });
+  ["q", "sector", "minret"].forEach(id => $("#" + id).addEventListener("input", render));
+  window.addEventListener("hashchange", () => { const v = location.hash.slice(1); if (["valuation", "consensus", "excluded"].includes(v)) { view = v; render(); } });
+
+  $("#footer").innerHTML = `<p><b>Method.</b> Eligibility needs a verified whole-company market cap strictly above $50B (a stricter filter on the stock-upside-analysis skill's $20B floor), one row per issuer, with extra share classes folded in. ` +
+    `Independent targets come from bear, base and bull cases built on filings; returns are price-only over 12 months unless a dividend line is shown. ` +
+    `Named-analyst weighting gives each analyst one vote, halving with every 90 days of age.</p>` +
+    `<p><b>Data.</b> Universe from the <a href="https://www.nasdaq.com/market-activity/stocks/screener" target="_blank" rel="noopener">Nasdaq stock screener</a>; closes, shares and aggregate targets from Yahoo Finance via yfinance; deep research cites its own sources in each row. ` +
+    `${D.failures.length ? D.failures.length + " listings failed to load this week. " : ""}${D.rejected.length ? D.rejected.length + " research files were rejected by validation this week." : ""}</p>`;
+
+  render();
+})();
+</script>

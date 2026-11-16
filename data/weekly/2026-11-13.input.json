@@ -1,0 +1,5570 @@
+{
+  "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
+  "date": "2026-11-13",
+  "horizon_months": 12,
+  "companies": [
+    {
+      "issuer_id": "Apple Inc.",
+      "symbol": "AAPL",
+      "currency": "USD",
+      "close": 356.27,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 5073832871517,
+        "high": 5280928090763
+      },
+      "horizon_months": 12,
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Jim Kelleher",
+          "firm": "Argus",
+          "field": "target",
+          "value": 400,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/",
+          "source_prior": 375
+        },
+        {
+          "analyst": "Jim Kelleher",
+          "firm": "Argus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/"
+        },
+        {
+          "analyst": "Mark Newman",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 380,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/",
+          "source_prior": 370
+        },
+        {
+          "analyst": "Mark Newman",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/"
+        },
+        {
+          "analyst": "Amit Daryanani",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 380,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/"
+        },
+        {
+          "analyst": "Amit Daryanani",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/"
+        },
+        {
+          "analyst": "Timm Schulze-Melander",
+          "firm": "Rothschild & Co Redburn",
+          "field": "target",
+          "value": 400,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/",
+          "source_prior": 260
+        },
+        {
+          "analyst": "Timm Schulze-Melander",
+          "firm": "Rothschild & Co Redburn",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/"
+        },
+        {
+          "analyst": "David Vogt",
+          "firm": "UBS",
+          "field": "target",
+          "value": 340,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/11/03/apples-hardware-strength-fuels-analyst-optimism-multiple-analysts-raise-price-targets/",
+          "source_prior": 296
+        },
+        {
+          "analyst": "David Vogt",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://247wallst.com/investing/2026/11/03/apples-hardware-strength-fuels-analyst-optimism-multiple-analysts-raise-price-targets/"
+        },
+        {
+          "analyst": "Tim Long",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 261,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/11/03/apples-hardware-strength-fuels-analyst-optimism-multiple-analysts-raise-price-targets/",
+          "source_prior": 245
+        },
+        {
+          "analyst": "Tim Long",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://247wallst.com/investing/2026/11/03/apples-hardware-strength-fuels-analyst-optimism-multiple-analysts-raise-price-targets/"
+        },
+        {
+          "analyst": "Daniel Ives",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 400,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15861364882119680"
+        },
+        {
+          "analyst": "Daniel Ives",
+          "firm": "Wedbush",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.webull.com/news/15861364882119680"
+        },
+        {
+          "analyst": "Wamsi Mohan",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 370,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15861364882119680"
+        },
+        {
+          "analyst": "Wamsi Mohan",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.webull.com/news/15861364882119680"
+        },
+        {
+          "analyst": "Brandon Nispel",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 250,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15861364882119680"
+        },
+        {
+          "analyst": "Brandon Nispel",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.webull.com/news/15861364882119680"
+        },
+        {
+          "analyst": "Gil Luria",
+          "firm": "D.A. Davidson",
+          "field": "target",
+          "value": 295,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15861364882119680"
+        },
+        {
+          "analyst": "Gil Luria",
+          "firm": "D.A. Davidson",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.webull.com/news/15861364882119680"
+        }
+      ],
+      "earnings_at": "2026-11-02T16:30:00-05:00",
+      "valuation": {
+        "bear": 247.5,
+        "base": 345.6,
+        "bull": 417.6
+      },
+      "dividend_per_share": 1.08
+    },
+    {
+      "issuer_id": "NVIDIA Corporation",
+      "symbol": "NVDA",
+      "currency": "USD",
+      "close": 162.85,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 3846191300000,
+        "high": 4010985729000
+      },
+      "horizon_months": 12,
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 345,
+          "source_prior": 330,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+        },
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+        },
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 275,
+          "source_prior": 345,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T12:45:00-05:00",
+          "horizon_months": null,
+          "source": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html"
+        },
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T12:45:00-05:00",
+          "source": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html"
+        },
+        {
+          "analyst": "William Stein",
+          "firm": "Truist",
+          "field": "target",
+          "value": 346,
+          "source_prior": 307,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+        },
+        {
+          "analyst": "Joseph Moore",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 300,
+          "source_prior": 288,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+        },
+        {
+          "analyst": "Joseph Moore",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+        },
+        {
+          "analyst": "Rick Shafer",
+          "firm": "Oppenheimer",
+          "field": "target",
+          "value": 315,
+          "source_prior": 265,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+        },
+        {
+          "analyst": "Rick Shafer",
+          "firm": "Oppenheimer",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+        },
+        {
+          "analyst": "James Schneider",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 300,
+          "source_prior": 285,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finbold.com/analysts-raise-nvidia-stock-price-target/"
+        },
+        {
+          "analyst": "James Schneider",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "source": "https://finbold.com/analysts-raise-nvidia-stock-price-target/"
+        },
+        {
+          "analyst": "Tristan Gerra",
+          "firm": "Baird",
+          "field": "target",
+          "value": 200,
+          "source_prior": 500,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "horizon_months": 12,
+          "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
+        },
+        {
+          "analyst": "Tristan Gerra",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
+        }
+      ],
+      "earnings_at": "2026-08-26T16:20:00-04:00",
+      "valuation": {
+        "bear": 99.0,
+        "base": 203.0,
+        "bull": 297.0
+      },
+      "dividend_per_share": 1.0
+    },
+    {
+      "issuer_id": "Microsoft Corporation",
+      "symbol": "MSFT",
+      "currency": "USD",
+      "close": 523.88,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 3812626105864,
+        "high": 3968243497940
+      },
+      "horizon_months": 12,
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Billy Fitzsimmons",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 650,
+          "source_prior": 610,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Billy Fitzsimmons",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Mark Moerdler",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 722,
+          "source_prior": 662,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+        },
+        {
+          "analyst": "Mark Moerdler",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+        },
+        {
+          "analyst": "Michael Turrin",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 750,
+          "source_prior": 725,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Michael Turrin",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Brad Reback",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 650,
+          "source_prior": 575,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+        },
+        {
+          "analyst": "Brad Reback",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+        },
+        {
+          "analyst": "Patrick Walravens",
+          "firm": "Citizens",
+          "field": "target",
+          "value": 625,
+          "source_prior": 550,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Patrick Walravens",
+          "firm": "Citizens",
+          "field": "rating",
+          "value": "Market Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Jackson Ader",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 630,
+          "source_prior": 600,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+        },
+        {
+          "analyst": "Jackson Ader",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+        },
+        {
+          "analyst": "Raimo Lenschow",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 610,
+          "source_prior": 600,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Raimo Lenschow",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Tyler Radke",
+          "firm": "Citi",
+          "field": "target",
+          "value": 680,
+          "source_prior": 636,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+        },
+        {
+          "analyst": "Tyler Radke",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.newsquawk.com/headlines/sell-side-on-mag-7-names-alphabet-and-microsoft-post-earnings-googl-sees-pts-lowered-while-msft-sees-them-lifted"
+        },
+        {
+          "analyst": "Adam Wood",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 650,
+          "source_prior": 600,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Brian Schwartz",
+          "firm": "Oppenheimer",
+          "field": "target",
+          "value": 625,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Brian Schwartz",
+          "firm": "Oppenheimer",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Rishi Jaluria",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 640,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Rishi Jaluria",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Derrick Wood",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 650,
+          "source_prior": 625,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": 12,
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        },
+        {
+          "analyst": "Derrick Wood",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://anachart.com/market-update/microsoft-alphabet-servicenow-price-targets-october-29-2026/"
+        }
+      ],
+      "earnings_at": "2026-10-28T16:00:00-04:00",
+      "valuation": {
+        "bear": 408.5,
+        "base": 576.0,
+        "bull": 742.0
+      },
+      "dividend_per_share": 3.92
+    },
+    {
+      "issuer_id": "Alphabet Inc.",
+      "symbol": "GOOGL",
+      "currency": "USD",
+      "close": 295.77,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 3563472452400,
+        "high": 3708920307600
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Amazon.com, Inc.",
+      "symbol": "AMZN",
+      "currency": "USD",
+      "close": 266.66,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 2825762831464,
+        "high": 2941100089892
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Taiwan Semiconductor Manufacturing Company Limited",
+      "symbol": "TSM",
+      "currency": "USD",
+      "close": 398.73,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 2026642329360,
+        "high": 2110116035279
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Space Exploration Technologies Corp.",
+      "symbol": "SPCX",
+      "currency": "USD",
+      "close": 139.11,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 1851476537108,
+        "high": 1927047008010
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Broadcom Inc.",
+      "symbol": "AVGO",
+      "currency": "USD",
+      "close": 347.01,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 1623367353465,
+        "high": 1689627245443
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Meta Platforms, Inc.",
+      "symbol": "META",
+      "currency": "USD",
+      "close": 641.69,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 1607508160645,
+        "high": 1673120738631
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Tesla, Inc.",
+      "symbol": "TSLA",
+      "currency": "USD",
+      "close": 390.22,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 1511596301574,
+        "high": 1573294109802
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Eli Lilly and Company",
+      "symbol": "LLY",
+      "currency": "USD",
+      "close": 1443.5,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 1260074643204,
+        "high": 1386209064017
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Berkshire Hathaway Inc.",
+      "symbol": "BRK/B",
+      "currency": "USD",
+      "close": 592.94,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 1234518185335,
+        "high": 1334802052751
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Walmart Inc.",
+      "symbol": "WMT",
+      "currency": "USD",
+      "close": 128.09,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 995908884889,
+        "high": 1036558227130
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "SK hynix Inc.",
+      "symbol": "SKHY",
+      "currency": "USD",
+      "close": 131.79,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 910760965226,
+        "high": 979783279299
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "JPMorgan Chase & Co.",
+      "symbol": "JPM",
+      "currency": "USD",
+      "close": 346.19,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 900958546802,
+        "high": 937921975558
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Micron Technology, Inc.",
+      "symbol": "MU",
+      "currency": "USD",
+      "close": 778.31,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 862986040129,
+        "high": 898209960135
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Advanced Micro Devices, Inc.",
+      "symbol": "AMD",
+      "currency": "USD",
+      "close": 534.06,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 858386897324,
+        "high": 893423097214
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Visa Inc.",
+      "symbol": "V",
+      "currency": "USD",
+      "close": 425.76,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 752871625987,
+        "high": 810270690742
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "ExxonMobil Holdings Corporation",
+      "symbol": "XOM",
+      "currency": "USD",
+      "close": 170.59,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 681957065588,
+        "high": 709875263994
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Johnson & Johnson",
+      "symbol": "JNJ",
+      "currency": "USD",
+      "close": 285.75,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 674131130339,
+        "high": 702530651009
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "ASML Holding N.V.",
+      "symbol": "ASML",
+      "currency": "USD",
+      "close": 1495.16,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 564735854481,
+        "high": 587786414951
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Mastercard Incorporated",
+      "symbol": "MA",
+      "currency": "USD",
+      "close": 661.19,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 564492676119,
+        "high": 587639825468
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "AbbVie Inc.",
+      "symbol": "ABBV",
+      "currency": "USD",
+      "close": 295.03,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 511069841984,
+        "high": 532182251143
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Costco Wholesale Corporation",
+      "symbol": "COST",
+      "currency": "USD",
+      "close": 1106.21,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 480390234814,
+        "high": 499997999500
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Chevron Corporation",
+      "symbol": "CVX",
+      "currency": "USD",
+      "close": 219.89,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 420479949554,
+        "high": 440800058724
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Coca-Cola Company",
+      "symbol": "KO",
+      "currency": "USD",
+      "close": 99.25,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 418424530614,
+        "high": 435546962287
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Palantir Technologies Inc.",
+      "symbol": "PLTR",
+      "currency": "USD",
+      "close": 167.99,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 396676051044,
+        "high": 412866910270
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Procter & Gamble Company",
+      "symbol": "PG",
+      "currency": "USD",
+      "close": 169.8,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 385688386128,
+        "high": 401596258951
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Oracle Corporation",
+      "symbol": "ORCL",
+      "currency": "USD",
+      "close": 125.35,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 371504066674,
+        "high": 398620797637
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cisco Systems, Inc.",
+      "symbol": "CSCO",
+      "currency": "USD",
+      "close": 95.64,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 369002121041,
+        "high": 384610388705
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "UnitedHealth Group Incorporated",
+      "symbol": "UNH",
+      "currency": "USD",
+      "close": 407.46,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 357791505616,
+        "high": 372541471430
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Merck & Co., Inc.",
+      "symbol": "MRK",
+      "currency": "USD",
+      "close": 147.76,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 356979408802,
+        "high": 371600287928
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Bank of America Corporation",
+      "symbol": "BAC",
+      "currency": "USD",
+      "close": 51.02,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 345007690216,
+        "high": 359089636756
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Home Depot, Inc.",
+      "symbol": "HD",
+      "currency": "USD",
+      "close": 348.69,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 340926707776,
+        "high": 354913318643
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "GE Aerospace",
+      "symbol": "GE",
+      "currency": "USD",
+      "close": 331.81,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 335998717192,
+        "high": 349734030925
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Intel Corporation",
+      "symbol": "INTC",
+      "currency": "USD",
+      "close": 59.66,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 310751042000,
+        "high": 323434758000
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Philip Morris International Inc.",
+      "symbol": "PM",
+      "currency": "USD",
+      "close": 198.96,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 303907921467,
+        "high": 316375919574
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "HSBC Holdings plc",
+      "symbol": "HSBC",
+      "currency": "USD",
+      "close": 89.62,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 300226117777,
+        "high": 313884719277
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Novartis AG",
+      "symbol": "NVS",
+      "currency": "USD",
+      "close": 160.5,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 297061601640,
+        "high": 312441900811
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Morgan Stanley",
+      "symbol": "MS",
+      "currency": "USD",
+      "close": 190.65,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 292034426605,
+        "high": 304318632000
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Applied Materials, Inc.",
+      "symbol": "AMAT",
+      "currency": "USD",
+      "close": 370.5,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 288147295579,
+        "high": 299908409685
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "AstraZeneca PLC",
+      "symbol": "AZN",
+      "currency": "USD",
+      "close": 184.45,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 280345432562,
+        "high": 291831101288
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Lam Research Corporation",
+      "symbol": "LRCX",
+      "currency": "USD",
+      "close": 225.92,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 276568458074,
+        "high": 287856966566
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Royal Bank of Canada",
+      "symbol": "RY",
+      "currency": "USD",
+      "close": 202.31,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 274482312783,
+        "high": 285756278409
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Texas Instruments Incorporated",
+      "symbol": "TXN",
+      "currency": "USD",
+      "close": 303.6,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 271872254579,
+        "high": 282969081297
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Caterpillar Inc.",
+      "symbol": "CAT",
+      "currency": "USD",
+      "close": 600.2,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 269146093924,
+        "high": 280140983699
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Shell plc",
+      "symbol": "SHEL",
+      "currency": "USD",
+      "close": 99.08,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 268594800707,
+        "high": 285665644808
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "SAP SE",
+      "symbol": "SAP",
+      "currency": "USD",
+      "close": 234.9,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 265700122615,
+        "high": 294372218465
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "RTX Corporation",
+      "symbol": "RTX",
+      "currency": "USD",
+      "close": 198.58,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 262612465941,
+        "high": 273413927864
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Goldman Sachs Group, Inc.",
+      "symbol": "GS",
+      "currency": "USD",
+      "close": 916.56,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 258978489646,
+        "high": 269654953422
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Palo Alto Networks, Inc.",
+      "symbol": "PANW",
+      "currency": "USD",
+      "close": 322.24,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 258460406243,
+        "high": 269117789781
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Thermo Fisher Scientific Inc.",
+      "symbol": "TMO",
+      "currency": "USD",
+      "close": 700.22,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 254253768669,
+        "high": 264673045393
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Wells Fargo & Company",
+      "symbol": "WFC",
+      "currency": "USD",
+      "close": 86.05,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 253113617250,
+        "high": 263475404173
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Netflix, Inc.",
+      "symbol": "NFLX",
+      "currency": "USD",
+      "close": 62.15,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 250103991774,
+        "high": 260312317969
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Amgen Inc.",
+      "symbol": "AMGN",
+      "currency": "USD",
+      "close": 465.67,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 246848528477,
+        "high": 256923978619
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Toyota Motor Corporation",
+      "symbol": "TM",
+      "currency": "USD",
+      "close": 212.43,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 244322698013,
+        "high": 282417413176
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Arista Networks, Inc.",
+      "symbol": "ANET",
+      "currency": "USD",
+      "close": 197.29,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 244271513739,
+        "high": 254370646644
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Mitsubishi UFJ Financial Group, Inc.",
+      "symbol": "MUFG",
+      "currency": "USD",
+      "close": 21.83,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 240858547853,
+        "high": 264374622623
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Linde plc",
+      "symbol": "LIN",
+      "currency": "USD",
+      "close": 526.06,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 236675500525,
+        "high": 246335725037
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "International Business Machines Corporation",
+      "symbol": "IBM",
+      "currency": "USD",
+      "close": 247.13,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 228896350449,
+        "high": 238248698863
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "CrowdStrike Holdings, Inc.",
+      "symbol": "CRWD",
+      "currency": "USD",
+      "close": 226.61,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 227393197055,
+        "high": 236674552037
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Comcast Holdings Corp.",
+      "symbol": "CCZ",
+      "currency": "USD",
+      "close": 62.32,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 216281142846,
+        "high": 225108944594
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Dell Technologies Inc.",
+      "symbol": "DELL",
+      "currency": "USD",
+      "close": 344.53,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 214519661299,
+        "high": 223437698093
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "American Express Company",
+      "symbol": "AXP",
+      "currency": "USD",
+      "close": 320.6,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 210676111727,
+        "high": 219278556510
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "GE Vernova Inc.",
+      "symbol": "GEV",
+      "currency": "USD",
+      "close": 803.13,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 208212342932,
+        "high": 216821493857
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Gilead Sciences, Inc.",
+      "symbol": "GILD",
+      "currency": "USD",
+      "close": 168.08,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 204306591956,
+        "high": 212645636526
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Walt Disney Company",
+      "symbol": "DIS",
+      "currency": "USD",
+      "close": 118.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 201315461916,
+        "high": 209532419546
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Citigroup Inc.",
+      "symbol": "C",
+      "currency": "USD",
+      "close": 124.01,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 201139904000,
+        "high": 209367150649
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Arm Holdings plc",
+      "symbol": "ARM",
+      "currency": "USD",
+      "close": 190.53,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 198679758221,
+        "high": 207944442000
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Toronto-Dominion Bank",
+      "symbol": "TD",
+      "currency": "USD",
+      "close": 123.76,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 198060107010,
+        "high": 206258531423
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "BHP Group Limited",
+      "symbol": "BHP",
+      "currency": "USD",
+      "close": 79.49,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 197981558883,
+        "high": 206112246483
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "KLA Corporation",
+      "symbol": "KLAC",
+      "currency": "USD",
+      "close": 152.32,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 194497893337,
+        "high": 202436582861
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "PepsiCo, Inc.",
+      "symbol": "PEP",
+      "currency": "USD",
+      "close": 145.44,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 194233123132,
+        "high": 202161005709
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "TotalEnergies SE",
+      "symbol": "TTE",
+      "currency": "USD",
+      "close": 90.74,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 194108026276,
+        "high": 202981002260
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Amphenol Corporation",
+      "symbol": "APH",
+      "currency": "USD",
+      "close": 78.23,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 189306896682,
+        "high": 197134454649
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Analog Devices, Inc.",
+      "symbol": "ADI",
+      "currency": "USD",
+      "close": 397.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 188985667744,
+        "high": 196699368468
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Verizon Communications Inc.",
+      "symbol": "VZ",
+      "currency": "USD",
+      "close": 46.36,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 188300707280,
+        "high": 196028725337
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "McDonald's Corporation",
+      "symbol": "MCD",
+      "currency": "USD",
+      "close": 271.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 188113231289,
+        "high": 195798521366
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Shopify Inc.",
+      "symbol": "SHOP",
+      "currency": "USD",
+      "close": 147.09,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 185449832290,
+        "high": 193019213350
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "BlackRock, Inc.",
+      "symbol": "BLK",
+      "currency": "USD",
+      "close": 1222.91,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 185067513510,
+        "high": 192622864691
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Abbott Laboratories",
+      "symbol": "ABT",
+      "currency": "USD",
+      "close": 108.52,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 184191296490,
+        "high": 191832969222
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "QUALCOMM Incorporated",
+      "symbol": "QCOM",
+      "currency": "USD",
+      "close": 172.47,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 180852042000,
+        "high": 188233758000
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Novo Nordisk A/S",
+      "symbol": "NVO",
+      "currency": "USD",
+      "close": 41.63,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 179849427336,
+        "high": 188089189835
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Deere & Company",
+      "symbol": "DE",
+      "currency": "USD",
+      "close": 673.54,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 177939722050,
+        "high": 185235569998
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "T-Mobile US, Inc.",
+      "symbol": "TMUS",
+      "currency": "USD",
+      "close": 169.95,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 176422905972,
+        "high": 183623840910
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Union Pacific Corporation",
+      "symbol": "UNP",
+      "currency": "USD",
+      "close": 302.44,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 176130593899,
+        "high": 183410518045
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Welltower Inc.",
+      "symbol": "WELL",
+      "currency": "USD",
+      "close": 244.46,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 175751501767,
+        "high": 182977412195
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Salesforce, Inc.",
+      "symbol": "CRM",
+      "currency": "USD",
+      "close": 217.84,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 175696673600,
+        "high": 182901544800
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "NextEra Energy, Inc.",
+      "symbol": "NEE",
+      "currency": "USD",
+      "close": 85.12,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 174952237073,
+        "high": 182157322273
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Banco Santander, S.A.",
+      "symbol": "SAN",
+      "currency": "USD",
+      "close": 12.21,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 172377971053,
+        "high": 180049450752
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "ConocoPhillips",
+      "symbol": "COP",
+      "currency": "USD",
+      "close": 142.28,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 164858179272,
+        "high": 171683563089
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Anheuser-Busch InBev SA/NV",
+      "symbol": "BUD",
+      "currency": "USD",
+      "close": 84.81,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 163661781912,
+        "high": 170601736396
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Pfizer Inc.",
+      "symbol": "PFE",
+      "currency": "USD",
+      "close": 28.89,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 161375398859,
+        "high": 167991219087
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Danaher Corporation",
+      "symbol": "DHR",
+      "currency": "USD",
+      "close": 233.02,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 160658015501,
+        "high": 167244189579
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Charles Schwab Corporation",
+      "symbol": "SCHW",
+      "currency": "USD",
+      "close": 92.98,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 157257597607,
+        "high": 163693880339
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Sony Group Corporation",
+      "symbol": "SONY",
+      "currency": "USD",
+      "close": 27.07,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 154615415669,
+        "high": 162768195621
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Sumitomo Mitsui Financial Group, Inc.",
+      "symbol": "SMFG",
+      "currency": "USD",
+      "close": 24.74,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 153189328279,
+        "high": 161046117037
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Intuitive Surgical, Inc.",
+      "symbol": "ISRG",
+      "currency": "USD",
+      "close": 443.59,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 150692333130,
+        "high": 156843040605
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "AT&T Inc.",
+      "symbol": "T",
+      "currency": "USD",
+      "close": 22.18,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 146426681129,
+        "high": 152437636373
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Accenture plc",
+      "symbol": "ACN",
+      "currency": "USD",
+      "close": 250.49,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 145014353510,
+        "high": 170988143714
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The TJX Companies, Inc.",
+      "symbol": "TJX",
+      "currency": "USD",
+      "close": 134.37,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 144863613903,
+        "high": 151407919137
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "UBS Group AG",
+      "symbol": "UBS",
+      "currency": "USD",
+      "close": 48.31,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 143463828237,
+        "high": 152957151549
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Chubb Limited",
+      "symbol": "CB",
+      "currency": "USD",
+      "close": 375.74,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 140691197937,
+        "high": 146457079061
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Unilever PLC",
+      "symbol": "UL",
+      "currency": "USD",
+      "close": 66.21,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 139722937828,
+        "high": 145490773715
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Uber Technologies, Inc.",
+      "symbol": "UBER",
+      "currency": "USD",
+      "close": 69.69,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 139413857766,
+        "high": 145145874028
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Banco Bilbao Vizcaya Argentaria, S.A.",
+      "symbol": "BBVA",
+      "currency": "USD",
+      "close": 25.92,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 138963528665,
+        "high": 149988689219
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Southern Copper Corporation",
+      "symbol": "SCCO",
+      "currency": "USD",
+      "close": 164.08,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 135764908942,
+        "high": 142808532794
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Lockheed Martin Corporation",
+      "symbol": "LMT",
+      "currency": "USD",
+      "close": 596.04,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 134916134749,
+        "high": 140441765738
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Marvell Technology, Inc.",
+      "symbol": "MRVL",
+      "currency": "USD",
+      "close": 156.76,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 134713587120,
+        "high": 143868245656
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "S&P Global Inc.",
+      "symbol": "SPGI",
+      "currency": "USD",
+      "close": 473.59,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 134547866180,
+        "high": 140072142600
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Eaton Corporation plc",
+      "symbol": "ETN",
+      "currency": "USD",
+      "close": 352.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 134386268100,
+        "high": 139871421900
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Progressive Corporation",
+      "symbol": "PGR",
+      "currency": "USD",
+      "close": 235.78,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 133858617850,
+        "high": 139334053894
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Vertex Pharmaceuticals Incorporated",
+      "symbol": "VRTX",
+      "currency": "USD",
+      "close": 538.6,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 133824283392,
+        "high": 139286499041
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Boeing Company",
+      "symbol": "BA",
+      "currency": "USD",
+      "close": 171.5,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 133187061416,
+        "high": 138663682951
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "AppLovin Corporation",
+      "symbol": "APP",
+      "currency": "USD",
+      "close": 409.1,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 132832953596,
+        "high": 138254735179
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "British American Tobacco p.l.c.",
+      "symbol": "BTI",
+      "currency": "USD",
+      "close": 61.89,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 130281468801,
+        "high": 136355069191
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "HDFC Bank Limited",
+      "symbol": "HDB",
+      "currency": "USD",
+      "close": 25.83,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 129911305780,
+        "high": 135529487888
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Medtronic plc",
+      "symbol": "MDT",
+      "currency": "USD",
+      "close": 102.86,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 128940680898,
+        "high": 134229660245
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Altria Group, Inc.",
+      "symbol": "MO",
+      "currency": "USD",
+      "close": 78.64,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 128196425416,
+        "high": 133479833745
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Bristol-Myers Squibb Company",
+      "symbol": "BMY",
+      "currency": "USD",
+      "close": 63.43,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 127053220954,
+        "high": 132249491546
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Lowe's Companies, Inc.",
+      "symbol": "LOW",
+      "currency": "USD",
+      "close": 227.73,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 125213455112,
+        "high": 130404326896
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "McKesson Corporation",
+      "symbol": "MCK",
+      "currency": "USD",
+      "close": 1102.8101,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 124770610813,
+        "high": 129873310675
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Sandisk Corporation",
+      "symbol": "SNDK",
+      "currency": "USD",
+      "close": 885.01,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 123408960700,
+        "high": 128446061137
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Spotify Technology S.A.",
+      "symbol": "SPOT",
+      "currency": "USD",
+      "close": 612.63,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 123392837706,
+        "high": 131729393133
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Mizuho Financial Group, Inc.",
+      "symbol": "MFG",
+      "currency": "USD",
+      "close": 10.34,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 122337428868,
+        "high": 131426658035
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "ICICI Bank Limited",
+      "symbol": "IBN",
+      "currency": "USD",
+      "close": 34.52,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 121076787547,
+        "high": 126420334468
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Prologis, Inc.",
+      "symbol": "PLD",
+      "currency": "USD",
+      "close": 128.67,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 119930977775,
+        "high": 127604151761
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Automatic Data Processing, Inc.",
+      "symbol": "ADP",
+      "currency": "USD",
+      "close": 309.93,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 119900834945,
+        "high": 124794746575
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Starbucks Corporation",
+      "symbol": "SBUX",
+      "currency": "USD",
+      "close": 106.44,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 118925199120,
+        "high": 123779288880
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Seagate Technology Holdings plc",
+      "symbol": "STX",
+      "currency": "USD",
+      "close": 528.29,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 118849341508,
+        "high": 123700335039
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Parker-Hannifin Corporation",
+      "symbol": "PH",
+      "currency": "USD",
+      "close": 955.68,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 118081956613,
+        "high": 122918348747
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Bank of Montreal",
+      "symbol": "BMO",
+      "currency": "USD",
+      "close": 173.24,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 118009423555,
+        "high": 122865129395
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Booking Holdings Inc.",
+      "symbol": "BKNG",
+      "currency": "USD",
+      "close": 159.58,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 116306249660,
+        "high": 121053443524
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Petr\u00f3leo Brasileiro S.A. - Petrobras",
+      "symbol": "PBR",
+      "currency": "USD",
+      "close": 18.34,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 115825885839,
+        "high": 120619205553
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Stryker Corporation",
+      "symbol": "SYK",
+      "currency": "USD",
+      "close": 309.64,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 115515888458,
+        "high": 120234705728
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "BP p.l.c.",
+      "symbol": "BP",
+      "currency": "USD",
+      "close": 45.7,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 115353155264,
+        "high": 122032207713
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Newmont Corporation",
+      "symbol": "NEM",
+      "currency": "USD",
+      "close": 113.14,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 115222830612,
+        "high": 119989401913
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Capital One Financial Corporation",
+      "symbol": "COF",
+      "currency": "USD",
+      "close": 195.08,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 115000145737,
+        "high": 119724707428
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Sanofi",
+      "symbol": "SNY",
+      "currency": "USD",
+      "close": 48.37,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 113823723332,
+        "high": 120326724812
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "CVS Health Corporation",
+      "symbol": "CVS",
+      "currency": "USD",
+      "close": 89.35,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 112015790053,
+        "high": 116607439072
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "CME Group Inc.",
+      "symbol": "CME",
+      "currency": "USD",
+      "close": 317.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 111535209276,
+        "high": 116088481837
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Marathon Petroleum Corporation",
+      "symbol": "MPC",
+      "currency": "USD",
+      "close": 414.65,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 110643810454,
+        "high": 115173770746
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Bank of Nova Scotia",
+      "symbol": "BNS",
+      "currency": "USD",
+      "close": 92.54,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 110351214388,
+        "high": 115822466803
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "PDD Holdings Inc.",
+      "symbol": "PDD",
+      "currency": "USD",
+      "close": 78.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 110157506232,
+        "high": 114653730976
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Western Digital Corporation",
+      "symbol": "WDC",
+      "currency": "USD",
+      "close": 295.65,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 108455300990,
+        "high": 112882047970
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Airbnb, Inc.",
+      "symbol": "ABNB",
+      "currency": "USD",
+      "close": 186.78,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 107546308925,
+        "high": 113688697707
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cloudflare, Inc.",
+      "symbol": "NET",
+      "currency": "USD",
+      "close": 305.81,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 107407936792,
+        "high": 111821179020
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Marriott International, Inc.",
+      "symbol": "MAR",
+      "currency": "USD",
+      "close": 423.16,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 106786249422,
+        "high": 111144871848
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Southern Company",
+      "symbol": "SO",
+      "currency": "USD",
+      "close": 93.59,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 106783925910,
+        "high": 111154328960
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Enbridge Inc.",
+      "symbol": "ENB",
+      "currency": "USD",
+      "close": 47.67,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 104126073252,
+        "high": 108387484387
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "ServiceNow, Inc.",
+      "symbol": "NOW",
+      "currency": "USD",
+      "close": 102.25,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 104004472985,
+        "high": 108289972800
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Valero Energy Corporation",
+      "symbol": "VLO",
+      "currency": "USD",
+      "close": 379.83,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 103782757748,
+        "high": 108047234885
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Canadian Imperial Bank of Commerce",
+      "symbol": "CM",
+      "currency": "USD",
+      "close": 115.8,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 102980657558,
+        "high": 107241702077
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Equinix, Inc.",
+      "symbol": "EQIX",
+      "currency": "USD",
+      "close": 1053.79,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 102226641632,
+        "high": 106399157618
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "HCA Healthcare, Inc.",
+      "symbol": "HCA",
+      "currency": "USD",
+      "close": 499.05,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 102138280324,
+        "high": 106332758168
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Rio Tinto Group",
+      "symbol": "RIO",
+      "currency": "USD",
+      "close": 82.95,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 102110787121,
+        "high": 137616312509
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Phillips 66",
+      "symbol": "PSX",
+      "currency": "USD",
+      "close": 264.9,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 101259742611,
+        "high": 105396772068
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Bank of New York Mellon Corporation",
+      "symbol": "BNY",
+      "currency": "USD",
+      "close": 153.41,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 101144986988,
+        "high": 105293944498
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Snowflake Inc.",
+      "symbol": "SNOW",
+      "currency": "USD",
+      "close": 291.0,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 100611504000,
+        "high": 104718096000
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Equinor ASA",
+      "symbol": "EQNR",
+      "currency": "USD",
+      "close": 42.95,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 99594837048,
+        "high": 109559876318
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Canadian Natural Resources Limited",
+      "symbol": "CNQ",
+      "currency": "USD",
+      "close": 49.75,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 99222763150,
+        "high": 103789683208
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "GSK plc",
+      "symbol": "GSK",
+      "currency": "USD",
+      "close": 50.45,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 99102981049,
+        "high": 104107040252
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Duke Energy Corporation",
+      "symbol": "DUK",
+      "currency": "USD",
+      "close": 129.16,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 98692981168,
+        "high": 102729219137
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Intercontinental Exchange, Inc.",
+      "symbol": "ICE",
+      "currency": "USD",
+      "close": 178.51,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 97755625199,
+        "high": 101757051429
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Regeneron Pharmaceuticals, Inc.",
+      "symbol": "REGN",
+      "currency": "USD",
+      "close": 955.47,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 96864499322,
+        "high": 100818152356
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Marsh & McLennan Companies, Inc.",
+      "symbol": "MRSH",
+      "currency": "USD",
+      "close": 207.78,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 96826319527,
+        "high": 100778414201
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Constellation Energy Corporation",
+      "symbol": "CEG",
+      "currency": "USD",
+      "close": 280.2,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 96550288764,
+        "high": 100491116877
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Corning Incorporated",
+      "symbol": "GLW",
+      "currency": "USD",
+      "close": 114.08,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 96286381947,
+        "high": 100234010936
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "General Dynamics Corporation",
+      "symbol": "GD",
+      "currency": "USD",
+      "close": 363.46,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 96226041261,
+        "high": 100179819459
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Waste Management, Inc.",
+      "symbol": "WM",
+      "currency": "USD",
+      "close": 243.83,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 95008421493,
+        "high": 98894428000
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "CSX Corporation",
+      "symbol": "CSX",
+      "currency": "USD",
+      "close": 52.05,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 94029899294,
+        "high": 97867854368
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "United Parcel Service, Inc.",
+      "symbol": "UPS",
+      "currency": "USD",
+      "close": 112.4,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 93791054265,
+        "high": 97654000512
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "U.S. Bancorp",
+      "symbol": "USB",
+      "currency": "USD",
+      "close": 60.99,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 93134453112,
+        "high": 96951753092
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "3M Company",
+      "symbol": "MMM",
+      "currency": "USD",
+      "close": 183.66,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 93004502490,
+        "high": 96832228482
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Adobe Inc.",
+      "symbol": "ADBE",
+      "currency": "USD",
+      "close": 243.08,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 92714601280,
+        "high": 96498870720
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "ING Groep N.V.",
+      "symbol": "ING",
+      "currency": "USD",
+      "close": 33.22,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 92334495389,
+        "high": 98376964459
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Fortinet, Inc.",
+      "symbol": "FTNT",
+      "currency": "USD",
+      "close": 127.22,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 91600377785,
+        "high": 95339168715
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Elevance Health, Inc.",
+      "symbol": "ELV",
+      "currency": "USD",
+      "close": 429.69,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 90980314688,
+        "high": 94713630851
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The PNC Financial Services Group, Inc.",
+      "symbol": "PNC",
+      "currency": "USD",
+      "close": 232.29,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 90316435587,
+        "high": 94010914985
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Trane Technologies plc",
+      "symbol": "TT",
+      "currency": "USD",
+      "close": 417.99,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 89666140674,
+        "high": 93361706870
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Brookfield Corporation",
+      "symbol": "BN",
+      "currency": "USD",
+      "close": 40.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 89630250169,
+        "high": 102427856873
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Intuit Inc.",
+      "symbol": "INTU",
+      "currency": "USD",
+      "close": 341.7,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 89488250376,
+        "high": 93140832024
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Emerson Electric Co.",
+      "symbol": "EMR",
+      "currency": "USD",
+      "close": 166.38,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 89450546640,
+        "high": 93118376520
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Monster Beverage Corporation",
+      "symbol": "MNST",
+      "currency": "USD",
+      "close": 46.46,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 89127083818,
+        "high": 92764923974
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Quanta Services, Inc.",
+      "symbol": "PWR",
+      "currency": "USD",
+      "close": 602.01,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 88889058556,
+        "high": 92523331023
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Moderna, Inc.",
+      "symbol": "MRNA",
+      "currency": "USD",
+      "close": 223.37,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 88572583442,
+        "high": 92187790930
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Blackstone Inc.",
+      "symbol": "BX",
+      "currency": "USD",
+      "close": 120.19,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 88471018951,
+        "high": 151326535287
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Agnico Eagle Mines Limited",
+      "symbol": "AEM",
+      "currency": "USD",
+      "close": 178.45,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 88405519789,
+        "high": 92019064925
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cintas Corporation",
+      "symbol": "CTAS",
+      "currency": "USD",
+      "close": 226.24,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 88037583659,
+        "high": 91630954421
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Comcast Corporation",
+      "symbol": "CMCSA",
+      "currency": "USD",
+      "close": 25.16,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 87556453001,
+        "high": 91130185777
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "American Tower Corporation",
+      "symbol": "AMT",
+      "currency": "USD",
+      "close": 191.64,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 87098134727,
+        "high": 90686273352
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cadence Design Systems, Inc.",
+      "symbol": "CDNS",
+      "currency": "USD",
+      "close": 323.01,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 86854617574,
+        "high": 90399704006
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Motorola Solutions, Inc.",
+      "symbol": "MSI",
+      "currency": "USD",
+      "close": 531.2,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 86068881149,
+        "high": 89605506394
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Howmet Aerospace Inc.",
+      "symbol": "HWM",
+      "currency": "USD",
+      "close": 220.82,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 86039573322,
+        "high": 89567617190
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Moody's Corporation",
+      "symbol": "MCO",
+      "currency": "USD",
+      "close": 508.2,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 85864785440,
+        "high": 89378436842
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "KKR & Co. Inc.",
+      "symbol": "KKR",
+      "currency": "USD",
+      "close": 98.05,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 85716052715,
+        "high": 91819542639
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Synopsys, Inc.",
+      "symbol": "SNPS",
+      "currency": "USD",
+      "close": 455.2,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 85488341234,
+        "high": 88977661284
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Ecolab Inc.",
+      "symbol": "ECL",
+      "currency": "USD",
+      "close": 309.27,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 84994472093,
+        "high": 88475077304
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Royal Caribbean Cruises Ltd.",
+      "symbol": "RCL",
+      "currency": "USD",
+      "close": 323.27,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 84725534546,
+        "high": 88194632443
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Williams Companies, Inc.",
+      "symbol": "WMB",
+      "currency": "USD",
+      "close": 69.09,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 84648961994,
+        "high": 179058683811
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Mondelez International, Inc.",
+      "symbol": "MDLZ",
+      "currency": "USD",
+      "close": 67.54,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 83784829635,
+        "high": 87204618600
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Freeport-McMoRan Inc.",
+      "symbol": "FCX",
+      "currency": "USD",
+      "close": 59.24,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 83305498441,
+        "high": 86734995562
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "National Grid plc",
+      "symbol": "NGG",
+      "currency": "USD",
+      "close": 84.29,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 83049697998,
+        "high": 90277048992
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Sherwin-Williams Company",
+      "symbol": "SHW",
+      "currency": "USD",
+      "close": 349.89,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 82838665502,
+        "high": 86264191092
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Johnson Controls International plc",
+      "symbol": "JCI",
+      "currency": "USD",
+      "close": 139.33,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 81950371654,
+        "high": 85298345801
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Hilton Worldwide Holdings Inc.",
+      "symbol": "HLT",
+      "currency": "USD",
+      "close": 373.09,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 81353866811,
+        "high": 84674432803
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Travelers Companies, Inc.",
+      "symbol": "TRV",
+      "currency": "USD",
+      "close": 403.23,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 80983688243,
+        "high": 84293325811
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Enterprise Products Partners L.P.",
+      "symbol": "EPD",
+      "currency": "USD",
+      "close": 38.28,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 80903737285,
+        "high": 84227928013
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Brookfield Asset Management Ltd.",
+      "symbol": "BAM",
+      "currency": "USD",
+      "close": 51.53,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 80676230965,
+        "high": 83985436709
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "EOG Resources, Inc.",
+      "symbol": "EOG",
+      "currency": "USD",
+      "close": 158.32,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 80414207024,
+        "high": 83728150791
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Eni S.p.A.",
+      "symbol": "E",
+      "currency": "USD",
+      "close": 57.58,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 80223972107,
+        "high": 92391226482
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Canadian Pacific Kansas City Limited",
+      "symbol": "CP",
+      "currency": "USD",
+      "close": 94.15,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 80214163922,
+        "high": 83505950346
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Illinois Tool Works Inc.",
+      "symbol": "ITW",
+      "currency": "USD",
+      "close": 287.52,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 80073350000,
+        "high": 83347447680
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Suncor Energy Inc.",
+      "symbol": "SU",
+      "currency": "USD",
+      "close": 69.92,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 78883726335,
+        "high": 83392252077
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Carvana Co.",
+      "symbol": "CVNA",
+      "currency": "USD",
+      "close": 72.37,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 78213709815,
+        "high": 110128776981
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Colgate-Palmolive Company",
+      "symbol": "CL",
+      "currency": "USD",
+      "close": 99.67,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 77645132980,
+        "high": 80814322082
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "ASE Technology Holding Co., Ltd.",
+      "symbol": "ASX",
+      "currency": "USD",
+      "close": 35.55,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 76909666022,
+        "high": 80738219877
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Cigna Group",
+      "symbol": "CI",
+      "currency": "USD",
+      "close": 297.0,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 76695055405,
+        "high": 79865781721
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Northrop Grumman Corporation",
+      "symbol": "NOC",
+      "currency": "USD",
+      "close": 550.43,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 76632625547,
+        "high": 79802510490
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "NetEase, Inc.",
+      "symbol": "NTES",
+      "currency": "USD",
+      "close": 122.18,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 76404035203,
+        "high": 79795746205
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Vertiv Holdings Co",
+      "symbol": "VRT",
+      "currency": "USD",
+      "close": 202.07,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 76252976086,
+        "high": 79373197690
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Republic Services, Inc.",
+      "symbol": "RSG",
+      "currency": "USD",
+      "close": 252.99,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 75529370096,
+        "high": 78630845476
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Canadian National Railway Company",
+      "symbol": "CNI",
+      "currency": "USD",
+      "close": 127.18,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 74744449080,
+        "high": 77801359860
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "SLB N.V.",
+      "symbol": "SLB",
+      "currency": "USD",
+      "close": 51.67,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 74741121102,
+        "high": 77821890110
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Barclays PLC",
+      "symbol": "BCS",
+      "currency": "USD",
+      "close": 22.87,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 74437194736,
+        "high": 78403463493
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "FedEx Corporation",
+      "symbol": "FDX",
+      "currency": "USD",
+      "close": 324.14,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 74395110716,
+        "high": 77479422515
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "MercadoLibre, Inc.",
+      "symbol": "MELI",
+      "currency": "USD",
+      "close": 1491.49,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 74101497751,
+        "high": 77126048679
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Simon Property Group, Inc.",
+      "symbol": "SPG",
+      "currency": "USD",
+      "close": 232.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 73661289852,
+        "high": 89950847459
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "DoorDash, Inc.",
+      "symbol": "DASH",
+      "currency": "USD",
+      "close": 171.51,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 73278814519,
+        "high": 76269786541
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Lloyds Banking Group plc",
+      "symbol": "LYG",
+      "currency": "USD",
+      "close": 5.21,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 72684066083,
+        "high": 78686244970
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Ross Stores, Inc.",
+      "symbol": "ROST",
+      "currency": "USD",
+      "close": 231.68,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 72530678594,
+        "high": 75491114456
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "O'Reilly Automotive, Inc.",
+      "symbol": "ORLY",
+      "currency": "USD",
+      "close": 92.19,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 72462055241,
+        "high": 75419690149
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Norfolk Southern Corporation",
+      "symbol": "NSC",
+      "currency": "USD",
+      "close": 327.88,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 72161165165,
+        "high": 75120265386
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Target Corporation",
+      "symbol": "TGT",
+      "currency": "USD",
+      "close": 161.45,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 71878449251,
+        "high": 74813132188
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Apollo Global Management, Inc.",
+      "symbol": "APO",
+      "currency": "USD",
+      "close": 123.47,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 71442696924,
+        "high": 74391848638
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Manulife Financial Corporation",
+      "symbol": "MFC",
+      "currency": "USD",
+      "close": 44.06,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 71329641726,
+        "high": 74249480669
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "General Motors Company",
+      "symbol": "GM",
+      "currency": "USD",
+      "close": 86.0,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 71094345370,
+        "high": 74021967998
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Arthur J. Gallagher & Co.",
+      "symbol": "AJG",
+      "currency": "USD",
+      "close": 282.94,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 71087361520,
+        "high": 74001061302
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Ferrari N.V.",
+      "symbol": "RACE",
+      "currency": "USD",
+      "close": 411.13,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 70598408858,
+        "high": 98129110931
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Aon plc",
+      "symbol": "AON",
+      "currency": "USD",
+      "close": 338.31,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 70339396328,
+        "high": 73223376116
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Kinder Morgan, Inc.",
+      "symbol": "KMI",
+      "currency": "USD",
+      "close": 31.92,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 69686496707,
+        "high": 72564927555
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Honeywell International Inc.",
+      "symbol": "HON",
+      "currency": "USD",
+      "close": 222.46,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 69187584396,
+        "high": 72011567433
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Air Products and Chemicals, Inc.",
+      "symbol": "APD",
+      "currency": "USD",
+      "close": 316.53,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 69076917795,
+        "high": 71930454713
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "American Electric Power Company, Inc.",
+      "symbol": "AEP",
+      "currency": "USD",
+      "close": 129.18,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 68935073083,
+        "high": 71748749536
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "RELX PLC",
+      "symbol": "RELX",
+      "currency": "USD",
+      "close": 40.51,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 68866906167,
+        "high": 72227372918
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Robinhood Markets, Inc.",
+      "symbol": "HOOD",
+      "currency": "USD",
+      "close": 77.86,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 68710005810,
+        "high": 71514495844
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "W.W. Grainger, Inc.",
+      "symbol": "GWW",
+      "currency": "USD",
+      "close": 1489.3,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 68310764709,
+        "high": 71114716829
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "United Rentals, Inc.",
+      "symbol": "URI",
+      "currency": "USD",
+      "close": 1124.5601,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 68200539666,
+        "high": 71021502881
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cencora, Inc.",
+      "symbol": "COR",
+      "currency": "USD",
+      "close": 359.03,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 67142423509,
+        "high": 69914073584
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Digital Realty Trust, Inc.",
+      "symbol": "DLR",
+      "currency": "USD",
+      "close": 179.99,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 66747796368,
+        "high": 70680399395
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Deutsche Bank Aktiengesellschaft",
+      "symbol": "DB",
+      "currency": "USD",
+      "close": 36.62,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 66539199160,
+        "high": 70381530000
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Monolithic Power Systems, Inc.",
+      "symbol": "MPWR",
+      "currency": "USD",
+      "close": 1390.54,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 66457577626,
+        "high": 69170131814
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Takeda Pharmaceutical Company Limited",
+      "symbol": "TAK",
+      "currency": "USD",
+      "close": 21.43,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 66376643789,
+        "high": 69835992920
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Kimberly-Clark Corporation",
+      "symbol": "KMB",
+      "currency": "USD",
+      "close": 109.43,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 65811399819,
+        "high": 68497579403
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "NXP Semiconductors N.V.",
+      "symbol": "NXPI",
+      "currency": "USD",
+      "close": 265.09,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 65480392057,
+        "high": 68153061121
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Datadog, Inc.",
+      "symbol": "DDOG",
+      "currency": "USD",
+      "close": 184.16,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 65159803185,
+        "high": 67819386989
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "TransDigm Group Incorporated",
+      "symbol": "TDG",
+      "currency": "USD",
+      "close": 1217.28,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 65122093255,
+        "high": 67792387837
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "The Allstate Corporation",
+      "symbol": "ALL",
+      "currency": "USD",
+      "close": 267.64,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 64902835447,
+        "high": 67582218590
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cardinal Health, Inc.",
+      "symbol": "CAH",
+      "currency": "USD",
+      "close": 281.1,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 63673063446,
+        "high": 66281394371
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "TC Energy Corporation",
+      "symbol": "TRP",
+      "currency": "USD",
+      "close": 64.78,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 63464800000,
+        "high": 68835372713
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "MetLife, Inc.",
+      "symbol": "MET",
+      "currency": "USD",
+      "close": 102.65,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 63219394259,
+        "high": 65799777699
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Boston Scientific Corporation",
+      "symbol": "BSX",
+      "currency": "USD",
+      "close": 44.34,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 62984249810,
+        "high": 65569820144
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Hewlett Packard Enterprise Company",
+      "symbol": "HPE",
+      "currency": "USD",
+      "close": 48.29,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 62821208694,
+        "high": 65398879803
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Nu Holdings Ltd.",
+      "symbol": "NU",
+      "currency": "USD",
+      "close": 13.22,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 62686115171,
+        "high": 65426317653
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Targa Resources Corp.",
+      "symbol": "TRGP",
+      "currency": "USD",
+      "close": 297.33,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 62517477209,
+        "high": 65099849285
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Fastenal Company",
+      "symbol": "FAST",
+      "currency": "USD",
+      "close": 55.19,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 62053177740,
+        "high": 64585960505
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Aflac Incorporated",
+      "symbol": "AFL",
+      "currency": "USD",
+      "close": 127.61,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 61854470788,
+        "high": 64379143066
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cheniere Energy, Inc.",
+      "symbol": "LNG",
+      "currency": "USD",
+      "close": 308.75,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 61770989691,
+        "high": 64308917616
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "NatWest Group plc",
+      "symbol": "NWG",
+      "currency": "USD",
+      "close": 15.83,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 61202072096,
+        "high": 64203566236
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Public Storage",
+      "symbol": "PSA",
+      "currency": "USD",
+      "close": 332.59,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 60898501916,
+        "high": 63385107957
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "TE Connectivity plc",
+      "symbol": "TEL",
+      "currency": "USD",
+      "close": 216.34,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 60757858431,
+        "high": 63264089631
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "CRH plc",
+      "symbol": "CRH",
+      "currency": "USD",
+      "close": 93.16,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 60733438828,
+        "high": 63259852174
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cummins Inc.",
+      "symbol": "CMI",
+      "currency": "USD",
+      "close": 452.18,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 60709686800,
+        "high": 63213770545
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Edwards Lifesciences Corporation",
+      "symbol": "EW",
+      "currency": "USD",
+      "close": 107.15,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 60379025000,
+        "high": 62864002500
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Barrick Mining Corporation",
+      "symbol": "B",
+      "currency": "USD",
+      "close": 37.59,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 59995908181,
+        "high": 62469626953
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Imperial Oil Limited",
+      "symbol": "IMO",
+      "currency": "USD",
+      "close": 128.7,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 59532959908,
+        "high": 61996578282
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Nasdaq, Inc.",
+      "symbol": "NDAQ",
+      "currency": "USD",
+      "close": 108.47,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 58992873409,
+        "high": 61400745793
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Truist Financial Corporation",
+      "symbol": "TFC",
+      "currency": "USD",
+      "close": 49.97,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 58690696629,
+        "high": 61092347558
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Wheaton Precious Metals Corp.",
+      "symbol": "WPM",
+      "currency": "USD",
+      "close": 131.45,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 58509077691,
+        "high": 60915734221
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "argenx SE",
+      "symbol": "ARGX",
+      "currency": "USD",
+      "close": 960.04,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 58391197896,
+        "high": 61580609413
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Dominion Energy, Inc.",
+      "symbol": "D",
+      "currency": "USD",
+      "close": 67.66,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 58321212021,
+        "high": 60706155441
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Becton, Dickinson and Company",
+      "symbol": "BDX",
+      "currency": "USD",
+      "close": 218.03,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 58200724124,
+        "high": 60579042229
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Occidental Petroleum Corporation",
+      "symbol": "OXY",
+      "currency": "USD",
+      "close": 58.75,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 57568939943,
+        "high": 59918692594
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Bloom Energy Corporation",
+      "symbol": "BE",
+      "currency": "USD",
+      "close": 191.99,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 55622070295,
+        "high": 57898390276
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Delta Air Lines, Inc.",
+      "symbol": "DAL",
+      "currency": "USD",
+      "close": 86.25,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 55577806213,
+        "high": 57879841630
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Nucor Corporation",
+      "symbol": "NUE",
+      "currency": "USD",
+      "close": 251.73,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 55492693723,
+        "high": 57789823658
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "ONEOK, Inc.",
+      "symbol": "OKE",
+      "currency": "USD",
+      "close": 89.75,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 55451268186,
+        "high": 57714585255
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Diageo plc",
+      "symbol": "DEO",
+      "currency": "USD",
+      "close": 101.59,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 55402701146,
+        "high": 57706766337
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "NIKE, Inc.",
+      "symbol": "NKE",
+      "currency": "USD",
+      "close": 37.99,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 55298344765,
+        "high": 57555420062
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "PACCAR Inc",
+      "symbol": "PCAR",
+      "currency": "USD",
+      "close": 106.66,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 55033917223,
+        "high": 57280199559
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Realty Income Corporation",
+      "symbol": "O",
+      "currency": "USD",
+      "close": 58.82,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 54837532978,
+        "high": 57217298116
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "AMETEK, Inc.",
+      "symbol": "AME",
+      "currency": "USD",
+      "close": 242.11,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 54409776886,
+        "high": 56651635498
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "IDEXX Laboratories, Inc.",
+      "symbol": "IDXX",
+      "currency": "USD",
+      "close": 704.23,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 54373978373,
+        "high": 56593324429
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Autodesk, Inc.",
+      "symbol": "ADSK",
+      "currency": "USD",
+      "close": 264.42,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 54158504400,
+        "high": 56369055600
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Garmin Ltd.",
+      "symbol": "GRMN",
+      "currency": "USD",
+      "close": 283.03,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 53440225533,
+        "high": 55629321197
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Lumentum Holdings Inc.",
+      "symbol": "LITE",
+      "currency": "USD",
+      "close": 596.62,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 53022344723,
+        "high": 55195702680
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Humana Inc.",
+      "symbol": "HUM",
+      "currency": "USD",
+      "close": 450.0,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 52965533250,
+        "high": 55184969249
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Entergy Corporation",
+      "symbol": "ETR",
+      "currency": "USD",
+      "close": 111.15,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 52048274809,
+        "high": 54175131108
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Devon Energy Corporation",
+      "symbol": "DVN",
+      "currency": "USD",
+      "close": 46.58,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 52026134709,
+        "high": 54172900583
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "eBay Inc.",
+      "symbol": "EBAY",
+      "currency": "USD",
+      "close": 120.92,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 52022202400,
+        "high": 54145557600
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Cenovus Energy Inc.",
+      "symbol": "CVE",
+      "currency": "USD",
+      "close": 29.08,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 51505790386,
+        "high": 53881987111
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "AutoZone, Inc.",
+      "symbol": "AZO",
+      "currency": "USD",
+      "close": 3259.7,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 51413468891,
+        "high": 53512962798
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Xcel Energy Inc.",
+      "symbol": "XEL",
+      "currency": "USD",
+      "close": 81.61,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 51335706227,
+        "high": 53431041175
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Honeywell Aerospace Inc.",
+      "symbol": "HONA",
+      "currency": "USD",
+      "close": 165.01,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 51267154793,
+        "high": 53359691724
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Sempra",
+      "symbol": "SRE",
+      "currency": "USD",
+      "close": 79.54,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 50988098823,
+        "high": 53082589753
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Coca-Cola Europacific Partners PLC",
+      "symbol": "CCEP",
+      "currency": "USD",
+      "close": 118.57,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 50972277926,
+        "high": 54905271023
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Teva Pharmaceutical Industries Limited",
+      "symbol": "TEVA",
+      "currency": "USD",
+      "close": 44.5,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 50885316050,
+        "high": 53009874258
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Medline Inc.",
+      "symbol": "MDLN",
+      "currency": "USD",
+      "close": 39.47,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 50877422260,
+        "high": 52981907018
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Diamondback Energy, Inc.",
+      "symbol": "FANG",
+      "currency": "USD",
+      "close": 184.93,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 50593978659,
+        "high": 52659039013
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    },
+    {
+      "issuer_id": "Block, Inc.",
+      "symbol": "XYZ",
+      "currency": "USD",
+      "close": 84.58,
+      "exchange_tz": "America/New_York",
+      "as_of": "2026-11-13T16:00:00-05:00",
+      "market_cap_usd": {
+        "low": 50107861345,
+        "high": 52159246300
+      },
+      "horizon_months": 12,
+      "coverage": "aggregate_only",
+      "events": [],
+      "earnings_at": null
+    }
+  ]
+}

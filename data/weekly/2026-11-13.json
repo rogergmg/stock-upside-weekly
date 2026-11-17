@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-17T10:53:51.883517+00:00",
+  "built_at": "2026-11-17T10:57:04.617948+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -1616,7 +1616,8 @@
         "upside_pct": -2.9861341117691564
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NVDA",
@@ -1645,7 +1646,8 @@
         "upside_pct": 65.03372428615293
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MSFT",
@@ -1674,7 +1676,8 @@
         "upside_pct": 21.425568832557083
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GOOGL",
@@ -1705,7 +1708,8 @@
       "other_classes": [
         "GOOG"
       ],
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AMZN",
@@ -1734,7 +1738,8 @@
         "upside_pct": 22.361936548413695
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TSM",
@@ -1763,7 +1768,8 @@
         "upside_pct": 47.140420836154775
       },
       "other_classes": null,
-      "financial_currency": "TWD"
+      "financial_currency": "TWD",
+      "last_split": null
     },
     {
       "symbol": "SPCX",
@@ -1792,7 +1798,8 @@
         "upside_pct": 83.76123930702319
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AVGO",
@@ -1821,7 +1828,8 @@
         "upside_pct": 52.20721593037665
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "META",
@@ -1850,7 +1858,8 @@
         "upside_pct": 32.55438919104239
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TSLA",
@@ -1879,7 +1888,8 @@
         "upside_pct": 5.703515965352879
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LLY",
@@ -1908,7 +1918,8 @@
         "upside_pct": 1.3786906823692435
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BRK/B",
@@ -1939,7 +1950,8 @@
       "other_classes": [
         "BRK/A"
       ],
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WMT",
@@ -1968,7 +1980,8 @@
         "upside_pct": 2.6231555937231477
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SKHY",
@@ -1997,7 +2010,8 @@
         "upside_pct": 96.90416571818803
       },
       "other_classes": null,
-      "financial_currency": "KRW"
+      "financial_currency": "KRW",
+      "last_split": null
     },
     {
       "symbol": "JPM",
@@ -2026,7 +2040,8 @@
         "upside_pct": 7.882454721395771
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MU",
@@ -2055,7 +2070,8 @@
         "upside_pct": 100.67981909521913
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AMD",
@@ -2084,7 +2100,8 @@
         "upside_pct": 23.158982136838556
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "V",
@@ -2113,7 +2130,8 @@
         "upside_pct": 5.473583709131913
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "XOM",
@@ -2142,7 +2160,8 @@
         "upside_pct": 7.9675361979013815
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "JNJ",
@@ -2171,7 +2190,8 @@
         "upside_pct": -2.2190376202974593
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ASML",
@@ -2200,7 +2220,8 @@
         "upside_pct": 41.24482998475081
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "MA",
@@ -2229,7 +2250,8 @@
         "upside_pct": 8.998437665421433
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ABBV",
@@ -2258,7 +2280,8 @@
         "upside_pct": 5.6867708368640635
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "COST",
@@ -2287,7 +2310,8 @@
         "upside_pct": -2.3009464749008
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CVX",
@@ -2316,7 +2340,8 @@
         "upside_pct": 10.263463549956796
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "KO",
@@ -2345,7 +2370,8 @@
         "upside_pct": -0.8213803526448293
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PLTR",
@@ -2374,7 +2400,8 @@
         "upside_pct": 33.00323828799332
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PG",
@@ -2403,7 +2430,8 @@
         "upside_pct": 2.4991107184923367
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ORCL",
@@ -2432,7 +2460,8 @@
         "upside_pct": 88.4196250498604
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CSCO",
@@ -2461,7 +2490,8 @@
         "upside_pct": 35.88282099539941
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "UNH",
@@ -2490,7 +2520,8 @@
         "upside_pct": 16.909635301624704
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MRK",
@@ -2519,7 +2550,8 @@
         "upside_pct": 9.315782349756363
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BAC",
@@ -2548,7 +2580,8 @@
         "upside_pct": 22.4564288514308
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HD",
@@ -2577,7 +2610,8 @@
         "upside_pct": 8.289239725830978
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GE",
@@ -2606,7 +2640,8 @@
         "upside_pct": 14.049775473915794
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "INTC",
@@ -2635,7 +2670,8 @@
         "upside_pct": 51.94629567549449
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PM",
@@ -2664,7 +2700,8 @@
         "upside_pct": 6.773974668275029
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HSBC",
@@ -2693,7 +2730,8 @@
         "upside_pct": 14.948303950011166
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NVS",
@@ -2722,7 +2760,8 @@
         "upside_pct": -2.118380062305303
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MS",
@@ -2751,7 +2790,8 @@
         "upside_pct": 10.936270653029112
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AMAT",
@@ -2780,7 +2820,8 @@
         "upside_pct": 52.80510121457491
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AZN",
@@ -2809,7 +2850,8 @@
         "upside_pct": 12.808349146110064
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LRCX",
@@ -2838,7 +2880,8 @@
         "upside_pct": 60.27797450424932
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "RY",
@@ -2867,7 +2910,8 @@
         "upside_pct": 3.016148484998271
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "TXN",
@@ -2896,7 +2940,8 @@
         "upside_pct": 11.591930171277976
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CAT",
@@ -2925,7 +2970,8 @@
         "upside_pct": 34.49856714428523
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SHEL",
@@ -2954,7 +3000,8 @@
         "upside_pct": 11.835557125555107
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SAP",
@@ -2983,7 +3030,8 @@
         "upside_pct": 21.115368241805022
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "RTX",
@@ -3012,7 +3060,8 @@
         "upside_pct": 14.77139691811864
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GS",
@@ -3041,7 +3090,8 @@
         "upside_pct": 12.449441389543514
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PANW",
@@ -3070,7 +3120,8 @@
         "upside_pct": 23.704959036742814
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TMO",
@@ -3099,7 +3150,8 @@
         "upside_pct": 8.040330181942812
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WFC",
@@ -3128,7 +3180,8 @@
         "upside_pct": 13.160952934340497
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NFLX",
@@ -3157,7 +3210,8 @@
         "upside_pct": 36.38497184231699
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AMGN",
@@ -3186,7 +3240,8 @@
         "upside_pct": -7.049986041617462
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TM",
@@ -3215,7 +3270,8 @@
         "upside_pct": 12.07363366756109
       },
       "other_classes": null,
-      "financial_currency": "JPY"
+      "financial_currency": "JPY",
+      "last_split": null
     },
     {
       "symbol": "ANET",
@@ -3244,7 +3300,8 @@
         "upside_pct": 26.537898525013958
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MUFG",
@@ -3273,7 +3330,8 @@
         "upside_pct": 8.865414567109497
       },
       "other_classes": null,
-      "financial_currency": "JPY"
+      "financial_currency": "JPY",
+      "last_split": null
     },
     {
       "symbol": "LIN",
@@ -3302,7 +3360,8 @@
         "upside_pct": 4.7479470022431025
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "IBM",
@@ -3331,7 +3390,8 @@
         "upside_pct": 5.1460284061020545
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CRWD",
@@ -3360,7 +3420,8 @@
         "upside_pct": 10.402630069282015
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CCZ",
@@ -3389,7 +3450,8 @@
         "upside_pct": null
       },
       "other_classes": null,
-      "financial_currency": null
+      "financial_currency": null,
+      "last_split": null
     },
     {
       "symbol": "DELL",
@@ -3418,7 +3480,8 @@
         "upside_pct": 69.99390473979044
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AXP",
@@ -3447,7 +3510,8 @@
         "upside_pct": 13.78262008733624
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GEV",
@@ -3476,7 +3540,8 @@
         "upside_pct": 46.72456513889407
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GILD",
@@ -3505,7 +3570,8 @@
         "upside_pct": 3.979789386006649
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DIS",
@@ -3534,7 +3600,8 @@
         "upside_pct": 6.571681936622675
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "C",
@@ -3563,7 +3630,8 @@
         "upside_pct": 21.437988871865166
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ARM",
@@ -3592,7 +3660,8 @@
         "upside_pct": 42.98535663675012
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TD",
@@ -3621,7 +3690,8 @@
         "upside_pct": -3.8508403361344534
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "BHP",
@@ -3650,7 +3720,8 @@
         "upside_pct": -0.16714052082021924
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "KLAC",
@@ -3679,7 +3750,8 @@
         "upside_pct": 44.180271796218484
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PEP",
@@ -3708,7 +3780,8 @@
         "upside_pct": -2.6465140264026354
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TTE",
@@ -3737,7 +3810,8 @@
         "upside_pct": 11.141723605906995
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "APH",
@@ -3766,7 +3840,8 @@
         "upside_pct": 36.742528441774255
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ADI",
@@ -3795,7 +3870,8 @@
         "upside_pct": 18.95977586250219
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "VZ",
@@ -3824,7 +3900,8 @@
         "upside_pct": 9.253666954270923
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MCD",
@@ -3853,7 +3930,8 @@
         "upside_pct": 9.938596168695057
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SHOP",
@@ -3882,7 +3960,8 @@
         "upside_pct": 20.529009449996604
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BLK",
@@ -3911,7 +3990,8 @@
         "upside_pct": 11.296726660179402
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ABT",
@@ -3940,7 +4020,8 @@
         "upside_pct": 9.57179321784003
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "QCOM",
@@ -3969,7 +4050,8 @@
         "upside_pct": 7.824143329274658
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NVO",
@@ -3998,7 +4080,8 @@
         "upside_pct": 9.16122267595485
       },
       "other_classes": null,
-      "financial_currency": "DKK"
+      "financial_currency": "DKK",
+      "last_split": null
     },
     {
       "symbol": "DE",
@@ -4027,7 +4110,8 @@
         "upside_pct": 3.0388395640941868
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TMUS",
@@ -4056,7 +4140,8 @@
         "upside_pct": 32.650779641070905
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "UNP",
@@ -4085,7 +4170,8 @@
         "upside_pct": 9.098776616849635
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WELL",
@@ -4114,7 +4200,8 @@
         "upside_pct": 8.588137118547001
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CRM",
@@ -4143,7 +4230,8 @@
         "upside_pct": 31.786448769739263
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NEE",
@@ -4172,7 +4260,8 @@
         "upside_pct": 10.43233082706767
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SAN",
@@ -4201,7 +4290,8 @@
         "upside_pct": 19.219246519246514
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "COP",
@@ -4230,7 +4320,8 @@
         "upside_pct": 7.508412988473445
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BUD",
@@ -4259,7 +4350,8 @@
         "upside_pct": 11.460912628227792
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PFE",
@@ -4288,7 +4380,8 @@
         "upside_pct": 4.607649705780559
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DHR",
@@ -4317,7 +4410,8 @@
         "upside_pct": 11.537528967470578
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SCHW",
@@ -4346,7 +4440,8 @@
         "upside_pct": 25.44241772424176
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SONY",
@@ -4375,7 +4470,8 @@
         "upside_pct": 17.288511267085326
       },
       "other_classes": null,
-      "financial_currency": "JPY"
+      "financial_currency": "JPY",
+      "last_split": null
     },
     {
       "symbol": "SMFG",
@@ -4404,7 +4500,8 @@
         "upside_pct": -36.31770412287793
       },
       "other_classes": null,
-      "financial_currency": "JPY"
+      "financial_currency": "JPY",
+      "last_split": null
     },
     {
       "symbol": "ISRG",
@@ -4433,7 +4530,8 @@
         "upside_pct": 9.688378908451512
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "T",
@@ -4462,7 +4560,8 @@
         "upside_pct": 24.377637511271423
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ACN",
@@ -4491,7 +4590,8 @@
         "upside_pct": -6.64813765020561
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TJX",
@@ -4520,7 +4620,8 @@
         "upside_pct": 23.092952295899384
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "UBS",
@@ -4549,7 +4650,8 @@
         "upside_pct": 14.262057545021744
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CB",
@@ -4578,7 +4680,8 @@
         "upside_pct": -0.4399371906105398
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "UL",
@@ -4607,7 +4710,8 @@
         "upside_pct": 8.479398882344057
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "UBER",
@@ -4636,7 +4740,8 @@
         "upside_pct": 40.95566078346966
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BBVA",
@@ -4665,7 +4770,8 @@
         "upside_pct": 8.140432098765427
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "SCCO",
@@ -4694,7 +4800,8 @@
         "upside_pct": 8.346300585080435
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LMT",
@@ -4723,7 +4830,8 @@
         "upside_pct": 10.875721428092078
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MRVL",
@@ -4752,7 +4860,8 @@
         "upside_pct": 97.9575401888237
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SPGI",
@@ -4781,7 +4890,8 @@
         "upside_pct": 11.214341519035465
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ETN",
@@ -4810,7 +4920,8 @@
         "upside_pct": 32.79903391223049
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PGR",
@@ -4839,7 +4950,8 @@
         "upside_pct": -1.4416193061328353
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "VRTX",
@@ -4868,7 +4980,8 @@
         "upside_pct": 10.537894541403613
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BA",
@@ -4897,7 +5010,8 @@
         "upside_pct": 36.06189504373178
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "APP",
@@ -4926,7 +5040,8 @@
         "upside_pct": 10.799396235639191
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BTI",
@@ -4955,7 +5070,8 @@
         "upside_pct": 13.696348359993538
       },
       "other_classes": null,
-      "financial_currency": "GBP"
+      "financial_currency": "GBP",
+      "last_split": null
     },
     {
       "symbol": "HDB",
@@ -4984,7 +5100,8 @@
         "upside_pct": 17.305458768873414
       },
       "other_classes": null,
-      "financial_currency": "INR"
+      "financial_currency": "INR",
+      "last_split": null
     },
     {
       "symbol": "MDT",
@@ -5013,7 +5130,8 @@
         "upside_pct": 2.080497763951006
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MO",
@@ -5042,7 +5160,8 @@
         "upside_pct": -6.5939089521871885
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BMY",
@@ -5071,7 +5190,8 @@
         "upside_pct": 2.8693047453886233
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LOW",
@@ -5100,7 +5220,8 @@
         "upside_pct": 10.08517981820578
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MCK",
@@ -5129,7 +5250,8 @@
         "upside_pct": 3.7609104232904755
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SNDK",
@@ -5158,7 +5280,8 @@
         "upside_pct": 131.33919390741346
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SPOT",
@@ -5187,7 +5310,8 @@
         "upside_pct": 3.920057783654074
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "MFG",
@@ -5216,7 +5340,8 @@
         "upside_pct": 12.536073500967104
       },
       "other_classes": null,
-      "financial_currency": "JPY"
+      "financial_currency": "JPY",
+      "last_split": null
     },
     {
       "symbol": "IBN",
@@ -5245,7 +5370,8 @@
         "upside_pct": 9.356894553881801
       },
       "other_classes": null,
-      "financial_currency": "INR"
+      "financial_currency": "INR",
+      "last_split": null
     },
     {
       "symbol": "PLD",
@@ -5274,7 +5400,8 @@
         "upside_pct": 18.18716872619881
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ADP",
@@ -5303,7 +5430,8 @@
         "upside_pct": -3.7632175007259683
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SBUX",
@@ -5332,7 +5460,8 @@
         "upside_pct": 4.346739947388212
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "STX",
@@ -5361,7 +5490,8 @@
         "upside_pct": 97.77648639951543
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PH",
@@ -5390,7 +5520,8 @@
         "upside_pct": 19.035189603214462
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BMO",
@@ -5419,7 +5550,8 @@
         "upside_pct": -4.795682290464098
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "BKNG",
@@ -5448,7 +5580,8 @@
         "upside_pct": 35.06040857250281
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PBR",
@@ -5477,7 +5610,8 @@
         "upside_pct": 26.835005452562697
       },
       "other_classes": null,
-      "financial_currency": "BRL"
+      "financial_currency": "BRL",
+      "last_split": null
     },
     {
       "symbol": "SYK",
@@ -5506,7 +5640,8 @@
         "upside_pct": 9.602428626792392
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BP",
@@ -5535,7 +5670,8 @@
         "upside_pct": 22.30221006564552
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NEM",
@@ -5564,7 +5700,8 @@
         "upside_pct": 19.665900654056912
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "COF",
@@ -5593,7 +5730,8 @@
         "upside_pct": 30.447098626204628
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SNY",
@@ -5622,7 +5760,8 @@
         "upside_pct": 13.546040934463521
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "CVS",
@@ -5651,7 +5790,8 @@
         "upside_pct": 21.94560716284275
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CME",
@@ -5680,7 +5820,8 @@
         "upside_pct": -0.2854042834229742
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MPC",
@@ -5709,7 +5850,8 @@
         "upside_pct": 10.511346919088393
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BNS",
@@ -5738,7 +5880,8 @@
         "upside_pct": -2.62088826453426
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "PDD",
@@ -5767,7 +5910,8 @@
         "upside_pct": 44.18038495631254
       },
       "other_classes": null,
-      "financial_currency": "CNY"
+      "financial_currency": "CNY",
+      "last_split": null
     },
     {
       "symbol": "WDC",
@@ -5796,7 +5940,8 @@
         "upside_pct": 107.46659901911046
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ABNB",
@@ -5825,7 +5970,8 @@
         "upside_pct": 9.990630688510539
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NET",
@@ -5854,7 +6000,8 @@
         "upside_pct": 12.549458814296454
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MAR",
@@ -5883,7 +6030,8 @@
         "upside_pct": -0.6467837224690465
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SO",
@@ -5912,7 +6060,8 @@
         "upside_pct": 2.6031841008654633
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ENB",
@@ -5941,7 +6090,8 @@
         "upside_pct": 6.352066289070701
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "NOW",
@@ -5970,7 +6120,8 @@
         "upside_pct": 52.389926650366746
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "VLO",
@@ -5999,7 +6150,8 @@
         "upside_pct": 10.922202037753737
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CM",
@@ -6028,7 +6180,8 @@
         "upside_pct": 1.8983385146804865
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "EQIX",
@@ -6057,7 +6210,8 @@
         "upside_pct": 17.18416382770762
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HCA",
@@ -6086,7 +6240,8 @@
         "upside_pct": -3.1341348562268334
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "RIO",
@@ -6115,7 +6270,8 @@
         "upside_pct": 26.93640747438215
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PSX",
@@ -6144,7 +6300,8 @@
         "upside_pct": 9.673952434881095
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BNY",
@@ -6173,7 +6330,8 @@
         "upside_pct": 6.707515807313724
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SNOW",
@@ -6202,7 +6360,8 @@
         "upside_pct": 49.17021649484536
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "EQNR",
@@ -6231,7 +6390,8 @@
         "upside_pct": -4.706472642607684
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CNQ",
@@ -6260,7 +6420,8 @@
         "upside_pct": -1.7906834170854258
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "GSK",
@@ -6289,7 +6450,8 @@
         "upside_pct": 17.19413280475719
       },
       "other_classes": null,
-      "financial_currency": "GBP"
+      "financial_currency": "GBP",
+      "last_split": null
     },
     {
       "symbol": "DUK",
@@ -6318,7 +6480,8 @@
         "upside_pct": 2.8304428615670396
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ICE",
@@ -6347,7 +6510,8 @@
         "upside_pct": 8.41595989020223
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "REGN",
@@ -6376,7 +6540,8 @@
         "upside_pct": 3.0867478832407036
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MRSH",
@@ -6405,7 +6570,8 @@
         "upside_pct": 0.4267350081817334
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CEG",
@@ -6434,7 +6600,8 @@
         "upside_pct": 20.715631691648827
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GLW",
@@ -6463,7 +6630,8 @@
         "upside_pct": 53.3524193548387
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GD",
@@ -6492,7 +6660,8 @@
         "upside_pct": 15.36187751059266
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WM",
@@ -6521,7 +6690,8 @@
         "upside_pct": 4.827133658696625
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CSX",
@@ -6550,7 +6720,8 @@
         "upside_pct": 3.3763496637848167
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "UPS",
@@ -6579,7 +6750,8 @@
         "upside_pct": 2.7237900355871814
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "USB",
@@ -6608,7 +6780,8 @@
         "upside_pct": 12.797917691424821
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MMM",
@@ -6637,7 +6810,8 @@
         "upside_pct": 5.3173636066644825
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ADBE",
@@ -6666,7 +6840,8 @@
         "upside_pct": 9.803233503373354
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ING",
@@ -6695,7 +6870,8 @@
         "upside_pct": 10.375285972305859
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "FTNT",
@@ -6724,7 +6900,8 @@
         "upside_pct": 14.002766860556527
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ELV",
@@ -6753,7 +6930,8 @@
         "upside_pct": 12.262549745165119
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PNC",
@@ -6782,7 +6960,8 @@
         "upside_pct": 13.46654612768523
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TT",
@@ -6811,7 +6990,8 @@
         "upside_pct": 23.570874901313445
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BN",
@@ -6840,7 +7020,8 @@
         "upside_pct": 32.0478398828411
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "INTU",
@@ -6869,7 +7050,8 @@
         "upside_pct": 19.370324846356457
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "EMR",
@@ -6898,7 +7080,8 @@
         "upside_pct": 9.988959009496345
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MNST",
@@ -6927,7 +7110,8 @@
         "upside_pct": 7.900193715023662
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PWR",
@@ -6956,7 +7140,8 @@
         "upside_pct": 28.635222006278973
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MRNA",
@@ -6985,7 +7170,8 @@
         "upside_pct": -29.053283789228633
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BX",
@@ -7014,7 +7200,8 @@
         "upside_pct": 15.688043930443452
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AEM",
@@ -7043,7 +7230,8 @@
         "upside_pct": 18.15714766040908
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CTAS",
@@ -7072,7 +7260,8 @@
         "upside_pct": -3.4487712164073536
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CMCSA",
@@ -7101,7 +7290,8 @@
         "upside_pct": 11.197416534181247
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AMT",
@@ -7130,7 +7320,8 @@
         "upside_pct": 12.62059069087873
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CDNS",
@@ -7159,7 +7350,8 @@
         "upside_pct": 27.476053372960596
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MSI",
@@ -7188,7 +7380,8 @@
         "upside_pct": 3.0086219879517984
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HWM",
@@ -7217,7 +7410,8 @@
         "upside_pct": 34.175210578751944
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MCO",
@@ -7246,7 +7440,8 @@
         "upside_pct": 8.946615505706411
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "KKR",
@@ -7275,7 +7470,8 @@
         "upside_pct": 25.34129525752167
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SNPS",
@@ -7304,7 +7500,8 @@
         "upside_pct": 29.513620386643247
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ECL",
@@ -7333,7 +7530,8 @@
         "upside_pct": 6.887651566592301
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "RCL",
@@ -7362,7 +7560,8 @@
         "upside_pct": 10.651684350542912
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WMB",
@@ -7391,7 +7590,8 @@
         "upside_pct": 23.63101751338832
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MDLZ",
@@ -7420,7 +7620,8 @@
         "upside_pct": 4.315294640213185
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "FCX",
@@ -7449,7 +7650,8 @@
         "upside_pct": 32.0437711006077
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NGG",
@@ -7478,7 +7680,8 @@
         "upside_pct": 8.874125044489256
       },
       "other_classes": null,
-      "financial_currency": "GBP"
+      "financial_currency": "GBP",
+      "last_split": null
     },
     {
       "symbol": "SHW",
@@ -7507,7 +7710,8 @@
         "upside_pct": 6.962188116265122
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "JCI",
@@ -7536,7 +7740,8 @@
         "upside_pct": 25.19096389865785
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HLT",
@@ -7565,7 +7770,8 @@
         "upside_pct": -0.3020852877321789
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TRV",
@@ -7594,7 +7800,8 @@
         "upside_pct": -6.618639486149358
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "EPD",
@@ -7623,7 +7830,8 @@
         "upside_pct": 8.84710031347964
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BAM",
@@ -7652,7 +7860,8 @@
         "upside_pct": 10.762254997089071
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "EOG",
@@ -7681,7 +7890,8 @@
         "upside_pct": 5.939957049014666
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "E",
@@ -7710,7 +7920,8 @@
         "upside_pct": -0.9795067731851348
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "CP",
@@ -7739,7 +7950,8 @@
         "upside_pct": 2.6881412639405244
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "ITW",
@@ -7768,7 +7980,8 @@
         "upside_pct": 2.4696368948247116
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SU",
@@ -7797,7 +8010,8 @@
         "upside_pct": 6.236813501144156
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "CVNA",
@@ -7826,7 +8040,8 @@
         "upside_pct": 13.582976371424627
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CL",
@@ -7855,7 +8070,8 @@
         "upside_pct": 2.0367211798936413
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ASX",
@@ -7884,7 +8100,8 @@
         "upside_pct": 54.53586497890297
       },
       "other_classes": null,
-      "financial_currency": "TWD"
+      "financial_currency": "TWD",
+      "last_split": null
     },
     {
       "symbol": "CI",
@@ -7913,7 +8130,8 @@
         "upside_pct": 16.400673400673394
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NOC",
@@ -7942,7 +8160,8 @@
         "upside_pct": 15.40977054303001
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NTES",
@@ -7971,7 +8190,8 @@
         "upside_pct": 33.7614994270748
       },
       "other_classes": null,
-      "financial_currency": "CNY"
+      "financial_currency": "CNY",
+      "last_split": null
     },
     {
       "symbol": "VRT",
@@ -8000,7 +8220,8 @@
         "upside_pct": 65.43079130994212
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "RSG",
@@ -8029,7 +8250,8 @@
         "upside_pct": 1.7497371437606102
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CNI",
@@ -8058,7 +8280,8 @@
         "upside_pct": 5.312328982544412
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "SLB",
@@ -8087,7 +8310,8 @@
         "upside_pct": 20.39268434294561
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BCS",
@@ -8116,7 +8340,8 @@
         "upside_pct": 26.541320507214692
       },
       "other_classes": null,
-      "financial_currency": "GBP"
+      "financial_currency": "GBP",
+      "last_split": null
     },
     {
       "symbol": "FDX",
@@ -8145,7 +8370,8 @@
         "upside_pct": 10.018942432282362
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MELI",
@@ -8174,7 +8400,8 @@
         "upside_pct": 47.80839294933254
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SPG",
@@ -8203,7 +8430,8 @@
         "upside_pct": 0.7922908528995132
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DASH",
@@ -8232,7 +8460,8 @@
         "upside_pct": 45.99209958602999
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LYG",
@@ -8261,7 +8490,8 @@
         "upside_pct": 20.489443378119
       },
       "other_classes": null,
-      "financial_currency": "GBP"
+      "financial_currency": "GBP",
+      "last_split": null
     },
     {
       "symbol": "ROST",
@@ -8290,7 +8520,8 @@
         "upside_pct": 18.06211153314916
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ORLY",
@@ -8319,7 +8550,8 @@
         "upside_pct": 15.480572730231046
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NSC",
@@ -8348,7 +8580,8 @@
         "upside_pct": 9.016844577284377
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TGT",
@@ -8377,7 +8610,8 @@
         "upside_pct": 2.872864663982666
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "APO",
@@ -8406,7 +8640,8 @@
         "upside_pct": 18.93577387219567
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MFC",
@@ -8435,7 +8670,8 @@
         "upside_pct": -21.65817067635044
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "GM",
@@ -8464,7 +8700,8 @@
         "upside_pct": 17.644081395348856
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AJG",
@@ -8493,7 +8730,8 @@
         "upside_pct": 6.166996536368119
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "RACE",
@@ -8522,7 +8760,8 @@
         "upside_pct": 11.685094738890367
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "AON",
@@ -8551,7 +8790,8 @@
         "upside_pct": 8.589282019449618
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "KMI",
@@ -8580,7 +8820,8 @@
         "upside_pct": 17.481203007518786
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HON",
@@ -8609,7 +8850,8 @@
         "upside_pct": 14.119198957115886
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "APD",
@@ -8638,7 +8880,8 @@
         "upside_pct": 8.70857422677156
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AEP",
@@ -8667,7 +8910,8 @@
         "upside_pct": 9.589859111317555
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "RELX",
@@ -8696,7 +8940,8 @@
         "upside_pct": 31.69587756109604
       },
       "other_classes": null,
-      "financial_currency": "GBP"
+      "financial_currency": "GBP",
+      "last_split": null
     },
     {
       "symbol": "HOOD",
@@ -8725,7 +8970,8 @@
         "upside_pct": 64.10095042383766
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GWW",
@@ -8754,7 +9000,8 @@
         "upside_pct": -1.8474585375679697
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "URI",
@@ -8783,7 +9030,8 @@
         "upside_pct": 15.427143467032156
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "COR",
@@ -8812,7 +9060,8 @@
         "upside_pct": 6.513845639640148
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DLR",
@@ -8841,7 +9090,8 @@
         "upside_pct": 24.520806711483957
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DB",
@@ -8870,7 +9120,8 @@
         "upside_pct": 9.229929000546155
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "MPWR",
@@ -8899,7 +9150,8 @@
         "upside_pct": 31.70115207041868
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TAK",
@@ -8928,7 +9180,8 @@
         "upside_pct": 6.814549696686889
       },
       "other_classes": null,
-      "financial_currency": "JPY"
+      "financial_currency": "JPY",
+      "last_split": null
     },
     {
       "symbol": "KMB",
@@ -8957,7 +9210,8 @@
         "upside_pct": 8.440710956776009
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NXPI",
@@ -8986,7 +9240,8 @@
         "upside_pct": 13.351224112565552
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DDOG",
@@ -9015,7 +9270,8 @@
         "upside_pct": 46.42407145960035
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TDG",
@@ -9044,7 +9300,8 @@
         "upside_pct": 18.354035226077812
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ALL",
@@ -9073,7 +9330,8 @@
         "upside_pct": 3.582147661037216
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CAH",
@@ -9102,7 +9360,8 @@
         "upside_pct": 4.8974279615795036
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TRP",
@@ -9131,7 +9390,8 @@
         "upside_pct": 4.013522692188931
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "MET",
@@ -9160,7 +9420,8 @@
         "upside_pct": 8.256210423770094
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BSX",
@@ -9189,7 +9450,8 @@
         "upside_pct": 11.859652683806953
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HPE",
@@ -9218,7 +9480,8 @@
         "upside_pct": 48.72841167943673
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NU",
@@ -9247,7 +9510,8 @@
         "upside_pct": 34.9075642965204
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TRGP",
@@ -9276,7 +9540,8 @@
         "upside_pct": 11.86864763057882
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "FAST",
@@ -9305,7 +9570,8 @@
         "upside_pct": -7.3271425982967875
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AFL",
@@ -9334,7 +9600,8 @@
         "upside_pct": -6.120210014889116
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LNG",
@@ -9363,7 +9630,8 @@
         "upside_pct": 9.117408906882574
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NWG",
@@ -9392,7 +9660,8 @@
         "upside_pct": 33.607075173720766
       },
       "other_classes": null,
-      "financial_currency": "GBP"
+      "financial_currency": "GBP",
+      "last_split": null
     },
     {
       "symbol": "PSA",
@@ -9421,7 +9690,8 @@
         "upside_pct": 3.2469106106617796
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TEL",
@@ -9450,7 +9720,8 @@
         "upside_pct": 19.427013035037444
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CRH",
@@ -9479,7 +9750,8 @@
         "upside_pct": 29.884070416487774
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CMI",
@@ -9508,7 +9780,8 @@
         "upside_pct": 38.19717811490999
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "EW",
@@ -9537,7 +9810,8 @@
         "upside_pct": 5.8194680354642925
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "B",
@@ -9566,7 +9840,8 @@
         "upside_pct": 32.13266826283585
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "IMO",
@@ -9595,7 +9870,8 @@
         "upside_pct": -13.651250971250962
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "NDAQ",
@@ -9624,7 +9900,8 @@
         "upside_pct": 6.365815432838584
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TFC",
@@ -9653,7 +9930,8 @@
         "upside_pct": 6.6587352411446865
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WPM",
@@ -9682,7 +9960,8 @@
         "upside_pct": 30.93723849372385
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ARGX",
@@ -9711,7 +9990,8 @@
         "upside_pct": 19.23868797133452
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "D",
@@ -9740,7 +10020,8 @@
         "upside_pct": 3.7048034289092424
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BDX",
@@ -9769,7 +10050,8 @@
         "upside_pct": 3.720978764390215
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "OXY",
@@ -9798,7 +10080,8 @@
         "upside_pct": 20.91411063829789
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BE",
@@ -9827,7 +10110,8 @@
         "upside_pct": 47.8442418875983
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DAL",
@@ -9856,7 +10140,8 @@
         "upside_pct": 17.082121739130418
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NUE",
@@ -9885,7 +10170,8 @@
         "upside_pct": 18.529773964167973
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "OKE",
@@ -9914,7 +10200,8 @@
         "upside_pct": 13.914317548746524
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DEO",
@@ -9943,7 +10230,8 @@
         "upside_pct": 7.458086425829302
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NKE",
@@ -9972,7 +10260,8 @@
         "upside_pct": -4.025980521189798
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PCAR",
@@ -10001,7 +10290,8 @@
         "upside_pct": 17.289752484530286
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "O",
@@ -10030,7 +10320,8 @@
         "upside_pct": 8.179105746344772
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AME",
@@ -10059,7 +10350,8 @@
         "upside_pct": 19.29839329230516
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "IDXX",
@@ -10088,7 +10380,8 @@
         "upside_pct": 1.8369992758047848
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ADSK",
@@ -10117,7 +10410,8 @@
         "upside_pct": 16.586022237349663
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "GRMN",
@@ -10146,7 +10440,8 @@
         "upside_pct": 5.64251139455183
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LITE",
@@ -10175,7 +10470,8 @@
         "upside_pct": 79.20854145016929
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HUM",
@@ -10204,7 +10500,8 @@
         "upside_pct": 9.83333333333334
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ETR",
@@ -10233,7 +10530,8 @@
         "upside_pct": 8.476320287899242
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DVN",
@@ -10262,7 +10560,8 @@
         "upside_pct": 29.12870330613999
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "EBAY",
@@ -10291,7 +10590,8 @@
         "upside_pct": 5.120004961958324
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CVE",
@@ -10320,7 +10620,8 @@
         "upside_pct": 29.522008253094924
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "AZO",
@@ -10349,7 +10650,8 @@
         "upside_pct": 12.452329969015551
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "XEL",
@@ -10378,7 +10680,8 @@
         "upside_pct": 10.054882980026969
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HONA",
@@ -10407,7 +10710,8 @@
         "upside_pct": 17.124210653899773
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SRE",
@@ -10436,7 +10740,8 @@
         "upside_pct": 22.172227809906953
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CCEP",
@@ -10465,7 +10770,8 @@
         "upside_pct": -4.59752888589019
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "TEVA",
@@ -10494,7 +10800,8 @@
         "upside_pct": 13.020876404494363
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MDLN",
@@ -10523,7 +10830,8 @@
         "upside_pct": 14.88763617937674
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "FANG",
@@ -10552,7 +10860,8 @@
         "upside_pct": 28.174622830260088
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "XYZ",
@@ -10581,7 +10890,8 @@
         "upside_pct": 19.833435800425626
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LHX",
@@ -10610,7 +10920,8 @@
         "upside_pct": 23.493056728474393
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "KEYS",
@@ -10639,7 +10950,8 @@
         "upside_pct": 40.979125235151834
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WAB",
@@ -10668,7 +10980,8 @@
         "upside_pct": 12.235420861860646
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "INFY",
@@ -10697,7 +11010,8 @@
         "upside_pct": -1.8169243287225245
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "VMRK",
@@ -10726,7 +11040,8 @@
         "upside_pct": 11.678604796013703
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "FERG",
@@ -10755,7 +11070,8 @@
         "upside_pct": 13.55217374351776
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "KDP",
@@ -10784,7 +11100,8 @@
         "upside_pct": 4.644413869014841
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "FITB",
@@ -10813,7 +11130,8 @@
         "upside_pct": 12.909559633027534
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PYPL",
@@ -10842,7 +11160,8 @@
         "upside_pct": -3.317071524966264
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "BKR",
@@ -10871,7 +11190,8 @@
         "upside_pct": 41.585760517799365
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "A",
@@ -10900,7 +11220,8 @@
         "upside_pct": 4.650494366521052
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "VEEV",
@@ -10929,7 +11250,8 @@
         "upside_pct": 8.250389679302227
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WCN",
@@ -10958,7 +11280,8 @@
         "upside_pct": 6.490694437284117
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "VYLR",
@@ -10987,7 +11310,8 @@
         "upside_pct": 15.108905431486065
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "EXC",
@@ -11016,7 +11340,8 @@
         "upside_pct": 3.7837837837837895
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "FNV",
@@ -11045,7 +11370,8 @@
         "upside_pct": 14.308015869802858
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ONC",
@@ -11074,7 +11400,8 @@
         "upside_pct": 12.648648389110285
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "F",
@@ -11103,7 +11430,8 @@
         "upside_pct": 26.089168765743075
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ROP",
@@ -11132,7 +11460,8 @@
         "upside_pct": -2.2505396058169147
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HEI",
@@ -11161,7 +11490,8 @@
         "upside_pct": 14.85096125580574
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TRI",
@@ -11190,7 +11520,8 @@
         "upside_pct": 17.495956084172004
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "WDAY",
@@ -11219,7 +11550,8 @@
         "upside_pct": 6.517297022143054
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MT",
@@ -11248,7 +11580,8 @@
         "upside_pct": 23.154276158623976
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "STT",
@@ -11277,7 +11610,8 @@
         "upside_pct": 11.059861631594137
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MSTR",
@@ -11306,7 +11640,8 @@
         "upside_pct": 108.98285253538793
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "MSCI",
@@ -11335,7 +11670,8 @@
         "upside_pct": 4.827196620933805
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "VTR",
@@ -11364,7 +11700,8 @@
         "upside_pct": 12.000573549257743
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NTRA",
@@ -11393,7 +11730,8 @@
         "upside_pct": 28.57247171644366
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "NOK",
@@ -11422,7 +11760,8 @@
         "upside_pct": 79.88438661710036
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "WAT",
@@ -11451,7 +11790,8 @@
         "upside_pct": 9.351248234655074
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "VST",
@@ -11480,7 +11820,8 @@
         "upside_pct": 50.405646192015666
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AMP",
@@ -11509,7 +11850,8 @@
         "upside_pct": 4.9577036366786675
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "FMX",
@@ -11538,7 +11880,8 @@
         "upside_pct": 3.0500568569479247
       },
       "other_classes": null,
-      "financial_currency": "MXN"
+      "financial_currency": "MXN",
+      "last_split": null
     },
     {
       "symbol": "ED",
@@ -11567,7 +11910,8 @@
         "upside_pct": -8.385999999999994
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CMG",
@@ -11596,7 +11940,8 @@
         "upside_pct": 14.933078231292507
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "HMC",
@@ -11625,7 +11970,8 @@
         "upside_pct": 1.3178717201166146
       },
       "other_classes": null,
-      "financial_currency": "JPY"
+      "financial_currency": "JPY",
+      "last_split": null
     },
     {
       "symbol": "ARES",
@@ -11654,7 +12000,8 @@
         "upside_pct": 9.427234232226422
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CARR",
@@ -11683,7 +12030,8 @@
         "upside_pct": 26.754372693726914
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "FER",
@@ -11712,7 +12060,8 @@
         "upside_pct": 16.920606355382617
       },
       "other_classes": null,
-      "financial_currency": "EUR"
+      "financial_currency": "EUR",
+      "last_split": null
     },
     {
       "symbol": "ROK",
@@ -11741,7 +12090,8 @@
         "upside_pct": 10.729016548228397
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "IQV",
@@ -11770,7 +12120,8 @@
         "upside_pct": 17.640653289076624
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AU",
@@ -11799,7 +12150,8 @@
         "upside_pct": 31.938810986209276
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "YUM",
@@ -11828,7 +12180,8 @@
         "upside_pct": 8.673352755222208
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "COHR",
@@ -11857,7 +12210,8 @@
         "upside_pct": 70.48750859500343
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "AIG",
@@ -11886,7 +12240,8 @@
         "upside_pct": 6.987690079652431
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "TTWO",
@@ -11915,7 +12270,8 @@
         "upside_pct": 24.628338161706598
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "ABEV",
@@ -11944,7 +12300,8 @@
         "upside_pct": 15.434782608695663
       },
       "other_classes": null,
-      "financial_currency": "BRL"
+      "financial_currency": "BRL",
+      "last_split": null
     },
     {
       "symbol": "PRU",
@@ -11973,7 +12330,8 @@
         "upside_pct": -6.920275192229863
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "LYV",
@@ -12002,7 +12360,8 @@
         "upside_pct": 14.03754553096106
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "KR",
@@ -12031,7 +12390,8 @@
         "upside_pct": -1.8361581920903869
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "STM",
@@ -12060,7 +12420,8 @@
         "upside_pct": 51.847485555317796
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "PAYX",
@@ -12089,7 +12450,8 @@
         "upside_pct": -0.9583073997233793
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "KB",
@@ -12118,7 +12480,8 @@
         "upside_pct": 42.66007494464317
       },
       "other_classes": null,
-      "financial_currency": "KRW"
+      "financial_currency": "KRW",
+      "last_split": null
     },
     {
       "symbol": "UI",
@@ -12147,7 +12510,8 @@
         "upside_pct": 13.249522216913512
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "EL",
@@ -12176,7 +12540,8 @@
         "upside_pct": 3.381270693512306
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "SLF",
@@ -12205,7 +12570,8 @@
         "upside_pct": -11.515370903606204
       },
       "other_classes": null,
-      "financial_currency": "CAD"
+      "financial_currency": "CAD",
+      "last_split": null
     },
     {
       "symbol": "HLN",
@@ -12234,7 +12600,8 @@
         "upside_pct": 13.391494002181027
       },
       "other_classes": null,
-      "financial_currency": "GBP"
+      "financial_currency": "GBP",
+      "last_split": null
     },
     {
       "symbol": "VIK",
@@ -12263,7 +12630,8 @@
         "upside_pct": 22.449593857794593
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "DHI",
@@ -12292,7 +12660,8 @@
         "upside_pct": 0.6526966678117363
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     },
     {
       "symbol": "CBOE",
@@ -12321,7 +12690,8 @@
         "upside_pct": -5.279420382504929
       },
       "other_classes": null,
-      "financial_currency": "USD"
+      "financial_currency": "USD",
+      "last_split": null
     }
   ],
   "details": {
@@ -12389,6 +12759,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-11-02T16:30:00-05:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 10,
         "post_earnings": 10,
@@ -12890,6 +13261,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-08-26T16:20:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 5,
         "post_earnings": 5,
@@ -13256,6 +13628,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-28T16:00:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 11,
         "post_earnings": 11,
@@ -13945,6 +14318,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-28T16:00:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 5,
         "post_earnings": 5,
@@ -14256,6 +14630,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-29T16:00:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 4,
         "post_earnings": 3,
@@ -14554,6 +14929,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-15T13:30:00+08:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 2,
         "post_earnings": 1,
@@ -14839,6 +15215,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-20T16:00:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 7,
         "post_earnings": 6,
@@ -15233,6 +15610,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-09-02T16:15:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 5,
         "post_earnings": 5,
@@ -15538,6 +15916,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-21T16:05:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 8,
         "post_earnings": 8,
@@ -15973,6 +16352,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-21T16:00:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 4,
         "post_earnings": 3,
@@ -16233,6 +16613,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-29T06:30:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 2,
         "post_earnings": 2,
@@ -16430,6 +16811,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-11-07T16:00:00-05:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 2,
         "post_earnings": 0,
@@ -16629,6 +17011,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-08-20T06:45:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 4,
         "post_earnings": 4,
@@ -16947,6 +17330,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-28T05:00:00+09:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 6,
         "post_earnings": 3,
@@ -17320,6 +17704,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-13T06:30:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 6,
         "post_earnings": 4,
@@ -17668,6 +18053,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-09-30T16:00:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 6,
         "post_earnings": 6,
@@ -18021,6 +18407,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-11-03T16:00:00-05:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 6,
         "post_earnings": 6,
@@ -18362,6 +18749,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-27T16:05:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 1,
         "post_earnings": 1,
@@ -18516,6 +18904,7 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-29T16:05:00-04:00",
+      "split_adjusted": null,
       "ratings": {
         "count": 12,
         "post_earnings": 10,

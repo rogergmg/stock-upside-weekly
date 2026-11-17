@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from common import DATA, RESEARCH, SITE, UNIVERSE_NAME, latest, read, write  # sets engine path
 import consensus
 import rank
-from snapshot import engine_input, problems
+from snapshot import engine_input, problems, split_adjust
 import changes
 
 
@@ -29,11 +29,12 @@ def main():
         companies.append(snap)
         if res:
             out = consensus.analyze(snap)
+            res = split_adjust(res, row)
             details[row["symbol"]] = dict(
                 researched_at=res["researched_at"], research_close=res.get("research_close"),
                 valuation=res["valuation"], dividend_per_share=res.get("dividend_per_share"),
                 analyst_notes=res.get("analyst_notes"), sources=res["sources"], coverage=res["coverage"],
-                earnings_at=res.get("earnings_at"), ratings=out["ratings"], targets=out["targets"],
+                earnings_at=res.get("earnings_at"), split_adjusted=res.get("split_adjusted"), ratings=out["ratings"], targets=out["targets"],
                 sensitivity=out["sensitivity"], history=out["history"])
 
     batch = dict(universe=UNIVERSE_NAME, date=ref, horizon_months=12, companies=companies)
@@ -43,7 +44,7 @@ def main():
     def brief(r):
         return {k: r.get(k) for k in ("symbol", "issuer_id", "name", "sector", "industry", "country", "currency",
                                        "close", "close_date", "market_cap_usd", "status", "aggregate",
-                                       "other_classes", "financial_currency")}
+                                       "other_classes", "financial_currency", "last_split")}
 
     counts = dict(agg["counts"], **{f"rank_{k}": v for k, v in ranked["counts"].items()},
                   researched=len(details))

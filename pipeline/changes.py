@@ -64,6 +64,9 @@ def compute(snap, prev):
             continue
         re = pdet.get(s, {}).get("researched_at") != snap["details"].get(s, {}).get("researched_at")
         pc, cc = before[s]["close"], r["close"]
+        sp = (_base(snap["issuers"]).get(s) or {}).get("last_split")
+        if sp and prev["reference_session"] < sp["date"] <= ref:
+            pc = pc / sp["factor"]
         moves.append(dict(symbol=s, base=a, prev_base=b, delta_pp=a - b, re_researched=re,
                           price_change_pct=(cc / pc - 1) * 100 if pc else None))
     out["base_moves"] = sorted(moves, key=lambda m: -abs(m["delta_pp"]))
@@ -75,6 +78,10 @@ def compute(snap, prev):
         if not o or r["status"] != "eligible":
             continue
         a, b = r.get("aggregate") or {}, o.get("aggregate") or {}
+        sp = r.get("last_split")
+        f = sp["factor"] if sp and prev["reference_session"] < sp["date"] <= ref else 1.0
+        if f != 1.0 and b.get("mean"):
+            b = dict(b, mean=b["mean"] / f)
         tchg = (a["mean"] / b["mean"] - 1) * 100 if a.get("mean") and b.get("mean") else None
         rec = a.get("recommendation") != b.get("recommendation") and a.get("recommendation") and b.get("recommendation")
         if (tchg is not None and abs(tchg) >= STREET_TARGET_MOVE) or rec:

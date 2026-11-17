@@ -45,6 +45,15 @@ def closes(symbols, ref_day):
     return out
 
 
+def last_split(i):
+    """Most recent split as {date, factor}; factor = new shares per old share (8:1 -> 8.0)."""
+    f, ts = i.get("lastSplitFactor"), i.get("lastSplitDate")
+    try:
+        a, b = (float(x) for x in str(f).split(":"))
+        return dict(date=datetime.fromtimestamp(int(ts), timezone.utc).date().isoformat(), factor=a / b) if a > 0 and b > 0 and ts else None
+    except (TypeError, ValueError):
+        return None
+
 def bounds(close, shares, screener_cap):
     """Conservative interval: +/-band around close x shares, widened to include the screener's figure."""
     caps = [c for c in (close * shares if shares else None, screener_cap) if c]
@@ -87,7 +96,7 @@ def main():
                    close=p["close"], close_date=p["close_date"], week_ago_close=p["week_ago_close"],
                    shares_used=shares, market_cap_usd=cap, screener_cap_usd=c["screener_cap_usd"],
                    status=status(cap), avg_volume=i.get("averageVolume") or 0, dividend_rate=i.get("dividendRate"),
-                   earnings_ts=i.get("earningsTimestamp"),
+                   earnings_ts=i.get("earningsTimestamp"), last_split=last_split(i),
                    aggregate=dict(provider="Yahoo Finance (via yfinance)", mean=mean,
                                   median=i.get("targetMedianPrice"), high=i.get("targetHighPrice"),
                                   low=i.get("targetLowPrice"), analysts=i.get("numberOfAnalystOpinions"),

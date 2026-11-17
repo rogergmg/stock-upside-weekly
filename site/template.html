@@ -447,7 +447,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
     return `<div class="dgrid">
       <div class="cases">${caseCard("bear")}${caseCard("base")}${caseCard("bull")}</div>
       <div class="two">
-        <dl class="kv"><dt>Method</dt><dd>${esc(v.method)}</dd><dt>Close implies</dt><dd>${esc(v.implied_by_close)}</dd>
+        <dl class="kv">${d.split_adjusted ? `<dt>Split</dt><dd><span class="chip warn">adjusted</span> ${esc(d.split_adjusted.note)}</dd>` : ""}<dt>Method</dt><dd>${esc(v.method)}</dd><dt>Close implies</dt><dd>${esc(v.implied_by_close)}</dd>
           <dt>Sensitivity</dt><dd>${esc(v.sensitivity)}</dd><dt>Watch</dt><dd>${esc(v.watch_metric)}</dd><dt>Next disclosure</dt><dd>${esc(v.next_disclosure)}</dd>
           ${d.dividend_per_share != null ? `<dt>Dividends</dt><dd>${money(d.dividend_per_share)} expected; base total return ${pct(r.base_total_return_pct)}</dd>` : ""}
           <dt>Research close</dt><dd>${d.research_close ? money(d.research_close.close) + " on " + day(d.research_close.close_date) : "n/a"}</dd></dl>

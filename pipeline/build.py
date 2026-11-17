@@ -7,6 +7,7 @@ from common import DATA, RESEARCH, SITE, UNIVERSE_NAME, latest, read, write  # s
 import consensus
 import rank
 from snapshot import engine_input, problems
+import changes
 
 
 def main():
@@ -54,6 +55,7 @@ def main():
         issuers=[brief(r) for r in agg["issuers"]], details=details,
         failures=agg["failures"], rejected=read(DATA / "validation.json")["rejected"]
         if (DATA / "validation.json").exists() else [])
+    snapshot["changes"] = changes.compute(snapshot, changes.previous_snapshot(ref))
     write(DATA / "weekly" / f"{ref}.json", snapshot)
 
     template = (SITE / "template.html").read_text()

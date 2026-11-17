@@ -138,6 +138,27 @@ tr.divider td { background: var(--sunk); font-size: 11px; letter-spacing: .05em;
 details.wait { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
 details.wait summary { cursor: pointer; font-weight: 600; }
 .symlist { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.chg { display: grid; gap: 12px; }
+.chg-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.chg-head p { margin: 0; color: var(--muted); font-size: 13px; }
+.chg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 10px; align-items: start; }
+.blk { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; min-width: 0; }
+.blk h3 { display: flex; align-items: center; gap: 8px; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.blk h3 .chip { font-family: var(--body); }
+.blk ul { list-style: none; margin: 0; padding: 0; }
+.blk li + li { border-top: 1px solid var(--line); }
+.crow { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 2px 10px; align-items: center; padding: 8px 14px; font-size: 13px; }
+.crow:hover { background: var(--sunk); }
+.crow:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.crow > b { font-weight: 600; }
+.crow .d { min-width: 0; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.crow .d strong { color: var(--fg); font-weight: 500; }
+.crow .val { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.blk details > summary { cursor: pointer; padding: 8px 14px; font-size: 12.5px; color: var(--accent); border-top: 1px solid var(--line); list-style: none; }
+.blk details > summary::-webkit-details-marker { display: none; }
+.blk details[open] > summary { display: none; }
+.blk .none { padding: 10px 14px; font-size: 13px; color: var(--muted); margin: 0; }
+@media (max-width: 720px) { .crow .d { white-space: normal; } }
 footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; max-width: 95ch; }
 .empty { padding: 28px; text-align: center; color: var(--muted); }
 @media (max-width: 760px) { .cases, .two { grid-template-columns: minmax(0, 1fr); } .bar { width: 120px; } }
@@ -152,6 +173,8 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   </header>
 
   <section class="pipe" id="funnel" aria-label="Screen counts"></section>
+
+  <section class="chg" id="changes" aria-labelledby="chg-title"></section>
 
   <section class="hl" id="highlights" aria-label="This week's highlights"></section>
 
@@ -226,6 +249,55 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
     $("#highlights").hidden = !cards.length;
     $("#highlights").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; const c = cards[+b.dataset.i];
       view = c.view; open = c.view === "valuation" ? c.sym : null; $("#q").value = c.view === "consensus" ? c.sym : "";
+      history.replaceState(null, "", "#" + view); render(); const t = document.querySelector(".tabs"); if (t) t.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); });
+  }
+
+  // What changed: the weekly visit leads with movement since the previous snapshot.
+  function whatChanged() {
+    const X = D.changes; if (!X) { $("#changes").hidden = true; return; }
+    const first = !X.previous_session, rows = [];
+    const go = (sym, tab) => `data-sym="${esc(sym)}" data-tab="${tab}"`;
+    const st = v => esc(String(v).replace("below_cutoff", "below $50B").replace("eligible", "above $50B"));
+    const rec = v => esc(String(v || "n/a").replace(/_/g, " "));
+    const inRank = s => D.ranked.some(r => r.symbol === s);
+    const tgt = (v, s) => v == null ? "" : money(v >= 100 ? Math.round(v) : v, (iss[s] || {}).currency).replace(/\.00$/, "");
+    const block = (title, items, line, empty) => {
+      const n = items.length, head = `<h3>${title}<span class="chip">${n}</span></h3>`;
+      if (!n) return `<div class="blk">${head}<p class="none">${empty}</p></div>`;
+      const li = items.map(line).map(h => `<li>${h}</li>`);
+      const more = li.length > 6 ? `<details><summary>Show ${li.length - 6} more</summary><ul>${li.slice(6).join("")}</ul></details>` : "";
+      return `<div class="blk">${head}<ul>${li.slice(0, 6).join("")}</ul>${more}</div>`;
+    };
+    const call = c => {
+      const parts = [];
+      if (c.target != null) {
+        const verb = c.direction === "raise" ? "raised to" : c.direction === "cut" ? "cut to" : c.prior_target != null ? "kept at" : "target";
+        parts.push(`${verb} <strong>${tgt(c.target, c.symbol)}</strong>${c.prior_target != null && c.direction !== "unchanged" ? " from " + tgt(c.prior_target, c.symbol) : ""}`);
+      }
+      const changed = c.prior_rating && c.prior_rating !== c.rating;
+      if (c.rating && (changed || c.target == null)) parts.push(changed ? `${esc(c.prior_rating)} &rarr; <strong>${esc(c.rating)}</strong>` : esc(c.rating));
+      const v = c.revision_pct != null ? pill(c.revision_pct) : `<span class="chip">${esc(c.bucket || "")}</span>`;
+      return `<button type="button" class="crow" ${go(c.symbol, "valuation")} title="${esc(c.firm)} · ${esc(c.analyst)} · ${day(c.issued_at)}${c.horizon_months === 12 ? " · 12-month horizon, counts in the weighted target" : " · horizon not documented, excluded from the weighted target"}">
+        <b>${esc(c.symbol)}</b><span class="d">${esc(c.firm)}: ${parts.join(", ")}</span><span class="val">${v}</span></button>`;
+    };
+    const blocks = [];
+    if (!first) blocks.push(block("Base-case moves", X.base_moves, m => `<button type="button" class="crow" ${go(m.symbol, "valuation")}>
+        <b>${esc(m.symbol)}</b><span class="d">${pct(m.prev_base)} &rarr; <strong>${pct(m.base)}</strong> &middot; ${m.re_researched ? "re-researched" : "price " + (m.price_change_pct >= 0 ? "+" : "−") + Math.abs(m.price_change_pct).toFixed(1) + "%"}</span>
+        <span class="val"><span class="pill ${m.delta_pp >= 0 ? "pos" : "neg"}">${pp(m.delta_pp)}</span></span></button>`, "No base case moved."));
+    blocks.push(block("Analyst calls", X.analyst_calls, call, "No named-analyst actions on researched names this week."));
+    if (!first) blocks.push(block("Street target changes", X.street_moves, m => `<button type="button" class="crow" ${go(m.symbol, "consensus")}>
+        <b>${esc(m.symbol)}</b><span class="d">mean ${tgt(m.prev_mean, m.symbol)} &rarr; <strong>${tgt(m.mean, m.symbol)}</strong>${m.recommendation !== m.prev_recommendation ? " &middot; " + rec(m.prev_recommendation) + " &rarr; <strong>" + rec(m.recommendation) + "</strong>" : ""}</span>
+        <span class="val">${pill(m.target_change_pct)}</span></button>`, "No provider mean target moved 2% or more."));
+    if (!first) blocks.push(block("Crossed the $50B line", X.crossings, m => `<button type="button" class="crow" ${go(m.symbol, m.status === "eligible" ? "consensus" : "excluded")} title="${esc(m.name || "")}">
+        <b>${esc(m.symbol)}</b><span class="d">${st(m.prev_status)} &rarr; <strong>${st(m.status)}</strong></span>
+        <span class="val num">${cap(m.market_cap_usd)}</span></button>`, "No name entered or left the universe."));
+    blocks.push(block(first ? "Researched this run" : "Research added", X.research, r => `<button type="button" class="crow" ${go(r.symbol, inRank(r.symbol) ? "valuation" : "consensus")}>
+        <b>${esc(r.symbol)}</b><span class="d">${esc((iss[r.symbol] || {}).name || "")}</span><span class="val"><span class="chip ${r.kind === "new" ? "acc" : ""}">${r.kind}</span></span></button>`, "No new research this week."));
+    $("#changes").innerHTML = `<div class="chg-head"><h2 id="chg-title">Since last week</h2><p>${first
+      ? `First snapshot. Week-over-week moves start with next Saturday's run; analyst calls since ${day(X.window_start)} are shown now.`
+      : `Closes of ${day(X.previous_session)} &rarr; ${day(D.reference_session)}.`}</p></div><div class="chg-grid">${blocks.join("")}</div>`;
+    $("#changes").addEventListener("click", e => { const b = e.target.closest(".crow"); if (!b) return;
+      view = b.dataset.tab; open = view === "valuation" && inRank(b.dataset.sym) ? b.dataset.sym : null; $("#q").value = open ? "" : b.dataset.sym;
       history.replaceState(null, "", "#" + view); render(); const t = document.querySelector(".tabs"); if (t) t.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); });
   }
 
@@ -466,6 +538,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
     `<p><b>Data.</b> Universe from the <a href="https://www.nasdaq.com/market-activity/stocks/screener" target="_blank" rel="noopener">Nasdaq stock screener</a>; closes, shares and aggregate targets from Yahoo Finance via yfinance; deep research cites its own sources in each row. ` +
     `${D.failures.length ? D.failures.length + " listings failed to load this week. " : ""}${D.rejected.length ? D.rejected.length + " research files were rejected by validation this week." : ""}</p>`;
 
+  whatChanged();
   highlights();
   render();
 })();

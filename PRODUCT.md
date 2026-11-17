@@ -46,7 +46,7 @@ Binding rules:
 - **Sources:** source links sit next to the numbers they support.
 
 Known gaps:
-- **No week-over-week view.** The page has no comparison with the previous snapshot yet, and that is the primary job. Snapshots are kept in `data/weekly/` to support it.
+- **Week-over-week view is new.** `pipeline/changes.py` compares each snapshot with the previous one in `data/weekly/` and the page leads with a "Since last week" section (base-case moves, named-analyst calls, Street target changes, $50B crossings, research added). The first real comparison arrives with the 2026-11-20 run; until then only analyst calls and research are shown.
 - **Thin named-analyst coverage.** Few calls have a documented 12-month horizon, so the analyst-weighted column is mostly empty.
 
 ## Evidence on Hand

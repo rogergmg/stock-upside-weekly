@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-16T16:42:45.733348+00:00",
+  "built_at": "2026-11-17T10:04:26.620836+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -18437,5 +18437,245 @@
     }
   },
   "failures": [],
-  "rejected": []
+  "rejected": [],
+  "changes": {
+    "previous_session": null,
+    "window_start": "2026-11-06",
+    "research": [
+      {
+        "symbol": "AAPL",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "AMD",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "AMZN",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "AVGO",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "BRK/B",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "GOOGL",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "JPM",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "LLY",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "META",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "MSFT",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "MU",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "NVDA",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "SKHY",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "SPCX",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "TSLA",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "TSM",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "V",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "WMT",
+        "researched_at": "2026-11-16",
+        "kind": "new"
+      }
+    ],
+    "analyst_calls": [
+      {
+        "symbol": "NVDA",
+        "firm": "Wedbush",
+        "analyst": "Matt Bryson",
+        "issued_at": "2026-11-13",
+        "source": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": "Outperform",
+        "target": 275.0,
+        "prior_target": 345.0,
+        "direction": "cut",
+        "revision_pct": -20.28985507246377,
+        "horizon_months": null
+      },
+      {
+        "symbol": "NVDA",
+        "firm": "Baird",
+        "analyst": "Tristan Gerra",
+        "issued_at": "2026-11-11",
+        "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/",
+        "currency": null,
+        "rating": "Neutral",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 200.0,
+        "prior_target": 500,
+        "direction": "cut",
+        "revision_pct": -60.0,
+        "horizon_months": 12
+      },
+      {
+        "symbol": "WMT",
+        "firm": "JPMorgan",
+        "analyst": "Christopher Horvers",
+        "issued_at": "2026-11-09",
+        "source": "https://www.marketbeat.com/instant-alerts/analyst-walmart-nasdaq-wmt-price-target-raised-to-14500-2026-11-09/",
+        "currency": null,
+        "rating": "Overweight",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 145.0,
+        "prior_target": 125,
+        "direction": "raise",
+        "revision_pct": 15.999999999999993,
+        "horizon_months": null
+      },
+      {
+        "symbol": "MU",
+        "firm": "Bank of America",
+        "analyst": "Vivek Arya",
+        "issued_at": "2026-11-09",
+        "source": "https://stockanalysis.com/stocks/mu/forecast/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null
+      },
+      {
+        "symbol": "AMD",
+        "firm": "Oppenheimer",
+        "analyst": "Rick Schafer",
+        "issued_at": "2026-11-09",
+        "source": "https://stocktwits.com/news-articles/markets/equity/amd-s-server-and-data-center-success-is-undeniable-says-oppenheimer-sees-favorable-pricing-ahead/cNGr73NR9eV",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 600.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "AAPL",
+        "firm": "Evercore ISI",
+        "analyst": "Amit Daryanani",
+        "issued_at": "2026-11-09",
+        "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 380.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "AAPL",
+        "firm": "Argus",
+        "analyst": "Jim Kelleher",
+        "issued_at": "2026-11-09",
+        "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 400.0,
+        "prior_target": 375,
+        "direction": "raise",
+        "revision_pct": 6.666666666666665,
+        "horizon_months": null
+      },
+      {
+        "symbol": "AAPL",
+        "firm": "Bernstein",
+        "analyst": "Mark Newman",
+        "issued_at": "2026-11-09",
+        "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 380.0,
+        "prior_target": 370,
+        "direction": "raise",
+        "revision_pct": 2.7027027027026973,
+        "horizon_months": null
+      },
+      {
+        "symbol": "AAPL",
+        "firm": "Rothschild & Co Redburn",
+        "analyst": "Timm Schulze-Melander",
+        "issued_at": "2026-11-09",
+        "source": "https://macdailynews.com/2026/11/09/analysts-raise-apple-price-targets-into-360-400-range-on-q4-results-and-premium-product-strength/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 400.0,
+        "prior_target": 260,
+        "direction": "raise",
+        "revision_pct": 53.846153846153854,
+        "horizon_months": null
+      }
+    ],
+    "base_moves": null,
+    "street_moves": null,
+    "crossings": null
+  }
 }

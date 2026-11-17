@@ -4180,9 +4180,245 @@
         "high": 128446061137
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Amit Daryanani",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 2500,
+          "source_prior": null,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Amit Daryanani",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Wamsi Mohan",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Chad Dillard",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 3000,
+          "source_prior": 1700,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Chad Dillard",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Steven Fox",
+          "firm": "Fox Advisors",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Joseph Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 1300,
+          "source_prior": 1550,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Joseph Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 2300,
+          "source_prior": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 1400,
+          "source_prior": 1600,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Joseph Moore",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 1750,
+          "source_prior": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Joseph Moore",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 2000,
+          "source_prior": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho Securities",
+          "field": "target",
+          "value": 1900,
+          "source_prior": 2050,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho Securities",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "C J Muse",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 2200,
+          "source_prior": 2900,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "C J Muse",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Mehdi Hosseini",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 2720,
+          "source_prior": 2745,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        },
+        {
+          "analyst": "Mehdi Hosseini",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Positive",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/sndk/forecast"
+        }
+      ],
+      "earnings_at": "2026-10-29T16:05:00-04:00",
+      "valuation": {
+        "bear": 550.0,
+        "base": 1140.0,
+        "bull": 1920.0
+      }
     },
     {
       "issuer_id": "Spotify Technology S.A.",

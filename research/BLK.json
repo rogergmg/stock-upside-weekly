@@ -1,0 +1,41 @@
+{
+  "issuer_id": "BlackRock, Inc.",
+  "symbol": "BLK",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 1222.91, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-14T08:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Mikhail Paramonov", "firm": "Freedom Broker", "field": "target", "value": 1400, "source_prior": 1350,
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.investing.com/news/analyst-ratings/freedom-broker-raises-blackrock-stock-price-target-on-strong-earnings-93CH-4984812"},
+    {"analyst": "Mikhail Paramonov", "firm": "Freedom Broker", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00",
+     "source": "https://www.investing.com/news/analyst-ratings/freedom-broker-raises-blackrock-stock-price-target-on-strong-earnings-93CH-4984812"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E on the NYSE USD common-stock listing, per share. Base and bull use FY2027 as-adjusted diluted EPS viewed at the 12-month target date (Nov 2027); bear uses FY2027 EPS cut to near the FY2026 level. Fee-based asset manager, so P/E is the primary method. Share count basis: 154,423,421 common shares outstanding at 2026-10-31 per the Q3 2026 10-Q cover (162.0m fully diluted incl. subco units; EPS basis to be reconciled). FY2026 EPS of about $56 and FY2027 of about $64 are consensus snapshots from secondary aggregators (not dated to a pre-cutoff day) and are used only as cross-checks, not as sourced inputs. Q3 2026 as-adjusted EPS of $15.93 comes from the release summary and beat consensus of $14.32; the 10-Q excerpt reviewed did not show the as-adjusted line, so it is not independently verified here.",
+    "bear": 928.0,
+    "base": 1280.0,
+    "bull": 1496.0,
+    "cases": {
+      "bear": {"driver": "Markets and fund-flow slowdown; organic base fee growth falls toward low single digits and mix shift to lower-margin products pulls the multiple down", "assumption": "EPS $58 at 16x", "target": 928.0},
+      "base": {"driver": "Organic base fee growth stays in the 6-8% long-term range management cites (Q3 organic base fee growth 11%), with operating margin expanding from fee and private-markets mix and modest buybacks", "assumption": "EPS $64 at 20x", "target": 1280.0},
+      "bull": {"driver": "Elevated client activity lifts organic growth to high single or low double digits, with private markets and technology reaching the 2030 mix goal faster and margin expansion beyond the base", "assumption": "EPS $68 at 22x", "target": 1496.0}
+    },
+    "implied_by_close": "At base EPS of $64 the close of $1,222.91 implies 19.1x FY2027 EPS. The published aggregate mean target of $1,361 (17 analysts, pipeline aggregate) implies about 21.3x base EPS, or about $68 of EPS at 20x; the gap is mostly a higher EPS path and a higher multiple than our base case.",
+    "sensitivity": "One turn of P/E moves the base target by $64 (5.0% of the target, about 5.2 pp of price return). A $2 change in FY2027 EPS moves it by $40 (about 3.3 pp).",
+    "watch_metric": "Organic base fee growth and the adjusted operating margin in the Q4 2026 and FY2026 results; sustaining at or above the 6-8% range with margin expansion supports the base case, while a fall toward low single digits would move the case toward bear.",
+    "next_disclosure": "Q4 and FY2026 earnings release, expected around late January 2027 (date not confirmed in sources reviewed)."
+  },
+  "dividend_per_share": 22.92,
+  "analyst_notes": "Named coverage in the sources reviewed is thin: only Freedom Broker (Mikhail Paramonov) has a dated, named call, raising to $1,400 from $1,350 with a Buy rating on 2026-10-29 on a 20x multiple applied to $70 forward EPS for Q4 2027 to Q3 2028, a window that does not match our 12-month horizon, so its horizon is left null. Other October firm-level moves (Jefferies to $1,341 from $1,260 on 2026-10-28 with Buy; Evercore ISI to $1,315 from $1,275 on 2026-10-20; Wells Fargo to $1,250; JPMorgan, Morgan Stanley, Deutsche Bank and TD Cowen updates) lack a named analyst in the sources reviewed, so they are not counted as events. The published mean of about $1,361 sits roughly 6% above our base case, which implies a faster EPS path or a higher multiple than the 20x we assume; the aggregate is concentrated in firm-only targets with mixed dates.",
+  "sources": [
+    {"label": "Q3 2026 earnings supplement (SEC 8-K Ex. 99.2), dated 2026-10-14", "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526420979/blk-ex99_2.htm", "supports": "Q3 2026 base fees $6.0bn (+19% y/y), total revenue growth, AUM $15.5tn at 2026-09-30"},
+    {"label": "Q3 2026 Form 10-Q (period ended 2026-09-30)", "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526447043/blk-20260930.htm", "supports": "Diluted weighted-average shares (164.5m Q3, 164.7m nine months), GAAP diluted EPS $10.57 Q3 and $36.82 nine months, 154,423,421 shares outstanding at 2026-10-31"},
+    {"label": "Q3 2026 earnings call transcript (Motley Fool, 2026-10-14)", "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/", "supports": "Organic base fee growth 6-8% long-term range, Q3 organic growth 11%, Q4 2026 tax rate 25%, Q4 buyback of at least $550m, mid-single-digit G&A growth"},
+    {"label": "Freedom Broker target raise (Investing.com, 2026-10-29)", "url": "https://www.investing.com/news/analyst-ratings/freedom-broker-raises-blackrock-stock-price-target-on-strong-earnings-93CH-4984812", "supports": "Mikhail Paramonov, Freedom Broker: target $1,400 from $1,350, Buy, 20x on $70 forward EPS"},
+    {"label": "Jefferies target raise (Investing.com, 2026-10-28)", "url": "https://www.investing.com/news/analyst-ratings/jefferies-raises-blackrock-stock-price-target-to-1341-on-growth-93CH-4977957", "supports": "Firm-level only: Jefferies target $1,341 from $1,260, Buy; analyst not named"}
+  ]
+}

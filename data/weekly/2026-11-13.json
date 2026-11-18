@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:40:22.606125+00:00",
+  "built_at": "2026-11-18T12:44:30.736128+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 78,
+    "rank_valued": 83,
     "rank_with_named_targets": 2,
-    "rank_matched": 78,
-    "researched": 78
+    "rank_matched": 83,
+    "researched": 83
   },
   "ranked": [
     {
@@ -372,6 +372,27 @@
         "bear": -48.37412001340932,
         "base": 12.63828360710694,
         "bull": 75.9973181361046
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "NVO",
+      "issuer_id": "Novo Nordisk A/S",
+      "close": 41.63,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 179849427336,
+        "high": 188089189835
+      },
+      "scenarios_pct": {
+        "bear": -21.73913043478261,
+        "base": 11.554167667547441,
+        "bull": 59.356233485467214
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -800,6 +821,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "ABT",
+      "issuer_id": "Abbott Laboratories",
+      "close": 108.52,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 184191296490,
+        "high": 191832969222
+      },
+      "scenarios_pct": {
+        "bear": -17.43457427202359,
+        "base": 5.925175082934022,
+        "bull": 23.848138591964616
+      },
+      "base_total_return_pct": 8.247327681533358,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "CRWD",
       "issuer_id": "CrowdStrike Holdings, Inc.",
       "close": 226.61,
@@ -926,6 +968,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "BLK",
+      "issuer_id": "BlackRock, Inc.",
+      "close": 1222.91,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 185067513510,
+        "high": 192622864691
+      },
+      "scenarios_pct": {
+        "bear": -24.11542959007613,
+        "base": 4.668372979205338,
+        "bull": 22.33116091944624
+      },
+      "base_total_return_pct": 6.542591032864234,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "HD",
       "issuer_id": "The Home Depot, Inc.",
       "close": 348.69,
@@ -960,6 +1023,27 @@
         "bear": -33.87701124090809,
         "base": 4.14370729556976,
         "bull": 37.75622658144148
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "SHOP",
+      "issuer_id": "Shopify Inc.",
+      "close": 147.09,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 185449832290,
+        "high": 193019213350
+      },
+      "scenarios_pct": {
+        "bear": -32.69426881501122,
+        "base": 4.017948194982663,
+        "bull": 38.01074172275477
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -1535,6 +1619,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "QCOM",
+      "issuer_id": "QUALCOMM Incorporated",
+      "close": 172.47,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 180852042000,
+        "high": 188233758000
+      },
+      "scenarios_pct": {
+        "bear": -32.16211515046095,
+        "base": -4.3311880327013395,
+        "bull": 23.209833594248273
+      },
+      "base_total_return_pct": -2.1974836203397694,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "CVX",
       "issuer_id": "Chevron Corporation",
       "close": 219.89,
@@ -1664,26 +1769,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SHOP",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "BLK",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ABT",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "QCOM",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "NVO",
       "reason": "independent valuation unavailable"
     },
     {
@@ -38988,6 +39073,1189 @@
         }
       ]
     },
+    "SHOP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 147.09,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward diluted EPS x P/E, with EPS viewed at the 12-month target date (about FY2027, non-GAAP basis, the basis the market uses for SHOP). Listing is the US common line (USD), so no ADR or FX conversion is needed. Starting point: Q3 2026 revenue $3.742B (+32%), non-GAAP diluted EPS $0.49 and GAAP EPS $0.36 on 1,290.7M diluted weighted shares, free cash flow $816M (22% margin). Q4 2026 guidance: revenue growth in the low-thirties percent, gross profit growth in the high-twenties percent, opex 29-30% of revenue, FCF margin about the Q4 2025 level. The FY2027 EPS anchor of about $2.47 is a third-party figure implied by a 57x multiple at $140.80 in a November 3 2026 analysis; it is not company guidance. Scenario EPS and multiples are model assumptions.",
+        "bear": 99.0,
+        "base": 153.0,
+        "bull": 203.0,
+        "cases": {
+          "bear": {
+            "driver": "Growth slows from low-thirties toward the high-twenties in 2027 as GMV growth and take-rate gains fade, and margin reset from marketing and infrastructure spending persists; the market pays less for a slower compounder",
+            "assumption": "FY2027 non-GAAP EPS $2.20 at 45x",
+            "target": 99.0
+          },
+          "base": {
+            "driver": "Revenue growth holds near the high-twenties to low-thirties range through 2027, opex stays at about 29-30% of revenue, and FCF margin stays in the low-20s; the multiple stays near current levels",
+            "assumption": "FY2027 non-GAAP EPS $2.55 at 60x",
+            "target": 153.0
+          },
+          "bull": {
+            "driver": "Merchant Solutions and payments attach keep growing faster than GMV, operating leverage lifts EPS toward the upper end of expectations, and the market keeps a premium growth multiple",
+            "assumption": "FY2027 non-GAAP EPS $2.90 at 70x",
+            "target": 203.0
+          }
+        },
+        "implied_by_close": "At base EPS $2.55 the $147.09 close implies 57.7x; a 12-month target of $185 (the one named call in the sample, National Bank) implies 72.5x at base EPS, or EPS about $3.08 at 60x (about 21% above the model)",
+        "sensitivity": "One turn of P/E moves the base target by $2.55 (1.7 pp of the close); $0.10 of FY2027 EPS moves the base target by about $6 at 60x",
+        "watch_metric": "Revenue growth against the low-thirties Q4 guide, paired with opex as a share of revenue (guided 29-30%) and FCF margin (Q3 22%, Q4 guided to about the prior-year level). A slip in growth below the high-twenties, or margin falling below the guide, would weaken the base case",
+        "next_disclosure": "Q4 and full-year 2026 results, expected in February 2027 (date not confirmed in sources reviewed)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Only one named broker in the sample has a dated 12-month call in the window that could be verified: National Bank Financial's Doug Taylor raised the target to $185 from $180 with an Outperform rating on November 5, 2026, after the roughly 5% fall on the Q3 GMV miss, arguing that the reset is a near-term margin issue. Other post-report actions (BMO, UBS, KeyBanc, CIBC, Robert W. Baird, Oppenheimer, RBC) were found only in aggregator or secondary sources with either no named analyst, no verifiable date, or a conflicting prior target, so they are excluded from events and from the weighted view. The sample therefore cannot support a recency-weighted consensus. The base case sits about 4% above the close, while the single named target sits about 26% above it, a gap that depends on EPS and multiple assumptions not yet visible in the sources.",
+      "sources": [
+        {
+          "label": "Shopify Q3 2026 results press release (SEC Exhibit 99.1, Form 8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001594805/000159480526000067/exhibit991pressreleaseq320.htm",
+          "supports": "Q3 2026 revenue, GAAP and non-GAAP EPS, diluted shares, FCF and margin, Q4 2026 guidance, release date of November 3 2026"
+        },
+        {
+          "label": "TIKR, The Case for 25% Upside for Shopify (updated November 3 2026)",
+          "url": "https://www.tikr.com/blog/the-case-for-25-upside-for-shopify-from-here",
+          "supports": "Share price of $140.80 at about 57x analysts' 2027 EPS estimate (basis for the FY2027 EPS anchor); KeyBanc preview raise to $185 from $180 (undated)"
+        },
+        {
+          "label": "Cantech Letter, Shopify's dominance is far from over, this analyst says (November 2026)",
+          "url": "https://www.cantechletter.com/2026/11/shopifys-dominance-is-far-from-over-this-analyst-says/",
+          "supports": "National Bank Financial, Doug Taylor, target $185 from $180, Outperform, November 5 2026 note"
+        },
+        {
+          "label": "MarketBeat, Shopify price target raised to $190 at Robert W. Baird (October 14 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-shopify-nasdaq-shop-price-target-raised-to-19000-2026-10-14/",
+          "supports": "Context only: Baird target $190 from $160, Outperform; analyst name not confirmed, so not an event row"
+        },
+        {
+          "label": "MarketScreener, Shopify consensus page",
+          "url": "https://www.marketscreener.com/quote/stock/SHOPIFY-INC-22283351/consensus/",
+          "supports": "Dated November 4 2026 individual target changes (BMO, UBS) cited as firm-only, not used as event rows"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-03T08:30:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 8,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Doug Taylor",
+            "firm": "National Bank Financial",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://www.cantechletter.com/2026/11/shopifys-dominance-is-far-from-over-this-analyst-says/",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Doug Taylor",
+          "firm": "National Bank Financial",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.cantechletter.com/2026/11/shopifys-dominance-is-far-from-over-this-analyst-says/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Doug Taylor",
+          "firm": "National Bank Financial",
+          "field": "target",
+          "value": 185.0,
+          "source_prior": 180,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.cantechletter.com/2026/11/shopifys-dominance-is-far-from-over-this-analyst-says/",
+          "prior_observed": null,
+          "revision_pct": 2.777777777777768,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "BLK": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 1222.91,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E on the NYSE USD common-stock listing, per share. Base and bull use FY2027 as-adjusted diluted EPS viewed at the 12-month target date (Nov 2027); bear uses FY2027 EPS cut to near the FY2026 level. Fee-based asset manager, so P/E is the primary method. Share count basis: 154,423,421 common shares outstanding at 2026-10-31 per the Q3 2026 10-Q cover (162.0m fully diluted incl. subco units; EPS basis to be reconciled). FY2026 EPS of about $56 and FY2027 of about $64 are consensus snapshots from secondary aggregators (not dated to a pre-cutoff day) and are used only as cross-checks, not as sourced inputs. Q3 2026 as-adjusted EPS of $15.93 comes from the release summary and beat consensus of $14.32; the 10-Q excerpt reviewed did not show the as-adjusted line, so it is not independently verified here.",
+        "bear": 928.0,
+        "base": 1280.0,
+        "bull": 1496.0,
+        "cases": {
+          "bear": {
+            "driver": "Markets and fund-flow slowdown; organic base fee growth falls toward low single digits and mix shift to lower-margin products pulls the multiple down",
+            "assumption": "EPS $58 at 16x",
+            "target": 928.0
+          },
+          "base": {
+            "driver": "Organic base fee growth stays in the 6-8% long-term range management cites (Q3 organic base fee growth 11%), with operating margin expanding from fee and private-markets mix and modest buybacks",
+            "assumption": "EPS $64 at 20x",
+            "target": 1280.0
+          },
+          "bull": {
+            "driver": "Elevated client activity lifts organic growth to high single or low double digits, with private markets and technology reaching the 2030 mix goal faster and margin expansion beyond the base",
+            "assumption": "EPS $68 at 22x",
+            "target": 1496.0
+          }
+        },
+        "implied_by_close": "At base EPS of $64 the close of $1,222.91 implies 19.1x FY2027 EPS. The published aggregate mean target of $1,361 (17 analysts, pipeline aggregate) implies about 21.3x base EPS, or about $68 of EPS at 20x; the gap is mostly a higher EPS path and a higher multiple than our base case.",
+        "sensitivity": "One turn of P/E moves the base target by $64 (5.0% of the target, about 5.2 pp of price return). A $2 change in FY2027 EPS moves it by $40 (about 3.3 pp).",
+        "watch_metric": "Organic base fee growth and the adjusted operating margin in the Q4 2026 and FY2026 results; sustaining at or above the 6-8% range with margin expansion supports the base case, while a fall toward low single digits would move the case toward bear.",
+        "next_disclosure": "Q4 and FY2026 earnings release, expected around late January 2027 (date not confirmed in sources reviewed)."
+      },
+      "dividend_per_share": 22.92,
+      "analyst_notes": "Named coverage in the sources reviewed is thin: only Freedom Broker (Mikhail Paramonov) has a dated, named call, raising to $1,400 from $1,350 with a Buy rating on 2026-10-29 on a 20x multiple applied to $70 forward EPS for Q4 2027 to Q3 2028, a window that does not match our 12-month horizon, so its horizon is left null. Other October firm-level moves (Jefferies to $1,341 from $1,260 on 2026-10-28 with Buy; Evercore ISI to $1,315 from $1,275 on 2026-10-20; Wells Fargo to $1,250; JPMorgan, Morgan Stanley, Deutsche Bank and TD Cowen updates) lack a named analyst in the sources reviewed, so they are not counted as events. The published mean of about $1,361 sits roughly 6% above our base case, which implies a faster EPS path or a higher multiple than the 20x we assume; the aggregate is concentrated in firm-only targets with mixed dates.",
+      "sources": [
+        {
+          "label": "Q3 2026 earnings supplement (SEC 8-K Ex. 99.2), dated 2026-10-14",
+          "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526420979/blk-ex99_2.htm",
+          "supports": "Q3 2026 base fees $6.0bn (+19% y/y), total revenue growth, AUM $15.5tn at 2026-09-30"
+        },
+        {
+          "label": "Q3 2026 Form 10-Q (period ended 2026-09-30)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0002012383/000119312526447043/blk-20260930.htm",
+          "supports": "Diluted weighted-average shares (164.5m Q3, 164.7m nine months), GAAP diluted EPS $10.57 Q3 and $36.82 nine months, 154,423,421 shares outstanding at 2026-10-31"
+        },
+        {
+          "label": "Q3 2026 earnings call transcript (Motley Fool, 2026-10-14)",
+          "url": "https://www.fool.com/earnings/call-transcripts/2026/10/14/blackrock-blk-q3-2026-earnings-call-transcript/",
+          "supports": "Organic base fee growth 6-8% long-term range, Q3 organic growth 11%, Q4 2026 tax rate 25%, Q4 buyback of at least $550m, mid-single-digit G&A growth"
+        },
+        {
+          "label": "Freedom Broker target raise (Investing.com, 2026-10-29)",
+          "url": "https://www.investing.com/news/analyst-ratings/freedom-broker-raises-blackrock-stock-price-target-on-strong-earnings-93CH-4984812",
+          "supports": "Mikhail Paramonov, Freedom Broker: target $1,400 from $1,350, Buy, 20x on $70 forward EPS"
+        },
+        {
+          "label": "Jefferies target raise (Investing.com, 2026-10-28)",
+          "url": "https://www.investing.com/news/analyst-ratings/jefferies-raises-blackrock-stock-price-target-to-1341-on-growth-93CH-4977957",
+          "supports": "Firm-level only: Jefferies target $1,341 from $1,260, Buy; analyst not named"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-14T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 15,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Mikhail Paramonov",
+            "firm": "Freedom Broker",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://www.investing.com/news/analyst-ratings/freedom-broker-raises-blackrock-stock-price-target-on-strong-earnings-93CH-4984812",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Broker",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/news/analyst-ratings/freedom-broker-raises-blackrock-stock-price-target-on-strong-earnings-93CH-4984812",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Broker",
+          "field": "target",
+          "value": 1400.0,
+          "source_prior": 1350,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/freedom-broker-raises-blackrock-stock-price-target-on-strong-earnings-93CH-4984812",
+          "prior_observed": null,
+          "revision_pct": 3.703703703703698,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ABT": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 108.52,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (NYSE), no ADR conversion. Anchor: FY2026 adjusted diluted EPS guidance tightened to $5.50-$5.55 (midpoint $5.525) in the Oct 21, 2026 Q3 release, with Q4 guided to $1.62-$1.67; adjusted figures exclude the about $670M pre-tax NEC/Gill specified item, so the GAAP Q3 EPS of $0.53 is not used. Management gave no FY2027 outlook in the release, so FY2027 EPS is my assumption, set near the +9.2% adjusted Q3 EPS growth rate. Share count 1,738M diluted in Q3 2026.",
+        "bear": 89.6,
+        "base": 114.95,
+        "bull": 134.4,
+        "cases": {
+          "bear": {
+            "driver": "Medical Devices and Diagnostics growth slows toward the ~6% full-year comparable sales outlook, with Electrophysiology and Diabetes Care headwinds (cited in secondary Q3 coverage) persisting; EPS barely grows and the multiple de-rates.",
+            "assumption": "FY2027 EPS $5.60 at 16x",
+            "target": 89.6
+          },
+          "base": {
+            "driver": "Medical Devices ($5,826M, +7.8% comparable in Q3), Diagnostics ($3,305M, +6.4% comparable) and Established Pharmaceuticals (+8.4% comparable) keep growing, and Nutrition (+4.9%) holds; adjusted EPS grows about 9.5% on the FY2026 midpoint, in line with the Q3 adjusted EPS growth of 9.2%.",
+            "assumption": "FY2027 EPS $6.05 at 19x",
+            "target": 114.95
+          },
+          "bull": {
+            "driver": "Medical Devices and Diagnostics re-accelerate, with Exact Sciences contributing as expected and fewer specified charges, lifting EPS about 16%; the stock re-rates toward the upper end of its own range.",
+            "assumption": "FY2027 EPS $6.40 at 21x",
+            "target": 134.4
+          }
+        },
+        "implied_by_close": "At base EPS of $6.05 the $108.52 close implies 17.9x FY2027 (19.6x the $5.525 FY2026 guidance midpoint). The aggregate mean target of $118.91 (26 analysts, Yahoo Finance aggregate, not used in the base case) implies about 19.7x base EPS, or $6.26 of EPS at 19x.",
+        "sensitivity": "One turn of P/E moves the base target by $6.05 (about 5.6% of the close); $0.10 of FY2027 EPS moves it by about $1.90 at 19x.",
+        "watch_metric": "Comparable sales growth in Medical Devices and Diagnostics (Q3: +7.8% and +6.4%) and whether FY2027 adjusted EPS tracks toward $6.05 without further specified charges.",
+        "next_disclosure": "Q4 and full-year 2026 results, the first point at which Abbott is expected to give FY2027 framing; the release date is not sourced in this research."
+      },
+      "dividend_per_share": 2.52,
+      "analyst_notes": "After the Oct 21 Q3 beat and tightened guidance, the Oct 22 named notes were mixed: Wells Fargo (112 to 119), Baird (121 to 123) raised targets, while TD Cowen (135 to 118), JPMorgan (120 to 118), BTIG (134 to 125), RBC (130 to 125) and Citi (125 to 122) cut. Named targets now sit at $118 to $127, 9% to 17% above the close and mostly above the $115 base case; the $3 to $12 gap above the $114.95 base is about $0.16 to $0.63 of FY2027 EPS at 19x, or a higher multiple, and none of these notes state their assumptions. No named call documents a 12-month horizon, so none enters a weighted target, and the unnamed Bank of America $125 (Nov 10) and the Barclays Miksic rows are excluded because their dates and authors could not be reconciled across sources.",
+      "sources": [
+        {
+          "label": "Abbott Q3 2026 results press release (copy)",
+          "url": "https://finviz.com/news/405133/abbott-reports-third-quarter-2026-results-and-reaffirms-full-year-eps-guidance",
+          "supports": "Q3 GAAP and adjusted EPS, FY2026 adjusted EPS guidance $5.50-$5.55, Q4 guide $1.62-$1.67, comparable sales ~6.0%, diluted shares, segment sales, $0.63 quarterly dividend, no 2027 outlook"
+        },
+        {
+          "label": "Abbott Q3 2026 earnings filing copy (last10k)",
+          "url": "https://last10k.com/sec-filings/abt/0001628280-26-070154.htm",
+          "supports": "Q3 reported and comparable sales growth, adjusted EPS $1.42, guidance reaffirmed midpoint"
+        },
+        {
+          "label": "MarketBeat Baird and Wells Fargo Oct 22 2026 notes",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-abbott-laboratories-nyse-abt-stock-price-target-raised-at-robert-w-baird-2026-10-22/",
+          "supports": "Baird 121 to 123 Outperform; prior and new targets"
+        },
+        {
+          "label": "MarketBeat Wells Fargo Oct 22 2026 note",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-abbott-laboratories-nyse-abt-price-target-raised-to-11900-2026-10-22/",
+          "supports": "Wells Fargo 112 to 119 Overweight; JPMorgan, TD Cowen and BTIG cuts on Oct 22"
+        },
+        {
+          "label": "PriceTargets.com ABT analyst actions",
+          "url": "https://www.pricetargets.com/NYSE/ABT",
+          "supports": "Named analyst, firm, rating and prior/new targets for Oct 2 to Oct 27 2026 actions"
+        },
+        {
+          "label": "FN2 ABT named-analyst price target list",
+          "url": "https://fn2.ai/earnings/abt/analysts",
+          "supports": "UBS (Patrick Wood, Jul 28 2026) and Evercore ISI (Vijay Kumar, Jul 6 2026) targets"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-21T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 9,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 22,
+        "max_weight_pct": 11.681659654704983,
+        "contributors": [
+          {
+            "analyst": "David Rescott",
+            "firm": "Robert W. Baird",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-abbott-laboratories-nyse-abt-stock-price-target-raised-at-robert-w-baird-2026-10-22/",
+            "weight": 0.11240371374241763
+          },
+          {
+            "analyst": "David Round",
+            "firm": "Argus",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-27",
+            "age_days": 17,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ABT",
+            "weight": 0.11681659654704983
+          },
+          {
+            "analyst": "Ed Ridley-Day",
+            "firm": "Rothschild & Co Redburn",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-02",
+            "age_days": 42,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/ABT",
+            "weight": 0.09635740725602676
+          },
+          {
+            "analyst": "Joanne Wuensch",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ABT",
+            "weight": 0.11240371374241763
+          },
+          {
+            "analyst": "Joshua Jennings",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ABT",
+            "weight": 0.11240371374241763
+          },
+          {
+            "analyst": "Kendall Au",
+            "firm": "Royal Bank of Canada",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ABT",
+            "weight": 0.11240371374241763
+          },
+          {
+            "analyst": "Larry Biegelsen",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ABT",
+            "weight": 0.11240371374241763
+          },
+          {
+            "analyst": "Marie Thibault",
+            "firm": "BTIG Research",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ABT",
+            "weight": 0.11240371374241763
+          },
+          {
+            "analyst": "Robbie Marcus",
+            "firm": "JPMorgan Chase",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ABT",
+            "weight": 0.11240371374241763
+          }
+        ],
+        "counts": {
+          "Buy": 8,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 88.31834034529503,
+          "Hold": 11.681659654704983,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "David Rescott",
+          "firm": "Robert W. Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-abbott-laboratories-nyse-abt-stock-price-target-raised-at-robert-w-baird-2026-10-22/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Rescott",
+          "firm": "Robert W. Baird",
+          "field": "target",
+          "value": 123.0,
+          "source_prior": 121,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-abbott-laboratories-nyse-abt-stock-price-target-raised-at-robert-w-baird-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 1.6528925619834656,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Round",
+          "firm": "Argus",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ed Ridley-Day",
+          "firm": "Rothschild & Co Redburn",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ed Ridley-Day",
+          "firm": "Rothschild & Co Redburn",
+          "field": "target",
+          "value": 127.0,
+          "source_prior": 119,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "revision_pct": 6.72268907563025,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 122.0,
+          "source_prior": 125,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "revision_pct": -2.400000000000002,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joshua Jennings",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Joshua Jennings",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 135.0,
+          "source_prior": 135,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged"
+        },
+        {
+          "analyst": "Joshua Jennings",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 118.0,
+          "source_prior": 135,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-abbott-laboratories-nyse-abt-price-target-raised-to-11900-2026-10-22/",
+          "prior_observed": 135.0,
+          "revision_pct": -12.592592592592588,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kendall Au",
+          "firm": "Royal Bank of Canada",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kendall Au",
+          "firm": "Royal Bank of Canada",
+          "field": "target",
+          "value": 125.0,
+          "source_prior": 130,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "revision_pct": -3.8461538461538436,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Larry Biegelsen",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Larry Biegelsen",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 119.0,
+          "source_prior": 112,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-abbott-laboratories-nyse-abt-price-target-raised-to-11900-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 6.25,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Marie Thibault",
+          "firm": "BTIG Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Marie Thibault",
+          "firm": "BTIG Research",
+          "field": "target",
+          "value": 125.0,
+          "source_prior": 134,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "revision_pct": -6.716417910447758,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Patrick Wood",
+          "firm": "UBS",
+          "field": "target",
+          "value": 125.0,
+          "issued_at": "2026-07-28",
+          "public_at": "2026-07-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/abt/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Robbie Marcus",
+          "firm": "JPMorgan Chase",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Robbie Marcus",
+          "firm": "JPMorgan Chase",
+          "field": "target",
+          "value": 118.0,
+          "source_prior": 120,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ABT",
+          "prior_observed": null,
+          "revision_pct": -1.6666666666666718,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Vijay Kumar",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 112.0,
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/abt/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "QCOM": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 172.47,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E at the 12-month target date (Nov 2027). In Nov 2027 investors price the fiscal year ending Sep 2028 (FY2028) non-GAAP diluted EPS, because QCOM's fiscal year ends in late September. Listing is the US common stock in USD; no ADR or FX conversion applies. Reported starting points: FY2026 non-GAAP diluted EPS $10.54 (down 12%); Q4 FY2026 non-GAAP diluted EPS $2.17 on revenue $10.44B, reported 4 Nov 2026; Q1 FY2027 guidance non-GAAP EPS $2.15-$2.35 on revenue $10.4-$11.2B (QCT $9.0-9.6B, QTL $1.3-1.5B); FY2026 handset revenue $24.07B (down 13%), automotive $6.00B (up 52%); shares outstanding 1,072M at fiscal year end. Street reference points, not inputs: FY2027 EPS consensus $9.59 and FY2028 $12.21 (tikr, 13 Nov 2026). Scenario EPS values are this model's operating assumptions, not company guidance. Share count and net cash were not verified from the filing tables. The $0.92 quarterly dividend is the Q4 FY26 rate, annualised to $3.68.",
+        "bear": 117.0,
+        "base": 165.0,
+        "bull": 212.5,
+        "cases": {
+          "bear": {
+            "driver": "Handset revenue keeps falling as Apple volume and Android share decline (FY26 handset revenue down 13%, Q4 down 26%), and memory and wafer cost inflation keeps handset margins under pressure. Automotive and data center do not grow fast enough to lift EPS above the FY27 run rate. FY2028 EPS stays flat at about $9, the Q1 FY27 guidance midpoint annualised, and the multiple compresses to 13x.",
+            "assumption": "EPS $9.00 x 13x = $117",
+            "target": 117.0
+          },
+          "base": {
+            "driver": "FY2027 EPS is near the $9.59 consensus. Automotive keeps growing and the data-center target of $5B in FY2027 is broadly delivered. Price increases recover part of the gross margin lost to memory costs, lifting FY2028 EPS about 15%. The multiple settles at 15x, below the current forward multiple of about 18x, because handset exposure keeps the stock at a discount.",
+            "assumption": "EPS $11.00 x 15x = $165",
+            "target": 165.0
+          },
+          "bull": {
+            "driver": "Data-center revenue beats the $5B FY2027 target and automotive keeps compounding. Handset share holds better than expected, and the margin recovery is complete in FY2028. FY2028 EPS of $12.50 is slightly above the $12.21 consensus, and the multiple holds near 17x.",
+            "assumption": "EPS $12.50 x 17x = $212.50",
+            "target": 212.5
+          }
+        },
+        "implied_by_close": "At the FY2027 consensus EPS of $9.59 the $172.47 close implies 18.0x. At this model's base FY2028 EPS of $11.00 it implies 15.7x. The aggregate mean target of $185.96 (28 analysts, Yahoo Finance via yfinance) implies about 16.9x on base EPS, or about $12.40 EPS at 15x, which is about 13% above the base EPS.",
+        "sensitivity": "One turn of P/E moves the base target by $11.00 (6.4 pp of the close). A $1 change in FY2028 EPS moves the base target by $15 (8.7 pp). The base return is about -4% and turns positive only if the multiple holds near 16x or FY2028 EPS reaches about $11.50.",
+        "watch_metric": "Handset chip revenue against the Q1 FY2027 guide (QCT $9.0-9.6B), together with non-GAAP gross margin after price increases, and the data-center revenue run rate against the $5B FY2027 target.",
+        "next_disclosure": "Q1 FY2027 earnings, expected around early February 2027 (date not confirmed in the sources used)."
+      },
+      "dividend_per_share": 3.68,
+      "analyst_notes": "Only two named analysts with dated calls on or before the 13 Nov 2026 close could be verified: Egor Tolmachev at Freedom Capital Markets (9 Nov 2026) cut the target from $200 to $185 and moved to Hold, and Vijay Rakesh at Mizuho (25 Jan 2026) cut from $175 to $160 and kept Neutral. Freedom's note is attributed to Tolmachev in the cited article, not confirmed from the note. Both recent calls sit at or below the 13 Nov close of $172.47 on a Hold basis, so the named views are not above the close. The 30 July 2026 post-earnings round (Rosenblatt $265 to $235 Buy, TD Cowen $225 to $175 Buy, Morgan Stanley $231 to $220 Equal Weight, UBS $190 to $170 Neutral, Cantor $200 to $165, Susquehanna, Benchmark) and the Nov 2026 actions reported by aggregators (Rosenblatt 235 to 205 on 5 Nov, Bank of America) are not in the events list: the analysts were unnamed, or the dates and analyst identity could not be confirmed from opened sources. A Cantor cut on 2 Feb 2026 ($185 to $160, Neutral) has no named analyst. The aggregate consensus is Hold: mean $185.96 and median $175 across 28 analysts (yfinance); other aggregators show $185 to $204, so the aggregate is unstable. The base case of $165 sits about 11% below the aggregate mean. Closing that gap needs about $1.40 more FY2028 EPS at 15x, or a multiple of about 16.9x on base EPS. With no documented 12-month horizon for any named call, no event enters a weighted target. Analyst coverage here is thin, so the named-analyst sample is too small to weight.",
+      "sources": [
+        {
+          "label": "StockTitan: Qualcomm Q4 fiscal 2026 earnings summary (4 Nov 2026)",
+          "url": "https://www.stocktitan.net/articles/qualcomm-q4-fiscal-2026-earnings-phone-chip-sales-fall-26-percent",
+          "supports": "Q4 FY26 non-GAAP EPS $2.17 and revenue $10.44B, GAAP EPS $1.17, FY26 non-GAAP EPS $10.54, handset and automotive FY26 revenue, Q1 FY27 guidance ranges, $0.92 Q4 dividend, 1,072M shares at year end"
+        },
+        {
+          "label": "tikr: Freedom Capital Markets downgrade and consensus (13 Nov 2026 update)",
+          "url": "https://www.tikr.com/blog/is-freedom-capital-markets-wrong-to-give-up-on-qualcomm-wall-street-still-sees-185",
+          "supports": "Freedom downgrade Buy to Hold and target $200 to $185 on 9 Nov 2026; FY27 consensus $9.59 and FY28 $12.21; forward P/E about 18x"
+        },
+        {
+          "label": "Yahoo Finance: Cantor Fitzgerald lowers Qualcomm PT (2 Feb 2026, includes Mizuho action of 25 Jan 2026)",
+          "url": "https://finance.yahoo.com/news/cantor-fitzgerald-lowers-qualcomm-qcom-130959798.html",
+          "supports": "Mizuho's Vijay Rakesh cut target from $175 to $160 with Neutral on 25 Jan 2026"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-04T16:00:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 148.0,
+        "max_weight_pct": 90.1860593986328,
+        "contributors": [
+          {
+            "analyst": "Egor Tolmachev",
+            "firm": "Freedom Capital Markets",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/is-freedom-capital-markets-wrong-to-give-up-on-qualcomm-wall-street-still-sees-185",
+            "weight": 0.9018605939863281
+          },
+          {
+            "analyst": "Vijay Rakesh",
+            "firm": "Mizuho",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-01-25",
+            "age_days": 292,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/news/cantor-fitzgerald-lowers-qualcomm-qcom-130959798.html",
+            "weight": 0.09813940601367187
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 100.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Egor Tolmachev",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/is-freedom-capital-markets-wrong-to-give-up-on-qualcomm-wall-street-still-sees-185",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Egor Tolmachev",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 185.0,
+          "source_prior": 200,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/is-freedom-capital-markets-wrong-to-give-up-on-qualcomm-wall-street-still-sees-185",
+          "prior_observed": null,
+          "revision_pct": -7.499999999999996,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-01-25",
+          "public_at": "2026-01-25T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/news/cantor-fitzgerald-lowers-qualcomm-qcom-130959798.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 160.0,
+          "source_prior": 175,
+          "issued_at": "2026-01-25",
+          "public_at": "2026-01-25T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/news/cantor-fitzgerald-lowers-qualcomm-qcom-130959798.html",
+          "prior_observed": null,
+          "revision_pct": -8.571428571428575,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "NVO": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 41.63,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x justified P/E at the 12-month target date, on FY2027 diluted EPS, converted to the NYSE ADS. Conversion: the NVO ADS represents one Novo Nordisk B share (1 ADS : 1 B share; 20-F FY2022 cover, unchanged through the 2023 2-for-1 split of both B shares and ADRs), so the ADS price equals the B-share price in DKK divided by the FX rate. FX: 1 USD = 6.7829 DKK, the 2026-11-13 daily close (ForeignExchange.org.uk). Scenario EPS is in DKK; targets are DKK target / 6.7829 USD. The ADR depositary named in the 20-F filings we could read is J.P. Morgan (not BNY Mellon as stated in the brief); the 1:1 ratio does not depend on the depositary. Anchor: Q3 2026 adjusted operating profit DKK 31.7bn, reported operating profit DKK 23.0bn after DKK 8.7bn impairments, diluted EPS DKK 3.79 (Q3 2026); FY2026 guidance adjusted sales and operating profit growth -2% to +2% at CER (raised from -6% to 0%); FY2026 consensus EPS about DKK 22.9 (Chartmill, 31 Oct 2026, excerpt only). Management flagged US list-price cuts from 1 Jan 2027 (Wegovy about -50%, Ozempic about -35%) and no 2027 guidance.",
+        "bear": 32.58,
+        "base": 46.44,
+        "bull": 66.34,
+        "cases": {
+          "bear": {
+            "driver": "US price cuts from Jan 2027 not offset by volume; CagriSema launch slips",
+            "assumption": "FY2027 EPS DKK 17.0 (about $2.51) x 13x = DKK 221 = $32.58",
+            "target": 32.58
+          },
+          "base": {
+            "driver": "US price cuts partly offset by GLP-1 volume growth; flat-to-down 2026 earnings base",
+            "assumption": "FY2027 EPS DKK 21.0 (about $3.10, 8% below FY2026 consensus DKK 22.9) x 15x = DKK 315 = $46.44",
+            "target": 46.44
+          },
+          "bull": {
+            "driver": "Volume growth and CagriSema launch early 2027 more than offset lower prices",
+            "assumption": "FY2027 EPS DKK 25.0 (about $3.69) x 18x = DKK 450 = $66.34",
+            "target": 66.34
+          }
+        },
+        "implied_by_close": "At base EPS DKK 21.0 the close ($41.63 = DKK 282.4) implies 13.4x FY2027 EPS. The two named analyst targets (DZ Bank DKK 290 = $42.76; Citi DKK 296 = $43.64) imply about 14x DKK 21.0, close to the market; the 12-month weighted analyst target cannot be computed because neither call has a documented 12-month horizon. Yahoo aggregate (12 analysts, mean $45.44, median $42.44) is shown for reference only.",
+        "sensitivity": "One turn of P/E moves the base target by $3.10 (6.7% of the base target; 7.4 pp of price return). A DKK 1 change in FY2027 EPS moves the base target by $2.21 (about 4.8%).",
+        "watch_metric": "US net price per Wegovy/Ozempic script and US prescription volume growth in Q4 2026 and Q1 2027; base case needs volume growth to offset the January 2027 list-price cuts so FY2027 EPS stays near DKK 21.",
+        "next_disclosure": "FY2026 annual report and FY2027 guidance (early February 2027); Q1 2027 results (early May 2027)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Only two named-firm calls with dated sources were available through 13 Nov 2026: Citi (9 Oct 2026, neutral, DKK 296 from 310) and DZ Bank (9 Nov 2026, hold, DKK 290 from 315); neither analyst is named in the source and neither states a 12-month horizon, so both stay in the timeline and out of any weighted target. Both are firm-level, not individual, histories. Both cuts (Citi -4.5%, DZ Bank -7.9%) leave targets about 6 to 8 percent below the base target and near the close. Other broker targets found in search (JPMorgan, Jefferies, BofA, UBS, Deutsche Bank, Berenberg, Morgan Stanley) had conflicting or undated figures, or were older than 12 months, so they were not entered; the coverage is therefore partial and below the 6-12 analyst target. The Yahoo aggregate (12 analysts, mean $45.44, recommendation hold) sits above the base case and includes stale targets.",
+      "sources": [
+        {
+          "label": "Form 20-F FY2022 cover (ADS ratio: one B share per ADR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828023001868/nvo-20221231.htm",
+          "supports": "1 ADS = 1 B share; depositary not named in the portion read"
+        },
+        {
+          "label": "ForeignExchange.org.uk USD/DKK daily rates",
+          "url": "https://www.foreignexchange.org.uk/fx-rates/conversion/100/USD/DKK",
+          "supports": "USD/DKK 6.7829 on 2026-11-13"
+        },
+        {
+          "label": "StockAnalysis: Novo Nordisk Q3 2026 beats, raises outlook (4 Nov 2026)",
+          "url": "https://stockanalysis.com/news/novo-nordisk-q3-2026-profit-beats-raises-outlook/",
+          "supports": "Q3 adjusted and reported operating profit, FY2026 guidance -2% to +2%, FCF DKK 60-70bn, 2027 price-cut commentary; release date 4 Nov 2026 (time approximated)"
+        },
+        {
+          "label": "Visno Invest: Novo Nordisk 3Q26 net profit DKK 16.7bn",
+          "url": "https://visnoinvest.com.br/news/16178/novo-nordisk-nvo-tem-lucro-liquido-de-dkk-167-bi-no-3t26-e-eleva-projecao",
+          "supports": "Q3 2026 diluted EPS DKK 3.79, net profit DKK 16.74bn"
+        },
+        {
+          "label": "Chartmill NVO estimates (FY2026 consensus, excerpt)",
+          "url": "https://www.chartmill.com/stock/quote/NVO/estimates",
+          "supports": "FY2026 consensus EPS DKK 22.91 (31 Oct 2026); search excerpt, not opened"
+        },
+        {
+          "label": "Goldesel: DZ Bank cuts fair value to DKK 290 (9 Nov 2026)",
+          "url": "https://goldesel.de/aktien/news/novo-nordisk-b-aktie-dz-bank-senkt-fairen-wert-auf-290-dkk",
+          "supports": "DZ Bank fair value DKK 290 from 315, Halten, 9 Nov 2026"
+        },
+        {
+          "label": "Finviz: Citi cuts Novo price target to DKK 296 (9 Oct 2026)",
+          "url": "https://finviz.com/news/400761/citi-cuts-novo-nordisk-price-target-to-dkk-296-on-limited-margin-growth-outlook",
+          "supports": "Citi target DKK 296 from 310, neutral, 9 Oct 2026"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-04T06:30:00+01:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 19.5,
+        "max_weight_pct": 55.940575488954046,
+        "contributors": [
+          {
+            "analyst": "Citi Research (analyst not named)",
+            "firm": "Citi",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-09",
+            "age_days": 35,
+            "after_earnings": false,
+            "source": "https://finviz.com/news/400761/citi-cuts-novo-nordisk-price-target-to-dkk-296-on-limited-margin-growth-outlook",
+            "weight": 0.4405942451104596
+          },
+          {
+            "analyst": "DZ Bank (analyst not named)",
+            "firm": "DZ Bank",
+            "value": "Halten",
+            "bucket": "Hold",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://goldesel.de/aktien/news/novo-nordisk-b-aktie-dz-bank-senkt-fairen-wert-auf-290-dkk",
+            "weight": 0.5594057548895405
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 100.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Citi Research (analyst not named)",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59+02:00",
+          "source": "https://finviz.com/news/400761/citi-cuts-novo-nordisk-price-target-to-dkk-296-on-limited-margin-growth-outlook",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Citi Research (analyst not named)",
+          "firm": "Citi",
+          "field": "target",
+          "value": 43.64,
+          "source_prior": 45.71,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59+02:00",
+          "horizon_months": null,
+          "source": "https://finviz.com/news/400761/citi-cuts-novo-nordisk-price-target-to-dkk-296-on-limited-margin-growth-outlook",
+          "prior_observed": null,
+          "revision_pct": -4.528549551520456,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "DZ Bank (analyst not named)",
+          "firm": "DZ Bank",
+          "field": "rating",
+          "value": "Halten",
+          "bucket": "Hold",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T10:11:00+01:00",
+          "source": "https://goldesel.de/aktien/news/novo-nordisk-b-aktie-dz-bank-senkt-fairen-wert-auf-290-dkk",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "DZ Bank (analyst not named)",
+          "firm": "DZ Bank",
+          "field": "target",
+          "value": 42.76,
+          "source_prior": 46.44,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T10:11:00+01:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/novo-nordisk-b-aktie-dz-bank-senkt-fairen-wert-auf-290-dkk",
+          "prior_observed": null,
+          "revision_pct": -7.9242032730404866,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -39541,6 +40809,11 @@
         "kind": "new"
       },
       {
+        "symbol": "ABT",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "ADI",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -39607,6 +40880,11 @@
       },
       {
         "symbol": "BHP",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "BLK",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -39786,6 +41064,11 @@
         "kind": "new"
       },
       {
+        "symbol": "NVO",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "NVS",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -39821,6 +41104,11 @@
         "kind": "new"
       },
       {
+        "symbol": "QCOM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "RTX",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -39837,6 +41125,11 @@
       },
       {
         "symbol": "SHEL",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "SHOP",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -40497,6 +41790,38 @@
         "prior_target": 193.41,
         "direction": "raise",
         "revision_pct": 57.14285714285714,
+        "horizon_months": null
+      },
+      {
+        "symbol": "QCOM",
+        "firm": "Freedom Capital Markets",
+        "analyst": "Egor Tolmachev",
+        "issued_at": "2026-11-09",
+        "source": "https://www.tikr.com/blog/is-freedom-capital-markets-wrong-to-give-up-on-qualcomm-wall-street-still-sees-185",
+        "currency": null,
+        "rating": "Hold",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 185.0,
+        "prior_target": 200,
+        "direction": "cut",
+        "revision_pct": -7.499999999999996,
+        "horizon_months": null
+      },
+      {
+        "symbol": "NVO",
+        "firm": "DZ Bank",
+        "analyst": "DZ Bank (analyst not named)",
+        "issued_at": "2026-11-09",
+        "source": "https://goldesel.de/aktien/news/novo-nordisk-b-aktie-dz-bank-senkt-fairen-wert-auf-290-dkk",
+        "currency": null,
+        "rating": "Halten",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 42.76,
+        "prior_target": 46.44,
+        "direction": "cut",
+        "revision_pct": -7.9242032730404866,
         "horizon_months": null
       },
       {

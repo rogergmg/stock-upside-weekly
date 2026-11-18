@@ -1,0 +1,39 @@
+{
+  "issuer_id": "Shopify Inc.",
+  "symbol": "SHOP",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 147.09, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-03T08:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Doug Taylor", "firm": "National Bank Financial", "field": "target", "value": 185, "source_prior": 180,
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null,
+     "source": "https://www.cantechletter.com/2026/11/shopifys-dominance-is-far-from-over-this-analyst-says/"},
+    {"analyst": "Doug Taylor", "firm": "National Bank Financial", "field": "rating", "value": "Outperform", "bucket": "Buy",
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00",
+     "source": "https://www.cantechletter.com/2026/11/shopifys-dominance-is-far-from-over-this-analyst-says/"}
+  ],
+  "valuation": {
+    "method": "Forward diluted EPS x P/E, with EPS viewed at the 12-month target date (about FY2027, non-GAAP basis, the basis the market uses for SHOP). Listing is the US common line (USD), so no ADR or FX conversion is needed. Starting point: Q3 2026 revenue $3.742B (+32%), non-GAAP diluted EPS $0.49 and GAAP EPS $0.36 on 1,290.7M diluted weighted shares, free cash flow $816M (22% margin). Q4 2026 guidance: revenue growth in the low-thirties percent, gross profit growth in the high-twenties percent, opex 29-30% of revenue, FCF margin about the Q4 2025 level. The FY2027 EPS anchor of about $2.47 is a third-party figure implied by a 57x multiple at $140.80 in a November 3 2026 analysis; it is not company guidance. Scenario EPS and multiples are model assumptions.",
+    "bear": 99.0, "base": 153.0, "bull": 203.0,
+    "cases": {
+      "bear": {"driver": "Growth slows from low-thirties toward the high-twenties in 2027 as GMV growth and take-rate gains fade, and margin reset from marketing and infrastructure spending persists; the market pays less for a slower compounder", "assumption": "FY2027 non-GAAP EPS $2.20 at 45x", "target": 99.0},
+      "base": {"driver": "Revenue growth holds near the high-twenties to low-thirties range through 2027, opex stays at about 29-30% of revenue, and FCF margin stays in the low-20s; the multiple stays near current levels", "assumption": "FY2027 non-GAAP EPS $2.55 at 60x", "target": 153.0},
+      "bull": {"driver": "Merchant Solutions and payments attach keep growing faster than GMV, operating leverage lifts EPS toward the upper end of expectations, and the market keeps a premium growth multiple", "assumption": "FY2027 non-GAAP EPS $2.90 at 70x", "target": 203.0}
+    },
+    "implied_by_close": "At base EPS $2.55 the $147.09 close implies 57.7x; a 12-month target of $185 (the one named call in the sample, National Bank) implies 72.5x at base EPS, or EPS about $3.08 at 60x (about 21% above the model)",
+    "sensitivity": "One turn of P/E moves the base target by $2.55 (1.7 pp of the close); $0.10 of FY2027 EPS moves the base target by about $6 at 60x",
+    "watch_metric": "Revenue growth against the low-thirties Q4 guide, paired with opex as a share of revenue (guided 29-30%) and FCF margin (Q3 22%, Q4 guided to about the prior-year level). A slip in growth below the high-twenties, or margin falling below the guide, would weaken the base case",
+    "next_disclosure": "Q4 and full-year 2026 results, expected in February 2027 (date not confirmed in sources reviewed)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only one named broker in the sample has a dated 12-month call in the window that could be verified: National Bank Financial's Doug Taylor raised the target to $185 from $180 with an Outperform rating on November 5, 2026, after the roughly 5% fall on the Q3 GMV miss, arguing that the reset is a near-term margin issue. Other post-report actions (BMO, UBS, KeyBanc, CIBC, Robert W. Baird, Oppenheimer, RBC) were found only in aggregator or secondary sources with either no named analyst, no verifiable date, or a conflicting prior target, so they are excluded from events and from the weighted view. The sample therefore cannot support a recency-weighted consensus. The base case sits about 4% above the close, while the single named target sits about 26% above it, a gap that depends on EPS and multiple assumptions not yet visible in the sources.",
+  "sources": [
+    {"label": "Shopify Q3 2026 results press release (SEC Exhibit 99.1, Form 8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001594805/000159480526000067/exhibit991pressreleaseq320.htm", "supports": "Q3 2026 revenue, GAAP and non-GAAP EPS, diluted shares, FCF and margin, Q4 2026 guidance, release date of November 3 2026"},
+    {"label": "TIKR, The Case for 25% Upside for Shopify (updated November 3 2026)", "url": "https://www.tikr.com/blog/the-case-for-25-upside-for-shopify-from-here", "supports": "Share price of $140.80 at about 57x analysts' 2027 EPS estimate (basis for the FY2027 EPS anchor); KeyBanc preview raise to $185 from $180 (undated)"},
+    {"label": "Cantech Letter, Shopify's dominance is far from over, this analyst says (November 2026)", "url": "https://www.cantechletter.com/2026/11/shopifys-dominance-is-far-from-over-this-analyst-says/", "supports": "National Bank Financial, Doug Taylor, target $185 from $180, Outperform, November 5 2026 note"},
+    {"label": "MarketBeat, Shopify price target raised to $190 at Robert W. Baird (October 14 2026)", "url": "https://www.marketbeat.com/instant-alerts/analyst-shopify-nasdaq-shop-price-target-raised-to-19000-2026-10-14/", "supports": "Context only: Baird target $190 from $160, Outperform; analyst name not confirmed, so not an event row"},
+    {"label": "MarketScreener, Shopify consensus page", "url": "https://www.marketscreener.com/quote/stock/SHOPIFY-INC-22283351/consensus/", "supports": "Dated November 4 2026 individual target changes (BMO, UBS) cited as firm-only, not used as event rows"}
+  ]
+}

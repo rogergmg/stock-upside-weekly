@@ -1,0 +1,47 @@
+{
+  "issuer_id": "Novo Nordisk A/S",
+  "symbol": "NVO",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 41.63, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-04T06:30:00+01:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Citi Research (analyst not named)", "firm": "Citi", "field": "target", "value": 43.64, "source_prior": 45.71,
+     "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59+02:00", "horizon_months": null,
+     "source": "https://finviz.com/news/400761/citi-cuts-novo-nordisk-price-target-to-dkk-296-on-limited-margin-growth-outlook"},
+    {"analyst": "Citi Research (analyst not named)", "firm": "Citi", "field": "rating", "value": "Neutral", "bucket": "Hold",
+     "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59+02:00",
+     "source": "https://finviz.com/news/400761/citi-cuts-novo-nordisk-price-target-to-dkk-296-on-limited-margin-growth-outlook"},
+    {"analyst": "DZ Bank (analyst not named)", "firm": "DZ Bank", "field": "target", "value": 42.76, "source_prior": 46.44,
+     "issued_at": "2026-11-09", "public_at": "2026-11-09T10:11:00+01:00", "horizon_months": null,
+     "source": "https://goldesel.de/aktien/news/novo-nordisk-b-aktie-dz-bank-senkt-fairen-wert-auf-290-dkk"},
+    {"analyst": "DZ Bank (analyst not named)", "firm": "DZ Bank", "field": "rating", "value": "Halten", "bucket": "Hold",
+     "issued_at": "2026-11-09", "public_at": "2026-11-09T10:11:00+01:00",
+     "source": "https://goldesel.de/aktien/news/novo-nordisk-b-aktie-dz-bank-senkt-fairen-wert-auf-290-dkk"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x justified P/E at the 12-month target date, on FY2027 diluted EPS, converted to the NYSE ADS. Conversion: the NVO ADS represents one Novo Nordisk B share (1 ADS : 1 B share; 20-F FY2022 cover, unchanged through the 2023 2-for-1 split of both B shares and ADRs), so the ADS price equals the B-share price in DKK divided by the FX rate. FX: 1 USD = 6.7829 DKK, the 2026-11-13 daily close (ForeignExchange.org.uk). Scenario EPS is in DKK; targets are DKK target / 6.7829 USD. The ADR depositary named in the 20-F filings we could read is J.P. Morgan (not BNY Mellon as stated in the brief); the 1:1 ratio does not depend on the depositary. Anchor: Q3 2026 adjusted operating profit DKK 31.7bn, reported operating profit DKK 23.0bn after DKK 8.7bn impairments, diluted EPS DKK 3.79 (Q3 2026); FY2026 guidance adjusted sales and operating profit growth -2% to +2% at CER (raised from -6% to 0%); FY2026 consensus EPS about DKK 22.9 (Chartmill, 31 Oct 2026, excerpt only). Management flagged US list-price cuts from 1 Jan 2027 (Wegovy about -50%, Ozempic about -35%) and no 2027 guidance.",
+    "bear": 32.58, "base": 46.44, "bull": 66.34,
+    "cases": {
+      "bear": {"driver": "US price cuts from Jan 2027 not offset by volume; CagriSema launch slips", "assumption": "FY2027 EPS DKK 17.0 (about $2.51) x 13x = DKK 221 = $32.58", "target": 32.58},
+      "base": {"driver": "US price cuts partly offset by GLP-1 volume growth; flat-to-down 2026 earnings base", "assumption": "FY2027 EPS DKK 21.0 (about $3.10, 8% below FY2026 consensus DKK 22.9) x 15x = DKK 315 = $46.44", "target": 46.44},
+      "bull": {"driver": "Volume growth and CagriSema launch early 2027 more than offset lower prices", "assumption": "FY2027 EPS DKK 25.0 (about $3.69) x 18x = DKK 450 = $66.34", "target": 66.34}
+    },
+    "implied_by_close": "At base EPS DKK 21.0 the close ($41.63 = DKK 282.4) implies 13.4x FY2027 EPS. The two named analyst targets (DZ Bank DKK 290 = $42.76; Citi DKK 296 = $43.64) imply about 14x DKK 21.0, close to the market; the 12-month weighted analyst target cannot be computed because neither call has a documented 12-month horizon. Yahoo aggregate (12 analysts, mean $45.44, median $42.44) is shown for reference only.",
+    "sensitivity": "One turn of P/E moves the base target by $3.10 (6.7% of the base target; 7.4 pp of price return). A DKK 1 change in FY2027 EPS moves the base target by $2.21 (about 4.8%).",
+    "watch_metric": "US net price per Wegovy/Ozempic script and US prescription volume growth in Q4 2026 and Q1 2027; base case needs volume growth to offset the January 2027 list-price cuts so FY2027 EPS stays near DKK 21.",
+    "next_disclosure": "FY2026 annual report and FY2027 guidance (early February 2027); Q1 2027 results (early May 2027)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only two named-firm calls with dated sources were available through 13 Nov 2026: Citi (9 Oct 2026, neutral, DKK 296 from 310) and DZ Bank (9 Nov 2026, hold, DKK 290 from 315); neither analyst is named in the source and neither states a 12-month horizon, so both stay in the timeline and out of any weighted target. Both are firm-level, not individual, histories. Both cuts (Citi -4.5%, DZ Bank -7.9%) leave targets about 6 to 8 percent below the base target and near the close. Other broker targets found in search (JPMorgan, Jefferies, BofA, UBS, Deutsche Bank, Berenberg, Morgan Stanley) had conflicting or undated figures, or were older than 12 months, so they were not entered; the coverage is therefore partial and below the 6-12 analyst target. The Yahoo aggregate (12 analysts, mean $45.44, recommendation hold) sits above the base case and includes stale targets.",
+  "sources": [
+    {"label": "Form 20-F FY2022 cover (ADS ratio: one B share per ADR)", "url": "https://www.sec.gov/Archives/edgar/data/353278/000162828023001868/nvo-20221231.htm", "supports": "1 ADS = 1 B share; depositary not named in the portion read"},
+    {"label": "ForeignExchange.org.uk USD/DKK daily rates", "url": "https://www.foreignexchange.org.uk/fx-rates/conversion/100/USD/DKK", "supports": "USD/DKK 6.7829 on 2026-11-13"},
+    {"label": "StockAnalysis: Novo Nordisk Q3 2026 beats, raises outlook (4 Nov 2026)", "url": "https://stockanalysis.com/news/novo-nordisk-q3-2026-profit-beats-raises-outlook/", "supports": "Q3 adjusted and reported operating profit, FY2026 guidance -2% to +2%, FCF DKK 60-70bn, 2027 price-cut commentary; release date 4 Nov 2026 (time approximated)"},
+    {"label": "Visno Invest: Novo Nordisk 3Q26 net profit DKK 16.7bn", "url": "https://visnoinvest.com.br/news/16178/novo-nordisk-nvo-tem-lucro-liquido-de-dkk-167-bi-no-3t26-e-eleva-projecao", "supports": "Q3 2026 diluted EPS DKK 3.79, net profit DKK 16.74bn"},
+    {"label": "Chartmill NVO estimates (FY2026 consensus, excerpt)", "url": "https://www.chartmill.com/stock/quote/NVO/estimates", "supports": "FY2026 consensus EPS DKK 22.91 (31 Oct 2026); search excerpt, not opened"},
+    {"label": "Goldesel: DZ Bank cuts fair value to DKK 290 (9 Nov 2026)", "url": "https://goldesel.de/aktien/news/novo-nordisk-b-aktie-dz-bank-senkt-fairen-wert-auf-290-dkk", "supports": "DZ Bank fair value DKK 290 from 315, Halten, 9 Nov 2026"},
+    {"label": "Finviz: Citi cuts Novo price target to DKK 296 (9 Oct 2026)", "url": "https://finviz.com/news/400761/citi-cuts-novo-nordisk-price-target-to-dkk-296-on-limited-margin-growth-outlook", "supports": "Citi target DKK 296 from 310, neutral, 9 Oct 2026"}
+  ]
+}

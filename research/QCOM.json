@@ -1,0 +1,102 @@
+{
+  "issuer_id": "QUALCOMM Incorporated",
+  "symbol": "QCOM",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 172.47,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-04T16:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Egor Tolmachev",
+      "firm": "Freedom Capital Markets",
+      "field": "target",
+      "value": 185,
+      "source_prior": 200,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tikr.com/blog/is-freedom-capital-markets-wrong-to-give-up-on-qualcomm-wall-street-still-sees-185"
+    },
+    {
+      "analyst": "Egor Tolmachev",
+      "firm": "Freedom Capital Markets",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.tikr.com/blog/is-freedom-capital-markets-wrong-to-give-up-on-qualcomm-wall-street-still-sees-185"
+    },
+    {
+      "analyst": "Vijay Rakesh",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 160,
+      "source_prior": 175,
+      "issued_at": "2026-01-25",
+      "public_at": "2026-01-25T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://finance.yahoo.com/news/cantor-fitzgerald-lowers-qualcomm-qcom-130959798.html"
+    },
+    {
+      "analyst": "Vijay Rakesh",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-01-25",
+      "public_at": "2026-01-25T23:59:59-05:00",
+      "source": "https://finance.yahoo.com/news/cantor-fitzgerald-lowers-qualcomm-qcom-130959798.html"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E at the 12-month target date (Nov 2027). In Nov 2027 investors price the fiscal year ending Sep 2028 (FY2028) non-GAAP diluted EPS, because QCOM's fiscal year ends in late September. Listing is the US common stock in USD; no ADR or FX conversion applies. Reported starting points: FY2026 non-GAAP diluted EPS $10.54 (down 12%); Q4 FY2026 non-GAAP diluted EPS $2.17 on revenue $10.44B, reported 4 Nov 2026; Q1 FY2027 guidance non-GAAP EPS $2.15-$2.35 on revenue $10.4-$11.2B (QCT $9.0-9.6B, QTL $1.3-1.5B); FY2026 handset revenue $24.07B (down 13%), automotive $6.00B (up 52%); shares outstanding 1,072M at fiscal year end. Street reference points, not inputs: FY2027 EPS consensus $9.59 and FY2028 $12.21 (tikr, 13 Nov 2026). Scenario EPS values are this model's operating assumptions, not company guidance. Share count and net cash were not verified from the filing tables. The $0.92 quarterly dividend is the Q4 FY26 rate, annualised to $3.68.",
+    "bear": 117.0,
+    "base": 165.0,
+    "bull": 212.5,
+    "cases": {
+      "bear": {
+        "driver": "Handset revenue keeps falling as Apple volume and Android share decline (FY26 handset revenue down 13%, Q4 down 26%), and memory and wafer cost inflation keeps handset margins under pressure. Automotive and data center do not grow fast enough to lift EPS above the FY27 run rate. FY2028 EPS stays flat at about $9, the Q1 FY27 guidance midpoint annualised, and the multiple compresses to 13x.",
+        "assumption": "EPS $9.00 x 13x = $117",
+        "target": 117.0
+      },
+      "base": {
+        "driver": "FY2027 EPS is near the $9.59 consensus. Automotive keeps growing and the data-center target of $5B in FY2027 is broadly delivered. Price increases recover part of the gross margin lost to memory costs, lifting FY2028 EPS about 15%. The multiple settles at 15x, below the current forward multiple of about 18x, because handset exposure keeps the stock at a discount.",
+        "assumption": "EPS $11.00 x 15x = $165",
+        "target": 165.0
+      },
+      "bull": {
+        "driver": "Data-center revenue beats the $5B FY2027 target and automotive keeps compounding. Handset share holds better than expected, and the margin recovery is complete in FY2028. FY2028 EPS of $12.50 is slightly above the $12.21 consensus, and the multiple holds near 17x.",
+        "assumption": "EPS $12.50 x 17x = $212.50",
+        "target": 212.5
+      }
+    },
+    "implied_by_close": "At the FY2027 consensus EPS of $9.59 the $172.47 close implies 18.0x. At this model's base FY2028 EPS of $11.00 it implies 15.7x. The aggregate mean target of $185.96 (28 analysts, Yahoo Finance via yfinance) implies about 16.9x on base EPS, or about $12.40 EPS at 15x, which is about 13% above the base EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $11.00 (6.4 pp of the close). A $1 change in FY2028 EPS moves the base target by $15 (8.7 pp). The base return is about -4% and turns positive only if the multiple holds near 16x or FY2028 EPS reaches about $11.50.",
+    "watch_metric": "Handset chip revenue against the Q1 FY2027 guide (QCT $9.0-9.6B), together with non-GAAP gross margin after price increases, and the data-center revenue run rate against the $5B FY2027 target.",
+    "next_disclosure": "Q1 FY2027 earnings, expected around early February 2027 (date not confirmed in the sources used)."
+  },
+  "dividend_per_share": 3.68,
+  "analyst_notes": "Only two named analysts with dated calls on or before the 13 Nov 2026 close could be verified: Egor Tolmachev at Freedom Capital Markets (9 Nov 2026) cut the target from $200 to $185 and moved to Hold, and Vijay Rakesh at Mizuho (25 Jan 2026) cut from $175 to $160 and kept Neutral. Freedom's note is attributed to Tolmachev in the cited article, not confirmed from the note. Both recent calls sit at or below the 13 Nov close of $172.47 on a Hold basis, so the named views are not above the close. The 30 July 2026 post-earnings round (Rosenblatt $265 to $235 Buy, TD Cowen $225 to $175 Buy, Morgan Stanley $231 to $220 Equal Weight, UBS $190 to $170 Neutral, Cantor $200 to $165, Susquehanna, Benchmark) and the Nov 2026 actions reported by aggregators (Rosenblatt 235 to 205 on 5 Nov, Bank of America) are not in the events list: the analysts were unnamed, or the dates and analyst identity could not be confirmed from opened sources. A Cantor cut on 2 Feb 2026 ($185 to $160, Neutral) has no named analyst. The aggregate consensus is Hold: mean $185.96 and median $175 across 28 analysts (yfinance); other aggregators show $185 to $204, so the aggregate is unstable. The base case of $165 sits about 11% below the aggregate mean. Closing that gap needs about $1.40 more FY2028 EPS at 15x, or a multiple of about 16.9x on base EPS. With no documented 12-month horizon for any named call, no event enters a weighted target. Analyst coverage here is thin, so the named-analyst sample is too small to weight.",
+  "sources": [
+    {
+      "label": "StockTitan: Qualcomm Q4 fiscal 2026 earnings summary (4 Nov 2026)",
+      "url": "https://www.stocktitan.net/articles/qualcomm-q4-fiscal-2026-earnings-phone-chip-sales-fall-26-percent",
+      "supports": "Q4 FY26 non-GAAP EPS $2.17 and revenue $10.44B, GAAP EPS $1.17, FY26 non-GAAP EPS $10.54, handset and automotive FY26 revenue, Q1 FY27 guidance ranges, $0.92 Q4 dividend, 1,072M shares at year end"
+    },
+    {
+      "label": "tikr: Freedom Capital Markets downgrade and consensus (13 Nov 2026 update)",
+      "url": "https://www.tikr.com/blog/is-freedom-capital-markets-wrong-to-give-up-on-qualcomm-wall-street-still-sees-185",
+      "supports": "Freedom downgrade Buy to Hold and target $200 to $185 on 9 Nov 2026; FY27 consensus $9.59 and FY28 $12.21; forward P/E about 18x"
+    },
+    {
+      "label": "Yahoo Finance: Cantor Fitzgerald lowers Qualcomm PT (2 Feb 2026, includes Mizuho action of 25 Jan 2026)",
+      "url": "https://finance.yahoo.com/news/cantor-fitzgerald-lowers-qualcomm-qcom-130959798.html",
+      "supports": "Mizuho's Vijay Rakesh cut target from $175 to $160 with Neutral on 25 Jan 2026"
+    }
+  ]
+}

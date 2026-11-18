@@ -1,0 +1,264 @@
+{
+ "issuer_id": "AbbVie Inc.",
+ "symbol": "ABBV",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 295.03,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-30T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Carter Gould",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 290,
+   "source_prior": 285,
+   "issued_at": "2026-10-08",
+   "public_at": "2026-10-08T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-abbvie-nyse-abbv-price-target-raised-to-29000-2026-10-08/"
+  },
+  {
+   "analyst": "Carter Gould",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 325,
+   "source_prior": 290,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results"
+  },
+  {
+   "analyst": "Carter Gould",
+   "firm": "Cantor Fitzgerald",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 330,
+   "source_prior": 280,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results"
+  },
+  {
+   "analyst": "David Risinger",
+   "firm": "Leerink Partners",
+   "field": "target",
+   "value": 325,
+   "source_prior": 279,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.dailypolitical.com/2026/11/02/abbvie-nyseabbv-stock-gets-price-target-boost-from-leerink-partners.html"
+  },
+  {
+   "analyst": "David Risinger",
+   "firm": "Leerink Partners",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.dailypolitical.com/2026/11/02/abbvie-nyseabbv-stock-gets-price-target-boost-from-leerink-partners.html"
+  },
+  {
+   "analyst": "Geoff Meacham",
+   "firm": "Citi",
+   "field": "target",
+   "value": 295,
+   "source_prior": 260,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth"
+  },
+  {
+   "analyst": "Geoff Meacham",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth"
+  },
+  {
+   "analyst": "Guggenheim analyst (unnamed)",
+   "firm": "Guggenheim",
+   "field": "target",
+   "value": 322,
+   "source_prior": 288,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-abbvie-stock-price-target-to-322-on-earnings-beat-93CH-4991417"
+  },
+  {
+   "analyst": "Guggenheim analyst (unnamed)",
+   "firm": "Guggenheim",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-abbvie-stock-price-target-to-322-on-earnings-beat-93CH-4991417"
+  },
+  {
+   "analyst": "Canaccord analyst (unnamed)",
+   "firm": "Canaccord Genuity",
+   "field": "target",
+   "value": 338,
+   "source_prior": 290,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/news/analyst-ratings/canaccord-raises-abbvie-stock-price-target-on-pipeline-progress-93CH-4991458"
+  },
+  {
+   "analyst": "Canaccord analyst (unnamed)",
+   "firm": "Canaccord Genuity",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.investing.com/news/analyst-ratings/canaccord-raises-abbvie-stock-price-target-on-pipeline-progress-93CH-4991458"
+  },
+  {
+   "analyst": "Morgan Stanley analyst (unnamed)",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 346,
+   "source_prior": 310,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://tickeron.com/blogs/abbvie-abbv-analyst-targets-point-to-11-6-upside-toward-325-32148/"
+  },
+  {
+   "analyst": "Morgan Stanley analyst (unnamed)",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://tickeron.com/blogs/abbvie-abbv-analyst-targets-point-to-11-6-upside-toward-325-32148/"
+  },
+  {
+   "analyst": "Wells Fargo analyst (unnamed)",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 340,
+   "source_prior": 300,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth"
+  },
+  {
+   "analyst": "Wells Fargo analyst (unnamed)",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchor: FY2026 adjusted EPS guidance $13.95-$13.99 after $0.69/share of acquired IPR&D and milestones expense through Q3 (about $14.65 before that charge); 1,772M diluted shares. FY2027 EPS is my own assumption: management gave no 2027 outlook in the Q3 release, and a post-Q3 adjusted 2027 consensus was not sourced (a pre-Q3 secondary source cites roughly $16).",
+  "bear": 222.0,
+  "base": 304.0,
+  "bull": 344.0,
+  "cases": {
+   "bear": {
+    "driver": "Humira erosion plus Skyrizi/Rinvoq growth slowing on pricing pressure and competition; recurring IPR&D charges keep EPS near the FY2026 reported level.",
+    "assumption": "FY2027 EPS $14.80 at 15x",
+    "target": 222.0
+   },
+   "base": {
+    "driver": "Skyrizi ($5.78B in Q3, +22.7%) and Rinvoq ($2.71B, +23.9%) keep growing about 20%+, offsetting Humira decline; IPR&D charges fall back toward a modest run-rate, giving about 9% EPS growth on the pre-charge FY2026 base.",
+    "assumption": "FY2027 EPS $16.00 at 19x",
+    "target": 304.0
+   },
+   "bull": {
+    "driver": "Faster immunology growth with Crohn's expansion, neuroscience and oncology pipeline contributions, minimal IPR&D charges and margin leverage.",
+    "assumption": "FY2027 EPS $17.20 at 20x",
+    "target": 344.0
+   }
+  },
+  "implied_by_close": "At base EPS of $16.00 the $295.03 close implies 18.4x; the average of the sourced post-Q3 targets (about $327) implies 20.4x at $16.00, or about $17.20 EPS at 19x.",
+  "sensitivity": "One turn of P/E moves the base target by $16 (about 5.4 pp of the close).",
+  "watch_metric": "Combined Skyrizi and Rinvoq quarterly revenue (Q3 2026: $5.78B and $2.71B) and the size of acquired IPR&D/milestone charges, plus initial 2027 adjusted EPS guidance.",
+  "next_disclosure": "Q4 and FY2026 results with initial 2027 guidance, expected around early February 2027 (date not confirmed)."
+ },
+ "dividend_per_share": 7.28,
+ "analyst_notes": "After the Oct 30 Q3 beat and guidance raise, every sourced firm lifted its target between Oct 30 and Nov 2: Morgan Stanley $310 to $346, Canaccord $290 to $338, Wells Fargo $300 to $340, RBC $280 to $330, Cantor $290 to $325, Leerink $279 to $325, Guggenheim $288 to $322, Citi (Neutral) $260 to $295. Seven of eight are Buy-equivalent; Citi is the lone Hold. Targets sit 0% to 17% above the $295.03 close and mostly above my $304 base, equivalent to roughly $17 of FY2027 EPS at 19x or about 20x on my $16. Horizon is not documented for any target so none enters the weighted target; four of the eight analysts are unnamed in the sources. UBS, Barclays ($335, Nov 16, after the reference close) and others were excluded. Dividend is the annualized new $1.82 quarterly rate, not added to price targets.",
+ "sources": [
+  {
+   "label": "AbbVie Q3 2026 results press release",
+   "url": "https://news.abbvie.com/2026-10-30-AbbVie-Reports-Third-Quarter-2026-Financial-Results",
+   "supports": "Q3 EPS, Skyrizi/Rinvoq sales, FY2026 guidance, IPR&D charge, diluted shares, dividend"
+  },
+  {
+   "label": "Form 8-K Q3 2026 earnings exhibit",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001551152/000110465926104940/tm2624674d1_ex99-1.htm",
+   "supports": "Q3 2026 financials"
+  },
+  {
+   "label": "Benzinga post-Q3 analyst roundup",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results",
+   "supports": "Cantor, RBC target and rating changes"
+  },
+  {
+   "label": "Benzinga post-Q3 analyst roundup 2",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth",
+   "supports": "Citi, Wells Fargo target changes"
+  },
+  {
+   "label": "Investing.com Guggenheim note",
+   "url": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-abbvie-stock-price-target-to-322-on-earnings-beat-93CH-4991417",
+   "supports": "Guggenheim target and rating"
+  },
+  {
+   "label": "Investing.com Canaccord note",
+   "url": "https://www.investing.com/news/analyst-ratings/canaccord-raises-abbvie-stock-price-target-on-pipeline-progress-93CH-4991458",
+   "supports": "Canaccord target and rating"
+  },
+  {
+   "label": "MarketBeat Cantor Oct 2026",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-abbvie-nyse-abbv-price-target-raised-to-29000-2026-10-08/",
+   "supports": "Cantor $285 to $290 on Oct 8"
+  },
+  {
+   "label": "Tickeron ABBV analyst targets",
+   "url": "https://tickeron.com/blogs/abbvie-abbv-analyst-targets-point-to-11-6-upside-toward-325-32148/",
+   "supports": "Morgan Stanley $346 Overweight"
+  }
+ ]
+}

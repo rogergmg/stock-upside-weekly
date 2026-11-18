@@ -1,0 +1,48 @@
+{
+  "issuer_id": "ASML Holding N.V.",
+  "symbol": "ASML",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 1495.16, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-14T07:00:00+02:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "David Dai", "firm": "Bernstein", "field": "target", "value": 2623, "source_prior": 1971, "issued_at": "2026-07-06", "public_at": "2026-07-06T23:59:59-04:00", "horizon_months": null, "source": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html"},
+    {"analyst": "David Dai", "firm": "Bernstein", "field": "rating", "value": "Outperform", "bucket": "Buy", "issued_at": "2026-07-06", "public_at": "2026-07-06T23:59:59-04:00", "source": "https://www.tikr.com/blog/asml-nasdaq-stock-jumps-as-bernstein-aggressively-raises-price-target-on-booming-ai-chip-demand"},
+    {"analyst": "Didier Scemama", "firm": "BofA Securities", "field": "target", "value": 2345, "source_prior": 1900, "issued_at": "2026-06-19", "public_at": "2026-06-22T23:59:59-04:00", "horizon_months": null, "source": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them"},
+    {"analyst": "Didier Scemama", "firm": "BofA Securities", "field": "target", "value": 2915, "issued_at": "2026-10-06", "public_at": "2026-10-06T23:59:59-04:00", "horizon_months": null, "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-asml-stock-price-target-to-2557-on-higher-estimates-93CH-4933911"},
+    {"analyst": "Didier Scemama", "firm": "BofA Securities", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-06", "public_at": "2026-10-06T23:59:59-04:00", "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-asml-stock-price-target-to-2557-on-higher-estimates-93CH-4933911"},
+    {"analyst": "Joseph Quatrochi", "firm": "Wells Fargo", "field": "target", "value": 2200, "source_prior": 1750, "issued_at": "2026-06-22", "public_at": "2026-06-22T23:59:59-04:00", "horizon_months": null, "source": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them"},
+    {"analyst": "Joseph Quatrochi", "firm": "Wells Fargo", "field": "rating", "value": "Overweight", "bucket": "Buy", "issued_at": "2026-06-22", "public_at": "2026-06-22T23:59:59-04:00", "source": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them"},
+    {"analyst": "Sandeep Deshpande", "firm": "JPMorgan", "field": "target", "value": 2400, "source_prior": 2200, "issued_at": "2026-07-16", "public_at": "2026-07-16T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/asml-nasdaqasml-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-16/"},
+    {"analyst": "Sandeep Deshpande", "firm": "JPMorgan", "field": "rating", "value": "Overweight", "bucket": "Buy", "issued_at": "2026-07-16", "public_at": "2026-07-16T23:59:59-04:00", "source": "https://www.marketbeat.com/instant-alerts/asml-nasdaqasml-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-16/"},
+    {"analyst": "Lee Simpson", "firm": "Morgan Stanley", "field": "target", "value": 2022.6, "source_prior": 1834.6, "issued_at": "2026-07-08", "public_at": "2026-07-08T23:59:59-04:00", "horizon_months": null, "source": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html"},
+    {"analyst": "Lee Simpson", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy", "issued_at": "2026-07-08", "public_at": "2026-07-08T23:59:59-04:00", "source": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E per ADR. Reported in EUR; 1 ADR = 1 ordinary share (ratio 1:1). EUR EPS converted at USD 1.1052 per EUR (ECB euro reference rate for 2026-11-13 as published by Banca d'Italia). Model: FY2027 net sales x gross margin less R&D+SG&A (opex) = operating income; x 0.85 (net income/operating income; Q3 2026 was about 0.86 excluding the EUR 510m equity-investment gain) = net income; / diluted shares (about 383m implied by Q3 net income EUR 4,960m / EUR 12.95 EPS, reduced for the EUR 2026-2028 buyback of about EUR 4.1bn per quarter) = EUR EPS per share = per ADR; x 1.1052 = USD EPS per ADR; x P/E applied to FY2027 EPS at the Nov-2027 target date. Base: sales EUR 56bn (+26% on the FY2026 guide of EUR 44-45bn), gross margin 57.5%, opex EUR 7.0bn, 374m shares = EUR 57.3 = USD 63.3. Dividends excluded (price-only; interim 2026 dividend EUR 1.88 per share).",
+    "bear": 873.0,
+    "base": 1772.0,
+    "bull": 2531.0,
+    "cases": {
+      "bear": {"driver": "AI/memory capex digestion: FY2027 sales EUR 46bn (+3% on FY2026), gross margin 53%, opex EUR 6.9bn, 376m shares", "assumption": "EPS EUR 39.5 = USD 43.7 per ADR at 20x", "target": 873.0},
+      "base": {"driver": "Q4 2026 guide (EUR 14.2-15.2bn, GM ~57%) carries over; planned +30% 2027 capacity partly shipped: FY2027 sales EUR 56bn, GM 57.5%", "assumption": "EPS EUR 57.3 = USD 63.3 per ADR at 28x", "target": 1772.0},
+      "bull": {"driver": "Supply-constrained demand through 2027-28 (company says supply will not fully meet demand): FY2027 sales EUR 65bn, GM 59%, opex EUR 7.4bn, 372m shares", "assumption": "EPS EUR 71.6 = USD 79.1 per ADR at 32x", "target": 2531.0}
+    },
+    "implied_by_close": "At base EPS of USD 63.3 the close implies 23.6x; the analyst-weighted target (about USD 2,450) implies about 38.7x, or about USD 87.5 (EUR 79) EPS at 28x, roughly 38% above the model",
+    "sensitivity": "One turn of P/E moves the base target by USD 63 (4.2 pp of the close); EUR 1bn of FY2027 sales at 57.5% GM moves EPS about EUR 1.3 and the target about USD 40",
+    "watch_metric": "Net system bookings and FY2027 sales/gross-margin outlook: base case needs FY2027 sales near EUR 56bn at about 57.5% gross margin",
+    "next_disclosure": "Q4 and FY2026 results, expected late January 2027 (date to be confirmed by ASML), with the first 2027 outlook"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Eleven dated rows from five named analysts covering Bernstein, BofA, Wells Fargo, JPMorgan and Morgan Stanley; all rate Buy-equivalent and every target except BofA's October 6 raise predates the October 14 Q3 release, so most are 4-5 months old and no 12-month horizon is documented. Targets of USD 2,000-2,900 against the USD 1,495 close imply 24x-39x on the base EPS; BofA's CY2028 EPS of EUR 85.2 and Bernstein's 2028 EPS of EUR 67 plus a 40x multiple show the gap is mostly a much higher earnings path and multiple than the base case (EUR 57 FY2027 at 28x). Citigroup (USD 2,300), HSBC (USD 2,261), Jefferies (USD 1,590) and a JPMorgan trim to USD 2,350 appear in a 2026-11-16 article but their dates could not be verified before the close, so they are excluded. Morgan Stanley's EUR 1,830 (prior EUR 1,660) is converted at 1.1052 for comparability; BofA's USD 2,915 is the ADR equivalent of EUR 2,557 stated by the source.",
+  "sources": [
+    {"label": "ASML Q3 2026 results (Form 6-K, 2026-10-14)", "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm", "supports": "Q3 sales EUR 11.66bn, net income EUR 4.96bn, EPS EUR 12.95, Q4 and FY2026 guidance, buyback, dividend"},
+    {"label": "Banca d'Italia euro reference rates 2026-11-13", "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261113", "supports": "USD 1.1052 per EUR on 2026-11-13"},
+    {"label": "BofA raises ASML target (Investing.com, 2026-10-06)", "url": "https://www.investing.com/news/analyst-ratings/bofa-raises-asml-stock-price-target-to-2557-on-higher-estimates-93CH-4933911", "supports": "BofA target, ADR equivalent, CY2028 EPS EUR 85.2"},
+    {"label": "Bernstein target July 2026 (TIKR)", "url": "https://www.tikr.com/blog/asml-nasdaq-stock-jumps-as-bernstein-aggressively-raises-price-target-on-booming-ai-chip-demand", "supports": "Bernstein target, Outperform, 2028 EPS EUR 67, 40x multiple"},
+    {"label": "Analyst moves July 2026 (Yahoo Finance)", "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html", "supports": "Bernstein and Morgan Stanley target changes"},
+    {"label": "BofA and Wells Fargo targets June 2026 (OnInvest)", "url": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them", "supports": "BofA and Wells Fargo targets"},
+    {"label": "JPMorgan target July 2026 (MarketBeat)", "url": "https://www.marketbeat.com/instant-alerts/asml-nasdaqasml-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-16/", "supports": "JPMorgan target and Overweight"}
+  ]
+}

@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T11:56:42.380914+00:00",
+  "built_at": "2026-11-18T12:01:27.856374+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 19,
+    "rank_valued": 24,
     "rank_with_named_targets": 2,
-    "rank_matched": 19,
-    "researched": 19
+    "rank_matched": 24,
+    "researched": 24
   },
   "ranked": [
     {
@@ -128,6 +128,27 @@
       "analyst_minus_base_pp": -1.842186060792141
     },
     {
+      "symbol": "ASML",
+      "issuer_id": "ASML Holding N.V.",
+      "close": 1495.16,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 564735854481,
+        "high": 587786414951
+      },
+      "scenarios_pct": {
+        "bear": -41.61160009631076,
+        "base": 18.51574413440702,
+        "bull": 69.27954198881724
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "TSM",
       "issuer_id": "Taiwan Semiconductor Manufacturing Company Limited",
       "close": 398.73,
@@ -233,6 +254,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "MA",
+      "issuer_id": "Mastercard Incorporated",
+      "close": 661.19,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 564492676119,
+        "high": 587639825468
+      },
+      "scenarios_pct": {
+        "bear": -20.09861008182217,
+        "base": 5.325246903310697,
+        "bull": 19.360546892723725
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "JPM",
       "issuer_id": "JPMorgan Chase & Co.",
       "close": 346.19,
@@ -296,6 +338,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "JNJ",
+      "issuer_id": "Johnson & Johnson",
+      "close": 285.75,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 674131130339,
+        "high": 702530651009
+      },
+      "scenarios_pct": {
+        "bear": -17.69028871391076,
+        "base": 3.237095363079615,
+        "bull": 16.22047244094488
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "LLY",
       "issuer_id": "Eli Lilly and Company",
       "close": 1443.5,
@@ -311,6 +374,27 @@
         "bull": 27.190855559404227
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "ABBV",
+      "issuer_id": "AbbVie Inc.",
+      "close": 295.03,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 511069841984,
+        "high": 532182251143
+      },
+      "scenarios_pct": {
+        "bear": -24.753414906958614,
+        "base": 3.040368776056672,
+        "bull": 16.59831203606413
+      },
+      "base_total_return_pct": 5.507914449378029,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -380,6 +464,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "XOM",
+      "issuer_id": "ExxonMobil Holdings Corporation",
+      "close": 170.59,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 681957065588,
+        "high": 709875263994
+      },
+      "scenarios_pct": {
+        "bear": -39.03511342986107,
+        "base": -2.2510111964358988,
+        "bull": 27.49868104812709
+      },
+      "base_total_return_pct": 0.2579283662582803,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "AAPL",
       "issuer_id": "Apple Inc.",
       "close": 356.27,
@@ -423,26 +528,6 @@
     }
   ],
   "omitted": [
-    {
-      "symbol": "XOM",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "JNJ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ASML",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MA",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ABBV",
-      "reason": "independent valuation unavailable"
-    },
     {
       "symbol": "COST",
       "reason": "independent valuation unavailable"
@@ -18840,6 +18925,2157 @@
         }
       ]
     },
+    "XOM": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 170.59,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Cyclical integrated producer: FY2027 diluted EPS (the period an investor prices at the Nov 2027 target date) x mid-cycle P/E. Anchors: 9M 2026 adjusted EPS $9.82 (Q3 $4.23, Q2 $3.52, Q1 about $2.07), Q3 GAAP $3.72; Sept 30 net debt $22.1B; 2027 buyback $20B (about 2-3% fewer shares at current price); Q4 dividend $1.07/share. 2027 base assumes Brent near the mid-$60s to low-$70s (EIA STEO path is mid-$60s) and refining margins normalising from 2026 highs; these are my assumptions, not company guidance. Dividends of about $4.28 (4 x $1.07, not growth-adjusted) are excluded from price targets.",
+        "bear": 104.0,
+        "base": 166.75,
+        "bull": 217.5,
+        "cases": {
+          "bear": {
+            "driver": "Brent about $58 and refining cracks revert fully; upstream earnings fall further and chemicals stay weak",
+            "assumption": "EPS $8.00 at 13.0x (trough-ish earnings, no premium)",
+            "target": 104.0
+          },
+          "base": {
+            "driver": "Brent mid/high-$60s to low-$70s, refining margins normalise, Permian/Guyana growth and $20B buyback offset lower prices",
+            "assumption": "EPS $11.50 at 14.5x",
+            "target": 166.75
+          },
+          "bull": {
+            "driver": "Brent sustained near $90 on Middle East supply risk, strong cracks, buybacks and Guyana ramp",
+            "assumption": "EPS $15.00 at 14.5x",
+            "target": 217.5
+          }
+        },
+        "implied_by_close": "At base EPS $11.50 the $170.59 close implies 14.8x; the analyst-weighted target (roughly $185-190 per the named sample) implies about 16.2x at base EPS, or about $13.0 EPS at 14.5x (about 13% above base). For reference the close is about 12.8x consensus 2026 EPS of roughly $13.3-13.6 (MarketBeat).",
+        "sensitivity": "One turn of P/E moves the base target by $11.50 (6.7 pp of the close); $1.00 of EPS moves it by $14.50 (8.5 pp).",
+        "watch_metric": "Upstream adjusted earnings and liquids realisations (Brent) plus Energy Products refining margins; base case needs quarterly adjusted EPS to settle near $2.9 per share, down from $4.23 in Q3.",
+        "next_disclosure": "Q4 and full-year 2026 results, expected around late January or early February 2027 (date not confirmed in sources)"
+      },
+      "dividend_per_share": 4.28,
+      "analyst_notes": "Named and firm-level calls moved up after the Oct 30 Q3 beat (adjusted EPS $4.23 vs about $3.90 consensus): Barclays 206, Evercore 200, Wells Fargo 189, TD Cowen 193, Morgan Stanley 187, Citi 175; Bernstein trimmed 193 to 186 on Nov 12. Targets cluster at $175-206, i.e. 3-21% above the close, versus my base at -2%: the gap equals roughly 1.5 turns of P/E at base EPS or about $1.5-2 of 2027 EPS, which implies the Street holds oil nearer $75-80 or a higher multiple; their assumptions are unpublished in the sources. Five seats (Morgan Stanley, Citi, TD Cowen, Bernstein, Piper) have no named analyst in the sources, and all horizons are undocumented (null), so none enters the weighted target; Argus and Piper targets are older than the Q3 release.",
+      "sources": [
+        {
+          "label": "ExxonMobil Q3 2026 press release",
+          "url": "https://investor.exxonmobil.com/company-information/press-releases/detail/1213/exxonmobil-announces-third-quarter-2026-results",
+          "supports": "EPS, net debt, capex, buyback, dividend"
+        },
+        {
+          "label": "ExxonMobil Holdings 8-K Q3 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0002115436/000211543626000018/livef8k3q26991.htm",
+          "supports": "Earnings release filing"
+        },
+        {
+          "label": "MarketBeat Barclays note 2026-11-13",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-stock-price-expected-to-rise-barclays-analyst-says-2026-11-13/",
+          "supports": "Barclays, Citi, Morgan Stanley targets; consensus EPS"
+        },
+        {
+          "label": "Benzinga post-Q3 target changes",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results",
+          "supports": "Evercore, Wells Fargo targets"
+        },
+        {
+          "label": "MarketBeat Oct 19 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-20000-2026-10-19/",
+          "supports": "Barclays 200, Argus 175"
+        },
+        {
+          "label": "MarketBeat Bernstein Nov 12",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-given-new-18600-price-target-at-sanford-c-bernstein-2026-11-12/",
+          "supports": "Bernstein cut"
+        },
+        {
+          "label": "MarketBeat TD Cowen Nov 4",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-19300-2026-11-04/",
+          "supports": "TD Cowen 193"
+        },
+        {
+          "label": "Yahoo Argus May 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/argus-hikes-exxon-mobil-price-144256830.html",
+          "supports": "Argus 169, analyst name"
+        },
+        {
+          "label": "Yahoo Mizuho/Barclays May 2026",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/mizuho-increases-2026-2027-oil-123752112.html",
+          "supports": "Barclays 182, Betty Jiang"
+        },
+        {
+          "label": "TIKR Piper Sandler",
+          "url": "https://www.tikr.com/blog/exxonmobil-stock-just-got-a-fresh-185-target-the-analyst-still-wont-say-buy",
+          "supports": "Piper 185"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-30T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 9,
+        "post_earnings": 7,
+        "earnings_order_unknown": 0,
+        "median_age_days": 11,
+        "max_weight_pct": 13.023666591417053,
+        "contributors": [
+          {
+            "analyst": "Bernstein (analyst not named)",
+            "firm": "Bernstein",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-given-new-18600-price-target-at-sanford-c-bernstein-2026-11-12/",
+            "weight": 0.1292374832147419
+          },
+          {
+            "analyst": "Betty Jiang",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-13",
+            "age_days": 0,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-stock-price-expected-to-rise-barclays-analyst-says-2026-11-13/",
+            "weight": 0.13023666591417052
+          },
+          {
+            "analyst": "Bill Selesky",
+            "firm": "Argus",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-11",
+            "age_days": 94,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-20000-2026-10-19/",
+            "weight": 0.0631428475093193
+          },
+          {
+            "analyst": "Citigroup (analyst not named)",
+            "firm": "Citigroup",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-stock-price-expected-to-rise-barclays-analyst-says-2026-11-13/",
+            "weight": 0.12151510600567826
+          },
+          {
+            "analyst": "Morgan Stanley (analyst not named)",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-18700-2026-11-02/",
+            "weight": 0.1196577175881827
+          },
+          {
+            "analyst": "Piper Sandler (analyst not named)",
+            "firm": "Piper Sandler",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-09-03",
+            "age_days": 71,
+            "after_earnings": false,
+            "source": "https://www.tikr.com/blog/exxonmobil-stock-just-got-a-fresh-185-target-the-analyst-still-wont-say-buy",
+            "weight": 0.07537963858586369
+          },
+          {
+            "analyst": "Sam Margolin",
+            "firm": "Wells Fargo",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results",
+            "weight": 0.1196577175881827
+          },
+          {
+            "analyst": "Stephen Richardson",
+            "firm": "Evercore ISI",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results",
+            "weight": 0.1196577175881827
+          },
+          {
+            "analyst": "TD Cowen (analyst not named)",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-19300-2026-11-04/",
+            "weight": 0.12151510600567826
+          }
+        ],
+        "counts": {
+          "Buy": 6,
+          "Hold": 3,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 68.34475378202754,
+          "Hold": 31.655246217972465,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Bernstein (analyst not named)",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-given-new-18600-price-target-at-sanford-c-bernstein-2026-11-12/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bernstein (analyst not named)",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 186.0,
+          "source_prior": 193,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-given-new-18600-price-target-at-sanford-c-bernstein-2026-11-12/",
+          "prior_observed": null,
+          "revision_pct": -3.626943005181349,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Betty Jiang",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T15:59:00-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-stock-price-expected-to-rise-barclays-analyst-says-2026-11-13/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Betty Jiang",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 182.0,
+          "source_prior": 163,
+          "issued_at": "2026-05-26",
+          "public_at": "2026-05-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/sectors/energy/articles/mizuho-increases-2026-2027-oil-123752112.html",
+          "prior_observed": null,
+          "revision_pct": 11.65644171779141,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Betty Jiang",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 200.0,
+          "source_prior": 177,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-20000-2026-10-19/",
+          "prior_observed": 182.0,
+          "revision_pct": 12.994350282485879,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Betty Jiang",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 206.0,
+          "source_prior": 200,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T15:59:00-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-stock-price-expected-to-rise-barclays-analyst-says-2026-11-13/",
+          "prior_observed": 200.0,
+          "revision_pct": 3.0000000000000027,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Bill Selesky",
+          "firm": "Argus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-11",
+          "public_at": "2026-08-11T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-20000-2026-10-19/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bill Selesky",
+          "firm": "Argus",
+          "field": "target",
+          "value": 169.0,
+          "source_prior": 166,
+          "issued_at": "2026-05-07",
+          "public_at": "2026-05-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/argus-hikes-exxon-mobil-price-144256830.html",
+          "prior_observed": null,
+          "revision_pct": 1.8072289156626509,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Bill Selesky",
+          "firm": "Argus",
+          "field": "target",
+          "value": 175.0,
+          "source_prior": 169,
+          "issued_at": "2026-08-11",
+          "public_at": "2026-08-11T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-20000-2026-10-19/",
+          "prior_observed": 169.0,
+          "revision_pct": 3.5502958579881616,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Citigroup (analyst not named)",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-stock-price-expected-to-rise-barclays-analyst-says-2026-11-13/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Citigroup (analyst not named)",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 175.0,
+          "source_prior": 155,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-stock-price-expected-to-rise-barclays-analyst-says-2026-11-13/",
+          "prior_observed": null,
+          "revision_pct": 12.903225806451623,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Morgan Stanley (analyst not named)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-18700-2026-11-02/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley (analyst not named)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 187.0,
+          "source_prior": 185,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-18700-2026-11-02/",
+          "prior_observed": null,
+          "revision_pct": 1.08108108108107,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Piper Sandler (analyst not named)",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/exxonmobil-stock-just-got-a-fresh-185-target-the-analyst-still-wont-say-buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Piper Sandler (analyst not named)",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 185.0,
+          "source_prior": 158,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/exxonmobil-stock-just-got-a-fresh-185-target-the-analyst-still-wont-say-buy",
+          "prior_observed": null,
+          "revision_pct": 17.08860759493671,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 189.0,
+          "source_prior": 182,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results",
+          "prior_observed": null,
+          "revision_pct": 3.8461538461538547,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Stephen Richardson",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Stephen Richardson",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 200.0,
+          "source_prior": 185,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62785682/these-analysts-boost-their-forecasts-on-exxonmobil-after-upbeat-q3-results",
+          "prior_observed": null,
+          "revision_pct": 8.108108108108114,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "TD Cowen (analyst not named)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-19300-2026-11-04/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "TD Cowen (analyst not named)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 193.0,
+          "source_prior": 180,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-price-target-raised-to-19300-2026-11-04/",
+          "prior_observed": null,
+          "revision_pct": 7.222222222222219,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "JNJ": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 285.75,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchor: FY2026 adjusted EPS guidance $11.05-$11.15 (midpoint $11.10, raised Oct 13 2026) on sales of about $101.2B. FY2027 EPS is my own assumption (no sourced consensus or company 2027 guidance); it assumes mid-single-digit growth as Stelara erosion and M&A dilution (Firefly Bio, Sail Biomedicines) are offset by Innovative Medicine launches and a MedTech recovery from about 2.5% growth in Q3.",
+        "bear": 235.2,
+        "base": 295.0,
+        "bull": 332.1,
+        "cases": {
+          "bear": {
+            "driver": "Stelara and other loss-of-exclusivity erosion plus M&A dilution outrun launches; MedTech stays near 2-3% growth; talc settlement costs and rate pressure on the sector multiple.",
+            "assumption": "FY2027 EPS $11.20 at 21x",
+            "target": 235.2
+          },
+          "base": {
+            "driver": "Adjusted EPS grows about 6% from the $11.10 FY2026 midpoint as oncology and immunology launches offset Stelara erosion; MedTech improves modestly; multiple roughly holds near the current premium.",
+            "assumption": "FY2027 EPS $11.80 at 25x",
+            "target": 295.0
+          },
+          "bull": {
+            "driver": "Innovative Medicine growth accelerates with new launches, MedTech recovers to mid-single-digit growth and talc is resolved cleanly, supporting a premium defensive multiple.",
+            "assumption": "FY2027 EPS $12.30 at 27x",
+            "target": 332.1
+          }
+        },
+        "implied_by_close": "At base EPS of $11.80 the $285.75 close implies 24.2x; the equal-weight average of the pre-close named targets (about $296) implies 25.1x on $11.80, or about $12.35 EPS at 24x.",
+        "sensitivity": "One turn of P/E moves the base target by $11.80 (about 4.1 pp of the close).",
+        "watch_metric": "Innovative Medicine operational sales growth after Stelara erosion and MedTech operational growth (Q3 2026: about 2.5%), plus 2027 adjusted EPS guidance.",
+        "next_disclosure": "Q4 and FY2026 results with initial 2027 guidance, expected mid-January 2027 (date not confirmed)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Seven named calls sourced from a single aggregator table: six Buys (Morgan Stanley, UBS, Goldman Sachs, RBC, TD Cowen, Scotiabank) with targets of $280-$320, and an Erste Group downgrade to Hold on Oct 21 with no target. Morgan Stanley trimmed $294 to $292 the day after earnings; the other prior values were not sourced. The targets average about $296, roughly 3-4% above my base case, equal to about $0.50 of FY2027 EPS at 25x or about one turn of multiple. Leerink (Nov 17) and Bank of America (Nov 18) calls fall after the reference close and are excluded; a TD Cowen Underweight snippet conflicts with the Buy and was disregarded. Horizons are not documented, so no target enters the weighted average.",
+      "sources": [
+        {
+          "label": "J&J Q3 2026 results press release",
+          "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q3-2026-results-raises-2026-guidance",
+          "supports": "Q3 adjusted EPS $2.59, FY2026 guidance, MedTech growth"
+        },
+        {
+          "label": "Form 8-K Q3 2026 exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000189/a2026q3exhibit991.htm",
+          "supports": "Q3 2026 financials"
+        },
+        {
+          "label": "StockAnalysis JNJ ratings",
+          "url": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "supports": "Named analyst ratings and targets, Oct-Nov 2026"
+        },
+        {
+          "label": "24/7 Wall St. post-earnings note",
+          "url": "https://247wallst.com/investing/2026/10/14/jj-beat-and-raised-the-stock-fell-anyway-heres-what-the-target-says/",
+          "supports": "Reaction to Q3 and M&A dilution"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-13T06:45:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 7,
+        "post_earnings": 7,
+        "earnings_order_unknown": 0,
+        "median_age_days": 18,
+        "max_weight_pct": 15.50955033178768,
+        "contributors": [
+          {
+            "analyst": "Asad Haider",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-26",
+            "age_days": 18,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+            "weight": 0.13924266228275126
+          },
+          {
+            "analyst": "Chris LoBianco",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+            "weight": 0.1550955033178768
+          },
+          {
+            "analyst": "Hans Engel",
+            "firm": "Erste Group",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+            "weight": 0.1339826087610646
+          },
+          {
+            "analyst": "Louise Chen",
+            "firm": "Scotiabank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+            "weight": 0.1550955033178768
+          },
+          {
+            "analyst": "Michael Yee",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-26",
+            "age_days": 18,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+            "weight": 0.13924266228275126
+          },
+          {
+            "analyst": "Terence Flynn",
+            "firm": "Morgan Stanley",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-14",
+            "age_days": 30,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+            "weight": 0.12695066656990134
+          },
+          {
+            "analyst": "Trung Huynh",
+            "firm": "RBC Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+            "weight": 0.1503903934677779
+          }
+        ],
+        "counts": {
+          "Buy": 6,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 86.60173912389354,
+          "Hold": 13.39826087610646,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Asad Haider",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "bucket": "Buy",
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Asad Haider",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 280.0,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Chris LoBianco",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "bucket": "Buy",
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Chris LoBianco",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 300.0,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Hans Engel",
+          "firm": "Erste Group",
+          "field": "rating",
+          "value": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "bucket": "Hold",
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "bucket": "Buy",
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 305.0,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Yee",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "bucket": "Buy",
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Yee",
+          "firm": "UBS",
+          "field": "target",
+          "value": 320.0,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Terence Flynn",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "bucket": "Buy",
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Terence Flynn",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 292.0,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source_prior": 294,
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "revision_pct": -0.6802721088435382,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Trung Huynh",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "bucket": "Buy",
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Trung Huynh",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 280.0,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ASML": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 1495.16,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E per ADR. Reported in EUR; 1 ADR = 1 ordinary share (ratio 1:1). EUR EPS converted at USD 1.1052 per EUR (ECB euro reference rate for 2026-11-13 as published by Banca d'Italia). Model: FY2027 net sales x gross margin less R&D+SG&A (opex) = operating income; x 0.85 (net income/operating income; Q3 2026 was about 0.86 excluding the EUR 510m equity-investment gain) = net income; / diluted shares (about 383m implied by Q3 net income EUR 4,960m / EUR 12.95 EPS, reduced for the EUR 2026-2028 buyback of about EUR 4.1bn per quarter) = EUR EPS per share = per ADR; x 1.1052 = USD EPS per ADR; x P/E applied to FY2027 EPS at the Nov-2027 target date. Base: sales EUR 56bn (+26% on the FY2026 guide of EUR 44-45bn), gross margin 57.5%, opex EUR 7.0bn, 374m shares = EUR 57.3 = USD 63.3. Dividends excluded (price-only; interim 2026 dividend EUR 1.88 per share).",
+        "bear": 873.0,
+        "base": 1772.0,
+        "bull": 2531.0,
+        "cases": {
+          "bear": {
+            "driver": "AI/memory capex digestion: FY2027 sales EUR 46bn (+3% on FY2026), gross margin 53%, opex EUR 6.9bn, 376m shares",
+            "assumption": "EPS EUR 39.5 = USD 43.7 per ADR at 20x",
+            "target": 873.0
+          },
+          "base": {
+            "driver": "Q4 2026 guide (EUR 14.2-15.2bn, GM ~57%) carries over; planned +30% 2027 capacity partly shipped: FY2027 sales EUR 56bn, GM 57.5%",
+            "assumption": "EPS EUR 57.3 = USD 63.3 per ADR at 28x",
+            "target": 1772.0
+          },
+          "bull": {
+            "driver": "Supply-constrained demand through 2027-28 (company says supply will not fully meet demand): FY2027 sales EUR 65bn, GM 59%, opex EUR 7.4bn, 372m shares",
+            "assumption": "EPS EUR 71.6 = USD 79.1 per ADR at 32x",
+            "target": 2531.0
+          }
+        },
+        "implied_by_close": "At base EPS of USD 63.3 the close implies 23.6x; the analyst-weighted target (about USD 2,450) implies about 38.7x, or about USD 87.5 (EUR 79) EPS at 28x, roughly 38% above the model",
+        "sensitivity": "One turn of P/E moves the base target by USD 63 (4.2 pp of the close); EUR 1bn of FY2027 sales at 57.5% GM moves EPS about EUR 1.3 and the target about USD 40",
+        "watch_metric": "Net system bookings and FY2027 sales/gross-margin outlook: base case needs FY2027 sales near EUR 56bn at about 57.5% gross margin",
+        "next_disclosure": "Q4 and FY2026 results, expected late January 2027 (date to be confirmed by ASML), with the first 2027 outlook"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Eleven dated rows from five named analysts covering Bernstein, BofA, Wells Fargo, JPMorgan and Morgan Stanley; all rate Buy-equivalent and every target except BofA's October 6 raise predates the October 14 Q3 release, so most are 4-5 months old and no 12-month horizon is documented. Targets of USD 2,000-2,900 against the USD 1,495 close imply 24x-39x on the base EPS; BofA's CY2028 EPS of EUR 85.2 and Bernstein's 2028 EPS of EUR 67 plus a 40x multiple show the gap is mostly a much higher earnings path and multiple than the base case (EUR 57 FY2027 at 28x). Citigroup (USD 2,300), HSBC (USD 2,261), Jefferies (USD 1,590) and a JPMorgan trim to USD 2,350 appear in a 2026-11-16 article but their dates could not be verified before the close, so they are excluded. Morgan Stanley's EUR 1,830 (prior EUR 1,660) is converted at 1.1052 for comparability; BofA's USD 2,915 is the ADR equivalent of EUR 2,557 stated by the source.",
+      "sources": [
+        {
+          "label": "ASML Q3 2026 results (Form 6-K, 2026-10-14)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000937966/000162828026065813/pressreleasefinancialresul.htm",
+          "supports": "Q3 sales EUR 11.66bn, net income EUR 4.96bn, EPS EUR 12.95, Q4 and FY2026 guidance, buyback, dividend"
+        },
+        {
+          "label": "Banca d'Italia euro reference rates 2026-11-13",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261113",
+          "supports": "USD 1.1052 per EUR on 2026-11-13"
+        },
+        {
+          "label": "BofA raises ASML target (Investing.com, 2026-10-06)",
+          "url": "https://www.investing.com/news/analyst-ratings/bofa-raises-asml-stock-price-target-to-2557-on-higher-estimates-93CH-4933911",
+          "supports": "BofA target, ADR equivalent, CY2028 EPS EUR 85.2"
+        },
+        {
+          "label": "Bernstein target July 2026 (TIKR)",
+          "url": "https://www.tikr.com/blog/asml-nasdaq-stock-jumps-as-bernstein-aggressively-raises-price-target-on-booming-ai-chip-demand",
+          "supports": "Bernstein target, Outperform, 2028 EPS EUR 67, 40x multiple"
+        },
+        {
+          "label": "Analyst moves July 2026 (Yahoo Finance)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html",
+          "supports": "Bernstein and Morgan Stanley target changes"
+        },
+        {
+          "label": "BofA and Wells Fargo targets June 2026 (OnInvest)",
+          "url": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them",
+          "supports": "BofA and Wells Fargo targets"
+        },
+        {
+          "label": "JPMorgan target July 2026 (MarketBeat)",
+          "url": "https://www.marketbeat.com/instant-alerts/asml-nasdaqasml-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-16/",
+          "supports": "JPMorgan target and Overweight"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-14T07:00:00+02:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 128,
+        "max_weight_pct": 33.7135706761154,
+        "contributors": [
+          {
+            "analyst": "David Dai",
+            "firm": "Bernstein",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-07-06",
+            "age_days": 130,
+            "after_earnings": false,
+            "source": "https://www.tikr.com/blog/asml-nasdaq-stock-jumps-as-bernstein-aggressively-raises-price-target-on-booming-ai-chip-demand",
+            "weight": 0.16599125209434232
+          },
+          {
+            "analyst": "Didier Scemama",
+            "firm": "BofA Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-06",
+            "age_days": 38,
+            "after_earnings": false,
+            "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-asml-stock-price-target-to-2557-on-higher-estimates-93CH-4933911",
+            "weight": 0.337135706761154
+          },
+          {
+            "analyst": "Joseph Quatrochi",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-06-22",
+            "age_days": 144,
+            "after_earnings": false,
+            "source": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them",
+            "weight": 0.1490247193685044
+          },
+          {
+            "analyst": "Lee Simpson",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-07-08",
+            "age_days": 128,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html",
+            "weight": 0.168567853380577
+          },
+          {
+            "analyst": "Sandeep Deshpande",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-07-16",
+            "age_days": 120,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/asml-nasdaqasml-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-16/",
+            "weight": 0.1792804683954223
+          }
+        ],
+        "counts": {
+          "Buy": 5,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "David Dai",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/asml-nasdaq-stock-jumps-as-bernstein-aggressively-raises-price-target-on-booming-ai-chip-demand",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Dai",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 2623.0,
+          "source_prior": 1971,
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html",
+          "prior_observed": null,
+          "revision_pct": 33.079654997463216,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Didier Scemama",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-asml-stock-price-target-to-2557-on-higher-estimates-93CH-4933911",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Didier Scemama",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 2345.0,
+          "source_prior": 1900,
+          "issued_at": "2026-06-19",
+          "public_at": "2026-06-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them",
+          "prior_observed": null,
+          "revision_pct": 23.42105263157894,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Didier Scemama",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 2915.0,
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-asml-stock-price-target-to-2557-on-higher-estimates-93CH-4933911",
+          "prior_observed": 2345.0,
+          "revision_pct": 24.307036247334747,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joseph Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-06-22",
+          "public_at": "2026-06-22T23:59:59-04:00",
+          "source": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Joseph Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 2200.0,
+          "source_prior": 1750,
+          "issued_at": "2026-06-22",
+          "public_at": "2026-06-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.oninvest.com/article/analysts-at-bofa-and-wells-fargo-have-raised-their-price-targets-for-asml-shares-should-you-buy-them",
+          "prior_observed": null,
+          "revision_pct": 25.71428571428571,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Lee Simpson",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-07-08",
+          "public_at": "2026-07-08T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Lee Simpson",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 2022.6,
+          "source_prior": 1834.6,
+          "issued_at": "2026-07-08",
+          "public_at": "2026-07-08T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bernstein-raises-price-target-asml-164506322.html",
+          "prior_observed": null,
+          "revision_pct": 10.247465387550413,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sandeep Deshpande",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/asml-nasdaqasml-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-16/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sandeep Deshpande",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 2400.0,
+          "source_prior": 2200,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/asml-nasdaqasml-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-16/",
+          "prior_observed": null,
+          "revision_pct": 9.090909090909083,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "MA": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 661.19,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. Adjusted diluted EPS: nine months 2026 $14.94 (Q3 $5.31, +21% y/y; 8-K Oct 29 2026). FY2026E about $20.40 = $14.94 plus an assumed Q4 of about $5.46 (my estimate, not company guidance; company guides Q4 net revenue growth at high end of low double digits, opex growth low teens, tax 20-21%). At the 12-month target date (Nov 2027) an investor prices FY2028 EPS, so target = FY2028 EPS x P/E. USD listing, no FX or ADR conversion.",
+        "bear": 528.3,
+        "base": 696.4,
+        "bull": 789.2,
+        "cases": {
+          "bear": {
+            "driver": "Consumer/cross-border slowdown, interchange and regulatory pressure, opex growth outpacing revenue; adjusted EPS growth 9% in FY2027 and 8% in FY2028",
+            "assumption": "FY2028 EPS $24.02 (FY2027 $22.24) at 22.0x",
+            "target": 528.3
+          },
+          "base": {
+            "driver": "Low-teens net revenue growth, value-added services growing high teens, continued buybacks (about $3B per quarter); adjusted EPS growth 14% in FY2027 and 13% in FY2028",
+            "assumption": "FY2028 EPS $26.28 (FY2027 $23.26) at 26.5x",
+            "target": 696.4
+          },
+          "bull": {
+            "driver": "Cross-border and value-added services/agentic commerce outperform with operating leverage; EPS growth 16% in FY2027 and 15% in FY2028",
+            "assumption": "FY2028 EPS $27.21 (FY2027 $23.66) at 29.0x",
+            "target": 789.2
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS $23.26 the close implies 28.4x (32.4x FY2026E $20.40). The sourced named targets (all null-horizon, so unweighted) range $640-$800; Citi's $800 implies 30.4x on base FY2028 EPS, or EPS $30.19 at 26.5x (14.9% above model).",
+        "sensitivity": "One turn of P/E moves the base target by $26.28 (about 4.0 pp of the close)",
+        "watch_metric": "Net revenue growth (low teens) and adjusted EPS growth versus the base 14% FY2027 path, plus value-added services growth and cross-border volume growth (11% local-currency in Q3)",
+        "next_disclosure": "Q4 and full-year 2026 results, expected late January 2027 (date not confirmed)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Ten named analysts raised targets after the Oct 29 results (most on Oct 30) and Citi's Bryan Keane went to $800 from $675 on Nov 12; Freedom Capital's Paramonov and Evercore's Frisch are the Hold calls ($725 and $640). Targets span $640-$800 (median about $738) and 8 of 10 are Buy-equivalent. Their 12-month horizon is not documented in sources, so none enter the weighted target. Named targets sit above the $696 base case; the $738 median implies about 28x base FY2028 EPS versus 26.5x, or EPS about $27.8 (6% above model) at constant multiple. Names and dates come from a TipRanks aggregator list; Wells Fargo's Kupferberg ($731, dated Nov 16) is excluded as after the reference close.",
+      "sources": [
+        {
+          "label": "Mastercard Q3 2026 earnings release (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm",
+          "supports": "Adjusted EPS $5.31, nine-month $14.94, diluted shares, release date Oct 29 2026"
+        },
+        {
+          "label": "Zacks: Mastercard beats Q3 earnings",
+          "url": "https://www.zacks.com/stock/news/3018925/mastercard-beats-q3-earnings-on-higher-cross-border-volumes-pricing",
+          "supports": "Outlook, Q4 guidance, cross-border volume"
+        },
+        {
+          "label": "TipRanks MA forecast",
+          "url": "https://www.tipranks.com/stocks/ma/forecast",
+          "supports": "Named analyst targets, ratings, prior targets and dates"
+        },
+        {
+          "label": "MarketBeat: Citigroup raises MA target",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-mastercard-nyse-ma-stock-price-target-raised-at-citigroup-2026-11-10/",
+          "supports": "Citi $675 to $800 corroboration"
+        },
+        {
+          "label": "Stock Observer weekly MA ratings changes",
+          "url": "https://www.thestockobserver.com/2026/11/11/analysts-weekly-ratings-changes-for-mastercard-ma.html",
+          "supports": "Firm-level target changes corroboration"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 10,
+        "post_earnings": 10,
+        "earnings_order_unknown": 0,
+        "median_age_days": 14.0,
+        "max_weight_pct": 10.792929909259023,
+        "contributors": [
+          {
+            "analyst": "Adam Frisch",
+            "firm": "Evercore ISI",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.09764662703065695
+          },
+          {
+            "analyst": "Bryan Bergin",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.09764662703065695
+          },
+          {
+            "analyst": "Bryan Keane",
+            "firm": "Citi",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.10792929909259022
+          },
+          {
+            "analyst": "Harshita Rawat",
+            "firm": "Bernstein",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-10",
+            "age_days": 3,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.10627957309034632
+          },
+          {
+            "analyst": "James Faucette",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.09764662703065695
+          },
+          {
+            "analyst": "Matthew O'Neill",
+            "firm": "Bank of America Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.09764662703065695
+          },
+          {
+            "analyst": "Mikhail Paramonov",
+            "firm": "Freedom Capital Markets",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.10226473860246477
+          },
+          {
+            "analyst": "Ramsey El Assal",
+            "firm": "Cantor Fitzgerald",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.09764662703065695
+          },
+          {
+            "analyst": "Sanjay Sakhrani",
+            "firm": "KBW",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.09764662703065695
+          },
+          {
+            "analyst": "Timothy Chiodo",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/ma/forecast",
+            "weight": 0.09764662703065695
+          }
+        ],
+        "counts": {
+          "Buy": 8,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 80.00886343668783,
+          "Hold": 19.991136563312175,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Adam Frisch",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Adam Frisch",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 640.0,
+          "source_prior": 620,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 3.2258064516129004,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Bryan Bergin",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bryan Bergin",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 726.0,
+          "source_prior": 667,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 8.845577211394296,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Bryan Keane",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bryan Keane",
+          "firm": "Citi",
+          "field": "target",
+          "value": 800.0,
+          "source_prior": 675,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 18.518518518518512,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Harshita Rawat",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Harshita Rawat",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 764.0,
+          "source_prior": 730,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 4.657534246575334,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "James Faucette",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "James Faucette",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 712.0,
+          "source_prior": 681,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 4.552129221732737,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Matthew O'Neill",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Matthew O'Neill",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 775.0,
+          "source_prior": 735,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 5.442176870748305,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 725.0,
+          "source_prior": 620,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 16.93548387096775,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ramsey El Assal",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ramsey El Assal",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 765.0,
+          "source_prior": 695,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 10.07194244604317,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sanjay Sakhrani",
+          "firm": "KBW",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sanjay Sakhrani",
+          "firm": "KBW",
+          "field": "target",
+          "value": 750.0,
+          "source_prior": 685,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 9.48905109489051,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Timothy Chiodo",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Timothy Chiodo",
+          "firm": "UBS",
+          "field": "target",
+          "value": 750.0,
+          "source_prior": 670,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/ma/forecast",
+          "prior_observed": null,
+          "revision_pct": 11.940298507462677,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ABBV": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 295.03,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchor: FY2026 adjusted EPS guidance $13.95-$13.99 after $0.69/share of acquired IPR&D and milestones expense through Q3 (about $14.65 before that charge); 1,772M diluted shares. FY2027 EPS is my own assumption: management gave no 2027 outlook in the Q3 release, and a post-Q3 adjusted 2027 consensus was not sourced (a pre-Q3 secondary source cites roughly $16).",
+        "bear": 222.0,
+        "base": 304.0,
+        "bull": 344.0,
+        "cases": {
+          "bear": {
+            "driver": "Humira erosion plus Skyrizi/Rinvoq growth slowing on pricing pressure and competition; recurring IPR&D charges keep EPS near the FY2026 reported level.",
+            "assumption": "FY2027 EPS $14.80 at 15x",
+            "target": 222.0
+          },
+          "base": {
+            "driver": "Skyrizi ($5.78B in Q3, +22.7%) and Rinvoq ($2.71B, +23.9%) keep growing about 20%+, offsetting Humira decline; IPR&D charges fall back toward a modest run-rate, giving about 9% EPS growth on the pre-charge FY2026 base.",
+            "assumption": "FY2027 EPS $16.00 at 19x",
+            "target": 304.0
+          },
+          "bull": {
+            "driver": "Faster immunology growth with Crohn's expansion, neuroscience and oncology pipeline contributions, minimal IPR&D charges and margin leverage.",
+            "assumption": "FY2027 EPS $17.20 at 20x",
+            "target": 344.0
+          }
+        },
+        "implied_by_close": "At base EPS of $16.00 the $295.03 close implies 18.4x; the average of the sourced post-Q3 targets (about $327) implies 20.4x at $16.00, or about $17.20 EPS at 19x.",
+        "sensitivity": "One turn of P/E moves the base target by $16 (about 5.4 pp of the close).",
+        "watch_metric": "Combined Skyrizi and Rinvoq quarterly revenue (Q3 2026: $5.78B and $2.71B) and the size of acquired IPR&D/milestone charges, plus initial 2027 adjusted EPS guidance.",
+        "next_disclosure": "Q4 and FY2026 results with initial 2027 guidance, expected around early February 2027 (date not confirmed)."
+      },
+      "dividend_per_share": 7.28,
+      "analyst_notes": "After the Oct 30 Q3 beat and guidance raise, every sourced firm lifted its target between Oct 30 and Nov 2: Morgan Stanley $310 to $346, Canaccord $290 to $338, Wells Fargo $300 to $340, RBC $280 to $330, Cantor $290 to $325, Leerink $279 to $325, Guggenheim $288 to $322, Citi (Neutral) $260 to $295. Seven of eight are Buy-equivalent; Citi is the lone Hold. Targets sit 0% to 17% above the $295.03 close and mostly above my $304 base, equivalent to roughly $17 of FY2027 EPS at 19x or about 20x on my $16. Horizon is not documented for any target so none enters the weighted target; four of the eight analysts are unnamed in the sources. UBS, Barclays ($335, Nov 16, after the reference close) and others were excluded. Dividend is the annualized new $1.82 quarterly rate, not added to price targets.",
+      "sources": [
+        {
+          "label": "AbbVie Q3 2026 results press release",
+          "url": "https://news.abbvie.com/2026-10-30-AbbVie-Reports-Third-Quarter-2026-Financial-Results",
+          "supports": "Q3 EPS, Skyrizi/Rinvoq sales, FY2026 guidance, IPR&D charge, diluted shares, dividend"
+        },
+        {
+          "label": "Form 8-K Q3 2026 earnings exhibit",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001551152/000110465926104940/tm2624674d1_ex99-1.htm",
+          "supports": "Q3 2026 financials"
+        },
+        {
+          "label": "Benzinga post-Q3 analyst roundup",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results",
+          "supports": "Cantor, RBC target and rating changes"
+        },
+        {
+          "label": "Benzinga post-Q3 analyst roundup 2",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth",
+          "supports": "Citi, Wells Fargo target changes"
+        },
+        {
+          "label": "Investing.com Guggenheim note",
+          "url": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-abbvie-stock-price-target-to-322-on-earnings-beat-93CH-4991417",
+          "supports": "Guggenheim target and rating"
+        },
+        {
+          "label": "Investing.com Canaccord note",
+          "url": "https://www.investing.com/news/analyst-ratings/canaccord-raises-abbvie-stock-price-target-on-pipeline-progress-93CH-4991458",
+          "supports": "Canaccord target and rating"
+        },
+        {
+          "label": "MarketBeat Cantor Oct 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-abbvie-nyse-abbv-price-target-raised-to-29000-2026-10-08/",
+          "supports": "Cantor $285 to $290 on Oct 8"
+        },
+        {
+          "label": "Tickeron ABBV analyst targets",
+          "url": "https://tickeron.com/blogs/abbvie-abbv-analyst-targets-point-to-11-6-upside-toward-325-32148/",
+          "supports": "Morgan Stanley $346 Overweight"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-30T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 11.0,
+        "max_weight_pct": 12.5,
+        "contributors": [
+          {
+            "analyst": "Canaccord analyst (unnamed)",
+            "firm": "Canaccord Genuity",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.investing.com/news/analyst-ratings/canaccord-raises-abbvie-stock-price-target-on-pipeline-progress-93CH-4991458",
+            "weight": 0.125
+          },
+          {
+            "analyst": "Carter Gould",
+            "firm": "Cantor Fitzgerald",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results",
+            "weight": 0.125
+          },
+          {
+            "analyst": "David Risinger",
+            "firm": "Leerink Partners",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.dailypolitical.com/2026/11/02/abbvie-nyseabbv-stock-gets-price-target-boost-from-leerink-partners.html",
+            "weight": 0.125
+          },
+          {
+            "analyst": "Geoff Meacham",
+            "firm": "Citi",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth",
+            "weight": 0.125
+          },
+          {
+            "analyst": "Guggenheim analyst (unnamed)",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-abbvie-stock-price-target-to-322-on-earnings-beat-93CH-4991417",
+            "weight": 0.125
+          },
+          {
+            "analyst": "Morgan Stanley analyst (unnamed)",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://tickeron.com/blogs/abbvie-abbv-analyst-targets-point-to-11-6-upside-toward-325-32148/",
+            "weight": 0.125
+          },
+          {
+            "analyst": "Trung Huynh",
+            "firm": "RBC Capital",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results",
+            "weight": 0.125
+          },
+          {
+            "analyst": "Wells Fargo analyst (unnamed)",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth",
+            "weight": 0.125
+          }
+        ],
+        "counts": {
+          "Buy": 7,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 87.5,
+          "Hold": 12.5,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Canaccord analyst (unnamed)",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/canaccord-raises-abbvie-stock-price-target-on-pipeline-progress-93CH-4991458",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Canaccord analyst (unnamed)",
+          "firm": "Canaccord Genuity",
+          "field": "target",
+          "value": 338.0,
+          "source_prior": 290,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/canaccord-raises-abbvie-stock-price-target-on-pipeline-progress-93CH-4991458",
+          "prior_observed": null,
+          "revision_pct": 16.551724137931046,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 290.0,
+          "source_prior": 285,
+          "issued_at": "2026-10-08",
+          "public_at": "2026-10-08T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-abbvie-nyse-abbv-price-target-raised-to-29000-2026-10-08/",
+          "prior_observed": null,
+          "revision_pct": 1.7543859649122862,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 325.0,
+          "source_prior": 290,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results",
+          "prior_observed": 290.0,
+          "revision_pct": 12.06896551724137,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Risinger",
+          "firm": "Leerink Partners",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.dailypolitical.com/2026/11/02/abbvie-nyseabbv-stock-gets-price-target-boost-from-leerink-partners.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Risinger",
+          "firm": "Leerink Partners",
+          "field": "target",
+          "value": 325.0,
+          "source_prior": 279,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.dailypolitical.com/2026/11/02/abbvie-nyseabbv-stock-gets-price-target-boost-from-leerink-partners.html",
+          "prior_observed": null,
+          "revision_pct": 16.48745519713262,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Geoff Meacham",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Geoff Meacham",
+          "firm": "Citi",
+          "field": "target",
+          "value": 295.0,
+          "source_prior": 260,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth",
+          "prior_observed": null,
+          "revision_pct": 13.461538461538458,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-abbvie-stock-price-target-to-322-on-earnings-beat-93CH-4991417",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 322.0,
+          "source_prior": 288,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/guggenheim-raises-abbvie-stock-price-target-to-322-on-earnings-beat-93CH-4991417",
+          "prior_observed": null,
+          "revision_pct": 11.805555555555557,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://tickeron.com/blogs/abbvie-abbv-analyst-targets-point-to-11-6-upside-toward-325-32148/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 346.0,
+          "source_prior": 310,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://tickeron.com/blogs/abbvie-abbv-analyst-targets-point-to-11-6-upside-toward-325-32148/",
+          "prior_observed": null,
+          "revision_pct": 11.612903225806459,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Trung Huynh",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Trung Huynh",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 330.0,
+          "source_prior": 280,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62777110/these-analysts-increase-their-forecasts-on-abbvie-after-strong-q3-results",
+          "prior_observed": null,
+          "revision_pct": 17.85714285714286,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Wells Fargo analyst (unnamed)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Wells Fargo analyst (unnamed)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 340.0,
+          "source_prior": 300,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784722/abbvie-analysts-raise-price-target-q3-print-expect-growth",
+          "prior_observed": null,
+          "revision_pct": 13.33333333333333,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -19388,6 +21624,11 @@
         "kind": "new"
       },
       {
+        "symbol": "ABBV",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "AMD",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -19395,6 +21636,11 @@
       {
         "symbol": "AMZN",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "ASML",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -19413,6 +21659,11 @@
         "kind": "new"
       },
       {
+        "symbol": "JNJ",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "JPM",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -19420,6 +21671,11 @@
       {
         "symbol": "LLY",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "MA",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -19476,9 +21732,30 @@
         "symbol": "WMT",
         "researched_at": "2026-11-16",
         "kind": "new"
+      },
+      {
+        "symbol": "XOM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
       }
     ],
     "analyst_calls": [
+      {
+        "symbol": "XOM",
+        "firm": "Barclays",
+        "analyst": "Betty Jiang",
+        "issued_at": "2026-11-13",
+        "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-stock-price-expected-to-rise-barclays-analyst-says-2026-11-13/",
+        "currency": null,
+        "rating": "Overweight",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 206.0,
+        "prior_target": 200.0,
+        "direction": "raise",
+        "revision_pct": 3.0000000000000027,
+        "horizon_months": null
+      },
       {
         "symbol": "NVDA",
         "firm": "Wedbush",
@@ -19493,6 +21770,38 @@
         "prior_target": 345.0,
         "direction": "cut",
         "revision_pct": -20.28985507246377,
+        "horizon_months": null
+      },
+      {
+        "symbol": "XOM",
+        "firm": "Bernstein",
+        "analyst": "Bernstein (analyst not named)",
+        "issued_at": "2026-11-12",
+        "source": "https://www.marketbeat.com/instant-alerts/analyst-exxonmobil-nyse-xom-given-new-18600-price-target-at-sanford-c-bernstein-2026-11-12/",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 186.0,
+        "prior_target": 193,
+        "direction": "cut",
+        "revision_pct": -3.626943005181349,
+        "horizon_months": null
+      },
+      {
+        "symbol": "MA",
+        "firm": "Citi",
+        "analyst": "Bryan Keane",
+        "issued_at": "2026-11-12",
+        "source": "https://www.tipranks.com/stocks/ma/forecast",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 800.0,
+        "prior_target": 675,
+        "direction": "raise",
+        "revision_pct": 18.518518518518512,
         "horizon_months": null
       },
       {
@@ -19526,6 +21835,22 @@
         "direction": "cut",
         "revision_pct": -60.0,
         "horizon_months": 12
+      },
+      {
+        "symbol": "MA",
+        "firm": "Bernstein",
+        "analyst": "Harshita Rawat",
+        "issued_at": "2026-11-10",
+        "source": "https://www.tipranks.com/stocks/ma/forecast",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 764.0,
+        "prior_target": 730,
+        "direction": "raise",
+        "revision_pct": 4.657534246575334,
+        "horizon_months": null
       },
       {
         "symbol": "WMT",
@@ -19564,6 +21889,38 @@
         "rating": "Buy",
         "bucket": "Buy",
         "prior_rating": null
+      },
+      {
+        "symbol": "JNJ",
+        "firm": "TD Cowen",
+        "analyst": "Chris LoBianco",
+        "issued_at": "2026-11-09",
+        "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 300.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "JNJ",
+        "firm": "Scotiabank",
+        "analyst": "Louise Chen",
+        "issued_at": "2026-11-09",
+        "source": "https://stockanalysis.com/stocks/jnj/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 305.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
       },
       {
         "symbol": "AMD",

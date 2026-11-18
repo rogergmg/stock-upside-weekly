@@ -1,0 +1,280 @@
+{
+ "issuer_id": "Mastercard Incorporated",
+ "symbol": "MA",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 661.19,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-29T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Bryan Keane",
+   "firm": "Citi",
+   "field": "target",
+   "value": 800,
+   "source_prior": 675,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Bryan Keane",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Harshita Rawat",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 764,
+   "source_prior": 730,
+   "issued_at": "2026-11-10",
+   "public_at": "2026-11-10T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Harshita Rawat",
+   "firm": "Bernstein",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-10",
+   "public_at": "2026-11-10T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Mikhail Paramonov",
+   "firm": "Freedom Capital Markets",
+   "field": "target",
+   "value": 725,
+   "source_prior": 620,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Mikhail Paramonov",
+   "firm": "Freedom Capital Markets",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Ramsey El Assal",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 765,
+   "source_prior": 695,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Ramsey El Assal",
+   "firm": "Cantor Fitzgerald",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Matthew O'Neill",
+   "firm": "Bank of America Securities",
+   "field": "target",
+   "value": 775,
+   "source_prior": 735,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Matthew O'Neill",
+   "firm": "Bank of America Securities",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Sanjay Sakhrani",
+   "firm": "KBW",
+   "field": "target",
+   "value": 750,
+   "source_prior": 685,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Sanjay Sakhrani",
+   "firm": "KBW",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Timothy Chiodo",
+   "firm": "UBS",
+   "field": "target",
+   "value": 750,
+   "source_prior": 670,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Timothy Chiodo",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "James Faucette",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 712,
+   "source_prior": 681,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "James Faucette",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Bryan Bergin",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 726,
+   "source_prior": 667,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Bryan Bergin",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Adam Frisch",
+   "firm": "Evercore ISI",
+   "field": "target",
+   "value": 640,
+   "source_prior": 620,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  },
+  {
+   "analyst": "Adam Frisch",
+   "firm": "Evercore ISI",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/ma/forecast"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. Adjusted diluted EPS: nine months 2026 $14.94 (Q3 $5.31, +21% y/y; 8-K Oct 29 2026). FY2026E about $20.40 = $14.94 plus an assumed Q4 of about $5.46 (my estimate, not company guidance; company guides Q4 net revenue growth at high end of low double digits, opex growth low teens, tax 20-21%). At the 12-month target date (Nov 2027) an investor prices FY2028 EPS, so target = FY2028 EPS x P/E. USD listing, no FX or ADR conversion.",
+  "bear": 528.3,
+  "base": 696.4,
+  "bull": 789.2,
+  "cases": {
+   "bear": {
+    "driver": "Consumer/cross-border slowdown, interchange and regulatory pressure, opex growth outpacing revenue; adjusted EPS growth 9% in FY2027 and 8% in FY2028",
+    "assumption": "FY2028 EPS $24.02 (FY2027 $22.24) at 22.0x",
+    "target": 528.3
+   },
+   "base": {
+    "driver": "Low-teens net revenue growth, value-added services growing high teens, continued buybacks (about $3B per quarter); adjusted EPS growth 14% in FY2027 and 13% in FY2028",
+    "assumption": "FY2028 EPS $26.28 (FY2027 $23.26) at 26.5x",
+    "target": 696.4
+   },
+   "bull": {
+    "driver": "Cross-border and value-added services/agentic commerce outperform with operating leverage; EPS growth 16% in FY2027 and 15% in FY2028",
+    "assumption": "FY2028 EPS $27.21 (FY2027 $23.66) at 29.0x",
+    "target": 789.2
+   }
+  },
+  "implied_by_close": "At base FY2027 EPS $23.26 the close implies 28.4x (32.4x FY2026E $20.40). The sourced named targets (all null-horizon, so unweighted) range $640-$800; Citi's $800 implies 30.4x on base FY2028 EPS, or EPS $30.19 at 26.5x (14.9% above model).",
+  "sensitivity": "One turn of P/E moves the base target by $26.28 (about 4.0 pp of the close)",
+  "watch_metric": "Net revenue growth (low teens) and adjusted EPS growth versus the base 14% FY2027 path, plus value-added services growth and cross-border volume growth (11% local-currency in Q3)",
+  "next_disclosure": "Q4 and full-year 2026 results, expected late January 2027 (date not confirmed)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Ten named analysts raised targets after the Oct 29 results (most on Oct 30) and Citi's Bryan Keane went to $800 from $675 on Nov 12; Freedom Capital's Paramonov and Evercore's Frisch are the Hold calls ($725 and $640). Targets span $640-$800 (median about $738) and 8 of 10 are Buy-equivalent. Their 12-month horizon is not documented in sources, so none enter the weighted target. Named targets sit above the $696 base case; the $738 median implies about 28x base FY2028 EPS versus 26.5x, or EPS about $27.8 (6% above model) at constant multiple. Names and dates come from a TipRanks aggregator list; Wells Fargo's Kupferberg ($731, dated Nov 16) is excluded as after the reference close.",
+ "sources": [
+  {
+   "label": "Mastercard Q3 2026 earnings release (8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001141391/000114139126000122/ma09302026-exx991xearnings.htm",
+   "supports": "Adjusted EPS $5.31, nine-month $14.94, diluted shares, release date Oct 29 2026"
+  },
+  {
+   "label": "Zacks: Mastercard beats Q3 earnings",
+   "url": "https://www.zacks.com/stock/news/3018925/mastercard-beats-q3-earnings-on-higher-cross-border-volumes-pricing",
+   "supports": "Outlook, Q4 guidance, cross-border volume"
+  },
+  {
+   "label": "TipRanks MA forecast",
+   "url": "https://www.tipranks.com/stocks/ma/forecast",
+   "supports": "Named analyst targets, ratings, prior targets and dates"
+  },
+  {
+   "label": "MarketBeat: Citigroup raises MA target",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-mastercard-nyse-ma-stock-price-target-raised-at-citigroup-2026-11-10/",
+   "supports": "Citi $675 to $800 corroboration"
+  },
+  {
+   "label": "Stock Observer weekly MA ratings changes",
+   "url": "https://www.thestockobserver.com/2026/11/11/analysts-weekly-ratings-changes-for-mastercard-ma.html",
+   "supports": "Firm-level target changes corroboration"
+  }
+ ]
+}

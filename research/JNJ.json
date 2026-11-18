@@ -1,0 +1,196 @@
+{
+ "issuer_id": "Johnson & Johnson",
+ "symbol": "JNJ",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 285.75,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-13T06:45:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Terence Flynn",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 292,
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "source_prior": 294,
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Terence Flynn",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "bucket": "Buy",
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Michael Yee",
+   "firm": "UBS",
+   "field": "target",
+   "value": 320,
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Michael Yee",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "bucket": "Buy",
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Asad Haider",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 280,
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Asad Haider",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "bucket": "Buy",
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 280,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "bucket": "Buy",
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Chris LoBianco",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 300,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Chris LoBianco",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "bucket": "Buy",
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Louise Chen",
+   "firm": "Scotiabank",
+   "field": "target",
+   "value": 305,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Louise Chen",
+   "firm": "Scotiabank",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "bucket": "Buy",
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  },
+  {
+   "analyst": "Hans Engel",
+   "firm": "Erste Group",
+   "field": "rating",
+   "value": "Hold",
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "bucket": "Hold",
+   "source": "https://stockanalysis.com/stocks/jnj/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchor: FY2026 adjusted EPS guidance $11.05-$11.15 (midpoint $11.10, raised Oct 13 2026) on sales of about $101.2B. FY2027 EPS is my own assumption (no sourced consensus or company 2027 guidance); it assumes mid-single-digit growth as Stelara erosion and M&A dilution (Firefly Bio, Sail Biomedicines) are offset by Innovative Medicine launches and a MedTech recovery from about 2.5% growth in Q3.",
+  "bear": 235.2,
+  "base": 295.0,
+  "bull": 332.1,
+  "cases": {
+   "bear": {
+    "driver": "Stelara and other loss-of-exclusivity erosion plus M&A dilution outrun launches; MedTech stays near 2-3% growth; talc settlement costs and rate pressure on the sector multiple.",
+    "assumption": "FY2027 EPS $11.20 at 21x",
+    "target": 235.2
+   },
+   "base": {
+    "driver": "Adjusted EPS grows about 6% from the $11.10 FY2026 midpoint as oncology and immunology launches offset Stelara erosion; MedTech improves modestly; multiple roughly holds near the current premium.",
+    "assumption": "FY2027 EPS $11.80 at 25x",
+    "target": 295.0
+   },
+   "bull": {
+    "driver": "Innovative Medicine growth accelerates with new launches, MedTech recovers to mid-single-digit growth and talc is resolved cleanly, supporting a premium defensive multiple.",
+    "assumption": "FY2027 EPS $12.30 at 27x",
+    "target": 332.1
+   }
+  },
+  "implied_by_close": "At base EPS of $11.80 the $285.75 close implies 24.2x; the equal-weight average of the pre-close named targets (about $296) implies 25.1x on $11.80, or about $12.35 EPS at 24x.",
+  "sensitivity": "One turn of P/E moves the base target by $11.80 (about 4.1 pp of the close).",
+  "watch_metric": "Innovative Medicine operational sales growth after Stelara erosion and MedTech operational growth (Q3 2026: about 2.5%), plus 2027 adjusted EPS guidance.",
+  "next_disclosure": "Q4 and FY2026 results with initial 2027 guidance, expected mid-January 2027 (date not confirmed)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Seven named calls sourced from a single aggregator table: six Buys (Morgan Stanley, UBS, Goldman Sachs, RBC, TD Cowen, Scotiabank) with targets of $280-$320, and an Erste Group downgrade to Hold on Oct 21 with no target. Morgan Stanley trimmed $294 to $292 the day after earnings; the other prior values were not sourced. The targets average about $296, roughly 3-4% above my base case, equal to about $0.50 of FY2027 EPS at 25x or about one turn of multiple. Leerink (Nov 17) and Bank of America (Nov 18) calls fall after the reference close and are excluded; a TD Cowen Underweight snippet conflicts with the Buy and was disregarded. Horizons are not documented, so no target enters the weighted average.",
+ "sources": [
+  {
+   "label": "J&J Q3 2026 results press release",
+   "url": "https://www.jnj.com/media-center/press-releases/johnson-johnson-reports-q3-2026-results-raises-2026-guidance",
+   "supports": "Q3 adjusted EPS $2.59, FY2026 guidance, MedTech growth"
+  },
+  {
+   "label": "Form 8-K Q3 2026 exhibit 99.1",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000200406/000020040626000189/a2026q3exhibit991.htm",
+   "supports": "Q3 2026 financials"
+  },
+  {
+   "label": "StockAnalysis JNJ ratings",
+   "url": "https://stockanalysis.com/stocks/jnj/ratings/",
+   "supports": "Named analyst ratings and targets, Oct-Nov 2026"
+  },
+  {
+   "label": "24/7 Wall St. post-earnings note",
+   "url": "https://247wallst.com/investing/2026/10/14/jj-beat-and-raised-the-stock-fell-anyway-heres-what-the-target-says/",
+   "supports": "Reaction to Q3 and M&A dilution"
+  }
+ ]
+}

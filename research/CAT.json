@@ -1,0 +1,151 @@
+{
+  "issuer_id": "Caterpillar Inc.",
+  "symbol": "CAT",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 600.2,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T06:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "David Raso",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 833,
+      "source_prior": 1045,
+      "horizon_months": null,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside"
+    },
+    {
+      "analyst": "David Raso",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 1027,
+      "source_prior": 1100,
+      "horizon_months": null,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+    },
+    {
+      "analyst": "Jerry Revich",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 840,
+      "source_prior": 1155,
+      "horizon_months": null,
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T23:59:59-04:00",
+      "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+    },
+    {
+      "analyst": "(unnamed) JPMorgan",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 1000,
+      "horizon_months": null,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+    },
+    {
+      "analyst": "(unnamed) JPMorgan",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+    },
+    {
+      "analyst": "(unnamed) Morgan Stanley",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 675,
+      "horizon_months": null,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+    },
+    {
+      "analyst": "(unnamed) Morgan Stanley",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+    },
+    {
+      "analyst": "Michael Feniger",
+      "firm": "Bank of America",
+      "field": "target",
+      "value": 930,
+      "source_prior": 825,
+      "horizon_months": null,
+      "issued_at": "2026-04-24",
+      "public_at": "2026-04-24T23:59:59-04:00",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html"
+    },
+    {
+      "analyst": "Michael Feniger",
+      "firm": "Bank of America",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-04-24",
+      "public_at": "2026-04-24T23:59:59-04:00",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x justified P/E. FY2027 diluted EPS is the forward period an investor at the 12-month target date (about Nov 2027) is pricing; the target is EPS x P/E. Q3 2026 reported diluted EPS was $7.13 (adjusted $7.20) per the release of Oct 29, 2026; no full-year EPS guidance was given, only sales growth in the mid-to-high teens and an adjusted operating margin near the bottom of the annual range, excluding IEEPA tariff recoveries. Consensus FY2027 EPS is about $32.25 to $32.26 (Yahoo Finance analysis page and TIKR, undated and approximate). Listing is NYSE common stock in USD, so no FX or ADR conversion applies. Dividend uses the trailing annual rate of $6.52 from the weekly aggregate and is a gross, undiscounted assumption.",
+    "bear": 442.0,
+    "base": 620.0,
+    "bull": 770.5,
+    "cases": {
+      "bear": {"driver": "Power & Energy and AI-linked demand slow and tariff costs stay high; margin stays below the bottom of the target range", "assumption": "FY2027 EPS $26.00 (about 19% below consensus) at 17x", "target": 442.0},
+      "base": {"driver": "Mid-to-high-teens sales growth converts to earnings only at the bottom of the adjusted margin range; backlog ($78.1B record) supports volumes", "assumption": "FY2027 EPS $31.00 (about 4% below consensus) at 20x, close to the 5-year average of 19x", "target": 620.0},
+      "bull": {"driver": "Broadening turbine and power demand lifts margins above the range and the market pays for it", "assumption": "FY2027 EPS $33.50 (about 4% above consensus) at 23x", "target": 770.5}
+    },
+    "implied_by_close": "At base EPS of $31.00 the close of $600.20 implies 19.4x. The median of six named or firm-level active targets ($885) implies 28.5x at base EPS, or EPS of about $44 at 20x. The gap is mainly multiple and timing: targets were set in Oct-Nov 2026 on FY2027 numbers while the stock traded about 40% or more below its June high.",
+    "sensitivity": "One turn of P/E moves the base target by $31.00 (about 5.2 pp of the close). A $1.00 change in FY2027 EPS moves it by $20.00 (about 3.3 pp). Two turns below the base multiple gives $558, about -7%.",
+    "watch_metric": "Adjusted operating margin for Power & Energy and total company against the bottom-of-range annual margin guidance, together with the order-backlog trend. Sustained margin above the range plus backlog growth would support the bull case; margin below the range with backlog decline would support the bear case.",
+    "next_disclosure": "Q4 and full-year 2026 earnings release, with 2027 outlook, expected around late January to February 2027 (exact date not verified in this research)."
+  },
+  "dividend_per_share": 6.52,
+  "analyst_notes": "Named and firm-level calls since Oct 2026 were mostly cuts after the Q3 report: Truist 1,100 to 1,027, Wells Fargo 1,155 to 840, JPMorgan at 1,000 and Morgan Stanley at 675 (Equal Weight), with Evercore cutting 1,045 to 833 on Nov 10 while keeping Outperform. The most recent named target (Evercore 833) implies about 39% upside from the close, and the median of six active targets (about $885, +47%) sits roughly 43% above our base case of $620 (+3%); at base EPS that median implies about 28x FY2027 EPS versus 20x in our base, so the gap is mainly a multiple view rather than an EPS view. Bank of America's 930 (Apr 2026) is stale and predates the Q3 report, and the sample is partial, so the weighted target is unavailable until horizons are documented.",
+  "sources": [
+    {"label": "Caterpillar Reports Third-Quarter 2026 Results (press release, Oct 29, 2026)", "url": "https://finviz.com/news/411167/caterpillar-reports-third-quarter-2026-results", "supports": "Q3 2026 GAAP EPS $7.13, adjusted $7.20, backlog, FY2026 margin and tax commentary"},
+    {"label": "TIKR: Could Caterpillar climb 65% after its earnings slide? (Truist, JPMorgan, Morgan Stanley, Wells Fargo actions; consensus EPS)", "url": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide", "supports": "Oct 26 to Oct 30 target changes and ratings, FY2027 consensus EPS $32.26, forward P/E 21x, price $623 as of article"},
+    {"label": "TIKR: Caterpillar keeps sliding, why Evercore ISI still sees 40% upside", "url": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside", "supports": "Evercore ISI Outperform, target 833 from 1,045 on Nov 10, price $594, consensus FY2027 EPS $32.25"},
+    {"label": "Yahoo Finance: Bank of America sees Caterpillar benefiting from broadening equipment demand recovery", "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html", "supports": "BofA Buy, target 930 from 825 (Apr 24, 2026), 2027 estimate raise, Power & Energy rationale"}
+  ]
+}

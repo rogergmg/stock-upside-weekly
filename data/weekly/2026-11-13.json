@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:12:15.857160+00:00",
+  "built_at": "2026-11-18T12:17:55.919412+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 44,
+    "rank_valued": 49,
     "rank_with_named_targets": 2,
-    "rank_matched": 44,
-    "researched": 44
+    "rank_matched": 49,
+    "researched": 49
   },
   "ranked": [
     {
@@ -233,6 +233,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "SHEL",
+      "issuer_id": "Shell plc",
+      "close": 99.08,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 268594800707,
+        "high": 285665644808
+      },
+      "scenarios_pct": {
+        "bear": -32.882519176423095,
+        "base": 13.03996770286637,
+        "bull": 45.84174404521599
+      },
+      "base_total_return_pct": 16.18893823173193,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "AMAT",
       "issuer_id": "Applied Materials, Inc.",
       "close": 370.5,
@@ -422,6 +443,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "SAP",
+      "issuer_id": "SAP SE",
+      "close": 234.9,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 265700122615,
+        "high": 294372218465
+      },
+      "scenarios_pct": {
+        "bear": -22.49467858663261,
+        "base": 6.811409110259685,
+        "bull": 29.067688378033207
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "PLTR",
       "issuer_id": "Palantir Technologies Inc.",
       "close": 167.99,
@@ -590,6 +632,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "CAT",
+      "issuer_id": "Caterpillar Inc.",
+      "close": 600.2,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 269146093924,
+        "high": 280140983699
+      },
+      "scenarios_pct": {
+        "bear": -26.35788070643119,
+        "base": 3.298900366544485,
+        "bull": 28.37387537487504
+      },
+      "base_total_return_pct": 4.385204931689437,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "JNJ",
       "issuer_id": "Johnson & Johnson",
       "close": 285.75,
@@ -716,6 +779,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "TXN",
+      "issuer_id": "Texas Instruments Incorporated",
+      "close": 303.6,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 271872254579,
+        "high": 282969081297
+      },
+      "scenarios_pct": {
+        "bear": -30.500658761528328,
+        "base": 1.4492753623188406,
+        "bull": 22.529644268774703
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "PM",
       "issuer_id": "Philip Morris International Inc.",
       "close": 198.96,
@@ -794,6 +878,27 @@
         "bull": 17.49577226606539
       },
       "base_total_return_pct": 0.15501691093573844,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "RY",
+      "issuer_id": "Royal Bank of Canada",
+      "close": 202.31,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 274482312783,
+        "high": 285756278409
+      },
+      "scenarios_pct": {
+        "bear": -19.91003904898423,
+        "base": -0.706836043695319,
+        "bull": 17.947704018585338
+      },
+      "base_total_return_pct": 1.7349611981612383,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -948,26 +1053,6 @@
     }
   ],
   "omitted": [
-    {
-      "symbol": "RY",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "TXN",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "CAT",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SHEL",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SAP",
-      "reason": "independent valuation unavailable"
-    },
     {
       "symbol": "RTX",
       "reason": "independent valuation unavailable"
@@ -28816,6 +28901,1396 @@
         }
       ]
     },
+    "RY": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 202.31,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank: forward P/E on FY2027 (year to Oct 2027) EPS, viewed at the 12-month target date (Nov 2027), computed in CAD and converted once to USD. Ratio: 1 NYSE RY share = 1 common share (ratio 1:1), with no depositary receipt. The 40-F cover page (FY2024 filing, form40_24.pdf) lists Common Shares, symbol RY, on the New York Stock Exchange, and the filing says the common shares are listed on the TSX and NYSE. This contradicts the task's ADR label; the listing is the common share itself, so no ADR conversion applies. FX: USD/CAD 1.4257 CAD per USD, Bank of Canada daily rate for 2026-11-13 (Valet FXUSDCAD), held constant to the target date. Earnings base: nine-month FY2026 adjusted EPS C$12.26 plus a Q4 at the Q3 run-rate of C$4.28 gives about C$16.54 for FY2026; base FY2027 EPS C$17.90 is +8% on that. Cross-check (not an input): Barchart FY2027 C$17.41 and Benzinga US$12.81 (about C$18.26 at 1.4257). Base: C$17.90 x 16x = C$286.4 = US$200.88. Bear: C$16.50 x 14x = C$231.0 = US$162.03. Bull: C$18.90 x 18x = C$340.2 = US$238.62. A P/E basis is used rather than P/TBV because goodwill and intangibles were not sourced; book check: common equity C$133,922m / 1,384,554k shares = C$96.73 per share, so the close (C$288.43) is about 3.0x book, consistent with an approximately 18% ROE. Dividend: C$1.76 declared for the quarter ended 2026-07-31, C$7.04 a year = US$4.94 at the same FX.",
+        "bear": 162.03,
+        "base": 200.88,
+        "bull": 238.62,
+        "cases": {
+          "bear": {
+            "driver": "Credit losses rise and NII growth stalls, so FY2027 EPS is flat on FY2026 (about C$16.50) and RBC trades at a discount multiple of 14x as capital return slows.",
+            "assumption": "EPS C$16.50 at 14x = C$231.0 = US$162.03",
+            "target": 162.03
+          },
+          "base": {
+            "driver": "FY2027 EPS of C$17.90 (+8% on the FY2026 run-rate, within the cross-check consensus range) with ROE near 18% and CET1 around 13.5%, at a 16x multiple close to today's.",
+            "assumption": "EPS C$17.90 at 16x = C$286.4 = US$200.88",
+            "target": 200.88
+          },
+          "bull": {
+            "driver": "Capital markets and fee growth plus lower capital drag push EPS to C$18.90 and the multiple to 18x as ROE holds above 18%.",
+            "assumption": "EPS C$18.90 at 18x = C$340.2 = US$238.62",
+            "target": 238.62
+          }
+        },
+        "implied_by_close": "The close of US$202.31 equals C$288.43 at 1.4257, which is 16.1x base EPS of C$17.90 and 16.6x the C$17.41 consensus low. The simple mean of the five named targets (US$208.29, about C$297) is 16.6x base EPS, about 4% above the base target; the gap is an EPS-or-multiple difference, and the analysts' assumptions are not sourced.",
+        "sensitivity": "One turn of P/E on base EPS moves the base target by US$12.56 (6.2 pp of the close). A C$1.00 change in FY2027 EPS moves it by US$11.2 at 16x (5.5 pp).",
+        "watch_metric": "Quarterly adjusted EPS against the C$4.28 Q3 run-rate and adjusted ROE (18.1% in Q3 FY2026). The base case needs about C$4.48 per quarter across FY2027 with CET1 held near 13.5%.",
+        "next_disclosure": "Q4 and full-year FY2026 results, 2026-12-03 08:30 ET (aggregate earnings timestamp)."
+      },
+      "dividend_per_share": 4.94,
+      "analyst_notes": "Six named analysts were sourced with dated calls from May 19 to Sep 3, 2026, and the sample is partial. The post-Q3 moves are CIBC cut US$217 to US$210 (Hold), KBW raised US$221 to US$226 (Hold, reiterated), Jefferies US$187 to US$189 (Hold), and Scotiabank US$217 to US$218 (Buy); the one- and two-dollar moves may be FX rounding rather than revisions. Named targets average US$208.29, about 4% above the US$200.88 base case, but no sampled firm documents a 12-month horizon, so none enter the weighted target. Excluded: Raymond James (Hold, US$214 to US$208) is dated Nov 17, after the reference close; Desjardins (Buy, US$224 to US$221, Nov 12) and National Bank (Buy, US$222 to US$224, Aug 30) are firm-only with no named analyst. The Q3 release time is not verified, so earnings_at uses end of day on Aug 27.",
+      "sources": [
+        {
+          "label": "RBC 40-F cover: Common Shares RY listed on the New York Stock Exchange (form40_24.pdf, FY2024)",
+          "url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/form40_24.pdf",
+          "supports": "Listing ratio 1:1 and no depositary receipt"
+        },
+        {
+          "label": "RBC Q3 FY2026 interim results, 6-K exhibit (adjusted EPS C$4.28, nine-month EPS C$12.26, shares 1,384,554k, common equity C$133,922m, CET1 13.5%, quarterly dividend C$1.76)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001000275/000119312526369461/d91595dex992.htm",
+          "supports": "EPS base, share count, book value, ROE, CET1, dividend"
+        },
+        {
+          "label": "Bank of Canada daily USD/CAD, 2026-11-13 (1.4257)",
+          "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-11-13&end_date=2026-11-13",
+          "supports": "FX conversion at the reference close"
+        },
+        {
+          "label": "Bank of Canada daily USD/CAD, 2026-05-19 (1.3757), used for the BofA C$ target",
+          "url": "https://www.bankofcanada.ca/valet/observations/FXUSDCAD/json?start_date=2026-05-18&end_date=2026-05-19",
+          "supports": "FX conversion of the BofA May 2026 target"
+        },
+        {
+          "label": "StockAnalysis RY analyst ratings (named Aug-Sep 2026 calls, USD)",
+          "url": "https://stockanalysis.com/stocks/ry/ratings/",
+          "supports": "Named analyst targets, ratings, prior values"
+        },
+        {
+          "label": "Yahoo Finance: BofA raises RY target to C$273 from C$271, Ebrahim Poonawala, May 19 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-price-target-royal-094250660.html",
+          "supports": "BofA analyst name, rating and C$ target"
+        },
+        {
+          "label": "Barchart RY.TO earnings estimates (FY2027 C$17.41; search snippet, not opened)",
+          "url": "https://www.barchart.com/stocks/quotes/RY.TO/earnings-estimates",
+          "supports": "FY2027 consensus low (CAD) cross-check"
+        },
+        {
+          "label": "Benzinga RY earnings forecasts (FY2027 US$12.81; search snippet, not opened)",
+          "url": "https://www.benzinga.com/quote/RY/earnings-forecasts",
+          "supports": "FY2027 consensus cross-check (USD)"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-27T23:59:59-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 73.0,
+        "max_weight_pct": 18.645774881990114,
+        "contributors": [
+          {
+            "analyst": "David Konrad",
+            "firm": "KBW",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-08-30",
+            "age_days": 75,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/ry/ratings/",
+            "weight": 0.18080120706445318
+          },
+          {
+            "analyst": "Ebrahim Poonawala",
+            "firm": "BofA Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-05-19",
+            "age_days": 178,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-price-target-royal-094250660.html",
+            "weight": 0.0817879305311235
+          },
+          {
+            "analyst": "John Aiken",
+            "firm": "Jefferies",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-09-03",
+            "age_days": 71,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/ry/ratings/",
+            "weight": 0.18645774881990113
+          },
+          {
+            "analyst": "Matthew Lee",
+            "firm": "Canaccord Genuity",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-03",
+            "age_days": 71,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/ry/ratings/",
+            "weight": 0.18645774881990113
+          },
+          {
+            "analyst": "Mike Rizvanovic",
+            "firm": "Scotiabank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-28",
+            "age_days": 77,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/ry/ratings/",
+            "weight": 0.17803761594471995
+          },
+          {
+            "analyst": "Paul Holden",
+            "firm": "CIBC",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-09-03",
+            "age_days": 71,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/ry/ratings/",
+            "weight": 0.18645774881990113
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 3,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 44.62832952957446,
+          "Hold": 55.37167047042555,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "David Konrad",
+          "firm": "KBW",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-30",
+          "public_at": "2026-08-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Konrad",
+          "firm": "KBW",
+          "field": "target",
+          "value": 226.0,
+          "source_prior": 221,
+          "issued_at": "2026-08-30",
+          "public_at": "2026-08-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "revision_pct": 2.262443438914019,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-05-19",
+          "public_at": "2026-05-19T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-price-target-royal-094250660.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 198.43,
+          "source_prior": 196.98,
+          "issued_at": "2026-05-19",
+          "public_at": "2026-05-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-price-target-royal-094250660.html",
+          "prior_observed": null,
+          "revision_pct": 0.7361153416590493,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John Aiken",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "John Aiken",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 189.0,
+          "source_prior": 187,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "revision_pct": 1.0695187165775444,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Matthew Lee",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mike Rizvanovic",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mike Rizvanovic",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 218.0,
+          "source_prior": 217,
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "revision_pct": 0.4608294930875667,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Paul Holden",
+          "firm": "CIBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Paul Holden",
+          "firm": "CIBC",
+          "field": "target",
+          "value": 210.0,
+          "source_prior": 217,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ry/ratings/",
+          "prior_observed": null,
+          "revision_pct": -3.2258064516129004,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "TXN": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 303.6,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (NASDAQ), no ADR conversion, so per-share values are on the same basis as the close. Anchor: reported GAAP diluted EPS of $1.68 (Q1 2026), $2.14 (Q2), $2.62 (Q3), plus Q4 2026 guidance midpoint $2.62 (range $2.45-$2.79) gives about $9.06 for FY2026. Management gave no 2027 outlook in the Q3 release and the release reports no non-GAAP EPS. FY2027 EPS of $11.00 (about +21%) is my own assumption: Q3 revenue was up 28% year over year, and the Q4 guide holds near the Q3 run-rate of $2.62 per quarter (about $10.50 annualized), with modest growth on top. Diluted shares about 921M (Q3 2026). Dividend excluded (price-only); the Q3 release cites $1.42 quarterly declared, but a secondary source shows a higher $6.08 annual rate, so the dividend is not netted in.",
+        "bear": 211.0,
+        "base": 308.0,
+        "bull": 372.0,
+        "cases": {
+          "bear": {
+            "driver": "Analog cycle peaks in 2026: Q4 seasonal weakness, back-end tool lead times and supply limits cap volume, and the market treats Q3 margins (gross margin 64.2%) as peak-level. EPS falls back below the FY2026 level.",
+            "assumption": "FY2027 EPS $9.60 at 22x",
+            "target": 211.0
+          },
+          "base": {
+            "driver": "Industrial, automotive and data-center demand keeps revenue growing in the mid-teens and operating leverage lifts EPS about 21% from FY2026, with the multiple near the level of recent quarters.",
+            "assumption": "FY2027 EPS $11.00 at 28x",
+            "target": 308.0
+          },
+          "bull": {
+            "driver": "Restocking and data-center demand sustain above-seasonal growth into 2027, incremental margins stay high and the market pays a premium multiple for the cycle upturn.",
+            "assumption": "FY2027 EPS $12.00 at 31x",
+            "target": 372.0
+          }
+        },
+        "implied_by_close": "At base EPS of $11.00 the $303.60 close implies 27.6x. The unweighted average of the four post-Q3 named price targets ($310; 4 calls, no horizon documented) implies about 28.2x at $11.00, or about $11.07 EPS at 28x. The analyst-weighted target is not computed because no horizon is documented for these calls.",
+        "sensitivity": "One turn of P/E moves the base target by $11.00 (about 3.6 pp of the close). A $1.00 change in FY2027 EPS at 28x moves the base target by $28 (about 9 pp).",
+        "watch_metric": "Gross margin (Q3 2026: 64.2%) and revenue against the Q4 2026 guide of $5.80B-$6.30B, and the Q1 2027 outlook: a Q1 2027 revenue and EPS guide that implies a sequential EPS step-up above $2.62 would support the base case. A guide that falls back toward the $2.23-$2.57 range seen in Q3 guidance would weaken it.",
+        "next_disclosure": "Q4 and full-year 2026 results with the Q1 2027 outlook, expected late January 2027 (date not confirmed in sources)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Four named post-Q3 price-target calls (Bernstein $310, DZ Bank $300, Wells Fargo $300, Freedom Capital $330; unweighted mean $310) sit about 2% above the close and about the base case ($308). Freedom raised from $260 and Bernstein from $290; Wells Fargo and DZ Bank hold at $300 with Hold ratings, so the post-earnings revisions are mixed. Bank of America reaffirmed Buy on Nov 10 without a published target. Earlier July 2026 calls (JPMorgan, KeyBanc, Rosenblatt, Benchmark, TD Cowen, Arete) were visible in secondary sources but their analyst names were not verified, so they are excluded. The aggregate Street mean in August was about $325 (source page dates vary), which is above the base case; the gap is roughly 5% of the close and implies either a higher FY2027 EPS (about $11.70 at 28x) or a higher multiple (about 29.5x at $11.00).",
+      "sources": [
+        {
+          "label": "TI Q3 2026 results release (via Finviz)",
+          "url": "https://finviz.com/news/405783/ti-reports-third-quarter-2026-financial-results-and-shareholder-returns",
+          "supports": "Q3 2026 revenue $6,055M, GAAP diluted EPS $2.62, Q4 guide revenue $5.80-6.30B and EPS $2.45-2.79, 921M diluted shares, release date Oct 21 2026"
+        },
+        {
+          "label": "TI Q2 2026 results release",
+          "url": "https://investor.ti.com/node/38476",
+          "supports": "Q2 2026 diluted EPS $2.14 and Q3 guidance"
+        },
+        {
+          "label": "TI Q1 2026 results release (via Placera)",
+          "url": "https://www.placera.se/pressmeddelanden/ti-reports-first-quarter-2026-financial-results-and-shareholder-returns-20260422",
+          "supports": "Q1 2026 diluted EPS $1.68, diluted shares 914M"
+        },
+        {
+          "label": "StockAnalysis TXN analyst forecasts",
+          "url": "https://stockanalysis.com/stocks/txn/forecast/",
+          "supports": "Named post-Q3 rating and target calls with dates (Oct 22 to Nov 10 2026)"
+        },
+        {
+          "label": "Chartmill TXN estimates (FY2026 consensus cross-check)",
+          "url": "https://www.chartmill.com/stock/quote/TII.DE/estimates",
+          "supports": "FY2026 EPS consensus about $9.13 (Nov 14 2026), consistent with the $9.06 build"
+        },
+        {
+          "label": "StockStory TXN Q3 2026 earnings call summary",
+          "url": "https://stockstory.org/us/stocks/nasdaq/txn/news/earnings-call/txn-q3-deep-dive-industrial-and-data-center-growth-drive-outlook-upgrade",
+          "supports": "Q4 guidance midpoint vs consensus, management commentary on demand and tool lead times"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-21T16:01:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 18,
+        "max_weight_pct": 22.07481817005764,
+        "contributors": [
+          {
+            "analyst": "Egor Tolmachev",
+            "firm": "Freedom Capital Markets",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/txn/forecast/",
+            "weight": 0.19069809653272943
+          },
+          {
+            "analyst": "Ingo Wermann",
+            "firm": "DZ BANK",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/txn/forecast/",
+            "weight": 0.19971699573180804
+          },
+          {
+            "analyst": "Joseph Quatrochi",
+            "firm": "Wells Fargo",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/txn/forecast/",
+            "weight": 0.19217245392603194
+          },
+          {
+            "analyst": "Stacy Rasgon",
+            "firm": "Bernstein",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-26",
+            "age_days": 18,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/txn/forecast/",
+            "weight": 0.1966642721088542
+          },
+          {
+            "analyst": "Vivek Arya",
+            "firm": "Bank of America Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-10",
+            "age_days": 3,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/txn/forecast/",
+            "weight": 0.2207481817005764
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 3,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 41.14462782333058,
+          "Hold": 58.85537217666942,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Egor Tolmachev",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Egor Tolmachev",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 330.0,
+          "source_prior": 260,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "revision_pct": 26.923076923076916,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ingo Wermann",
+          "firm": "DZ BANK",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ingo Wermann",
+          "firm": "DZ BANK",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joseph Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Joseph Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": null,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Stacy Rasgon",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Stacy Rasgon",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 310.0,
+          "source_prior": 290,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "revision_pct": 6.896551724137923,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        }
+      ]
+    },
+    "CAT": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 600.2,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x justified P/E. FY2027 diluted EPS is the forward period an investor at the 12-month target date (about Nov 2027) is pricing; the target is EPS x P/E. Q3 2026 reported diluted EPS was $7.13 (adjusted $7.20) per the release of Oct 29, 2026; no full-year EPS guidance was given, only sales growth in the mid-to-high teens and an adjusted operating margin near the bottom of the annual range, excluding IEEPA tariff recoveries. Consensus FY2027 EPS is about $32.25 to $32.26 (Yahoo Finance analysis page and TIKR, undated and approximate). Listing is NYSE common stock in USD, so no FX or ADR conversion applies. Dividend uses the trailing annual rate of $6.52 from the weekly aggregate and is a gross, undiscounted assumption.",
+        "bear": 442.0,
+        "base": 620.0,
+        "bull": 770.5,
+        "cases": {
+          "bear": {
+            "driver": "Power & Energy and AI-linked demand slow and tariff costs stay high; margin stays below the bottom of the target range",
+            "assumption": "FY2027 EPS $26.00 (about 19% below consensus) at 17x",
+            "target": 442.0
+          },
+          "base": {
+            "driver": "Mid-to-high-teens sales growth converts to earnings only at the bottom of the adjusted margin range; backlog ($78.1B record) supports volumes",
+            "assumption": "FY2027 EPS $31.00 (about 4% below consensus) at 20x, close to the 5-year average of 19x",
+            "target": 620.0
+          },
+          "bull": {
+            "driver": "Broadening turbine and power demand lifts margins above the range and the market pays for it",
+            "assumption": "FY2027 EPS $33.50 (about 4% above consensus) at 23x",
+            "target": 770.5
+          }
+        },
+        "implied_by_close": "At base EPS of $31.00 the close of $600.20 implies 19.4x. The median of six named or firm-level active targets ($885) implies 28.5x at base EPS, or EPS of about $44 at 20x. The gap is mainly multiple and timing: targets were set in Oct-Nov 2026 on FY2027 numbers while the stock traded about 40% or more below its June high.",
+        "sensitivity": "One turn of P/E moves the base target by $31.00 (about 5.2 pp of the close). A $1.00 change in FY2027 EPS moves it by $20.00 (about 3.3 pp). Two turns below the base multiple gives $558, about -7%.",
+        "watch_metric": "Adjusted operating margin for Power & Energy and total company against the bottom-of-range annual margin guidance, together with the order-backlog trend. Sustained margin above the range plus backlog growth would support the bull case; margin below the range with backlog decline would support the bear case.",
+        "next_disclosure": "Q4 and full-year 2026 earnings release, with 2027 outlook, expected around late January to February 2027 (exact date not verified in this research)."
+      },
+      "dividend_per_share": 6.52,
+      "analyst_notes": "Named and firm-level calls since Oct 2026 were mostly cuts after the Q3 report: Truist 1,100 to 1,027, Wells Fargo 1,155 to 840, JPMorgan at 1,000 and Morgan Stanley at 675 (Equal Weight), with Evercore cutting 1,045 to 833 on Nov 10 while keeping Outperform. The most recent named target (Evercore 833) implies about 39% upside from the close, and the median of six active targets (about $885, +47%) sits roughly 43% above our base case of $620 (+3%); at base EPS that median implies about 28x FY2027 EPS versus 20x in our base, so the gap is mainly a multiple view rather than an EPS view. Bank of America's 930 (Apr 2026) is stale and predates the Q3 report, and the sample is partial, so the weighted target is unavailable until horizons are documented.",
+      "sources": [
+        {
+          "label": "Caterpillar Reports Third-Quarter 2026 Results (press release, Oct 29, 2026)",
+          "url": "https://finviz.com/news/411167/caterpillar-reports-third-quarter-2026-results",
+          "supports": "Q3 2026 GAAP EPS $7.13, adjusted $7.20, backlog, FY2026 margin and tax commentary"
+        },
+        {
+          "label": "TIKR: Could Caterpillar climb 65% after its earnings slide? (Truist, JPMorgan, Morgan Stanley, Wells Fargo actions; consensus EPS)",
+          "url": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+          "supports": "Oct 26 to Oct 30 target changes and ratings, FY2027 consensus EPS $32.26, forward P/E 21x, price $623 as of article"
+        },
+        {
+          "label": "TIKR: Caterpillar keeps sliding, why Evercore ISI still sees 40% upside",
+          "url": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside",
+          "supports": "Evercore ISI Outperform, target 833 from 1,045 on Nov 10, price $594, consensus FY2027 EPS $32.25"
+        },
+        {
+          "label": "Yahoo Finance: Bank of America sees Caterpillar benefiting from broadening equipment demand recovery",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html",
+          "supports": "BofA Buy, target 930 from 825 (Apr 24, 2026), 2027 estimate raise, Power & Energy rationale"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T06:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 14,
+        "max_weight_pct": 25.184951668108823,
+        "contributors": [
+          {
+            "analyst": "(unnamed) JPMorgan",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+            "weight": 0.2313921208763608
+          },
+          {
+            "analyst": "(unnamed) Morgan Stanley",
+            "firm": "Morgan Stanley",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+            "weight": 0.2313921208763608
+          },
+          {
+            "analyst": "David Raso",
+            "firm": "Evercore ISI",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-10",
+            "age_days": 3,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside",
+            "weight": 0.25184951668108824
+          },
+          {
+            "analyst": "Jamie Cook",
+            "firm": "Truist Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+            "weight": 0.2313921208763608
+          },
+          {
+            "analyst": "Michael Feniger",
+            "firm": "Bank of America",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-04-24",
+            "age_days": 203,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html",
+            "weight": 0.05397412068982937
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 76.86078791236392,
+          "Hold": 23.13921208763608,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "(unnamed) JPMorgan",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) JPMorgan",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 1000.0,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 675.0,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Raso",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Raso",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 833.0,
+          "source_prior": 1045,
+          "horizon_months": null,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside",
+          "prior_observed": null,
+          "revision_pct": -20.28708133971292,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jamie Cook",
+          "firm": "Truist Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jamie Cook",
+          "firm": "Truist Securities",
+          "field": "target",
+          "value": 1027.0,
+          "source_prior": 1100,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+          "prior_observed": null,
+          "revision_pct": -6.63636363636364,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jerry Revich",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 840.0,
+          "source_prior": 1155,
+          "horizon_months": null,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide",
+          "prior_observed": null,
+          "revision_pct": -27.27272727272727,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Feniger",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-24",
+          "public_at": "2026-04-24T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Feniger",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 930.0,
+          "source_prior": 825,
+          "horizon_months": null,
+          "issued_at": "2026-04-24",
+          "public_at": "2026-04-24T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html",
+          "prior_observed": null,
+          "revision_pct": 12.72727272727272,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "SHEL": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 99.08,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Mid-cycle adjusted EPS x P/E, per ADS. Shell reports in USD, so the valuation needs no FX conversion (no dated FX rate applied). ADS ratio: 1 ADS = 2 Shell ordinary shares (Shell's Q4 2025 interim dividend announcement; depositary JPMorgan Chase Bank, N.A.), so each per-share figure is doubled to an ADS figure. Model: FY2027 adjusted earnings / average ordinary shares (about 5.4bn after buybacks; 2.83bn ADS-equivalent in the weekly aggregate = 5.65bn ordinary) = adjusted EPS per ordinary share; x 2 = adjusted EPS per ADS; x P/E applied at the 12-month target date (November 2026 to November 2027). Price-only; dividends excluded from targets (annualised $0.3906 per ordinary share quarterly = $3.12 per ADS, shown in dividend_per_share).",
+        "bear": 66.5,
+        "base": 112.0,
+        "bull": 144.5,
+        "cases": {
+          "bear": {
+            "driver": "Refining margins fall back from the Q3 2026 indicative $42/bbl toward a mid-cycle level and gas/LNG prices ease from $10/Mcf realised; Brent around $55; buybacks continue",
+            "assumption": "Adjusted EPS $4.75 per ordinary share = $9.50 per ADS at 7x",
+            "target": 66.5
+          },
+          "base": {
+            "driver": "Q3 2026 run-rate partly normalised: adjusted earnings about $38bn in FY2027 (not an annualised Q3 of $10.8bn), Integrated Gas production near the 2026 level, Marketing lower than Q2 2026 per the Q4 outlook; capex $20-22bn per year for 2027-2028",
+            "assumption": "Adjusted EPS $7.00 per ordinary share = $14.00 per ADS at 8x",
+            "target": 112.0
+          },
+          "bull": {
+            "driver": "Refining margins and LNG prices stay near Q3 2026 levels through 2027 with Integrated Gas output at the top of the Q4 outlook (1.18m boe/d); buyback retires shares faster",
+            "assumption": "Adjusted EPS $8.50 per ordinary share = $17.00 per ADS at 8.5x",
+            "target": 144.5
+          }
+        },
+        "implied_by_close": "At base adjusted EPS of $14.00 per ADS the close of $99.08 implies 7.1x. The analyst reference points (MarketBeat 2026-10-26 consensus target $106.63 across about 25 analysts, Webull/Barchart average $104.64) imply about 7.6x-8.0x the base EPS, or about $13.3 per ADS ($6.66 per share) at 8x, i.e. about 5% below the base EPS. The sell-side FY2027 EPS spread ($8.56-$11.77 per ordinary share on one tracker, unverified basis) is well above the base case, so the close is roughly consistent with the base earnings path at a low multiple.",
+        "sensitivity": "One turn of P/E on base ADS EPS of $14.00 moves the base target by $14.00 (14.1 pp of the close). A $1.00 per ordinary share change in FY2027 EPS moves the base target by $16.00 at 8x (16 pp of the close).",
+        "watch_metric": "Integrated Gas and Marketing adjusted earnings and the indicative refining margin: the base case needs FY2027 adjusted earnings near $38bn (about $7 per ordinary share) with refining margins well above the mid-cycle level and buybacks continuing at about $5bn per quarter. A sustained fall in the indicative refining margin toward the Q2 2026 level of $24/bbl would move the case toward the bear.",
+        "next_disclosure": "Q4 and full-year 2026 results with the Capital Markets Update, scheduled for 4 February 2027 according to Shell's investor calendar as reported by secondary sources (not verified against Shell's own calendar page)"
+      },
+      "dividend_per_share": 3.12,
+      "analyst_notes": "Only two named calls could be dated and sourced before the 13 November close: TD Cowen (Jason Gabelman) reiterated Buy with a USD 115 target on 9 October, and Wells Fargo (Sam Margolin) kept Hold with a USD 105 target on 15 October. Both are USD per ADS on the NYSE listing. TD Cowen had raised its target from USD 107 to USD 115 on 28 September, but the analyst name for that call was not confirmed. Mizuho (USD 103, 12 October), UBS (USD 90, 25 September), Erste (upgrade to Buy, 27 August) and Goldman Sachs (EUR 55 on the London line, 2 November) lack a named analyst in the sources reviewed, so they are not in the events; the Goldman EUR target is also not converted. Named calls sit at USD 105-115, against a base case of USD 112, so the named views bracket the base. Across about 25 analysts the aggregate average target (USD 104.6-106.6) is 5-8% above the close and the base case is about 13% above it; the gap is mostly the earnings path, since the consensus implies about $13.3 per ADS at 8x against our $14.00. No horizon is documented for these calls, so none enters the weighted target; coverage remains partial.",
+      "sources": [
+        {
+          "label": "Shell Q4 2025 interim dividend announcement (ADS ratio 1:2, JPMorgan Chase depositary)",
+          "url": "https://www.shell.com/investors/dividend-information/dividend-announcements/fourth-quarter-2025-interim-dividend.html",
+          "supports": "1 ADS = 2 ordinary shares; depositary JPMorgan Chase Bank, N.A.; per-share dividend basis"
+        },
+        {
+          "label": "Shell Q3 2026 results coverage (DirectorsTalk, 2026-10-29)",
+          "url": "https://www.directorstalkinterviews.com/shell-reports-10-8bn-q3-earnings-launches-5bn-share-buyback/4121268295",
+          "supports": "Q3 2026 adjusted earnings $10,814m; basic EPS $2.15 and adjusted EPS $1.93 per share; dividend $0.3906; net debt $39.7bn; $5bn buyback; release 7:05 am"
+        },
+        {
+          "label": "Shell Q3 2026 results coverage (Oil & Gas Journal)",
+          "url": "https://www.ogj.com/general-interest/companies/news/55415305/shells-third-quarter-earnings-rise-on-record-refining-margins-stronger-gas-results",
+          "supports": "Indicative refining margin $42/bbl (from $24); realised gas $10/Mcf; Integrated Gas output 772,000 boe/d; net debt $39.73bn"
+        },
+        {
+          "label": "TD Cowen reiterates Buy, USD 115 (Webull, Barchart-sourced)",
+          "url": "https://www.webull.com/news/15829085945947136",
+          "supports": "TD Cowen Buy and USD 115 on 9 Oct 2026; Wells Fargo Hold and USD 105 on 15 Oct 2026; Barchart average target $104.64"
+        },
+        {
+          "label": "Shell analyst actions and consensus (MarketBeat, 2026-10-26)",
+          "url": "https://www.marketbeat.com/instant-alerts/price-shell-nyse-shel-sets-new-52-week-high-time-to-buy-2026-10-26/",
+          "supports": "TD Cowen USD 107 to 115 (28 Sep); Mizuho USD 103 (12 Oct); UBS USD 90 (25 Sep); consensus target USD 106.63"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T07:05:00+00:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 32.0,
+        "max_weight_pct": 51.15503977404742,
+        "contributors": [
+          {
+            "analyst": "Jason Gabelman",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-09",
+            "age_days": 35,
+            "after_earnings": false,
+            "source": "https://www.webull.com/news/15829085945947136",
+            "weight": 0.4884496022595259
+          },
+          {
+            "analyst": "Sam Margolin",
+            "firm": "Wells Fargo",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": false,
+            "source": "https://www.webull.com/news/15829085945947136",
+            "weight": 0.5115503977404742
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 48.84496022595259,
+          "Hold": 51.15503977404742,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Jason Gabelman",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.webull.com/news/15829085945947136",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jason Gabelman",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 115.0,
+          "source_prior": 115,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15829085945947136",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.webull.com/news/15829085945947136",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 105.0,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15829085945947136",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "SAP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 234.9,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E per ADR, price-only. Reported in EUR; 1 ADR = 1 ordinary share (ratio 1:1 per SAP investor relations ADR page; depositary Deutsche Bank Trust Company Americas per SAP 20-F FY2024). EUR converted at USD 1.1052 per EUR (ECB euro reference rate for 13 Nov 2026, Banca d'Italia publication). Model: FY2027 non-IFRS operating profit x 0.75 (tax and financial items; calibrated to Q3 2026 net income EUR 2,269m / non-IFRS operating profit EUR 3,030m = 0.75) = net income; / diluted shares (Q3 2026 diluted 1,157m, reduced for the EUR 10bn buyback through 2027 of which EUR 4.2bn was done by 30 Sep 2026) = EUR EPS per ADR; x 1.1052 = USD EPS per ADR; x P/E applied to FY2027 EPS at the Nov-2027 target date. Dividends excluded.",
+        "bear": 182.06,
+        "base": 250.9,
+        "bull": 303.18,
+        "cases": {
+          "bear": {
+            "driver": "Cloud deceleration from slow agentic-AI rollout (UBS thesis): FY2027 non-IFRS operating profit EUR 12.3bn, roughly +2.5% on the FY2026 guide midpoint of EUR 12.0bn; buyback slows",
+            "assumption": "EPS EUR 8.24 = USD 9.10 per ADR at 20x; 1,120m shares",
+            "target": 182.06
+          },
+          "base": {
+            "driver": "FY2026 guide held (cloud revenue upper end of EUR 25.8-26.2bn cc; non-IFRS operating profit EUR 11.8-12.2bn) and carried forward to EUR 13.5bn in FY2027 (+12.5%)",
+            "assumption": "EPS EUR 9.08 = USD 10.04 per ADR at 25x; 1,115m shares",
+            "target": 250.9
+          },
+          "bull": {
+            "driver": "Current cloud backlog (EUR 24.1bn, +26% cc at Q3) converts faster; non-IFRS operating profit EUR 14.5bn in FY2027 (+21%)",
+            "assumption": "EPS EUR 9.80 = USD 10.83 per ADR at 28x; 1,110m shares",
+            "target": 303.18
+          }
+        },
+        "implied_by_close": "At base EPS of USD 10.04 the close of USD 234.9 (EUR 212.6) implies 23.4x. The provider's published mean target of USD 284.5 implies 28.3x base EPS, or about USD 11.38 EPS (EUR 10.30, roughly 13% above the model) at 25x. The mean of the three dated named targets (USD 270.4) implies about 26.9x, about two turns above the base multiple.",
+        "sensitivity": "One turn of P/E moves the base target by USD 10.04 (4.3 pp of the close). EUR 1bn of FY2027 non-IFRS operating profit moves EPS about EUR 0.67 and the base target about USD 19 at 25x (about 8 pp of the close)",
+        "watch_metric": "Current cloud backlog growth (Q3 2026: +26% cc, guided to slightly decelerate) and cloud revenue growth into FY2027; base case needs non-IFRS operating profit near EUR 13.5bn, i.e. roughly 12-13% growth on the FY2026 guide midpoint",
+        "next_disclosure": "FY2026 results and FY2027 outlook, scheduled for 28 Jan 2027 per secondary calendar sources (not verified against SAP's own calendar); Q1 2027 results in April 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named coverage is thin: three dated, named calls (JPMorgan upgrade to Overweight, target EUR 175 to 275, published 10 Nov; Goldman Sachs Buy, EUR 230 to 258, 23 Oct; UBS downgrade to Neutral with target EUR 164 to 201, 26 Aug). Kepler (EUR 235, 26 Oct), Jefferies (EUR 250, 22 Oct), Barclays (EUR 250, undated), Bank of America (EUR 226) and Berenberg (EUR 205) lack a verifiable analyst name or date and are excluded from events. The three named targets average USD 270, about 8% above the USD 251 base case; the gap is the market paying for a faster AI-led cloud ramp than the base case assumes. None of the named horizons is documented as 12 months, so all targets stay out of the weighted consensus.",
+      "sources": [
+        {
+          "label": "SAP Q3 2026 results, Form 6-K exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001000184/000110465926118617/tm2628113d1_ex99-1.htm",
+          "supports": "Q3 2026 revenue, cloud revenue, current cloud backlog, non-IFRS and IFRS operating profit, net income, diluted shares and EPS, FY2026 outlook, buyback progress"
+        },
+        {
+          "label": "Banca d'Italia euro reference rates, 13 Nov 2026",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261113",
+          "supports": "USD 1.1052 per EUR ECB reference rate used for all EUR-to-USD conversions"
+        },
+        {
+          "label": "SAP investor relations ADR page",
+          "url": "https://www.sap.com/investors/en/stock/adr.html",
+          "supports": "ADR ratio 1 ADR = 1 ordinary share, NYSE symbol SAP"
+        },
+        {
+          "label": "SAP investor relations FAQ",
+          "url": "https://www.sap.com/investors/en/resources/faq.html",
+          "supports": "One SAP ADR equals one SAP ordinary share"
+        },
+        {
+          "label": "SAP SE Form 20-F FY2024",
+          "url": "https://www.sec.gov/Archives/edgar/data/1000184/000110465925017815/sap-20241224x20f.htm",
+          "supports": "Depositary bank for the ADR program"
+        },
+        {
+          "label": "JPMorgan upgrade to Overweight, Toby Ogg (Boerse Express)",
+          "url": "https://www.boerse-express.com/news/articles/sap-aktie-jpmorgan-dreht-auf-overweight-961221",
+          "supports": "Rating change Neutral to Overweight and target EUR 175 to 275, published 10 Nov 2026 00:24"
+        },
+        {
+          "label": "Goldman Sachs target raise to EUR 258 (Finanztrends)",
+          "url": "https://www.finanztrends.de/news/sap-aktie-goldman-hievt-kursziel-auf-258-euro/",
+          "supports": "Buy maintained, target EUR 230 to 258 on 23 Oct 2026, analyst Mohammed Moawalla"
+        },
+        {
+          "label": "UBS downgrade to Neutral, target EUR 201 (Goldesel)",
+          "url": "https://goldesel.de/aktien/news/ubs-stuft-sap-von-buy-auf-neutral-ab-kursziel-steigt-auf-201-euro-was-anleger-jetzt-beachten",
+          "supports": "Buy to Neutral and target EUR 164 to 201 on 26 Aug 2026, analyst Michael Briest"
+        },
+        {
+          "label": "Analyst ratings roundup, October 2026 (Boerse Express)",
+          "url": "https://www.boerse-express.com/news/articles/sap-aktie-analysten-mehrheitlich-auf-kaufen-958745",
+          "supports": "Count of October ratings: eleven buy, four hold, one sell (firms not named)"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-21T07:00:00+02:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 3,
+        "post_earnings": 2,
+        "earnings_order_unknown": 0,
+        "median_age_days": 21,
+        "max_weight_pct": 41.00861281488175,
+        "contributors": [
+          {
+            "analyst": "Michael Briest",
+            "firm": "UBS",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-08-26",
+            "age_days": 79,
+            "after_earnings": false,
+            "source": "https://goldesel.de/aktien/news/ubs-stuft-sap-von-buy-auf-neutral-ab-kursziel-steigt-auf-201-euro-was-anleger-jetzt-beachten",
+            "weight": 0.23015305769259087
+          },
+          {
+            "analyst": "Mohammed Moawalla",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.finanztrends.de/news/sap-aktie-goldman-hievt-kursziel-auf-258-euro/",
+            "weight": 0.35976081415859157
+          },
+          {
+            "analyst": "Toby Ogg",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://www.boerse-express.com/news/articles/sap-aktie-jpmorgan-dreht-auf-overweight-961221",
+            "weight": 0.4100861281488175
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 76.9846942307409,
+          "Hold": 23.015305769259086,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Michael Briest",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59+02:00",
+          "source": "https://goldesel.de/aktien/news/ubs-stuft-sap-von-buy-auf-neutral-ab-kursziel-steigt-auf-201-euro-was-anleger-jetzt-beachten",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Briest",
+          "firm": "UBS",
+          "field": "target",
+          "value": 222.15,
+          "source_prior": 181.25,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59+02:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/ubs-stuft-sap-von-buy-auf-neutral-ab-kursziel-steigt-auf-201-euro-was-anleger-jetzt-beachten",
+          "prior_observed": null,
+          "revision_pct": 22.565517241379318,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mohammed Moawalla",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59+02:00",
+          "source": "https://www.finanztrends.de/news/sap-aktie-goldman-hievt-kursziel-auf-258-euro/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mohammed Moawalla",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 285.14,
+          "source_prior": 254.2,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59+02:00",
+          "horizon_months": null,
+          "source": "https://www.finanztrends.de/news/sap-aktie-goldman-hievt-kursziel-auf-258-euro/",
+          "prior_observed": null,
+          "revision_pct": 12.171518489378453,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Toby Ogg",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-10T00:24:00+01:00",
+          "source": "https://www.boerse-express.com/news/articles/sap-aktie-jpmorgan-dreht-auf-overweight-961221",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Toby Ogg",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 303.93,
+          "source_prior": 193.41,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-10T00:24:00+01:00",
+          "horizon_months": null,
+          "source": "https://www.boerse-express.com/news/articles/sap-aktie-jpmorgan-dreht-auf-overweight-961221",
+          "prior_observed": null,
+          "revision_pct": 57.14285714285714,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -29409,6 +30884,11 @@
         "kind": "new"
       },
       {
+        "symbol": "CAT",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "COST",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -29534,6 +31014,21 @@
         "kind": "new"
       },
       {
+        "symbol": "RY",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "SAP",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "SHEL",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "SKHY",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -29556,6 +31051,11 @@
       {
         "symbol": "TSM",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "TXN",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -29885,6 +31385,17 @@
         "horizon_months": null
       },
       {
+        "symbol": "TXN",
+        "firm": "Bank of America Securities",
+        "analyst": "Vivek Arya",
+        "issued_at": "2026-11-10",
+        "source": "https://stockanalysis.com/stocks/txn/forecast/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null
+      },
+      {
         "symbol": "PM",
         "firm": "J.P. Morgan",
         "analyst": "Edward Hockin",
@@ -29997,6 +31508,22 @@
         "horizon_months": null
       },
       {
+        "symbol": "CAT",
+        "firm": "Evercore ISI",
+        "analyst": "David Raso",
+        "issued_at": "2026-11-10",
+        "source": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 833.0,
+        "prior_target": 1045,
+        "direction": "cut",
+        "revision_pct": -20.28708133971292,
+        "horizon_months": null
+      },
+      {
         "symbol": "WMT",
         "firm": "JPMorgan",
         "analyst": "Christopher Horvers",
@@ -30022,6 +31549,22 @@
         "rating": "Buy",
         "bucket": "Buy",
         "prior_rating": null
+      },
+      {
+        "symbol": "SAP",
+        "firm": "JPMorgan",
+        "analyst": "Toby Ogg",
+        "issued_at": "2026-11-09",
+        "source": "https://www.boerse-express.com/news/articles/sap-aktie-jpmorgan-dreht-auf-overweight-961221",
+        "currency": null,
+        "rating": "Overweight",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 303.93,
+        "prior_target": 193.41,
+        "direction": "raise",
+        "revision_pct": 57.14285714285714,
+        "horizon_months": null
       },
       {
         "symbol": "MU",

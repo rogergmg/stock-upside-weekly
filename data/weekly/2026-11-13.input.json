@@ -6831,9 +6831,131 @@
         "high": 285756278409
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 198.43,
+          "source_prior": 196.98,
+          "issued_at": "2026-05-19",
+          "public_at": "2026-05-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-price-target-royal-094250660.html"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-05-19",
+          "public_at": "2026-05-19T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bofa-raises-price-target-royal-094250660.html"
+        },
+        {
+          "analyst": "John Aiken",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 189,
+          "source_prior": 187,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        },
+        {
+          "analyst": "John Aiken",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        },
+        {
+          "analyst": "Paul Holden",
+          "firm": "CIBC",
+          "field": "target",
+          "value": 210,
+          "source_prior": 217,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        },
+        {
+          "analyst": "Paul Holden",
+          "firm": "CIBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        },
+        {
+          "analyst": "Matthew Lee",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        },
+        {
+          "analyst": "David Konrad",
+          "firm": "KBW",
+          "field": "target",
+          "value": 226,
+          "source_prior": 221,
+          "issued_at": "2026-08-30",
+          "public_at": "2026-08-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        },
+        {
+          "analyst": "David Konrad",
+          "firm": "KBW",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-30",
+          "public_at": "2026-08-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        },
+        {
+          "analyst": "Mike Rizvanovic",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 218,
+          "source_prior": 217,
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        },
+        {
+          "analyst": "Mike Rizvanovic",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ry/ratings/"
+        }
+      ],
+      "earnings_at": "2026-08-27T23:59:59-04:00",
+      "valuation": {
+        "bear": 162.03,
+        "base": 200.88,
+        "bull": 238.62
+      },
+      "dividend_per_share": 4.94
     },
     {
       "issuer_id": "Texas Instruments Incorporated",
@@ -6847,9 +6969,109 @@
         "high": 282969081297
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Stacy Rasgon",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 310,
+          "source_prior": 290,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        },
+        {
+          "analyst": "Stacy Rasgon",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        },
+        {
+          "analyst": "Ingo Wermann",
+          "firm": "DZ BANK",
+          "field": "target",
+          "value": 300,
+          "source_prior": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        },
+        {
+          "analyst": "Ingo Wermann",
+          "firm": "DZ BANK",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        },
+        {
+          "analyst": "Joseph Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 300,
+          "source_prior": null,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        },
+        {
+          "analyst": "Joseph Quatrochi",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        },
+        {
+          "analyst": "Egor Tolmachev",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 330,
+          "source_prior": 260,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        },
+        {
+          "analyst": "Egor Tolmachev",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/txn/forecast/"
+        }
+      ],
+      "earnings_at": "2026-10-21T16:01:00-04:00",
+      "valuation": {
+        "bear": 211.0,
+        "base": 308.0,
+        "bull": 372.0
+      }
     },
     {
       "issuer_id": "Caterpillar Inc.",
@@ -6863,9 +7085,130 @@
         "high": 280140983699
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "David Raso",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 833,
+          "source_prior": 1045,
+          "horizon_months": null,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside"
+        },
+        {
+          "analyst": "David Raso",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/caterpillar-keeps-sliding-why-evercore-isi-still-sees-40-upside"
+        },
+        {
+          "analyst": "Jamie Cook",
+          "firm": "Truist Securities",
+          "field": "target",
+          "value": 1027,
+          "source_prior": 1100,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+        },
+        {
+          "analyst": "Jamie Cook",
+          "firm": "Truist Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+        },
+        {
+          "analyst": "Jerry Revich",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 840,
+          "source_prior": 1155,
+          "horizon_months": null,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+        },
+        {
+          "analyst": "(unnamed) JPMorgan",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 1000,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+        },
+        {
+          "analyst": "(unnamed) JPMorgan",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 675,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/caterpillar-cat-stock-truist-price-target-1027-earnings-slide"
+        },
+        {
+          "analyst": "Michael Feniger",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 930,
+          "source_prior": 825,
+          "horizon_months": null,
+          "issued_at": "2026-04-24",
+          "public_at": "2026-04-24T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html"
+        },
+        {
+          "analyst": "Michael Feniger",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-24",
+          "public_at": "2026-04-24T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-sees-caterpillar-cat-003334555.html"
+        }
+      ],
+      "earnings_at": "2026-10-29T06:00:00-04:00",
+      "valuation": {
+        "bear": 442.0,
+        "base": 620.0,
+        "bull": 770.5
+      },
+      "dividend_per_share": 6.52
     },
     {
       "issuer_id": "Shell plc",
@@ -6879,9 +7222,57 @@
         "high": 285665644808
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Jason Gabelman",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 115,
+          "source_prior": 115,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15829085945947136"
+        },
+        {
+          "analyst": "Jason Gabelman",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.webull.com/news/15829085945947136"
+        },
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 105,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15829085945947136"
+        },
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.webull.com/news/15829085945947136"
+        }
+      ],
+      "earnings_at": "2026-10-29T07:05:00+00:00",
+      "valuation": {
+        "bear": 66.5,
+        "base": 112.0,
+        "bull": 144.5
+      },
+      "dividend_per_share": 3.12
     },
     {
       "issuer_id": "SAP SE",
@@ -6895,9 +7286,78 @@
         "high": 294372218465
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Toby Ogg",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-10T00:24:00+01:00",
+          "source": "https://www.boerse-express.com/news/articles/sap-aktie-jpmorgan-dreht-auf-overweight-961221"
+        },
+        {
+          "analyst": "Toby Ogg",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 303.93,
+          "source_prior": 193.41,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-10T00:24:00+01:00",
+          "horizon_months": null,
+          "source": "https://www.boerse-express.com/news/articles/sap-aktie-jpmorgan-dreht-auf-overweight-961221"
+        },
+        {
+          "analyst": "Mohammed Moawalla",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59+02:00",
+          "source": "https://www.finanztrends.de/news/sap-aktie-goldman-hievt-kursziel-auf-258-euro/"
+        },
+        {
+          "analyst": "Mohammed Moawalla",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 285.14,
+          "source_prior": 254.2,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59+02:00",
+          "horizon_months": null,
+          "source": "https://www.finanztrends.de/news/sap-aktie-goldman-hievt-kursziel-auf-258-euro/"
+        },
+        {
+          "analyst": "Michael Briest",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59+02:00",
+          "source": "https://goldesel.de/aktien/news/ubs-stuft-sap-von-buy-auf-neutral-ab-kursziel-steigt-auf-201-euro-was-anleger-jetzt-beachten"
+        },
+        {
+          "analyst": "Michael Briest",
+          "firm": "UBS",
+          "field": "target",
+          "value": 222.15,
+          "source_prior": 181.25,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59+02:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/ubs-stuft-sap-von-buy-auf-neutral-ab-kursziel-steigt-auf-201-euro-was-anleger-jetzt-beachten"
+        }
+      ],
+      "earnings_at": "2026-10-21T07:00:00+02:00",
+      "valuation": {
+        "bear": 182.06,
+        "base": 250.9,
+        "bull": 303.18
+      }
     },
     {
       "issuer_id": "RTX Corporation",

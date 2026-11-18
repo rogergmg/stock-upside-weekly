@@ -1,0 +1,39 @@
+{
+  "issuer_id": "Shell plc",
+  "symbol": "SHEL",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 99.08, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-29T07:05:00+00:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Jason Gabelman", "firm": "TD Cowen", "field": "target", "value": 115, "source_prior": 115, "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59-04:00", "horizon_months": null, "source": "https://www.webull.com/news/15829085945947136"},
+    {"analyst": "Jason Gabelman", "firm": "TD Cowen", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59-04:00", "source": "https://www.webull.com/news/15829085945947136"},
+    {"analyst": "Sam Margolin", "firm": "Wells Fargo", "field": "target", "value": 105, "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "horizon_months": null, "source": "https://www.webull.com/news/15829085945947136"},
+    {"analyst": "Sam Margolin", "firm": "Wells Fargo", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "source": "https://www.webull.com/news/15829085945947136"}
+  ],
+  "valuation": {
+    "method": "Mid-cycle adjusted EPS x P/E, per ADS. Shell reports in USD, so the valuation needs no FX conversion (no dated FX rate applied). ADS ratio: 1 ADS = 2 Shell ordinary shares (Shell's Q4 2025 interim dividend announcement; depositary JPMorgan Chase Bank, N.A.), so each per-share figure is doubled to an ADS figure. Model: FY2027 adjusted earnings / average ordinary shares (about 5.4bn after buybacks; 2.83bn ADS-equivalent in the weekly aggregate = 5.65bn ordinary) = adjusted EPS per ordinary share; x 2 = adjusted EPS per ADS; x P/E applied at the 12-month target date (November 2026 to November 2027). Price-only; dividends excluded from targets (annualised $0.3906 per ordinary share quarterly = $3.12 per ADS, shown in dividend_per_share).",
+    "bear": 66.5,
+    "base": 112.0,
+    "bull": 144.5,
+    "cases": {
+      "bear": {"driver": "Refining margins fall back from the Q3 2026 indicative $42/bbl toward a mid-cycle level and gas/LNG prices ease from $10/Mcf realised; Brent around $55; buybacks continue", "assumption": "Adjusted EPS $4.75 per ordinary share = $9.50 per ADS at 7x", "target": 66.5},
+      "base": {"driver": "Q3 2026 run-rate partly normalised: adjusted earnings about $38bn in FY2027 (not an annualised Q3 of $10.8bn), Integrated Gas production near the 2026 level, Marketing lower than Q2 2026 per the Q4 outlook; capex $20-22bn per year for 2027-2028", "assumption": "Adjusted EPS $7.00 per ordinary share = $14.00 per ADS at 8x", "target": 112.0},
+      "bull": {"driver": "Refining margins and LNG prices stay near Q3 2026 levels through 2027 with Integrated Gas output at the top of the Q4 outlook (1.18m boe/d); buyback retires shares faster", "assumption": "Adjusted EPS $8.50 per ordinary share = $17.00 per ADS at 8.5x", "target": 144.5}
+    },
+    "implied_by_close": "At base adjusted EPS of $14.00 per ADS the close of $99.08 implies 7.1x. The analyst reference points (MarketBeat 2026-10-26 consensus target $106.63 across about 25 analysts, Webull/Barchart average $104.64) imply about 7.6x-8.0x the base EPS, or about $13.3 per ADS ($6.66 per share) at 8x, i.e. about 5% below the base EPS. The sell-side FY2027 EPS spread ($8.56-$11.77 per ordinary share on one tracker, unverified basis) is well above the base case, so the close is roughly consistent with the base earnings path at a low multiple.",
+    "sensitivity": "One turn of P/E on base ADS EPS of $14.00 moves the base target by $14.00 (14.1 pp of the close). A $1.00 per ordinary share change in FY2027 EPS moves the base target by $16.00 at 8x (16 pp of the close).",
+    "watch_metric": "Integrated Gas and Marketing adjusted earnings and the indicative refining margin: the base case needs FY2027 adjusted earnings near $38bn (about $7 per ordinary share) with refining margins well above the mid-cycle level and buybacks continuing at about $5bn per quarter. A sustained fall in the indicative refining margin toward the Q2 2026 level of $24/bbl would move the case toward the bear.",
+    "next_disclosure": "Q4 and full-year 2026 results with the Capital Markets Update, scheduled for 4 February 2027 according to Shell's investor calendar as reported by secondary sources (not verified against Shell's own calendar page)"
+  },
+  "dividend_per_share": 3.12,
+  "analyst_notes": "Only two named calls could be dated and sourced before the 13 November close: TD Cowen (Jason Gabelman) reiterated Buy with a USD 115 target on 9 October, and Wells Fargo (Sam Margolin) kept Hold with a USD 105 target on 15 October. Both are USD per ADS on the NYSE listing. TD Cowen had raised its target from USD 107 to USD 115 on 28 September, but the analyst name for that call was not confirmed. Mizuho (USD 103, 12 October), UBS (USD 90, 25 September), Erste (upgrade to Buy, 27 August) and Goldman Sachs (EUR 55 on the London line, 2 November) lack a named analyst in the sources reviewed, so they are not in the events; the Goldman EUR target is also not converted. Named calls sit at USD 105-115, against a base case of USD 112, so the named views bracket the base. Across about 25 analysts the aggregate average target (USD 104.6-106.6) is 5-8% above the close and the base case is about 13% above it; the gap is mostly the earnings path, since the consensus implies about $13.3 per ADS at 8x against our $14.00. No horizon is documented for these calls, so none enters the weighted target; coverage remains partial.",
+  "sources": [
+    {"label": "Shell Q4 2025 interim dividend announcement (ADS ratio 1:2, JPMorgan Chase depositary)", "url": "https://www.shell.com/investors/dividend-information/dividend-announcements/fourth-quarter-2025-interim-dividend.html", "supports": "1 ADS = 2 ordinary shares; depositary JPMorgan Chase Bank, N.A.; per-share dividend basis"},
+    {"label": "Shell Q3 2026 results coverage (DirectorsTalk, 2026-10-29)", "url": "https://www.directorstalkinterviews.com/shell-reports-10-8bn-q3-earnings-launches-5bn-share-buyback/4121268295", "supports": "Q3 2026 adjusted earnings $10,814m; basic EPS $2.15 and adjusted EPS $1.93 per share; dividend $0.3906; net debt $39.7bn; $5bn buyback; release 7:05 am"},
+    {"label": "Shell Q3 2026 results coverage (Oil & Gas Journal)", "url": "https://www.ogj.com/general-interest/companies/news/55415305/shells-third-quarter-earnings-rise-on-record-refining-margins-stronger-gas-results", "supports": "Indicative refining margin $42/bbl (from $24); realised gas $10/Mcf; Integrated Gas output 772,000 boe/d; net debt $39.73bn"},
+    {"label": "TD Cowen reiterates Buy, USD 115 (Webull, Barchart-sourced)", "url": "https://www.webull.com/news/15829085945947136", "supports": "TD Cowen Buy and USD 115 on 9 Oct 2026; Wells Fargo Hold and USD 105 on 15 Oct 2026; Barchart average target $104.64"},
+    {"label": "Shell analyst actions and consensus (MarketBeat, 2026-10-26)", "url": "https://www.marketbeat.com/instant-alerts/price-shell-nyse-shel-sets-new-52-week-high-time-to-buy-2026-10-26/", "supports": "TD Cowen USD 107 to 115 (28 Sep); Mizuho USD 103 (12 Oct); UBS USD 90 (25 Sep); consensus target USD 106.63"}
+  ]
+}

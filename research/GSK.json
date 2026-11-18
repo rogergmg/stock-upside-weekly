@@ -1,0 +1,222 @@
+{
+ "issuer_id": "GSK plc",
+ "symbol": "GSK",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 50.45,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-28T07:00:00+00:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Citi analyst (not named)",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 54.82,
+   "source_prior": 56.15,
+   "issued_at": "2026-11-11",
+   "public_at": "2026-11-11T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://kalkine.co.uk/news/healthcare/why-gsk-lsegsk-slid-on-the-ftse-100-citigroup-trimmed-its-price-target"
+  },
+  {
+   "analyst": "Citi analyst (not named)",
+   "firm": "Citigroup",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-11-11",
+   "public_at": "2026-11-11T23:59:59+00:00",
+   "source": "https://kalkine.co.uk/news/healthcare/why-gsk-lsegsk-slid-on-the-ftse-100-citigroup-trimmed-its-price-target"
+  },
+  {
+   "analyst": "Bernstein analyst (not named)",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 70.33,
+   "source_prior": 73.53,
+   "issued_at": "2026-06-09",
+   "public_at": "2026-06-09T23:59:59+01:00",
+   "horizon_months": null,
+   "source": "https://www.placera.se/telegram/gsk-price-target-cut-as-bernstein-notes-near-term-catalysts-20260505"
+  },
+  {
+   "analyst": "Bernstein analyst (not named)",
+   "firm": "Bernstein",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-06-09",
+   "public_at": "2026-06-09T23:59:59+01:00",
+   "source": "https://www.placera.se/telegram/gsk-price-target-cut-as-bernstein-notes-near-term-catalysts-20260505"
+  },
+  {
+   "analyst": "J.P. Morgan analyst (not named)",
+   "firm": "J.P. Morgan",
+   "field": "target",
+   "value": 45.46,
+   "issued_at": "2026-06-09",
+   "public_at": "2026-06-09T23:59:59+01:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/gsk/forecast/"
+  },
+  {
+   "analyst": "J.P. Morgan analyst (not named)",
+   "firm": "J.P. Morgan",
+   "field": "rating",
+   "value": "Underweight",
+   "bucket": "Sell",
+   "issued_at": "2026-06-09",
+   "public_at": "2026-06-09T23:59:59+01:00",
+   "source": "https://stockanalysis.com/stocks/gsk/forecast/"
+  },
+  {
+   "analyst": "UBS analyst (not named)",
+   "firm": "UBS",
+   "field": "target",
+   "value": 51.88,
+   "issued_at": "2026-06-09",
+   "public_at": "2026-06-09T23:59:59+01:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+  },
+  {
+   "analyst": "UBS analyst (not named)",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-06-09",
+   "public_at": "2026-06-09T23:59:59+01:00",
+   "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+  },
+  {
+   "analyst": "Barclays analyst (not named)",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 48.13,
+   "issued_at": "2026-06-09",
+   "public_at": "2026-06-09T23:59:59+01:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+  },
+  {
+   "analyst": "Barclays analyst (not named)",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Underweight",
+   "bucket": "Sell",
+   "issued_at": "2026-06-09",
+   "public_at": "2026-06-09T23:59:59+01:00",
+   "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+  },
+  {
+   "analyst": "Jefferies analyst (not named)",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 66.85,
+   "issued_at": "2026-06-03",
+   "public_at": "2026-06-03T23:59:59+01:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+  },
+  {
+   "analyst": "Jefferies analyst (not named)",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-06-03",
+   "public_at": "2026-06-03T23:59:59+01:00",
+   "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+  },
+  {
+   "analyst": "Wolfe Research analyst (not named)",
+   "firm": "Wolfe Research",
+   "field": "target",
+   "value": 70.0,
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-gsk-nyse-gsk-now-covered-by-wolfe-research-2026-10-09/"
+  },
+  {
+   "analyst": "Wolfe Research analyst (not named)",
+   "firm": "Wolfe Research",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-gsk-nyse-gsk-now-covered-by-wolfe-research-2026-10-09/"
+  }
+ ],
+ "valuation": {
+  "method": "Core EPS x P/E on FY2027 core EPS viewed at the Nov-2027 target date. FY2025 core EPS 172.0p; FY2026 guided +7-9% CER (lower half, ~185p); FY2027 base ~198p (+7%). ADR = 2 ordinary shares; FX GBP/USD ~1.337 (implied by ADR close $50.45 vs LSE 1,887p x2 on Nov 11; approximate, not an official rate). Base EPS per ADR 396p = GBP3.96 = $5.29.",
+  "bear": 44.5,
+  "base": 58.2,
+  "bull": 70.2,
+  "cases": {
+   "bear": {
+    "driver": "Flat EPS: pricing/IRA pressure, Zantac/Blenrep and Nuvalent interest drag; de-rating",
+    "assumption": "FY27 core EPS 185p (=$4.95/ADR) at 9.0x",
+    "target": 44.5
+   },
+   "base": {
+    "driver": "Specialty medicines and HIV growth offset vaccine softness; EPS +7%",
+    "assumption": "FY27 core EPS 198p (=$5.29/ADR) at 11.0x",
+    "target": 58.2
+   },
+   "bull": {
+    "driver": "Pipeline wins and Nuvalent/Accelerate Growth savings lift EPS; re-rating toward peers",
+    "assumption": "FY27 core EPS 210p (=$5.62/ADR) at 12.5x",
+    "target": 70.2
+   }
+  },
+  "implied_by_close": "At base EPS the close implies 9.5x FY27 core EPS (10.1x FY26); the analyst targets (mean ~$58 from converted calls) imply ~11x or EPS about $5.3",
+  "sensitivity": "One turn of P/E moves the base target by $5.29 (10.5 pp of the close)",
+  "watch_metric": "Core EPS growth vs the 7-9% guide, and Specialty Medicines sales growth",
+  "next_disclosure": "FY2026 results, early February 2026-cycle (expected ~Feb 2027)"
+ },
+ "dividend_per_share": 1.87,
+ "analyst_notes": "Named views are scattered: Citi trimmed to 2,050p on Nov 11 (neutral), Bernstein 2,630p and Jefferies 2,500p are Buy, while J.P. Morgan 1,700p and Barclays 1,800p are Underweight. Wolfe initiated at $70 in October. Targets were converted from pence at 2 shares per ADR and ~1.337; analyst names are not published in the sources, and most calls are June-dated and stale. The Buy/Sell spread reflects roughly 9x vs 13x multiples on similar EPS.",
+ "sources": [
+  {
+   "label": "GSK Q3 2026 results (RNS)",
+   "url": "https://www.investegate.co.uk/announcement/rns/gsk--gsk/3rd-quarter-results/9844531",
+   "supports": "Q3 core EPS 54.6p, FY26 guidance, 70p dividend"
+  },
+  {
+   "label": "GSK FY2025 results summary",
+   "url": "https://www.directorstalkinterviews.com/gsk-reports-strong-2025-results-and-reaffirms-long-term-growth-outlook/4121238171",
+   "supports": "FY25 core EPS 172.0p"
+  },
+  {
+   "label": "StockAnalysis GSK forecast",
+   "url": "https://stockanalysis.com/stocks/gsk/forecast/",
+   "supports": "Analyst targets"
+  },
+  {
+   "label": "StockAnalysis LSE GSK ratings",
+   "url": "https://stockanalysis.com/quote/lon/GSK/ratings/",
+   "supports": "UBS, Barclays, Jefferies"
+  },
+  {
+   "label": "Kalkine Citi cut",
+   "url": "https://kalkine.co.uk/news/healthcare/why-gsk-lsegsk-slid-on-the-ftse-100-citigroup-trimmed-its-price-target",
+   "supports": "Citi target, LSE close"
+  },
+  {
+   "label": "Placera Bernstein",
+   "url": "https://www.placera.se/telegram/gsk-price-target-cut-as-bernstein-notes-near-term-catalysts-20260505",
+   "supports": "Bernstein prior target"
+  },
+  {
+   "label": "MarketBeat Wolfe",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-gsk-nyse-gsk-now-covered-by-wolfe-research-2026-10-09/",
+   "supports": "Wolfe $70"
+  }
+ ]
+}

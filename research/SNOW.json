@@ -1,0 +1,165 @@
+{
+ "issuer_id": "Snowflake Inc.",
+ "symbol": "SNOW",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 291.0,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-09-02T16:05:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Kirk Materne",
+   "firm": "Evercore ISI",
+   "field": "target",
+   "value": 430,
+   "source_prior": 360,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tikr.com/blog/snowflake-keeps-sliding-but-evercore-isi-sees-51-upside"
+  },
+  {
+   "analyst": "Kirk Materne",
+   "firm": "Evercore ISI",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-04:00",
+   "source": "https://www.tikr.com/blog/snowflake-keeps-sliding-but-evercore-isi-sees-51-upside"
+  },
+  {
+   "analyst": "Sanjit Singh",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 470,
+   "source_prior": 300,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.schaeffersresearch.com/content/news/2026/09/03/snowflake-shares-soar-as-earnings-revenue-top-estimates"
+  },
+  {
+   "analyst": "Sanjit Singh",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://www.schaeffersresearch.com/content/news/2026/09/03/snowflake-shares-soar-as-earnings-revenue-top-estimates"
+  },
+  {
+   "analyst": "Tyler Radke",
+   "firm": "Citi",
+   "field": "target",
+   "value": 490,
+   "source_prior": 395,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.webull.com/news/15712340055229440"
+  },
+  {
+   "analyst": "Tyler Radke",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://www.webull.com/news/15712340055229440"
+  },
+  {
+   "analyst": "Koji Ikeda",
+   "firm": "BofA Securities",
+   "field": "target",
+   "value": 470,
+   "source_prior": 395,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.schaeffersresearch.com/content/news/2026/09/03/snowflake-shares-soar-as-earnings-revenue-top-estimates"
+  },
+  {
+   "analyst": "Thomas Blakey",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 430,
+   "source_prior": 405,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.webull.com/news/15712340055229440"
+  },
+  {
+   "analyst": "Thomas Blakey",
+   "firm": "Cantor Fitzgerald",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://www.webull.com/news/15712340055229440"
+  }
+ ],
+ "valuation": {
+  "method": "EV / forward revenue. Forward period viewed at the 12-month target date (Nov 2027) is FY2028 (year to Jan 2028) total revenue. Anchor: FY2027 product revenue guidance $6,070M (+36%, raised 2 Sep 2026); product is about 96% of total, so FY2027 total revenue is about $6.3B (estimate, no total guide). Scenario FY2028 revenue = $6.3B x (1+growth): 24% bear, 30% base, 36% bull. Equity value = EV + about $2.05B net cash (cash and investments $4.33B less $2.28B convertible notes, 31 Jul 2026) over 380M non-GAAP diluted shares (company guide). Per share in USD on the NYSE listing; no FX or ADR conversion.",
+  "bear": 211.0,
+  "base": 307.0,
+  "bull": 411.0,
+  "cases": {
+   "bear": {
+    "driver": "Consumption growth fades toward the mid-20s as AI workloads disappoint and the multiple compresses",
+    "assumption": "FY28 revenue $7.81B at 10x EV/revenue",
+    "target": 211.0
+   },
+   "base": {
+    "driver": "Product growth decelerates from 36-38% to about 30% on a larger base with AI-driven consumption continuing; margin per FY27 guide of 14.5%",
+    "assumption": "FY28 revenue $8.19B at 14x EV/revenue",
+    "target": 307.0
+   },
+   "bull": {
+    "driver": "Growth stays in the mid-30s as the Q3 guide of 37-38% persists and AI products scale",
+    "assumption": "FY28 revenue $8.57B at 18x EV/revenue",
+    "target": 411.0
+   }
+  },
+  "implied_by_close": "At $291 the market cap is about $110.6B (380M shares) and EV about $108.5B: 17.2x FY2027 estimated revenue and 13.2x base FY2028 revenue. The named-analyst targets ($430-$490) imply about 20-22x base FY2028 revenue, or FY2028 revenue near $12B at 14x.",
+  "sensitivity": "One turn of EV/revenue moves the base target by $21.6 (about 7.0 pp of the $307 base). Each 5 pp of FY2028 growth moves base revenue by $0.32B and the target by about $12 at 14x.",
+  "watch_metric": "Product revenue growth versus the 37-38% Q3 guide, and net revenue retention, with non-GAAP product gross margin against the 74% guide.",
+  "next_disclosure": "Q3 FY2027 results, expected 2 Dec 2026 after the close (outside this research cutoff)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named targets moved sharply up after the 2 Sep release (Morgan Stanley $300 to $470, Citi $395 to $490, BofA $395 to $470) and Evercore raised again to $430 on 12 Nov while the stock slid to $291, so named targets sit 48-68% above the close and 40-60% above the $307 base. The gap is mostly multiple: $430-$490 needs roughly 20-22x EV/revenue on base FY2028 revenue or about $12B of revenue at 14x. Horizons are undocumented so none enter the weighted target; post-report dates are the Sep 3 publication date, and Webull and Schaeffer's are secondary sources.",
+ "sources": [
+  {
+   "label": "Snowflake Q2 FY2027 results release",
+   "url": "https://seekingalpha.com/pr/20639002",
+   "supports": "guidance, cash, converts, shares, release time"
+  },
+  {
+   "label": "Pulse 2 Q2 FY2027 summary",
+   "url": "https://pulse2.com/snowflake-q2-fiscal-2027-revenue-rises-35-to-1-55-billion-as-product-revenue-guidance-is-raised/",
+   "supports": "Q3 guide, operating margin"
+  },
+  {
+   "label": "Tikr Evercore ISI target",
+   "url": "https://www.tikr.com/blog/snowflake-keeps-sliding-but-evercore-isi-sees-51-upside",
+   "supports": "Evercore $430 from $360, 12 Nov 2026"
+  },
+  {
+   "label": "Webull target raises",
+   "url": "https://www.webull.com/news/15712340055229440",
+   "supports": "Citi, Cantor targets"
+  },
+  {
+   "label": "Schaeffer's post-earnings coverage",
+   "url": "https://www.schaeffersresearch.com/content/news/2026/09/03/snowflake-shares-soar-as-earnings-revenue-top-estimates",
+   "supports": "Morgan Stanley, BofA targets"
+  }
+ ]
+}

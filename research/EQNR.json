@@ -1,0 +1,36 @@
+{
+  "issuer_id": "Equinor ASA",
+  "symbol": "EQNR",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 42.95, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-28T07:00:00+01:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "TD Cowen analyst (not named in source)", "firm": "TD Cowen", "field": "target", "value": 38, "source_prior": 37, "issued_at": "2026-07-24", "public_at": "2026-07-24T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-equinor-asa-nyseeqnr-stock-2026-07-24/"},
+    {"analyst": "TD Cowen analyst (not named in source)", "firm": "TD Cowen", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-07-24", "public_at": "2026-07-24T23:59:59-04:00", "source": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-equinor-asa-nyseeqnr-stock-2026-07-24/"},
+    {"analyst": "Morgan Stanley analyst (not named in source)", "firm": "Morgan Stanley", "field": "rating", "value": "Equal Weight", "bucket": "Hold", "issued_at": "2026-03-24", "public_at": "2026-03-24T23:59:59-04:00", "source": "https://www.marketbeat.com/instant-alerts/equinor-asa-nyseeqnr-raised-to-equal-weight-at-morgan-stanley-2026-03-24/"},
+    {"analyst": "Grupo Santander analyst (not named in source)", "firm": "Grupo Santander", "field": "rating", "value": "Outperform", "bucket": "Buy", "issued_at": "2026-05-11", "public_at": "2026-05-11T23:59:59-04:00", "source": "https://finance.yahoo.com/news/grupo-santander-upgrades-equinor-eqnr-131453310.html"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted EPS per ADS viewed at the Nov 2027 target date). Integrated oil and gas, mid-cycle judgement. ADR ratio 1 ADS = 1 ordinary share, and Equinor reports in USD, so no FX conversion is needed. Anchor: Q3 2026 adjusted EPS $1.20 (adjusted net income $2.86B) and a $0.39 quarterly dividend, from the Oct 28 2026 release. FY2027 EPS and multiples are our stated assumptions, not a sourced forecast.",
+    "bear": 22.4, "base": 39.9, "bull": 58.8,
+    "cases": {
+      "bear": {"driver": "Oil and gas prices fall back from the 2026 spike, so earnings fall well below the Q3 run-rate.", "assumption": "FY2027 EPS $2.80 at 8.0x", "target": 22.4},
+      "base": {"driver": "Prices ease but stay above 2025; production growth and buybacks (up to $3B in 2026) support per-share earnings.", "assumption": "FY2027 EPS $4.20 at 9.5x", "target": 39.9},
+      "bull": {"driver": "Elevated commodity prices persist and output guidance is raised again.", "assumption": "FY2027 EPS $5.60 at 10.5x", "target": 58.8}
+    },
+    "implied_by_close": "At base EPS $4.20 the close implies 10.2x; the sampled TD Cowen $38 target implies 9.0x, or EPS $4.00 at 9.5x",
+    "sensitivity": "One turn of P/E moves the base target by $4.20 (9.8 pp of the close)",
+    "watch_metric": "Adjusted EPS per share and realised liquids and gas prices against the $1.20 Q3 level",
+    "next_disclosure": "Equinor fourth quarter 2026 results, expected early February 2027 (date not confirmed)"
+  },
+  "dividend_per_share": 1.56,
+  "analyst_notes": "Only a small named sample was found (TD Cowen, Morgan Stanley, Santander), and the targets are mostly stale. TD Cowen's $38 Hold target sits below the close and implies about 9.0x our base EPS; its target moved between $37 and $42 from May to July. Published consensus is Hold with a target near $39-41. Q3 adjusted EPS of $1.20 missed a $1.37 consensus reported by one outlet, and calls after the Oct 28 release were not verified.",
+  "sources": [
+    {"label": "Equinor Q3 2026 results", "url": "https://www.equinor.com/news/equinor-third-quarter-2026-results", "supports": "EPS, dividend, net debt, buyback"},
+    {"label": "MarketBeat TD Cowen note Jul 2026", "url": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-equinor-asa-nyseeqnr-stock-2026-07-24/", "supports": "TD Cowen target and rating"},
+    {"label": "MarketBeat Morgan Stanley upgrade", "url": "https://www.marketbeat.com/instant-alerts/equinor-asa-nyseeqnr-raised-to-equal-weight-at-morgan-stanley-2026-03-24/", "supports": "Morgan Stanley rating"},
+    {"label": "Yahoo Finance Santander upgrade", "url": "https://finance.yahoo.com/news/grupo-santander-upgrades-equinor-eqnr-131453310.html", "supports": "Santander rating"}
+  ]
+}

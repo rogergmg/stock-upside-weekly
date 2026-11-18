@@ -1,0 +1,161 @@
+{
+ "issuer_id": "Canadian Natural Resources Limited",
+ "symbol": "CNQ",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 49.75,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-11-05T07:00:00-05:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Sam Margolin",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 42.79,
+   "source_prior": 32.97,
+   "issued_at": "2026-04-09",
+   "public_at": "2026-04-09T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-cnq-price-072120662.html"
+  },
+  {
+   "analyst": "Sam Margolin",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-04-09",
+   "public_at": "2026-04-09T23:59:59-04:00",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-cnq-price-072120662.html"
+  },
+  {
+   "analyst": "RBC Capital Markets research team",
+   "firm": "RBC Capital Markets",
+   "field": "target",
+   "value": 56.11,
+   "source_prior": 45.59,
+   "issued_at": "2026-04-08",
+   "public_at": "2026-04-08T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/royal-bank-of-canada-increases-canadian-natural-resources-tsecnq-price-target-to-c8000-2026-04-08/"
+  },
+  {
+   "analyst": "RBC Capital Markets research team",
+   "firm": "RBC Capital Markets",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-04-08",
+   "public_at": "2026-04-08T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/royal-bank-of-canada-increases-canadian-natural-resources-tsecnq-price-target-to-c8000-2026-04-08/"
+  },
+  {
+   "analyst": "CIBC research team",
+   "firm": "CIBC",
+   "field": "target",
+   "value": 49.1,
+   "source_prior": null,
+   "issued_at": "2026-05-04",
+   "public_at": "2026-05-04T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.placera.se/telegram/canadian-natural-resources-canadian-natural-resources-kept-at-outperformer-at-cibc-ahead-of-q1-results-price-target-at-c-70-00-20260504"
+  },
+  {
+   "analyst": "CIBC research team",
+   "firm": "CIBC",
+   "field": "rating",
+   "value": "Outperformer",
+   "bucket": "Buy",
+   "issued_at": "2026-05-04",
+   "public_at": "2026-05-04T23:59:59-04:00",
+   "source": "https://www.placera.se/telegram/canadian-natural-resources-canadian-natural-resources-kept-at-outperformer-at-cibc-ahead-of-q1-results-price-target-at-c-70-00-20260504"
+  },
+  {
+   "analyst": "BMO Capital Markets research team",
+   "firm": "BMO Capital Markets",
+   "field": "target",
+   "value": 49.1,
+   "source_prior": null,
+   "issued_at": "2026-03-06",
+   "public_at": "2026-03-06T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/canadian-natural-resources-tsecnq-given-new-c7000-price-target-at-bmo-capital-markets-2026-03-06/"
+  },
+  {
+   "analyst": "Scotiabank research team",
+   "firm": "Scotiabank",
+   "field": "target",
+   "value": 43.49,
+   "source_prior": 40.68,
+   "issued_at": "2026-03-06",
+   "public_at": "2026-03-06T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/canadian-natural-resources-tsecnq-given-new-c6200-price-target-at-scotiabank-2026-03-06/"
+  },
+  {
+   "analyst": "National Bank Financial research team",
+   "firm": "National Bank Financial",
+   "field": "target",
+   "value": 41.38,
+   "source_prior": 37.88,
+   "issued_at": "2026-03-06",
+   "public_at": "2026-03-06T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/canadian-natural-resources-tsecnq-given-new-c5900-price-target-at-national-bank-financial-2026-03-06/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E (FY2027 diluted adjusted EPS viewed at the Nov 2027 target date) with mid-cycle commodity logic. CNQ US listing is the ordinary share, ratio 1:1, so no ADR ratio; reporting currency is CAD, converted at USD/CAD 1.4257 (Bank of Canada rate for 2026-11-13 per a secondary report). FY2026 anchor: 9M diluted adjusted EPS C$5.01 (Q3 C$1.65, Q2 C$2.19) plus an assumed Q4 of about C$1.6, giving about C$6.6. FY2027 EPS and multiples are our assumptions, not a sourced forecast. Analyst targets are C$ values converted at the same FX.",
+  "bear": 36.82,
+  "base": 55.55,
+  "bull": 72.95,
+  "cases": {
+   "bear": {
+    "driver": "WTI falls well below the Q3 US$85.68 average, WCS differentials widen, multiple compresses.",
+    "assumption": "FY2027 EPS C$5.00 at 10.5x = C$52.50 = US$36.82",
+    "target": 36.82
+   },
+   "base": {
+    "driver": "Prices ease from Q3 levels, production holds near 1.65 MMboe/d, net debt below the C$13B target so returns stay high (buybacks 58.2M shares YTD).",
+    "assumption": "FY2027 EPS C$6.60 at 12x = C$79.20 = US$55.55",
+    "target": 55.55
+   },
+   "bull": {
+    "driver": "Strip stays near current levels, volumes and buybacks lift per-share earnings, premium multiple for low-decline oil sands.",
+    "assumption": "FY2027 EPS C$8.00 at 13x = C$104.00 = US$72.95",
+    "target": 72.95
+   }
+  },
+  "implied_by_close": "Close US$49.75 = C$70.93; at base EPS C$6.60 that is 10.7x. The analyst targets found (C$59 to C$80, about US$41 to US$56) imply roughly 9x to 12x on the same EPS.",
+  "sensitivity": "One turn of P/E moves the base target by US$4.63 (8.3%); C$1.00 of EPS at 12x moves it by US$8.42.",
+  "watch_metric": "Realized WTI/WCS price and annual production vs about 1.65 MMboe/d, plus net debt vs the C$13B target",
+  "next_disclosure": "Q4 and full-year 2026 results, expected early March 2027"
+ },
+ "dividend_per_share": 1.75,
+ "analyst_notes": "Named calls found are dated March to May 2026, all before the Q3 release on Nov 5, so none reflect the latest quarter; most are stale and horizons are undocumented, so they stay out of the weighted target. Brokers are mostly Canadian houses with Buy or Hold ratings. The gap to our base is a mix of multiple and EPS not attributable to any one broker.",
+ "sources": [
+  {
+   "label": "Q3 2026 MD&A (6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001017413/000101741326000049/a09302026q3mda.htm",
+   "supports": "EPS, net debt, production"
+  },
+  {
+   "label": "Q3 2026 results release",
+   "url": "https://finviz.com/news/416525/canadian-natural-resources-limited-announces-2026-third-quarter-results",
+   "supports": "YTD EPS, WTI, dividend, release date"
+  },
+  {
+   "label": "USD/CAD rate",
+   "url": "https://en.coinotag.com/bank-of-canada-reference-rate-1-4257-canadian-dollar",
+   "supports": "FX 1.4257"
+  },
+  {
+   "label": "Wells Fargo target",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-cnq-price-072120662.html",
+   "supports": "analyst event"
+  }
+ ]
+}

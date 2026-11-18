@@ -1,0 +1,31 @@
+{
+  "issuer_id": "Duke Energy Corporation",
+  "symbol": "DUK",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 129.16, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": null,
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward adjusted EPS x P/E. Each case uses FY2027 adjusted EPS (the year an investor at the 2027-11-18 target date is pricing). Anchors: Q3 2026 adjusted EPS $1.99 (vs $1.81), 2026 guidance narrowed to $6.70-6.80 with results expected near the top end, long-term 5-7% adjusted EPS growth through 2030 from a $6.30 2025 base, top half of the range from 2028. FY2027 EPS values are our assumptions off a roughly $6.77 2026 base. Multiples are judgement against regulated-utility forward ranges, not broker targets. US common share in USD, so no ADR or FX conversion applies.",
+    "bear": 114.68, "base": 132.83, "bull": 146.0,
+    "cases": {
+      "bear": {"driver": "Rate-case outcomes and higher financing costs slow growth to the low end and utility multiples compress", "assumption": "FY2027 adjusted EPS $6.95 (+2.7%) at 16.5x", "target": 114.68},
+      "base": {"driver": "Mid-range 5-7% growth from rate-base investment and load growth", "assumption": "FY2027 adjusted EPS $7.18 (+6%) at 18.5x", "target": 132.83},
+      "bull": {"driver": "Upper-end growth on data-center load and constructive regulation supports a premium multiple", "assumption": "FY2027 adjusted EPS $7.30 (+7.8%) at 20x", "target": 146.0}
+    },
+    "implied_by_close": "At base FY2027 EPS of $7.18 the close of $129.16 implies 18.0x (19.1x on 2026 EPS of about $6.77). Named analyst targets were not retrieved; firm-level targets from spring 2026 were $138-143.",
+    "sensitivity": "One turn of P/E moves the base target by $7.18 (5.6% of the close, 5.6 percentage points of price return).",
+    "watch_metric": "Adjusted EPS versus the guided $6.70-6.80 for 2026 and the 2027 guidance midpoint relative to the 5-7% growth path.",
+    "next_disclosure": "Q4 and full-year 2026 results with 2027 guidance, expected around February 2027 (date not announced)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "No named-analyst calls with verifiable dates were retrieved, so coverage is marked unavailable. Firm-level spring 2026 targets (Barclays $143, BMO $143, Evercore $140, UBS $140, Mizuho $139) predate the Q3 beat and are stale; they imply roughly 19-20x base EPS against our 18.5x.",
+  "sources": [
+    {"label": "Duke Energy Q3 2026 earnings release (8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0001326160/000132616026000048/er-20260930xearningsreleas.htm", "supports": "Q3 EPS, guidance"},
+    {"label": "Duke narrows 2026 earnings guidance", "url": "https://finviz.com/news/417164/duke-energy-reports-66-revenue-growth-and-narrows-2026-earnings-guidance", "supports": "2026 EPS range, growth outlook"},
+    {"label": "Q3 adjusted EPS beats estimates", "url": "https://capital.com/en-eu/news/duke-energy-q3-adjusted-eps-beats-estimates", "supports": "Q3 consensus comparison"},
+    {"label": "Mizuho raises DUK target", "url": "https://finance.yahoo.com/markets/stocks/articles/mizuho-raises-price-target-duke-052743435.html", "supports": "firm-level target context"}
+  ]
+}

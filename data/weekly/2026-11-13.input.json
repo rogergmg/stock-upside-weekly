@@ -21154,9 +21154,110 @@
         "high": 104718096000
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Kirk Materne",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 430,
+          "source_prior": 360,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/snowflake-keeps-sliding-but-evercore-isi-sees-51-upside"
+        },
+        {
+          "analyst": "Kirk Materne",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/snowflake-keeps-sliding-but-evercore-isi-sees-51-upside"
+        },
+        {
+          "analyst": "Sanjit Singh",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 470,
+          "source_prior": 300,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.schaeffersresearch.com/content/news/2026/09/03/snowflake-shares-soar-as-earnings-revenue-top-estimates"
+        },
+        {
+          "analyst": "Sanjit Singh",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://www.schaeffersresearch.com/content/news/2026/09/03/snowflake-shares-soar-as-earnings-revenue-top-estimates"
+        },
+        {
+          "analyst": "Tyler Radke",
+          "firm": "Citi",
+          "field": "target",
+          "value": 490,
+          "source_prior": 395,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15712340055229440"
+        },
+        {
+          "analyst": "Tyler Radke",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://www.webull.com/news/15712340055229440"
+        },
+        {
+          "analyst": "Koji Ikeda",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 470,
+          "source_prior": 395,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.schaeffersresearch.com/content/news/2026/09/03/snowflake-shares-soar-as-earnings-revenue-top-estimates"
+        },
+        {
+          "analyst": "Thomas Blakey",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 430,
+          "source_prior": 405,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15712340055229440"
+        },
+        {
+          "analyst": "Thomas Blakey",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://www.webull.com/news/15712340055229440"
+        }
+      ],
+      "earnings_at": "2026-09-02T16:05:00-04:00",
+      "valuation": {
+        "bear": 211.0,
+        "base": 307.0,
+        "bull": 411.0
+      }
     },
     {
       "issuer_id": "Equinor ASA",
@@ -21170,9 +21271,57 @@
         "high": 109559876318
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "TD Cowen analyst (not named in source)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 38,
+          "source_prior": 37,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-equinor-asa-nyseeqnr-stock-2026-07-24/"
+        },
+        {
+          "analyst": "TD Cowen analyst (not named in source)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-equinor-asa-nyseeqnr-stock-2026-07-24/"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (not named in source)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-03-24",
+          "public_at": "2026-03-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/equinor-asa-nyseeqnr-raised-to-equal-weight-at-morgan-stanley-2026-03-24/"
+        },
+        {
+          "analyst": "Grupo Santander analyst (not named in source)",
+          "firm": "Grupo Santander",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-05-11",
+          "public_at": "2026-05-11T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/news/grupo-santander-upgrades-equinor-eqnr-131453310.html"
+        }
+      ],
+      "earnings_at": "2026-10-28T07:00:00+01:00",
+      "valuation": {
+        "bear": 22.4,
+        "base": 39.9,
+        "bull": 58.8
+      },
+      "dividend_per_share": 1.56
     },
     {
       "issuer_id": "Canadian Natural Resources Limited",
@@ -21186,9 +21335,112 @@
         "high": 103789683208
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 42.79,
+          "source_prior": 32.97,
+          "issued_at": "2026-04-09",
+          "public_at": "2026-04-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-cnq-price-072120662.html"
+        },
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-04-09",
+          "public_at": "2026-04-09T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/canadian-natural-resources-cnq-price-072120662.html"
+        },
+        {
+          "analyst": "RBC Capital Markets research team",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 56.11,
+          "source_prior": 45.59,
+          "issued_at": "2026-04-08",
+          "public_at": "2026-04-08T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/royal-bank-of-canada-increases-canadian-natural-resources-tsecnq-price-target-to-c8000-2026-04-08/"
+        },
+        {
+          "analyst": "RBC Capital Markets research team",
+          "firm": "RBC Capital Markets",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-04-08",
+          "public_at": "2026-04-08T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/royal-bank-of-canada-increases-canadian-natural-resources-tsecnq-price-target-to-c8000-2026-04-08/"
+        },
+        {
+          "analyst": "CIBC research team",
+          "firm": "CIBC",
+          "field": "target",
+          "value": 49.1,
+          "source_prior": null,
+          "issued_at": "2026-05-04",
+          "public_at": "2026-05-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.placera.se/telegram/canadian-natural-resources-canadian-natural-resources-kept-at-outperformer-at-cibc-ahead-of-q1-results-price-target-at-c-70-00-20260504"
+        },
+        {
+          "analyst": "CIBC research team",
+          "firm": "CIBC",
+          "field": "rating",
+          "value": "Outperformer",
+          "bucket": "Buy",
+          "issued_at": "2026-05-04",
+          "public_at": "2026-05-04T23:59:59-04:00",
+          "source": "https://www.placera.se/telegram/canadian-natural-resources-canadian-natural-resources-kept-at-outperformer-at-cibc-ahead-of-q1-results-price-target-at-c-70-00-20260504"
+        },
+        {
+          "analyst": "BMO Capital Markets research team",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 49.1,
+          "source_prior": null,
+          "issued_at": "2026-03-06",
+          "public_at": "2026-03-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/canadian-natural-resources-tsecnq-given-new-c7000-price-target-at-bmo-capital-markets-2026-03-06/"
+        },
+        {
+          "analyst": "Scotiabank research team",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 43.49,
+          "source_prior": 40.68,
+          "issued_at": "2026-03-06",
+          "public_at": "2026-03-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/canadian-natural-resources-tsecnq-given-new-c6200-price-target-at-scotiabank-2026-03-06/"
+        },
+        {
+          "analyst": "National Bank Financial research team",
+          "firm": "National Bank Financial",
+          "field": "target",
+          "value": 41.38,
+          "source_prior": 37.88,
+          "issued_at": "2026-03-06",
+          "public_at": "2026-03-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/canadian-natural-resources-tsecnq-given-new-c5900-price-target-at-national-bank-financial-2026-03-06/"
+        }
+      ],
+      "earnings_at": "2026-11-05T07:00:00-05:00",
+      "valuation": {
+        "bear": 36.82,
+        "base": 55.55,
+        "bull": 72.95
+      },
+      "dividend_per_share": 1.75
     },
     {
       "issuer_id": "GSK plc",
@@ -21202,9 +21454,158 @@
         "high": 104107040252
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Citi analyst (not named)",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 54.82,
+          "source_prior": 56.15,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://kalkine.co.uk/news/healthcare/why-gsk-lsegsk-slid-on-the-ftse-100-citigroup-trimmed-its-price-target"
+        },
+        {
+          "analyst": "Citi analyst (not named)",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59+00:00",
+          "source": "https://kalkine.co.uk/news/healthcare/why-gsk-lsegsk-slid-on-the-ftse-100-citigroup-trimmed-its-price-target"
+        },
+        {
+          "analyst": "Bernstein analyst (not named)",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 70.33,
+          "source_prior": 73.53,
+          "issued_at": "2026-06-09",
+          "public_at": "2026-06-09T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://www.placera.se/telegram/gsk-price-target-cut-as-bernstein-notes-near-term-catalysts-20260505"
+        },
+        {
+          "analyst": "Bernstein analyst (not named)",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-06-09",
+          "public_at": "2026-06-09T23:59:59+01:00",
+          "source": "https://www.placera.se/telegram/gsk-price-target-cut-as-bernstein-notes-near-term-catalysts-20260505"
+        },
+        {
+          "analyst": "J.P. Morgan analyst (not named)",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 45.46,
+          "issued_at": "2026-06-09",
+          "public_at": "2026-06-09T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gsk/forecast/"
+        },
+        {
+          "analyst": "J.P. Morgan analyst (not named)",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-06-09",
+          "public_at": "2026-06-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/stocks/gsk/forecast/"
+        },
+        {
+          "analyst": "UBS analyst (not named)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 51.88,
+          "issued_at": "2026-06-09",
+          "public_at": "2026-06-09T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+        },
+        {
+          "analyst": "UBS analyst (not named)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-06-09",
+          "public_at": "2026-06-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+        },
+        {
+          "analyst": "Barclays analyst (not named)",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 48.13,
+          "issued_at": "2026-06-09",
+          "public_at": "2026-06-09T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+        },
+        {
+          "analyst": "Barclays analyst (not named)",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-06-09",
+          "public_at": "2026-06-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+        },
+        {
+          "analyst": "Jefferies analyst (not named)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 66.85,
+          "issued_at": "2026-06-03",
+          "public_at": "2026-06-03T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+        },
+        {
+          "analyst": "Jefferies analyst (not named)",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-06-03",
+          "public_at": "2026-06-03T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/lon/GSK/ratings/"
+        },
+        {
+          "analyst": "Wolfe Research analyst (not named)",
+          "firm": "Wolfe Research",
+          "field": "target",
+          "value": 70.0,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-gsk-nyse-gsk-now-covered-by-wolfe-research-2026-10-09/"
+        },
+        {
+          "analyst": "Wolfe Research analyst (not named)",
+          "firm": "Wolfe Research",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-gsk-nyse-gsk-now-covered-by-wolfe-research-2026-10-09/"
+        }
+      ],
+      "earnings_at": "2026-10-28T07:00:00+00:00",
+      "valuation": {
+        "bear": 44.5,
+        "base": 58.2,
+        "bull": 70.2
+      },
+      "dividend_per_share": 1.87
     },
     {
       "issuer_id": "Duke Energy Corporation",
@@ -21218,9 +21619,14 @@
         "high": 102729219137
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": null,
+      "valuation": {
+        "bear": 114.68,
+        "base": 132.83,
+        "bull": 146.0
+      }
     },
     {
       "issuer_id": "Intercontinental Exchange, Inc.",

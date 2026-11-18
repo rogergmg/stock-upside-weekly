@@ -1,0 +1,167 @@
+{
+  "issuer_id": "The Home Depot, Inc.",
+  "symbol": "HD",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 348.69,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-08-18T06:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Christopher Horvers",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 400,
+      "source_prior": 396,
+      "horizon_months": null,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+    },
+    {
+      "analyst": "Christopher Horvers",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+    },
+    {
+      "analyst": "(unnamed) Truist Securities",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 373,
+      "source_prior": 369,
+      "horizon_months": null,
+      "issued_at": "2026-08-19",
+      "public_at": "2026-08-19T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+    },
+    {
+      "analyst": "(unnamed) Truist Securities",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-19",
+      "public_at": "2026-08-19T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+    },
+    {
+      "analyst": "(unnamed) Guggenheim",
+      "firm": "Guggenheim",
+      "field": "target",
+      "value": 425,
+      "horizon_months": null,
+      "issued_at": "2026-08-19",
+      "public_at": "2026-08-19T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/home-depots-hd-buy-rating-reaffirmed-at-guggenheim-2026-08-19/"
+    },
+    {
+      "analyst": "(unnamed) Guggenheim",
+      "firm": "Guggenheim",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-19",
+      "public_at": "2026-08-19T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/home-depots-hd-buy-rating-reaffirmed-at-guggenheim-2026-08-19/"
+    },
+    {
+      "analyst": "(unnamed) Jefferies",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 398,
+      "horizon_months": null,
+      "issued_at": "2026-08-18",
+      "public_at": "2026-08-18T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+    },
+    {
+      "analyst": "(unnamed) Jefferies",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-18",
+      "public_at": "2026-08-18T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+    },
+    {
+      "analyst": "(unnamed) Melius Research",
+      "firm": "Melius Research",
+      "field": "target",
+      "value": 397,
+      "horizon_months": null,
+      "issued_at": "2026-10-06",
+      "public_at": "2026-10-06T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+    },
+    {
+      "analyst": "(unnamed) UBS",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-17",
+      "public_at": "2026-09-17T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS (fiscal year ending Jan 2028) viewed at the 12-month target date (Nov 2027), using only information public by the 2026-11-13 close. Anchored on FY2026 guidance of adjusted EPS growth of about flat to +4% from $14.69 ($14.69-$15.28, midpoint about $14.98). Q2 FY2026 (reported 2026-08-18): sales $47.9B, comps +1.7%, adjusted EPS $4.92. Currency USD, US listing, no ADR conversion. The Q3 release of 2026-11-17 is after the reference close and excluded (see analyst_notes).",
+    "bear": 281.2,
+    "base": 363.4,
+    "bull": 422.5,
+    "cases": {
+      "bear": {
+        "driver": "Housing turnover stays frozen, comps about flat, margin pressure; FY2027 EPS roughly equal to the low end of FY2026 guidance",
+        "assumption": "EPS $14.80 at 19.0x",
+        "target": 281.2
+      },
+      "base": {
+        "driver": "Low-single-digit comps, Pro/SRS growth and buybacks give about 5-6% EPS growth on the FY2026 guidance midpoint",
+        "assumption": "EPS $15.80 at 23.0x",
+        "target": 363.4
+      },
+      "bull": {
+        "driver": "Lower mortgage rates lift housing turnover, comps +3-4%, operating leverage returns",
+        "assumption": "EPS $16.90 at 25.0x",
+        "target": 422.5
+      }
+    },
+    "implied_by_close": "At base EPS $15.80 the close implies 22.1x; the analyst-weighted target of about $395 implies 25.0x on base EPS, or about $17.2 EPS at 23x",
+    "sensitivity": "One turn of P/E moves the base target by $15.80 (4.5 pp of the close)",
+    "watch_metric": "US comparable sales growth and operating margin (FY2026 guide: comps flat to +2%, adjusted EPS flat to +4%)",
+    "next_disclosure": "Q4 and fiscal 2026 results, expected February 2027"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Named calls are clustered around the Aug 18-19 Q2 release, with later JPMorgan (raise to $400 from $396 on Nov 9), Melius ($397, Oct 6) and a UBS Buy reaffirmation; no named target cut was verified before the close. Targets of $373-$425 sit 7-22% above the close versus the 4% base case, a gap of roughly 2 P/E turns (25x vs 23x) or about $1.4 EPS. Seven of ten events predate the Nov 17 Q3 release, which is after the reference close and is not used. Published consensus (MarketBeat, 32-33 analysts) is about $371-375 with 18-20 Buy, 12-13 Hold and 1 Sell; Bernstein (Market Perform) and Stifel (Hold) were reported lower but could not be verified, so the sample leans bullish.",
+  "sources": [
+    {
+      "label": "Home Depot Q2 FY2026 earnings release (2026-08-18)",
+      "url": "https://corporate.homedepot.com/news/earnings/home-depot-announces-second-quarter-2026-earnings",
+      "supports": "Q2 results, FY2026 guidance, FY2025 EPS base"
+    },
+    {
+      "label": "MarketBeat JPMorgan target raise (2026-11-09)",
+      "url": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/",
+      "supports": "JPMorgan, Truist, Guggenheim, Jefferies, Melius, UBS calls, market cap"
+    },
+    {
+      "label": "MarketBeat Guggenheim reaffirmation (2026-08-19)",
+      "url": "https://www.marketbeat.com/instant-alerts/home-depots-hd-buy-rating-reaffirmed-at-guggenheim-2026-08-19/",
+      "supports": "Guggenheim Buy and $425 target"
+    },
+    {
+      "label": "Home Depot Q3 FY2026 release (8-K, after reference close)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000354950/000035495026000184/hd_exhibit991x11012026.htm",
+      "supports": "Subsequent-events note only"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+ "issuer_id": "Intel Corporation",
+ "symbol": "INTC",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 59.66, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-10-29T16:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {"analyst":"Vivek Arya","firm":"Bank of America Securities","field":"target","value":80,"source_prior":100,"issued_at":"2026-11-12","public_at":"2026-11-12T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Vivek Arya","firm":"Bank of America Securities","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-11-12","public_at":"2026-11-12T23:59:59-05:00","source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Srini Pajjuri","firm":"RBC Capital","field":"target","value":75,"issued_at":"2026-11-10","public_at":"2026-11-10T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Srini Pajjuri","firm":"RBC Capital","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-11-10","public_at":"2026-11-10T23:59:59-05:00","source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Thomas O'Malley","firm":"Barclays","field":"target","value":75,"issued_at":"2026-11-05","public_at":"2026-11-05T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Thomas O'Malley","firm":"Barclays","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-11-05","public_at":"2026-11-05T23:59:59-05:00","source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Atif Malik","firm":"Citi","field":"target","value":100,"source_prior":130,"issued_at":"2026-11-02","public_at":"2026-11-02T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Atif Malik","firm":"Citi","field":"rating","value":"Buy","bucket":"Buy","issued_at":"2026-11-02","public_at":"2026-11-02T23:59:59-05:00","source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Harlan Sur","firm":"J.P. Morgan","field":"target","value":80,"source_prior":85,"issued_at":"2026-10-31","public_at":"2026-10-31T23:59:59-04:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Harlan Sur","firm":"J.P. Morgan","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-10-31","public_at":"2026-10-31T23:59:59-04:00","source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Egor Tolmachev","firm":"Freedom Capital Markets","field":"target","value":90,"source_prior":100,"issued_at":"2026-10-30","public_at":"2026-10-30T23:59:59-04:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Egor Tolmachev","firm":"Freedom Capital Markets","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-10-30","public_at":"2026-10-30T23:59:59-04:00","source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Gus Richard","firm":"Northland Securities","field":"target","value":93,"source_prior":120,"issued_at":"2026-10-30","public_at":"2026-10-30T23:59:59-04:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/intc/ratings/"},
+  {"analyst":"Gus Richard","firm":"Northland Securities","field":"rating","value":"Buy","bucket":"Buy","issued_at":"2026-10-30","public_at":"2026-10-30T23:59:59-04:00","source":"https://stockanalysis.com/stocks/intc/ratings/"}
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2028 non-GAAP EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchors: Q3 2026 non-GAAP EPS $0.52 on revenue $16.5B (non-GAAP GM 44.1%, tax 11.0%), Q2 non-GAAP EPS $0.42, Q4 guide revenue $15.0-16.0B and non-GAAP EPS $0.25 (GM 38.0%), diluted shares 5,307M after a $23B equity raise. FY2028 EPS and multiples are my own assumptions; Intel gives no guidance beyond Q4.",
+  "bear": 30.8,
+  "base": 67.2,
+  "bull": 105.0,
+  "cases": {
+   "bear": {"driver": "Xeon supply and 18A/14A execution slip, PC slowdown persists beyond 1H27, foundry losses and capex keep margins near the Q4 guide level (38% GM) with dilution.", "assumption": "FY2028 non-GAAP EPS $1.40 at 22x", "target": 30.8},
+   "base": {"driver": "Data center revenue (+78% in Q3) keeps growing on Xeon supply, PC stabilizes in 2H27, non-GAAP GM recovers toward 42-43%, share count about 5.4B.", "assumption": "FY2028 non-GAAP EPS $2.40 at 28x", "target": 67.2},
+   "bull": {"driver": "External 14A foundry customer wins plus AI-driven Xeon demand lift gross margin above 45% and operating margin toward 25%.", "assumption": "FY2028 non-GAAP EPS $3.50 at 30x", "target": 105.0}
+  },
+  "implied_by_close": "At base EPS $2.40 the $59.66 close implies 24.9x; the weighted analyst target (about $80-85) implies about 34x at that EPS, or about $3.00 EPS at 28x.",
+  "sensitivity": "One turn of P/E moves the base target by $2.40 (about 4.0 pp of the close); $0.10 of EPS moves it $2.80.",
+  "watch_metric": "Data Center and AI revenue growth and non-GAAP gross margin recovery from the 38% Q4 guide",
+  "next_disclosure": "Q4 2026 earnings release, expected late January 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "All eight named views were issued after the Oct 29 earnings release and most cut targets (BofA 100 to 80, Citi 130 to 100, Northland 120 to 93, JPMorgan 85 to 80, Freedom 100 to 90 with a downgrade to Hold). Six of eight are Hold and the targets cluster at $75-100, above the $59.66 close; versus my $67 base they imply roughly 30x or more on $2.40 EPS or about $3.00 EPS at 28x. Target horizons are not documented in the sources, so none enter the weighted target; Argus (Hold, Nov 3) has no named analyst or target and is excluded.",
+ "sources": [
+  {"label": "Intel Q3 2026 earnings release (8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm", "supports": "Q3 EPS, Q4 guidance, share count, margins, cash and debt"},
+  {"label": "Intel Q2 2026 earnings release (8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000155/q226earningsrelease.htm", "supports": "Q2 non-GAAP EPS and revenue"},
+  {"label": "Jon Peddie Research Q3'26 summary", "url": "https://www.jonpeddie.com/news/intels-q326-financial-results/", "supports": "segment results, PC outlook"},
+  {"label": "StockAnalysis INTC ratings", "url": "https://stockanalysis.com/stocks/intc/ratings/", "supports": "analyst targets, ratings and prior targets"}
+ ]
+}

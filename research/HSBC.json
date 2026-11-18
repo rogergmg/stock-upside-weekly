@@ -1,0 +1,273 @@
+{
+ "issuer_id": "HSBC Holdings plc",
+ "symbol": "HSBC",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 89.62,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-27T07:00:00+00:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Aman Rakkar",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 105.84,
+   "issued_at": "2026-11-10",
+   "public_at": "2026-11-10T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Aman Rakkar",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-10",
+   "public_at": "2026-11-10T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Kian Abouhossein",
+   "firm": "J.P. Morgan",
+   "field": "target",
+   "value": 95.92,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Kian Abouhossein",
+   "firm": "J.P. Morgan",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Andrew Coombs",
+   "firm": "Citi",
+   "field": "target",
+   "value": 93.93,
+   "source_prior": 108.49,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Andrew Coombs",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Robert Noble",
+   "firm": "Deutsche Bank",
+   "field": "target",
+   "value": 100.55,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Robert Noble",
+   "firm": "Deutsche Bank",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Joseph Dickerson",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 74.09,
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Joseph Dickerson",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Benjamin Toms",
+   "firm": "RBC Capital Markets",
+   "field": "target",
+   "value": 90.96,
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Benjamin Toms",
+   "firm": "RBC Capital Markets",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Perlie Mong",
+   "firm": "Bank of America Securities",
+   "field": "target",
+   "value": 111.46,
+   "source_prior": 113.78,
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Perlie Mong",
+   "firm": "Bank of America Securities",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Melissa Kuang",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 123.04,
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Melissa Kuang",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Jason Napier",
+   "firm": "UBS",
+   "field": "target",
+   "value": 99.29,
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Jason Napier",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59+00:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Alvaro Serrano",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 110.74,
+   "source_prior": 101.01,
+   "issued_at": "2026-08-04",
+   "public_at": "2026-08-04T23:59:59+01:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  },
+  {
+   "analyst": "Alvaro Serrano",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-08-04",
+   "public_at": "2026-08-04T23:59:59+01:00",
+   "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+  }
+ ],
+ "valuation": {
+  "method": "Bank: tangible net asset value (TNAV) per ordinary share projected to the 12-month target date (Nov 2027) x P/TNAV, converted to the NYSE ADR at 1 ADR = 5 ordinary shares (ADR ratio from memory of the HSBC/BNY Mellon program; confirm on the depositary page). HSBC reports in USD, so no FX is needed for the valuation itself: Q3 2026 TNAV $9.41 per ordinary share ($47.05 per ADR; 6-K of 2026-10-27). Base grows TNAV about 6% to $9.95 by Nov 2027 (RoTE 17%+ target, 50% payout, ongoing $1bn buybacks, CET1 13.9% vs 14-14.5% target). Steady-state check P/TNAV = (RoTE 17% - g 4%)/(COE 11% - 4%) = 1.86x, so base uses 1.85x. Cross-check: $18.41 per ordinary share is about 10.3x model FY2027 EPS of about $1.78 (9M26 diluted EPS $1.26; assumption, not guidance). Analyst targets are published in GBp for the London line; converted per ADR as GBp/100 x 5 x GBP/USD 1.323 (approximate Nov 13 2026 level, ~1.322-1.323 intraday; not an official close). Same conversion applied to each prior target.",
+  "bear": 67.2,
+  "base": 92.03,
+  "bull": 113.3,
+  "cases": {
+   "bear": {
+    "driver": "Credit costs run above the 45bp 2026 guide, Hong Kong property and rate pressure cut RoTE to about 12%, buybacks pause and CET1 stays below range; TNAV about flat.",
+    "assumption": "TNAV $9.60 per ordinary share at 1.40x P/TNAV = $13.44, x5 per ADR",
+    "target": 67.2
+   },
+   "base": {
+    "driver": "Banking NII of at least $46bn, cost growth about 1%, RoTE about 17-18% as targeted, 50% payout plus $1bn-a-quarter style buybacks keep TNAV compounding about 6%.",
+    "assumption": "TNAV $9.95 per ordinary share at 1.85x P/TNAV = $18.41, x5 per ADR",
+    "target": 92.03
+   },
+   "bull": {
+    "driver": "Wealth and fee income re-accelerate, RoTE above 19%, ECL normalises to the 30-40bp range and capital return steps up; TNAV compounds about 9%.",
+    "assumption": "TNAV $10.30 per ordinary share at 2.20x P/TNAV = $22.66, x5 per ADR",
+    "target": 113.3
+   }
+  },
+  "implied_by_close": "The close of $89.62 ($17.92 per ordinary share) is 1.90x Q3 TNAV of $9.41 and 1.80x base Nov 2027 TNAV of $9.95. The equal-weight named target of about $100.6 per ADR ($20.12 per share) implies 2.02x base TNAV, or TNAV of about $10.88 at a constant 1.85x.",
+  "sensitivity": "0.1x of P/TNAV moves the base target by $4.98 per ADR (5.6 pp of price return); $0.10 of TNAV per ordinary share moves it by $0.93 (1.0 pp).",
+  "watch_metric": "RoTE excluding notable items (base needs 17% or better), TNAV per share growth from $9.41, banking NII tracking the $46bn-plus guide, and ECL near 45bp of loans.",
+  "next_disclosure": "FY2026 results, expected late February 2027 (date not confirmed; check the HSBC investor calendar)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Ten named analysts were sourced from one TipRanks forecast table (retrieved 2026-11-18); nine updated on or after the Oct 27 Q3 release (Citi cut 1,640p to 1,420p, BofA cut 1,720p to 1,685p); Morgan Stanley (Aug 4, raised from 1,527p) is the only pre-earnings call. Converted at 1.323, named targets run from $74 (Jefferies) to $123 (Goldman) with an equal-weight mean of about $100.6, roughly 9.5 pp above the 2.7% base-case return; that is equal to about 2.02x versus 1.85x base TNAV, or TNAV near $10.9, though the analysts' assumptions are unknown. Horizons are undocumented so none enter the weighted target; all ten rows come from one aggregator, and Citic, Huatai, CICC, DBS and KBW rows were omitted (unnamed analyst, HK/other basis or older). GBp-to-USD conversion uses an approximate rate and the 1:5 ADR ratio.",
+ "sources": [
+  {
+   "label": "HSBC 3Q 2026 earnings release (6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001089113/000108911326000030/livedocq32026earningsrelea.htm",
+   "supports": "TNAV $9.41, EPS, RoTE, CET1, guidance, share count, dividends, buyback"
+  },
+  {
+   "label": "TipRanks HSBC Holdings analyst forecast table",
+   "url": "https://www.tipranks.com/stocks/gb:hsba/forecast",
+   "supports": "Named analyst ratings and GBp targets, dates"
+  },
+  {
+   "label": "Yahoo Finance UK: Jefferies Hold 1,120p after Q3",
+   "url": "https://uk.finance.yahoo.com/news/forecast-hsbc-shares-plunge-just-084700253.html",
+   "supports": "Jefferies Dickerson Hold, 1,120p, Oct 27 2026"
+  },
+  {
+   "label": "Trading Economics: sterling near $1.322 on Nov 13",
+   "url": "https://tradingeconomics.com/united-kingdom/currency/news/601113",
+   "supports": "GBP/USD about 1.322-1.323"
+  },
+  {
+   "label": "MarketScreener HSBC 3Q 2026 release",
+   "url": "https://www.marketscreener.com/news/hsbc-3q-2026-earnings-release-ce785cdcd08bff20",
+   "supports": "Consensus context and release date"
+  }
+ ]
+}

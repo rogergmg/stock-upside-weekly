@@ -5127,9 +5127,117 @@
         "high": 354913318643
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Christopher Horvers",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 400,
+          "source_prior": 396,
+          "horizon_months": null,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+        },
+        {
+          "analyst": "Christopher Horvers",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+        },
+        {
+          "analyst": "(unnamed) Truist Securities",
+          "firm": "Truist Securities",
+          "field": "target",
+          "value": 373,
+          "source_prior": 369,
+          "horizon_months": null,
+          "issued_at": "2026-08-19",
+          "public_at": "2026-08-19T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+        },
+        {
+          "analyst": "(unnamed) Truist Securities",
+          "firm": "Truist Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-19",
+          "public_at": "2026-08-19T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+        },
+        {
+          "analyst": "(unnamed) Guggenheim",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 425,
+          "horizon_months": null,
+          "issued_at": "2026-08-19",
+          "public_at": "2026-08-19T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/home-depots-hd-buy-rating-reaffirmed-at-guggenheim-2026-08-19/"
+        },
+        {
+          "analyst": "(unnamed) Guggenheim",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-19",
+          "public_at": "2026-08-19T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/home-depots-hd-buy-rating-reaffirmed-at-guggenheim-2026-08-19/"
+        },
+        {
+          "analyst": "(unnamed) Jefferies",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 398,
+          "horizon_months": null,
+          "issued_at": "2026-08-18",
+          "public_at": "2026-08-18T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+        },
+        {
+          "analyst": "(unnamed) Jefferies",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-18",
+          "public_at": "2026-08-18T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+        },
+        {
+          "analyst": "(unnamed) Melius Research",
+          "firm": "Melius Research",
+          "field": "target",
+          "value": 397,
+          "horizon_months": null,
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+        },
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-17",
+          "public_at": "2026-09-17T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-home-depot-nyse-hd-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-11-09/"
+        }
+      ],
+      "earnings_at": "2026-08-18T06:00:00-04:00",
+      "valuation": {
+        "bear": 281.2,
+        "base": 363.4,
+        "bull": 422.5
+      }
     },
     {
       "issuer_id": "GE Aerospace",
@@ -5143,9 +5251,183 @@
         "high": 349734030925
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Susquehanna (analyst not named)",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 400,
+          "source_prior": 430,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-stock-price-up-11-still-a-buy-2026-10-26/"
+        },
+        {
+          "analyst": "Susquehanna (analyst not named)",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Positive",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-stock-price-up-11-still-a-buy-2026-10-26/"
+        },
+        {
+          "analyst": "Deutsche Bank (analyst not named)",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 378,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-37-whats-next-2026-10-30/"
+        },
+        {
+          "analyst": "Deutsche Bank (analyst not named)",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-37-whats-next-2026-10-30/"
+        },
+        {
+          "analyst": "JPMorgan (analyst not named)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 375,
+          "source_prior": 400,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-37-whats-next-2026-10-30/"
+        },
+        {
+          "analyst": "JPMorgan (analyst not named)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-37-whats-next-2026-10-30/"
+        },
+        {
+          "analyst": "Morgan Stanley (analyst not named)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 375,
+          "source_prior": 400,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-27-heres-why-2026-10-23/"
+        },
+        {
+          "analyst": "Morgan Stanley (analyst not named)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-27-heres-why-2026-10-23/"
+        },
+        {
+          "analyst": "Bernstein (analyst not named)",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 376,
+          "source_prior": 421,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-27-heres-why-2026-10-23/"
+        },
+        {
+          "analyst": "UBS (analyst not named)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 380,
+          "source_prior": 377,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-27-heres-why-2026-10-23/"
+        },
+        {
+          "analyst": "UBS (analyst not named)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-27-heres-why-2026-10-23/"
+        },
+        {
+          "analyst": "Guggenheim (analyst not named)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 380,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-37-whats-next-2026-10-30/"
+        },
+        {
+          "analyst": "Jefferies (analyst not named)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 425,
+          "source_prior": 435,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/ge-aerospace-lost-3-in-a-month-jefferies-still-sees-41-upside"
+        },
+        {
+          "analyst": "Jefferies (analyst not named)",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/ge-aerospace-lost-3-in-a-month-jefferies-still-sees-41-upside"
+        },
+        {
+          "analyst": "Wells Fargo (analyst not named)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 380,
+          "source_prior": 390,
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-37-whats-next-2026-10-30/"
+        },
+        {
+          "analyst": "Wells Fargo (analyst not named)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-ge-aerospace-nyse-ge-shares-down-37-whats-next-2026-10-30/"
+        }
+      ],
+      "earnings_at": "2026-10-20T07:00:00-04:00",
+      "valuation": {
+        "bear": 272.8,
+        "base": 353.4,
+        "bull": 407.4
+      },
+      "dividend_per_share": 1.88
     },
     {
       "issuer_id": "Intel Corporation",
@@ -5159,9 +5441,160 @@
         "high": 323434758000
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Vivek Arya",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 80,
+          "source_prior": 100,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 75,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 75,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "target",
+          "value": 100,
+          "source_prior": 130,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Harlan Sur",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 80,
+          "source_prior": 85,
+          "issued_at": "2026-10-31",
+          "public_at": "2026-10-31T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Harlan Sur",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-31",
+          "public_at": "2026-10-31T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Egor Tolmachev",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 90,
+          "source_prior": 100,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Egor Tolmachev",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Gus Richard",
+          "firm": "Northland Securities",
+          "field": "target",
+          "value": 93,
+          "source_prior": 120,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        },
+        {
+          "analyst": "Gus Richard",
+          "firm": "Northland Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/intc/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-29T16:30:00-04:00",
+      "valuation": {
+        "bear": 30.8,
+        "base": 67.2,
+        "bull": 105.0
+      }
     },
     {
       "issuer_id": "Philip Morris International Inc.",
@@ -5175,9 +5608,160 @@
         "high": 316375919574
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Edward Hockin",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 200,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Edward Hockin",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Lisa Lewandowski",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 211,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pm/ratings/",
+          "source_prior": 209
+        },
+        {
+          "analyst": "Lisa Lewandowski",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Matthew Smith",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 232,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pm/ratings/",
+          "source_prior": 205
+        },
+        {
+          "analyst": "Matthew Smith",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Pallav Mittal",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 225,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Pallav Mittal",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Bonnie Herzog",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 222,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Bonnie Herzog",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Christine Dooley",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 220,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pm/ratings/",
+          "source_prior": 210
+        },
+        {
+          "analyst": "Christine Dooley",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        },
+        {
+          "analyst": "Faham Baig",
+          "firm": "UBS",
+          "field": "target",
+          "value": 201,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pm/ratings/",
+          "source_prior": 193
+        },
+        {
+          "analyst": "Faham Baig",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pm/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-21T07:00:00-04:00",
+      "valuation": {
+        "bear": 162.5,
+        "base": 200.2,
+        "bull": 232.8
+      },
+      "dividend_per_share": 6.4
     },
     {
       "issuer_id": "HSBC Holdings plc",
@@ -5191,9 +5775,218 @@
         "high": 313884719277
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Aman Rakkar",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 105.84,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Aman Rakkar",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Kian Abouhossein",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 95.92,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Kian Abouhossein",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Andrew Coombs",
+          "firm": "Citi",
+          "field": "target",
+          "value": 93.93,
+          "source_prior": 108.49,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Andrew Coombs",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Robert Noble",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 100.55,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Robert Noble",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Joseph Dickerson",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 74.09,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Joseph Dickerson",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Benjamin Toms",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 90.96,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Benjamin Toms",
+          "firm": "RBC Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Perlie Mong",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 111.46,
+          "source_prior": 113.78,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Perlie Mong",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Melissa Kuang",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 123.04,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Melissa Kuang",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Jason Napier",
+          "firm": "UBS",
+          "field": "target",
+          "value": 99.29,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Jason Napier",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59+00:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Alvaro Serrano",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 110.74,
+          "source_prior": 101.01,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        },
+        {
+          "analyst": "Alvaro Serrano",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59+01:00",
+          "source": "https://www.tipranks.com/stocks/gb:hsba/forecast"
+        }
+      ],
+      "earnings_at": "2026-10-27T07:00:00+00:00",
+      "valuation": {
+        "bear": 67.2,
+        "base": 92.03,
+        "bull": 113.3
+      }
     },
     {
       "issuer_id": "Novartis AG",

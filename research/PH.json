@@ -1,0 +1,197 @@
+{
+ "issuer_id": "Parker-Hannifin Corporation",
+ "symbol": "PH",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 955.68,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-11-05T06:30:00-05:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Andrew Kaplowitz",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 1234,
+   "source_prior": 1232,
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Andrew Kaplowitz",
+   "firm": "Citigroup",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Chigusa Katoku",
+   "firm": "JPMorgan Chase",
+   "field": "target",
+   "value": 1131,
+   "source_prior": 1140,
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Chigusa Katoku",
+   "firm": "JPMorgan Chase",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Joseph Giordano",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 950,
+   "source_prior": 850,
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Joseph Giordano",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Nathan Jones",
+   "firm": "Stifel Nicolaus",
+   "field": "target",
+   "value": 1002,
+   "source_prior": null,
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Nathan Jones",
+   "firm": "Stifel Nicolaus",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Brett Linzey",
+   "firm": "Mizuho",
+   "field": "target",
+   "value": 1200,
+   "source_prior": null,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Amit Mehrotra",
+   "firm": "UBS Group",
+   "field": "target",
+   "value": 950,
+   "source_prior": null,
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Andrew Buscaglia",
+   "firm": "BNP Paribas Exane",
+   "field": "target",
+   "value": 1270,
+   "source_prior": 1220,
+   "issued_at": "2026-09-18",
+   "public_at": "2026-09-18T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Andrew Buscaglia",
+   "firm": "BNP Paribas Exane",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-09-18",
+   "public_at": "2026-09-18T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  },
+  {
+   "analyst": "Varun Govindaraj",
+   "firm": "Sanford C. Bernstein",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PH"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2028 adjusted EPS (the year an investor pays for in Nov 2027) x justified multiple. Anchored on FY2027 adjusted EPS guidance of $36.45-$37.25 (midpoint $36.85) including Filtration Group; FY2028 grown from that base. Adjusted EPS excludes acquisition amortization, so multiple is on adjusted basis.",
+  "bear": 750.0,
+  "base": 984.0,
+  "bull": 1188.0,
+  "cases": {
+   "bear": {
+    "driver": "Industrial downturn and Filtration integration slippage; organic growth stalls, margin flat",
+    "assumption": "FY2028 adj EPS $37.50 at 20x",
+    "target": 750.0
+   },
+   "base": {
+    "driver": "Guide met, ~11% organic growth moderating, Filtration synergies, margin expansion toward 30% FY31 target",
+    "assumption": "FY2028 adj EPS $41.00 (+11% on $36.85) at 24x",
+    "target": 984.0
+   },
+   "bull": {
+    "driver": "Aerospace and industrial strength, faster synergies and buybacks, margin target reached early",
+    "assumption": "FY2028 adj EPS $44.00 at 27x",
+    "target": 1188.0
+   }
+  },
+  "implied_by_close": "At base FY2028 EPS $41.00 the close implies 23.3x; the roughly $1,147 consensus-style target implies 28x or EPS about $48.",
+  "sensitivity": "One turn of P/E moves the base target by $41 (4.3 pp)",
+  "watch_metric": "Segment operating margin and organic growth versus the FY2027 adjusted EPS guide",
+  "next_disclosure": "Q2 FY2027 earnings, expected early February 2027 (company guided Q2 adjusted EPS about $8.82)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named targets were raised broadly in August after the FY2026 results, then Oct targets are mixed: TD Cowen lifted to $950 from $850, JPMorgan trimmed to $1,131, Citi and BNP held above $1,230. Dates found are mostly before the Nov 5 results, so post-earnings revisions are thinly sampled. Most targets (about $950 to $1,270) imply 26-31x FY2027 EPS or higher EPS than the base; the base uses 24x FY2028, so the gap is mainly multiple. Horizons are undocumented so none enter the weighted target.",
+ "sources": [
+  {
+   "label": "Q1 FY2027 8-K exhibit 99.1",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000076334/000007633426000170/exhibit991q1fy27.htm",
+   "supports": "Q1 results, FY2027 guidance"
+  },
+  {
+   "label": "Parker Q1 FY2027 release",
+   "url": "https://finviz.com/news/416828/parker-delivers-record-fiscal-2027-first-quarter-results-raises-full-year-outlook",
+   "supports": "Guidance raise, Filtration Group"
+  },
+  {
+   "label": "PH analyst calls",
+   "url": "https://www.pricetargets.com/NYSE/PH",
+   "supports": "Analyst targets and ratings"
+  }
+ ]
+}

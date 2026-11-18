@@ -16807,9 +16807,14 @@
         "high": 123779288880
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-10-29T16:05:00-04:00",
+      "valuation": {
+        "bear": 82.8,
+        "base": 110.2,
+        "bull": 131.2
+      }
     },
     {
       "issuer_id": "Seagate Technology Holdings plc",
@@ -16823,9 +16828,176 @@
         "high": 123700335039
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 1200,
+          "source_prior": 1187,
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-seagate-technology-nasdaq-stx-price-target-raised-to-120000-2026-10-20/"
+        },
+        {
+          "analyst": "Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 1148,
+          "source_prior": 1200,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 900,
+          "source_prior": 1000,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 820,
+          "source_prior": 865,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "UBS analyst",
+          "firm": "UBS",
+          "field": "target",
+          "value": 750,
+          "source_prior": 780,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.cnn.com/markets/stocks/STX"
+        },
+        {
+          "analyst": "UBS analyst",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.cnn.com/markets/stocks/STX"
+        },
+        {
+          "analyst": "Susquehanna analyst",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 765,
+          "source_prior": 925,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "Susquehanna analyst",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 1000,
+          "source_prior": 1300,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652284/these-analysts-revise-their-forecasts-on-seagate-after-q1-results"
+        },
+        {
+          "analyst": "Rosenblatt analyst",
+          "firm": "Rosenblatt",
+          "field": "target",
+          "value": 1100,
+          "source_prior": 1400,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-seagate-technology-nasdaq-stx-shares-up-11-should-you-buy-2026-11-17/"
+        },
+        {
+          "analyst": "Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 1300,
+          "source_prior": 1240,
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/seagate-technology-nasdaqstx-price-target-raised-to-130000-at-citigroup-2026-07-29/"
+        },
+        {
+          "analyst": "JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 1240,
+          "source_prior": 1095,
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-increases-seagate-technology-nasdaqstx-price-target-to-124000-2026-07-29/"
+        }
+      ],
+      "earnings_at": "2026-10-27T16:05:00-04:00",
+      "valuation": {
+        "bear": 352.0,
+        "base": 630.0,
+        "bull": 936.0
+      },
+      "dividend_per_share": 3.04
     },
     {
       "issuer_id": "Parker-Hannifin Corporation",
@@ -16839,9 +17011,152 @@
         "high": 122918348747
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Andrew Kaplowitz",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 1234,
+          "source_prior": 1232,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Andrew Kaplowitz",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Chigusa Katoku",
+          "firm": "JPMorgan Chase",
+          "field": "target",
+          "value": 1131,
+          "source_prior": 1140,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Chigusa Katoku",
+          "firm": "JPMorgan Chase",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Joseph Giordano",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 950,
+          "source_prior": 850,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Joseph Giordano",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Nathan Jones",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 1002,
+          "source_prior": null,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Nathan Jones",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Brett Linzey",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 1200,
+          "source_prior": null,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Amit Mehrotra",
+          "firm": "UBS Group",
+          "field": "target",
+          "value": 950,
+          "source_prior": null,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Andrew Buscaglia",
+          "firm": "BNP Paribas Exane",
+          "field": "target",
+          "value": 1270,
+          "source_prior": 1220,
+          "issued_at": "2026-09-18",
+          "public_at": "2026-09-18T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Andrew Buscaglia",
+          "firm": "BNP Paribas Exane",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-09-18",
+          "public_at": "2026-09-18T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        },
+        {
+          "analyst": "Varun Govindaraj",
+          "firm": "Sanford C. Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PH"
+        }
+      ],
+      "earnings_at": "2026-11-05T06:30:00-05:00",
+      "valuation": {
+        "bear": 750.0,
+        "base": 984.0,
+        "bull": 1188.0
+      }
     },
     {
       "issuer_id": "Bank of Montreal",
@@ -16855,9 +17170,150 @@
         "high": 122865129395
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Douglas Young",
+          "firm": "Desjardins",
+          "field": "target",
+          "value": 182,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Douglas Young",
+          "firm": "Desjardins",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Paul Holden",
+          "firm": "CIBC",
+          "field": "target",
+          "value": 182,
+          "source_prior": 190,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Paul Holden",
+          "firm": "CIBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Matthew Lee",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "John Aiken",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 159,
+          "source_prior": 157,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "John Aiken",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Darko Mihelic",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 168,
+          "source_prior": 161,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Darko Mihelic",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Mike Rizvanovic",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 189,
+          "source_prior": 187,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Mike Rizvanovic",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Mario Mendonca",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 184,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        },
+        {
+          "analyst": "Mario Mendonca",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+        }
+      ],
+      "earnings_at": "2026-08-25T07:00:00-04:00",
+      "valuation": {
+        "bear": 131.51,
+        "base": 174.65,
+        "bull": 208.31
+      },
+      "dividend_per_share": 4.8
     },
     {
       "issuer_id": "Booking Holdings Inc.",
@@ -16871,9 +17327,183 @@
         "high": 121053443524
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://uk.investing.com/news/stock-market-news/morgan-stanley-cuts-booking-holdings-stock-price-target-to-200-on-valuation-93CH-4955728",
+          "field": "target",
+          "value": 200,
+          "source_prior": 230
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://uk.investing.com/news/stock-market-news/morgan-stanley-cuts-booking-holdings-stock-price-target-to-200-on-valuation-93CH-4955728",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "(unnamed) Goldman Sachs",
+          "firm": "Goldman Sachs",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/goldman-sachs-lowers-booking-holdings-stock-price-target-on-demand-headwinds-93CH-4997736",
+          "field": "target",
+          "value": 175,
+          "source_prior": 180
+        },
+        {
+          "analyst": "(unnamed) Goldman Sachs",
+          "firm": "Goldman Sachs",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/goldman-sachs-lowers-booking-holdings-stock-price-target-on-demand-headwinds-93CH-4997736",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-booking-nasdaq-bkng-stock-price-target-cut-by-citigroup-2026-11-04/",
+          "field": "target",
+          "value": 220,
+          "source_prior": 236
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-booking-nasdaq-bkng-stock-price-target-cut-by-citigroup-2026-11-04/",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Justin Post",
+          "firm": "BofA Securities",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "target",
+          "value": 219,
+          "source_prior": 232
+        },
+        {
+          "analyst": "Justin Post",
+          "firm": "BofA Securities",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Brad Erickson",
+          "firm": "RBC Capital",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "target",
+          "value": 205,
+          "source_prior": 220
+        },
+        {
+          "analyst": "Brad Erickson",
+          "firm": "RBC Capital",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Ygal Arounian",
+          "firm": "Wedbush",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "target",
+          "value": 210,
+          "source_prior": 247
+        },
+        {
+          "analyst": "Ygal Arounian",
+          "firm": "Wedbush",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "target",
+          "value": 170,
+          "source_prior": 210
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "(unnamed) Cantor Fitzgerald",
+          "firm": "Cantor Fitzgerald",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "target",
+          "value": 150,
+          "source_prior": 170
+        },
+        {
+          "analyst": "(unnamed) Cantor Fitzgerald",
+          "firm": "Cantor Fitzgerald",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62861051/these-analysts-slash-their-forecasts-on-booking-holdings-following-q3-results",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold"
+        }
+      ],
+      "earnings_at": "2026-11-03T16:05:00-05:00",
+      "valuation": {
+        "bear": 135.2,
+        "base": 188.8,
+        "bull": 239.4
+      }
     },
     {
       "issuer_id": "Petr\u00f3leo Brasileiro S.A. - Petrobras",

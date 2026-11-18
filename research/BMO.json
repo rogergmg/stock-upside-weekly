@@ -1,0 +1,194 @@
+{
+ "issuer_id": "Bank of Montreal",
+ "symbol": "BMO",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 173.24,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-08-25T07:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Douglas Young",
+   "firm": "Desjardins",
+   "field": "target",
+   "value": 182,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Douglas Young",
+   "firm": "Desjardins",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Paul Holden",
+   "firm": "CIBC",
+   "field": "target",
+   "value": 182,
+   "source_prior": 190,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Paul Holden",
+   "firm": "CIBC",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Matthew Lee",
+   "firm": "Canaccord Genuity",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "John Aiken",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 159,
+   "source_prior": 157,
+   "issued_at": "2026-08-27",
+   "public_at": "2026-08-27T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "John Aiken",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-08-27",
+   "public_at": "2026-08-27T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Darko Mihelic",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 168,
+   "source_prior": 161,
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Darko Mihelic",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Mike Rizvanovic",
+   "firm": "Scotiabank",
+   "field": "target",
+   "value": 189,
+   "source_prior": 187,
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Mike Rizvanovic",
+   "firm": "Scotiabank",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Mario Mendonca",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 184,
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  },
+  {
+   "analyst": "Mario Mendonca",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bmo/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Bank: forward P/E on FY2027 (year to Oct 2027) adjusted EPS viewed at Nov 2027, computed in CAD and converted once to USD. NYSE BMO is the common share itself (ratio 1:1, no ADR conversion). FX: 1.4257 CAD per USD (Bank of Canada USD/CAD for 2026-11-13, as used for other Canadian banks in this set), held constant. Earnings base: nine-month FY2026 adjusted EPS C$11.11 plus Q4 at about C$3.90 gives about C$15.0; base FY2027 C$16.60 (+10%). Base C$16.60 x 15x = C$249.0 = US$174.65. Bear C$15.00 x 12.5x = C$187.5 = US$131.51. Bull C$18.00 x 16.5x = C$297.0 = US$208.31. P/E used because goodwill and tangible book were not sourced. Dividend C$1.71 per quarter, C$6.84 a year = US$4.80 at the same FX.",
+  "bear": 131.51,
+  "base": 174.65,
+  "bull": 208.31,
+  "cases": {
+   "bear": {
+    "driver": "Credit losses and weaker US operations hold FY2027 EPS flat on FY2026 and the multiple compresses.",
+    "assumption": "EPS C$15.00 at 12.5x = C$187.5 = US$131.51",
+    "target": 131.51
+   },
+   "base": {
+    "driver": "Divestiture of transportation and vendor finance is absorbed, buybacks and fee growth lift FY2027 EPS about 10%; multiple stays near today's level.",
+    "assumption": "EPS C$16.60 at 15x = C$249.0 = US$174.65",
+    "target": 174.65
+   },
+   "bull": {
+    "driver": "ROE targets from the March 2026 Investor Day are met early, EPS grows 20% and the multiple re-rates.",
+    "assumption": "EPS C$18.00 at 16.5x = C$297.0 = US$208.31",
+    "target": 208.31
+   }
+  },
+  "implied_by_close": "At base EPS C$16.60 the close (about C$247 at 1.4257) implies about 14.9x; the analyst average target of about US$176 implies about 15.1x or EPS about C$16.7 at 15x.",
+  "sensitivity": "One turn of P/E moves the base target by about US$11.64 (6.7 pp).",
+  "watch_metric": "Q4 FY2026 adjusted EPS versus about C$3.90 and the FY2027 ROE and credit provision trend.",
+  "next_disclosure": "Q4 FY2026 results, expected 2026-12-02."
+ },
+ "dividend_per_share": 4.8,
+ "analyst_notes": "Seven named analysts since the Aug 25 Q3 release, four Hold and three Buy; targets range US$159 to US$189 and cluster near the close, so analyst upside is small. Most calls were raised on Q3 (adjusted EPS up 22%) while CIBC cut from 190 to 182. Raymond James (Nov 17) is after the reference close and excluded. Horizons are undocumented, so targets stay out of the weighted target.",
+ "sources": [
+  {
+   "label": "BMO Q3 2026 earnings release",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000927971/000092797126000106/q32026earningsrelease.htm",
+   "supports": "EPS, dividend, CET1"
+  },
+  {
+   "label": "BMO Q3 2026 MD&A",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000927971/000092797126000108/q32026mda.htm",
+   "supports": "Q3 results detail"
+  },
+  {
+   "label": "StockAnalysis BMO ratings",
+   "url": "https://stockanalysis.com/stocks/bmo/ratings/",
+   "supports": "Analyst ratings and targets"
+  }
+ ]
+}

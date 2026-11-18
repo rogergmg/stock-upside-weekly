@@ -1,0 +1,31 @@
+{
+  "issuer_id": "Starbucks Corporation",
+  "symbol": "SBUX",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 106.44, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-29T16:05:00-04:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2028 (year to Sep 2028) non-GAAP EPS viewed at the Nov 2027 target date, USD per share of the US common listing (no ADR). FY2027 guide $3.15-$3.25 (midpoint $3.20, includes about $0.10 from a 53rd week that does not repeat) grown from a $3.10 ex-53rd-week base on North America comps of about 4% and margin recovery toward 14%.",
+    "bear": 82.8, "base": 110.2, "bull": 131.2,
+    "cases": {
+      "bear": {"driver": "Margin recovery stalls, China licensed JV and international soft", "assumption": "FY2028 EPS $3.45 at 24x", "target": 82.8},
+      "base": {"driver": "Guide delivered, operating margin toward 14% and mid single digit comps", "assumption": "FY2028 EPS $3.80 at 29x", "target": 110.2},
+      "bull": {"driver": "Traffic-led comps and faster margin expansion", "assumption": "FY2028 EPS $4.10 at 32x", "target": 131.2}
+    },
+    "implied_by_close": "At base EPS $3.80 the close of $106.44 implies 28.0x FY2028 (33.3x the FY2027 guide midpoint); no analyst-weighted target was sourced, so a $120 target would imply 31.6x on base EPS or EPS $4.14 at 29x",
+    "sensitivity": "One turn of P/E moves the base target by $3.80 (3.6 pp of the close)",
+    "watch_metric": "North America comparable transactions and consolidated operating margin vs the 13.5%-14% FY2027 guide",
+    "next_disclosure": "Fiscal Q1 2027 results, expected late January 2027"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Dated, named analyst calls within the last 12 months could not be verified from accessible sources, so no events are listed. Search snippets (undated or secondhand) showed targets such as Morgan Stanley $115 (Jul 30 2026), TD Cowen $120, Deutsche Bank $120 and a consensus near $110.58; these are unverified here. The base case of $110 sits near that consensus.",
+  "sources": [
+    {"label": "Starbucks Q4 FY2026 results release", "url": "https://investor.starbucks.com/news/financial-releases/news-details/2026/Starbucks-Reports-Q4-and-Full-Fiscal-Year-2026-Results/default.aspx", "supports": "EPS, FY2027 guidance"},
+    {"label": "SEC 8-K earnings release FY2026", "url": "https://www.sec.gov/Archives/edgar/data/0000829224/000082922426000154/sbux-09272026xearningsrele.htm", "supports": "EPS, margins"},
+    {"label": "Longbridge Q4 FY2026 call summary", "url": "https://longbridge.com/en/news/303644673", "supports": "FY2027 guidance, 53rd week"},
+    {"label": "MarketBeat Morgan Stanley note", "url": "https://www.marketbeat.com/instant-alerts/starbucks-nasdaqsbux-stock-price-expected-to-rise-morgan-stanley-analyst-says-2026-07-30/", "supports": "Consensus target snippet"}
+  ]
+}

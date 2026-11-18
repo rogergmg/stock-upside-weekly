@@ -1,0 +1,161 @@
+{
+ "issuer_id": "HCA Healthcare, Inc.",
+ "symbol": "HCA",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 499.05,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-27T07:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "TD Cowen analyst",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 486,
+   "source_prior": 460,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-hca-healthcare-nyse-hca-stock-gets-price-target-increase-from-td-cowen-2026-10-28/"
+  },
+  {
+   "analyst": "TD Cowen analyst",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-hca-healthcare-nyse-hca-stock-gets-price-target-increase-from-td-cowen-2026-10-28/"
+  },
+  {
+   "analyst": "Matthew Gillmor",
+   "firm": "KeyBanc",
+   "field": "target",
+   "value": 490,
+   "source_prior": 435,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html"
+  },
+  {
+   "analyst": "Matthew Gillmor",
+   "firm": "KeyBanc",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-05:00",
+   "source": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html"
+  },
+  {
+   "analyst": "RBC Capital analyst",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 521,
+   "source_prior": 496,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html"
+  },
+  {
+   "analyst": "Truist analyst",
+   "firm": "Truist Financial",
+   "field": "target",
+   "value": 495,
+   "source_prior": 535,
+   "issued_at": "2026-07-27",
+   "public_at": "2026-07-27T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/hca-healthcare-nysehca-given-new-49500-price-target-at-truist-financial-2026-07-27/"
+  },
+  {
+   "analyst": "Truist analyst",
+   "firm": "Truist Financial",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-07-27",
+   "public_at": "2026-07-27T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/hca-healthcare-nysehca-given-new-49500-price-target-at-truist-financial-2026-07-27/"
+  },
+  {
+   "analyst": "Oppenheimer analyst",
+   "firm": "Oppenheimer",
+   "field": "target",
+   "value": 485,
+   "source_prior": 520,
+   "issued_at": "2026-07-27",
+   "public_at": "2026-07-27T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/oppenheimer-has-lowered-expectations-for-hca-healthcare-nysehca-stock-price-2026-07-27/"
+  },
+  {
+   "analyst": "Mizuho analyst",
+   "firm": "Mizuho",
+   "field": "target",
+   "value": 475,
+   "source_prior": 525,
+   "issued_at": "2026-07-28",
+   "public_at": "2026-07-28T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/mizuho-cuts-hca-healthcare-nysehca-price-target-to-47500-2026-07-28/"
+  }
+ ],
+ "valuation": {
+  "method": "Hospital operator: forward EPS x P/E. FY2026 diluted EPS guidance $28.70-30.50 (July 14, 2026), with Q3 results saying full-year will land in the upper half; Q3 adjusted EPS $7.22. FY2027 EPS is my assumption (about 5-6% growth, near the ~$31.8 Street figure), viewed at the Nov-2027 target date. US listing in USD, no ADR conversion.",
+  "bear": 377.0,
+  "base": 493.0,
+  "bull": 595.0,
+  "cases": {
+   "bear": {
+    "driver": "Exchange payer-mix loss and uninsured volumes cut EPS; multiple compresses",
+    "assumption": "EPS $29.00 at 13.0x",
+    "target": 377.0
+   },
+   "base": {
+    "driver": "Upper-half 2026 EPS of about $30 grows roughly 6% on volume and buybacks",
+    "assumption": "EPS $31.80 at 15.5x",
+    "target": 493.0
+   },
+   "bull": {
+    "driver": "Margin recovery and Medicaid supplemental payments lift EPS and multiple",
+    "assumption": "EPS $34.00 at 17.5x",
+    "target": 595.0
+   }
+  },
+  "implied_by_close": "At base EPS $31.80 the close implies 15.7x; the average named-analyst target of about $492 implies 15.5x or EPS $32.8 at 15x",
+  "sensitivity": "One turn of P/E moves the base target by $31.80 (6.4 pp of the close)",
+  "watch_metric": "Same-facility admissions growth and exchange payer-mix impact versus the $1.0-1.2B guided headwind",
+  "next_disclosure": "Q4 and FY2026 results with 2027 guidance, expected late January 2027"
+ },
+ "dividend_per_share": 3.12,
+ "analyst_notes": "Since the Oct 27 print, TD Cowen (460 to 486), KeyBanc (435 to 490) and RBC (496 to 521) raised targets, reversing July cuts by Truist, Oppenheimer and Mizuho. The named average of about $492 sits near the close, so the gap to my $493 base is small (about 15.5x on $31.8 EPS). Only 6 firms found; horizons are undocumented and RBC, Oppenheimer and Mizuho ratings were not confirmed.",
+ "sources": [
+  {
+   "label": "Q3 2026 results",
+   "url": "https://finviz.com/news/408582/hca-healthcare-reports-third-quarter-2026-results",
+   "supports": "EPS, revenue, dividend, share count"
+  },
+  {
+   "label": "Q2 2026 preview with revised guidance",
+   "url": "https://www.businesswire.com/news/home/20260714472051/en/HCA-Healthcare-Previews-Second-Quarter-2026-Results",
+   "supports": "2026 guidance ranges"
+  },
+  {
+   "label": "TD Cowen target raise",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-hca-healthcare-nyse-hca-stock-gets-price-target-increase-from-td-cowen-2026-10-28/",
+   "supports": "TD Cowen call"
+  },
+  {
+   "label": "KeyBanc and RBC raises",
+   "url": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html",
+   "supports": "KeyBanc, RBC calls"
+  }
+ ]
+}

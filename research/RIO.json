@@ -1,0 +1,49 @@
+{
+  "issuer_id": "Rio Tinto Group",
+  "symbol": "RIO",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 82.95, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-07-29T07:00:00+01:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Bernstein (analyst not named)", "firm": "Bernstein", "field": "target", "value": 89.5, "source_prior": null,
+     "issued_at": "2026-09-09", "public_at": "2026-09-09T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.google.com/finance/quote/RIO:NYSE"},
+    {"analyst": "Bernstein (analyst not named)", "firm": "Bernstein", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-09-09", "public_at": "2026-09-09T23:59:59-04:00",
+     "source": "https://www.google.com/finance/quote/RIO:NYSE"},
+    {"analyst": "Morgan Stanley (analyst not named)", "firm": "Morgan Stanley", "field": "target", "value": 90, "source_prior": null,
+     "issued_at": "2026-08-21", "public_at": "2026-08-21T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.google.com/finance/quote/RIO:NYSE"},
+    {"analyst": "Morgan Stanley (analyst not named)", "firm": "Morgan Stanley", "field": "rating", "value": "Sell", "bucket": "Sell",
+     "issued_at": "2026-08-21", "public_at": "2026-08-21T23:59:59-04:00",
+     "source": "https://www.google.com/finance/quote/RIO:NYSE"},
+    {"analyst": "Erste Group (analyst not named)", "firm": "Erste Group", "field": "rating", "value": "Hold", "bucket": "Hold",
+     "issued_at": "2026-08-27", "public_at": "2026-08-27T23:59:59+02:00",
+     "source": "https://www.google.com/finance/quote/RIO:NYSE"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E per ADR (NYSE: RIO, USD), FY2027 EPS viewed at the 12-month target date (Nov 2027). Share basis: 1 ADR = 1 ordinary share of Rio Tinto plc (ratio from general knowledge of the programme; not re-verified against the 20-F in this run). FX: none applied; Rio Tinto reports in US dollars so EPS is already USD. Base year: H1 2026 underlying EPS 421.4 US cents (vs 296.0 H1 2025), interim dividend US$2.11 (29 Jul 2026 results). FY2026 is estimated at about US$8.00 (H1 plus an assumed softer H2 of about US$3.80); FY2027 EPS is an operating assumption, not sourced consensus. Base: US$7.40 at 11x = 81.40. Bear: US$5.80 at 9x = 52.20. Bull: US$9.00 at 13x = 117.00. Price-only; dividends excluded.",
+    "bear": 52.20,
+    "base": 81.40,
+    "bull": 117.00,
+    "cases": {
+      "bear": {"driver": "Iron ore and copper prices fall back and cost inflation erodes margins; FY27 earnings about 27% below FY26 estimate", "assumption": "EPS US$5.80 at 9x", "target": 52.20},
+      "base": {"driver": "Copper and aluminium strength partly offsets softer iron ore, earnings ease about 8% from FY26 estimate; cyclical multiple", "assumption": "EPS US$7.40 at 11x", "target": 81.40},
+      "bull": {"driver": "Data-centre copper demand and firm iron ore lift earnings above FY26; market pays a higher multiple for copper growth", "assumption": "EPS US$9.00 at 13x", "target": 117.00}
+    },
+    "implied_by_close": "At base EPS US$7.40 the 82.95 close implies 11.2x. The analyst targets seen (US$89.50 and US$90) imply about 12.1x to 12.2x base EPS, or EPS near US$8.10 at 11x.",
+    "sensitivity": "One turn of P/E on base EPS moves the base target by US$7.40 (about 8.9 pp of the close).",
+    "watch_metric": "Pilbara iron ore realised price and shipments, and copper output against guidance. A realised iron ore price well below the FY26 level would break the base case.",
+    "next_disclosure": "Q4 2026 operations review (January 2027) and the 2026 full-year results (about February 2027)."
+  },
+  "dividend_per_share": 2.11,
+  "analyst_notes": "Only a few dated named calls were found, all from a Google Finance listing summarised via search: Bernstein Buy with an US$89.50 target (9 Sep 2026), Morgan Stanley initiating at Sell with US$90 (21 Aug 2026), and an Erste Group downgrade to Hold (27 Aug 2026). The Morgan Stanley Sell with a target above the close is unusual and may reflect a listing quirk. Aggregator consensus ranges from about US$80 to US$107 and several are undated or stale; Argus Buy US$120 and Berenberg Hold US$87-88 (April) lacked exact dates and are not entered. Targets sit about 8-9% above the base case, a gap of roughly one P/E turn or US$0.70 of EPS.",
+  "sources": [
+    {"label": "Rio Tinto 2026 half year results (RNS, 29 Jul 2026)", "url": "https://www.investegate.co.uk/announcement/rns/rio-tinto--rio/rio-tinto-2026-half-year-results/9692256", "supports": "H1 EPS 421.4c, interim dividend US$2.11, release date"},
+    {"label": "Rio Tinto H1 2026 coverage, Mining Weekly", "url": "https://www.miningweekly.com/article/rio-tinto-posts-highest-h1-earnings-in-four-years-as-data-centre-boom-boosts-copper-2026-07-29", "supports": "Earnings, copper and iron ore context"},
+    {"label": "Google Finance RIO:NYSE analyst actions", "url": "https://www.google.com/finance/quote/RIO:NYSE", "supports": "Bernstein, Morgan Stanley, Erste dated calls"},
+    {"label": "WallStSmart RIO price targets", "url": "https://wallstsmart.com/stock/RIO/price-targets", "supports": "Consensus target about US$81"}
+  ]
+}

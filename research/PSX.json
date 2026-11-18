@@ -1,0 +1,152 @@
+{
+ "issuer_id": "Phillips 66",
+ "symbol": "PSX",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 264.9,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-28T07:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Sam Margolin",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 346,
+   "source_prior": 345,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://fn2.ai/earnings/psx/analysts"
+  },
+  {
+   "analyst": "Jason Gabelman",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 308,
+   "source_prior": null,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://fn2.ai/earnings/psx/analysts"
+  },
+  {
+   "analyst": "Nitin Kumar",
+   "firm": "Mizuho Securities",
+   "field": "target",
+   "value": 300,
+   "source_prior": 212,
+   "issued_at": "2026-10-08",
+   "public_at": "2026-10-08T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://fn2.ai/earnings/psx/analysts"
+  },
+  {
+   "analyst": "Nitin Kumar",
+   "firm": "Mizuho Securities",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-08",
+   "public_at": "2026-10-08T23:59:59-04:00",
+   "source": "https://fn2.ai/earnings/psx/analysts"
+  },
+  {
+   "analyst": "Neil Mehta",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 274,
+   "source_prior": 235,
+   "issued_at": "2026-10-01",
+   "public_at": "2026-10-01T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://fn2.ai/earnings/psx/analysts"
+  },
+  {
+   "analyst": "Manav Gupta",
+   "firm": "UBS",
+   "field": "target",
+   "value": 300,
+   "source_prior": 235,
+   "issued_at": "2026-09-08",
+   "public_at": "2026-09-08T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://fn2.ai/earnings/psx/analysts"
+  },
+  {
+   "analyst": "Sergey Pigarev",
+   "firm": "Freedom Broker",
+   "field": "target",
+   "value": 258,
+   "source_prior": null,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://fn2.ai/earnings/psx/analysts"
+  },
+  {
+   "analyst": "John Royall",
+   "firm": "Piper Sandler",
+   "field": "target",
+   "value": 209,
+   "source_prior": null,
+   "issued_at": "2026-08-10",
+   "public_at": "2026-08-10T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://fn2.ai/earnings/psx/analysts"
+  }
+ ],
+ "valuation": {
+  "method": "Forward adjusted EPS x P/E on FY2027 EPS (year priced at the 2027-11-18 target date). Anchors: Q3 2026 adjusted EPS $14.08 (record, realized refining margin $38/bbl vs $24.08 in Q2), 9M 2026 adjusted EPS $23.89, Q3 diluted shares about 399 million with $2.27bn buybacks in the quarter. FY2027 EPS values are our assumptions of how far record cracks normalize; multiples are low-to-mid cycle refiner multiples applied to elevated earnings, not broker targets. US common share in USD, so no ADR or FX conversion.",
+  "bear": 180.0,
+  "base": 264.0,
+  "bull": 352.0,
+  "cases": {
+   "bear": {
+    "driver": "Crack spreads revert most of the way to mid-cycle and chemicals/marketing stay weak",
+    "assumption": "FY2027 adjusted EPS $15 at 12x",
+    "target": 180.0
+   },
+   "base": {
+    "driver": "Margins fade from Q3 record but stay well above 2025 levels, 95%+ utilization, steady buybacks",
+    "assumption": "FY2027 adjusted EPS $24 at 11x",
+    "target": 264.0
+   },
+   "bull": {
+    "driver": "Tight product markets persist through 2027 with buybacks shrinking the share count",
+    "assumption": "FY2027 adjusted EPS $32 at 11x",
+    "target": 352.0
+   }
+  },
+  "implied_by_close": "At base FY2027 EPS of $24 the close of $264.90 implies 11.0x; on 9M 2026 adjusted EPS annualized (about $31.9) it is 8.3x. The highest named target ($346, Wells Fargo) implies 14.4x base EPS or EPS near $31.5 at 11x.",
+  "sensitivity": "One turn of P/E moves the base target by $24 (9.1% of the close, 9.1 pp). A $1 change in FY2027 EPS at 11x moves it by $11 (4.2 pp).",
+  "watch_metric": "Realized refining margin per barrel and Gulf Coast/US crack spreads versus the $38/bbl Q3 record.",
+  "next_disclosure": "Q4 and full-year 2026 results, expected around late January or early February 2027 (date not retrieved)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named targets jumped after the Q3 record: Wells Fargo $346, TD Cowen $308, Mizuho $300 (while downgrading to Neutral), UBS $300 and Goldman $274 versus $200-235 in summer. Most post-Q3 targets sit above our $264 base (up to 31% above), which needs about $31 EPS at 11x versus our $24. Piper Sandler's $209 (August) is stale; target horizons are not documented so none enter the weighted target.",
+ "sources": [
+  {
+   "label": "FN2 PSX analyst targets and ratings",
+   "url": "https://fn2.ai/earnings/psx/analysts",
+   "supports": "named analyst targets, ratings and dates"
+  },
+  {
+   "label": "Phillips 66 Q3 2026 results (MarketScreener)",
+   "url": "https://ca.marketscreener.com/news/phillips-66-q3-2026-ce785cd2dd8df024",
+   "supports": "Q3 EPS, 9M EPS, share count, refining margin, release date"
+  },
+  {
+   "label": "Phillips 66 Q3 2026 results (Benzinga)",
+   "url": "https://www.benzinga.com/node/62647885",
+   "supports": "adjusted EPS $14.08, record quarter"
+  },
+  {
+   "label": "Q3 call highlights (Zacks)",
+   "url": "https://zacks.com/stock/news/3018600/psx-q3-earnings-call-highlights-refining-strength-and-growth-plans",
+   "supports": "refining strength context"
+  }
+ ]
+}

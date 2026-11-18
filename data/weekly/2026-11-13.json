@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T16:04:57.149336+00:00",
+  "built_at": "2026-11-18T16:06:35.841857+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 152,
+    "rank_valued": 157,
     "rank_with_named_targets": 2,
-    "rank_matched": 152,
-    "researched": 152
+    "rank_matched": 157,
+    "researched": 157
   },
   "ranked": [
     {
@@ -1073,6 +1073,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "EQIX",
+      "issuer_id": "Equinix, Inc.",
+      "close": 1053.79,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 102226641632,
+        "high": 106399157618
+      },
+      "scenarios_pct": {
+        "bear": -14.593989314759108,
+        "base": 8.180946867971796,
+        "bull": 26.827925867582724
+      },
+      "base_total_return_pct": 10.139591379686655,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "GEV",
       "issuer_id": "GE Vernova Inc.",
       "close": 803.13,
@@ -1737,6 +1758,27 @@
         "bear": -33.87701124090809,
         "base": 4.14370729556976,
         "bull": 37.75622658144148
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "BNY",
+      "issuer_id": "The Bank of New York Mellon Corporation",
+      "close": 153.41,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 101144986988,
+        "high": 105293944498
+      },
+      "scenarios_pct": {
+        "bear": -25.037481259370313,
+        "base": 4.067531451665472,
+        "bull": 28.90293983443061
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -2669,6 +2711,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "PSX",
+      "issuer_id": "Phillips 66",
+      "close": 264.9,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 101259742611,
+        "high": 105396772068
+      },
+      "scenarios_pct": {
+        "bear": -32.04983012457531,
+        "base": -0.33975084937712347,
+        "bull": 32.8803322008305
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "LMT",
       "issuer_id": "Lockheed Martin Corporation",
       "close": 596.04,
@@ -2753,6 +2816,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "HCA",
+      "issuer_id": "HCA Healthcare, Inc.",
+      "close": 499.05,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 102138280324,
+        "high": 106332758168
+      },
+      "scenarios_pct": {
+        "bear": -24.45646728784691,
+        "base": -1.212303376415189,
+        "bull": 19.22653040777477
+      },
+      "base_total_return_pct": -0.5871155194870255,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "SPOT",
       "issuer_id": "Spotify Technology S.A.",
       "close": 612.63,
@@ -2789,6 +2873,27 @@
         "bull": 17.105160434069795
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "RIO",
+      "issuer_id": "Rio Tinto Group",
+      "close": 82.95,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 102110787121,
+        "high": 137616312509
+      },
+      "scenarios_pct": {
+        "bear": -37.070524412296564,
+        "base": -1.8685955394816154,
+        "bull": 41.04882459312839
+      },
+      "base_total_return_pct": 0.6751054852320673,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -3218,26 +3323,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "EQIX",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "HCA",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "RIO",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PSX",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "BNY",
       "reason": "independent valuation unavailable"
     },
     {
@@ -63296,6 +63381,1457 @@
           "status_at_cutoff": "active"
         }
       ]
+    },
+    "EQIX": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 1053.79,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "REIT: forward AFFO per share x multiple. FY2026 diluted AFFO/share guidance $43.71-$44.11 (midpoint $43.91, includes $31M atNorth fee). I model FY2027 AFFO/share viewed at the Nov 2027 target date; growth assumptions are mine, not guidance. USD common-stock listing, no ADR conversion.",
+        "bear": 900.0,
+        "base": 1140.0,
+        "bull": 1336.5,
+        "cases": {
+          "bear": {
+            "driver": "Power/capex costs and slower AI-driven bookings hold AFFO growth near 2.5% off a one-time-aided 2026",
+            "assumption": "FY2027 AFFO $45.00 at 20x",
+            "target": 900.0
+          },
+          "base": {
+            "driver": "Normalized ~8% AFFO/share growth from record bookings, pricing and xScale/atNorth contribution",
+            "assumption": "FY2027 AFFO $47.50 at 24x",
+            "target": 1140.0
+          },
+          "bull": {
+            "driver": "AI inference demand and pricing sustain ~12% growth (matching 2026 normalized pace)",
+            "assumption": "FY2027 AFFO $49.50 at 27x",
+            "target": 1336.5
+          }
+        },
+        "implied_by_close": "At base AFFO $47.50 the close implies 22.2x; the ~$1,234 consensus target (third-party tracker, not the sampled named calls) implies 26.0x or AFFO $51.4 at 24x",
+        "sensitivity": "One turn of P/E moves the base target by $47.50 (4.5 pp of the close)",
+        "watch_metric": "Normalized constant-currency AFFO/share growth versus the ~8% base and net new bookings",
+        "next_disclosure": "Q4/FY2026 results and FY2027 guidance, expected February 2027 (date not confirmed)"
+      },
+      "dividend_per_share": 20.64,
+      "analyst_notes": "Named targets since the Oct 28 earnings are limited to Citigroup (raised to $1,320 from $1,260) and TD Cowen ($1,210) per MarketBeat; July-August raises from Bernstein, Stifel, RBC, Evercore and Truist cluster at $1,220-$1,270. All sit above the $1,140 base, about 7-16% higher, equal to roughly 2-4 P/E turns or 5-10% more AFFO. Analyst names are not published, horizons undocumented, and several targets pre-date Q3's third guidance raise.",
+      "sources": [
+        {
+          "label": "Equinix Q3 2026 8-K press release",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001101239/000110123926000178/a991eqix-q326xpr.htm",
+          "supports": "AFFO guidance, shares, debt, dividends"
+        },
+        {
+          "label": "MarketBeat Citigroup EQIX target",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "supports": "Analyst targets and ratings table"
+        },
+        {
+          "label": "Zacks Q3 AFFO",
+          "url": "https://zacks.com/stock/news/3018995/equinix-q3-affo-beat-estimates-on-record-bookings-strong-pricing",
+          "supports": "Q3 AFFO per share and guidance raise"
+        },
+        {
+          "label": "MarketBeat TD Cowen EQIX target",
+          "url": "https://www.marketbeat.com/instant-alerts/td-cowen-increases-equinix-nasdaqeqix-price-target-to-116600-2026-07-30/",
+          "supports": "TD Cowen target history"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-28T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 102.5,
+        "max_weight_pct": 27.883839096780367,
+        "contributors": [
+          {
+            "analyst": "Unnamed Citigroup analyst",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+            "weight": 0.27883839096780366
+          },
+          {
+            "analyst": "Unnamed Evercore ISI analyst",
+            "firm": "Evercore ISI",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-08-18",
+            "age_days": 87,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+            "weight": 0.16015060050736807
+          },
+          {
+            "analyst": "Unnamed RBC Capital analyst",
+            "firm": "RBC Capital",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-08-05",
+            "age_days": 100,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+            "weight": 0.1448926851925821
+          },
+          {
+            "analyst": "Unnamed Sanford C. Bernstein analyst",
+            "firm": "Sanford C. Bernstein",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-07-30",
+            "age_days": 106,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+            "weight": 0.13834956392417216
+          },
+          {
+            "analyst": "Unnamed Stifel analyst",
+            "firm": "Stifel",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-30",
+            "age_days": 106,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+            "weight": 0.13834956392417216
+          },
+          {
+            "analyst": "Unnamed Truist analyst",
+            "firm": "Truist",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-31",
+            "age_days": 105,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+            "weight": 0.13941919548390183
+          }
+        ],
+        "counts": {
+          "Buy": 6,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Unnamed Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 1320.0,
+          "source_prior": 1260,
+          "horizon_months": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "revision_pct": 4.761904761904767,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Evercore ISI analyst",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-18",
+          "public_at": "2026-08-18T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Evercore ISI analyst",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 1270.0,
+          "source_prior": 1240,
+          "horizon_months": null,
+          "issued_at": "2026-08-18",
+          "public_at": "2026-08-18T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "revision_pct": 2.4193548387096753,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed RBC Capital analyst",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed RBC Capital analyst",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 1225.0,
+          "source_prior": 1125,
+          "horizon_months": null,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "revision_pct": 8.888888888888879,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Sanford C. Bernstein analyst",
+          "firm": "Sanford C. Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-30",
+          "public_at": "2026-07-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Sanford C. Bernstein analyst",
+          "firm": "Sanford C. Bernstein",
+          "field": "target",
+          "value": 1270.0,
+          "source_prior": 1222,
+          "horizon_months": null,
+          "issued_at": "2026-07-30",
+          "public_at": "2026-07-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "revision_pct": 3.9279869067103013,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Stifel analyst",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-30",
+          "public_at": "2026-07-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Stifel analyst",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 1265.0,
+          "source_prior": 1250,
+          "horizon_months": null,
+          "issued_at": "2026-07-30",
+          "public_at": "2026-07-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "revision_pct": 1.200000000000001,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Truist analyst",
+          "firm": "Truist",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Truist analyst",
+          "firm": "Truist",
+          "field": "target",
+          "value": 1220.0,
+          "source_prior": 1215,
+          "horizon_months": null,
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-citigroup-issues-positive-forecast-for-equinix-nasdaq-eqix-stock-price-2026-10-29/",
+          "prior_observed": null,
+          "revision_pct": 0.4115226337448652,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "HCA": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 499.05,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Hospital operator: forward EPS x P/E. FY2026 diluted EPS guidance $28.70-30.50 (July 14, 2026), with Q3 results saying full-year will land in the upper half; Q3 adjusted EPS $7.22. FY2027 EPS is my assumption (about 5-6% growth, near the ~$31.8 Street figure), viewed at the Nov-2027 target date. US listing in USD, no ADR conversion.",
+        "bear": 377.0,
+        "base": 493.0,
+        "bull": 595.0,
+        "cases": {
+          "bear": {
+            "driver": "Exchange payer-mix loss and uninsured volumes cut EPS; multiple compresses",
+            "assumption": "EPS $29.00 at 13.0x",
+            "target": 377.0
+          },
+          "base": {
+            "driver": "Upper-half 2026 EPS of about $30 grows roughly 6% on volume and buybacks",
+            "assumption": "EPS $31.80 at 15.5x",
+            "target": 493.0
+          },
+          "bull": {
+            "driver": "Margin recovery and Medicaid supplemental payments lift EPS and multiple",
+            "assumption": "EPS $34.00 at 17.5x",
+            "target": 595.0
+          }
+        },
+        "implied_by_close": "At base EPS $31.80 the close implies 15.7x; the average named-analyst target of about $492 implies 15.5x or EPS $32.8 at 15x",
+        "sensitivity": "One turn of P/E moves the base target by $31.80 (6.4 pp of the close)",
+        "watch_metric": "Same-facility admissions growth and exchange payer-mix impact versus the $1.0-1.2B guided headwind",
+        "next_disclosure": "Q4 and FY2026 results with 2027 guidance, expected late January 2027"
+      },
+      "dividend_per_share": 3.12,
+      "analyst_notes": "Since the Oct 27 print, TD Cowen (460 to 486), KeyBanc (435 to 490) and RBC (496 to 521) raised targets, reversing July cuts by Truist, Oppenheimer and Mizuho. The named average of about $492 sits near the close, so the gap to my $493 base is small (about 15.5x on $31.8 EPS). Only 6 firms found; horizons are undocumented and RBC, Oppenheimer and Mizuho ratings were not confirmed.",
+      "sources": [
+        {
+          "label": "Q3 2026 results",
+          "url": "https://finviz.com/news/408582/hca-healthcare-reports-third-quarter-2026-results",
+          "supports": "EPS, revenue, dividend, share count"
+        },
+        {
+          "label": "Q2 2026 preview with revised guidance",
+          "url": "https://www.businesswire.com/news/home/20260714472051/en/HCA-Healthcare-Previews-Second-Quarter-2026-Results",
+          "supports": "2026 guidance ranges"
+        },
+        {
+          "label": "TD Cowen target raise",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-hca-healthcare-nyse-hca-stock-gets-price-target-increase-from-td-cowen-2026-10-28/",
+          "supports": "TD Cowen call"
+        },
+        {
+          "label": "KeyBanc and RBC raises",
+          "url": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html",
+          "supports": "KeyBanc, RBC calls"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-27T07:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 3,
+        "post_earnings": 2,
+        "earnings_order_unknown": 0,
+        "median_age_days": 16,
+        "max_weight_pct": 40.18355875005511,
+        "contributors": [
+          {
+            "analyst": "Matthew Gillmor",
+            "firm": "KeyBanc",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": true,
+            "source": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html",
+            "weight": 0.40183558750055115
+          },
+          {
+            "analyst": "TD Cowen analyst",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-hca-healthcare-nyse-hca-stock-gets-price-target-increase-from-td-cowen-2026-10-28/",
+            "weight": 0.40183558750055115
+          },
+          {
+            "analyst": "Truist analyst",
+            "firm": "Truist Financial",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-27",
+            "age_days": 109,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/hca-healthcare-nysehca-given-new-49500-price-target-at-truist-financial-2026-07-27/",
+            "weight": 0.19632882499889762
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 99.99999999999999,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Matthew Gillmor",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-05:00",
+          "source": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Matthew Gillmor",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 490.0,
+          "source_prior": 435,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html",
+          "prior_observed": null,
+          "revision_pct": 12.643678160919535,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mizuho analyst",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 475.0,
+          "source_prior": 525,
+          "issued_at": "2026-07-28",
+          "public_at": "2026-07-28T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/mizuho-cuts-hca-healthcare-nysehca-price-target-to-47500-2026-07-28/",
+          "prior_observed": null,
+          "revision_pct": -9.523809523809524,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Oppenheimer analyst",
+          "firm": "Oppenheimer",
+          "field": "target",
+          "value": 485.0,
+          "source_prior": 520,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/oppenheimer-has-lowered-expectations-for-hca-healthcare-nysehca-stock-price-2026-07-27/",
+          "prior_observed": null,
+          "revision_pct": -6.730769230769229,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "RBC Capital analyst",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 521.0,
+          "source_prior": 496,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.dailypolitical.com/2026/10/31/hca-healthcare-nysehca-price-target-raised-to-490-00.html",
+          "prior_observed": null,
+          "revision_pct": 5.040322580645151,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-hca-healthcare-nyse-hca-stock-gets-price-target-increase-from-td-cowen-2026-10-28/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 486.0,
+          "source_prior": 460,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-hca-healthcare-nyse-hca-stock-gets-price-target-increase-from-td-cowen-2026-10-28/",
+          "prior_observed": null,
+          "revision_pct": 5.652173913043468,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Truist analyst",
+          "firm": "Truist Financial",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/hca-healthcare-nysehca-given-new-49500-price-target-at-truist-financial-2026-07-27/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Truist analyst",
+          "firm": "Truist Financial",
+          "field": "target",
+          "value": 495.0,
+          "source_prior": 535,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/hca-healthcare-nysehca-given-new-49500-price-target-at-truist-financial-2026-07-27/",
+          "prior_observed": null,
+          "revision_pct": -7.476635514018692,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "RIO": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 82.95,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E per ADR (NYSE: RIO, USD), FY2027 EPS viewed at the 12-month target date (Nov 2027). Share basis: 1 ADR = 1 ordinary share of Rio Tinto plc (ratio from general knowledge of the programme; not re-verified against the 20-F in this run). FX: none applied; Rio Tinto reports in US dollars so EPS is already USD. Base year: H1 2026 underlying EPS 421.4 US cents (vs 296.0 H1 2025), interim dividend US$2.11 (29 Jul 2026 results). FY2026 is estimated at about US$8.00 (H1 plus an assumed softer H2 of about US$3.80); FY2027 EPS is an operating assumption, not sourced consensus. Base: US$7.40 at 11x = 81.40. Bear: US$5.80 at 9x = 52.20. Bull: US$9.00 at 13x = 117.00. Price-only; dividends excluded.",
+        "bear": 52.2,
+        "base": 81.4,
+        "bull": 117.0,
+        "cases": {
+          "bear": {
+            "driver": "Iron ore and copper prices fall back and cost inflation erodes margins; FY27 earnings about 27% below FY26 estimate",
+            "assumption": "EPS US$5.80 at 9x",
+            "target": 52.2
+          },
+          "base": {
+            "driver": "Copper and aluminium strength partly offsets softer iron ore, earnings ease about 8% from FY26 estimate; cyclical multiple",
+            "assumption": "EPS US$7.40 at 11x",
+            "target": 81.4
+          },
+          "bull": {
+            "driver": "Data-centre copper demand and firm iron ore lift earnings above FY26; market pays a higher multiple for copper growth",
+            "assumption": "EPS US$9.00 at 13x",
+            "target": 117.0
+          }
+        },
+        "implied_by_close": "At base EPS US$7.40 the 82.95 close implies 11.2x. The analyst targets seen (US$89.50 and US$90) imply about 12.1x to 12.2x base EPS, or EPS near US$8.10 at 11x.",
+        "sensitivity": "One turn of P/E on base EPS moves the base target by US$7.40 (about 8.9 pp of the close).",
+        "watch_metric": "Pilbara iron ore realised price and shipments, and copper output against guidance. A realised iron ore price well below the FY26 level would break the base case.",
+        "next_disclosure": "Q4 2026 operations review (January 2027) and the 2026 full-year results (about February 2027)."
+      },
+      "dividend_per_share": 2.11,
+      "analyst_notes": "Only a few dated named calls were found, all from a Google Finance listing summarised via search: Bernstein Buy with an US$89.50 target (9 Sep 2026), Morgan Stanley initiating at Sell with US$90 (21 Aug 2026), and an Erste Group downgrade to Hold (27 Aug 2026). The Morgan Stanley Sell with a target above the close is unusual and may reflect a listing quirk. Aggregator consensus ranges from about US$80 to US$107 and several are undated or stale; Argus Buy US$120 and Berenberg Hold US$87-88 (April) lacked exact dates and are not entered. Targets sit about 8-9% above the base case, a gap of roughly one P/E turn or US$0.70 of EPS.",
+      "sources": [
+        {
+          "label": "Rio Tinto 2026 half year results (RNS, 29 Jul 2026)",
+          "url": "https://www.investegate.co.uk/announcement/rns/rio-tinto--rio/rio-tinto-2026-half-year-results/9692256",
+          "supports": "H1 EPS 421.4c, interim dividend US$2.11, release date"
+        },
+        {
+          "label": "Rio Tinto H1 2026 coverage, Mining Weekly",
+          "url": "https://www.miningweekly.com/article/rio-tinto-posts-highest-h1-earnings-in-four-years-as-data-centre-boom-boosts-copper-2026-07-29",
+          "supports": "Earnings, copper and iron ore context"
+        },
+        {
+          "label": "Google Finance RIO:NYSE analyst actions",
+          "url": "https://www.google.com/finance/quote/RIO:NYSE",
+          "supports": "Bernstein, Morgan Stanley, Erste dated calls"
+        },
+        {
+          "label": "WallStSmart RIO price targets",
+          "url": "https://wallstsmart.com/stock/RIO/price-targets",
+          "supports": "Consensus target about US$81"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-07-29T07:00:00+01:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 3,
+        "post_earnings": 3,
+        "earnings_order_unknown": 0,
+        "median_age_days": 78,
+        "max_weight_pct": 36.119346679391114,
+        "contributors": [
+          {
+            "analyst": "Bernstein (analyst not named)",
+            "firm": "Bernstein",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-09",
+            "age_days": 65,
+            "after_earnings": true,
+            "source": "https://www.google.com/finance/quote/RIO:NYSE",
+            "weight": 0.3611934667939112
+          },
+          {
+            "analyst": "Erste Group (analyst not named)",
+            "firm": "Erste Group",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-08-27",
+            "age_days": 78,
+            "after_earnings": true,
+            "source": "https://www.google.com/finance/quote/RIO:NYSE",
+            "weight": 0.32678173614078815
+          },
+          {
+            "analyst": "Morgan Stanley (analyst not named)",
+            "firm": "Morgan Stanley",
+            "value": "Sell",
+            "bucket": "Sell",
+            "issued_at": "2026-08-21",
+            "age_days": 84,
+            "after_earnings": true,
+            "source": "https://www.google.com/finance/quote/RIO:NYSE",
+            "weight": 0.3120247970653007
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 1,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 36.119346679391114,
+          "Hold": 32.678173614078815,
+          "Sell": 31.202479706530067
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Bernstein (analyst not named)",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-09",
+          "public_at": "2026-09-09T23:59:59-04:00",
+          "source": "https://www.google.com/finance/quote/RIO:NYSE",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bernstein (analyst not named)",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 89.5,
+          "source_prior": null,
+          "issued_at": "2026-09-09",
+          "public_at": "2026-09-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.google.com/finance/quote/RIO:NYSE",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Erste Group (analyst not named)",
+          "firm": "Erste Group",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59+02:00",
+          "source": "https://www.google.com/finance/quote/RIO:NYSE",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley (analyst not named)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www.google.com/finance/quote/RIO:NYSE",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley (analyst not named)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 90.0,
+          "source_prior": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.google.com/finance/quote/RIO:NYSE",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "PSX": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 264.9,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward adjusted EPS x P/E on FY2027 EPS (year priced at the 2027-11-18 target date). Anchors: Q3 2026 adjusted EPS $14.08 (record, realized refining margin $38/bbl vs $24.08 in Q2), 9M 2026 adjusted EPS $23.89, Q3 diluted shares about 399 million with $2.27bn buybacks in the quarter. FY2027 EPS values are our assumptions of how far record cracks normalize; multiples are low-to-mid cycle refiner multiples applied to elevated earnings, not broker targets. US common share in USD, so no ADR or FX conversion.",
+        "bear": 180.0,
+        "base": 264.0,
+        "bull": 352.0,
+        "cases": {
+          "bear": {
+            "driver": "Crack spreads revert most of the way to mid-cycle and chemicals/marketing stay weak",
+            "assumption": "FY2027 adjusted EPS $15 at 12x",
+            "target": 180.0
+          },
+          "base": {
+            "driver": "Margins fade from Q3 record but stay well above 2025 levels, 95%+ utilization, steady buybacks",
+            "assumption": "FY2027 adjusted EPS $24 at 11x",
+            "target": 264.0
+          },
+          "bull": {
+            "driver": "Tight product markets persist through 2027 with buybacks shrinking the share count",
+            "assumption": "FY2027 adjusted EPS $32 at 11x",
+            "target": 352.0
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $24 the close of $264.90 implies 11.0x; on 9M 2026 adjusted EPS annualized (about $31.9) it is 8.3x. The highest named target ($346, Wells Fargo) implies 14.4x base EPS or EPS near $31.5 at 11x.",
+        "sensitivity": "One turn of P/E moves the base target by $24 (9.1% of the close, 9.1 pp). A $1 change in FY2027 EPS at 11x moves it by $11 (4.2 pp).",
+        "watch_metric": "Realized refining margin per barrel and Gulf Coast/US crack spreads versus the $38/bbl Q3 record.",
+        "next_disclosure": "Q4 and full-year 2026 results, expected around late January or early February 2027 (date not retrieved)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named targets jumped after the Q3 record: Wells Fargo $346, TD Cowen $308, Mizuho $300 (while downgrading to Neutral), UBS $300 and Goldman $274 versus $200-235 in summer. Most post-Q3 targets sit above our $264 base (up to 31% above), which needs about $31 EPS at 11x versus our $24. Piper Sandler's $209 (August) is stale; target horizons are not documented so none enter the weighted target.",
+      "sources": [
+        {
+          "label": "FN2 PSX analyst targets and ratings",
+          "url": "https://fn2.ai/earnings/psx/analysts",
+          "supports": "named analyst targets, ratings and dates"
+        },
+        {
+          "label": "Phillips 66 Q3 2026 results (MarketScreener)",
+          "url": "https://ca.marketscreener.com/news/phillips-66-q3-2026-ce785cd2dd8df024",
+          "supports": "Q3 EPS, 9M EPS, share count, refining margin, release date"
+        },
+        {
+          "label": "Phillips 66 Q3 2026 results (Benzinga)",
+          "url": "https://www.benzinga.com/node/62647885",
+          "supports": "adjusted EPS $14.08, record quarter"
+        },
+        {
+          "label": "Q3 call highlights (Zacks)",
+          "url": "https://zacks.com/stock/news/3018600/psx-q3-earnings-call-highlights-refining-strength-and-growth-plans",
+          "supports": "refining strength context"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-28T07:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 36,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Nitin Kumar",
+            "firm": "Mizuho Securities",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-08",
+            "age_days": 36,
+            "after_earnings": false,
+            "source": "https://fn2.ai/earnings/psx/analysts",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 100.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Jason Gabelman",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 308.0,
+          "source_prior": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/psx/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John Royall",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 209.0,
+          "source_prior": null,
+          "issued_at": "2026-08-10",
+          "public_at": "2026-08-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/psx/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Manav Gupta",
+          "firm": "UBS",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": 235,
+          "issued_at": "2026-09-08",
+          "public_at": "2026-09-08T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/psx/analysts",
+          "prior_observed": null,
+          "revision_pct": 27.65957446808511,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Neil Mehta",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 274.0,
+          "source_prior": 235,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/psx/analysts",
+          "prior_observed": null,
+          "revision_pct": 16.595744680851055,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Nitin Kumar",
+          "firm": "Mizuho Securities",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-08",
+          "public_at": "2026-10-08T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/psx/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Nitin Kumar",
+          "firm": "Mizuho Securities",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": 212,
+          "issued_at": "2026-10-08",
+          "public_at": "2026-10-08T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/psx/analysts",
+          "prior_observed": null,
+          "revision_pct": 41.50943396226414,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sam Margolin",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 346.0,
+          "source_prior": 345,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/psx/analysts",
+          "prior_observed": null,
+          "revision_pct": 0.28985507246377384,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sergey Pigarev",
+          "firm": "Freedom Broker",
+          "field": "target",
+          "value": 258.0,
+          "source_prior": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/psx/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "BNY": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 153.41,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank: forward P/E on FY2027 EPS viewed at Nov 2027. NYSE BNY is the common share (no ADR, USD, no FX). FY2026 base: nine-month GAAP EPS $7.02 plus Q4 about $2.35 gives about $9.4 (Q3 adjusted $2.37, Q2 $2.46). Base FY2027 EPS $10.30 (+10%) at 15.5x = $159.65. Bear $9.20 at 12.5x = $115.00. Bull $11.30 at 17.5x = $197.75. P/E used as primary; tangible book $32.22 (Sep 30 2026) implies base about 5.0x TBV, consistent with ROTCE near 29%.",
+        "bear": 115.0,
+        "base": 159.65,
+        "bull": 197.75,
+        "cases": {
+          "bear": {
+            "driver": "Lower rates and fee pressure plus weaker markets flatten EPS; multiple compresses.",
+            "assumption": "EPS $9.2 at 12.5x = $115.0",
+            "target": 115.0
+          },
+          "base": {
+            "driver": "Fee growth in custody and Treasury services, steady NII and buybacks (about $0.9B a quarter) lift EPS about 10%.",
+            "assumption": "EPS $10.3 at 15.5x = $159.65",
+            "target": 159.65
+          },
+          "bull": {
+            "driver": "Strong platform revenue, operating leverage and higher buybacks lift EPS about 20%; premium multiple holds.",
+            "assumption": "EPS $11.3 at 17.5x = $197.75",
+            "target": 197.75
+          }
+        },
+        "implied_by_close": "At base EPS $10.30 the close implies 14.9x; the average analyst target of about $162 implies 15.7x on the same EPS, or EPS about $10.45 at 15.5x.",
+        "sensitivity": "One turn of P/E moves the base target by $10.30 (6.7 pp of the close).",
+        "watch_metric": "Fee revenue growth and net interest revenue versus guidance, plus ROTCE staying near 29%.",
+        "next_disclosure": "Q4 2026 earnings release, expected mid-January 2027."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Eight named calls since the Oct 15 earnings release: 3 Buy, 5 Hold, targets $150-$178, mean about $162. BofA, JPMorgan and Morgan Stanley raised targets after earnings while Citi cut to $157. Targets sit about 5% above the close, close to the base case. Horizon is not documented so none count in the weighted target; no calls older than Oct 16 were found.",
+      "sources": [
+        {
+          "label": "StockAnalysis BNY ratings",
+          "url": "https://stockanalysis.com/stocks/bny/ratings/",
+          "supports": "analyst ratings and targets"
+        },
+        {
+          "label": "BNY Q3 2026 earnings release 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001390777/000139077726000104/ex991_earningsreleasex3q26.htm",
+          "supports": "EPS, TBV, buybacks"
+        },
+        {
+          "label": "Quartr Q3 2026 summary",
+          "url": "https://quartr.com/events/the-bank-of-new-york-mellon-corporation-bny-q3-2026_3Y8nFxGs",
+          "supports": "results and date"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-15T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 26.5,
+        "max_weight_pct": 13.907435304614182,
+        "contributors": [
+          {
+            "analyst": "Ben Gerlinger",
+            "firm": "Citi",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bny/ratings/",
+            "weight": 0.12107125638436281
+          },
+          {
+            "analyst": "Ebrahim Poonawala",
+            "firm": "Bank of America Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bny/ratings/",
+            "weight": 0.13907435304614182
+          },
+          {
+            "analyst": "Gerard Cassidy",
+            "firm": "RBC Capital",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bny/ratings/",
+            "weight": 0.11830598506683847
+          },
+          {
+            "analyst": "Glenn Schorr",
+            "firm": "Evercore ISI",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bny/ratings/",
+            "weight": 0.11830598506683847
+          },
+          {
+            "analyst": "Jason Goldberg",
+            "firm": "Barclays",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bny/ratings/",
+            "weight": 0.13485527451442975
+          },
+          {
+            "analyst": "Manan Gosalia",
+            "firm": "Morgan Stanley",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bny/ratings/",
+            "weight": 0.11830598506683847
+          },
+          {
+            "analyst": "Scott Siefers",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bny/ratings/",
+            "weight": 0.11830598506683847
+          },
+          {
+            "analyst": "Vivek Juneja",
+            "firm": "J.P. Morgan",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bny/ratings/",
+            "weight": 0.13177517578771175
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 5,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 40.57048033482833,
+          "Hold": 59.42951966517167,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Ben Gerlinger",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ben Gerlinger",
+          "firm": "Citi",
+          "field": "target",
+          "value": 157.0,
+          "source_prior": 160,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "revision_pct": -1.8750000000000044,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 165.0,
+          "source_prior": 161,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "revision_pct": 2.4844720496894457,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Gerard Cassidy",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Gerard Cassidy",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 168.0,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Glenn Schorr",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Glenn Schorr",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 150.0,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 178.0,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Manan Gosalia",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Manan Gosalia",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 152.0,
+          "source_prior": 151,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "revision_pct": 0.6622516556291425,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Scott Siefers",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Scott Siefers",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 160.0,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Vivek Juneja",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Vivek Juneja",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 167.0,
+          "source_prior": 161,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bny/ratings/",
+          "prior_observed": null,
+          "revision_pct": 3.7267080745341685,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
     }
   },
   "failures": [],
@@ -63445,6 +64981,11 @@
         "kind": "new"
       },
       {
+        "symbol": "BNY",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "BP",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -63555,6 +65096,11 @@
         "kind": "new"
       },
       {
+        "symbol": "EQIX",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "ETN",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -63581,6 +65127,11 @@
       },
       {
         "symbol": "GS",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "HCA",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -63840,7 +65391,17 @@
         "kind": "new"
       },
       {
+        "symbol": "PSX",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "QCOM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "RIO",
         "researched_at": "2026-11-18",
         "kind": "new"
       },

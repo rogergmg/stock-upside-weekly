@@ -9996,9 +9996,289 @@
         "high": 202981002260
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Henri Patricot",
+          "firm": "UBS",
+          "field": "target",
+          "value": 102.78,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Henri Patricot",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Biraj Borkhataria",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 99.47,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Biraj Borkhataria",
+          "firm": "RBC Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Sergey Pigarev",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 91,
+          "source_prior": 81,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Sergey Pigarev",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Alastair Syme",
+          "firm": "Citi",
+          "field": "target",
+          "value": 104.99,
+          "source_prior": 99.47,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Alastair Syme",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Christopher Kuplent",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 98.36,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Christopher Kuplent",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Werner Eisenmann",
+          "firm": "DZ BANK AG",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Mark Wilson",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 99.47,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Mark Wilson",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Pei Hwa Ho",
+          "firm": "DBS",
+          "field": "target",
+          "value": 96.15,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Pei Hwa Ho",
+          "firm": "DBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "John Royall",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 93,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "John Royall",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Matthew Lofting",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 93.94,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Matthew Lofting",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Jason Gabelman",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 105,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Jason Gabelman",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Nitin Kumar, CFA",
+          "firm": "Mizuho Securities",
+          "field": "target",
+          "value": 108,
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Nitin Kumar, CFA",
+          "firm": "Mizuho Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Michele Della Vigna",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 96.15,
+          "source_prior": 90.63,
+          "issued_at": "2026-09-28",
+          "public_at": "2026-09-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Michele Della Vigna",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-28",
+          "public_at": "2026-09-28T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Lydia Rainforth",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 110.52,
+          "source_prior": 104.99,
+          "issued_at": "2026-10-04",
+          "public_at": "2026-10-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        },
+        {
+          "analyst": "Lydia Rainforth",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-04",
+          "public_at": "2026-10-04T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/TTE/forecast"
+        }
+      ],
+      "earnings_at": "2026-10-29T07:00:00+01:00",
+      "valuation": {
+        "bear": 60.0,
+        "base": 94.5,
+        "bull": 125.0
+      }
     },
     {
       "issuer_id": "Amphenol Corporation",
@@ -10012,9 +10292,15 @@
         "high": 197134454649
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-10-28T12:00:00-04:00",
+      "valuation": {
+        "bear": 68.0,
+        "base": 98.4,
+        "bull": 128.8
+      },
+      "dividend_per_share": 0.6
     },
     {
       "issuer_id": "Analog Devices, Inc.",
@@ -10028,9 +10314,132 @@
         "high": 196699368468
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Stacy Rasgon",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 465,
+          "source_prior": 430,
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finviz.com/news/384150/bernstein-upgrades-analog-devices-after-q3-beat-strengthens-growth-outlook"
+        },
+        {
+          "analyst": "Stacy Rasgon",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://finviz.com/news/384150/bernstein-upgrades-analog-devices-after-q3-beat-strengthens-growth-outlook"
+        },
+        {
+          "analyst": "KeyBanc analyst (unnamed)",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 525,
+          "source_prior": 500,
+          "issued_at": "2026-07-14",
+          "public_at": "2026-07-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.sahmcapital.com/news/content/buzz-chipmaker-analog-devices-rises-keybanc-raises-pt-2026-07-14"
+        },
+        {
+          "analyst": "KeyBanc analyst (unnamed)",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-07-14",
+          "public_at": "2026-07-14T23:59:59-04:00",
+          "source": "https://www.sahmcapital.com/news/content/buzz-chipmaker-analog-devices-rises-keybanc-raises-pt-2026-07-14"
+        },
+        {
+          "analyst": "Raymond James analyst (unnamed)",
+          "firm": "Raymond James",
+          "field": "target",
+          "value": 430,
+          "source_prior": 385,
+          "issued_at": "2026-05-21",
+          "public_at": "2026-05-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-raises-price-target-005059030.html"
+        },
+        {
+          "analyst": "Raymond James analyst (unnamed)",
+          "firm": "Raymond James",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-05-21",
+          "public_at": "2026-05-29T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/raymond-james-raises-price-target-005059030.html"
+        },
+        {
+          "analyst": "Needham analyst (unnamed)",
+          "firm": "Needham",
+          "field": "target",
+          "value": 440,
+          "source_prior": 400,
+          "issued_at": "2026-05-21",
+          "public_at": "2026-05-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analog-devices-nasdaqadi-given-new-44000-price-target-at-needham-company-llc-2026-05-21/"
+        },
+        {
+          "analyst": "Needham analyst (unnamed)",
+          "firm": "Needham",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-05-21",
+          "public_at": "2026-05-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analog-devices-nasdaqadi-given-new-44000-price-target-at-needham-company-llc-2026-05-21/"
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 450,
+          "source_prior": 400,
+          "issued_at": "2026-05-26",
+          "public_at": "2026-05-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-increases-analog-devices-nasdaqadi-price-target-to-45000-2026-05-26/"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 425,
+          "source_prior": 400,
+          "issued_at": "2026-04-13",
+          "public_at": "2026-04-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analog-devices-nasdaqadi-price-target-raised-to-42500-at-bank-of-america-2026-04-13/"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-13",
+          "public_at": "2026-04-13T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analog-devices-nasdaqadi-price-target-raised-to-42500-at-bank-of-america-2026-04-13/"
+        }
+      ],
+      "earnings_at": "2026-08-19T10:00:00-04:00",
+      "valuation": {
+        "bear": 291.5,
+        "base": 375.0,
+        "bull": 490.0
+      },
+      "dividend_per_share": 4.4
     },
     {
       "issuer_id": "Verizon Communications Inc.",
@@ -10044,9 +10453,133 @@
         "high": 196028725337
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Michael Rollins",
+          "firm": "Citi",
+          "field": "target",
+          "value": 53,
+          "source_prior": 55,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "Michael Rollins",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 47,
+          "source_prior": 51,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 50,
+          "source_prior": 52,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal-Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 55,
+          "source_prior": 56,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "Daiwa analyst (unnamed)",
+          "firm": "Daiwa Securities",
+          "field": "target",
+          "value": 52,
+          "source_prior": 55,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "Barclays analyst (unnamed)",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 44,
+          "source_prior": 46,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        },
+        {
+          "analyst": "BNP Paribas Exane analyst (unnamed)",
+          "firm": "BNP Paribas Exane",
+          "field": "target",
+          "value": 45,
+          "source_prior": 46,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://beinsure.com/news/verizon-nysevz-stock-forecast-new-wall-street-price-targets/"
+        }
+      ],
+      "earnings_at": "2026-10-26T08:30:00-04:00",
+      "valuation": {
+        "bear": 38.8,
+        "base": 50.35,
+        "bull": 58.8
+      },
+      "dividend_per_share": 2.83
     },
     {
       "issuer_id": "McDonald's Corporation",
@@ -10060,9 +10593,57 @@
         "high": 195798521366
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ivan Feinseth",
+          "firm": "Tigress Financial",
+          "field": "target",
+          "value": 390,
+          "source_prior": 385,
+          "issued_at": "2026-07-17",
+          "public_at": "2026-07-17T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/"
+        },
+        {
+          "analyst": "Ivan Feinseth",
+          "firm": "Tigress Financial",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-17",
+          "public_at": "2026-07-17T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/"
+        },
+        {
+          "analyst": "Gregory Francfort",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 250,
+          "source_prior": 290,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/"
+        },
+        {
+          "analyst": "Gregory Francfort",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/"
+        }
+      ],
+      "earnings_at": "2026-11-04T23:59:59-05:00",
+      "valuation": {
+        "bear": 244.8,
+        "base": 301.0,
+        "bull": 345.6
+      }
     },
     {
       "issuer_id": "Shopify Inc.",

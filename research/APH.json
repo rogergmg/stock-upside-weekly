@@ -1,0 +1,34 @@
+{
+  "issuer_id": "Amphenol Corporation",
+  "symbol": "APH",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 78.23, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-28T12:00:00-04:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward EPS x P/E. Company-reported non-GAAP (adjusted) diluted EPS: FY2026 guidance $2.82 to $2.84 (midpoint $2.83) and Q4 2026 guidance $0.81 to $0.83 from the Oct 28 2026 release. Q4 run-rate annualized is about $3.28. A 2-for-1 stock split was paid as a stock dividend with split-adjusted trading from Sep 3 2026, so all per-share figures here are on the post-split basis that matches the 78.23 close. At the 12-month target date (Nov 2027) an investor prices FY2028 EPS, so target = FY2028 EPS x P/E. USD listing, no FX or ADR conversion. Scenario EPS for FY2027 and FY2028 are model assumptions, not company guidance (the company gave no multi-year EPS outlook in the sources reviewed).",
+    "bear": 68.0,
+    "base": 98.4,
+    "bull": 128.8,
+    "cases": {
+      "bear": {"driver": "AI datacenter and CommScope integration demand slows and margins compress from the record Q3 level; EPS growth about 10% in FY2027 and FY2028 (FY2027 around $3.10, FY2028 around $3.40), with a de-rating to a multiple near the low end of the stock's historical range", "assumption": "FY2028 EPS $3.40 at 20.0x", "target": 68.0},
+      "base": {"driver": "Sales growth near the Q4 2026 guide ($10.3 to $10.5 billion per quarter) with organic growth and acquisition contribution, and adjusted EPS growth of about 24% in FY2027 (to about $3.50) and about 17% in FY2028; $4 billion three-year buyback from Jan 1 2027 adds modest per-share support", "assumption": "FY2028 EPS $4.10 (FY2027 $3.50) at 24.0x", "target": 98.4},
+      "bull": {"driver": "AI connectivity and datacom demand keeps growing faster, with stronger margins and continued acquisitions; EPS growth about 25% a year in FY2027 and FY2028, and the market keeps a premium multiple", "assumption": "FY2028 EPS $4.60 at 28.0x", "target": 128.8}
+    },
+    "implied_by_close": "At base FY2026 EPS $2.83 the close implies 27.6x; at base FY2027 EPS $3.50 it implies 22.4x. No analyst target was sourced with a 12-month horizon, so no analyst-weighted target is available. The aggregate published mean of $106.97 (19 analysts, Yahoo Finance via yfinance, 2026-11-13) implies 26.1x base FY2028 EPS, or about $4.46 EPS at 24.0x (about 9% above model).",
+    "sensitivity": "One turn of P/E moves the base target by $4.10 (about 5.2 pp of the close). A $0.10 change in FY2028 EPS moves the base target by $2.40 at 24.0x (about 3.1 pp).",
+    "watch_metric": "Adjusted EPS versus the Q4 2026 guide ($0.81 to $0.83) and the FY2027 growth rate, together with organic sales growth in the Q4 2026 and FY2027 disclosures. Management's FY2027 outlook would confirm or break the base-case path.",
+    "next_disclosure": "Q4 and full-year 2026 results with FY2027 outlook, expected late January 2027 (the Yahoo earnings timestamp is about 2027-01-27; the date is not confirmed in the sources reviewed)"
+  },
+  "dividend_per_share": 0.6,
+  "analyst_notes": "No named individual analyst call dated within the last 12 months could be verified from the sources reviewed, so the events list is empty and coverage is unavailable. Secondary sources (MarketBeat, Nov 2 and Oct 28 2026 articles) list firm-level actions without analyst names: RBC $100 (Oct 26, rating not stated), UBS $105 to $111 Buy (Oct 29), JPMorgan $107 to $115 Overweight (Oct 29), Barclays $100 to $111 Overweight (Nov 2), and Goldman Sachs $102 to $116 Buy reiterated (Oct 6). These are unverified against the broker notes and are kept out of the weighted calculation. The consensus target sits around $99 to $108 across these sources, which is about 27% to 38% above the close and above the $98.40 base case by roughly $1 to $10, so the base case is more conservative than the Street. Earlier 2026 aggregates near $176 to $189 are pre-split and should not be used. Pre-split July 2026 targets (for example Truist $215 and Citigroup $210) equal about $107.50 and $105 post-split and are not used in the valuation either.",
+  "sources": [
+    {"label": "Amphenol Reports Record Third Quarter 2026 Results and Announces Dividend Increase and New Stock Repurchase Program (Oct 28 2026)", "url": "https://www.ariva.de/news/amphenol-reports-record-third-quarter-2026-results-and-12184992", "supports": "Q3 2026 sales $10,229.7M, GAAP EPS $0.79, adjusted EPS $0.80; Q4 and FY2026 guidance; 2-for-1 split; dividend $0.15 quarterly; $4B buyback from Jan 1 2027"},
+    {"label": "MarketBeat: Amphenol shares gap up on earnings beat (Oct 28 2026)", "url": "https://www.marketbeat.com/instant-alerts/price-amphenol-nyse-aph-shares-gap-up-on-earnings-beat-2026-10-28/", "supports": "Post-earnings consensus average target $99.19 (Moderate Buy)"},
+    {"label": "MarketBeat: Amphenol shares up 8.4% (Nov 9 2026)", "url": "https://www.marketbeat.com/instant-alerts/price-amphenol-nyse-aph-shares-up-84-time-to-buy-2026-11-09/", "supports": "Firm-level actions UBS, JPMorgan, Goldman Sachs, RBC and Barclays; consensus average target $108.32, unnamed analysts"},
+    {"label": "MarketBeat: Barclays raises APH target to $111 (Nov 2 2026)", "url": "https://www.marketbeat.com/instant-alerts/analyst-amphenol-nyse-aph-price-target-raised-to-11100-2026-11-02/", "supports": "Barclays $100 to $111 Overweight, firm-only, no analyst named"},
+    {"label": "Amphenol Q3 2026 earnings summary (Quartr)", "url": "https://quartr.com/events/amphenol-aph-q3-2026_3gbj4Pqv", "supports": "Q3 2026 earnings event date and summary cross-check"}
+  ]
+}

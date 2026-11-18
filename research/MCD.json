@@ -1,0 +1,59 @@
+{
+  "issuer_id": "McDonald's Corporation",
+  "symbol": "MCD",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 271.97, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-04T23:59:59-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Ivan Feinseth", "firm": "Tigress Financial", "field": "target", "value": 390, "source_prior": 385,
+     "issued_at": "2026-07-17", "public_at": "2026-07-17T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/"},
+    {"analyst": "Ivan Feinseth", "firm": "Tigress Financial", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-07-17", "public_at": "2026-07-17T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/"},
+    {"analyst": "Gregory Francfort", "firm": "Guggenheim", "field": "target", "value": 250, "source_prior": 290,
+     "issued_at": "2026-10-05", "public_at": "2026-10-05T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/"},
+    {"analyst": "Gregory Francfort", "firm": "Guggenheim", "field": "rating", "value": "Neutral", "bucket": "Hold",
+     "issued_at": "2026-10-05", "public_at": "2026-10-05T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x justified P/E: FY2027 diluted adjusted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion, price-only (dividends excluded). Anchors: FY2025 adjusted EPS $12.20 (Feb 11 2026 release); FY2026 operating margin guided to the mid-to-high 40% range with a $0.20-0.30 FX tailwind; Q3 2026 adjusted EPS $3.57 (+11% constant currency) reported Nov 4 2026. FY2026 EPS of about $13.10 (7-8% growth) and FY2027 EPS are my own assumptions; the 9M 2026 quarterly EPS and the FY2026 guidance table were not read directly.",
+    "bear": 244.8,
+    "base": 301.0,
+    "bull": 345.6,
+    "cases": {
+      "bear": {
+        "driver": "Low-single-digit U.S. traffic keeps comps weak, 2027 food and paper inflation in the mid-single digits is not fully passed through, and the value-program investment dilutes margin; the stock stays de-rated.",
+        "assumption": "FY2027 EPS $13.60 at 18x",
+        "target": 244.8
+      },
+      "base": {
+        "driver": "Global comps grow mid-single digits with franchising mix and cost efficiencies (systems and data benefits from 2027) lifting EPS about 7%; the multiple stays near a modest discount to its recent level.",
+        "assumption": "FY2027 EPS $14.00 at 21.5x",
+        "target": 301.0
+      },
+      "bull": {
+        "driver": "U.S. comps turn clearly positive on the value platform and check growth, margins rise further from refranchising, and buybacks add to EPS growth; the premium defensive multiple returns.",
+        "assumption": "FY2027 EPS $14.40 at 24x",
+        "target": 345.6
+      }
+    },
+    "implied_by_close": "At base EPS of $14.00 the $271.97 close implies 19.4x. The aggregate Street mean target of $299 implies 21.4x on the same EPS, and the two dated named targets (Tigress $390, Guggenheim $250) average $320 and imply 22.9x.",
+    "sensitivity": "One turn of P/E moves the base target by $14.00 (about 5.1 pp of the close); a $0.50 change in FY2027 EPS at 21.5x moves it by about $10.75 (3.9 pp).",
+    "watch_metric": "U.S. comparable sales (Q3 2026: down 0.2%, positive in September) with guest counts, and global operating margin in the mid-to-high 40s, together with 2027 EPS guidance that reflects the 2027 food and paper inflation and the value-program cost.",
+    "next_disclosure": "Q4 and FY2026 results with 2027 outlook, expected in early February 2027 (date not confirmed in sources)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only two named analysts have dated calls I could verify through the cutoff: Ivan Feinseth at Tigress (Buy, $390 from $385 on Jul 17) and Gregory Francfort at Guggenheim (Neutral, $250 from $290 on Oct 5, cutting after Analyst Day). Their equal-weight target is $320 and the 90-day weighted target about $299 (raw weights 0.40 and 0.74, normalized about 35% and 65%), but neither has a documented 12-month horizon, so both stay out of the weighted target. Firm-only dated actions (KeyCorp Overweight $305 to $280 on Oct 6; HSBC Buy $357 to $356 on Aug 5; DZ Bank Buy reissued Sep 24) lack a named analyst and are excluded from the individual calculation; the undated post-Q3 moves (Wells Fargo Overweight $270 to $300, BTIG Buy $295 to $305, RBC $285 to $300, Bernstein Market Perform $250 to $280, Freedom Broker Hold $305 to $298) are excluded because their dates are not verified. The aggregate Street mean of $299 (29 analysts, Yahoo Finance via yfinance) runs about 10% above the close and about 1 pp below my base case, so the gap is small and within rounding of the EPS assumption.",
+  "sources": [
+    {"label": "Q3 2026 results coverage (Zacks)", "url": "https://www.zacks.com/stock/news/3023287/mcdonald-s-q3-earnings-beat-on-franchised-margins-revenues-miss", "supports": "Q3 2026 adjusted EPS $3.57 vs $3.36-3.38 consensus, revenue $7.16B, global comps +1.5%, U.S. comps -0.2%, 2026 gross openings cut to 2,500"},
+    {"label": "Q3 2026 earnings call highlights (MarketBeat)", "url": "https://www.marketbeat.com/instant-alerts/transcript-mcdonalds-q3-earnings-call-highlights-2026-11-07/", "supports": "2027 food and paper inflation mid-single digits, 2026 capex about $3.7B, U.S. value plans"},
+    {"label": "FY2025 results and 2026 outlook (Zacks)", "url": "https://www.zacks.com/stock/news/2876084/can-mcdonalds-value-strategy-sustain-traffic-gains-in-2026", "supports": "FY2025 adjusted EPS $12.20, 2026 margin guidance mid-to-high 40s, FX tailwind $0.20-0.30"},
+    {"label": "Dated analyst actions (MarketBeat, Nov 2 2026)", "url": "https://www.marketbeat.com/instant-alerts/price-mcdonalds-nyse-mcd-shares-up-29-still-a-buy-2026-11-02/", "supports": "Tigress Buy $390 from $385 (Jul 17), Guggenheim Neutral $250 from $290 (Oct 5), KeyCorp $280 from $305 (Oct 6)"},
+    {"label": "Post-Q3 target roundup (Stocktwits)", "url": "https://stocktwits.com/news-articles/markets/equity/mc-donald-s-q3-report-draws-price-target-hikes-across-wall-street-freedom-broker-has-a-different-take/cNG1qcsR941", "supports": "Post-Q3 raises from Wells Fargo, BTIG, RBC, Bernstein and the Freedom Broker downgrade (dates not verified, not used as events)"}
+  ]
+}

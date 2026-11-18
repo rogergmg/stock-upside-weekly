@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T15:55:20.089070+00:00",
+  "built_at": "2026-11-18T15:57:20.785233+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 122,
+    "rank_valued": 127,
     "rank_with_named_targets": 2,
-    "rank_matched": 122,
-    "researched": 122
+    "rank_matched": 127,
+    "researched": 127
   },
   "ranked": [
     {
@@ -779,6 +779,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "PLD",
+      "issuer_id": "Prologis, Inc.",
+      "close": 128.67,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 119930977775,
+        "high": 127604151761
+      },
+      "scenarios_pct": {
+        "bear": -12.256159166860963,
+        "base": 10.204398849770731,
+        "bull": 28.779047174943653
+      },
+      "base_total_return_pct": 13.53073754565944,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "TM",
       "issuer_id": "Toyota Motor Corporation",
       "close": 212.43,
@@ -1136,6 +1157,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "MFG",
+      "issuer_id": "Mizuho Financial Group, Inc.",
+      "close": 10.34,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 122337428868,
+        "high": 131426658035
+      },
+      "scenarios_pct": {
+        "bear": -29.78723404255319,
+        "base": 5.996131528046422,
+        "bull": 36.94390715667311
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "ABT",
       "issuer_id": "Abbott Laboratories",
       "close": 108.52,
@@ -1238,6 +1280,27 @@
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "IBN",
+      "issuer_id": "ICICI Bank Limited",
+      "close": 34.52,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 121076787547,
+        "high": 126420334468
+      },
+      "scenarios_pct": {
+        "bear": -16.541135573580533,
+        "base": 5.040556199304751,
+        "bull": 27.86790266512167
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
       "analyst_minus_base_pp": null
     },
     {
@@ -1976,6 +2039,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "ADP",
+      "issuer_id": "Automatic Data Processing, Inc.",
+      "close": 309.93,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 119900834945,
+        "high": 124794746575
+      },
+      "scenarios_pct": {
+        "bear": -20.949891911076694,
+        "base": 0.667892749975801,
+        "bull": 13.574032846126544
+      },
+      "base_total_return_pct": 3.1200593682444424,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "PM",
       "issuer_id": "Philip Morris International Inc.",
       "close": 198.96,
@@ -2199,6 +2283,27 @@
         "bear": -15.183112919633775,
         "base": -0.8138351983723296,
         "bull": 13.428280773143438
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "SPOT",
+      "issuer_id": "Spotify Technology S.A.",
+      "close": 612.63,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 123392837706,
+        "high": 131729393133
+      },
+      "scenarios_pct": {
+        "bear": -27.362355744903123,
+        "base": -1.4086806065651372,
+        "bull": 26.50376246674175
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -2588,26 +2693,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SPOT",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MFG",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "IBN",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PLD",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ADP",
       "reason": "independent valuation unavailable"
     },
     {
@@ -52760,6 +52845,1672 @@
           "status_at_cutoff": "active"
         }
       ]
+    },
+    "SPOT": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 612.63,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward diluted EPS x P/E, FY2027 EPS viewed at the Nov 2027 target date. Spotify reports in EUR but the NYSE listing is USD and is one ordinary share (ADR ratio 1:1, no conversion). EUR EPS converted at assumed EUR/USD 1.16 (approximate, not independently verified at the close date). Inputs: Q3 2026 operating income EUR 672m, net income EUR 518m, Q4 guide EUR 820m operating income on EUR 5.2bn revenue; ~207m diluted shares (estimate).",
+        "bear": 445.0,
+        "base": 604.0,
+        "bull": 775.0,
+        "cases": {
+          "bear": {
+            "driver": "Slower subscriber and price-increase gains, margin stalls",
+            "assumption": "FY27 operating income EUR 3.1bn, net ~EUR 2.4bn, EPS EUR 11.6 = $13.5 at 33x",
+            "target": 445.0
+          },
+          "base": {
+            "driver": "Premium growth ~10%, gross margin expansion; operating income +25% on FY26 (~EUR 2.8bn est.)",
+            "assumption": "FY27 operating income EUR 3.5bn, net ~EUR 2.7bn, EPS EUR 13.0 = $15.1 at 40x",
+            "target": 604.0
+          },
+          "bull": {
+            "driver": "Price rises stick, ad tier and audiobook/video monetisation lift margin",
+            "assumption": "FY27 operating income EUR 3.9bn, net ~EUR 3.0bn, EPS EUR 14.5 = $16.8 at 46x",
+            "target": 775.0
+          }
+        },
+        "implied_by_close": "At base EPS $15.1 the close implies 40.6x; the analyst-weighted target (~$640) implies about 42x or EPS ~$16.0 at 40x",
+        "sensitivity": "One turn of P/E moves the base target by about $15 (2.5 pp)",
+        "watch_metric": "Operating income vs the EUR 820m Q4 guide and Premium subs vs 316m",
+        "next_disclosure": "Q4 2026 results, expected early February 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "After the Oct 22 Q3 print most named brokers raised targets by $40-90 (Wells Fargo, Barclays, Guggenheim-style jumps), clustering at $650-700 for Buy-rated firms versus $525-580 for Hold-rated ones. The base case sits slightly below the Buy cluster: $700 needs about EPS $17.5 at 40x. Pre-print targets from UBS and KeyBanc are stale and were cut in early October. Target horizons are undocumented so none enter the weighted target.",
+      "sources": [
+        {
+          "label": "Analyst target changes",
+          "url": "https://www.pricetargets.com/NYSE/SPOT",
+          "supports": "analyst events"
+        },
+        {
+          "label": "Q3 2026 earnings summary",
+          "url": "https://247wallst.com/cards/spotify-q3-2026-earnings-spot-01m5hh8x7rbhy3sdmx71bprd4k",
+          "supports": "Q3 EPS, revenue"
+        },
+        {
+          "label": "Q3 2026 earnings analysis",
+          "url": "https://beancount.io/blog/2026/10/23/spotify-q3-2026-earnings-analysis",
+          "supports": "operating income, net income, Q4 guide"
+        },
+        {
+          "label": "TIKR Q3 note",
+          "url": "https://www.tikr.com/blog/spotify-nyse-spot-stock-fell-over-2-on-q3-beat-and-mixed-guidance",
+          "supports": "guidance"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-22T06:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 9,
+        "post_earnings": 7,
+        "earnings_order_unknown": 0,
+        "median_age_days": 21,
+        "max_weight_pct": 11.474875686145932,
+        "contributors": [
+          {
+            "analyst": "Batya Levi",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-05",
+            "age_days": 39,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.0998945949232734
+          },
+          {
+            "analyst": "Deepak Mathivanan",
+            "firm": "Cantor Fitzgerald",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.11474875686145933
+          },
+          {
+            "analyst": "Doug Anmuth",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.11474875686145933
+          },
+          {
+            "analyst": "Doug Creutz",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.11474875686145933
+          },
+          {
+            "analyst": "James Callahan",
+            "firm": "Piper Sandler",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.11474875686145933
+          },
+          {
+            "analyst": "Justin Patterson",
+            "firm": "KeyBanc",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-01",
+            "age_days": 43,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.09686410704651137
+          },
+          {
+            "analyst": "Kannan Venkateshwar",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.11474875686145933
+          },
+          {
+            "analyst": "Manan Gosalia",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.11474875686145933
+          },
+          {
+            "analyst": "Steven Cahall",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SPOT",
+            "weight": 0.11474875686145933
+          }
+        ],
+        "counts": {
+          "Buy": 6,
+          "Hold": 3,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 65.57537294156221,
+          "Hold": 34.42462705843779,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Batya Levi",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Batya Levi",
+          "firm": "UBS",
+          "field": "target",
+          "value": 675.0,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 690,
+          "prior_observed": null,
+          "revision_pct": -2.1739130434782594,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 550.0,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 490,
+          "prior_observed": null,
+          "revision_pct": 12.244897959183664,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 700.0,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 650,
+          "prior_observed": null,
+          "revision_pct": 7.692307692307687,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Doug Creutz",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Doug Creutz",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 525.0,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "James Callahan",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "James Callahan",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 580.0,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 540,
+          "prior_observed": null,
+          "revision_pct": 7.407407407407418,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Justin Patterson",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Justin Patterson",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 660.0,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 680,
+          "prior_observed": null,
+          "revision_pct": -2.941176470588236,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kannan Venkateshwar",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kannan Venkateshwar",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 650.0,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 565,
+          "prior_observed": null,
+          "revision_pct": 15.04424778761062,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Manan Gosalia",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Manan Gosalia",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 700.0,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 640,
+          "prior_observed": null,
+          "revision_pct": 9.375,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Steven Cahall",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Steven Cahall",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 660.0,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 570,
+          "prior_observed": null,
+          "revision_pct": 15.789473684210531,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "MFG": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 10.34,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E on the Tokyo ordinary share (8411), converted to the NYSE ADR. ADR ratio: 5 ADRs = 1 ordinary share (Mizuho ADR page; ratio set when the 2020 share consolidation took effect), so 1 ADR = 0.2 ordinary share. FX: 159.7 JPY per USD (Bank of Japan 17:00 JST spot on 2026-11-12, 159.70; the 2026-11-13 value was not visible, 2026-11-16 was 159.52). A bank, so P/TBV is the usual cross-check, but TBV per share was not sourced and is not used. EPS basis: management's FY2026 (year to March 2027) parent profit forecast of JPY 1.60tn (raised from 1.40tn on 2026-11-13) over about 2.41bn shares outstanding gives roughly JPY 665 per share (our arithmetic). Targets use EPS for the year to March 2028 viewed at the 12-month target date (Nov 2027); S&P consensus on StockAnalysis is JPY 626 (FY to Mar 2027) and 726 (FY to Mar 2028). Per ADR = JPY value / 5 / 159.7.",
+        "bear": 7.26,
+        "base": 10.96,
+        "bull": 14.16,
+        "cases": {
+          "bear": {
+            "driver": "Rate-driven net interest income gains fade and the first-half jump in other operating income and stock gains proves non-recurring; credit costs rise and the CET1 ratio (12.74% at September) limits buybacks",
+            "assumption": "EPS JPY 580 at 10x = JPY 5,800 per share = JPY 1,160 per ADR = $7.26",
+            "target": 7.26
+          },
+          "base": {
+            "driver": "Management's JPY 1.6tn FY2026 profit is delivered (second half about JPY 704bn), buybacks of JPY 200bn near term and a JPY 200 dividend continue, and EPS grows about 5% from the FY2026 run-rate",
+            "assumption": "EPS JPY 700 at 12.5x = JPY 8,750 per share = JPY 1,750 per ADR = $10.96",
+            "target": 10.96
+          },
+          "bull": {
+            "driver": "Further BOJ tightening widens loan margins, fee income keeps growing about 19% and capital return steps up; EPS near the top of the consensus range and the multiple re-rates",
+            "assumption": "EPS JPY 780 at 14.5x = JPY 11,310 per share = JPY 2,262 per ADR = $14.16",
+            "target": 14.16
+          }
+        },
+        "implied_by_close": "The close of $10.34 equals about JPY 1,651 per ADR or JPY 8,256 per ordinary share at 159.7, which is about 11.8x base EPS of JPY 700, or about 12.4x management's implied FY2026 EPS of roughly JPY 665. No named analyst target was verified, so no analyst-weighted target is compared; the S&P consensus snapshot of $11.64 (2 analysts, StockAnalysis, 2026-11-17) implies about 13.3x base EPS.",
+        "sensitivity": "One turn of P/E moves the base target by $0.88 (about 8.5 percentage points of price return on the close). A JPY 10 change in EPS moves it by $0.16 (about 1.5 pp). A 5 yen move in USD/JPY moves it by about $0.34 (3.1%).",
+        "watch_metric": "Second-half parent profit versus the roughly JPY 704bn needed to reach JPY 1.6tn, plus net interest income growth (first half +18% to JPY 771bn) and the CET1 ratio (12.74%).",
+        "next_disclosure": "Q3 FY2026 results (nine months to December 2026), expected around February 2027 (date not confirmed in sources reviewed)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "No named, dated analyst call on the USD listing with a verifiable date on or before the 2026-11-13 close was found. Bank of America's Shinichiro Nakamura is listed at Buy dated 2026-11-17, after the reference close, so it is excluded. Early-2026 firm-level calls on the Tokyo share (UBS upgrade to Buy JPY 7,600 on 2026-01-23, SMBC Nikko Hold JPY 7,000, DBS JPY 7,600, SBI Buy JPY 8,900) have no named analyst, a yen target and an undocumented horizon, and predate the November profit upgrade, so they are not entered. S&P consensus shows only 2 USD-target analysts, a thin base.",
+      "sources": [
+        {
+          "label": "Mizuho H1 FY2026 results summary (Panabee, AI-generated, figures cross-checked with Grafa)",
+          "url": "https://www.panabee.com/news/mizuho-financial-earnings-q3-2026",
+          "supports": "Profit forecast JPY 1.6tn, share count, dividend JPY 200, buyback"
+        },
+        {
+          "label": "Grafa: Mizuho H1 profit jumps 47 percent",
+          "url": "https://grafa.com/en/news/united-states/mizuho-financial-group-h1-profit-jumps-47-percent",
+          "supports": "First-half profit, NII, fees, CET1"
+        },
+        {
+          "label": "Mizuho ADR information",
+          "url": "https://mizuhogroup.com/investors/financial-information/stock-information/adr",
+          "supports": "ADR ratio 5 ADRs = 1 ordinary share"
+        },
+        {
+          "label": "Bank of Japan daily FX 2026-11-12",
+          "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261112.pdf",
+          "supports": "USD/JPY 159.70"
+        },
+        {
+          "label": "StockAnalysis MFG forecast",
+          "url": "https://stockanalysis.com/stocks/mfg/forecast/",
+          "supports": "Consensus EPS JPY 626 and 726, USD target snapshot, BofA Buy"
+        },
+        {
+          "label": "StockAnalysis 8411 ratings",
+          "url": "https://stockanalysis.com/quote/tyo/8411/ratings/",
+          "supports": "Early-2026 broker targets on the Tokyo share"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": null,
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
+    "IBN": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 34.52,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank: book value per ordinary share projected to Nov 2027 x P/B, converted to the NYSE ADR at 1 ADR = 2 ordinary shares (ICICI Bank ADR listing; ratio not re-confirmed in this search) and INR 94.2 per USD (assumed, about the rupee level in mid-Nov 2026; not an official rate). Book value: INR 530.5 at Jun 2026 (GuruFocus); Sep 2026 not found, estimated about INR 545. Base grows book about 12% to INR 610 by Nov 2027 (RoE about 16%, low payout; modelled, not guided). Base 2.8x P/B = INR 1,708 per share = $36.26 per ADR. Analyst INR targets converted per ADR with the same ratio and FX.",
+        "bear": 28.81,
+        "base": 36.26,
+        "bull": 44.14,
+        "cases": {
+          "bear": {
+            "driver": "NIM keeps compressing (Q2 4.18%, down 18bp QoQ), credit costs normalise upward, RoE near 14%, multiple de-rates.",
+            "assumption": "Book INR 590 at 2.3x = INR 1,357 per share, x2/94.2",
+            "target": 28.81
+          },
+          "base": {
+            "driver": "Advances growth stays strong (30% YoY in Q2 incl. FCNR-linked), NIM stabilises near 4.2%, RoE about 16%.",
+            "assumption": "Book INR 610 at 2.8x = INR 1,708 per share, x2/94.2",
+            "target": 36.26
+          },
+          "bull": {
+            "driver": "NIM recovers toward 4.3%, fee and treasury income strong, RoE 17%, premium multiple holds.",
+            "assumption": "Book INR 630 at 3.3x = INR 2,079 per share, x2/94.2",
+            "target": 44.14
+          }
+        },
+        "implied_by_close": "The close of $34.52 is about INR 1,626 per share (34.52 x 94.2 / 2), about 3.0x estimated Sep 2026 book of INR 545 and 2.7x base Nov 2027 book of INR 610. The named-broker mean target of about INR 1,820 implies about 3.0x base book, or book near INR 650 at 2.8x.",
+        "sensitivity": "0.1x of P/B moves the base target by $1.30 per ADR (3.6 pp); INR 10 of book per share moves it by $0.59 (1.6 pp).",
+        "watch_metric": "NIM (4.18% in Q2 FY27), advances growth ex-FCNR-B (24% YoY), RoE near 16% and book value per share growth from about INR 530 at Jun 2026.",
+        "next_disclosure": "Q3 FY27 results, expected mid-January 2027 (date not confirmed; check the ICICI Bank investor calendar)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "All seven listed brokers are unnamed in the sources and issued post-Q2 (Oct 19) Buy-equivalent calls with INR targets of 1,710 (JM) to 2,025 (Goldman), or $36 to $43 per ADR. The base case of $36.26 sits at the low end of that range, a gap that reads as about 3.0x book versus 2.8x modelled, or book near INR 650. Horizons are undocumented, so none enter the weighted target, and calls come from news roundups, not broker pages. Prior targets are not stated.",
+      "sources": [
+        {
+          "label": "Business Today brokerages after Q2 Oct 19 2026",
+          "url": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "supports": "Goldman, Macquarie, Jefferies targets; NIM, advances"
+        },
+        {
+          "label": "Goodreturns 5 brokers after Q2",
+          "url": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "supports": "Axis, Emkay, Jefferies ADR target, JM, PL targets"
+        },
+        {
+          "label": "GuruFocus ICICI Bank book value per share",
+          "url": "https://www.gurufocus.com/term/book-value-per-share/NSE:ICICIBANK",
+          "supports": "INR 530.53 book value Jun 2026"
+        },
+        {
+          "label": "Choice India Q2 FY27 results",
+          "url": "https://choiceindia.com/news/icici-bank-q2-fy27-results",
+          "supports": "PAT INR 14,843 crore, NIM 4.18%"
+        },
+        {
+          "label": "Value Research IBN ADR",
+          "url": "https://www.valueresearchonline.com/stocks/297527/icici-bank-limited-adr/",
+          "supports": "ADR close $34.52 on 2026-11-13"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": null,
+      "split_adjusted": null,
+      "ratings": {
+        "count": 7,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": 25,
+        "max_weight_pct": 14.285714285714285,
+        "contributors": [
+          {
+            "analyst": "Axis Securities analyst (unnamed in source)",
+            "firm": "Axis Securities",
+            "value": "BUY",
+            "bucket": "Buy",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": null,
+            "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+            "weight": 0.14285714285714285
+          },
+          {
+            "analyst": "Emkay Global analyst (unnamed in source)",
+            "firm": "Emkay Global",
+            "value": "BUY",
+            "bucket": "Buy",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": null,
+            "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+            "weight": 0.14285714285714285
+          },
+          {
+            "analyst": "Goldman Sachs analyst (unnamed in source)",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": null,
+            "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+            "weight": 0.14285714285714285
+          },
+          {
+            "analyst": "JM Financial analyst (unnamed in source)",
+            "firm": "JM Financial",
+            "value": "BUY",
+            "bucket": "Buy",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": null,
+            "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+            "weight": 0.14285714285714285
+          },
+          {
+            "analyst": "Jefferies analyst (unnamed in source)",
+            "firm": "Jefferies",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": null,
+            "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+            "weight": 0.14285714285714285
+          },
+          {
+            "analyst": "Macquarie analyst (unnamed in source)",
+            "firm": "Macquarie",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": null,
+            "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+            "weight": 0.14285714285714285
+          },
+          {
+            "analyst": "PL Capital analyst (unnamed in source)",
+            "firm": "PL Capital",
+            "value": "BUY",
+            "bucket": "Buy",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": null,
+            "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+            "weight": 0.14285714285714285
+          }
+        ],
+        "counts": {
+          "Buy": 7,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Axis Securities analyst (unnamed in source)",
+          "firm": "Axis Securities",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "rating",
+          "value": "BUY",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Axis Securities analyst (unnamed in source)",
+          "firm": "Axis Securities",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "target",
+          "value": 39.6,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Emkay Global analyst (unnamed in source)",
+          "firm": "Emkay Global",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "rating",
+          "value": "BUY",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Emkay Global analyst (unnamed in source)",
+          "firm": "Emkay Global",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "target",
+          "value": 37.9,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed in source)",
+          "firm": "Goldman Sachs",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed in source)",
+          "firm": "Goldman Sachs",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "target",
+          "value": 42.99,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "JM Financial analyst (unnamed in source)",
+          "firm": "JM Financial",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "rating",
+          "value": "BUY",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "JM Financial analyst (unnamed in source)",
+          "firm": "JM Financial",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "target",
+          "value": 36.31,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed in source)",
+          "firm": "Jefferies",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed in source)",
+          "firm": "Jefferies",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "target",
+          "value": 38.0,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Macquarie analyst (unnamed in source)",
+          "firm": "Macquarie",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Macquarie analyst (unnamed in source)",
+          "firm": "Macquarie",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "target",
+          "value": 36.73,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "PL Capital analyst (unnamed in source)",
+          "firm": "PL Capital",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "rating",
+          "value": "BUY",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "PL Capital analyst (unnamed in source)",
+          "firm": "PL Capital",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "target",
+          "value": 40.34,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "PLD": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 128.67,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward core FFO x multiple (FFO/share is the REIT earnings measure). 2026 core FFO guidance $6.25-6.29 (midpoint $6.27); I model 2027 core FFO at the base from rent mark-to-market (Q3 cash rent change 23.4%) and occupancy 95%+, viewed at the Nov 2027 target date. USD common-stock listing, no ADR conversion. Models are my assumptions, not guidance.",
+        "bear": 112.9,
+        "base": 141.8,
+        "bull": 165.7,
+        "cases": {
+          "bear": {
+            "driver": "Higher rates and slower leasing hold 2027 FFO growth near 3%",
+            "assumption": "2027 core FFO $6.45 at 17.5x",
+            "target": 112.9
+          },
+          "base": {
+            "driver": "About 7.5% FFO growth from rent mark-to-market and stable ~95% occupancy",
+            "assumption": "2027 core FFO $6.75 at 21.0x",
+            "target": 141.8
+          },
+          "bull": {
+            "driver": "Record leasing and data-center development lift FFO about 12% and the multiple re-rates",
+            "assumption": "2027 core FFO $7.05 at 23.5x",
+            "target": 165.7
+          }
+        },
+        "implied_by_close": "At base FFO $6.75 the close implies 19.1x; the analyst-weighted target (~$160) implies 23.7x or FFO about $8.40 at 19.1x",
+        "sensitivity": "One turn of multiple moves the base target by $6.75 (5.2 pp)",
+        "watch_metric": "Cash rent change on new and renewal leases and average occupancy versus the 95.25-95.50% 2026 guide",
+        "next_disclosure": "Q4 and full-year 2026 results, expected January 2027"
+      },
+      "dividend_per_share": 4.28,
+      "analyst_notes": "Named targets since the Oct 15 release cluster at $160-166 (Raymond James $163, Wells Fargo $166, RBC $160), well above the $142 base; the gap is roughly 2.5 turns of multiple or about $0.85 of 2027 FFO. Truist, Baird and RBC raised after Q2. Many calls are unnamed or older (April) and horizons are undocumented, so coverage is a partial subset.",
+      "sources": [
+        {
+          "label": "Q3 2026 earnings release",
+          "url": "https://finviz.com/news/402919/prologis-reports-third-quarter-2026-results",
+          "supports": "core FFO, guidance, rent change, dividend"
+        },
+        {
+          "label": "FMP analyst coverage note",
+          "url": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+          "supports": "analyst targets"
+        },
+        {
+          "label": "MarketBeat Truist",
+          "url": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/",
+          "supports": "Truist target"
+        },
+        {
+          "label": "MarketBeat JPMorgan",
+          "url": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15700-at-jpmorgan-chase-co-2026-04-21/",
+          "supports": "JPMorgan target"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-15T08:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 102.5,
+        "max_weight_pct": 30.041863999825182,
+        "contributors": [
+          {
+            "analyst": "Blaine Heck",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-09-01",
+            "age_days": 73,
+            "after_earnings": false,
+            "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+            "weight": 0.3004186399982518
+          },
+          {
+            "analyst": "Michael Carroll",
+            "firm": "RBC Capital",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-08-05",
+            "age_days": 100,
+            "after_earnings": false,
+            "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+            "weight": 0.24401576024866126
+          },
+          {
+            "analyst": "Nicholas Thillman",
+            "firm": "Baird",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-07-31",
+            "age_days": 105,
+            "after_earnings": false,
+            "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+            "weight": 0.23479778108910865
+          },
+          {
+            "analyst": "Unnamed Truist analyst",
+            "firm": "Truist",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-23",
+            "age_days": 113,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/",
+            "weight": 0.22076781866397824
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 76.52022189108914,
+          "Hold": 23.479778108910864,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Blaine Heck",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-01",
+          "public_at": "2026-09-01T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Blaine Heck",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 166.0,
+          "source_prior": 167,
+          "horizon_months": null,
+          "issued_at": "2026-09-01",
+          "public_at": "2026-09-01T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+          "prior_observed": null,
+          "revision_pct": -0.5988023952095856,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Rodgers",
+          "firm": "Raymond James",
+          "field": "target",
+          "value": 163.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Carroll",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Carroll",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 160.0,
+          "source_prior": 148,
+          "horizon_months": null,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+          "prior_observed": null,
+          "revision_pct": 8.108108108108114,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Nicholas Thillman",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Nicholas Thillman",
+          "firm": "Baird",
+          "field": "target",
+          "value": 140.0,
+          "source_prior": 138,
+          "horizon_months": null,
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+          "prior_observed": null,
+          "revision_pct": 1.449275362318847,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 165.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-04-21",
+          "public_at": "2026-04-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/citigroup-increases-prologis-nysepld-price-target-to-16500-2026-04-21/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 157.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-04-21",
+          "public_at": "2026-04-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15700-at-jpmorgan-chase-co-2026-04-21/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Scotiabank analyst",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 154.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-04-21",
+          "public_at": "2026-04-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/scotiabank-boosts-prologis-nysepld-price-target-to-15400-2026-04-21/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Truist analyst",
+          "firm": "Truist",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Truist analyst",
+          "firm": "Truist",
+          "field": "target",
+          "value": 162.0,
+          "source_prior": 154,
+          "horizon_months": null,
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/",
+          "prior_observed": null,
+          "revision_pct": 5.1948051948051965,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ADP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 309.93,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. FY2026 adj EPS $11.12 (8-K); FY2027 guide adj EPS +10% to 12% (raised Oct 28 2026) gives $12.23-12.45, base $12.34 (+11%). FY2028 EPS grown ~10% to $13.57 is the earnings base viewed at the Nov 2027 target date. USD listing, no FX.",
+        "bear": 245.0,
+        "base": 312.0,
+        "bull": 352.0,
+        "cases": {
+          "bear": {
+            "driver": "Weaker US hiring and falling rates cut client-funds income; margin gains stall",
+            "assumption": "FY2028 EPS $12.90 (+4.5% on FY27 $12.34) at 19.0x",
+            "target": 245.0
+          },
+          "base": {
+            "driver": "Guided 70-90bp margin expansion, ~6% revenue growth, buybacks, steady yield ~3.8%",
+            "assumption": "FY2028 EPS $13.57 at 23.0x",
+            "target": 312.0
+          },
+          "bull": {
+            "driver": "Pays-per-control and PEO recover, AI products lift pricing, client-funds yield holds",
+            "assumption": "FY2028 EPS $14.10 at 25.0x",
+            "target": 352.0
+          }
+        },
+        "implied_by_close": "At base EPS the close implies 22.8x FY2028 EPS ($13.57) and 25.1x FY2027; the analyst-weighted target (~$310) implies about the same multiple, or EPS about $13.5 at 23x",
+        "sensitivity": "One turn of P/E moves the base target by $13.6 (4.4 pp)",
+        "watch_metric": "US pays-per-control growth (guide flat to +1%, Q1 +2%) and client-funds interest revenue vs $1.59-1.61B guide",
+        "next_disclosure": "Fiscal Q2 2027 results, expected late January 2027 (about 2027-01-28, date unconfirmed)"
+      },
+      "dividend_per_share": 7.6,
+      "analyst_notes": "Since the Oct 28 print, targets rose: UBS 270 to 310, Stifel 285 to 305, BMO 305 to 312, Cantor 310 to 336, Morgan Stanley only +2 to 288, Jefferies 225 to 250 (Underperform). Dispersion is wide (250-340) with ratings mostly Hold; the $310 average is roughly the base case, a gap of about 0 pp. Most targets have no documented 12-month horizon and several analysts are unnamed in the sources; Wells Fargo target is stale (July).",
+      "sources": [
+        {
+          "label": "ADP Q1 FY2027 earnings release",
+          "url": "https://www.marketscreener.com/news/automatic-data-processing-adp-announces-first-quarter-fiscal-2027-financial-results-earnings-rele-ce785cd2df8af626",
+          "supports": "EPS, guidance, shares, release date"
+        },
+        {
+          "label": "ADP FY2026 Q4 8-K exhibit 99",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000008670/000000867026000025/q4fy26exhibit99.htm",
+          "supports": "FY2026 adjusted EPS $11.12"
+        },
+        {
+          "label": "Arincen ADP analyst table",
+          "url": "https://en.arincen.com/instruments/ADP/forecast",
+          "supports": "analyst targets"
+        },
+        {
+          "label": "Investing.com ADP consensus",
+          "url": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "supports": "Oct-Nov 2026 targets and ratings"
+        },
+        {
+          "label": "TradingView weekly recap",
+          "url": "https://www.tradingview.com/news/tradingview:045c3c1262bbc:0-weekly-recap-adp-raises-2027-revenue-outlook-and-pnc-launches-payroll/",
+          "supports": "guidance, Q1 results"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-28T07:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 5,
+        "earnings_order_unknown": 1,
+        "median_age_days": 15.0,
+        "max_weight_pct": 13.935306548172985,
+        "contributors": [
+          {
+            "analyst": "BMO Capital analyst (unnamed)",
+            "firm": "BMO Capital",
+            "value": "Market Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+            "weight": 0.1351255316911742
+          },
+          {
+            "analyst": "Cantor Fitzgerald analyst (unnamed)",
+            "firm": "Cantor Fitzgerald",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+            "weight": 0.13935306548172985
+          },
+          {
+            "analyst": "Guggenheim analyst (unnamed)",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": false,
+            "source": "https://en.arincen.com/instruments/ADP/forecast",
+            "weight": 0.12902347940924858
+          },
+          {
+            "analyst": "Jason Kupferberg",
+            "firm": "Wells Fargo",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-07-09",
+            "age_days": 127,
+            "after_earnings": false,
+            "source": "https://en.arincen.com/instruments/ADP/forecast",
+            "weight": 0.05703248699353361
+          },
+          {
+            "analyst": "Jefferies analyst (unnamed)",
+            "firm": "Jefferies",
+            "value": "Underperform",
+            "bucket": "Sell",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": null,
+            "source": "https://en.arincen.com/instruments/ADP/forecast",
+            "weight": 0.13408884135079116
+          },
+          {
+            "analyst": "Kevin McVeigh",
+            "firm": "UBS",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+            "weight": 0.1351255316911742
+          },
+          {
+            "analyst": "Morgan Stanley analyst (unnamed)",
+            "firm": "Morgan Stanley",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+            "weight": 0.1351255316911742
+          },
+          {
+            "analyst": "Stifel analyst (unnamed)",
+            "firm": "Stifel",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+            "weight": 0.1351255316911742
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 5,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 26.83765448909784,
+          "Hold": 59.753461375823036,
+          "Sell": 13.408884135079116
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "BMO Capital analyst (unnamed)",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "BMO Capital analyst (unnamed)",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 312.0,
+          "source_prior": 305,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "revision_pct": 2.2950819672131084,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst (unnamed)",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst (unnamed)",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 336.0,
+          "source_prior": 310,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "revision_pct": 8.387096774193559,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://en.arincen.com/instruments/ADP/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 340.0,
+          "source_prior": 300,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.arincen.com/instruments/ADP/forecast",
+          "prior_observed": null,
+          "revision_pct": 13.33333333333333,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jason Kupferberg",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-07-09",
+          "public_at": "2026-07-09T23:59:59-04:00",
+          "source": "https://en.arincen.com/instruments/ADP/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jason Kupferberg",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 248.0,
+          "source_prior": 214,
+          "issued_at": "2026-07-09",
+          "public_at": "2026-07-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.arincen.com/instruments/ADP/forecast",
+          "prior_observed": null,
+          "revision_pct": 15.88785046728971,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Underperform",
+          "bucket": "Sell",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://en.arincen.com/instruments/ADP/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 225,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.arincen.com/instruments/ADP/forecast",
+          "prior_observed": null,
+          "revision_pct": 11.111111111111116,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kevin McVeigh",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kevin McVeigh",
+          "firm": "UBS",
+          "field": "target",
+          "value": 310.0,
+          "source_prior": 270,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.arincen.com/instruments/ADP/forecast",
+          "prior_observed": null,
+          "revision_pct": 14.814814814814813,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 288.0,
+          "source_prior": 286,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "revision_pct": 0.6993006993007089,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Stifel analyst (unnamed)",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Stifel analyst (unnamed)",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 305.0,
+          "source_prior": 285,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+          "prior_observed": null,
+          "revision_pct": 7.017543859649122,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
     }
   },
   "failures": [],
@@ -52790,6 +54541,11 @@
       },
       {
         "symbol": "ADI",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "ADP",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -53014,6 +54770,11 @@
         "kind": "new"
       },
       {
+        "symbol": "IBN",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "INTC",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -53091,6 +54852,11 @@
       {
         "symbol": "META",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "MFG",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -53184,6 +54950,11 @@
         "kind": "new"
       },
       {
+        "symbol": "PLD",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "PLTR",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -53265,6 +55036,11 @@
       },
       {
         "symbol": "SPGI",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "SPOT",
         "researched_at": "2026-11-18",
         "kind": "new"
       },

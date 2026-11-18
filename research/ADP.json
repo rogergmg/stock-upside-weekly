@@ -1,0 +1,238 @@
+{
+ "issuer_id": "Automatic Data Processing, Inc.",
+ "symbol": "ADP",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 309.93,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-28T07:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Kevin McVeigh",
+   "firm": "UBS",
+   "field": "target",
+   "value": 310,
+   "source_prior": 270,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://en.arincen.com/instruments/ADP/forecast"
+  },
+  {
+   "analyst": "Kevin McVeigh",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "Jefferies analyst (unnamed)",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 250,
+   "source_prior": 225,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://en.arincen.com/instruments/ADP/forecast"
+  },
+  {
+   "analyst": "Jefferies analyst (unnamed)",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Underperform",
+   "bucket": "Sell",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://en.arincen.com/instruments/ADP/forecast"
+  },
+  {
+   "analyst": "Guggenheim analyst (unnamed)",
+   "firm": "Guggenheim",
+   "field": "target",
+   "value": 340,
+   "source_prior": 300,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://en.arincen.com/instruments/ADP/forecast"
+  },
+  {
+   "analyst": "Guggenheim analyst (unnamed)",
+   "firm": "Guggenheim",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://en.arincen.com/instruments/ADP/forecast"
+  },
+  {
+   "analyst": "Cantor Fitzgerald analyst (unnamed)",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 336,
+   "source_prior": 310,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "Cantor Fitzgerald analyst (unnamed)",
+   "firm": "Cantor Fitzgerald",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "BMO Capital analyst (unnamed)",
+   "firm": "BMO Capital",
+   "field": "target",
+   "value": 312,
+   "source_prior": 305,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "BMO Capital analyst (unnamed)",
+   "firm": "BMO Capital",
+   "field": "rating",
+   "value": "Market Perform",
+   "bucket": "Hold",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "Morgan Stanley analyst (unnamed)",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 288,
+   "source_prior": 286,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "Morgan Stanley analyst (unnamed)",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "Stifel analyst (unnamed)",
+   "firm": "Stifel",
+   "field": "target",
+   "value": 305,
+   "source_prior": 285,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "Stifel analyst (unnamed)",
+   "firm": "Stifel",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+  },
+  {
+   "analyst": "Jason Kupferberg",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 248,
+   "source_prior": 214,
+   "issued_at": "2026-07-09",
+   "public_at": "2026-07-09T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://en.arincen.com/instruments/ADP/forecast"
+  },
+  {
+   "analyst": "Jason Kupferberg",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-07-09",
+   "public_at": "2026-07-09T23:59:59-04:00",
+   "source": "https://en.arincen.com/instruments/ADP/forecast"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. FY2026 adj EPS $11.12 (8-K); FY2027 guide adj EPS +10% to 12% (raised Oct 28 2026) gives $12.23-12.45, base $12.34 (+11%). FY2028 EPS grown ~10% to $13.57 is the earnings base viewed at the Nov 2027 target date. USD listing, no FX.",
+  "bear": 245.0,
+  "base": 312.0,
+  "bull": 352.0,
+  "cases": {
+   "bear": {
+    "driver": "Weaker US hiring and falling rates cut client-funds income; margin gains stall",
+    "assumption": "FY2028 EPS $12.90 (+4.5% on FY27 $12.34) at 19.0x",
+    "target": 245.0
+   },
+   "base": {
+    "driver": "Guided 70-90bp margin expansion, ~6% revenue growth, buybacks, steady yield ~3.8%",
+    "assumption": "FY2028 EPS $13.57 at 23.0x",
+    "target": 312.0
+   },
+   "bull": {
+    "driver": "Pays-per-control and PEO recover, AI products lift pricing, client-funds yield holds",
+    "assumption": "FY2028 EPS $14.10 at 25.0x",
+    "target": 352.0
+   }
+  },
+  "implied_by_close": "At base EPS the close implies 22.8x FY2028 EPS ($13.57) and 25.1x FY2027; the analyst-weighted target (~$310) implies about the same multiple, or EPS about $13.5 at 23x",
+  "sensitivity": "One turn of P/E moves the base target by $13.6 (4.4 pp)",
+  "watch_metric": "US pays-per-control growth (guide flat to +1%, Q1 +2%) and client-funds interest revenue vs $1.59-1.61B guide",
+  "next_disclosure": "Fiscal Q2 2027 results, expected late January 2027 (about 2027-01-28, date unconfirmed)"
+ },
+ "dividend_per_share": 7.6,
+ "analyst_notes": "Since the Oct 28 print, targets rose: UBS 270 to 310, Stifel 285 to 305, BMO 305 to 312, Cantor 310 to 336, Morgan Stanley only +2 to 288, Jefferies 225 to 250 (Underperform). Dispersion is wide (250-340) with ratings mostly Hold; the $310 average is roughly the base case, a gap of about 0 pp. Most targets have no documented 12-month horizon and several analysts are unnamed in the sources; Wells Fargo target is stale (July).",
+ "sources": [
+  {
+   "label": "ADP Q1 FY2027 earnings release",
+   "url": "https://www.marketscreener.com/news/automatic-data-processing-adp-announces-first-quarter-fiscal-2027-financial-results-earnings-rele-ce785cd2df8af626",
+   "supports": "EPS, guidance, shares, release date"
+  },
+  {
+   "label": "ADP FY2026 Q4 8-K exhibit 99",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000008670/000000867026000025/q4fy26exhibit99.htm",
+   "supports": "FY2026 adjusted EPS $11.12"
+  },
+  {
+   "label": "Arincen ADP analyst table",
+   "url": "https://en.arincen.com/instruments/ADP/forecast",
+   "supports": "analyst targets"
+  },
+  {
+   "label": "Investing.com ADP consensus",
+   "url": "https://www.investing.com/equities/auto-data-process-consensus-estimates",
+   "supports": "Oct-Nov 2026 targets and ratings"
+  },
+  {
+   "label": "TradingView weekly recap",
+   "url": "https://www.tradingview.com/news/tradingview:045c3c1262bbc:0-weekly-recap-adp-raises-2027-revenue-outlook-and-pnc-launches-payroll/",
+   "supports": "guidance, Q1 results"
+  }
+ ]
+}

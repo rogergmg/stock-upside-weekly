@@ -1,0 +1,193 @@
+{
+ "issuer_id": "Prologis, Inc.",
+ "symbol": "PLD",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 128.67,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-15T08:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "David Rodgers",
+   "firm": "Raymond James",
+   "field": "target",
+   "value": 163,
+   "source_prior": null,
+   "horizon_months": null,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+  },
+  {
+   "analyst": "Blaine Heck",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 166,
+   "source_prior": 167,
+   "horizon_months": null,
+   "issued_at": "2026-09-01",
+   "public_at": "2026-09-01T23:59:59-04:00",
+   "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+  },
+  {
+   "analyst": "Blaine Heck",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-09-01",
+   "public_at": "2026-09-01T23:59:59-04:00",
+   "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+  },
+  {
+   "analyst": "Michael Carroll",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 160,
+   "source_prior": 148,
+   "horizon_months": null,
+   "issued_at": "2026-08-05",
+   "public_at": "2026-08-05T23:59:59-04:00",
+   "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+  },
+  {
+   "analyst": "Michael Carroll",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-08-05",
+   "public_at": "2026-08-05T23:59:59-04:00",
+   "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+  },
+  {
+   "analyst": "Unnamed Truist analyst",
+   "firm": "Truist",
+   "field": "target",
+   "value": 162,
+   "source_prior": 154,
+   "horizon_months": null,
+   "issued_at": "2026-07-23",
+   "public_at": "2026-07-23T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/"
+  },
+  {
+   "analyst": "Unnamed Truist analyst",
+   "firm": "Truist",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-07-23",
+   "public_at": "2026-07-23T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/"
+  },
+  {
+   "analyst": "Nicholas Thillman",
+   "firm": "Baird",
+   "field": "target",
+   "value": 140,
+   "source_prior": 138,
+   "horizon_months": null,
+   "issued_at": "2026-07-31",
+   "public_at": "2026-07-31T23:59:59-04:00",
+   "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+  },
+  {
+   "analyst": "Nicholas Thillman",
+   "firm": "Baird",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-07-31",
+   "public_at": "2026-07-31T23:59:59-04:00",
+   "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+  },
+  {
+   "analyst": "Unnamed JPMorgan analyst",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 157,
+   "source_prior": null,
+   "horizon_months": null,
+   "issued_at": "2026-04-21",
+   "public_at": "2026-04-21T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15700-at-jpmorgan-chase-co-2026-04-21/"
+  },
+  {
+   "analyst": "Unnamed Citigroup analyst",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 165,
+   "source_prior": null,
+   "horizon_months": null,
+   "issued_at": "2026-04-21",
+   "public_at": "2026-04-21T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/citigroup-increases-prologis-nysepld-price-target-to-16500-2026-04-21/"
+  },
+  {
+   "analyst": "Unnamed Scotiabank analyst",
+   "firm": "Scotiabank",
+   "field": "target",
+   "value": 154,
+   "source_prior": null,
+   "horizon_months": null,
+   "issued_at": "2026-04-21",
+   "public_at": "2026-04-21T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/scotiabank-boosts-prologis-nysepld-price-target-to-15400-2026-04-21/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward core FFO x multiple (FFO/share is the REIT earnings measure). 2026 core FFO guidance $6.25-6.29 (midpoint $6.27); I model 2027 core FFO at the base from rent mark-to-market (Q3 cash rent change 23.4%) and occupancy 95%+, viewed at the Nov 2027 target date. USD common-stock listing, no ADR conversion. Models are my assumptions, not guidance.",
+  "bear": 112.9,
+  "base": 141.8,
+  "bull": 165.7,
+  "cases": {
+   "bear": {
+    "driver": "Higher rates and slower leasing hold 2027 FFO growth near 3%",
+    "assumption": "2027 core FFO $6.45 at 17.5x",
+    "target": 112.9
+   },
+   "base": {
+    "driver": "About 7.5% FFO growth from rent mark-to-market and stable ~95% occupancy",
+    "assumption": "2027 core FFO $6.75 at 21.0x",
+    "target": 141.8
+   },
+   "bull": {
+    "driver": "Record leasing and data-center development lift FFO about 12% and the multiple re-rates",
+    "assumption": "2027 core FFO $7.05 at 23.5x",
+    "target": 165.7
+   }
+  },
+  "implied_by_close": "At base FFO $6.75 the close implies 19.1x; the analyst-weighted target (~$160) implies 23.7x or FFO about $8.40 at 19.1x",
+  "sensitivity": "One turn of multiple moves the base target by $6.75 (5.2 pp)",
+  "watch_metric": "Cash rent change on new and renewal leases and average occupancy versus the 95.25-95.50% 2026 guide",
+  "next_disclosure": "Q4 and full-year 2026 results, expected January 2027"
+ },
+ "dividend_per_share": 4.28,
+ "analyst_notes": "Named targets since the Oct 15 release cluster at $160-166 (Raymond James $163, Wells Fargo $166, RBC $160), well above the $142 base; the gap is roughly 2.5 turns of multiple or about $0.85 of 2027 FFO. Truist, Baird and RBC raised after Q2. Many calls are unnamed or older (April) and horizons are undocumented, so coverage is a partial subset.",
+ "sources": [
+  {
+   "label": "Q3 2026 earnings release",
+   "url": "https://finviz.com/news/402919/prologis-reports-third-quarter-2026-results",
+   "supports": "core FFO, guidance, rent change, dividend"
+  },
+  {
+   "label": "FMP analyst coverage note",
+   "url": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback",
+   "supports": "analyst targets"
+  },
+  {
+   "label": "MarketBeat Truist",
+   "url": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/",
+   "supports": "Truist target"
+  },
+  {
+   "label": "MarketBeat JPMorgan",
+   "url": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15700-at-jpmorgan-chase-co-2026-04-21/",
+   "supports": "JPMorgan target"
+  }
+ ]
+}

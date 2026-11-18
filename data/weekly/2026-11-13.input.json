@@ -16072,9 +16072,203 @@
         "high": 131729393133
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Manan Gosalia",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 700,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 640
+        },
+        {
+          "analyst": "Manan Gosalia",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 700,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 650
+        },
+        {
+          "analyst": "Doug Anmuth",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "Steven Cahall",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 660,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 570
+        },
+        {
+          "analyst": "Steven Cahall",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "Kannan Venkateshwar",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 650,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 565
+        },
+        {
+          "analyst": "Kannan Venkateshwar",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "James Callahan",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 580,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 540
+        },
+        {
+          "analyst": "James Callahan",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "Doug Creutz",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 525,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "Doug Creutz",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 550,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 490
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "Batya Levi",
+          "firm": "UBS",
+          "field": "target",
+          "value": 675,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 690
+        },
+        {
+          "analyst": "Batya Levi",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        },
+        {
+          "analyst": "Justin Patterson",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 660,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SPOT",
+          "source_prior": 680
+        },
+        {
+          "analyst": "Justin Patterson",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SPOT"
+        }
+      ],
+      "earnings_at": "2026-10-22T06:00:00-04:00",
+      "valuation": {
+        "bear": 445.0,
+        "base": 604.0,
+        "bull": 775.0
+      }
     },
     {
       "issuer_id": "Mizuho Financial Group, Inc.",
@@ -16088,9 +16282,14 @@
         "high": 131426658035
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": null,
+      "valuation": {
+        "bear": 7.26,
+        "base": 10.96,
+        "bull": 14.16
+      }
     },
     {
       "issuer_id": "ICICI Bank Limited",
@@ -16104,9 +16303,155 @@
         "high": 126420334468
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Goldman Sachs analyst (unnamed in source)",
+          "firm": "Goldman Sachs",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "target",
+          "value": 42.99,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed in source)",
+          "firm": "Goldman Sachs",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Macquarie analyst (unnamed in source)",
+          "firm": "Macquarie",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "target",
+          "value": 36.73,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Macquarie analyst (unnamed in source)",
+          "firm": "Macquarie",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed in source)",
+          "firm": "Jefferies",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "target",
+          "value": 38.0,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed in source)",
+          "firm": "Jefferies",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/icici-bank-shares-close-lower-after-q2-earnings-3-brokerages-remain-bullish-562481-2026-10-19",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Axis Securities analyst (unnamed in source)",
+          "firm": "Axis Securities",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "target",
+          "value": 39.6,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Axis Securities analyst (unnamed in source)",
+          "firm": "Axis Securities",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "rating",
+          "value": "BUY",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "Emkay Global analyst (unnamed in source)",
+          "firm": "Emkay Global",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "target",
+          "value": 37.9,
+          "horizon_months": null
+        },
+        {
+          "analyst": "Emkay Global analyst (unnamed in source)",
+          "firm": "Emkay Global",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "rating",
+          "value": "BUY",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "JM Financial analyst (unnamed in source)",
+          "firm": "JM Financial",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "target",
+          "value": 36.31,
+          "horizon_months": null
+        },
+        {
+          "analyst": "JM Financial analyst (unnamed in source)",
+          "firm": "JM Financial",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "rating",
+          "value": "BUY",
+          "bucket": "Buy"
+        },
+        {
+          "analyst": "PL Capital analyst (unnamed in source)",
+          "firm": "PL Capital",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "target",
+          "value": 40.34,
+          "horizon_months": null
+        },
+        {
+          "analyst": "PL Capital analyst (unnamed in source)",
+          "firm": "PL Capital",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/icici-bank-shares-volatile-strong-q2-results-5-brokers-recommend-buy-upgrades-target-36-upside-seen-1542441.html",
+          "field": "rating",
+          "value": "BUY",
+          "bucket": "Buy"
+        }
+      ],
+      "earnings_at": null,
+      "valuation": {
+        "bear": 28.81,
+        "base": 36.26,
+        "bull": 44.14
+      }
     },
     {
       "issuer_id": "Prologis, Inc.",
@@ -16120,9 +16465,144 @@
         "high": 127604151761
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "David Rodgers",
+          "firm": "Raymond James",
+          "field": "target",
+          "value": 163,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+        },
+        {
+          "analyst": "Blaine Heck",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 166,
+          "source_prior": 167,
+          "horizon_months": null,
+          "issued_at": "2026-09-01",
+          "public_at": "2026-09-01T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+        },
+        {
+          "analyst": "Blaine Heck",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-01",
+          "public_at": "2026-09-01T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+        },
+        {
+          "analyst": "Michael Carroll",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 160,
+          "source_prior": 148,
+          "horizon_months": null,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+        },
+        {
+          "analyst": "Michael Carroll",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+        },
+        {
+          "analyst": "Unnamed Truist analyst",
+          "firm": "Truist",
+          "field": "target",
+          "value": 162,
+          "source_prior": 154,
+          "horizon_months": null,
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/"
+        },
+        {
+          "analyst": "Unnamed Truist analyst",
+          "firm": "Truist",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15000-2026-07-23/"
+        },
+        {
+          "analyst": "Nicholas Thillman",
+          "firm": "Baird",
+          "field": "target",
+          "value": 140,
+          "source_prior": 138,
+          "horizon_months": null,
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+        },
+        {
+          "analyst": "Nicholas Thillman",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/prologis-pld-stock-analyst-upside-after-pullback"
+        },
+        {
+          "analyst": "Unnamed JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 157,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-04-21",
+          "public_at": "2026-04-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/prologis-nysepld-price-target-raised-to-15700-at-jpmorgan-chase-co-2026-04-21/"
+        },
+        {
+          "analyst": "Unnamed Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 165,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-04-21",
+          "public_at": "2026-04-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/citigroup-increases-prologis-nysepld-price-target-to-16500-2026-04-21/"
+        },
+        {
+          "analyst": "Unnamed Scotiabank analyst",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 154,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-04-21",
+          "public_at": "2026-04-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/scotiabank-boosts-prologis-nysepld-price-target-to-15400-2026-04-21/"
+        }
+      ],
+      "earnings_at": "2026-10-15T08:00:00-04:00",
+      "valuation": {
+        "bear": 112.9,
+        "base": 141.8,
+        "bull": 165.7
+      },
+      "dividend_per_share": 4.28
     },
     {
       "issuer_id": "Automatic Data Processing, Inc.",
@@ -16136,9 +16616,184 @@
         "high": 124794746575
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Kevin McVeigh",
+          "firm": "UBS",
+          "field": "target",
+          "value": 310,
+          "source_prior": 270,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.arincen.com/instruments/ADP/forecast"
+        },
+        {
+          "analyst": "Kevin McVeigh",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 250,
+          "source_prior": 225,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.arincen.com/instruments/ADP/forecast"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Underperform",
+          "bucket": "Sell",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://en.arincen.com/instruments/ADP/forecast"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 340,
+          "source_prior": 300,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.arincen.com/instruments/ADP/forecast"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://en.arincen.com/instruments/ADP/forecast"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst (unnamed)",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 336,
+          "source_prior": 310,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst (unnamed)",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "BMO Capital analyst (unnamed)",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 312,
+          "source_prior": 305,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "BMO Capital analyst (unnamed)",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 288,
+          "source_prior": 286,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "Stifel analyst (unnamed)",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 305,
+          "source_prior": 285,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "Stifel analyst (unnamed)",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.investing.com/equities/auto-data-process-consensus-estimates"
+        },
+        {
+          "analyst": "Jason Kupferberg",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 248,
+          "source_prior": 214,
+          "issued_at": "2026-07-09",
+          "public_at": "2026-07-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://en.arincen.com/instruments/ADP/forecast"
+        },
+        {
+          "analyst": "Jason Kupferberg",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-07-09",
+          "public_at": "2026-07-09T23:59:59-04:00",
+          "source": "https://en.arincen.com/instruments/ADP/forecast"
+        }
+      ],
+      "earnings_at": "2026-10-28T07:30:00-04:00",
+      "valuation": {
+        "bear": 245.0,
+        "base": 312.0,
+        "bull": 352.0
+      },
+      "dividend_per_share": 7.6
     },
     {
       "issuer_id": "Starbucks Corporation",

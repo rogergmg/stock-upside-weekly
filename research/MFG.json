@@ -1,0 +1,35 @@
+{
+  "issuer_id": "Mizuho Financial Group, Inc.",
+  "symbol": "MFG",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 10.34, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": null,
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward EPS x P/E on the Tokyo ordinary share (8411), converted to the NYSE ADR. ADR ratio: 5 ADRs = 1 ordinary share (Mizuho ADR page; ratio set when the 2020 share consolidation took effect), so 1 ADR = 0.2 ordinary share. FX: 159.7 JPY per USD (Bank of Japan 17:00 JST spot on 2026-11-12, 159.70; the 2026-11-13 value was not visible, 2026-11-16 was 159.52). A bank, so P/TBV is the usual cross-check, but TBV per share was not sourced and is not used. EPS basis: management's FY2026 (year to March 2027) parent profit forecast of JPY 1.60tn (raised from 1.40tn on 2026-11-13) over about 2.41bn shares outstanding gives roughly JPY 665 per share (our arithmetic). Targets use EPS for the year to March 2028 viewed at the 12-month target date (Nov 2027); S&P consensus on StockAnalysis is JPY 626 (FY to Mar 2027) and 726 (FY to Mar 2028). Per ADR = JPY value / 5 / 159.7.",
+    "bear": 7.26,
+    "base": 10.96,
+    "bull": 14.16,
+    "cases": {
+      "bear": {"driver": "Rate-driven net interest income gains fade and the first-half jump in other operating income and stock gains proves non-recurring; credit costs rise and the CET1 ratio (12.74% at September) limits buybacks", "assumption": "EPS JPY 580 at 10x = JPY 5,800 per share = JPY 1,160 per ADR = $7.26", "target": 7.26},
+      "base": {"driver": "Management's JPY 1.6tn FY2026 profit is delivered (second half about JPY 704bn), buybacks of JPY 200bn near term and a JPY 200 dividend continue, and EPS grows about 5% from the FY2026 run-rate", "assumption": "EPS JPY 700 at 12.5x = JPY 8,750 per share = JPY 1,750 per ADR = $10.96", "target": 10.96},
+      "bull": {"driver": "Further BOJ tightening widens loan margins, fee income keeps growing about 19% and capital return steps up; EPS near the top of the consensus range and the multiple re-rates", "assumption": "EPS JPY 780 at 14.5x = JPY 11,310 per share = JPY 2,262 per ADR = $14.16", "target": 14.16}
+    },
+    "implied_by_close": "The close of $10.34 equals about JPY 1,651 per ADR or JPY 8,256 per ordinary share at 159.7, which is about 11.8x base EPS of JPY 700, or about 12.4x management's implied FY2026 EPS of roughly JPY 665. No named analyst target was verified, so no analyst-weighted target is compared; the S&P consensus snapshot of $11.64 (2 analysts, StockAnalysis, 2026-11-17) implies about 13.3x base EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $0.88 (about 8.5 percentage points of price return on the close). A JPY 10 change in EPS moves it by $0.16 (about 1.5 pp). A 5 yen move in USD/JPY moves it by about $0.34 (3.1%).",
+    "watch_metric": "Second-half parent profit versus the roughly JPY 704bn needed to reach JPY 1.6tn, plus net interest income growth (first half +18% to JPY 771bn) and the CET1 ratio (12.74%).",
+    "next_disclosure": "Q3 FY2026 results (nine months to December 2026), expected around February 2027 (date not confirmed in sources reviewed)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "No named, dated analyst call on the USD listing with a verifiable date on or before the 2026-11-13 close was found. Bank of America's Shinichiro Nakamura is listed at Buy dated 2026-11-17, after the reference close, so it is excluded. Early-2026 firm-level calls on the Tokyo share (UBS upgrade to Buy JPY 7,600 on 2026-01-23, SMBC Nikko Hold JPY 7,000, DBS JPY 7,600, SBI Buy JPY 8,900) have no named analyst, a yen target and an undocumented horizon, and predate the November profit upgrade, so they are not entered. S&P consensus shows only 2 USD-target analysts, a thin base.",
+  "sources": [
+    {"label": "Mizuho H1 FY2026 results summary (Panabee, AI-generated, figures cross-checked with Grafa)", "url": "https://www.panabee.com/news/mizuho-financial-earnings-q3-2026", "supports": "Profit forecast JPY 1.6tn, share count, dividend JPY 200, buyback"},
+    {"label": "Grafa: Mizuho H1 profit jumps 47 percent", "url": "https://grafa.com/en/news/united-states/mizuho-financial-group-h1-profit-jumps-47-percent", "supports": "First-half profit, NII, fees, CET1"},
+    {"label": "Mizuho ADR information", "url": "https://mizuhogroup.com/investors/financial-information/stock-information/adr", "supports": "ADR ratio 5 ADRs = 1 ordinary share"},
+    {"label": "Bank of Japan daily FX 2026-11-12", "url": "https://www.boj.or.jp/en/statistics/market/forex/fxdaily/fxlist/fx261112.pdf", "supports": "USD/JPY 159.70"},
+    {"label": "StockAnalysis MFG forecast", "url": "https://stockanalysis.com/stocks/mfg/forecast/", "supports": "Consensus EPS JPY 626 and 726, USD target snapshot, BofA Buy"},
+    {"label": "StockAnalysis 8411 ratings", "url": "https://stockanalysis.com/quote/tyo/8411/ratings/", "supports": "Early-2026 broker targets on the Tokyo share"}
+  ]
+}

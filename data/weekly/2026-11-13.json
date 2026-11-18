@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:17:55.919412+00:00",
+  "built_at": "2026-11-18T12:20:19.272752+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 49,
+    "rank_valued": 54,
     "rank_with_named_targets": 2,
-    "rank_matched": 49,
-    "researched": 49
+    "rank_matched": 54,
+    "researched": 54
   },
   "ranked": [
     {
@@ -359,6 +359,27 @@
       "analyst_minus_base_pp": 15.429742180143016
     },
     {
+      "symbol": "PANW",
+      "issuer_id": "Palo Alto Networks, Inc.",
+      "close": 322.24,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 258460406243,
+        "high": 269117789781
+      },
+      "scenarios_pct": {
+        "bear": -21.487090367428003,
+        "base": 9.700844091360477,
+        "bull": 45.07820258192651
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "GOOGL",
       "issuer_id": "Alphabet Inc.",
       "close": 295.77,
@@ -443,6 +464,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "WFC",
+      "issuer_id": "Wells Fargo & Company",
+      "close": 86.05,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 253113617250,
+        "high": 263475404173
+      },
+      "scenarios_pct": {
+        "bear": -18.651946542707726,
+        "base": 6.914584543869843,
+        "bull": 32.94596165020337
+      },
+      "base_total_return_pct": 9.238814642649622,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "SAP",
       "issuer_id": "SAP SE",
       "close": 234.9,
@@ -506,6 +548,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "TMO",
+      "issuer_id": "Thermo Fisher Scientific Inc.",
+      "close": 700.22,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 254253768669,
+        "high": 264673045393
+      },
+      "scenarios_pct": {
+        "bear": -19.882322698580445,
+        "base": 6.423695410013996,
+        "bull": 24.24666533375225
+      },
+      "base_total_return_pct": 6.692182456942104,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "MA",
       "issuer_id": "Mastercard Incorporated",
       "close": 661.19,
@@ -521,6 +584,27 @@
         "bull": 19.360546892723725
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "GS",
+      "issuer_id": "The Goldman Sachs Group, Inc.",
+      "close": 916.56,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 258978489646,
+        "high": 269654953422
+      },
+      "scenarios_pct": {
+        "bear": -24.7185126996596,
+        "base": 4.957667801344156,
+        "bull": 39.107096098455095
+      },
+      "base_total_return_pct": 7.139739897006197,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -731,6 +815,27 @@
         "bull": 26.422673510377148
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "RTX",
+      "issuer_id": "RTX Corporation",
+      "close": 198.58,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 262612465941,
+        "high": 273413927864
+      },
+      "scenarios_pct": {
+        "bear": -20.23365897874912,
+        "base": 2.1250881256924163,
+        "bull": 21.210595226105347
+      },
+      "base_total_return_pct": 3.595528250579112,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1053,26 +1158,6 @@
     }
   ],
   "omitted": [
-    {
-      "symbol": "RTX",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "GS",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PANW",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "TMO",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "WFC",
-      "reason": "independent valuation unavailable"
-    },
     {
       "symbol": "NFLX",
       "reason": "independent valuation unavailable"
@@ -30291,6 +30376,1581 @@
         }
       ]
     },
+    "RTX": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 198.58,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x justified P/E. FY2027 adjusted diluted EPS viewed at the 12-month target date (Nov 2027), in USD on the NYSE common share (1 share = 1 listing, no ADR ratio, no FX conversion). Earnings base: FY2026 adjusted EPS guidance raised to $7.65-$7.75 on 2026-10-20 (midpoint $7.70), which includes a $0.25 one-time IEEPA recovery in Q3, so underlying FY2026 is about $7.45. RTX said on 2026-11-10 (preliminary, ahead of formal guidance in January 2027) that it expects 2027 sales, earnings and free cash flow growth with margin expansion in all three segments. Third-party FY2027 EPS snapshots (undated aggregators) range about $7.53-$7.85 and were used only as a cross-check. Shares: 1,349.4m outstanding (aggregate row) against 1,368.1m diluted in the Q3 release; the cap of $262.6-273.4bn is above the $20bn threshold. Close $198.58 equals 25.5x base FY2027 EPS of $7.80 and 25.8x FY2026 guidance midpoint.",
+        "bear": 158.4,
+        "base": 202.8,
+        "bull": 240.7,
+        "cases": {
+          "bear": {
+            "driver": "The IEEPA-type recovery and engine-related commercial aftermarket gains do not repeat, and GTF engine issues or defense program timing hold FY2027 EPS below the underlying FY2026 run-rate, while the market de-rates the stock to a 22x prime-defense-and-aerospace multiple.",
+            "assumption": "EPS $7.20 (about 3% below underlying FY2026) at 22x = $158.40",
+            "target": 158.4
+          },
+          "base": {
+            "driver": "FY2027 EPS of $7.80 (about 5% above underlying FY2026 and in line with the company's preliminary 2027 growth statement) with backlog of $340bn supporting the multiple at 26x, close to today's FY2027 multiple.",
+            "assumption": "EPS $7.80 at 26x = $202.80",
+            "target": 202.8
+          },
+          "bull": {
+            "driver": "Commercial aerospace aftermarket and defense backlog conversion lift FY2027 EPS about 11% above underlying FY2026 to $8.30, and the multiple re-rates to 29x, near the consensus target level.",
+            "assumption": "EPS $8.30 at 29x = $240.70",
+            "target": 240.7
+          }
+        },
+        "implied_by_close": "At base EPS of $7.80 the close of $198.58 implies 25.5x. The named-analyst targets (mean of the eight Oct 21-28 targets is about $237) imply about 30x base EPS, or EPS of about $9.10 at 26x, so the analyst gap of roughly 17% is an EPS-or-multiple difference; their assumptions are not sourced.",
+        "sensitivity": "One turn of P/E on base EPS moves the base target by $7.80 (3.9 pp of the close). A $0.50 change in FY2027 EPS moves it by $13.00 at 26x (6.5 pp).",
+        "watch_metric": "FY2027 adjusted EPS guidance in January 2027 against the $7.80 base, and whether the Q4 2026 adjusted EPS run-rate excludes the $0.25 IEEPA recovery; the base case needs about $1.95 adjusted EPS per quarter across FY2027.",
+        "next_disclosure": "Formal FY2027 guidance on the Q4 2026 results call; the aggregator date of Tuesday, Jan 26, 2027 before market open is unconfirmed and should be checked against RTX's investor relations calendar."
+      },
+      "dividend_per_share": 2.92,
+      "analyst_notes": "Eight named analysts with dated calls from Oct 21 to Nov 10, 2026 are in the sample; all targets are sourced from StockAnalysis and their 12-month horizon is not documented in the source, so horizon is null and no call enters the weighted target. Since the Q3 release on 2026-10-20 the named revisions are UBS raised $209 to $212 (Hold), and the rest are Buy reiterations between $235 and $245; the targets average about $237 against the $202.80 base. Firm-only calls from MarketBeat (TD Cowen cut $240 to $225 on Oct 9, Bernstein cut $223 to $214 on Oct 15, Goldman $195 to $206 on Jul 27, DA Davidson $192 to $219 on Jul 27) have no named analyst and are excluded. The Nov 10 BofA Buy reiteration has no target in the source.",
+      "sources": [
+        {
+          "label": "RTX Reports Q3 2026 Results (adjusted EPS $2.26, FY2026 adjusted EPS guidance $7.65-$7.75, 1,368.1m diluted shares)",
+          "url": "https://rtx.com/news/news-center/2026/10/20/rtx-reports-q3-2026-results",
+          "supports": "FY2026 EPS guidance, Q3 EPS, diluted share count"
+        },
+        {
+          "label": "Newsquawk: RTX says it expects 2027 sales, earnings and free cash flow growth (10 Nov 2026, preliminary)",
+          "url": "https://www.newsquawk.com/headlines/rtx-rtx-says-it-expects-2027-sales-earnings-and-free-cash-flow-growth-with-underlying-operating-profit-growth-and-margin-expansion-across-all-three-segments-adjusted-for-nonrecurring-items",
+          "supports": "Preliminary 2027 growth statement"
+        },
+        {
+          "label": "StockAnalysis RTX analyst ratings (named Oct-Nov 2026 calls, targets and prior values)",
+          "url": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "supports": "Named analyst ratings and targets"
+        },
+        {
+          "label": "StockAnalysis RTX forecast (FY2027 average EPS $7.59, range $6.90-$8.26; undated snapshot)",
+          "url": "https://stockanalysis.com/stocks/rtx/forecast/",
+          "supports": "FY2027 EPS consensus cross-check"
+        },
+        {
+          "label": "MarketBeat RTX instant alert, 9 Nov 2026 (consensus target $231.24, firm-only actions, dates without year)",
+          "url": "https://www.marketbeat.com/instant-alerts/price-rtx-nyse-rtx-shares-climb-36-time-to-buy-2026-11-09/",
+          "supports": "Consensus target and firm-only calls excluded from events"
+        },
+        {
+          "label": "MarketBeat: RTX declares quarterly dividend increase to $0.73 per share (1 May 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/rtx-corporation-nysertx-declares-dividend-increase-073-per-share-2026-05-01/",
+          "supports": "Quarterly dividend $0.73, annual $2.92"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-20T07:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 23.0,
+        "max_weight_pct": 14.174707551204865,
+        "contributors": [
+          {
+            "analyst": "Charles Minervino",
+            "firm": "Susquehanna",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+            "weight": 0.12151182756972384
+          },
+          {
+            "analyst": "Gavin Parsons",
+            "firm": "UBS",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+            "weight": 0.12151182756972384
+          },
+          {
+            "analyst": "John Godyn",
+            "firm": "Citi",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+            "weight": 0.12151182756972384
+          },
+          {
+            "analyst": "Kenneth Herbert",
+            "firm": "RBC Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+            "weight": 0.12151182756972384
+          },
+          {
+            "analyst": "Kristina Ruggeri",
+            "firm": "Argus Research",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+            "weight": 0.12824250626641592
+          },
+          {
+            "analyst": "Kristine Liwag",
+            "firm": "Morgan Stanley",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+            "weight": 0.12151182756972384
+          },
+          {
+            "analyst": "Ronald Epstein",
+            "firm": "Bank of America Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-10",
+            "age_days": 3,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+            "weight": 0.14174707551204865
+          },
+          {
+            "analyst": "Seth Seifman",
+            "firm": "J.P. Morgan",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+            "weight": 0.12245128037291624
+          }
+        ],
+        "counts": {
+          "Buy": 7,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 87.84881724302763,
+          "Hold": 12.151182756972384,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Charles Minervino",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Charles Minervino",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 245.0,
+          "source_prior": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Gavin Parsons",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Gavin Parsons",
+          "firm": "UBS",
+          "field": "target",
+          "value": 212.0,
+          "source_prior": 209,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "revision_pct": 1.4354066985645897,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John Godyn",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "John Godyn",
+          "firm": "Citi",
+          "field": "target",
+          "value": 240.0,
+          "source_prior": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kenneth Herbert",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kenneth Herbert",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 235.0,
+          "source_prior": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kristina Ruggeri",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kristina Ruggeri",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 245.0,
+          "source_prior": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kristine Liwag",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kristine Liwag",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 240.0,
+          "source_prior": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ronald Epstein",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Seth Seifman",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Seth Seifman",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 240.0,
+          "source_prior": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "GS": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 916.56,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Profitable diversified bank: forward EPS x justified P/E, with FY2027 EPS (the year that a Nov 2027 buyer prices as the next-12-month earnings base) multiplied by a P/E at the 12-month target date (Nov 2027). Anchors: 9M 2026 diluted EPS $55.56 (Q1 about $17.57, Q2 $20.98, Q3 $17.01, reported Oct 13, 2026); Q3 book value per common share $372.64 (Sept 30, 2026). FY2026 consensus about $73.68 (Chartmill, Nov 7, 2026; not verified against a primary source). FY2027 base EPS of $74 is set from the Benzinga quarterly 2027 consensus (Q1 $19.21, Q2 $18.11, Q3 $18.20, plus an assumed Q4 near $18.5), which is an analyst-derived model assumption, not guidance. USD listing, no ADR conversion. Dividend $20 per share annualized ($5.00 Q4 declared Oct 13, 2026).",
+        "bear": 690.0,
+        "base": 962.0,
+        "bull": 1275.0,
+        "cases": {
+          "bear": {
+            "driver": "Markets and IB revenue normalize after a strong 2026 equities year; FICC and investment banking fees slow; expense growth (up 20% y/y in Q3) is not offset; credit or private-markets marks hit earnings; ROE falls toward 14-15%.",
+            "assumption": "EPS $60 at 11.5x",
+            "target": 690.0
+          },
+          "base": {
+            "driver": "Current quarterly run-rate (Q1-Q3 2026 averaging about $18.5 excluding the Q2 peak) holds with modest IB recovery; ROE near 18-19% and capital return of about $20 per share a year.",
+            "assumption": "EPS $74 at 13.0x",
+            "target": 962.0
+          },
+          "bull": {
+            "driver": "IB fee recovery (Q3 fees +21% y/y) and sustained equities and prime-financing strength push EPS toward $85; buybacks and a rerating toward the top of the bank group range.",
+            "assumption": "EPS $85 at 15.0x",
+            "target": 1275.0
+          }
+        },
+        "implied_by_close": "The close of $916.56 is 12.4x the $74 base FY2027 EPS and about 2.5x Q3 book value per share of $372.64. The median named-analyst target of about $1,000 (stockanalysis, 26 analysts, mean $1,031) implies 13.5x base EPS, or EPS of about $77 at a constant 13.0x.",
+        "sensitivity": "One turn of P/E moves the base target by $74 (about 8.1 pp of price return); $1 of EPS moves it by $13 (about 1.4 pp).",
+        "watch_metric": "Quarterly EPS run-rate versus about $18.5 and annualized ROE versus about 19%, together with IB fee growth and Global Banking & Markets net revenue (Q3 $13.46bn, up 32% y/y).",
+        "next_disclosure": "Q4 2026 earnings, expected about 2027-01-19 (next earnings timestamp in the listing data; confirm on the company IR calendar)."
+      },
+      "dividend_per_share": 20.0,
+      "analyst_notes": "Only 5 named analysts with dated calls were sourced (of 26 in the S&P Global count quoted by stockanalysis, mean $1,031, median $1,000, range $730-$1,250), so the sample is partial. Among the sampled calls, Barclays ($1,245) and BofA ($1,050) reaffirmed Buy targets in early November, UBS trimmed $1,010 to $1,000 (Hold), Freedom cut $1,200 to $1,100 (Buy) and BMO cut $970 to $950 (Hold). The sample's simple mean of about $1,069 sits roughly $107 (about 11%) above the $962 base case: at a constant 13x that gap is about $8 of FY2027 EPS (roughly $82 versus $74), or about 14x base EPS; the analysts' underlying assumptions are not disclosed. No 12-month horizon is documented for any sampled firm, so no call enters the weighted target. Stale and unresolved items excluded: an UBS Erika Najarian Aug 3, 2026 target ($1,150 from $1,120, per Webull) cannot be reconciled with the Nov 2 figure without the intervening call; KBW (McGratty, $1,100 from $1,130, Market Perform) and the RBC and Morgan Stanley Benzinga items are undated or conflict across years. The earnings time is set at 06:45 ET on the 2026-10-13 release date as an assumption; the release itself is confirmed dated 2026-10-13.",
+      "sources": [
+        {
+          "label": "Goldman Sachs Q3 2026 Form 8-K (earnings release, EPS, book value, dividend)",
+          "url": "https://last10k.com/sec-filings/gs/0000886982-26-000529.htm",
+          "supports": "Q3 2026 diluted EPS $17.01, 9M EPS $55.56, BVPS $372.64, ROE 18.7%, $5.00 Q4 dividend, release date Oct 13, 2026"
+        },
+        {
+          "label": "Stockanalysis GS analyst forecast (named targets and dates, consensus)",
+          "url": "https://stockanalysis.com/stocks/gs/forecast/",
+          "supports": "BofA, Barclays, UBS, Freedom, BMO targets, ratings and dates; 26-analyst mean $1,031, median $1,000"
+        },
+        {
+          "label": "Zacks: Goldman Q3 earnings beat on strong equities, IB revenues",
+          "url": "https://www.zacks.com/stock/news/3006356/goldman-q3-earnings-beat-on-strong-equities-ib-revenues-shares-rise",
+          "supports": "Q3 2026 beat context, equities and IB revenue drivers"
+        },
+        {
+          "label": "Private Banker International: Goldman Q3 profit climbs 29% on equities boom",
+          "url": "https://www.privatebankerinternational.com/news/goldman-sachs-q3-profit-climbs-29-on-equities-boom",
+          "supports": "Q3 2026 net earnings and revenue context"
+        },
+        {
+          "label": "Benzinga GS earnings forecasts (2027 quarterly consensus)",
+          "url": "https://www.benzinga.com/quote/GS/earnings-forecasts",
+          "supports": "Q1-Q3 2027 quarterly EPS consensus used in the FY2027 base EPS"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-13T06:45:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 11,
+        "max_weight_pct": 21.174260785840033,
+        "contributors": [
+          {
+            "analyst": "Brennan Hawken",
+            "firm": "BMO Capital Markets",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gs/forecast/",
+            "weight": 0.1843326465449207
+          },
+          {
+            "analyst": "Ebrahim Poonawala",
+            "firm": "Bank of America Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gs/forecast/",
+            "weight": 0.21174260785840032
+          },
+          {
+            "analyst": "Erika Najarian",
+            "firm": "UBS",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gs/forecast/",
+            "weight": 0.2053190029916733
+          },
+          {
+            "analyst": "Jason Goldberg",
+            "firm": "Barclays",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gs/forecast/",
+            "weight": 0.2085060697829768
+          },
+          {
+            "analyst": "Mikhail Paramonov",
+            "firm": "Freedom Capital Markets",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gs/forecast/",
+            "weight": 0.19009967282202883
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 61.034835046340596,
+          "Hold": 38.965164953659404,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Brennan Hawken",
+          "firm": "BMO Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Brennan Hawken",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 950.0,
+          "source_prior": 970,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "revision_pct": -2.0618556701030966,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 1050.0,
+          "source_prior": 1050,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 1000.0,
+          "source_prior": 1010,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "revision_pct": -0.990099009900991,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 1245.0,
+          "source_prior": 1245,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 1100.0,
+          "source_prior": 1200,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/",
+          "prior_observed": null,
+          "revision_pct": -8.333333333333337,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "PANW": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 322.24,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. FY2027 (ends July 2027) non-GAAP diluted EPS guidance of $4.16-$4.19 (midpoint $4.175) from the fiscal Q4 2026 release of Sept 1 2026, used as the base year. At the Nov 2027 12-month target date the market prices the next fiscal year, so the multiple is applied to FY2028 (Aug 2027-Jul 2028) EPS. Common shares and USD listing: EPS is reported in USD on the ordinary share, 1 share = 1 listing, so no FX or ADR conversion applies. Earnings release time (16:05 ET) is approximated from the usual after-close schedule; the date is from the search results.",
+        "bear": 253.0,
+        "base": 353.5,
+        "bull": 467.5,
+        "cases": {
+          "bear": {
+            "driver": "Next-Generation Security ARR growth slips below the 22-23% FY27 guide and the adjusted FCF margin falls short of the 38% outlook, so growth decelerates to about 10% in FY28 and the market de-rates the platform stock.",
+            "assumption": "FY2028 EPS $4.60 (+10% on the $4.175 FY27 midpoint) at 55x = $253.00 (-21.5% price return)",
+            "target": 253.0
+          },
+          "base": {
+            "driver": "FY27 guidance holds: revenue $14.10-14.20bn, non-GAAP operating margin 29.5%, NGS ARR $11.075-11.175bn (+22-23%). EPS compounds about 21% into FY28 with modest buyback-driven share reduction, and the multiple stays high but compresses as growth normalizes.",
+            "assumption": "FY2028 EPS $5.05 (+21% on the $4.175 FY27 midpoint) at 70x = $353.50 (+9.7% price return)",
+            "target": 353.5
+          },
+          "bull": {
+            "driver": "ARR beats the guide and platformization drives upside to revenue and margins, EPS grows about 32% into FY28, and the market keeps a premium multiple for durable AI-security growth.",
+            "assumption": "FY2028 EPS $5.50 (+32% on the $4.175 FY27 midpoint) at 85x = $467.50 (+45.1% price return)",
+            "target": 467.5
+          }
+        },
+        "implied_by_close": "At base FY2028 EPS $5.05 the close of $322.24 implies 63.8x. The provider aggregate mean target of $398.63 (51 analysts, yfinance, Nov 13 2026) implies 78.9x base EPS, and the median $415 implies 82.2x; no named analyst targets are dated on or before the reference close, so no individually weighted target is available. Holding 70x, the aggregate mean implies FY28 EPS of about $5.69, roughly 13% above the base case.",
+        "sensitivity": "One turn of P/E moves the base target by $5.05 (1.6 pp of price return). $0.10 of FY2028 EPS moves it by $7.00 (2.2 pp).",
+        "watch_metric": "Next-Generation Security ARR growth against the 22-23% FY27 guide, and adjusted FCF margin against the 38.0% outlook. Both must hold to support FY28 EPS of about $5.05.",
+        "next_disclosure": "Fiscal Q1 2027 results, scheduled for after the close on Nov 18 2026 (2026-11-18 16:00 ET per the aggregate earnings timestamp), guided at adjusted EPS $0.96-$0.98 and revenue $3.30-3.31bn. Those results are not in the sources read for this file and should be checked before relying on the base case."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "No named individual analyst call on PANW is dated on or before the Nov 13 2026 reference close in the sources accessible here: the Morgan Stanley (Sept 21, $410 from $394, Overweight), Piper Sandler (Sept 2, $410 from $345) and RBC/Oppenheimer (Sept 1-2, $475 and $450) moves name no analyst, and the named StockAnalysis calls (Cantor $425, TD Cowen $440, J.P. Morgan $384, Wells Fargo $525, KeyBanc upgrade to Buy at $380) are dated Nov 13-16 and cannot be verified as public by the close, so none is entered. The provider aggregate (51 analysts, mean $398.63, median $415, 'buy' at 1.65) sits 24% above the close, which is 78.9x our base FY28 EPS versus our 70x base; the gap is consistent with analysts assuming faster FY28 EPS growth or a higher terminal multiple, and no named calls can confirm which. Coverage is therefore labeled unavailable and no target is weighted.",
+      "sources": [
+        {
+          "label": "Palo Alto Networks fiscal Q4 and FY2026 results release (Sept 1 2026)",
+          "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results",
+          "supports": "FY27 adjusted EPS guide $4.16-4.19, revenue $14.10-14.20bn, NGS ARR guide, 29.5% margin, 38% FCF margin, Q1 FY27 guide"
+        },
+        {
+          "label": "StockAnalysis PANW forecast table",
+          "url": "https://stockanalysis.com/stocks/panw/forecast/",
+          "supports": "55 analysts, consensus Buy, average $398.63, median $415, named Nov 13-16 2026 calls excluded by cutoff"
+        },
+        {
+          "label": "Finviz: Morgan Stanley raises PANW target to $410",
+          "url": "https://finviz.com/news/393715/morgan-stanley-raises-palo-alto-networks-price-target-to-410-on-ai-security-demand",
+          "supports": "Sept 21 2026 Overweight, $394 to $410 (analyst not named, firm-only)"
+        },
+        {
+          "label": "TIKR: PANW analysts push target to $391",
+          "url": "https://www.tikr.com/blog/palo-alto-networks-stock-trades-at-337-heres-why-analysts-just-pushed-their-target-to-391",
+          "supports": "Sept 1-2 2026 RBC $434 to $475 and Oppenheimer $400 to $450 (no analyst names)"
+        },
+        {
+          "label": "Benzinga PANW price target log",
+          "url": "https://www.benzinga.com/quote/panw/price-targets",
+          "supports": "Piper Sandler Sept 2 2026 reiterate, $345 to $410 (no analyst name)"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": "2026-09-01T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
+    "TMO": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 700.22,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS (calendar 2027, Thermo's fiscal year) viewed at the 12-month target date (Nov 2027), using only information public by the 2026-11-13 close. Anchored on the raised FY2026 adjusted EPS guidance of $25.13-$25.43 (midpoint $25.28) given 2026-10-21, which includes about $0.15 of one-time tariff refunds net of reinvestment; underlying FY2026 EPS taken as about $25.13. Currency USD, US listing (NYSE), no ADR conversion, 370.5M shares used.",
+        "bear": 561.0,
+        "base": 745.2,
+        "bull": 870.0,
+        "cases": {
+          "bear": {
+            "driver": "Academic, government and biopharma customers keep spending cautious; bioprocess and instruments stay soft, pricing pressure offsets cost savings, so EPS grows only about 1-2% on the underlying FY2026 base",
+            "assumption": "EPS $25.50 at 22.0x",
+            "target": 561.0
+          },
+          "base": {
+            "driver": "Organic growth near the 4% FY2026 guide continues, Pharma services and bioprocess recover modestly, margins expand and buybacks add about 1 point; EPS grows about 10% on the underlying FY2026 base",
+            "assumption": "EPS $27.60 at 27.0x",
+            "target": 745.2
+          },
+          "bull": {
+            "driver": "Bioprocess and instrument demand recovers with pharma onshoring spending, organic growth above 6%, adjusted operating margin moves toward 26%, and the market keeps a premium multiple on a faster compounder",
+            "assumption": "EPS $29.00 at 30.0x",
+            "target": 870.0
+          }
+        },
+        "implied_by_close": "At base EPS $27.60 the close of $700.22 implies 25.4x; the MarketBeat consensus target of $683.64 (29 analysts, 2026-11-08) implies 24.8x on base EPS, or about $25.30 of EPS at 27x, close to the FY2026 guidance midpoint and not a forward-year view",
+        "sensitivity": "One turn of P/E moves the base target by $27.60 (3.9 pp of the close); a $0.50 change in FY2027 EPS at 27x moves it by $13.50 (1.9 pp)",
+        "watch_metric": "Organic revenue growth and adjusted operating margin in bioprocessing and analytical instruments (FY2026 guide: organic growth about 4%, Q4 organic growth about 4%, adjusted EPS $25.13-$25.43)",
+        "next_disclosure": "Q4 and full-year 2026 results with FY2027 guidance, expected around late January or early February 2027 (date not verified)"
+      },
+      "dividend_per_share": 1.88,
+      "analyst_notes": "Most named calls cluster after the 2026-10-21 Q3 release: an Oct 22-28 wave of raises (TD Cowen $810, Citigroup $800, UBS $800, Barclays $775, Deutsche Bank $750, Redburn $750) alongside Evercore's cut from $720 to $615 and DZ Bank's downgrade to Hold. Older calls (Jul-Sep) include Bernstein at $575 (Market Perform), Jefferies $630, Leerink $620 and a Wells Fargo downgrade to Underweight on Sep 9. The published MarketBeat consensus of $683.64 sits 2.4% below the close and about $62 below the $745 base case, a gap of roughly 2.2 P/E turns (24.8x vs 27x on base EPS); the sample is bullish on the Oct raises and dispersed at the low end. Because no analyst states a 12-month horizon in a verified disclosure, all events carry a null horizon and stay out of the weighted target. Wall Street Zen's Nov 14 cut to Hold is after the reference close and is not a sell-side call.",
+      "sources": [
+        {
+          "label": "Thermo Fisher Q3 2026 earnings release (8-K Ex. 99.1, 2026-10-21)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000097745/000009774526000173/q32026earnings8kex99_1.htm",
+          "supports": "Q3 2026 revenue $12,137M, Q3 adjusted EPS $6.68, nine-month adjusted EPS $18.15, 371M diluted shares, release date"
+        },
+        {
+          "label": "Thermo Fisher FY2026 guidance raise after Q3 (Value The Markets)",
+          "url": "https://www.valuethemarkets.com/news/thermo-fisher-nyse-tmo-raises-2026-outlook-after-q3",
+          "supports": "Raised FY2026 adjusted EPS guidance to $25.13-$25.43 and revenue to $47.7-48.2B; about $0.15 tariff refund effect; FCF $7-7.5B"
+        },
+        {
+          "label": "MarketBeat TMO alert 2026-11-04 (TD Cowen, Citigroup, UBS, HSBC, Piper Sandler, consensus $689.10)",
+          "url": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "supports": "TD Cowen $810 from $760 (Oct 22), Citigroup $800 from $685 (Oct 23), UBS Buy $800 (Oct 22), HSBC strong-buy (Sep 1), Piper Sandler Overweight (Sep 9)"
+        },
+        {
+          "label": "MarketBeat TMO alert 2026-11-11 (Deutsche Bank, Evercore, Jefferies)",
+          "url": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+          "supports": "Deutsche Bank $750 from $720 (Oct 22), Evercore $615 from $720 Outperform (Oct 28), Jefferies Buy $630 from $585 (Jul 23)"
+        },
+        {
+          "label": "MarketBeat TMO alert 2026-11-18 (Redburn, Guggenheim, Bernstein, Leerink, Wells Fargo, consensus $683.64)",
+          "url": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "supports": "Redburn $750 from $725 (Oct 22), Guggenheim Buy $740 initiation (Oct 15), Bernstein $575 from $520 (Jul 24), Leerink $620 from $600 (Jul 22), Wells Fargo downgrade to Underweight (Sep 9), consensus $683.64"
+        },
+        {
+          "label": "MarketBeat Barclays target raise to $775 (2026-10-22)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-price-target-raised-to-77500-2026-10-22/",
+          "supports": "Barclays Overweight, target $775 from $750 (Oct 22)"
+        },
+        {
+          "label": "MarketBeat DZ Bank downgrade to Hold (2026-10-24)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-rating-lowered-to-hold-at-dz-bank-2026-10-24/",
+          "supports": "DZ Bank rating lowered from strong-buy to Hold (Oct 23)"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-21T07:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 15,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 22,
+        "max_weight_pct": 8.305177787340993,
+        "contributors": [
+          {
+            "analyst": "(unnamed) Barclays",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-price-target-raised-to-77500-2026-10-22/",
+            "weight": 0.07930129279225837
+          },
+          {
+            "analyst": "(unnamed) Citigroup",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+            "weight": 0.07991440036623276
+          },
+          {
+            "analyst": "(unnamed) DZ Bank",
+            "firm": "DZ Bank",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-rating-lowered-to-hold-at-dz-bank-2026-10-24/",
+            "weight": 0.07991440036623276
+          },
+          {
+            "analyst": "(unnamed) Deutsche Bank",
+            "firm": "Deutsche Bank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+            "weight": 0.07930129279225837
+          },
+          {
+            "analyst": "(unnamed) Evercore",
+            "firm": "Evercore",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+            "weight": 0.08305177787340992
+          },
+          {
+            "analyst": "(unnamed) Guggenheim",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+            "weight": 0.07513924436107629
+          },
+          {
+            "analyst": "(unnamed) HSBC",
+            "firm": "HSBC",
+            "value": "Strong Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-01",
+            "age_days": 73,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+            "weight": 0.05354224822654698
+          },
+          {
+            "analyst": "(unnamed) Jefferies",
+            "firm": "Jefferies",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-23",
+            "age_days": 113,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+            "weight": 0.03934644450626906
+          },
+          {
+            "analyst": "(unnamed) Leerink Partners",
+            "firm": "Leerink Partners",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-07-22",
+            "age_days": 114,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+            "weight": 0.039044576469654854
+          },
+          {
+            "analyst": "(unnamed) Piper Sandler",
+            "firm": "Piper Sandler",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-09-09",
+            "age_days": 65,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+            "weight": 0.056944898736578174
+          },
+          {
+            "analyst": "(unnamed) Rothschild & Co Redburn",
+            "firm": "Rothschild & Co Redburn",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+            "weight": 0.07930129279225837
+          },
+          {
+            "analyst": "(unnamed) Sanford C. Bernstein",
+            "firm": "Sanford C. Bernstein",
+            "value": "Market Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-07-24",
+            "age_days": 112,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+            "weight": 0.03965064639612919
+          },
+          {
+            "analyst": "(unnamed) TD Cowen",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+            "weight": 0.07930129279225837
+          },
+          {
+            "analyst": "(unnamed) UBS",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+            "weight": 0.07930129279225837
+          },
+          {
+            "analyst": "(unnamed) Wells Fargo",
+            "firm": "Wells Fargo",
+            "value": "Underweight",
+            "bucket": "Sell",
+            "issued_at": "2026-09-09",
+            "age_days": 65,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+            "weight": 0.056944898736578174
+          }
+        ],
+        "counts": {
+          "Buy": 12,
+          "Hold": 2,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 82.34900545010598,
+          "Hold": 11.956504676236197,
+          "Sell": 5.694489873657817
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-price-target-raised-to-77500-2026-10-22/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 775.0,
+          "source_prior": 750,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-price-target-raised-to-77500-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 3.3333333333333437,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 800.0,
+          "source_prior": 685,
+          "horizon_months": null,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "prior_observed": null,
+          "revision_pct": 16.788321167883204,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) DZ Bank",
+          "firm": "DZ Bank",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-rating-lowered-to-hold-at-dz-bank-2026-10-24/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Deutsche Bank",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Deutsche Bank",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 750.0,
+          "source_prior": 720,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+          "prior_observed": null,
+          "revision_pct": 4.166666666666674,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Evercore",
+          "firm": "Evercore",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Evercore",
+          "firm": "Evercore",
+          "field": "target",
+          "value": 615.0,
+          "source_prior": 720,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+          "prior_observed": null,
+          "revision_pct": -14.583333333333337,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Guggenheim",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Guggenheim",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 740.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) HSBC",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Strong Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-01",
+          "public_at": "2026-09-01T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Jefferies",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Jefferies",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 630.0,
+          "source_prior": 585,
+          "horizon_months": null,
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/",
+          "prior_observed": null,
+          "revision_pct": 7.692307692307687,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Leerink Partners",
+          "firm": "Leerink Partners",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Leerink Partners",
+          "firm": "Leerink Partners",
+          "field": "target",
+          "value": 620.0,
+          "source_prior": 600,
+          "horizon_months": null,
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "revision_pct": 3.3333333333333437,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Piper Sandler",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-09",
+          "public_at": "2026-09-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Rothschild & Co Redburn",
+          "firm": "Rothschild & Co Redburn",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Rothschild & Co Redburn",
+          "firm": "Rothschild & Co Redburn",
+          "field": "target",
+          "value": 750.0,
+          "source_prior": 725,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "revision_pct": 3.4482758620689724,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Sanford C. Bernstein",
+          "firm": "Sanford C. Bernstein",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Sanford C. Bernstein",
+          "firm": "Sanford C. Bernstein",
+          "field": "target",
+          "value": 575.0,
+          "source_prior": 520,
+          "horizon_months": null,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "revision_pct": 10.576923076923084,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) TD Cowen",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) TD Cowen",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 810.0,
+          "source_prior": 760,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "prior_observed": null,
+          "revision_pct": 6.578947368421062,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "target",
+          "value": 800.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Wells Fargo",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-09-09",
+          "public_at": "2026-09-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        }
+      ]
+    },
+    "WFC": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 86.05,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E on FY2027 diluted EPS viewed at the 12-month target date (Nov 2027), USD listing, no ADR conversion. Run-rate: Q3 2026 diluted EPS $1.87 (released 2026-10-13), annualized $7.48. Base FY2027 EPS $8.00 (about 7% above run-rate, consistent with Q3 net income up 6% and NII up 5%) at 11.5x, the middle of WFC's recent trading range. Bear EPS $7.00 at 10x. Bull EPS $8.80 at 13x. Cross-check on tangible book: one source gives TBVPS of about $44.46 (not confirmed against the 10-Q). With Q3 ROTCE of 16.3% and a 10.5% cost of equity, steady-state P/TBV = (16.3% - 4%) / (10.5% - 4%) = 1.89x, which at $44.46 is about $84 today and supports the base-case multiple range. Dividend: aggregate indicated rate of $2.00 a year used as the gross cash yield over the horizon.",
+        "bear": 70.0,
+        "base": 92.0,
+        "bull": 114.4,
+        "cases": {
+          "bear": {
+            "driver": "Net interest income growth stalls after the Q3 margin drop to 2.43% and fee revenue misses; efficiency ratio stays near 63% and credit or regulatory costs rise; CET1 pressure limits buybacks.",
+            "assumption": "EPS $7.00 at 10.0x",
+            "target": 70.0
+          },
+          "base": {
+            "driver": "Q4 NII near the guided $13B run-rate and 2027 NII growth tracking loan and deposit growth; expenses flat-to-down as headcount falls (down 8% y/y); buybacks continue near $2.5B a quarter; ROTCE rises toward the 17% target.",
+            "assumption": "EPS $8.00 at 11.5x",
+            "target": 92.0
+          },
+          "bull": {
+            "driver": "Management reaches the 17%-18% ROTCE target sooner through fee growth and efficiency, NII beats, and faster capital return as the CET1 ratio (10.0%) allows.",
+            "assumption": "EPS $8.80 at 13.0x",
+            "target": 114.4
+          }
+        },
+        "implied_by_close": "At base EPS of $8.00 the close of $86.05 implies 10.8x. The Yahoo-aggregated analyst mean target of $97.38 (24 analysts, range $88-$108) implies about 12.2x base EPS, or EPS of about $8.45 at a constant 11.5x; the analysts' assumptions are unknown.",
+        "sensitivity": "One turn of P/E moves the base target by $8.00 (9.3 pp of price return); $0.50 of FY2027 EPS moves it by $5.75 (6.7 pp).",
+        "watch_metric": "Quarterly NII and ROTCE: the base case needs NII tracking the Q4 2026 guide of about $13B and ROTCE rising from 16.3% toward 17%, with noninterest expense flat-to-down.",
+        "next_disclosure": "Q4 2026 earnings (date not confirmed in the sources; the aggregate's next-earnings timestamp is 2027-01-14, which should be checked against the IR calendar)."
+      },
+      "dividend_per_share": 2.0,
+      "analyst_notes": "Only one named 2026 call could be sourced with a date before the close: Betsy Graseck (Morgan Stanley) at $102 on 2026-06-29, undated horizon, so it sits outside the weighted target. Named post-Q3 actions (Citi cut to $88 from $90 on Oct 15, 2026; RBC to $92; Keefe Bruyette to $90 from $94; Morgan Stanley to $101) were reported in search snippets but the analyst names, dates or prior targets could not be verified, and the broker pages returned HTTP 403, so they are omitted. The Yahoo-aggregated mean of $97.38 (24 analysts) sits about 6% above the $92 base case, which implies roughly 12.2x base EPS versus our 11.5x; the gap is a multiple gap, not an earnings gap, unless analysts assume EPS near $8.45. Coverage is partial and the named panel is too thin to weight.",
+      "sources": [
+        {
+          "label": "VestedFinance: Wells Fargo Q3 2026 results",
+          "url": "https://vestedfinance.com/blog/us-stocks/wells-fargo-q3-earnings-2026/",
+          "supports": "Q3 2026 release date (Oct 13), diluted EPS $1.87, NII $12.52B, net income $5.95B, efficiency ratio 63%, CET1 10.0%, $2.5B buybacks, headcount down 8%"
+        },
+        {
+          "label": "Last10K: Wells Fargo SEC filing 0000072971-26-000318",
+          "url": "https://last10k.com/sec-filings/wfc/0000072971-26-000318.htm",
+          "supports": "Q3 2026 ROTCE 16.3% (secondary summary of the filing)"
+        },
+        {
+          "label": "Financial Modeling Prep: Wells Fargo Q3 2026 earnings",
+          "url": "https://site.financialmodelingprep.com/market-news/wells-fargo-q3-2026-earnings",
+          "supports": "Q3 EPS and revenue versus consensus"
+        },
+        {
+          "label": "Beinsure: Wells Fargo Q3 profit and NII outlook",
+          "url": "https://beinsure.com/news/wells-fargo-q3-profit-rises-to-6bn/",
+          "supports": "NII versus forecast, Q4 NII outlook"
+        },
+        {
+          "label": "Yahoo Finance via yfinance aggregate (this week's listing data)",
+          "url": "https://finance.yahoo.com/quote/WFC",
+          "supports": "24-analyst mean $97.38, range $88-$108, dividend rate $2.00, shares used 3.00B"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-13T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Betsy Graseck",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 102.0,
+          "source_prior": null,
+          "issued_at": "2026-06-29",
+          "public_at": "2026-06-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.quiverquant.com/news/Wells+Fargo+Stock+%28WFC%29+Opinions+on+Analyst+Price+Target+Increases",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -30914,6 +32574,11 @@
         "kind": "new"
       },
       {
+        "symbol": "GS",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "HD",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -30999,6 +32664,11 @@
         "kind": "new"
       },
       {
+        "symbol": "PANW",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "PG",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -31010,6 +32680,11 @@
       },
       {
         "symbol": "PM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "RTX",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -31044,6 +32719,11 @@
         "kind": "new"
       },
       {
+        "symbol": "TMO",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "TSLA",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -31066,6 +32746,11 @@
       {
         "symbol": "V",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "WFC",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -31390,6 +33075,17 @@
         "analyst": "Vivek Arya",
         "issued_at": "2026-11-10",
         "source": "https://stockanalysis.com/stocks/txn/forecast/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null
+      },
+      {
+        "symbol": "RTX",
+        "firm": "Bank of America Securities",
+        "analyst": "Ronald Epstein",
+        "issued_at": "2026-11-10",
+        "source": "https://stockanalysis.com/stocks/rtx/ratings/",
         "currency": null,
         "rating": "Buy",
         "bucket": "Buy",

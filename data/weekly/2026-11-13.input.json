@@ -7371,9 +7371,173 @@
         "high": 273413927864
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ronald Epstein",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Kristina Ruggeri",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 245,
+          "source_prior": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Kristina Ruggeri",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Seth Seifman",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 240,
+          "source_prior": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Seth Seifman",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "John Godyn",
+          "firm": "Citi",
+          "field": "target",
+          "value": 240,
+          "source_prior": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "John Godyn",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Charles Minervino",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 245,
+          "source_prior": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Charles Minervino",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Gavin Parsons",
+          "firm": "UBS",
+          "field": "target",
+          "value": 212,
+          "source_prior": 209,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Gavin Parsons",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Kenneth Herbert",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 235,
+          "source_prior": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Kenneth Herbert",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Kristine Liwag",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 240,
+          "source_prior": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        },
+        {
+          "analyst": "Kristine Liwag",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/rtx/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-20T07:30:00-04:00",
+      "valuation": {
+        "bear": 158.4,
+        "base": 202.8,
+        "bull": 240.7
+      },
+      "dividend_per_share": 2.92
     },
     {
       "issuer_id": "The Goldman Sachs Group, Inc.",
@@ -7387,9 +7551,121 @@
         "high": 269654953422
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 1050,
+          "source_prior": 1050,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 1245,
+          "source_prior": 1245,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 1000,
+          "source_prior": 1010,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 1100,
+          "source_prior": 1200,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Brennan Hawken",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 950,
+          "source_prior": 970,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        },
+        {
+          "analyst": "Brennan Hawken",
+          "firm": "BMO Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/gs/forecast/"
+        }
+      ],
+      "earnings_at": "2026-10-13T06:45:00-04:00",
+      "valuation": {
+        "bear": 690.0,
+        "base": 962.0,
+        "bull": 1275.0
+      },
+      "dividend_per_share": 20.0
     },
     {
       "issuer_id": "Palo Alto Networks, Inc.",
@@ -7403,9 +7679,14 @@
         "high": 269117789781
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-09-01T16:05:00-04:00",
+      "valuation": {
+        "bear": 253.0,
+        "base": 353.5,
+        "bull": 467.5
+      }
     },
     {
       "issuer_id": "Thermo Fisher Scientific Inc.",
@@ -7419,9 +7700,287 @@
         "high": 264673045393
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "(unnamed) TD Cowen",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 810,
+          "source_prior": 760,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/"
+        },
+        {
+          "analyst": "(unnamed) TD Cowen",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 800,
+          "source_prior": 685,
+          "horizon_months": null,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/"
+        },
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "target",
+          "value": 800,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/"
+        },
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/"
+        },
+        {
+          "analyst": "(unnamed) Deutsche Bank",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 750,
+          "source_prior": 720,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/"
+        },
+        {
+          "analyst": "(unnamed) Deutsche Bank",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/"
+        },
+        {
+          "analyst": "(unnamed) Evercore",
+          "firm": "Evercore",
+          "field": "target",
+          "value": 615,
+          "source_prior": 720,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/"
+        },
+        {
+          "analyst": "(unnamed) Evercore",
+          "firm": "Evercore",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 775,
+          "source_prior": 750,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-price-target-raised-to-77500-2026-10-22/"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-price-target-raised-to-77500-2026-10-22/"
+        },
+        {
+          "analyst": "(unnamed) Rothschild & Co Redburn",
+          "firm": "Rothschild & Co Redburn",
+          "field": "target",
+          "value": 750,
+          "source_prior": 725,
+          "horizon_months": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        },
+        {
+          "analyst": "(unnamed) Rothschild & Co Redburn",
+          "firm": "Rothschild & Co Redburn",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        },
+        {
+          "analyst": "(unnamed) Guggenheim",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 740,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        },
+        {
+          "analyst": "(unnamed) Guggenheim",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        },
+        {
+          "analyst": "(unnamed) Jefferies",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 630,
+          "source_prior": 585,
+          "horizon_months": null,
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/"
+        },
+        {
+          "analyst": "(unnamed) Jefferies",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-hits-new-1-year-high-should-you-buy-2026-11-11/"
+        },
+        {
+          "analyst": "(unnamed) Sanford C. Bernstein",
+          "firm": "Sanford C. Bernstein",
+          "field": "target",
+          "value": 575,
+          "source_prior": 520,
+          "horizon_months": null,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        },
+        {
+          "analyst": "(unnamed) Sanford C. Bernstein",
+          "firm": "Sanford C. Bernstein",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        },
+        {
+          "analyst": "(unnamed) Leerink Partners",
+          "firm": "Leerink Partners",
+          "field": "target",
+          "value": 620,
+          "source_prior": 600,
+          "horizon_months": null,
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        },
+        {
+          "analyst": "(unnamed) Leerink Partners",
+          "firm": "Leerink Partners",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        },
+        {
+          "analyst": "(unnamed) DZ Bank",
+          "firm": "DZ Bank",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-thermo-fisher-scientific-nyse-tmo-rating-lowered-to-hold-at-dz-bank-2026-10-24/"
+        },
+        {
+          "analyst": "(unnamed) HSBC",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Strong Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-01",
+          "public_at": "2026-09-01T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/"
+        },
+        {
+          "analyst": "(unnamed) Piper Sandler",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-09",
+          "public_at": "2026-09-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-thermo-fisher-scientific-nyse-tmo-reaches-new-1-year-high-whats-next-2026-11-04/"
+        },
+        {
+          "analyst": "(unnamed) Wells Fargo",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-09-09",
+          "public_at": "2026-09-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/filing-thermo-fisher-scientific-inc-tmo-shares-bought-by-public-sector-pension-investment-board-2026-11-18/"
+        }
+      ],
+      "earnings_at": "2026-10-21T07:00:00-04:00",
+      "valuation": {
+        "bear": 561.0,
+        "base": 745.2,
+        "bull": 870.0
+      },
+      "dividend_per_share": 1.88
     },
     {
       "issuer_id": "Wells Fargo & Company",
@@ -7435,9 +7994,27 @@
         "high": 263475404173
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Betsy Graseck",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 102,
+          "source_prior": null,
+          "issued_at": "2026-06-29",
+          "public_at": "2026-06-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.quiverquant.com/news/Wells+Fargo+Stock+%28WFC%29+Opinions+on+Analyst+Price+Target+Increases"
+        }
+      ],
+      "earnings_at": "2026-10-13T06:30:00-04:00",
+      "valuation": {
+        "bear": 70.0,
+        "base": 92.0,
+        "bull": 114.4
+      },
+      "dividend_per_share": 2.0
     },
     {
       "issuer_id": "Netflix, Inc.",

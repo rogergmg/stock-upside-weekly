@@ -1,0 +1,34 @@
+{
+ "issuer_id": "Palo Alto Networks, Inc.",
+ "symbol": "PANW",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 322.24, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-09-01T16:05:00-04:00",
+ "coverage": "unavailable",
+ "events": [],
+ "valuation": {
+  "method": "Forward EPS x P/E. FY2027 (ends July 2027) non-GAAP diluted EPS guidance of $4.16-$4.19 (midpoint $4.175) from the fiscal Q4 2026 release of Sept 1 2026, used as the base year. At the Nov 2027 12-month target date the market prices the next fiscal year, so the multiple is applied to FY2028 (Aug 2027-Jul 2028) EPS. Common shares and USD listing: EPS is reported in USD on the ordinary share, 1 share = 1 listing, so no FX or ADR conversion applies. Earnings release time (16:05 ET) is approximated from the usual after-close schedule; the date is from the search results.",
+  "bear": 253.0,
+  "base": 353.5,
+  "bull": 467.5,
+  "cases": {
+   "bear": {"driver": "Next-Generation Security ARR growth slips below the 22-23% FY27 guide and the adjusted FCF margin falls short of the 38% outlook, so growth decelerates to about 10% in FY28 and the market de-rates the platform stock.", "assumption": "FY2028 EPS $4.60 (+10% on the $4.175 FY27 midpoint) at 55x = $253.00 (-21.5% price return)", "target": 253.0},
+   "base": {"driver": "FY27 guidance holds: revenue $14.10-14.20bn, non-GAAP operating margin 29.5%, NGS ARR $11.075-11.175bn (+22-23%). EPS compounds about 21% into FY28 with modest buyback-driven share reduction, and the multiple stays high but compresses as growth normalizes.", "assumption": "FY2028 EPS $5.05 (+21% on the $4.175 FY27 midpoint) at 70x = $353.50 (+9.7% price return)", "target": 353.5},
+   "bull": {"driver": "ARR beats the guide and platformization drives upside to revenue and margins, EPS grows about 32% into FY28, and the market keeps a premium multiple for durable AI-security growth.", "assumption": "FY2028 EPS $5.50 (+32% on the $4.175 FY27 midpoint) at 85x = $467.50 (+45.1% price return)", "target": 467.5}
+  },
+  "implied_by_close": "At base FY2028 EPS $5.05 the close of $322.24 implies 63.8x. The provider aggregate mean target of $398.63 (51 analysts, yfinance, Nov 13 2026) implies 78.9x base EPS, and the median $415 implies 82.2x; no named analyst targets are dated on or before the reference close, so no individually weighted target is available. Holding 70x, the aggregate mean implies FY28 EPS of about $5.69, roughly 13% above the base case.",
+  "sensitivity": "One turn of P/E moves the base target by $5.05 (1.6 pp of price return). $0.10 of FY2028 EPS moves it by $7.00 (2.2 pp).",
+  "watch_metric": "Next-Generation Security ARR growth against the 22-23% FY27 guide, and adjusted FCF margin against the 38.0% outlook. Both must hold to support FY28 EPS of about $5.05.",
+  "next_disclosure": "Fiscal Q1 2027 results, scheduled for after the close on Nov 18 2026 (2026-11-18 16:00 ET per the aggregate earnings timestamp), guided at adjusted EPS $0.96-$0.98 and revenue $3.30-3.31bn. Those results are not in the sources read for this file and should be checked before relying on the base case."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "No named individual analyst call on PANW is dated on or before the Nov 13 2026 reference close in the sources accessible here: the Morgan Stanley (Sept 21, $410 from $394, Overweight), Piper Sandler (Sept 2, $410 from $345) and RBC/Oppenheimer (Sept 1-2, $475 and $450) moves name no analyst, and the named StockAnalysis calls (Cantor $425, TD Cowen $440, J.P. Morgan $384, Wells Fargo $525, KeyBanc upgrade to Buy at $380) are dated Nov 13-16 and cannot be verified as public by the close, so none is entered. The provider aggregate (51 analysts, mean $398.63, median $415, 'buy' at 1.65) sits 24% above the close, which is 78.9x our base FY28 EPS versus our 70x base; the gap is consistent with analysts assuming faster FY28 EPS growth or a higher terminal multiple, and no named calls can confirm which. Coverage is therefore labeled unavailable and no target is weighted.",
+ "sources": [
+  {"label": "Palo Alto Networks fiscal Q4 and FY2026 results release (Sept 1 2026)", "url": "https://www.paloaltonetworks.com/company/press/2026/palo-alto-networks-reports-fiscal-fourth-quarter-and-fiscal-year-2026-financial-results", "supports": "FY27 adjusted EPS guide $4.16-4.19, revenue $14.10-14.20bn, NGS ARR guide, 29.5% margin, 38% FCF margin, Q1 FY27 guide"},
+  {"label": "StockAnalysis PANW forecast table", "url": "https://stockanalysis.com/stocks/panw/forecast/", "supports": "55 analysts, consensus Buy, average $398.63, median $415, named Nov 13-16 2026 calls excluded by cutoff"},
+  {"label": "Finviz: Morgan Stanley raises PANW target to $410", "url": "https://finviz.com/news/393715/morgan-stanley-raises-palo-alto-networks-price-target-to-410-on-ai-security-demand", "supports": "Sept 21 2026 Overweight, $394 to $410 (analyst not named, firm-only)"},
+  {"label": "TIKR: PANW analysts push target to $391", "url": "https://www.tikr.com/blog/palo-alto-networks-stock-trades-at-337-heres-why-analysts-just-pushed-their-target-to-391", "supports": "Sept 1-2 2026 RBC $434 to $475 and Oppenheimer $400 to $450 (no analyst names)"},
+  {"label": "Benzinga PANW price target log", "url": "https://www.benzinga.com/quote/panw/price-targets", "supports": "Piper Sandler Sept 2 2026 reiterate, $345 to $410 (no analyst name)"}
+ ]
+}

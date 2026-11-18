@@ -1,0 +1,63 @@
+{
+  "issuer_id": "The Goldman Sachs Group, Inc.",
+  "symbol": "GS",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 916.56, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-13T06:45:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Ebrahim Poonawala", "firm": "Bank of America Securities", "field": "target", "value": 1050, "source_prior": 1050,
+     "issued_at": "2026-11-06", "public_at": "2026-11-06T23:59:59-05:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Ebrahim Poonawala", "firm": "Bank of America Securities", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-11-06", "public_at": "2026-11-06T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Jason Goldberg", "firm": "Barclays", "field": "target", "value": 1245, "source_prior": 1245,
+     "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Jason Goldberg", "firm": "Barclays", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Erika Najarian", "firm": "UBS", "field": "target", "value": 1000, "source_prior": 1010,
+     "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Erika Najarian", "firm": "UBS", "field": "rating", "value": "Hold", "bucket": "Hold",
+     "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Mikhail Paramonov", "firm": "Freedom Capital Markets", "field": "target", "value": 1100, "source_prior": 1200,
+     "issued_at": "2026-10-23", "public_at": "2026-10-23T23:59:59-04:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Mikhail Paramonov", "firm": "Freedom Capital Markets", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-23", "public_at": "2026-10-23T23:59:59-04:00",
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Brennan Hawken", "firm": "BMO Capital Markets", "field": "target", "value": 950, "source_prior": 970,
+     "issued_at": "2026-10-19", "public_at": "2026-10-19T23:59:59-04:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"},
+    {"analyst": "Brennan Hawken", "firm": "BMO Capital Markets", "field": "rating", "value": "Hold", "bucket": "Hold",
+     "issued_at": "2026-10-19", "public_at": "2026-10-19T23:59:59-04:00",
+     "source": "https://stockanalysis.com/stocks/gs/forecast/"}
+  ],
+  "valuation": {
+    "method": "Profitable diversified bank: forward EPS x justified P/E, with FY2027 EPS (the year that a Nov 2027 buyer prices as the next-12-month earnings base) multiplied by a P/E at the 12-month target date (Nov 2027). Anchors: 9M 2026 diluted EPS $55.56 (Q1 about $17.57, Q2 $20.98, Q3 $17.01, reported Oct 13, 2026); Q3 book value per common share $372.64 (Sept 30, 2026). FY2026 consensus about $73.68 (Chartmill, Nov 7, 2026; not verified against a primary source). FY2027 base EPS of $74 is set from the Benzinga quarterly 2027 consensus (Q1 $19.21, Q2 $18.11, Q3 $18.20, plus an assumed Q4 near $18.5), which is an analyst-derived model assumption, not guidance. USD listing, no ADR conversion. Dividend $20 per share annualized ($5.00 Q4 declared Oct 13, 2026).",
+    "bear": 690.0, "base": 962.0, "bull": 1275.0,
+    "cases": {
+      "bear": {"driver": "Markets and IB revenue normalize after a strong 2026 equities year; FICC and investment banking fees slow; expense growth (up 20% y/y in Q3) is not offset; credit or private-markets marks hit earnings; ROE falls toward 14-15%.", "assumption": "EPS $60 at 11.5x", "target": 690.0},
+      "base": {"driver": "Current quarterly run-rate (Q1-Q3 2026 averaging about $18.5 excluding the Q2 peak) holds with modest IB recovery; ROE near 18-19% and capital return of about $20 per share a year.", "assumption": "EPS $74 at 13.0x", "target": 962.0},
+      "bull": {"driver": "IB fee recovery (Q3 fees +21% y/y) and sustained equities and prime-financing strength push EPS toward $85; buybacks and a rerating toward the top of the bank group range.", "assumption": "EPS $85 at 15.0x", "target": 1275.0}
+    },
+    "implied_by_close": "The close of $916.56 is 12.4x the $74 base FY2027 EPS and about 2.5x Q3 book value per share of $372.64. The median named-analyst target of about $1,000 (stockanalysis, 26 analysts, mean $1,031) implies 13.5x base EPS, or EPS of about $77 at a constant 13.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $74 (about 8.1 pp of price return); $1 of EPS moves it by $13 (about 1.4 pp).",
+    "watch_metric": "Quarterly EPS run-rate versus about $18.5 and annualized ROE versus about 19%, together with IB fee growth and Global Banking & Markets net revenue (Q3 $13.46bn, up 32% y/y).",
+    "next_disclosure": "Q4 2026 earnings, expected about 2027-01-19 (next earnings timestamp in the listing data; confirm on the company IR calendar)."
+  },
+  "dividend_per_share": 20.0,
+  "analyst_notes": "Only 5 named analysts with dated calls were sourced (of 26 in the S&P Global count quoted by stockanalysis, mean $1,031, median $1,000, range $730-$1,250), so the sample is partial. Among the sampled calls, Barclays ($1,245) and BofA ($1,050) reaffirmed Buy targets in early November, UBS trimmed $1,010 to $1,000 (Hold), Freedom cut $1,200 to $1,100 (Buy) and BMO cut $970 to $950 (Hold). The sample's simple mean of about $1,069 sits roughly $107 (about 11%) above the $962 base case: at a constant 13x that gap is about $8 of FY2027 EPS (roughly $82 versus $74), or about 14x base EPS; the analysts' underlying assumptions are not disclosed. No 12-month horizon is documented for any sampled firm, so no call enters the weighted target. Stale and unresolved items excluded: an UBS Erika Najarian Aug 3, 2026 target ($1,150 from $1,120, per Webull) cannot be reconciled with the Nov 2 figure without the intervening call; KBW (McGratty, $1,100 from $1,130, Market Perform) and the RBC and Morgan Stanley Benzinga items are undated or conflict across years. The earnings time is set at 06:45 ET on the 2026-10-13 release date as an assumption; the release itself is confirmed dated 2026-10-13.",
+  "sources": [
+    {"label": "Goldman Sachs Q3 2026 Form 8-K (earnings release, EPS, book value, dividend)", "url": "https://last10k.com/sec-filings/gs/0000886982-26-000529.htm", "supports": "Q3 2026 diluted EPS $17.01, 9M EPS $55.56, BVPS $372.64, ROE 18.7%, $5.00 Q4 dividend, release date Oct 13, 2026"},
+    {"label": "Stockanalysis GS analyst forecast (named targets and dates, consensus)", "url": "https://stockanalysis.com/stocks/gs/forecast/", "supports": "BofA, Barclays, UBS, Freedom, BMO targets, ratings and dates; 26-analyst mean $1,031, median $1,000"},
+    {"label": "Zacks: Goldman Q3 earnings beat on strong equities, IB revenues", "url": "https://www.zacks.com/stock/news/3006356/goldman-q3-earnings-beat-on-strong-equities-ib-revenues-shares-rise", "supports": "Q3 2026 beat context, equities and IB revenue drivers"},
+    {"label": "Private Banker International: Goldman Q3 profit climbs 29% on equities boom", "url": "https://www.privatebankerinternational.com/news/goldman-sachs-q3-profit-climbs-29-on-equities-boom", "supports": "Q3 2026 net earnings and revenue context"},
+    {"label": "Benzinga GS earnings forecasts (2027 quarterly consensus)", "url": "https://www.benzinga.com/quote/GS/earnings-forecasts", "supports": "Q1-Q3 2027 quarterly EPS consensus used in the FY2027 base EPS"}
+  ]
+}

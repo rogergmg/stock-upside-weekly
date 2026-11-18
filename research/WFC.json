@@ -1,0 +1,36 @@
+{
+  "issuer_id": "Wells Fargo & Company",
+  "symbol": "WFC",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 86.05, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-13T06:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Betsy Graseck", "firm": "Morgan Stanley", "field": "target", "value": 102, "source_prior": null,
+     "issued_at": "2026-06-29", "public_at": "2026-06-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.quiverquant.com/news/Wells+Fargo+Stock+%28WFC%29+Opinions+on+Analyst+Price+Target+Increases"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E on FY2027 diluted EPS viewed at the 12-month target date (Nov 2027), USD listing, no ADR conversion. Run-rate: Q3 2026 diluted EPS $1.87 (released 2026-10-13), annualized $7.48. Base FY2027 EPS $8.00 (about 7% above run-rate, consistent with Q3 net income up 6% and NII up 5%) at 11.5x, the middle of WFC's recent trading range. Bear EPS $7.00 at 10x. Bull EPS $8.80 at 13x. Cross-check on tangible book: one source gives TBVPS of about $44.46 (not confirmed against the 10-Q). With Q3 ROTCE of 16.3% and a 10.5% cost of equity, steady-state P/TBV = (16.3% - 4%) / (10.5% - 4%) = 1.89x, which at $44.46 is about $84 today and supports the base-case multiple range. Dividend: aggregate indicated rate of $2.00 a year used as the gross cash yield over the horizon.",
+    "bear": 70.0, "base": 92.0, "bull": 114.4,
+    "cases": {
+      "bear": {"driver": "Net interest income growth stalls after the Q3 margin drop to 2.43% and fee revenue misses; efficiency ratio stays near 63% and credit or regulatory costs rise; CET1 pressure limits buybacks.", "assumption": "EPS $7.00 at 10.0x", "target": 70.0},
+      "base": {"driver": "Q4 NII near the guided $13B run-rate and 2027 NII growth tracking loan and deposit growth; expenses flat-to-down as headcount falls (down 8% y/y); buybacks continue near $2.5B a quarter; ROTCE rises toward the 17% target.", "assumption": "EPS $8.00 at 11.5x", "target": 92.0},
+      "bull": {"driver": "Management reaches the 17%-18% ROTCE target sooner through fee growth and efficiency, NII beats, and faster capital return as the CET1 ratio (10.0%) allows.", "assumption": "EPS $8.80 at 13.0x", "target": 114.4}
+    },
+    "implied_by_close": "At base EPS of $8.00 the close of $86.05 implies 10.8x. The Yahoo-aggregated analyst mean target of $97.38 (24 analysts, range $88-$108) implies about 12.2x base EPS, or EPS of about $8.45 at a constant 11.5x; the analysts' assumptions are unknown.",
+    "sensitivity": "One turn of P/E moves the base target by $8.00 (9.3 pp of price return); $0.50 of FY2027 EPS moves it by $5.75 (6.7 pp).",
+    "watch_metric": "Quarterly NII and ROTCE: the base case needs NII tracking the Q4 2026 guide of about $13B and ROTCE rising from 16.3% toward 17%, with noninterest expense flat-to-down.",
+    "next_disclosure": "Q4 2026 earnings (date not confirmed in the sources; the aggregate's next-earnings timestamp is 2027-01-14, which should be checked against the IR calendar)."
+  },
+  "dividend_per_share": 2.0,
+  "analyst_notes": "Only one named 2026 call could be sourced with a date before the close: Betsy Graseck (Morgan Stanley) at $102 on 2026-06-29, undated horizon, so it sits outside the weighted target. Named post-Q3 actions (Citi cut to $88 from $90 on Oct 15, 2026; RBC to $92; Keefe Bruyette to $90 from $94; Morgan Stanley to $101) were reported in search snippets but the analyst names, dates or prior targets could not be verified, and the broker pages returned HTTP 403, so they are omitted. The Yahoo-aggregated mean of $97.38 (24 analysts) sits about 6% above the $92 base case, which implies roughly 12.2x base EPS versus our 11.5x; the gap is a multiple gap, not an earnings gap, unless analysts assume EPS near $8.45. Coverage is partial and the named panel is too thin to weight.",
+  "sources": [
+    {"label": "VestedFinance: Wells Fargo Q3 2026 results", "url": "https://vestedfinance.com/blog/us-stocks/wells-fargo-q3-earnings-2026/", "supports": "Q3 2026 release date (Oct 13), diluted EPS $1.87, NII $12.52B, net income $5.95B, efficiency ratio 63%, CET1 10.0%, $2.5B buybacks, headcount down 8%"},
+    {"label": "Last10K: Wells Fargo SEC filing 0000072971-26-000318", "url": "https://last10k.com/sec-filings/wfc/0000072971-26-000318.htm", "supports": "Q3 2026 ROTCE 16.3% (secondary summary of the filing)"},
+    {"label": "Financial Modeling Prep: Wells Fargo Q3 2026 earnings", "url": "https://site.financialmodelingprep.com/market-news/wells-fargo-q3-2026-earnings", "supports": "Q3 EPS and revenue versus consensus"},
+    {"label": "Beinsure: Wells Fargo Q3 profit and NII outlook", "url": "https://beinsure.com/news/wells-fargo-q3-profit-rises-to-6bn/", "supports": "NII versus forecast, Q4 NII outlook"},
+    {"label": "Yahoo Finance via yfinance aggregate (this week's listing data)", "url": "https://finance.yahoo.com/quote/WFC", "supports": "24-analyst mean $97.38, range $88-$108, dividend rate $2.00, shares used 3.00B"}
+  ]
+}

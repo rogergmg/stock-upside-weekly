@@ -1,0 +1,70 @@
+{
+  "issuer_id": "Dell Technologies Inc.",
+  "symbol": "DELL",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 344.53,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-09-01T16:05:00-04:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward non-GAAP EPS x justified P/E, with the earnings base viewed at the 12-month target date (about Nov 2027). Only sourced earnings figure: FY27 (year ending Jan 2027) non-GAAP diluted EPS guidance of $25.50, raised from $17.90 with the Q2 FY27 report on 2026-09-01 (SEC 8-K). Dell gave no FY28 outlook, so the FY28 EPS used in each case is a model assumption, not company guidance. Listing is USD on NYSE, so no FX conversion applies. Scenario targets are per share of the USD listing.",
+    "bear": 260.0,
+    "base": 448.0,
+    "bull": 640.0,
+    "cases": {
+      "bear": {
+        "driver": "AI server margin compression and memory/component supply constraints (TD Cowen flagged memory constraints as a risk to 2027 upside) cut EPS growth sharply; the stock de-rates to a hardware-multiple range",
+        "assumption": "FY28 EPS $20.00 (about 22% below the FY27 guide) at 13x",
+        "target": 260.0
+      },
+      "base": {
+        "driver": "AI server backlog (record $95B at Jul 31, 2026) converts to revenue; ISG growth slows but margins hold; FY28 EPS grows about 10% on the FY27 guide",
+        "assumption": "FY28 EPS $28.00 at 16x",
+        "target": 448.0
+      },
+      "bull": {
+        "driver": "AI orders ($60.9B booked in Q2 FY27) keep converting above the guide and the market pays a premium multiple for AI infrastructure growth",
+        "assumption": "FY28 EPS $32.00 at 20x",
+        "target": 640.0
+      }
+    },
+    "implied_by_close": "At the $25.50 FY27 non-GAAP EPS guide, the 344.53 close equals 13.5x. At the base FY28 EPS of $28.00 the close equals 12.3x. The aggregate Yahoo Finance mean target of $585.68 (25 analysts) equals about 23.0x FY27 guide EPS, or FY28 EPS of about $36.60 at 16x, so the aggregate sits above the base case and is not an independent check.",
+    "sensitivity": "One turn of P/E moves the base target by $28.00 (about 8.1 pp of the 344.53 close). A $1.00 change in FY28 EPS moves the base target by $16.00 (about 4.6 pp).",
+    "watch_metric": "AI-Optimized Servers revenue and non-GAAP operating margin in ISG; a sustained gross-margin decline or a sharp fall in the $95B AI backlog would weaken the base case, while FY28 guidance at or above about $28 EPS would support it.",
+    "next_disclosure": "Q3 FY27 results, expected 2026-11-24 after the close (Q3 guide: revenue about $49.0B, non-GAAP EPS $6.50), and the FY28 outlook when issued.",
+    "dividend_per_share": null
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "No named, dated analyst call could be verified from a primary source with a confirmed analyst name, date and pre-close public time. Aggregator pages (MarketBeat, Benzinga, Fintel, Walnut) report about 18 to 36 analysts with averages between about $502 and $585, but they conflict on dates and prices, and several list firm-only or unnamed actions (for example, a Barclays downgrade to Equal Weight on 2026-10-14 with the analyst unnamed, and a Goldman Sachs Buy with a $185 target dated 2025-11-26). Because those rows lack a verified name or date, they are excluded from the event list rather than estimated. The Yahoo Finance aggregate in data/aggregate (mean $585.68, median $600, 25 analysts) sits well above the base case, so the independent base case of $448 is about 23% below the aggregate mean of $585.68; the gap is best read as a multiple gap (about 23x FY27 guide EPS against the 16x base) rather than a verified analyst assumption.",
+  "sources": [
+    {
+      "label": "Dell Q2 FY27 earnings release (Form 8-K exhibit 99.1), released 2026-09-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000039/exhibit991earnings8kq2fy27.htm",
+      "supports": "Q2 FY27 revenue $46,971M, non-GAAP EPS $7.04, FY27 revenue guide $192.0B, FY27 non-GAAP EPS guide $25.50, Q3 guide, AI backlog $95B, debt and cash, diluted shares 652M"
+    },
+    {
+      "label": "Pulse 2.0 coverage of Q2 FY27 results (AI backlog and FY27 outlook)",
+      "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
+      "supports": "Secondary confirmation of Q2 revenue, AI server backlog and FY27 revenue outlook"
+    },
+    {
+      "label": "TIKR: Barclays downgrade after rally (Oct 14, 2026; stock at $507)",
+      "url": "https://www.tikr.com/blog/dell-technologies-stock-barclays-downgrade-rally",
+      "supports": "Share price context on 2026-10-14 and a Barclays cut to equivalent of hold; analyst name not given"
+    },
+    {
+      "label": "Insider Monkey: Goldman Sachs target $175 to $185, Buy (dated 2025-11-26)",
+      "url": "https://www.insidermonkey.com/blog/dells-improved-earnings-and-ai-momentum-prompt-analyst-price-target-hike-1652114/",
+      "supports": "Historical aggregator-reported action; cited only to show why unnamed or older rows were excluded"
+    },
+    {
+      "label": "Reference listing data (Yahoo Finance via yfinance, 2026-11-13 close)",
+      "url": "https://finance.yahoo.com/quote/DELL",
+      "supports": "Close $344.53, 635.8M shares used, aggregate analyst mean $585.68 from 25 analysts"
+    }
+  ]
+}

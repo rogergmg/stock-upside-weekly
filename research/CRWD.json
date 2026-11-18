@@ -1,0 +1,59 @@
+{
+  "issuer_id": "CrowdStrike Holdings, Inc.",
+  "symbol": "CRWD",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 226.61, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-08-26T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Brad Zelnick", "firm": "Deutsche Bank", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-11-02", "public_at": "2026-11-02T08:48:00-05:00",
+     "source": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar"},
+    {"analyst": "Brad Zelnick", "firm": "Deutsche Bank", "field": "target", "value": 300, "source_prior": 240,
+     "issued_at": "2026-11-02", "public_at": "2026-11-02T08:48:00-05:00", "horizon_months": null,
+     "source": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar"},
+    {"analyst": "Joseph Gallo", "firm": "Jefferies", "field": "target", "value": 240, "source_prior": 230,
+     "issued_at": "2026-08-27", "public_at": "2026-08-27T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.tradingpedia.com/2026/08/27/crowdstrike-rallies-after-record-quarter-upgraded-guidance/"},
+    {"analyst": "Gabriela Borges", "firm": "Goldman Sachs", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-11-09", "public_at": "2026-11-09T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/crwd/ratings/"},
+    {"analyst": "Gabriela Borges", "firm": "Goldman Sachs", "field": "target", "value": 230,
+     "issued_at": "2026-11-09", "public_at": "2026-11-09T23:59:59-05:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/crwd/ratings/"},
+    {"analyst": "Peter Weed", "firm": "Bernstein", "field": "rating", "value": "Hold", "bucket": "Hold",
+     "issued_at": "2026-11-09", "public_at": "2026-11-09T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/crwd/ratings/"},
+    {"analyst": "Peter Weed", "firm": "Bernstein", "field": "target", "value": 177, "source_prior": 132,
+     "issued_at": "2026-11-09", "public_at": "2026-11-09T23:59:59-05:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/crwd/ratings/"}
+  ],
+  "valuation": {
+    "method": "Forward non-GAAP EPS x justified P/E at the 12-month target date (about 2027-11-18). At that date the forward twelve months are mostly fiscal 2028 (year ending January 2028). FY2027 (year ending 31 January 2027) non-GAAP diluted EPS guidance is $1.25 to $1.26 (midpoint $1.255) from the Q2 FY2027 release of 26 August 2026, with a 21.0% non-GAAP tax rate. The scenario EPS values for FY2028 are model assumptions, not company guidance: bear $1.40, base $1.60, bull $1.80. Non-GAAP EPS excludes stock-based compensation; GAAP net income for Q2 FY2027 was only $5.3 million. Listing is USD on NASDAQ, so no FX conversion applies and targets are per share of the same listing.",
+    "bear": 154.0, "base": 240.0, "bull": 324.0,
+    "cases": {
+      "bear": {"driver": "Growth decelerates after the FY2027 net new ARR peak and the multiple compresses as the stock is priced for perfection",
+               "assumption": "FY2028 EPS $1.40 at 110x", "target": 154.0},
+      "base": {"driver": "Revenue growth near the mid-20s percent holds with operating leverage; non-GAAP EPS compounds from the FY2027 midpoint",
+               "assumption": "FY2028 EPS $1.60 at 150x", "target": 240.0},
+      "bull": {"driver": "Net new ARR keeps accelerating on AI security demand and the market keeps a premium multiple for the growth",
+               "assumption": "FY2028 EPS $1.80 at 180x", "target": 324.0}
+    },
+    "implied_by_close": "At base EPS $1.60 the close of $226.61 implies 142x; on FY2027 guidance midpoint $1.255 it implies 181x. The Street-weighted target of about $250 (aggregator mean, 50 analysts) implies 156x base EPS, or $1.67 EPS at 150x (about 4% above the base EPS).",
+    "sensitivity": "One turn of P/E moves the base target by $1.60 (0.7 pp of the close). A $0.10 change in FY2028 EPS moves it by $15.00 (6.6 pp of the close).",
+    "watch_metric": "Net new ARR and the FY2027 non-GAAP EPS path: the Q2 net new ARR of $332.8 million and the raised net new ARR growth outlook must keep compounding for EPS to reach $1.60 in FY2028",
+    "next_disclosure": "Q3 FY2027 results, expected around 1 to 2 December 2026 (aggregator date 2026-12-01 is not confirmed by the company)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Named views dated before the reference close are sparse: only four analysts (Deutsche Bank upgraded to Buy with a $300 target from $240 on 2 November 2026; Jefferies raised to $240 from $230 after Q2; Goldman Sachs kept Buy at $230; Bernstein kept Hold and lifted to $177 from $132 on 9 November). Most post-Q2 targets sit in a $230 to $310 band, and the aggregator mean of about $250 is above our $240 base, a gap of roughly 4% in target, or about $0.07 of FY2028 EPS at 150x. Calls dated 13 November or later (for example Morgan Stanley $254, Rosenblatt $275, Wells Fargo $300, TD Cowen $280) are after the reference close and are excluded from the events list and the weighted target; the unnamed firm-level figures in the 6 November roundup (UBS $310, Citigroup $295, Bank of America Hold $290, Mizuho $275) have no analyst names and are not counted.",
+  "sources": [
+    {"label": "Q2 FY2027 results release (Business Wire, 26 Aug 2026), copy", "url": "https://www.01net.it/crowdstrike-reports-second-quarter-fiscal-year-2027-financial-results/", "supports": "Q2 revenue $1.47B, ending ARR $5.84B, net new ARR $332.8M, non-GAAP EPS $0.31, GAAP net income $5.3M, Q3 FY27 guidance, FY27 guidance revenue $5,991.1-6,011.1M, EPS $1.25-1.26, 21.0% tax rate"},
+    {"label": "Q2 FY2027 results release (company IR page)", "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial", "supports": "Release title and date for the 26 August 2026 earnings (IR page not retrievable at research time)"},
+    {"label": "Deutsche Bank upgrade (Hold to Buy, $300 from $240)", "url": "https://www.insiderfinance.io/news/crowdstrike-upgrade-spotlights-ai-security-market", "supports": "Brad Zelnick, 2 Nov 2026 rating and target"},
+    {"label": "Deutsche Bank upgrade report, German press", "url": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar", "supports": "Date and time of the 2 Nov 2026 upgrade, Hold to Buy, $240 to $300"},
+    {"label": "Jefferies target raise after Q2 FY2027", "url": "https://www.tradingpedia.com/2026/08/27/crowdstrike-rallies-after-record-quarter-upgraded-guidance/", "supports": "Jefferies $240 from $230, 27 Aug 2026"},
+    {"label": "Analyst rating history, Goldman Sachs and Bernstein, Nov 2026", "url": "https://stockanalysis.com/stocks/crwd/ratings/", "supports": "Goldman Sachs Buy $230 (9 Nov 2026); Bernstein Hold $132 to $177 (9 Nov 2026); post-close rows excluded"},
+    {"label": "Analyst target roundup, 6 Nov 2026", "url": "https://beinsure.com/news/crowdstrike-stock-price-forecast-investment-banks-see-upside/", "supports": "Firm-level targets and average $248.45; CRWD traded $218.73 on the article date"}
+  ]
+}

@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:24:32.125990+00:00",
+  "built_at": "2026-11-18T12:28:14.936469+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 59,
+    "rank_valued": 63,
     "rank_with_named_targets": 2,
-    "rank_matched": 59,
-    "researched": 59
+    "rank_matched": 63,
+    "researched": 63
   },
   "ranked": [
     {
@@ -41,6 +41,27 @@
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "DELL",
+      "issuer_id": "Dell Technologies Inc.",
+      "close": 344.53,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 214519661299,
+        "high": 223437698093
+      },
+      "scenarios_pct": {
+        "bear": -24.53487359591327,
+        "base": 30.032217803964823,
+        "bull": 85.76031114852117
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
       "analyst_minus_base_pp": null
     },
     {
@@ -632,6 +653,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "CRWD",
+      "issuer_id": "CrowdStrike Holdings, Inc.",
+      "close": 226.61,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 227393197055,
+        "high": 236674552037
+      },
+      "scenarios_pct": {
+        "bear": -32.04183398790874,
+        "base": 5.908830148713649,
+        "bull": 42.97692070076343
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "MA",
       "issuer_id": "Mastercard Incorporated",
       "close": 661.19,
@@ -884,6 +926,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "IBM",
+      "issuer_id": "International Business Machines Corporation",
+      "close": 247.13,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 228896350449,
+        "high": 238248698863
+      },
+      "scenarios_pct": {
+        "bear": -18.423501800671712,
+        "base": 3.0227006029215393,
+        "bull": 26.411200582689272
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "HSBC",
       "issuer_id": "HSBC Holdings plc",
       "close": 89.62,
@@ -1004,6 +1067,27 @@
         "bull": 17.00844390832328
       },
       "base_total_return_pct": 3.839967832730197,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "LIN",
+      "issuer_id": "Linde plc",
+      "close": 526.06,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 236675500525,
+        "high": 246335725037
+      },
+      "scenarios_pct": {
+        "bear": -22.632399346082195,
+        "base": 0.5968900885830514,
+        "bull": 16.90681671292248
+      },
+      "base_total_return_pct": 1.8134813519370416,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1264,23 +1348,7 @@
   ],
   "omitted": [
     {
-      "symbol": "LIN",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "IBM",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "CRWD",
-      "reason": "independent valuation unavailable"
-    },
-    {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "DELL",
       "reason": "independent valuation unavailable"
     },
     {
@@ -33616,6 +33684,1057 @@
         }
       ]
     },
+    "LIN": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 526.06,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Industrial gas company with a stable, profitable operating base: forward P/E on FY2027 adjusted diluted EPS, viewed at the 12-month target date (Nov 2027). Single listing in USD (NYSE/Nasdaq common ordinary shares, 1:1, no depositary receipt, no FX conversion). Earnings base: FY2026 adjusted EPS guidance of $17.82 to $17.92 (midpoint $17.87, +8% to +9%, including about 2% favourable currency) from the Q3 2026 release of 2026-10-29, with Q3 adjusted EPS $4.59 and Q4 guidance of $4.40 to $4.50. Base FY2027 EPS of $19.60 is +9.7% on the $17.87 midpoint and sits between the Erste estimate ($19.60) and the freshest aggregator consensus ($19.77, WallStreetZen). Share count: 459,083,779 ordinary shares at 2026-09-30 (10-Q cover), the same figure as the aggregate, so no dilution is assumed. Net debt is not needed for a P/E method; for reference total debt was $26,702m and cash $3,947m at 2026-09-30 (net debt about $22.8bn, derived). Bear: $18.50 x 22x = $407.00 (-22.6%); 22x is close to the 52-week low of $387.78 (about 21.7x FY2026 midpoint). Base: $19.60 x 27x = $529.20 (+0.6%). Bull: $20.50 x 30x = $615.00 (+16.9%). Dividend: $1.60 per quarter declared in Q2, Q3 and Q4 2026, so $6.40 a year as a gross expected cash dividend (6.4 / 526.06 = 1.2% yield).",
+        "bear": 407.0,
+        "base": 529.2,
+        "bull": 615.0,
+        "cases": {
+          "bear": {
+            "driver": "Growth slows to the low end of FY2027 estimates as the Lincare drag (about 2% of EPS growth lost year to date) persists and project backlog conversion lags; the multiple de-rates toward the 52-week low.",
+            "assumption": "EPS $18.50 at 22x = $407.00",
+            "target": 407.0
+          },
+          "base": {
+            "driver": "FY2027 EPS of $19.60 (+9.7%) on the FY2026 guidance midpoint with price and volume recovery and modest currency tailwind fading; multiple held near today's forward level of about 27x.",
+            "assumption": "EPS $19.60 at 27x = $529.20",
+            "target": 529.2
+          },
+          "bull": {
+            "driver": "Backlog growth and productivity lift FY2027 EPS to $20.50, near the top of the published range, and the market keeps a quality premium of 30x as the industrial gas franchise re-rates.",
+            "assumption": "EPS $20.50 at 30x = $615.00",
+            "target": 615.0
+          }
+        },
+        "implied_by_close": "The close of $526.06 equals 26.8x base FY2027 EPS of $19.60 (29.4x the $17.87 FY2026 midpoint). The mean published target of $551.04 (S&P Global, 29 analysts via StockAnalysis) equals 28.1x base EPS, or EPS of $20.41 at 27x; the analysts' gap of about 4% above the base target is a multiple-and-EPS difference, and the analysts' assumptions are not sourced.",
+        "sensitivity": "One turn of P/E on base EPS moves the base target by $19.60 (3.7 pp of the close). A $0.50 change in FY2027 EPS at 27x moves it by $13.50 (2.6 pp).",
+        "watch_metric": "Adjusted EPS growth against the 8% to 9% FY2026 guide and the FY2027 outlook, with the Lincare drag and currency tailwind disclosed; the base case needs roughly 9% to 10% EPS growth in FY2027 with the multiple held.",
+        "next_disclosure": "Q4 and full-year 2026 results with the FY2027 outlook, expected in February 2027 (exact date not confirmed; one aggregator lists 11 Feb 2027)."
+      },
+      "dividend_per_share": 6.4,
+      "analyst_notes": "Five named analysts have dated targets since Oct 30, 2026: BMO (McNulty) trimmed to $540 from $546 on Nov 3, while Goldman (Fischer) raised to $595 from $580 and Citi (Cunningham) raised to $580 from $560 after the Q3 print, and Wells Fargo (Eberts) set $570 on Oct 30 with no prior shown. Named targets average $570.60, about 8.5% above the $529.20 base case, and every named view is a Buy except DZ Bank's Hold (no target). The sample is partial and the post-earnings raises are concentrated in a few names; RBC raised to $568 from $549 and UBS to $585 from $574 on Oct 30 to Nov 2, but neither analyst is named in the sources, so they are excluded from the individual calculation. No named firm documents a 12-month horizon in the sources opened, so target rows are not in the weighted target and the sample is shown for timeline only.",
+      "sources": [
+        {
+          "label": "Linde Q3 2026 earnings release, Form 8-K exhibit 99.1 (adjusted EPS $4.59, FY2026 guidance $17.82 to $17.92, Q4 guidance $4.40 to $4.50)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001707925/000165495426009199/lin_ex991.htm",
+          "supports": "FY2026 EPS base and guidance range, Q4 guide, Q3 results"
+        },
+        {
+          "label": "Linde Form 10-Q for quarter ended 2026-09-30 (459,083,779 shares outstanding; total debt $26,702m; cash $3,947m; Lincare reference)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001707925/000162828026068079/lin-20260930.htm",
+          "supports": "Share count, debt and cash at the balance-sheet date"
+        },
+        {
+          "label": "StockAnalysis LIN analyst forecast (named rating actions Oct 30 to Nov 3, 2026; S&P Global consensus average $551.04, median $560, 29 analysts; FY2026 EPS average $17.90)",
+          "url": "https://stockanalysis.com/stocks/lin/forecast/",
+          "supports": "Named analyst targets, ratings, prior values, consensus, FY2026 EPS estimate"
+        },
+        {
+          "label": "WallStreetZen LIN stock forecast (FY2027 EPS consensus $19.77, range $18.52 to $21.24; search snippet, not opened)",
+          "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/lin/stock-forecast",
+          "supports": "FY2027 EPS consensus and low end used for the bear case"
+        },
+        {
+          "label": "MarketBeat: UBS raises Linde target to $585 from $574 (Buy), with KeyCorp, Mizuho and RBC actions, Nov 2 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-linde-nasdaq-lin-price-target-raised-to-58500-2026-11-02/",
+          "supports": "Unnamed firm-only actions excluded from the named calculation; 52-week range"
+        },
+        {
+          "label": "Linde declares fourth-quarter 2026 dividend of $1.60 per share",
+          "url": "https://www.linde.com/news-and-media/2026/linde-declares-dividend-in-fourth-quarter-2026",
+          "supports": "Quarterly dividend $1.60 in 2026 (annualised $6.40)"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 11,
+        "max_weight_pct": 20.30876561032798,
+        "contributors": [
+          {
+            "analyst": "Abigail Eberts",
+            "firm": "Wells Fargo",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/lin/forecast/",
+            "weight": 0.19692661525603752
+          },
+          {
+            "analyst": "Aristotelis Moutopoulos",
+            "firm": "DZ BANK AG",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/lin/forecast/",
+            "weight": 0.2015295566923226
+          },
+          {
+            "analyst": "Duffy Fischer",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/lin/forecast/",
+            "weight": 0.2015295566923226
+          },
+          {
+            "analyst": "John McNulty",
+            "firm": "BMO Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-03",
+            "age_days": 10,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/lin/forecast/",
+            "weight": 0.2030876561032798
+          },
+          {
+            "analyst": "Patrick Cunningham",
+            "firm": "Citi",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/lin/forecast/",
+            "weight": 0.19692661525603752
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 79.84704433076774,
+          "Hold": 20.15295566923226,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Abigail Eberts",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Abigail Eberts",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 570.0,
+          "source_prior": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Aristotelis Moutopoulos",
+          "firm": "DZ BANK AG",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Duffy Fischer",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Duffy Fischer",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 595.0,
+          "source_prior": 580,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "revision_pct": 2.586206896551735,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John McNulty",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "John McNulty",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 540.0,
+          "source_prior": 546,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "revision_pct": -1.098901098901095,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Patrick Cunningham",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Patrick Cunningham",
+          "firm": "Citi",
+          "field": "target",
+          "value": 580.0,
+          "source_prior": 560,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lin/forecast/",
+          "prior_observed": null,
+          "revision_pct": 3.571428571428581,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "IBM": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 247.13,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 non-GAAP diluted EPS viewed at the 12-month target date, Nov 2027). FY2026 non-GAAP EPS is derived, not guided: Q1 2026 $1.91, Q2 2026 $2.93 and Q3 2026 $2.95 sum to $7.79 for nine months; adding a Q4 2026 estimate of about $4.75 (Q4 2025 was $4.52, grown about 5%, an assumption) gives about $12.54. IBM gives no full-year EPS guidance; it reiterated 4-5% constant-currency revenue growth and raised free cash flow growth to more than $1 billion. Base FY2027 EPS of $13.40 is about 7% growth on the derived FY2026 figure and sits near the sourced FY2027 consensus of about $13.30 (spring 2026, so stale). IBM trades as NYSE common stock priced in USD, so no ADR ratio or FX conversion applies. Share count is about 0.945 billion (pipeline aggregate). Dividends are excluded from the price targets.",
+        "bear": 201.6,
+        "base": 254.6,
+        "bull": 312.4,
+        "cases": {
+          "bear": {
+            "driver": "Revenue growth slips toward the low end of the 4-5% guide as software and consulting growth fades; the Q3 2026 pre-tax margin gain (19.3%, +70 bp) does not carry into 2027; the multiple de-rates as growth disappoints",
+            "assumption": "FY2027 EPS $12.60 (about flat on derived FY2026 EPS of $12.54) x 16x",
+            "target": 201.6
+          },
+          "base": {
+            "driver": "Revenue grows about 4-5% with non-GAAP pre-tax margin continuing to expand, supporting about 7% EPS growth; the multiple holds near 19x, close to the current forward multiple",
+            "assumption": "FY2027 EPS $13.40 x 19x",
+            "target": 254.6
+          },
+          "bull": {
+            "driver": "Software and hybrid cloud growth re-accelerates and margin expansion continues; EPS grows about 13%; the multiple re-rates to 22x as growth visibility improves",
+            "assumption": "FY2027 EPS $14.20 x 22x",
+            "target": 312.4
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $13.40 the $247.13 close implies 18.4x; at derived FY2026 EPS of $12.54 it implies 19.7x. The mean of the four named post-earnings targets (Oct 22, 2026: $260, $277, $243, $280) is $265.0, which implies 19.8x base EPS, or $13.95 of EPS at 19x (4.1% above base). The pipeline aggregate mean of $259.85 (23 analysts, Yahoo Finance via yfinance) implies 19.4x base EPS.",
+        "sensitivity": "One turn of P/E moves the base target by $13.40 (5.4 pp of the close). A $0.10 change in FY2027 base EPS moves the base target by $1.90 (0.8 pp).",
+        "watch_metric": "Software and consulting revenue growth staying inside the 4-5% constant-currency guide, with non-GAAP pre-tax margin expansion (Q3 2026 19.3%) carrying into FY2027. Revenue growth below 4% or a margin that stalls would break the base case.",
+        "next_disclosure": "Q4 and FY2026 results with FY2027 commentary, expected late January 2027 (date not confirmed in the sources reviewed)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Twelve named analysts have dated calls in the last nine months, but only four are post-earnings: Stifel (Grossman, $260, Buy), Barclays (Lenschow, $277, Overweight), UBS (Vogt, $243, Neutral) and Jefferies (Thill, $280, Buy), all dated Oct 22, 2026. Their $265.0 mean sits 4.1% above our $254.60 base, which needs roughly $13.95 of FY2027 EPS at 19x or a multiple near 20x. Older named targets are much higher (Oppenheimer $380 from Jan 29, Wedbush $320 from Apr 23) and Morgan Stanley's $215 from Apr 14 and HSBC's $175 from Jul 16 are lower, so the named sample is wide ($175-$380) and the older targets are stale. No named target has a documented 12-month horizon, so no weighted target is computed; the rating and target histories are sourced from one aggregator table that gives no prior values, and the firm-level rating rows are attached to the named analysts dated the same day.",
+      "sources": [
+        {
+          "label": "IBM Q4 and full-year 2025 results (Jan 28, 2026)",
+          "url": "https://newsroom.ibm.com/2026-01-28-IBM-RELEASES-FOURTH-QUARTER-RESULTS",
+          "supports": "FY2025 operating EPS $11.59, Q4 2025 operating EPS $4.52, FY2025 revenue $67.5B; 2026 outlook: constant-currency growth above 5%, FCF up about $1B, no EPS guidance"
+        },
+        {
+          "label": "Constellation Research: IBM Q3 2026 results (Oct 21, 2026)",
+          "url": "https://www.constellationr.com/insights/news/ibm-delivers-strong-q3-sees-4-5-revenue-growth-2026",
+          "supports": "Q3 2026 revenue $17.1B (+5%), non-GAAP EPS $2.95, 2026 revenue growth guide of 4-5%, FCF increase of more than $1B"
+        },
+        {
+          "label": "StockHub: IBM CY26 Q3 summary (Oct 22, 2026)",
+          "url": "https://stockhub.kr/en/insights/20261022-ibm-cy26q3",
+          "supports": "Q3 2026 non-GAAP pre-tax margin 19.3% (+70 bp), Q3 FCF $3.03B, no full-year pre-tax margin guidance"
+        },
+        {
+          "label": "Earnings Whispers: IBM Q3 2026 (Oct 21, 2026)",
+          "url": "https://www.earningswhispers.com/article/IBM/2610217930",
+          "supports": "Q3 2026 GAAP diluted EPS from continuing operations $2.31; no full-year EPS guidance given"
+        },
+        {
+          "label": "Hudson Labs: IBM Q2 2026 earnings",
+          "url": "https://www.hudson-labs.com/research/ibm-q2-2026-earnings",
+          "supports": "Q2 2026 non-GAAP diluted EPS $2.93; 4-5% constant-currency revenue growth outlook"
+        },
+        {
+          "label": "Zacks: IBM beats Q1 2026 estimates",
+          "url": "https://www.zacks.com/stock/news/2906346/ibm-beats-q1-earnings-estimates-on-solid-revenue-margin-expansion",
+          "supports": "Q1 2026 non-GAAP diluted EPS $1.91"
+        },
+        {
+          "label": "Barchart: what to expect from IBM Q1 2026 earnings",
+          "url": "https://www.barchart.com/story/news/1001333/what-to-expect-from-international-business-machines-q1-2026-earnings-report",
+          "supports": "FY2027 EPS consensus about $13.30 (pre-Q1 2026, stale)"
+        },
+        {
+          "label": "Fn2: IBM analyst actions and price targets (Jan-Nov 2026)",
+          "url": "https://fn2.ai/earnings/ibm/analysts",
+          "supports": "Named analyst targets and dated firm-level rating actions, Oct 22 2026 post-earnings notes, Jul 14-16 HSBC and Argus actions, and older named targets; no prior-target values given"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-21T16:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 22,
+        "max_weight_pct": 22.370747545697682,
+        "contributors": [
+          {
+            "analyst": "Brent Thill",
+            "firm": "Jefferies",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://fn2.ai/earnings/ibm/analysts",
+            "weight": 0.2237074754569768
+          },
+          {
+            "analyst": "David Grossman",
+            "firm": "Stifel",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://fn2.ai/earnings/ibm/analysts",
+            "weight": 0.2237074754569768
+          },
+          {
+            "analyst": "David Vogt",
+            "firm": "UBS",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://fn2.ai/earnings/ibm/analysts",
+            "weight": 0.2237074754569768
+          },
+          {
+            "analyst": "Jim Kelleher",
+            "firm": "Argus Research",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-16",
+            "age_days": 120,
+            "after_earnings": false,
+            "source": "https://fn2.ai/earnings/ibm/analysts",
+            "weight": 0.1051700981720928
+          },
+          {
+            "analyst": "Raimo Lenschow",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://fn2.ai/earnings/ibm/analysts",
+            "weight": 0.2237074754569768
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 77.62925245430232,
+          "Hold": 22.370747545697682,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Abhishek Shukla",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 175.0,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Arvind Ramnani",
+          "firm": "Truist Financial",
+          "field": "target",
+          "value": 240.0,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Brent Thill",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Brent Thill",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 280.0,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Daniel Ives",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 320.0,
+          "issued_at": "2026-04-23",
+          "public_at": "2026-04-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Grossman",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Grossman",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 260.0,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Vogt",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Vogt",
+          "firm": "UBS",
+          "field": "target",
+          "value": 243.0,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Erik Woodring",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 215.0,
+          "issued_at": "2026-04-14",
+          "public_at": "2026-04-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "James Friedman",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 235.0,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jim Kelleher",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jim Kelleher",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 280.0,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Matthew Swanson",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 270.0,
+          "issued_at": "2026-07-21",
+          "public_at": "2026-07-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Param Singh",
+          "firm": "Oppenheimer",
+          "field": "target",
+          "value": 380.0,
+          "issued_at": "2026-01-29",
+          "public_at": "2026-01-29T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Raimo Lenschow",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Raimo Lenschow",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 277.0,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "CRWD": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 226.61,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward non-GAAP EPS x justified P/E at the 12-month target date (about 2027-11-18). At that date the forward twelve months are mostly fiscal 2028 (year ending January 2028). FY2027 (year ending 31 January 2027) non-GAAP diluted EPS guidance is $1.25 to $1.26 (midpoint $1.255) from the Q2 FY2027 release of 26 August 2026, with a 21.0% non-GAAP tax rate. The scenario EPS values for FY2028 are model assumptions, not company guidance: bear $1.40, base $1.60, bull $1.80. Non-GAAP EPS excludes stock-based compensation; GAAP net income for Q2 FY2027 was only $5.3 million. Listing is USD on NASDAQ, so no FX conversion applies and targets are per share of the same listing.",
+        "bear": 154.0,
+        "base": 240.0,
+        "bull": 324.0,
+        "cases": {
+          "bear": {
+            "driver": "Growth decelerates after the FY2027 net new ARR peak and the multiple compresses as the stock is priced for perfection",
+            "assumption": "FY2028 EPS $1.40 at 110x",
+            "target": 154.0
+          },
+          "base": {
+            "driver": "Revenue growth near the mid-20s percent holds with operating leverage; non-GAAP EPS compounds from the FY2027 midpoint",
+            "assumption": "FY2028 EPS $1.60 at 150x",
+            "target": 240.0
+          },
+          "bull": {
+            "driver": "Net new ARR keeps accelerating on AI security demand and the market keeps a premium multiple for the growth",
+            "assumption": "FY2028 EPS $1.80 at 180x",
+            "target": 324.0
+          }
+        },
+        "implied_by_close": "At base EPS $1.60 the close of $226.61 implies 142x; on FY2027 guidance midpoint $1.255 it implies 181x. The Street-weighted target of about $250 (aggregator mean, 50 analysts) implies 156x base EPS, or $1.67 EPS at 150x (about 4% above the base EPS).",
+        "sensitivity": "One turn of P/E moves the base target by $1.60 (0.7 pp of the close). A $0.10 change in FY2028 EPS moves it by $15.00 (6.6 pp of the close).",
+        "watch_metric": "Net new ARR and the FY2027 non-GAAP EPS path: the Q2 net new ARR of $332.8 million and the raised net new ARR growth outlook must keep compounding for EPS to reach $1.60 in FY2028",
+        "next_disclosure": "Q3 FY2027 results, expected around 1 to 2 December 2026 (aggregator date 2026-12-01 is not confirmed by the company)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named views dated before the reference close are sparse: only four analysts (Deutsche Bank upgraded to Buy with a $300 target from $240 on 2 November 2026; Jefferies raised to $240 from $230 after Q2; Goldman Sachs kept Buy at $230; Bernstein kept Hold and lifted to $177 from $132 on 9 November). Most post-Q2 targets sit in a $230 to $310 band, and the aggregator mean of about $250 is above our $240 base, a gap of roughly 4% in target, or about $0.07 of FY2028 EPS at 150x. Calls dated 13 November or later (for example Morgan Stanley $254, Rosenblatt $275, Wells Fargo $300, TD Cowen $280) are after the reference close and are excluded from the events list and the weighted target; the unnamed firm-level figures in the 6 November roundup (UBS $310, Citigroup $295, Bank of America Hold $290, Mizuho $275) have no analyst names and are not counted.",
+      "sources": [
+        {
+          "label": "Q2 FY2027 results release (Business Wire, 26 Aug 2026), copy",
+          "url": "https://www.01net.it/crowdstrike-reports-second-quarter-fiscal-year-2027-financial-results/",
+          "supports": "Q2 revenue $1.47B, ending ARR $5.84B, net new ARR $332.8M, non-GAAP EPS $0.31, GAAP net income $5.3M, Q3 FY27 guidance, FY27 guidance revenue $5,991.1-6,011.1M, EPS $1.25-1.26, 21.0% tax rate"
+        },
+        {
+          "label": "Q2 FY2027 results release (company IR page)",
+          "url": "https://ir.crowdstrike.com/news-releases/news-release-details/crowdstrike-reports-second-quarter-fiscal-year-2027-financial",
+          "supports": "Release title and date for the 26 August 2026 earnings (IR page not retrievable at research time)"
+        },
+        {
+          "label": "Deutsche Bank upgrade (Hold to Buy, $300 from $240)",
+          "url": "https://www.insiderfinance.io/news/crowdstrike-upgrade-spotlights-ai-security-market",
+          "supports": "Brad Zelnick, 2 Nov 2026 rating and target"
+        },
+        {
+          "label": "Deutsche Bank upgrade report, German press",
+          "url": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar",
+          "supports": "Date and time of the 2 Nov 2026 upgrade, Hold to Buy, $240 to $300"
+        },
+        {
+          "label": "Jefferies target raise after Q2 FY2027",
+          "url": "https://www.tradingpedia.com/2026/08/27/crowdstrike-rallies-after-record-quarter-upgraded-guidance/",
+          "supports": "Jefferies $240 from $230, 27 Aug 2026"
+        },
+        {
+          "label": "Analyst rating history, Goldman Sachs and Bernstein, Nov 2026",
+          "url": "https://stockanalysis.com/stocks/crwd/ratings/",
+          "supports": "Goldman Sachs Buy $230 (9 Nov 2026); Bernstein Hold $132 to $177 (9 Nov 2026); post-close rows excluded"
+        },
+        {
+          "label": "Analyst target roundup, 6 Nov 2026",
+          "url": "https://beinsure.com/news/crowdstrike-stock-price-forecast-investment-banks-see-upside/",
+          "supports": "Firm-level targets and average $248.45; CRWD traded $218.73 on the article date"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-26T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 3,
+        "post_earnings": 3,
+        "earnings_order_unknown": 0,
+        "median_age_days": 4,
+        "max_weight_pct": 33.92687257163895,
+        "contributors": [
+          {
+            "analyst": "Brad Zelnick",
+            "firm": "Deutsche Bank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar",
+            "weight": 0.32146254856722084
+          },
+          {
+            "analyst": "Gabriela Borges",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/crwd/ratings/",
+            "weight": 0.33926872571638955
+          },
+          {
+            "analyst": "Peter Weed",
+            "firm": "Bernstein",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/crwd/ratings/",
+            "weight": 0.33926872571638955
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 66.07312742836105,
+          "Hold": 33.92687257163895,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Brad Zelnick",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T08:48:00-05:00",
+          "source": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Brad Zelnick",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": 240,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T08:48:00-05:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar",
+          "prior_observed": null,
+          "revision_pct": 25.0,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Gabriela Borges",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/crwd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Gabriela Borges",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 230.0,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/crwd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joseph Gallo",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 240.0,
+          "source_prior": 230,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tradingpedia.com/2026/08/27/crowdstrike-rallies-after-record-quarter-upgraded-guidance/",
+          "prior_observed": null,
+          "revision_pct": 4.347826086956519,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Peter Weed",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/crwd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Peter Weed",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 177.0,
+          "source_prior": 132,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/crwd/ratings/",
+          "prior_observed": null,
+          "revision_pct": 34.09090909090908,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "DELL": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 344.53,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward non-GAAP EPS x justified P/E, with the earnings base viewed at the 12-month target date (about Nov 2027). Only sourced earnings figure: FY27 (year ending Jan 2027) non-GAAP diluted EPS guidance of $25.50, raised from $17.90 with the Q2 FY27 report on 2026-09-01 (SEC 8-K). Dell gave no FY28 outlook, so the FY28 EPS used in each case is a model assumption, not company guidance. Listing is USD on NYSE, so no FX conversion applies. Scenario targets are per share of the USD listing.",
+        "bear": 260.0,
+        "base": 448.0,
+        "bull": 640.0,
+        "cases": {
+          "bear": {
+            "driver": "AI server margin compression and memory/component supply constraints (TD Cowen flagged memory constraints as a risk to 2027 upside) cut EPS growth sharply; the stock de-rates to a hardware-multiple range",
+            "assumption": "FY28 EPS $20.00 (about 22% below the FY27 guide) at 13x",
+            "target": 260.0
+          },
+          "base": {
+            "driver": "AI server backlog (record $95B at Jul 31, 2026) converts to revenue; ISG growth slows but margins hold; FY28 EPS grows about 10% on the FY27 guide",
+            "assumption": "FY28 EPS $28.00 at 16x",
+            "target": 448.0
+          },
+          "bull": {
+            "driver": "AI orders ($60.9B booked in Q2 FY27) keep converting above the guide and the market pays a premium multiple for AI infrastructure growth",
+            "assumption": "FY28 EPS $32.00 at 20x",
+            "target": 640.0
+          }
+        },
+        "implied_by_close": "At the $25.50 FY27 non-GAAP EPS guide, the 344.53 close equals 13.5x. At the base FY28 EPS of $28.00 the close equals 12.3x. The aggregate Yahoo Finance mean target of $585.68 (25 analysts) equals about 23.0x FY27 guide EPS, or FY28 EPS of about $36.60 at 16x, so the aggregate sits above the base case and is not an independent check.",
+        "sensitivity": "One turn of P/E moves the base target by $28.00 (about 8.1 pp of the 344.53 close). A $1.00 change in FY28 EPS moves the base target by $16.00 (about 4.6 pp).",
+        "watch_metric": "AI-Optimized Servers revenue and non-GAAP operating margin in ISG; a sustained gross-margin decline or a sharp fall in the $95B AI backlog would weaken the base case, while FY28 guidance at or above about $28 EPS would support it.",
+        "next_disclosure": "Q3 FY27 results, expected 2026-11-24 after the close (Q3 guide: revenue about $49.0B, non-GAAP EPS $6.50), and the FY28 outlook when issued.",
+        "dividend_per_share": null
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "No named, dated analyst call could be verified from a primary source with a confirmed analyst name, date and pre-close public time. Aggregator pages (MarketBeat, Benzinga, Fintel, Walnut) report about 18 to 36 analysts with averages between about $502 and $585, but they conflict on dates and prices, and several list firm-only or unnamed actions (for example, a Barclays downgrade to Equal Weight on 2026-10-14 with the analyst unnamed, and a Goldman Sachs Buy with a $185 target dated 2025-11-26). Because those rows lack a verified name or date, they are excluded from the event list rather than estimated. The Yahoo Finance aggregate in data/aggregate (mean $585.68, median $600, 25 analysts) sits well above the base case, so the independent base case of $448 is about 23% below the aggregate mean of $585.68; the gap is best read as a multiple gap (about 23x FY27 guide EPS against the 16x base) rather than a verified analyst assumption.",
+      "sources": [
+        {
+          "label": "Dell Q2 FY27 earnings release (Form 8-K exhibit 99.1), released 2026-09-01",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001571996/000157199626000039/exhibit991earnings8kq2fy27.htm",
+          "supports": "Q2 FY27 revenue $46,971M, non-GAAP EPS $7.04, FY27 revenue guide $192.0B, FY27 non-GAAP EPS guide $25.50, Q3 guide, AI backlog $95B, debt and cash, diluted shares 652M"
+        },
+        {
+          "label": "Pulse 2.0 coverage of Q2 FY27 results (AI backlog and FY27 outlook)",
+          "url": "https://pulse2.com/dell-technologies-q2-revenue-hits-record-47-billion-as-ai-server-backlog-reaches-95-billion-and-fy27-outlook-rises-to-192-billion/",
+          "supports": "Secondary confirmation of Q2 revenue, AI server backlog and FY27 revenue outlook"
+        },
+        {
+          "label": "TIKR: Barclays downgrade after rally (Oct 14, 2026; stock at $507)",
+          "url": "https://www.tikr.com/blog/dell-technologies-stock-barclays-downgrade-rally",
+          "supports": "Share price context on 2026-10-14 and a Barclays cut to equivalent of hold; analyst name not given"
+        },
+        {
+          "label": "Insider Monkey: Goldman Sachs target $175 to $185, Buy (dated 2025-11-26)",
+          "url": "https://www.insidermonkey.com/blog/dells-improved-earnings-and-ai-momentum-prompt-analyst-price-target-hike-1652114/",
+          "supports": "Historical aggregator-reported action; cited only to show why unnamed or older rows were excluded"
+        },
+        {
+          "label": "Reference listing data (Yahoo Finance via yfinance, 2026-11-13 close)",
+          "url": "https://finance.yahoo.com/quote/DELL",
+          "supports": "Close $344.53, 635.8M shares used, aggregate analyst mean $585.68 from 25 analysts"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": "2026-09-01T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -34229,12 +35348,22 @@
         "kind": "new"
       },
       {
+        "symbol": "CRWD",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "CSCO",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
         "symbol": "CVX",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "DELL",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -34264,6 +35393,11 @@
         "kind": "new"
       },
       {
+        "symbol": "IBM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "INTC",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -34280,6 +35414,11 @@
       },
       {
         "symbol": "KO",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "LIN",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -35052,6 +36191,38 @@
         "prior_target": 396,
         "direction": "raise",
         "revision_pct": 1.0101010101010166,
+        "horizon_months": null
+      },
+      {
+        "symbol": "CRWD",
+        "firm": "Goldman Sachs",
+        "analyst": "Gabriela Borges",
+        "issued_at": "2026-11-09",
+        "source": "https://stockanalysis.com/stocks/crwd/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 230.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "CRWD",
+        "firm": "Bernstein",
+        "analyst": "Peter Weed",
+        "issued_at": "2026-11-09",
+        "source": "https://stockanalysis.com/stocks/crwd/ratings/",
+        "currency": null,
+        "rating": "Hold",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 177.0,
+        "prior_target": 132,
+        "direction": "raise",
+        "revision_pct": 34.09090909090908,
         "horizon_months": null
       },
       {

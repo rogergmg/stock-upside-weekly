@@ -8648,9 +8648,110 @@
         "high": 246335725037
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "John McNulty",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 540,
+          "source_prior": 546,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        },
+        {
+          "analyst": "John McNulty",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        },
+        {
+          "analyst": "Duffy Fischer",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 595,
+          "source_prior": 580,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        },
+        {
+          "analyst": "Duffy Fischer",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        },
+        {
+          "analyst": "Aristotelis Moutopoulos",
+          "firm": "DZ BANK AG",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        },
+        {
+          "analyst": "Abigail Eberts",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 570,
+          "source_prior": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        },
+        {
+          "analyst": "Abigail Eberts",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        },
+        {
+          "analyst": "Patrick Cunningham",
+          "firm": "Citi",
+          "field": "target",
+          "value": 580,
+          "source_prior": 560,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        },
+        {
+          "analyst": "Patrick Cunningham",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/lin/forecast/"
+        }
+      ],
+      "earnings_at": "2026-10-29T08:30:00-04:00",
+      "valuation": {
+        "bear": 407.0,
+        "base": 529.2,
+        "bull": 615.0
+      },
+      "dividend_per_share": 6.4
     },
     {
       "issuer_id": "International Business Machines Corporation",
@@ -8664,9 +8765,185 @@
         "high": 238248698863
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "David Grossman",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 260,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "David Grossman",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Raimo Lenschow",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 277,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Raimo Lenschow",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "David Vogt",
+          "firm": "UBS",
+          "field": "target",
+          "value": 243,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "David Vogt",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Brent Thill",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 280,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Brent Thill",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Jim Kelleher",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 280,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Jim Kelleher",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Matthew Swanson",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 270,
+          "issued_at": "2026-07-21",
+          "public_at": "2026-07-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Arvind Ramnani",
+          "firm": "Truist Financial",
+          "field": "target",
+          "value": 240,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "James Friedman",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 235,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Abhishek Shukla",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 175,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Erik Woodring",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 215,
+          "issued_at": "2026-04-14",
+          "public_at": "2026-04-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Daniel Ives",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 320,
+          "issued_at": "2026-04-23",
+          "public_at": "2026-04-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        },
+        {
+          "analyst": "Param Singh",
+          "firm": "Oppenheimer",
+          "field": "target",
+          "value": 380,
+          "issued_at": "2026-01-29",
+          "public_at": "2026-01-29T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://fn2.ai/earnings/ibm/analysts"
+        }
+      ],
+      "earnings_at": "2026-10-21T16:00:00-04:00",
+      "valuation": {
+        "bear": 201.6,
+        "base": 254.6,
+        "bull": 312.4
+      }
     },
     {
       "issuer_id": "CrowdStrike Holdings, Inc.",
@@ -8680,9 +8957,88 @@
         "high": 236674552037
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Brad Zelnick",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T08:48:00-05:00",
+          "source": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar"
+        },
+        {
+          "analyst": "Brad Zelnick",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 300,
+          "source_prior": 240,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T08:48:00-05:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/crowdstrike-holdings-a-aktie-deutsche-bank-stuft-auf-buy-hoch-und-hebt-kursziel-auf-300-dollar"
+        },
+        {
+          "analyst": "Joseph Gallo",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 240,
+          "source_prior": 230,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tradingpedia.com/2026/08/27/crowdstrike-rallies-after-record-quarter-upgraded-guidance/"
+        },
+        {
+          "analyst": "Gabriela Borges",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/crwd/ratings/"
+        },
+        {
+          "analyst": "Gabriela Borges",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 230,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/crwd/ratings/"
+        },
+        {
+          "analyst": "Peter Weed",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/crwd/ratings/"
+        },
+        {
+          "analyst": "Peter Weed",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 177,
+          "source_prior": 132,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/crwd/ratings/"
+        }
+      ],
+      "earnings_at": "2026-08-26T16:05:00-04:00",
+      "valuation": {
+        "bear": 154.0,
+        "base": 240.0,
+        "bull": 324.0
+      }
     },
     {
       "issuer_id": "Comcast Holdings ZONES",
@@ -8712,9 +9068,14 @@
         "high": 223437698093
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-09-01T16:05:00-04:00",
+      "valuation": {
+        "bear": 260.0,
+        "base": 448.0,
+        "bull": 640.0
+      }
     },
     {
       "issuer_id": "American Express Company",

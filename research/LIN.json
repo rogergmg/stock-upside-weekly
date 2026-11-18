@@ -1,0 +1,63 @@
+{
+  "issuer_id": "Linde plc",
+  "symbol": "LIN",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 526.06, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-29T08:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "John McNulty", "firm": "BMO Capital", "field": "target", "value": 540, "source_prior": 546,
+     "issued_at": "2026-11-03", "public_at": "2026-11-03T23:59:59-05:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"},
+    {"analyst": "John McNulty", "firm": "BMO Capital", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-11-03", "public_at": "2026-11-03T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"},
+    {"analyst": "Duffy Fischer", "firm": "Goldman Sachs", "field": "target", "value": 595, "source_prior": 580,
+     "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"},
+    {"analyst": "Duffy Fischer", "firm": "Goldman Sachs", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"},
+    {"analyst": "Aristotelis Moutopoulos", "firm": "DZ BANK AG", "field": "rating", "value": "Hold", "bucket": "Hold",
+     "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"},
+    {"analyst": "Abigail Eberts", "firm": "Wells Fargo", "field": "target", "value": 570, "source_prior": null,
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"},
+    {"analyst": "Abigail Eberts", "firm": "Wells Fargo", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00",
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"},
+    {"analyst": "Patrick Cunningham", "firm": "Citi", "field": "target", "value": 580, "source_prior": 560,
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"},
+    {"analyst": "Patrick Cunningham", "firm": "Citi", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00",
+     "source": "https://stockanalysis.com/stocks/lin/forecast/"}
+  ],
+  "valuation": {
+    "method": "Industrial gas company with a stable, profitable operating base: forward P/E on FY2027 adjusted diluted EPS, viewed at the 12-month target date (Nov 2027). Single listing in USD (NYSE/Nasdaq common ordinary shares, 1:1, no depositary receipt, no FX conversion). Earnings base: FY2026 adjusted EPS guidance of $17.82 to $17.92 (midpoint $17.87, +8% to +9%, including about 2% favourable currency) from the Q3 2026 release of 2026-10-29, with Q3 adjusted EPS $4.59 and Q4 guidance of $4.40 to $4.50. Base FY2027 EPS of $19.60 is +9.7% on the $17.87 midpoint and sits between the Erste estimate ($19.60) and the freshest aggregator consensus ($19.77, WallStreetZen). Share count: 459,083,779 ordinary shares at 2026-09-30 (10-Q cover), the same figure as the aggregate, so no dilution is assumed. Net debt is not needed for a P/E method; for reference total debt was $26,702m and cash $3,947m at 2026-09-30 (net debt about $22.8bn, derived). Bear: $18.50 x 22x = $407.00 (-22.6%); 22x is close to the 52-week low of $387.78 (about 21.7x FY2026 midpoint). Base: $19.60 x 27x = $529.20 (+0.6%). Bull: $20.50 x 30x = $615.00 (+16.9%). Dividend: $1.60 per quarter declared in Q2, Q3 and Q4 2026, so $6.40 a year as a gross expected cash dividend (6.4 / 526.06 = 1.2% yield).",
+    "bear": 407.0,
+    "base": 529.2,
+    "bull": 615.0,
+    "cases": {
+      "bear": {"driver": "Growth slows to the low end of FY2027 estimates as the Lincare drag (about 2% of EPS growth lost year to date) persists and project backlog conversion lags; the multiple de-rates toward the 52-week low.", "assumption": "EPS $18.50 at 22x = $407.00", "target": 407.0},
+      "base": {"driver": "FY2027 EPS of $19.60 (+9.7%) on the FY2026 guidance midpoint with price and volume recovery and modest currency tailwind fading; multiple held near today's forward level of about 27x.", "assumption": "EPS $19.60 at 27x = $529.20", "target": 529.2},
+      "bull": {"driver": "Backlog growth and productivity lift FY2027 EPS to $20.50, near the top of the published range, and the market keeps a quality premium of 30x as the industrial gas franchise re-rates.", "assumption": "EPS $20.50 at 30x = $615.00", "target": 615.0}
+    },
+    "implied_by_close": "The close of $526.06 equals 26.8x base FY2027 EPS of $19.60 (29.4x the $17.87 FY2026 midpoint). The mean published target of $551.04 (S&P Global, 29 analysts via StockAnalysis) equals 28.1x base EPS, or EPS of $20.41 at 27x; the analysts' gap of about 4% above the base target is a multiple-and-EPS difference, and the analysts' assumptions are not sourced.",
+    "sensitivity": "One turn of P/E on base EPS moves the base target by $19.60 (3.7 pp of the close). A $0.50 change in FY2027 EPS at 27x moves it by $13.50 (2.6 pp).",
+    "watch_metric": "Adjusted EPS growth against the 8% to 9% FY2026 guide and the FY2027 outlook, with the Lincare drag and currency tailwind disclosed; the base case needs roughly 9% to 10% EPS growth in FY2027 with the multiple held.",
+    "next_disclosure": "Q4 and full-year 2026 results with the FY2027 outlook, expected in February 2027 (exact date not confirmed; one aggregator lists 11 Feb 2027)."
+  },
+  "dividend_per_share": 6.4,
+  "analyst_notes": "Five named analysts have dated targets since Oct 30, 2026: BMO (McNulty) trimmed to $540 from $546 on Nov 3, while Goldman (Fischer) raised to $595 from $580 and Citi (Cunningham) raised to $580 from $560 after the Q3 print, and Wells Fargo (Eberts) set $570 on Oct 30 with no prior shown. Named targets average $570.60, about 8.5% above the $529.20 base case, and every named view is a Buy except DZ Bank's Hold (no target). The sample is partial and the post-earnings raises are concentrated in a few names; RBC raised to $568 from $549 and UBS to $585 from $574 on Oct 30 to Nov 2, but neither analyst is named in the sources, so they are excluded from the individual calculation. No named firm documents a 12-month horizon in the sources opened, so target rows are not in the weighted target and the sample is shown for timeline only.",
+  "sources": [
+    {"label": "Linde Q3 2026 earnings release, Form 8-K exhibit 99.1 (adjusted EPS $4.59, FY2026 guidance $17.82 to $17.92, Q4 guidance $4.40 to $4.50)", "url": "https://www.sec.gov/Archives/edgar/data/0001707925/000165495426009199/lin_ex991.htm", "supports": "FY2026 EPS base and guidance range, Q4 guide, Q3 results"},
+    {"label": "Linde Form 10-Q for quarter ended 2026-09-30 (459,083,779 shares outstanding; total debt $26,702m; cash $3,947m; Lincare reference)", "url": "https://www.sec.gov/Archives/edgar/data/0001707925/000162828026068079/lin-20260930.htm", "supports": "Share count, debt and cash at the balance-sheet date"},
+    {"label": "StockAnalysis LIN analyst forecast (named rating actions Oct 30 to Nov 3, 2026; S&P Global consensus average $551.04, median $560, 29 analysts; FY2026 EPS average $17.90)", "url": "https://stockanalysis.com/stocks/lin/forecast/", "supports": "Named analyst targets, ratings, prior values, consensus, FY2026 EPS estimate"},
+    {"label": "WallStreetZen LIN stock forecast (FY2027 EPS consensus $19.77, range $18.52 to $21.24; search snippet, not opened)", "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/lin/stock-forecast", "supports": "FY2027 EPS consensus and low end used for the bear case"},
+    {"label": "MarketBeat: UBS raises Linde target to $585 from $574 (Buy), with KeyCorp, Mizuho and RBC actions, Nov 2 2026", "url": "https://www.marketbeat.com/instant-alerts/analyst-linde-nasdaq-lin-price-target-raised-to-58500-2026-11-02/", "supports": "Unnamed firm-only actions excluded from the named calculation; 52-week range"},
+    {"label": "Linde declares fourth-quarter 2026 dividend of $1.60 per share", "url": "https://www.linde.com/news-and-media/2026/linde-declares-dividend-in-fourth-quarter-2026", "supports": "Quarterly dividend $1.60 in 2026 (annualised $6.40)"}
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "issuer_id": "T-Mobile US, Inc.",
+  "symbol": "TMUS",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 169.95, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-28T16:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Morgan Stanley analyst (unnamed)", "firm": "Morgan Stanley", "field": "target", "value": 230, "source_prior": 260,
+     "issued_at": "2026-07-07", "public_at": "2026-07-07T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/"},
+    {"analyst": "Morgan Stanley analyst (unnamed)", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-07-07", "public_at": "2026-07-07T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/"},
+    {"analyst": "Bank of America analyst (unnamed)", "firm": "Bank of America", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-07-06", "public_at": "2026-07-06T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/"},
+    {"analyst": "Bank of America analyst (unnamed)", "firm": "Bank of America", "field": "target", "value": 220, "source_prior": null,
+     "issued_at": "2026-07-06", "public_at": "2026-07-06T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/"},
+    {"analyst": "Benchmark analyst (unnamed)", "firm": "Benchmark", "field": "target", "value": 280, "source_prior": 295,
+     "issued_at": "2026-07-24", "public_at": "2026-07-24T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/"},
+    {"analyst": "Benchmark analyst (unnamed)", "firm": "Benchmark", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-07-24", "public_at": "2026-07-24T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/"},
+    {"analyst": "TD Cowen analyst (unnamed)", "firm": "TD Cowen", "field": "target", "value": 260, "source_prior": null,
+     "issued_at": "2026-07-24", "public_at": "2026-07-24T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/td-cowen-cuts-t-mobile-us-nasdaqtmus-price-target-to-26000-2026-07-24/"},
+    {"analyst": "UBS analyst (unnamed)", "firm": "UBS", "field": "target", "value": 235, "source_prior": 255,
+     "issued_at": "2026-07-27", "public_at": "2026-07-27T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/"},
+    {"analyst": "UBS analyst (unnamed)", "firm": "UBS", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-07-27", "public_at": "2026-07-27T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E at the 12-month target date (Nov 2027). An investor then prices roughly next-twelve-month EPS, a blend of FY2028 and FY2027 weighted toward FY2028. FY2027 EPS is taken as about $13.5 (June-November 2026 consensus snippets range $13.5-13.7; Erste Group $13.70 per a MarketBeat note dated 2026-07-30; a KeyCorp $12.53 estimate sits at the low end) and FY2028 is assumed about 10% higher, so base NTM EPS is $14.50. These are model assumptions, not company guidance. USD listing, no ADR conversion, no dividend added to the price targets.",
+    "bear": 137.5,
+    "base": 188.5,
+    "bull": 248.0,
+    "cases": {
+      "bear": {
+        "driver": "Postpaid phone and broadband growth slows and promotional intensity keeps ARPA near the low end of the 3.5% guide; EPS growth stalls near the KeyCorp-type $12.5 FY2027 level and the multiple stays at a telecom-discount level",
+        "assumption": "NTM EPS $12.50 at 11x",
+        "target": 137.5
+      },
+      "base": {
+        "driver": "Raised FY2026 guide (core adjusted EBITDA $37.35-37.45B, adjusted FCF $18.7-18.8B, about 1.0M postpaid net account adds, service revenue about $76.8B) carries into about 10% EPS growth as buybacks ($10.3B repurchased through Oct 23, 2026) and the UScellular synergies ($1.2B run-rate) flow through; the multiple re-rates modestly from about 11.7x",
+        "assumption": "NTM EPS $14.50 at 13x",
+        "target": 188.5
+      },
+      "bull": {
+        "driver": "Fiber and 5G home broadband growth plus the UScellular synergy realisation push EPS growth to mid-teens, and the market reprices the stock toward the high end of the July-2026 target range",
+        "assumption": "NTM EPS $15.50 at 16x",
+        "target": 248.0
+      }
+    },
+    "implied_by_close": "At base NTM EPS $14.50 the $169.95 close implies 11.7x. Named broker targets in the sample ($220-280) imply 15-19x at the same EPS; the provider aggregate mean of $225.44 implies about 15.5x. The base case is below the aggregate because the model does not assume a return to the multiple the sell-side targets embed.",
+    "sensitivity": "One turn of P/E moves the base target by $14.50 (8.5 pp of return on the close). A $0.50 change in NTM EPS moves it by $6.50 (3.8 pp).",
+    "watch_metric": "Postpaid phone net adds and core adjusted EBITDA growth against the raised FY2026 guide; a run-rate of core adjusted EBITDA growth below about 8% or adjusted FCF tracking below the $18.7B low end would break the base case.",
+    "next_disclosure": "Q4 and full-year 2026 results, date not yet announced in the sources reviewed (typically late January or February 2027), which will include the first formal 2027 outlook."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Five named-firm calls with dated targets were found, all issued between 2026-07-06 and 2026-07-27, before the Oct 28 Q3 report, so none reflects the post-earnings guidance raise; the Q3 print (diluted EPS $3.22 vs about $2.89 expected) and raised guide have no broker updates in the sources reviewed. Targets run $220-280 against the $169.95 close, a gap the base case explains mainly through multiple (about 11.7x EPS at close versus 15-19x implied by the targets) rather than EPS. Horizons are not documented in the sources, so all targets are kept in the timeline and excluded from the weighted target. Named individuals were not identified, so the calls are labelled by firm.",
+  "sources": [
+    {"label": "MarketBeat: Morgan Stanley cuts TMUS target to $230 (Jul 7 2026)", "url": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/", "supports": "Morgan Stanley target and Overweight rating"},
+    {"label": "MarketBeat: Bank of America upgrades TMUS to Buy, $220 target (Jul 6 2026)", "url": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/", "supports": "Bank of America rating and target"},
+    {"label": "MarketBeat: Benchmark cuts TMUS target to $280 from $295, Buy (Jul 24 2026)", "url": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/", "supports": "Benchmark target, prior target and Buy rating"},
+    {"label": "MarketBeat: TD Cowen cuts TMUS target to $260 (Jul 24 2026)", "url": "https://www.marketbeat.com/instant-alerts/td-cowen-cuts-t-mobile-us-nasdaqtmus-price-target-to-26000-2026-07-24/", "supports": "TD Cowen target"},
+    {"label": "MarketBeat: UBS cuts TMUS target to $235 from $255, Buy (Jul 27 2026)", "url": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/", "supports": "UBS target, prior target and Buy rating"},
+    {"label": "Newsquawk: TMUS Q3 2026 EPS $3.22 vs $2.89 expected, revenue $23.6B", "url": "https://www.newsquawk.com/headlines/t-mobile-us-inc-tmus-q3-2026-usd-eps-322-exp-289-revenue-236bln-exp-231bln", "supports": "Q3 2026 EPS and revenue versus consensus"},
+    {"label": "MarketBeat: T-Mobile Q3 2026 earnings call highlights (Oct 28 2026)", "url": "https://www.marketbeat.com/instant-alerts/transcript-t-mobile-us-q3-earnings-call-highlights-2026-10-28/", "supports": "Raised FY2026 core adjusted EBITDA and adjusted FCF guidance, net adds, ARPA, buybacks"},
+    {"label": "Quartr: T-Mobile US Q3 2026 earnings event (Oct 28 2026)", "url": "https://quartr.com/events/t-mobile-us-inc-tmus-q3-2026_3PmlH86T", "supports": "Q3 release date, diluted EPS $3.22, full FY2026 guidance and effective tax rate"},
+    {"label": "MarketBeat: Erste Group FY2027 EPS estimate $13.70 (Jul 30 2026)", "url": "https://www.marketbeat.com/instant-alerts/analysts-set-expectations-for-t-mobile-us-fy2026-earnings-2026-07-30/", "supports": "FY2027 EPS input range"}
+  ]
+}

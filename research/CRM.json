@@ -1,0 +1,39 @@
+{
+  "issuer_id": "Salesforce, Inc.",
+  "symbol": "CRM",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 217.84, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-08-26T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Tal Liani", "firm": "BofA Securities", "field": "target", "value": 285, "source_prior": 160,
+     "issued_at": "2026-10-12", "public_at": "2026-10-12T15:40:00-04:00", "horizon_months": null,
+     "source": "https://www.webull.com/news/15736015481234432"},
+    {"analyst": "Tal Liani", "firm": "BofA Securities", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-12", "public_at": "2026-10-12T15:40:00-04:00",
+     "source": "https://www.webull.com/news/15736015481234432"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x justified P/E, with the forward period viewed at the 12-month target date (Nov 2027) taken as FY2028 non-GAAP diluted EPS. Anchor: FY2027 non-GAAP EPS guidance of $16.67-$16.71 (midpoint $16.69, company guidance raised 26 Aug 2026) on about 838M guided diluted shares. Scenario FY2028 EPS = $16.69 x (1 + growth), growth assumed at 2% bear, 10% base and 18% bull. Revenue guidance of $46.1-$46.4B (+11-12%) is the reference for the base growth. Price targets are per share in USD on the NYSE listing; no FX or ADR conversion applies.",
+    "bear": 204.0,
+    "base": 275.0,
+    "bull": 354.0,
+    "cases": {
+      "bear": {"driver": "Growth stalls near the low end of the guided revenue range and the market keeps the stock at a SaaS trough multiple", "assumption": "FY28 EPS $17.02 at 12x", "target": 204.0},
+      "base": {"driver": "Revenue grows about 11-12% as guided, Agentforce and Data 360 add to subscription growth, and buybacks lower the share count", "assumption": "FY28 EPS $18.36 at 15x", "target": 275.0},
+      "bull": {"driver": "AI and data ARR keeps compounding above 200%, operating margin expands and the multiple re-rates toward mature software peers", "assumption": "FY28 EPS $19.70 at 18x", "target": 354.0}
+    },
+    "implied_by_close": "At FY2027 guided EPS of $16.69 the close of $217.84 implies 13.1x; at base FY2028 EPS of $18.36 it implies 11.9x. The only named target in the sample (BofA $285) implies 15.5x base FY2028 EPS, or FY2028 EPS of $19.00 at 15x. A 12-month analyst-weighted target cannot be formed from the one dated call with a documented horizon.",
+    "sensitivity": "One turn of P/E moves the base target by $18.36 (about 6.7 pp of the $275 base). A 2-point change in FY2028 growth moves the base EPS by about $0.33 and the base target by about $5 at 15x.",
+    "watch_metric": "Non-GAAP operating margin together with subscription and support revenue growth in FY2027 Q3 and Q4 (Q3 revenue guidance $11.42-$11.50B, adjusted EPS guidance $3.42-$3.44); a stall in AI and data ARR growth would argue for the bear case.",
+    "next_disclosure": "FY2027 Q3 results (quarter ending October 2026) and FY2027 full-year guidance, as scheduled by the company; the release after the reference close is outside this research cut-off."
+  },
+  "dividend_per_share": 1.76,
+  "analyst_notes": "The only named call dated and verified before the reference close is BofA's upgrade from Underperform to Buy with a target raised to $285 from $160 on 12 October 2026, valued at 16x calendar 2027 enterprise-value free cash flow, not a documented 12-month target, so it is kept out of the weighted target. The sample is thin: most other broker targets found in the search results were either dated 2023 or 2025, or fell after the cut-off, so this file cannot show how named views moved since the 26 August release. The $285 BofA target sits about 4% above the base case, which requires FY2028 EPS near $19 at 15x or a re-rating to about 15.5x base EPS; the gap is in the multiple, not in near-term EPS, which is already guided.",
+  "sources": [
+    {"label": "BofA upgrade to Buy, target $285 from $160 (Tal Liani), 12 Oct 2026", "url": "https://www.webull.com/news/15736015481234432", "supports": "analyst rating, prior and new target, valuation basis"},
+    {"label": "Salesforce Q2 FY2027 results release reproduction, 27 Aug 2026", "url": "https://www.01net.it/salesforce-delivers-record-second-quarter-fiscal-2027-results/", "supports": "revenue guidance, FY27 non-GAAP EPS guidance of $16.67-$16.71, 838M guided diluted shares, $25B ASR, dividends"},
+    {"label": "Salesforce Q2 FY2027 earnings coverage, Zacks", "url": "https://www.zacks.com/stock/news/2981089/salesforce-q2-earnings-beat-on-investment-gains-revenue-view-raised", "supports": "Q2 beat, Q3 revenue and EPS guidance, investment gains distorting GAAP-adjusted EPS"}
+  ]
+}

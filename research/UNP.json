@@ -1,0 +1,159 @@
+{
+  "issuer_id": "Union Pacific Corporation",
+  "symbol": "UNP",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 302.44,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-22T08:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Dan Moore",
+      "firm": "Baird",
+      "field": "target",
+      "value": 344,
+      "source_prior": 311,
+      "issued_at": "2026-07-27",
+      "public_at": "2026-07-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/instant-alerts/robert-w-baird-forecasts-strong-price-appreciation-for-union-pacific-nyseunp-stock-2026-07-27/"
+    },
+    {
+      "analyst": "Dan Moore",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-07-27",
+      "public_at": "2026-07-27T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/robert-w-baird-forecasts-strong-price-appreciation-for-union-pacific-nyseunp-stock-2026-07-27/"
+    },
+    {
+      "analyst": "Dan Moore",
+      "firm": "Baird",
+      "field": "target",
+      "value": 310,
+      "source_prior": 344,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T04:44:00-05:00",
+      "horizon_months": null,
+      "source": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar"
+    },
+    {
+      "analyst": "Dan Moore",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T04:44:00-05:00",
+      "source": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar"
+    },
+    {
+      "analyst": "UBS Group (analyst not named)",
+      "firm": "UBS",
+      "field": "target",
+      "value": 339,
+      "source_prior": 310,
+      "issued_at": "2026-09-16",
+      "public_at": "2026-09-16T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar"
+    },
+    {
+      "analyst": "UBS Group (analyst not named)",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-16",
+      "public_at": "2026-09-16T23:59:59-04:00",
+      "source": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar"
+    },
+    {
+      "analyst": "JPMorgan (analyst not named)",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 334,
+      "source_prior": 304,
+      "issued_at": "2026-07-24",
+      "public_at": "2026-07-24T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/"
+    },
+    {
+      "analyst": "JPMorgan (analyst not named)",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-07-24",
+      "public_at": "2026-07-24T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x justified P/E: FY2027 diluted EPS, the year an investor at the Nov 2027 12-month target date is pricing, times a P/E. Anchors from the Q3 2026 release (Oct 22, 2026): adjusted diluted EPS $3.53 (reported $3.49), adjusted operating ratio 58.8%, 594.5M weighted diluted shares. Management kept its outlook of high-single-digit reported EPS growth for 2026, consistent with a 3-year EPS CAGR target of high-single to low-double digits through 2027 (company guidance, no dollar figure given). The FY2026 (about $12.47) and FY2027 (about $13.56, +9%) EPS levels are a third-party consensus from one aggregator (TIKR), not checked against a primary source; the bear and bull EPS are my assumptions around it. Market cap about $176-183B (aggregate row, USD, 594.25M shares at the $302.44 close), well above the $20B floor. Price targets exclude the dividend (annual rate $5.68 in the aggregate row, not added). Pending transactions, including the Norfolk Southern combination, are not modelled; the base assumes standalone earnings.",
+    "bear": 232.2,
+    "base": 284.76,
+    "bull": 331.2,
+    "cases": {
+      "bear": {
+        "driver": "Volume softness and fuel-driven cost pressure (Q4 fuel guided to $4.85/gal vs $4.21 in Q3) leave 2027 EPS about 5% below consensus; the market pays a lower multiple for a slower-growth rail franchise",
+        "assumption": "EPS $12.90 at 18.0x",
+        "target": 232.2
+      },
+      "base": {
+        "driver": "Consensus-level 2027 EPS consistent with the management 3-year CAGR goal; operating ratio held near the 58-59% range; P/E trims from the current 22.3x consensus-2027 multiple to 21x as growth normalises",
+        "assumption": "EPS $13.56 at 21.0x",
+        "target": 284.76
+      },
+      "bull": {
+        "driver": "Intermodal and pricing run ahead of the plan, OR gains continue, and buybacks lift per-share EPS about 6% above consensus; the premium multiple holds",
+        "assumption": "EPS $14.40 at 23.0x",
+        "target": 331.2
+      }
+    },
+    "implied_by_close": "At base EPS $13.56 the $302.44 close implies 22.3x. The aggregate analyst mean target ($329.96, 24 analysts, Yahoo Finance via yfinance) implies 24.3x at base EPS, or about $15.71 EPS at 21x (about 16% above base). The named-firm targets above ($310 to $339) sit mostly in that range.",
+    "sensitivity": "One turn of P/E moves the base target by $13.56 (4.5 pp of the close); $1.00 of 2027 EPS moves it by $21.00 (6.9 pp).",
+    "watch_metric": "Reported EPS growth and operating ratio in Q4 2026 and the 2027 outlook: the base case needs roughly 9% EPS growth in 2027 with the OR in the high 50s. Fuel above the $4.85/gal Q4 assumption, or volume declines, would move the case toward the bear.",
+    "next_disclosure": "Q4 and full-year 2026 results, expected around late January 2027 (exact date not confirmed in the sources)"
+  },
+  "dividend_per_share": 5.68,
+  "analyst_notes": "Named coverage is thin: only Baird (Dan Moore) has an identifiable sequence in the window. Baird raised to $344 with an Outperform rating on Jul 27, 2026, then cut to $310 with a Neutral rating on Nov 5, 2026, the latest named view. UBS upgraded to Buy with a $339 target on Sep 16, 2026, and JPMorgan (Neutral, $334) moved on Jul 24, 2026; both analysts are unnamed in the sources. The firm-level targets ($310 to $339) are 2.5 to 12 percent above the close, against a base case at -5.8 percent. At our $13.56 base EPS they imply 22.9x to 25.0x, 2 to 4 turns above our 21x; equivalently, about $1.20 to $2.60 more 2027 EPS at 21x. The gap is therefore a multiple or earnings-growth question that the broker models do not disclose. Aggregate mean and median targets ($330 and $335) are provider data (Yahoo Finance via yfinance, 24 analysts) and are not in the weighted target; the wide spread between aggregators (about $280 to $330) reflects stale or undated entries.",
+  "sources": [
+    {
+      "label": "Union Pacific Q3 2026 results, Form 8-K Exhibit 99.1 (Oct 22, 2026)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000319/a2026-10x228xkex991earning.htm",
+      "supports": "Q3 2026 reported and adjusted EPS, operating ratio, 594.5M diluted shares, FY2026 EPS growth outlook, 3-year CAGR target"
+    },
+    {
+      "label": "MarketBeat: Baird (Dan Moore) raises target to $344, Jul 27, 2026",
+      "url": "https://www.marketbeat.com/instant-alerts/robert-w-baird-forecasts-strong-price-appreciation-for-union-pacific-nyseunp-stock-2026-07-27/",
+      "supports": "Baird target $344 from $311 and Outperform rating, Jul 27, 2026 (page not retrieved directly; taken from search summary)"
+    },
+    {
+      "label": "Goldesel: Baird downgrades to Neutral, target $310, Nov 5, 2026",
+      "url": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar",
+      "supports": "Baird (Dan Moore) downgrade to Neutral, target cut from $344 to $310, Nov 5, 2026"
+    },
+    {
+      "label": "Goldesel: UBS upgrades to Buy, target $339, Sep 16, 2026",
+      "url": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar",
+      "supports": "UBS upgrade from Neutral to Buy, target $310 to $339, Sep 16, 2026"
+    },
+    {
+      "label": "MarketBeat: JPMorgan raises target to $334 (Neutral), Jul 24, 2026",
+      "url": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/",
+      "supports": "JPMorgan target $334 from $304, Neutral, Jul 24, 2026 (page not retrieved directly; taken from search summary)"
+    },
+    {
+      "label": "TIKR: UNP 2027 analyst outlook (consensus EPS about $13.56)",
+      "url": "https://www.tikr.com/blog/union-pacific-stock-prediction-where-analysts-see-the-stock-going-by-2027",
+      "supports": "FY2026 and FY2027 consensus EPS anchors (secondary aggregator)"
+    }
+  ]
+}

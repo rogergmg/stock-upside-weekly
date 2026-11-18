@@ -1,0 +1,51 @@
+{
+  "issuer_id": "Deere & Company",
+  "symbol": "DE",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 673.54, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-08-20T06:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Mircea Dobre", "firm": "Baird", "field": "target", "value": 800, "source_prior": 640,
+     "issued_at": "2026-08-31", "public_at": "2026-08-31T19:26:00-04:00", "horizon_months": null,
+     "source": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/"},
+    {"analyst": "Mircea Dobre", "firm": "Baird", "field": "rating", "value": "Outperform", "bucket": "Buy",
+     "issued_at": "2026-08-31", "public_at": "2026-08-31T19:26:00-04:00",
+     "source": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/"},
+    {"analyst": "Jefferies analyst (unnamed)", "firm": "Jefferies", "field": "rating", "value": "Hold", "bucket": "Hold",
+     "issued_at": "2026-04-08", "public_at": "2026-04-08T23:59:59-04:00",
+     "source": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html"},
+    {"analyst": "Jefferies analyst (unnamed)", "firm": "Jefferies", "field": "target", "value": 550, "source_prior": null,
+     "issued_at": "2026-04-08", "public_at": "2026-04-08T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html"},
+    {"analyst": "DA Davidson analyst (unnamed)", "firm": "DA Davidson", "field": "target", "value": 685, "source_prior": null,
+     "issued_at": "2026-05-22", "public_at": "2026-05-22T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/deere-company-nysede-price-target-cut-to-68500-by-analysts-at-da-davidson-2026-05-22/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x justified P/E. FY2027 diluted EPS (fiscal year ending about 31 Oct 2027), the period an investor at the Nov 2027 target date prices, multiplied by a P/E. USD listing, NYSE common stock, no FX conversion needed. Anchors: FY2026 net income guidance $4.75-5.00B (raised low end, Q3 release 20 Aug 2026) on about 269.6M shares, which is roughly $17.6-18.5 per share; Q3 FY2026 EPS $5.10 on net income $1.379B and net sales $12.61B; management says 2026 marks the bottom of the current ag equipment cycle. Share count 269,625,412 used for the market cap bounds. Dividend $6.48 annual rate per the aggregate row.",
+    "bear": 324.0,
+    "base": 528.0,
+    "bull": 700.0,
+    "cases": {
+      "bear": {"driver": "Ag cycle trough extends into FY2027; North American large-equipment sales fall further (guided down 15-20% in FY2026 outlook) and South America and Europe stay weak", "assumption": "EPS $18.00 (flat to FY2026 trough) x 18x mid-cycle P/E", "target": 324.0},
+      "base": {"driver": "Gradual recovery from the FY2026 trough with tariff refunds not repeated; consensus FY2027 EPS of about $22.19 trimmed toward JPMorgan's $20.49 cut", "assumption": "EPS $22.00 x 24x", "target": 528.0},
+      "bull": {"driver": "Faster replacement and precision-ag recovery plus buybacks (about $20B 2027 program cited in coverage); Baird's about $25 FY2027 EPS view", "assumption": "EPS $25.00 x 28x", "target": 700.0}
+    },
+    "implied_by_close": "At base EPS of $22.00 the close of $673.54 implies 30.6x FY2027 EPS. The aggregate analyst mean of $694.01 (median $728) implies about 28-31x on base EPS, or about $28.70 EPS at 24x, roughly 30% above base EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $22.00 (3.3 pp of the $673.54 close). A $1.00 change in FY2027 EPS moves the base target by $24.00 (3.6 pp).",
+    "watch_metric": "North American large-equipment order and production trend and FY2027 net income guidance; a clear FY2027 EPS step-up toward $25 supports the bull case, while a further cut toward $20 supports the bear case",
+    "next_disclosure": "Q4 and full-year FY2026 earnings release scheduled 2026-11-25 (08:30 ET per the aggregate row), which includes FY2027 outlook commentary"
+  },
+  "dividend_per_share": 6.48,
+  "analyst_notes": "Named coverage found for this window is thin: Baird (Mircea Dobre) raised its target to $800 from $640 with an Outperform rating on 31 Aug 2026 and cites about $25 FY2027 EPS, while Jefferies moved to Hold with a $550 target (dated 8 Apr 2026 from a 'Wednesday' reference) and DA Davidson's $685 target on 22 May 2026 is a cut with an unknown prior. JPMorgan (Tami Zakaria, Hold) cut FY2027 EPS to $20.49 from $22.81 after Q3, which is the main gap to our base EPS of $22.00 (about 10% lower EPS would take the target to about $475 at 24x). The aggregate mean of $694 is above the close, but it is a broad provider aggregate of 23 analysts (not used in the weighted calculation) and is not reconciled to dated named calls. Several post-Q3 target moves reported by aggregators (Oppenheimer, Citi, Evercore) lacked verifiable dates and are excluded.",
+  "sources": [
+    {"label": "Deere Q3 FY2026 news release (quarter ended 2 Aug 2026)", "url": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q3/DE-3Q26-News-Release.pdf", "supports": "Q3 release existence and reporting date; figures cross-checked against press coverage"},
+    {"label": "Deere reports Q3 net income of $1.379 billion (Farm Equipment)", "url": "https://www.farm-equipment.com/articles/25589-deere-reports-third-quarter-net-income-of-1379-billion", "supports": "Q3 net income $1.379B, FY2026 net income outlook $4.75-5.00B"},
+    {"label": "Parameter.io: Deere Q3 beat and FY2027 consensus", "url": "https://parameter.io/deere-de-stock-climbs-after-strong-q3-beat-is-recovery-on-the-horizon/", "supports": "EPS $5.10, net sales $12.61B, JPMorgan FY2027 EPS $20.49 (from $22.81), consensus FY2027 about $22.19"},
+    {"label": "Fool: Baird raises Deere target to $800 (31 Aug 2026)", "url": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/", "supports": "Baird Outperform, target $640 to $800, about $25 FY2027 EPS view"},
+    {"label": "Yahoo Finance: Jefferies upgrades Deere to Hold, $550 target", "url": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html", "supports": "Jefferies Hold rating and $550 target (date inferred from article)"},
+    {"label": "MarketBeat: DA Davidson cuts Deere target to $685 (22 May 2026)", "url": "https://www.marketbeat.com/instant-alerts/deere-company-nysede-price-target-cut-to-68500-by-analysts-at-da-davidson-2026-05-22/", "supports": "DA Davidson target $685 on 2026-05-22"}
+  ]
+}

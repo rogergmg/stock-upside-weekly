@@ -1,0 +1,70 @@
+{
+  "issuer_id": "Welltower Inc.",
+  "symbol": "WELL",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 244.46, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-26T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Austin Wurschmidt", "firm": "KeyBanc", "field": "target", "value": 275, "source_prior": 240,
+     "issued_at": "2026-08-04", "public_at": "2026-08-04T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/quote/WELL/sentiment"},
+    {"analyst": "Austin Wurschmidt", "firm": "KeyBanc", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-08-04", "public_at": "2026-08-04T23:59:59-04:00",
+     "source": "https://www.benzinga.com/quote/WELL/sentiment"},
+    {"analyst": "Michael Mueller", "firm": "JPMorgan", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-09-24", "public_at": "2026-09-24T23:59:59-04:00",
+     "source": "https://goldesel.de/aktien/news/jpmorgan-stuft-welltower-auf-overweight-hoch-und-setzt-kursziel-auf-260-us-dollar"},
+    {"analyst": "Barclays (analyst not named)", "firm": "Barclays", "field": "target", "value": 259, "source_prior": 254,
+     "issued_at": "2026-08-31", "public_at": "2026-08-31T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.thecerbatgem.com/?p=10394386"},
+    {"analyst": "Barclays (analyst not named)", "firm": "Barclays", "field": "rating", "value": "Equal Weight", "bucket": "Hold",
+     "issued_at": "2026-08-31", "public_at": "2026-08-31T23:59:59-04:00",
+     "source": "https://www.thecerbatgem.com/?p=10394386"},
+    {"analyst": "Scotiabank (analyst not named)", "firm": "Scotiabank", "field": "target", "value": 248, "source_prior": 236,
+     "issued_at": "2026-05-21", "public_at": "2026-05-26T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-welltower-234636628.html"},
+    {"analyst": "Scotiabank (analyst not named)", "firm": "Scotiabank", "field": "target", "value": 251, "source_prior": 248,
+     "issued_at": "2026-09-02", "public_at": "2026-09-02T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.thecerbatgem.com/?p=10394386"}
+  ],
+  "valuation": {
+    "method": "REIT: FY2027 normalized FFO per diluted share (the period an investor prices at the Nov 2027 12-month target date) x justified FFO multiple. Anchors: 2026 normalized FFO guidance raised on Oct 26, 2026 to $6.47-$6.53 (midpoint $6.50) from $6.36-$6.44; Q3 2026 normalized FFO $1.67 (+24.6% y/y); Q3 average diluted shares 754.9M; net debt/adjusted EBITDA 3.02x; liquidity about $9.5B; quarterly dividend $0.85. 2027 FFO paths are my assumptions, not company guidance. NAREIT FFO guidance was cut to $6.07-$6.13, so the normalized definition is the basis. Dividends of about $3.40 (4 x $0.85, not growth-adjusted) are excluded from price targets.",
+    "bear": 201.6,
+    "base": 253.3,
+    "bull": 284.4,
+    "cases": {
+      "bear": {
+        "driver": "Senior housing occupancy gains stall and rate growth slows; acquisitions dilute growth; the multiple compresses from today's premium",
+        "assumption": "2027 normalized FFO $6.30 (about 3% below 2026 midpoint) at 32x",
+        "target": 201.6
+      },
+      "base": {
+        "driver": "SHO same-store NOI growth stays strong as occupancy and RevPOR rise, plus announced acquisitions and the 2026 guidance run-rate; FFO grows about 15% in 2027",
+        "assumption": "2027 normalized FFO $7.45 at 34x",
+        "target": 253.3
+      },
+      "bull": {
+        "driver": "Occupancy and pricing keep compounding and private-fund and acquisition growth lifts FFO further; the market keeps paying a senior-housing growth premium",
+        "assumption": "2027 normalized FFO $7.90 at 36x",
+        "target": 284.4
+      }
+    },
+    "implied_by_close": "At the 2026 midpoint $6.50 the $244.46 close implies 37.6x; at base 2027 FFO $7.45 it implies 32.8x. The named-analyst targets ($251-275, mean about $261) imply about 35.0x base FFO, or about $7.68 FFO at 34x (3% above base). The pipeline aggregate mean ($265.45, 22 analysts) implies about 35.6x base FFO.",
+    "sensitivity": "One turn of FFO multiple moves the base target by $7.45 (3.0 pp of the close); $0.10 of 2027 FFO moves it by $3.40 (1.4 pp).",
+    "watch_metric": "Same-store senior housing NOI growth and SHOP occupancy/RevPOR (Q3 2026: SHO NOI +21.0%, SHOP revenue +9.1%, occupancy +320 bps). The base case needs roughly 15% FFO growth in 2027, which requires occupancy gains to continue alongside accretive acquisitions.",
+    "next_disclosure": "Q4 and full-year 2026 results with 2027 outlook, expected around late February 2027 (date not confirmed in sources)"
+  },
+  "dividend_per_share": 3.4,
+  "analyst_notes": "Named and firm-level calls moved up after the strong Q3 2026 print: KeyBanc raised to 275 (Buy, Aug 4), JPMorgan upgraded to Overweight (Sep 24), Barclays moved to 259 (Equal Weight, Aug 31) and Scotiabank to 251 (Sep 2). Only two analysts are named in the sources, and all target horizons are undocumented (null), so the weighted target is not computed. The mean of the named targets (about 261) and the aggregate mean (265.45) sit 7-9% above the close, versus my base at +3.6%; the gap equals about 1.5 turns of FFO multiple or roughly $0.20 of 2027 FFO. Post-earnings named revisions after Oct 26 were not found in the sources, so some targets predate the Q3 release.",
+  "sources": [
+    {"label": "Welltower Q3 2026 results release (via Finviz)", "url": "https://finviz.com/news/408031/welltower-reports-third-quarter-2026-results", "supports": "Q3 normalized FFO, FY2026 guidance, diluted shares, leverage, dividend"},
+    {"label": "Zacks Q3 2026 FFO beat coverage", "url": "https://zacks.com/stock/news/3016413/well-s-q3-ffo-beat-estimates-on-strong-sho-portfolio-growth", "supports": "SHO NOI growth, SHOP revenue and RevPOR"},
+    {"label": "Benzinga WELL sentiment and rating history", "url": "https://www.benzinga.com/quote/WELL/sentiment", "supports": "KeyBanc Aug 4 2026 target 275 from 240, Buy"},
+    {"label": "Goldesel JPMorgan upgrade Sep 2026", "url": "https://goldesel.de/aktien/news/jpmorgan-stuft-welltower-auf-overweight-hoch-und-setzt-kursziel-auf-260-us-dollar", "supports": "JPMorgan Overweight upgrade, Michael Mueller, Sep 24 2026"},
+    {"label": "Cerbat Gem analyst action roundup Aug-Sep 2026", "url": "https://www.thecerbatgem.com/?p=10394386", "supports": "Barclays 259 from 254 (Aug 31), Scotiabank 251 (Sep 2)"},
+    {"label": "Yahoo Scotiabank target raise May 2026", "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-welltower-234636628.html", "supports": "Scotiabank 248 from 236 (May 21 2026)"},
+    {"label": "Barchart WELL analyst estimates", "url": "https://www.barchart.com/story/news/3781129/welltower-stock-analyst-estimates-ratings", "supports": "Aggregate mean 258.91, high 292, 22 analysts (Aug 2026)"}
+  ]
+}

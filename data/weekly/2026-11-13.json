@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:44:30.736128+00:00",
+  "built_at": "2026-11-18T12:46:47.712519+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 83,
+    "rank_valued": 88,
     "rank_with_named_targets": 2,
-    "rank_matched": 83,
-    "researched": 83
+    "rank_matched": 88,
+    "researched": 88
   },
   "ranked": [
     {
@@ -101,6 +101,27 @@
         "bull": 116.94670116721845
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "CRM",
+      "issuer_id": "Salesforce, Inc.",
+      "close": 217.84,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 175696673600,
+        "high": 182901544800
+      },
+      "scenarios_pct": {
+        "bear": -6.353286816011752,
+        "base": 26.239441792141022,
+        "bull": 62.504590525156075
+      },
+      "base_total_return_pct": 27.047374219610724,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -414,6 +435,27 @@
         "bear": -13.797777175386283,
         "base": 11.141230685822716,
         "bull": 30.116562754133913
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "TMUS",
+      "issuer_id": "T-Mobile US, Inc.",
+      "close": 169.95,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 176422905972,
+        "high": 183623840910
+      },
+      "scenarios_pct": {
+        "bear": -19.093851132686083,
+        "base": 10.914974992644895,
+        "bull": 45.92527213886437
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -1073,6 +1115,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "WELL",
+      "issuer_id": "Welltower Inc.",
+      "close": 244.46,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 175751501767,
+        "high": 182977412195
+      },
+      "scenarios_pct": {
+        "bear": -17.532520657776324,
+        "base": 3.6161335187760777,
+        "bull": 16.338051214922686
+      },
+      "base_total_return_pct": 5.006954102920723,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "SPCX",
       "issuer_id": "Space Exploration Technologies Corp.",
       "close": 139.11,
@@ -1703,6 +1766,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "UNP",
+      "issuer_id": "Union Pacific Corporation",
+      "close": 302.44,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 176130593899,
+        "high": 183410518045
+      },
+      "scenarios_pct": {
+        "bear": -23.224441211479963,
+        "base": -5.845787594233567,
+        "bull": 9.50932416347044
+      },
+      "base_total_return_pct": -3.9677291363576246,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "GILD",
       "issuer_id": "Gilead Sciences, Inc.",
       "close": 168.08,
@@ -1764,31 +1848,32 @@
       "target_count": 0,
       "coverage": "partial",
       "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "DE",
+      "issuer_id": "Deere & Company",
+      "close": 673.54,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 177939722050,
+        "high": 185235569998
+      },
+      "scenarios_pct": {
+        "bear": -51.8959527273807,
+        "base": -21.608219259435224,
+        "bull": 3.9284971939305757
+      },
+      "base_total_return_pct": -20.64613831398284,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
     }
   ],
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "DE",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "TMUS",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "UNP",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "WELL",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "CRM",
       "reason": "independent valuation unavailable"
     },
     {
@@ -40256,6 +40341,1176 @@
         }
       ]
     },
+    "DE": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 673.54,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x justified P/E. FY2027 diluted EPS (fiscal year ending about 31 Oct 2027), the period an investor at the Nov 2027 target date prices, multiplied by a P/E. USD listing, NYSE common stock, no FX conversion needed. Anchors: FY2026 net income guidance $4.75-5.00B (raised low end, Q3 release 20 Aug 2026) on about 269.6M shares, which is roughly $17.6-18.5 per share; Q3 FY2026 EPS $5.10 on net income $1.379B and net sales $12.61B; management says 2026 marks the bottom of the current ag equipment cycle. Share count 269,625,412 used for the market cap bounds. Dividend $6.48 annual rate per the aggregate row.",
+        "bear": 324.0,
+        "base": 528.0,
+        "bull": 700.0,
+        "cases": {
+          "bear": {
+            "driver": "Ag cycle trough extends into FY2027; North American large-equipment sales fall further (guided down 15-20% in FY2026 outlook) and South America and Europe stay weak",
+            "assumption": "EPS $18.00 (flat to FY2026 trough) x 18x mid-cycle P/E",
+            "target": 324.0
+          },
+          "base": {
+            "driver": "Gradual recovery from the FY2026 trough with tariff refunds not repeated; consensus FY2027 EPS of about $22.19 trimmed toward JPMorgan's $20.49 cut",
+            "assumption": "EPS $22.00 x 24x",
+            "target": 528.0
+          },
+          "bull": {
+            "driver": "Faster replacement and precision-ag recovery plus buybacks (about $20B 2027 program cited in coverage); Baird's about $25 FY2027 EPS view",
+            "assumption": "EPS $25.00 x 28x",
+            "target": 700.0
+          }
+        },
+        "implied_by_close": "At base EPS of $22.00 the close of $673.54 implies 30.6x FY2027 EPS. The aggregate analyst mean of $694.01 (median $728) implies about 28-31x on base EPS, or about $28.70 EPS at 24x, roughly 30% above base EPS.",
+        "sensitivity": "One turn of P/E moves the base target by $22.00 (3.3 pp of the $673.54 close). A $1.00 change in FY2027 EPS moves the base target by $24.00 (3.6 pp).",
+        "watch_metric": "North American large-equipment order and production trend and FY2027 net income guidance; a clear FY2027 EPS step-up toward $25 supports the bull case, while a further cut toward $20 supports the bear case",
+        "next_disclosure": "Q4 and full-year FY2026 earnings release scheduled 2026-11-25 (08:30 ET per the aggregate row), which includes FY2027 outlook commentary"
+      },
+      "dividend_per_share": 6.48,
+      "analyst_notes": "Named coverage found for this window is thin: Baird (Mircea Dobre) raised its target to $800 from $640 with an Outperform rating on 31 Aug 2026 and cites about $25 FY2027 EPS, while Jefferies moved to Hold with a $550 target (dated 8 Apr 2026 from a 'Wednesday' reference) and DA Davidson's $685 target on 22 May 2026 is a cut with an unknown prior. JPMorgan (Tami Zakaria, Hold) cut FY2027 EPS to $20.49 from $22.81 after Q3, which is the main gap to our base EPS of $22.00 (about 10% lower EPS would take the target to about $475 at 24x). The aggregate mean of $694 is above the close, but it is a broad provider aggregate of 23 analysts (not used in the weighted calculation) and is not reconciled to dated named calls. Several post-Q3 target moves reported by aggregators (Oppenheimer, Citi, Evercore) lacked verifiable dates and are excluded.",
+      "sources": [
+        {
+          "label": "Deere Q3 FY2026 news release (quarter ended 2 Aug 2026)",
+          "url": "https://s22.q4cdn.com/253594569/files/doc_financials/2026/q3/DE-3Q26-News-Release.pdf",
+          "supports": "Q3 release existence and reporting date; figures cross-checked against press coverage"
+        },
+        {
+          "label": "Deere reports Q3 net income of $1.379 billion (Farm Equipment)",
+          "url": "https://www.farm-equipment.com/articles/25589-deere-reports-third-quarter-net-income-of-1379-billion",
+          "supports": "Q3 net income $1.379B, FY2026 net income outlook $4.75-5.00B"
+        },
+        {
+          "label": "Parameter.io: Deere Q3 beat and FY2027 consensus",
+          "url": "https://parameter.io/deere-de-stock-climbs-after-strong-q3-beat-is-recovery-on-the-horizon/",
+          "supports": "EPS $5.10, net sales $12.61B, JPMorgan FY2027 EPS $20.49 (from $22.81), consensus FY2027 about $22.19"
+        },
+        {
+          "label": "Fool: Baird raises Deere target to $800 (31 Aug 2026)",
+          "url": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/",
+          "supports": "Baird Outperform, target $640 to $800, about $25 FY2027 EPS view"
+        },
+        {
+          "label": "Yahoo Finance: Jefferies upgrades Deere to Hold, $550 target",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html",
+          "supports": "Jefferies Hold rating and $550 target (date inferred from article)"
+        },
+        {
+          "label": "MarketBeat: DA Davidson cuts Deere target to $685 (22 May 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/deere-company-nysede-price-target-cut-to-68500-by-analysts-at-da-davidson-2026-05-22/",
+          "supports": "DA Davidson target $685 on 2026-05-22"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-20T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 146.5,
+        "max_weight_pct": 75.33829850455272,
+        "contributors": [
+          {
+            "analyst": "Jefferies analyst (unnamed)",
+            "firm": "Jefferies",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-04-08",
+            "age_days": 219,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html",
+            "weight": 0.24661701495447275
+          },
+          {
+            "analyst": "Mircea Dobre",
+            "firm": "Baird",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-08-31",
+            "age_days": 74,
+            "after_earnings": true,
+            "source": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/",
+            "weight": 0.7533829850455273
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 75.33829850455272,
+          "Hold": 24.661701495447275,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "DA Davidson analyst (unnamed)",
+          "firm": "DA Davidson",
+          "field": "target",
+          "value": 685.0,
+          "source_prior": null,
+          "issued_at": "2026-05-22",
+          "public_at": "2026-05-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/deere-company-nysede-price-target-cut-to-68500-by-analysts-at-da-davidson-2026-05-22/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-04-08",
+          "public_at": "2026-04-08T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 550.0,
+          "source_prior": null,
+          "issued_at": "2026-04-08",
+          "public_at": "2026-04-08T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mircea Dobre",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T19:26:00-04:00",
+          "source": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mircea Dobre",
+          "firm": "Baird",
+          "field": "target",
+          "value": 800.0,
+          "source_prior": 640,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T19:26:00-04:00",
+          "horizon_months": null,
+          "source": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/",
+          "prior_observed": null,
+          "revision_pct": 25.0,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "TMUS": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 169.95,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E at the 12-month target date (Nov 2027). An investor then prices roughly next-twelve-month EPS, a blend of FY2028 and FY2027 weighted toward FY2028. FY2027 EPS is taken as about $13.5 (June-November 2026 consensus snippets range $13.5-13.7; Erste Group $13.70 per a MarketBeat note dated 2026-07-30; a KeyCorp $12.53 estimate sits at the low end) and FY2028 is assumed about 10% higher, so base NTM EPS is $14.50. These are model assumptions, not company guidance. USD listing, no ADR conversion, no dividend added to the price targets.",
+        "bear": 137.5,
+        "base": 188.5,
+        "bull": 248.0,
+        "cases": {
+          "bear": {
+            "driver": "Postpaid phone and broadband growth slows and promotional intensity keeps ARPA near the low end of the 3.5% guide; EPS growth stalls near the KeyCorp-type $12.5 FY2027 level and the multiple stays at a telecom-discount level",
+            "assumption": "NTM EPS $12.50 at 11x",
+            "target": 137.5
+          },
+          "base": {
+            "driver": "Raised FY2026 guide (core adjusted EBITDA $37.35-37.45B, adjusted FCF $18.7-18.8B, about 1.0M postpaid net account adds, service revenue about $76.8B) carries into about 10% EPS growth as buybacks ($10.3B repurchased through Oct 23, 2026) and the UScellular synergies ($1.2B run-rate) flow through; the multiple re-rates modestly from about 11.7x",
+            "assumption": "NTM EPS $14.50 at 13x",
+            "target": 188.5
+          },
+          "bull": {
+            "driver": "Fiber and 5G home broadband growth plus the UScellular synergy realisation push EPS growth to mid-teens, and the market reprices the stock toward the high end of the July-2026 target range",
+            "assumption": "NTM EPS $15.50 at 16x",
+            "target": 248.0
+          }
+        },
+        "implied_by_close": "At base NTM EPS $14.50 the $169.95 close implies 11.7x. Named broker targets in the sample ($220-280) imply 15-19x at the same EPS; the provider aggregate mean of $225.44 implies about 15.5x. The base case is below the aggregate because the model does not assume a return to the multiple the sell-side targets embed.",
+        "sensitivity": "One turn of P/E moves the base target by $14.50 (8.5 pp of return on the close). A $0.50 change in NTM EPS moves it by $6.50 (3.8 pp).",
+        "watch_metric": "Postpaid phone net adds and core adjusted EBITDA growth against the raised FY2026 guide; a run-rate of core adjusted EBITDA growth below about 8% or adjusted FCF tracking below the $18.7B low end would break the base case.",
+        "next_disclosure": "Q4 and full-year 2026 results, date not yet announced in the sources reviewed (typically late January or February 2027), which will include the first formal 2027 outlook."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Five named-firm calls with dated targets were found, all issued between 2026-07-06 and 2026-07-27, before the Oct 28 Q3 report, so none reflects the post-earnings guidance raise; the Q3 print (diluted EPS $3.22 vs about $2.89 expected) and raised guide have no broker updates in the sources reviewed. Targets run $220-280 against the $169.95 close, a gap the base case explains mainly through multiple (about 11.7x EPS at close versus 15-19x implied by the targets) rather than EPS. Horizons are not documented in the sources, so all targets are kept in the timeline and excluded from the weighted target. Named individuals were not identified, so the calls are labelled by firm.",
+      "sources": [
+        {
+          "label": "MarketBeat: Morgan Stanley cuts TMUS target to $230 (Jul 7 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/",
+          "supports": "Morgan Stanley target and Overweight rating"
+        },
+        {
+          "label": "MarketBeat: Bank of America upgrades TMUS to Buy, $220 target (Jul 6 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/",
+          "supports": "Bank of America rating and target"
+        },
+        {
+          "label": "MarketBeat: Benchmark cuts TMUS target to $280 from $295, Buy (Jul 24 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/",
+          "supports": "Benchmark target, prior target and Buy rating"
+        },
+        {
+          "label": "MarketBeat: TD Cowen cuts TMUS target to $260 (Jul 24 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/td-cowen-cuts-t-mobile-us-nasdaqtmus-price-target-to-26000-2026-07-24/",
+          "supports": "TD Cowen target"
+        },
+        {
+          "label": "MarketBeat: UBS cuts TMUS target to $235 from $255, Buy (Jul 27 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/",
+          "supports": "UBS target, prior target and Buy rating"
+        },
+        {
+          "label": "Newsquawk: TMUS Q3 2026 EPS $3.22 vs $2.89 expected, revenue $23.6B",
+          "url": "https://www.newsquawk.com/headlines/t-mobile-us-inc-tmus-q3-2026-usd-eps-322-exp-289-revenue-236bln-exp-231bln",
+          "supports": "Q3 2026 EPS and revenue versus consensus"
+        },
+        {
+          "label": "MarketBeat: T-Mobile Q3 2026 earnings call highlights (Oct 28 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-t-mobile-us-q3-earnings-call-highlights-2026-10-28/",
+          "supports": "Raised FY2026 core adjusted EBITDA and adjusted FCF guidance, net adds, ARPA, buybacks"
+        },
+        {
+          "label": "Quartr: T-Mobile US Q3 2026 earnings event (Oct 28 2026)",
+          "url": "https://quartr.com/events/t-mobile-us-inc-tmus-q3-2026_3PmlH86T",
+          "supports": "Q3 release date, diluted EPS $3.22, full FY2026 guidance and effective tax rate"
+        },
+        {
+          "label": "MarketBeat: Erste Group FY2027 EPS estimate $13.70 (Jul 30 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analysts-set-expectations-for-t-mobile-us-fy2026-earnings-2026-07-30/",
+          "supports": "FY2027 EPS input range"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-28T16:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 120.5,
+        "max_weight_pct": 27.13651838845078,
+        "contributors": [
+          {
+            "analyst": "Bank of America analyst (unnamed)",
+            "firm": "Bank of America",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-06",
+            "age_days": 130,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/",
+            "weight": 0.23084145055594119
+          },
+          {
+            "analyst": "Benchmark analyst (unnamed)",
+            "firm": "Benchmark",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-24",
+            "age_days": 112,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/",
+            "weight": 0.265167194518739
+          },
+          {
+            "analyst": "Morgan Stanley analyst (unnamed)",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-07-07",
+            "age_days": 129,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/",
+            "weight": 0.23262617104081196
+          },
+          {
+            "analyst": "UBS analyst (unnamed)",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-27",
+            "age_days": 109,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/",
+            "weight": 0.2713651838845078
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 220.0,
+          "source_prior": null,
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Benchmark analyst (unnamed)",
+          "firm": "Benchmark",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Benchmark analyst (unnamed)",
+          "firm": "Benchmark",
+          "field": "target",
+          "value": 280.0,
+          "source_prior": 295,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/",
+          "prior_observed": null,
+          "revision_pct": -5.0847457627118615,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-07-07",
+          "public_at": "2026-07-07T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 230.0,
+          "source_prior": 260,
+          "issued_at": "2026-07-07",
+          "public_at": "2026-07-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/",
+          "prior_observed": null,
+          "revision_pct": -11.538461538461542,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 260.0,
+          "source_prior": null,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/td-cowen-cuts-t-mobile-us-nasdaqtmus-price-target-to-26000-2026-07-24/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "UBS analyst (unnamed)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "UBS analyst (unnamed)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 235.0,
+          "source_prior": 255,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/",
+          "prior_observed": null,
+          "revision_pct": -7.843137254901967,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "UNP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 302.44,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x justified P/E: FY2027 diluted EPS, the year an investor at the Nov 2027 12-month target date is pricing, times a P/E. Anchors from the Q3 2026 release (Oct 22, 2026): adjusted diluted EPS $3.53 (reported $3.49), adjusted operating ratio 58.8%, 594.5M weighted diluted shares. Management kept its outlook of high-single-digit reported EPS growth for 2026, consistent with a 3-year EPS CAGR target of high-single to low-double digits through 2027 (company guidance, no dollar figure given). The FY2026 (about $12.47) and FY2027 (about $13.56, +9%) EPS levels are a third-party consensus from one aggregator (TIKR), not checked against a primary source; the bear and bull EPS are my assumptions around it. Market cap about $176-183B (aggregate row, USD, 594.25M shares at the $302.44 close), well above the $20B floor. Price targets exclude the dividend (annual rate $5.68 in the aggregate row, not added). Pending transactions, including the Norfolk Southern combination, are not modelled; the base assumes standalone earnings.",
+        "bear": 232.2,
+        "base": 284.76,
+        "bull": 331.2,
+        "cases": {
+          "bear": {
+            "driver": "Volume softness and fuel-driven cost pressure (Q4 fuel guided to $4.85/gal vs $4.21 in Q3) leave 2027 EPS about 5% below consensus; the market pays a lower multiple for a slower-growth rail franchise",
+            "assumption": "EPS $12.90 at 18.0x",
+            "target": 232.2
+          },
+          "base": {
+            "driver": "Consensus-level 2027 EPS consistent with the management 3-year CAGR goal; operating ratio held near the 58-59% range; P/E trims from the current 22.3x consensus-2027 multiple to 21x as growth normalises",
+            "assumption": "EPS $13.56 at 21.0x",
+            "target": 284.76
+          },
+          "bull": {
+            "driver": "Intermodal and pricing run ahead of the plan, OR gains continue, and buybacks lift per-share EPS about 6% above consensus; the premium multiple holds",
+            "assumption": "EPS $14.40 at 23.0x",
+            "target": 331.2
+          }
+        },
+        "implied_by_close": "At base EPS $13.56 the $302.44 close implies 22.3x. The aggregate analyst mean target ($329.96, 24 analysts, Yahoo Finance via yfinance) implies 24.3x at base EPS, or about $15.71 EPS at 21x (about 16% above base). The named-firm targets above ($310 to $339) sit mostly in that range.",
+        "sensitivity": "One turn of P/E moves the base target by $13.56 (4.5 pp of the close); $1.00 of 2027 EPS moves it by $21.00 (6.9 pp).",
+        "watch_metric": "Reported EPS growth and operating ratio in Q4 2026 and the 2027 outlook: the base case needs roughly 9% EPS growth in 2027 with the OR in the high 50s. Fuel above the $4.85/gal Q4 assumption, or volume declines, would move the case toward the bear.",
+        "next_disclosure": "Q4 and full-year 2026 results, expected around late January 2027 (exact date not confirmed in the sources)"
+      },
+      "dividend_per_share": 5.68,
+      "analyst_notes": "Named coverage is thin: only Baird (Dan Moore) has an identifiable sequence in the window. Baird raised to $344 with an Outperform rating on Jul 27, 2026, then cut to $310 with a Neutral rating on Nov 5, 2026, the latest named view. UBS upgraded to Buy with a $339 target on Sep 16, 2026, and JPMorgan (Neutral, $334) moved on Jul 24, 2026; both analysts are unnamed in the sources. The firm-level targets ($310 to $339) are 2.5 to 12 percent above the close, against a base case at -5.8 percent. At our $13.56 base EPS they imply 22.9x to 25.0x, 2 to 4 turns above our 21x; equivalently, about $1.20 to $2.60 more 2027 EPS at 21x. The gap is therefore a multiple or earnings-growth question that the broker models do not disclose. Aggregate mean and median targets ($330 and $335) are provider data (Yahoo Finance via yfinance, 24 analysts) and are not in the weighted target; the wide spread between aggregators (about $280 to $330) reflects stale or undated entries.",
+      "sources": [
+        {
+          "label": "Union Pacific Q3 2026 results, Form 8-K Exhibit 99.1 (Oct 22, 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000100885/000010088526000319/a2026-10x228xkex991earning.htm",
+          "supports": "Q3 2026 reported and adjusted EPS, operating ratio, 594.5M diluted shares, FY2026 EPS growth outlook, 3-year CAGR target"
+        },
+        {
+          "label": "MarketBeat: Baird (Dan Moore) raises target to $344, Jul 27, 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/robert-w-baird-forecasts-strong-price-appreciation-for-union-pacific-nyseunp-stock-2026-07-27/",
+          "supports": "Baird target $344 from $311 and Outperform rating, Jul 27, 2026 (page not retrieved directly; taken from search summary)"
+        },
+        {
+          "label": "Goldesel: Baird downgrades to Neutral, target $310, Nov 5, 2026",
+          "url": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar",
+          "supports": "Baird (Dan Moore) downgrade to Neutral, target cut from $344 to $310, Nov 5, 2026"
+        },
+        {
+          "label": "Goldesel: UBS upgrades to Buy, target $339, Sep 16, 2026",
+          "url": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar",
+          "supports": "UBS upgrade from Neutral to Buy, target $310 to $339, Sep 16, 2026"
+        },
+        {
+          "label": "MarketBeat: JPMorgan raises target to $334 (Neutral), Jul 24, 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/",
+          "supports": "JPMorgan target $334 from $304, Neutral, Jul 24, 2026 (page not retrieved directly; taken from search summary)"
+        },
+        {
+          "label": "TIKR: UNP 2027 analyst outlook (consensus EPS about $13.56)",
+          "url": "https://www.tikr.com/blog/union-pacific-stock-prediction-where-analysts-see-the-stock-going-by-2027",
+          "supports": "FY2026 and FY2027 consensus EPS anchors (secondary aggregator)"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-22T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 3,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 58,
+        "max_weight_pct": 46.9640491363244,
+        "contributors": [
+          {
+            "analyst": "Dan Moore",
+            "firm": "Baird",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar",
+            "weight": 0.469640491363244
+          },
+          {
+            "analyst": "JPMorgan (analyst not named)",
+            "firm": "JPMorgan",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-07-24",
+            "age_days": 112,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/",
+            "weight": 0.21081846647471444
+          },
+          {
+            "analyst": "UBS Group (analyst not named)",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-16",
+            "age_days": 58,
+            "after_earnings": false,
+            "source": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar",
+            "weight": 0.3195410421620416
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 31.95410421620416,
+          "Hold": 68.04589578379584,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Dan Moore",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/robert-w-baird-forecasts-strong-price-appreciation-for-union-pacific-nyseunp-stock-2026-07-27/",
+          "prior_observed": null
+        },
+        {
+          "analyst": "Dan Moore",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T04:44:00-05:00",
+          "source": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar",
+          "prior_observed": "Outperform",
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Dan Moore",
+          "firm": "Baird",
+          "field": "target",
+          "value": 344.0,
+          "source_prior": 311,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/robert-w-baird-forecasts-strong-price-appreciation-for-union-pacific-nyseunp-stock-2026-07-27/",
+          "prior_observed": null,
+          "revision_pct": 10.61093247588425,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Dan Moore",
+          "firm": "Baird",
+          "field": "target",
+          "value": 310.0,
+          "source_prior": 344,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T04:44:00-05:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar",
+          "prior_observed": 344.0,
+          "revision_pct": -9.883720930232553,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "JPMorgan (analyst not named)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "JPMorgan (analyst not named)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 334.0,
+          "source_prior": 304,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/",
+          "prior_observed": null,
+          "revision_pct": 9.868421052631572,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "UBS Group (analyst not named)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-16",
+          "public_at": "2026-09-16T23:59:59-04:00",
+          "source": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "UBS Group (analyst not named)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 339.0,
+          "source_prior": 310,
+          "issued_at": "2026-09-16",
+          "public_at": "2026-09-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar",
+          "prior_observed": null,
+          "revision_pct": 9.354838709677416,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "WELL": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 244.46,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "REIT: FY2027 normalized FFO per diluted share (the period an investor prices at the Nov 2027 12-month target date) x justified FFO multiple. Anchors: 2026 normalized FFO guidance raised on Oct 26, 2026 to $6.47-$6.53 (midpoint $6.50) from $6.36-$6.44; Q3 2026 normalized FFO $1.67 (+24.6% y/y); Q3 average diluted shares 754.9M; net debt/adjusted EBITDA 3.02x; liquidity about $9.5B; quarterly dividend $0.85. 2027 FFO paths are my assumptions, not company guidance. NAREIT FFO guidance was cut to $6.07-$6.13, so the normalized definition is the basis. Dividends of about $3.40 (4 x $0.85, not growth-adjusted) are excluded from price targets.",
+        "bear": 201.6,
+        "base": 253.3,
+        "bull": 284.4,
+        "cases": {
+          "bear": {
+            "driver": "Senior housing occupancy gains stall and rate growth slows; acquisitions dilute growth; the multiple compresses from today's premium",
+            "assumption": "2027 normalized FFO $6.30 (about 3% below 2026 midpoint) at 32x",
+            "target": 201.6
+          },
+          "base": {
+            "driver": "SHO same-store NOI growth stays strong as occupancy and RevPOR rise, plus announced acquisitions and the 2026 guidance run-rate; FFO grows about 15% in 2027",
+            "assumption": "2027 normalized FFO $7.45 at 34x",
+            "target": 253.3
+          },
+          "bull": {
+            "driver": "Occupancy and pricing keep compounding and private-fund and acquisition growth lifts FFO further; the market keeps paying a senior-housing growth premium",
+            "assumption": "2027 normalized FFO $7.90 at 36x",
+            "target": 284.4
+          }
+        },
+        "implied_by_close": "At the 2026 midpoint $6.50 the $244.46 close implies 37.6x; at base 2027 FFO $7.45 it implies 32.8x. The named-analyst targets ($251-275, mean about $261) imply about 35.0x base FFO, or about $7.68 FFO at 34x (3% above base). The pipeline aggregate mean ($265.45, 22 analysts) implies about 35.6x base FFO.",
+        "sensitivity": "One turn of FFO multiple moves the base target by $7.45 (3.0 pp of the close); $0.10 of 2027 FFO moves it by $3.40 (1.4 pp).",
+        "watch_metric": "Same-store senior housing NOI growth and SHOP occupancy/RevPOR (Q3 2026: SHO NOI +21.0%, SHOP revenue +9.1%, occupancy +320 bps). The base case needs roughly 15% FFO growth in 2027, which requires occupancy gains to continue alongside accretive acquisitions.",
+        "next_disclosure": "Q4 and full-year 2026 results with 2027 outlook, expected around late February 2027 (date not confirmed in sources)"
+      },
+      "dividend_per_share": 3.4,
+      "analyst_notes": "Named and firm-level calls moved up after the strong Q3 2026 print: KeyBanc raised to 275 (Buy, Aug 4), JPMorgan upgraded to Overweight (Sep 24), Barclays moved to 259 (Equal Weight, Aug 31) and Scotiabank to 251 (Sep 2). Only two analysts are named in the sources, and all target horizons are undocumented (null), so the weighted target is not computed. The mean of the named targets (about 261) and the aggregate mean (265.45) sit 7-9% above the close, versus my base at +3.6%; the gap equals about 1.5 turns of FFO multiple or roughly $0.20 of 2027 FFO. Post-earnings named revisions after Oct 26 were not found in the sources, so some targets predate the Q3 release.",
+      "sources": [
+        {
+          "label": "Welltower Q3 2026 results release (via Finviz)",
+          "url": "https://finviz.com/news/408031/welltower-reports-third-quarter-2026-results",
+          "supports": "Q3 normalized FFO, FY2026 guidance, diluted shares, leverage, dividend"
+        },
+        {
+          "label": "Zacks Q3 2026 FFO beat coverage",
+          "url": "https://zacks.com/stock/news/3016413/well-s-q3-ffo-beat-estimates-on-strong-sho-portfolio-growth",
+          "supports": "SHO NOI growth, SHOP revenue and RevPOR"
+        },
+        {
+          "label": "Benzinga WELL sentiment and rating history",
+          "url": "https://www.benzinga.com/quote/WELL/sentiment",
+          "supports": "KeyBanc Aug 4 2026 target 275 from 240, Buy"
+        },
+        {
+          "label": "Goldesel JPMorgan upgrade Sep 2026",
+          "url": "https://goldesel.de/aktien/news/jpmorgan-stuft-welltower-auf-overweight-hoch-und-setzt-kursziel-auf-260-us-dollar",
+          "supports": "JPMorgan Overweight upgrade, Michael Mueller, Sep 24 2026"
+        },
+        {
+          "label": "Cerbat Gem analyst action roundup Aug-Sep 2026",
+          "url": "https://www.thecerbatgem.com/?p=10394386",
+          "supports": "Barclays 259 from 254 (Aug 31), Scotiabank 251 (Sep 2)"
+        },
+        {
+          "label": "Yahoo Scotiabank target raise May 2026",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-welltower-234636628.html",
+          "supports": "Scotiabank 248 from 236 (May 21 2026)"
+        },
+        {
+          "label": "Barchart WELL analyst estimates",
+          "url": "https://www.barchart.com/story/news/3781129/welltower-stock-analyst-estimates-ratings",
+          "supports": "Aggregate mean 258.91, high 292, 22 analysts (Aug 2026)"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-26T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 3,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 74,
+        "max_weight_pct": 39.89765661825921,
+        "contributors": [
+          {
+            "analyst": "Austin Wurschmidt",
+            "firm": "KeyBanc",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-08-04",
+            "age_days": 101,
+            "after_earnings": false,
+            "source": "https://www.benzinga.com/quote/WELL/sentiment",
+            "weight": 0.2693789923335163
+          },
+          {
+            "analyst": "Barclays (analyst not named)",
+            "firm": "Barclays",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-08-31",
+            "age_days": 74,
+            "after_earnings": false,
+            "source": "https://www.thecerbatgem.com/?p=10394386",
+            "weight": 0.3316444414838916
+          },
+          {
+            "analyst": "Michael Mueller",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-09-24",
+            "age_days": 50,
+            "after_earnings": false,
+            "source": "https://goldesel.de/aktien/news/jpmorgan-stuft-welltower-auf-overweight-hoch-und-setzt-kursziel-auf-260-us-dollar",
+            "weight": 0.39897656618259214
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 66.83555585161085,
+          "Hold": 33.16444414838916,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Austin Wurschmidt",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "source": "https://www.benzinga.com/quote/WELL/sentiment",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Austin Wurschmidt",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 275.0,
+          "source_prior": 240,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/WELL/sentiment",
+          "prior_observed": null,
+          "revision_pct": 14.583333333333325,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Barclays (analyst not named)",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59-04:00",
+          "source": "https://www.thecerbatgem.com/?p=10394386",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Barclays (analyst not named)",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 259.0,
+          "source_prior": 254,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thecerbatgem.com/?p=10394386",
+          "prior_observed": null,
+          "revision_pct": 1.9685039370078705,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Mueller",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-24",
+          "public_at": "2026-09-24T23:59:59-04:00",
+          "source": "https://goldesel.de/aktien/news/jpmorgan-stuft-welltower-auf-overweight-hoch-und-setzt-kursziel-auf-260-us-dollar",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Scotiabank (analyst not named)",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 248.0,
+          "source_prior": 236,
+          "issued_at": "2026-05-21",
+          "public_at": "2026-05-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-welltower-234636628.html",
+          "prior_observed": null,
+          "revision_pct": 5.084745762711873,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Scotiabank (analyst not named)",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 251.0,
+          "source_prior": 248,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thecerbatgem.com/?p=10394386",
+          "prior_observed": 248.0,
+          "revision_pct": 1.2096774193548487,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "CRM": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 217.84,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x justified P/E, with the forward period viewed at the 12-month target date (Nov 2027) taken as FY2028 non-GAAP diluted EPS. Anchor: FY2027 non-GAAP EPS guidance of $16.67-$16.71 (midpoint $16.69, company guidance raised 26 Aug 2026) on about 838M guided diluted shares. Scenario FY2028 EPS = $16.69 x (1 + growth), growth assumed at 2% bear, 10% base and 18% bull. Revenue guidance of $46.1-$46.4B (+11-12%) is the reference for the base growth. Price targets are per share in USD on the NYSE listing; no FX or ADR conversion applies.",
+        "bear": 204.0,
+        "base": 275.0,
+        "bull": 354.0,
+        "cases": {
+          "bear": {
+            "driver": "Growth stalls near the low end of the guided revenue range and the market keeps the stock at a SaaS trough multiple",
+            "assumption": "FY28 EPS $17.02 at 12x",
+            "target": 204.0
+          },
+          "base": {
+            "driver": "Revenue grows about 11-12% as guided, Agentforce and Data 360 add to subscription growth, and buybacks lower the share count",
+            "assumption": "FY28 EPS $18.36 at 15x",
+            "target": 275.0
+          },
+          "bull": {
+            "driver": "AI and data ARR keeps compounding above 200%, operating margin expands and the multiple re-rates toward mature software peers",
+            "assumption": "FY28 EPS $19.70 at 18x",
+            "target": 354.0
+          }
+        },
+        "implied_by_close": "At FY2027 guided EPS of $16.69 the close of $217.84 implies 13.1x; at base FY2028 EPS of $18.36 it implies 11.9x. The only named target in the sample (BofA $285) implies 15.5x base FY2028 EPS, or FY2028 EPS of $19.00 at 15x. A 12-month analyst-weighted target cannot be formed from the one dated call with a documented horizon.",
+        "sensitivity": "One turn of P/E moves the base target by $18.36 (about 6.7 pp of the $275 base). A 2-point change in FY2028 growth moves the base EPS by about $0.33 and the base target by about $5 at 15x.",
+        "watch_metric": "Non-GAAP operating margin together with subscription and support revenue growth in FY2027 Q3 and Q4 (Q3 revenue guidance $11.42-$11.50B, adjusted EPS guidance $3.42-$3.44); a stall in AI and data ARR growth would argue for the bear case.",
+        "next_disclosure": "FY2027 Q3 results (quarter ending October 2026) and FY2027 full-year guidance, as scheduled by the company; the release after the reference close is outside this research cut-off."
+      },
+      "dividend_per_share": 1.76,
+      "analyst_notes": "The only named call dated and verified before the reference close is BofA's upgrade from Underperform to Buy with a target raised to $285 from $160 on 12 October 2026, valued at 16x calendar 2027 enterprise-value free cash flow, not a documented 12-month target, so it is kept out of the weighted target. The sample is thin: most other broker targets found in the search results were either dated 2023 or 2025, or fell after the cut-off, so this file cannot show how named views moved since the 26 August release. The $285 BofA target sits about 4% above the base case, which requires FY2028 EPS near $19 at 15x or a re-rating to about 15.5x base EPS; the gap is in the multiple, not in near-term EPS, which is already guided.",
+      "sources": [
+        {
+          "label": "BofA upgrade to Buy, target $285 from $160 (Tal Liani), 12 Oct 2026",
+          "url": "https://www.webull.com/news/15736015481234432",
+          "supports": "analyst rating, prior and new target, valuation basis"
+        },
+        {
+          "label": "Salesforce Q2 FY2027 results release reproduction, 27 Aug 2026",
+          "url": "https://www.01net.it/salesforce-delivers-record-second-quarter-fiscal-2027-results/",
+          "supports": "revenue guidance, FY27 non-GAAP EPS guidance of $16.67-$16.71, 838M guided diluted shares, $25B ASR, dividends"
+        },
+        {
+          "label": "Salesforce Q2 FY2027 earnings coverage, Zacks",
+          "url": "https://www.zacks.com/stock/news/2981089/salesforce-q2-earnings-beat-on-investment-gains-revenue-view-raised",
+          "supports": "Q2 beat, Q3 revenue and EPS guidance, investment gains distorting GAAP-adjusted EPS"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-26T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 32,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Tal Liani",
+            "firm": "BofA Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-12",
+            "age_days": 32,
+            "after_earnings": true,
+            "source": "https://www.webull.com/news/15736015481234432",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Tal Liani",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T15:40:00-04:00",
+          "source": "https://www.webull.com/news/15736015481234432",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Tal Liani",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 285.0,
+          "source_prior": 160,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T15:40:00-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15736015481234432",
+          "prior_observed": null,
+          "revision_pct": 78.125,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -40909,6 +42164,11 @@
         "kind": "new"
       },
       {
+        "symbol": "CRM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "CRWD",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -40920,6 +42180,11 @@
       },
       {
         "symbol": "CVX",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "DE",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -41164,6 +42429,11 @@
         "kind": "new"
       },
       {
+        "symbol": "TMUS",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "TSLA",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -41189,12 +42459,22 @@
         "kind": "new"
       },
       {
+        "symbol": "UNP",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "V",
         "researched_at": "2026-11-16",
         "kind": "new"
       },
       {
         "symbol": "VZ",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "WELL",
         "researched_at": "2026-11-18",
         "kind": "new"
       },

@@ -11105,9 +11105,69 @@
         "high": 185235569998
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Mircea Dobre",
+          "firm": "Baird",
+          "field": "target",
+          "value": 800,
+          "source_prior": 640,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T19:26:00-04:00",
+          "horizon_months": null,
+          "source": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/"
+        },
+        {
+          "analyst": "Mircea Dobre",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T19:26:00-04:00",
+          "source": "https://www.fool.com/investing/2026/08/31/why-deere-stock-is-up-today/"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-04-08",
+          "public_at": "2026-04-08T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 550,
+          "source_prior": null,
+          "issued_at": "2026-04-08",
+          "public_at": "2026-04-08T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/deere-upgraded-hold-jefferies-550-131933325.html"
+        },
+        {
+          "analyst": "DA Davidson analyst (unnamed)",
+          "firm": "DA Davidson",
+          "field": "target",
+          "value": 685,
+          "source_prior": null,
+          "issued_at": "2026-05-22",
+          "public_at": "2026-05-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/deere-company-nysede-price-target-cut-to-68500-by-analysts-at-da-davidson-2026-05-22/"
+        }
+      ],
+      "earnings_at": "2026-08-20T06:30:00-04:00",
+      "valuation": {
+        "bear": 324.0,
+        "base": 528.0,
+        "bull": 700.0
+      },
+      "dividend_per_share": 6.48
     },
     {
       "issuer_id": "T-Mobile US, Inc.",
@@ -11121,9 +11181,110 @@
         "high": 183623840910
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 230,
+          "source_prior": 260,
+          "issued_at": "2026-07-07",
+          "public_at": "2026-07-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-07-07",
+          "public_at": "2026-07-07T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23000-by-analysts-at-morgan-stanley-2026-07-07/"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 220,
+          "source_prior": null,
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/bank-of-america-upgrades-t-mobile-us-nasdaqtmus-to-buy-2026-07-06/"
+        },
+        {
+          "analyst": "Benchmark analyst (unnamed)",
+          "firm": "Benchmark",
+          "field": "target",
+          "value": 280,
+          "source_prior": 295,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/"
+        },
+        {
+          "analyst": "Benchmark analyst (unnamed)",
+          "firm": "Benchmark",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/benchmark-cuts-t-mobile-us-nasdaqtmus-price-target-to-28000-2026-07-24/"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 260,
+          "source_prior": null,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/td-cowen-cuts-t-mobile-us-nasdaqtmus-price-target-to-26000-2026-07-24/"
+        },
+        {
+          "analyst": "UBS analyst (unnamed)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 235,
+          "source_prior": 255,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/"
+        },
+        {
+          "analyst": "UBS analyst (unnamed)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/t-mobile-us-nasdaqtmus-price-target-cut-to-23500-by-analysts-at-ubs-group-2026-07-27/"
+        }
+      ],
+      "earnings_at": "2026-10-28T16:00:00-04:00",
+      "valuation": {
+        "bear": 137.5,
+        "base": 188.5,
+        "bull": 248.0
+      }
     },
     {
       "issuer_id": "Union Pacific Corporation",
@@ -11137,9 +11298,100 @@
         "high": 183410518045
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Dan Moore",
+          "firm": "Baird",
+          "field": "target",
+          "value": 344,
+          "source_prior": 311,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/robert-w-baird-forecasts-strong-price-appreciation-for-union-pacific-nyseunp-stock-2026-07-27/"
+        },
+        {
+          "analyst": "Dan Moore",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/robert-w-baird-forecasts-strong-price-appreciation-for-union-pacific-nyseunp-stock-2026-07-27/"
+        },
+        {
+          "analyst": "Dan Moore",
+          "firm": "Baird",
+          "field": "target",
+          "value": 310,
+          "source_prior": 344,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T04:44:00-05:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar"
+        },
+        {
+          "analyst": "Dan Moore",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T04:44:00-05:00",
+          "source": "https://goldesel.de/aktien/news/union-pacific-aktie-baird-stuft-auf-neutral-herab-und-senkt-kursziel-auf-310-dollar"
+        },
+        {
+          "analyst": "UBS Group (analyst not named)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 339,
+          "source_prior": 310,
+          "issued_at": "2026-09-16",
+          "public_at": "2026-09-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar"
+        },
+        {
+          "analyst": "UBS Group (analyst not named)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-16",
+          "public_at": "2026-09-16T23:59:59-04:00",
+          "source": "https://goldesel.de/aktien/news/union-pacific-ubs-stuft-aktie-auf-buy-hoch-kursziel-steigt-auf-339-us-dollar"
+        },
+        {
+          "analyst": "JPMorgan (analyst not named)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 334,
+          "source_prior": 304,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/"
+        },
+        {
+          "analyst": "JPMorgan (analyst not named)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/union-pacific-nyseunp-stock-price-expected-to-rise-jpmorgan-chase-co-analyst-says-2026-07-24/"
+        }
+      ],
+      "earnings_at": "2026-10-22T08:30:00-04:00",
+      "valuation": {
+        "bear": 232.2,
+        "base": 284.76,
+        "bull": 331.2
+      },
+      "dividend_per_share": 5.68
     },
     {
       "issuer_id": "Welltower Inc.",
@@ -11153,9 +11405,90 @@
         "high": 182977412195
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Austin Wurschmidt",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 275,
+          "source_prior": 240,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/WELL/sentiment"
+        },
+        {
+          "analyst": "Austin Wurschmidt",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "source": "https://www.benzinga.com/quote/WELL/sentiment"
+        },
+        {
+          "analyst": "Michael Mueller",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-24",
+          "public_at": "2026-09-24T23:59:59-04:00",
+          "source": "https://goldesel.de/aktien/news/jpmorgan-stuft-welltower-auf-overweight-hoch-und-setzt-kursziel-auf-260-us-dollar"
+        },
+        {
+          "analyst": "Barclays (analyst not named)",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 259,
+          "source_prior": 254,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thecerbatgem.com/?p=10394386"
+        },
+        {
+          "analyst": "Barclays (analyst not named)",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59-04:00",
+          "source": "https://www.thecerbatgem.com/?p=10394386"
+        },
+        {
+          "analyst": "Scotiabank (analyst not named)",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 248,
+          "source_prior": 236,
+          "issued_at": "2026-05-21",
+          "public_at": "2026-05-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/scotiabank-raises-price-target-welltower-234636628.html"
+        },
+        {
+          "analyst": "Scotiabank (analyst not named)",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 251,
+          "source_prior": 248,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thecerbatgem.com/?p=10394386"
+        }
+      ],
+      "earnings_at": "2026-10-26T16:05:00-04:00",
+      "valuation": {
+        "bear": 201.6,
+        "base": 253.3,
+        "bull": 284.4
+      },
+      "dividend_per_share": 3.4
     },
     {
       "issuer_id": "Salesforce, Inc.",
@@ -11169,9 +11502,37 @@
         "high": 182901544800
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Tal Liani",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 285,
+          "source_prior": 160,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T15:40:00-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.com/news/15736015481234432"
+        },
+        {
+          "analyst": "Tal Liani",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T15:40:00-04:00",
+          "source": "https://www.webull.com/news/15736015481234432"
+        }
+      ],
+      "earnings_at": "2026-08-26T16:05:00-04:00",
+      "valuation": {
+        "bear": 204.0,
+        "base": 275.0,
+        "bull": 354.0
+      },
+      "dividend_per_share": 1.76
     },
     {
       "issuer_id": "NextEra Energy, Inc.",

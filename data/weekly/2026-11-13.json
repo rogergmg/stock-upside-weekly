@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:04:31.644039+00:00",
+  "built_at": "2026-11-18T12:06:35.507659+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,12 +16,33 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 29,
+    "rank_valued": 34,
     "rank_with_named_targets": 2,
-    "rank_matched": 29,
-    "researched": 29
+    "rank_matched": 34,
+    "researched": 34
   },
   "ranked": [
+    {
+      "symbol": "ORCL",
+      "issuer_id": "Oracle Corporation",
+      "close": 125.35,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 371504066674,
+        "high": 398620797637
+      },
+      "scenarios_pct": {
+        "bear": -24.212205823693658,
+        "base": 34.02473075388911,
+        "bull": 101.03709613083366
+      },
+      "base_total_return_pct": 35.62026326286398,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
     {
       "symbol": "AVGO",
       "issuer_id": "Broadcom Inc.",
@@ -162,6 +183,48 @@
         "bear": -35.294560228726205,
         "base": 14.613899129736915,
         "bull": 45.96343390264089
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "CSCO",
+      "issuer_id": "Cisco Systems, Inc.",
+      "close": 95.64,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 369002121041,
+        "high": 384610388705
+      },
+      "scenarios_pct": {
+        "bear": -20.221664575491427,
+        "base": 13.446256796319531,
+        "bull": 42.19991635299038
+      },
+      "base_total_return_pct": 15.20284399832706,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "BAC",
+      "issuer_id": "Bank of America Corporation",
+      "close": 51.02,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 345007690216,
+        "high": 359089636756
+      },
+      "scenarios_pct": {
+        "bear": -19.051352410819288,
+        "base": 10.544884359074873,
+        "bull": 35.82908663269306
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -311,6 +374,27 @@
         "bull": 21.898379502585286
       },
       "base_total_return_pct": 6.762182616482278,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "UNH",
+      "issuer_id": "UnitedHealth Group Incorporated",
+      "close": 407.46,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 357791505616,
+        "high": 372541471430
+      },
+      "scenarios_pct": {
+        "bear": -23.428066558680605,
+        "base": 3.8138713002503315,
+        "bull": 21.97516320620429
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -611,6 +695,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "MRK",
+      "issuer_id": "Merck & Co., Inc.",
+      "close": 147.76,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 356979408802,
+        "high": 371600287928
+      },
+      "scenarios_pct": {
+        "bear": -25.216567406605307,
+        "base": -5.590146182999459,
+        "bull": 12.547374120194911
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "TSLA",
       "issuer_id": "Tesla, Inc.",
       "close": 390.22,
@@ -633,26 +738,6 @@
     }
   ],
   "omitted": [
-    {
-      "symbol": "ORCL",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "CSCO",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "UNH",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MRK",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "BAC",
-      "reason": "independent valuation unavailable"
-    },
     {
       "symbol": "HD",
       "reason": "independent valuation unavailable"
@@ -23118,6 +23203,1647 @@
         }
       ]
     },
+    "ORCL": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 125.35,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. At the 12-month target date (Nov 2027) an investor prices next-twelve-month non-GAAP EPS, about half FY2028 (May-2028 year end) plus half FY2029. Inputs: Q1 FY2027 non-GAAP EPS $1.92, FY2027 guidance $8.10 (consensus about $8.15), FY2028 consensus about $11.05; FY2029 and the NTM blend are model assumptions, haircut for dilution (diluted shares 3.0B in Q1, up 3% y/y, plus a $20B equity program) and interest cost on about $125B of borrowings. USD NYSE listing, no ADR conversion. Quarterly dividend $0.50 ($2.00 a year) is shown separately and is not in the targets.",
+        "bear": 95.0,
+        "base": 168.0,
+        "bull": 252.0,
+        "cases": {
+          "bear": {
+            "driver": "AI capacity delivery slips and counterparties (OpenAI is about half of the $664B RPO per S&P) cut or cancel contracts; financing costs and dilution absorb the growth; credit rating pressure persists",
+            "assumption": "NTM EPS $9.50 at 10x",
+            "target": 95.0
+          },
+          "base": {
+            "driver": "RPO converts roughly half within 36 months, revenue at least $90B in FY2027, cloud infrastructure growth continues; free cash flow turns positive in H2 FY2028 as management states; dilution trims EPS vs consensus",
+            "assumption": "NTM EPS $12.00 at 14x",
+            "target": 168.0
+          },
+          "bull": {
+            "driver": "Backlog converts on schedule with better margins, funding needs stay inside the $20B cap, and the market re-rates toward the 5-year average multiple",
+            "assumption": "NTM EPS $14.00 at 18x",
+            "target": 252.0
+          }
+        },
+        "implied_by_close": "At base NTM EPS $12.00 the $125.35 close implies 10.4x; the mean of the nine most recent named targets ($233) implies 19.4x on that EPS, or EPS of about $16.7 at 14x.",
+        "sensitivity": "One turn of P/E moves the base target by $12 (9.6 pp of the close); $1 of NTM EPS moves it by $14 (11 pp)",
+        "watch_metric": "Free cash flow and capex against the $90-95B FY2027 capex guide (no more than $70B net cash), plus RPO conversion and customer concentration",
+        "next_disclosure": "Fiscal Q2 2027 earnings, expected mid-December 2026"
+      },
+      "dividend_per_share": 2.0,
+      "analyst_notes": "Named calls since the Sept 10 earnings are split: UBS and Barclays raised slightly, while BMO, RBC and Stifel cut by $15-25; in November DBS cut to $290 and Stephens upgraded to Overweight at $213, with Bernstein holding $325. The nine latest targets average about $233 (range $165-$325), roughly 86% above the close, a gap of about 52 pp to the base case; it needs either about $16.7 of NTM EPS at 14x or about 19x on $12. Evidence is concentrated in a few names, many analysts are unnamed in the sources, and horizons are not documented so no target is weighted. Bernstein's analyst name is given as Moerdler by one source and Mohler by another.",
+      "sources": [
+        {
+          "label": "Oracle Q1 FY2027 press release",
+          "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/",
+          "supports": "EPS, guidance, RPO, diluted shares, cash and debt, dividend"
+        },
+        {
+          "label": "TIKR on DBS target cut",
+          "url": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut",
+          "supports": "DBS call, consensus EPS, FCF and capex, management FCF guidance"
+        },
+        {
+          "label": "TIKR on Stephens upgrade",
+          "url": "https://www.tikr.com/blog/63-upside-for-oracle-stephens-thinks-so-and-heres-how",
+          "supports": "Stephens call, backlog, capex, equity and debt raise cap"
+        },
+        {
+          "label": "TIKR on Bernstein target",
+          "url": "https://www.tikr.com/ja/blog/bernsteins-325-target-says-oracles-selloff-went-too-far",
+          "supports": "Bernstein call, total debt $169.1B incl. leases"
+        },
+        {
+          "label": "Benzinga post-Q1 target changes",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results",
+          "supports": "UBS, Barclays, BMO, RBC, Stifel targets"
+        },
+        {
+          "label": "Yahoo Finance on Morgan Stanley target",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-5-morgan-stanley-131627036.html",
+          "supports": "Morgan Stanley target raise"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-09-10T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 3,
+        "earnings_order_unknown": 0,
+        "median_age_days": 7.0,
+        "max_weight_pct": 28.584794671440473,
+        "contributors": [
+          {
+            "analyst": "(unnamed) Morgan Stanley",
+            "firm": "Morgan Stanley",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-09-04",
+            "age_days": 70,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-5-morgan-stanley-131627036.html",
+            "weight": 0.16801397763779352
+          },
+          {
+            "analyst": "(unnamed) Stephens",
+            "firm": "Stephens",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/63-upside-for-oracle-stephens-thinks-so-and-heres-how",
+            "weight": 0.2646593854221122
+          },
+          {
+            "analyst": "Andy Yu",
+            "firm": "DBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut",
+            "weight": 0.2858479467144047
+          },
+          {
+            "analyst": "Mark Moerdler",
+            "firm": "Bernstein",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-10",
+            "age_days": 3,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/ja/blog/bernsteins-325-target-says-oracles-selloff-went-too-far",
+            "weight": 0.28147869022568955
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 83.19860223622064,
+          "Hold": 16.801397763779352,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "(unnamed) BMO Capital Markets",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 195.0,
+          "source_prior": 220,
+          "horizon_months": null,
+          "issued_at": "2026-09-11",
+          "public_at": "2026-09-11T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results",
+          "prior_observed": null,
+          "revision_pct": -11.363636363636365,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 252.0,
+          "source_prior": 250,
+          "horizon_months": null,
+          "issued_at": "2026-09-11",
+          "public_at": "2026-09-11T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results",
+          "prior_observed": null,
+          "revision_pct": 0.8000000000000007,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-09-04",
+          "public_at": "2026-09-04T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-5-morgan-stanley-131627036.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 210.0,
+          "source_prior": 207,
+          "horizon_months": null,
+          "issued_at": "2026-09-04",
+          "public_at": "2026-09-04T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-5-morgan-stanley-131627036.html",
+          "prior_observed": null,
+          "revision_pct": 1.449275362318847,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Royal Bank of Canada",
+          "firm": "Royal Bank of Canada",
+          "field": "target",
+          "value": 165.0,
+          "source_prior": 190,
+          "horizon_months": null,
+          "issued_at": "2026-09-11",
+          "public_at": "2026-09-11T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results",
+          "prior_observed": null,
+          "revision_pct": -13.157894736842103,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Stephens",
+          "firm": "Stephens",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/63-upside-for-oracle-stephens-thinks-so-and-heres-how",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Stephens",
+          "firm": "Stephens",
+          "field": "target",
+          "value": 213.0,
+          "source_prior": 185,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/63-upside-for-oracle-stephens-thinks-so-and-heres-how",
+          "prior_observed": null,
+          "revision_pct": 15.135135135135137,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Stifel",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 200.0,
+          "source_prior": 220,
+          "horizon_months": null,
+          "issued_at": "2026-09-11",
+          "public_at": "2026-09-11T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results",
+          "prior_observed": null,
+          "revision_pct": -9.090909090909093,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 245,
+          "horizon_months": null,
+          "issued_at": "2026-09-11",
+          "public_at": "2026-09-11T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results",
+          "prior_observed": null,
+          "revision_pct": 2.0408163265306145,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Andy Yu",
+          "firm": "DBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Andy Yu",
+          "firm": "DBS",
+          "field": "target",
+          "value": 290.0,
+          "source_prior": 310,
+          "horizon_months": null,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut",
+          "prior_observed": null,
+          "revision_pct": -6.451612903225811,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mark Moerdler",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://www.tikr.com/ja/blog/bernsteins-325-target-says-oracles-selloff-went-too-far",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mark Moerdler",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 325.0,
+          "source_prior": 325,
+          "horizon_months": null,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://www.tikr.com/ja/blog/bernsteins-325-target-says-oracles-selloff-went-too-far",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "CSCO": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 95.64,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2028 (year to July 2028) non-GAAP EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchor: FY2027 non-GAAP EPS guidance $5.47-$5.53 (midpoint $5.50, raised Nov 12 2026), Q1 FY27 non-GAAP EPS $1.40 on revenue $18.5B, FY27 revenue guide $74.8-75.8B, non-GAAP tax about 18.5%, diluted shares 3,978M. FY2028 EPS is my own assumption (no company guidance).",
+        "bear": 76.3,
+        "base": 108.5,
+        "bull": 136.0,
+        "cases": {
+          "bear": {
+            "driver": "AI hyperscaler orders slow after the $9B FY27 build, memory and component costs squeeze gross margin, campus refresh fades; growth stalls.",
+            "assumption": "FY2028 non-GAAP EPS $5.45 at 14.0x",
+            "target": 76.3
+          },
+          "base": {
+            "driver": "FY27 EPS at the $5.50 midpoint, then about 12.7% growth from AI infrastructure revenue, Splunk and security attach, buybacks of about $2B per quarter and stable margins; multiple stays at about 17.5x, below the 5-year premium after the post-earnings sell-off.",
+            "assumption": "FY2028 non-GAAP EPS $6.20 at 17.5x",
+            "target": 108.5
+          },
+          "bull": {
+            "driver": "Hyperscaler AI revenue keeps compounding beyond $9B, enterprise campus upgrade cycle, operating margin expands; multiple recovers toward 20x.",
+            "assumption": "FY2028 non-GAAP EPS $6.80 at 20.0x",
+            "target": 136.0
+          }
+        },
+        "implied_by_close": "At base FY2028 EPS of $6.20 the $95.64 close implies 15.4x (17.4x FY2027 guidance midpoint); the sampled analyst targets (about $120-$150, roughly $131 average) imply 21x at $6.20 or about $7.50 EPS at 17.5x.",
+        "sensitivity": "One turn of P/E moves the base target by $6.20 (6.5 pp of the close); $0.30 of FY2028 EPS moves it by $5.25",
+        "watch_metric": "Hyperscaler AI infrastructure revenue progress toward the $9B FY27 target and non-GAAP gross margin",
+        "next_disclosure": "Q2 FY2027 earnings, expected February 2027; guide Q2 revenue $18.0-18.2B, non-GAAP EPS $1.34-1.36"
+      },
+      "dividend_per_share": 1.68,
+      "analyst_notes": "Seven named analysts (Evercore, Truist, KeyBanc, Goldman, UBS, Citi, Bernstein) are sampled, six of them the day after the Nov 12 release; only Truist and Citi cut targets (to $127 from $140 and $120 from $139), while Evercore sits highest at $150. Their roughly $131 average implies about 21x my base EPS versus my 17.5x, or EPS near $7.50 at my multiple; the gap is mostly multiple, since the Q1 beat and guide raise support my EPS. Morgan Stanley (downgrade to Equal-weight, target $120 from $135, Nov 2026), HSBC and DZ Bank calls are not included because the analyst is unnamed or they came after the reference close. Target horizons are undocumented so none enter the weighted target.",
+      "sources": [
+        {
+          "label": "Cisco Q1 FY2027 earnings release (Nov 12, 2026)",
+          "url": "https://investor.cisco.com/news/news-details/2026/CISCO-REPORTS-FIRST-QUARTER-EARNINGS/default.aspx",
+          "supports": "EPS, guidance, share count, buybacks, dividend, debt and cash"
+        },
+        {
+          "label": "StockAnalysis CSCO analyst ratings",
+          "url": "https://stockanalysis.com/stocks/csco/ratings/",
+          "supports": "Analyst ratings and targets Nov 13 2026"
+        },
+        {
+          "label": "Stocktwits: Citi and Barclays on Cisco after Q1",
+          "url": "https://stocktwits.com/news-articles/markets/equity/cisco-s-growth-may-have-peaked-despite-raised-ai-revenue-outlook-says-citi-barclays-sees-margins-holding-up/cNbRTvGR9fO",
+          "supports": "Citi target cut to $120 from $139"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-12T16:05:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 7,
+        "post_earnings": 6,
+        "earnings_order_unknown": 0,
+        "median_age_days": 0,
+        "max_weight_pct": 14.89741561073984,
+        "contributors": [
+          {
+            "analyst": "Amit Daryanani",
+            "firm": "Evercore ISI",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-13",
+            "age_days": 0,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/csco/ratings/",
+            "weight": 0.1489741561073984
+          },
+          {
+            "analyst": "Atif Malik",
+            "firm": "Citi",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-13",
+            "age_days": 0,
+            "after_earnings": true,
+            "source": "https://stocktwits.com/news-articles/markets/equity/cisco-s-growth-may-have-peaked-despite-raised-ai-revenue-outlook-says-citi-barclays-sees-margins-holding-up/cNbRTvGR9fO",
+            "weight": 0.1489741561073984
+          },
+          {
+            "analyst": "Brandon Nispel",
+            "firm": "KeyBanc",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-13",
+            "age_days": 0,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/csco/ratings/",
+            "weight": 0.1489741561073984
+          },
+          {
+            "analyst": "David Vogt",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-13",
+            "age_days": 0,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/csco/ratings/",
+            "weight": 0.1489741561073984
+          },
+          {
+            "analyst": "Matthew Niknam",
+            "firm": "Truist Financial",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-13",
+            "age_days": 0,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/csco/ratings/",
+            "weight": 0.1489741561073984
+          },
+          {
+            "analyst": "Michael Ng",
+            "firm": "Goldman Sachs",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-13",
+            "age_days": 0,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/csco/ratings/",
+            "weight": 0.1489741561073984
+          },
+          {
+            "analyst": "Peter Weed",
+            "firm": "Bernstein",
+            "value": "Market Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-09-30",
+            "age_days": 44,
+            "after_earnings": false,
+            "source": "https://stockanalysis.com/stocks/csco/ratings/",
+            "weight": 0.10615506335560962
+          }
+        ],
+        "counts": {
+          "Buy": 5,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 74.4870780536992,
+          "Hold": 25.512921946300803,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Amit Daryanani",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Amit Daryanani",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 150.0,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/cisco-s-growth-may-have-peaked-despite-raised-ai-revenue-outlook-says-citi-barclays-sees-margins-holding-up/cNbRTvGR9fO",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "target",
+          "value": 120.0,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/cisco-s-growth-may-have-peaked-despite-raised-ai-revenue-outlook-says-citi-barclays-sees-margins-holding-up/cNbRTvGR9fO",
+          "source_prior": 139,
+          "prior_observed": null,
+          "revision_pct": -13.669064748201443,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Brandon Nispel",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Brandon Nispel",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 135.0,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Vogt",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Vogt",
+          "firm": "UBS",
+          "field": "target",
+          "value": 138.0,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Matthew Niknam",
+          "firm": "Truist Financial",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Matthew Niknam",
+          "firm": "Truist Financial",
+          "field": "target",
+          "value": 127.0,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "source_prior": 140,
+          "prior_observed": null,
+          "revision_pct": -9.285714285714286,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Ng",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Ng",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 125.0,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T09:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Peter Weed",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T09:00:00-05:00",
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Peter Weed",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 110.0,
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T09:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/csco/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "UNH": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 407.46,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date, Nov 2027). FY2026 adjusted EPS guided to at least $20.50 (9M actual $18.30, implied Q4 ~$2.20); FY2027 EPS is my estimate built on management's 13-16% long-term growth target and its comment that 2027 expectations look conservative. Diluted shares ~902M (Q3 2026).",
+        "bear": 312.0,
+        "base": 423.0,
+        "bull": 497.0,
+        "cases": {
+          "bear": {
+            "driver": "Commercial and Medicaid cost trend reverses the Q3 MCR gain (88.4%); 2027 EPS grows only ~5% off a $20.50 base",
+            "assumption": "EPS $21.50 at 14.5x",
+            "target": 311.75
+          },
+          "base": {
+            "driver": "2026 lands near $20.70; FY2027 EPS grows ~13-14% on margin repair and buybacks (~$5B YTD) at the low end of the 13-16% target",
+            "assumption": "EPS $23.50 at 18.0x",
+            "target": 423.0
+          },
+          "bull": {
+            "driver": "MCR keeps improving, 2027 rates (MA +2.48%) and repricing lift EPS ~23%",
+            "assumption": "EPS $25.50 at 19.5x",
+            "target": 497.25
+          }
+        },
+        "implied_by_close": "At base EPS $23.50 the $407.46 close implies 17.3x; the recency-weighted analyst target (~$470) implies about 20.0x on that EPS, or EPS about $26.1 at 18x",
+        "sensitivity": "One turn of P/E moves the base target by $23.50 (5.8 pp of the close)",
+        "watch_metric": "Consolidated medical care ratio (Q3 2026: 88.4%) and the initial 2027 adjusted EPS outlook",
+        "next_disclosure": "Q4 and full-year 2026 results and 2027 guidance, expected mid-January 2027 (date not confirmed in sources)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named post-Q3 moves were mixed: Piper Sandler ($504) and RBC ($498) raised, while Baird ($427), Barclays ($440) and Raymond James ($450, valuation-only) trimmed, all within about a week of the Oct 13 print; all ratings were maintained. The sample averages roughly $470 versus a $423 base, a gap of about 2.7 turns of P/E on my EPS or about $2.6 of EPS at 18x; analyst EPS inputs are not disclosed. Only five firms with dated calls were verified, horizons are undocumented so none enter the weighted target, and several other targets (UBS $490, KeyBanc $500, Bernstein $500, Goldman, JPMorgan $524) lacked verifiable dates and were excluded.",
+      "sources": [
+        {
+          "label": "UnitedHealth Q3 2026 results (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm",
+          "supports": "EPS, outlook, MCR"
+        },
+        {
+          "label": "Q3 2026 results summary",
+          "url": "https://finviz.com/news/401499/unitedhealth-group-reports-third-quarter-2026-results",
+          "supports": "902M diluted shares, buybacks, release time"
+        },
+        {
+          "label": "Benzinga post-Q3 target changes",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results",
+          "supports": "Baird, Barclays moves"
+        },
+        {
+          "label": "Investing.com Raymond James",
+          "url": "https://uk.investing.com/news/stock-market-news/raymond-james-lowers-unitedhealth-stock-price-target-to-450-on-valuation-93CH-4911821",
+          "supports": "Raymond James target"
+        },
+        {
+          "label": "Investing.com RBC",
+          "url": "https://www.investing.com/news/analyst-ratings/rbc-capital-raises-unitedhealth-stock-price-target-to-498-on-strong-quarter-93CH-4959227",
+          "supports": "RBC target"
+        },
+        {
+          "label": "Defense World Piper Sandler",
+          "url": "https://www.defenseworld.net/2026/10/15/piper-sandler-issues-positive-forecast-for-unitedhealth-group-nyseunh-stock-price.html",
+          "supports": "Piper target"
+        },
+        {
+          "label": "Healthcare Finance News Q3 2026",
+          "url": "https://www.healthcarefinancenews.com/news/unitedhealth-targets-growth-q3-profit-rises",
+          "supports": "2027 commentary, long-term growth"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-13T05:55:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 30,
+        "max_weight_pct": 20.717880146603225,
+        "contributors": [
+          {
+            "analyst": "Andrew Mok",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-14",
+            "age_days": 30,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results",
+            "weight": 0.19782293908806398
+          },
+          {
+            "analyst": "Jessica Tassan",
+            "firm": "Piper Sandler",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-14",
+            "age_days": 30,
+            "after_earnings": true,
+            "source": "https://www.defenseworld.net/2026/10/15/piper-sandler-issues-positive-forecast-for-unitedhealth-group-nyseunh-stock-price.html",
+            "weight": 0.19782293908806398
+          },
+          {
+            "analyst": "John Ransom",
+            "firm": "Raymond James",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": true,
+            "source": "https://uk.investing.com/news/stock-market-news/raymond-james-lowers-unitedhealth-stock-price-target-to-450-on-valuation-93CH-4911821",
+            "weight": 0.1993523812697759
+          },
+          {
+            "analyst": "Michael Ha",
+            "firm": "Baird",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-14",
+            "age_days": 30,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results",
+            "weight": 0.19782293908806398
+          },
+          {
+            "analyst": "RBC Capital (analyst not named)",
+            "firm": "RBC Capital",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-20",
+            "age_days": 24,
+            "after_earnings": true,
+            "source": "https://www.investing.com/news/analyst-ratings/rbc-capital-raises-unitedhealth-stock-price-target-to-498-on-strong-quarter-93CH-4959227",
+            "weight": 0.20717880146603224
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 80.2177060911936,
+          "Hold": 19.7822939088064,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Andrew Mok",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Andrew Mok",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 440.0,
+          "source_prior": 441,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results",
+          "prior_observed": null,
+          "revision_pct": -0.22675736961451642,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jessica Tassan",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.defenseworld.net/2026/10/15/piper-sandler-issues-positive-forecast-for-unitedhealth-group-nyseunh-stock-price.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jessica Tassan",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 504.0,
+          "source_prior": 502,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.defenseworld.net/2026/10/15/piper-sandler-issues-positive-forecast-for-unitedhealth-group-nyseunh-stock-price.html",
+          "prior_observed": null,
+          "revision_pct": 0.3984063745019917,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John Ransom",
+          "firm": "Raymond James",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://uk.investing.com/news/stock-market-news/raymond-james-lowers-unitedhealth-stock-price-target-to-450-on-valuation-93CH-4911821",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "John Ransom",
+          "firm": "Raymond James",
+          "field": "target",
+          "value": 450.0,
+          "source_prior": 475,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://uk.investing.com/news/stock-market-news/raymond-james-lowers-unitedhealth-stock-price-target-to-450-on-valuation-93CH-4911821",
+          "prior_observed": null,
+          "revision_pct": -5.263157894736848,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Ha",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Ha",
+          "firm": "Baird",
+          "field": "target",
+          "value": 427.0,
+          "source_prior": 453,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results",
+          "prior_observed": null,
+          "revision_pct": -5.7395143487858675,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "RBC Capital (analyst not named)",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "source": "https://www.investing.com/news/analyst-ratings/rbc-capital-raises-unitedhealth-stock-price-target-to-498-on-strong-quarter-93CH-4959227",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "RBC Capital (analyst not named)",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 498.0,
+          "source_prior": 478,
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/rbc-capital-raises-unitedhealth-stock-price-target-to-498-on-strong-quarter-93CH-4959227",
+          "prior_observed": null,
+          "revision_pct": 4.184100418410042,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "MRK": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 147.76,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS excluding acquired-IPR&D charges, viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchor: FY2026 non-GAAP EPS guidance $2.77-$2.82 (raised Oct 29 2026), which includes one-time charges of $3.62 (Cidara), $2.31 (Terns) and $0.12 (SciBrunch) per share, i.e. about $6.05 in total; adding these back gives about $8.85 on sales of $66.8-$67.3B and about 2.48B diluted shares. FY2027 EPS is my own assumption (no company 2027 guidance; no sourced consensus). It assumes mid-single-digit sales growth from Keytruda/Qlex, Gardasil and new launches, flat margins, and no new large IPR&D charge; a future business-development charge would cut reported EPS.",
+        "bear": 110.5,
+        "base": 139.5,
+        "bull": 166.3,
+        "cases": {
+          "bear": {
+            "driver": "Keytruda 2028 loss of exclusivity and pricing/Gardasil pressure drive investors to a trough multiple; underlying growth stalls and opex rises.",
+            "assumption": "FY2027 EPS $8.50 at 13x",
+            "target": 110.5
+          },
+          "base": {
+            "driver": "Underlying EPS grows about 2% from the roughly $8.85 FY2026 add-back level as Keytruda Qlex conversion, launches and Gardasil offset Q3 purchase-timing reversal; multiple stays below the large-cap pharma premium because of the 2028 Keytruda cliff.",
+            "assumption": "FY2027 EPS $9.00 at 15.5x",
+            "target": 139.5
+          },
+          "bull": {
+            "driver": "Subcutaneous Keytruda conversion protects the franchise, pipeline (sac-TMT, Enflonsia, Winrevair) offsets the 2028 cliff, and margins expand on cost savings.",
+            "assumption": "FY2027 EPS $9.50 at 17.5x",
+            "target": 166.3
+          }
+        },
+        "implied_by_close": "At base EPS of $9.00 the $147.76 close implies 16.4x; the equal-weight average of the seven named pre-close targets (about $156) implies 17.3x on $9.00, or about $10.05 EPS at 15.5x.",
+        "sensitivity": "One turn of P/E moves the base target by $9.00 (about 6.1 pp of the close).",
+        "watch_metric": "Keytruda plus Keytruda Qlex sales (Q3 2026 $8.6B, Qlex $830M) and the Qlex share of conversion, plus 2027 non-GAAP EPS guidance including any IPR&D charges.",
+        "next_disclosure": "Q4 and FY2026 results with initial 2027 guidance, expected around early February 2027 (date not confirmed)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Seven named analysts (Goldman, Cantor, Scotiabank, RBC, DZ Bank, Leerink, Freedom Capital) issued calls from Nov 2-13 2026, all after the Oct 29 earnings release; three Buys and four Holds with targets of $140-$180. Goldman raised $155 to $165, Leerink $161 to $162 and Freedom $125 to $140, with no cuts. The $156 average target is about 12% above my base of $139.5, equal to roughly $1.05 of FY2027 EPS at 15.5x or one turn of multiple. A Barclays Buy at $180 dated Nov 16 falls after the reference close and is excluded. Horizons are undocumented, so no target enters the weighted average, and all calls come from a single aggregator table.",
+      "sources": [
+        {
+          "label": "Merck Q3 2026 results press release",
+          "url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline",
+          "supports": "Q3 EPS, FY2026 guidance, charges, share count"
+        },
+        {
+          "label": "MarketBeat Q3 2026 call transcript summary",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-merck-co-inc-q3-earnings-call-highlights-2026-10-30/",
+          "supports": "Purchase-timing benefit, guidance context"
+        },
+        {
+          "label": "StockAnalysis MRK ratings",
+          "url": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "supports": "Named analyst ratings and targets, Nov 2026"
+        },
+        {
+          "label": "Quartr Q3 2026 earnings summary",
+          "url": "https://quartr.com/events/merck-co-inc-mrk-q3-2026_ojVXvVLh",
+          "supports": "Gross margin, opex, tax guidance"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 6,
+        "earnings_order_unknown": 0,
+        "median_age_days": 9.0,
+        "max_weight_pct": 17.49165113082917,
+        "contributors": [
+          {
+            "analyst": "Carter Gould",
+            "firm": "Cantor Fitzgerald",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+            "weight": 0.1749165113082917
+          },
+          {
+            "analyst": "Daina Graybosch",
+            "firm": "Leerink Partners",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+            "weight": 0.16195077458186116
+          },
+          {
+            "analyst": "Elmar Kraus",
+            "firm": "DZ BANK AG",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-03",
+            "age_days": 10,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+            "weight": 0.16320287581515722
+          },
+          {
+            "analyst": "Ilya Zubkov",
+            "firm": "Freedom Capital Markets",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+            "weight": 0.16195077458186116
+          },
+          {
+            "analyst": "Louise Chen",
+            "firm": "Scotiabank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-10",
+            "age_days": 3,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+            "weight": 0.1722428692170971
+          },
+          {
+            "analyst": "Trung Huynh",
+            "firm": "RBC Capital",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+            "weight": 0.16573619449573163
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 4,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 33.419364379895825,
+          "Hold": 66.58063562010416,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 155.0,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Daina Graybosch",
+          "firm": "Leerink Partners",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Daina Graybosch",
+          "firm": "Leerink Partners",
+          "field": "target",
+          "value": 162.0,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "source_prior": 161,
+          "prior_observed": null,
+          "revision_pct": 0.6211180124223503,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Elmar Kraus",
+          "firm": "DZ BANK AG",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Elmar Kraus",
+          "firm": "DZ BANK AG",
+          "field": "target",
+          "value": 153.0,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ilya Zubkov",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ilya Zubkov",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 140.0,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "source_prior": 125,
+          "prior_observed": null,
+          "revision_pct": 12.00000000000001,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 180.0,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Trung Huynh",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Trung Huynh",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 140.0,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "BAC": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 51.02,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank: tangible book value per common share (TBVPS) projected to the 12-month target date (Nov 2027) x P/TBV. Q3 2026 TBVPS $29.14 (reported 2026-10-14; first quarterly decline in a year on a $3.2B bond/hedge loss from higher rates). Grown about 5%/yr in the base case (adjusted ROTCE 14.9%, less dividends and about $6B/quarter buybacks, plus AOCI drag easing) to roughly $30.5 by Nov 2027. Steady-state check: P/TBV = (ROTCE - g)/(COE - g) = (15% - 4.5%)/(10.5% - 4.5%) = 1.75x, so base uses 1.85x given 2027 NII growth of 8% or more guided on the call. Cross-check: $56.4 is about 10.8x FY2027 EPS of roughly $5.2 (model assumption, in line with Baird's ~10x 2027 EPS framing, not guidance). USD listing, no ADR conversion. Q3 figures are secondary-source (press summaries of the 8-K); verify against the filing.",
+        "bear": 41.3,
+        "base": 56.4,
+        "bull": 69.3,
+        "cases": {
+          "bear": {
+            "driver": "Credit cycle and further regulatory/legal charges push ROTCE to about 11%, NII growth falls short of 8%, buybacks slow and rate losses keep TBVPS nearly flat.",
+            "assumption": "TBVPS $29.5 at 1.4x P/TBV",
+            "target": 41.3
+          },
+          "base": {
+            "driver": "2027 NII grows about 8% as guided, expenses near $18.5-18.6B per quarter, the $1.2B settlement is one-off, ROTCE about 15%, TBVPS compounding about 5%.",
+            "assumption": "TBVPS $30.5 at 1.85x P/TBV",
+            "target": 56.4
+          },
+          "bull": {
+            "driver": "NII growth above 8%, stronger trading and investment banking, benign credit, ROTCE about 17%, faster buybacks and lighter capital rules lift TBVPS growth to about 8%.",
+            "assumption": "TBVPS $31.5 at 2.2x P/TBV",
+            "target": 69.3
+          }
+        },
+        "implied_by_close": "The close of $51.02 is 1.75x Q3 TBVPS of $29.14 and 1.67x base-case Nov 2027 TBVPS of $30.5. The named-analyst targets average about $62 (range $57-$68), which implies about 2.0x base TBVPS, or TBVPS of about $33.5 at a constant 1.85x.",
+        "sensitivity": "0.1x of P/TBV moves the base target by $3.05 (6.0 pp of price return); $1 of TBVPS moves it by $1.85 (3.6 pp).",
+        "watch_metric": "Adjusted ROTCE (base needs about 15%), TBVPS growth resuming (base needs about 5% y/y) and 2027 NII growth tracking the 8%-or-more guide, with quarterly noninterest expense near $18.5B.",
+        "next_disclosure": "Q4 2026 earnings, expected mid-January 2027 (date not confirmed; check the company IR calendar)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Five named analysts were sourced from one post-Q3 Benzinga roundup (Oct 15, date inferred from the day after the Oct 14 release); all cut targets by $4-$6 after the $0.91 GAAP / $1.08 adjusted EPS (consensus about $1.10) and the $1.2B regulatory settlement, while keeping Buy-equivalent ratings where stated. Named targets of $57-$68 average about $62, roughly 10% above the $56.4 base case; that is equivalent to about 2.0x versus 1.85x base TBVPS, or TBVPS near $33.5, though the analysts' assumptions are unknown. Horizons are undocumented, so none enter the weighted target, and all calls come from one date, so concentration is high. Baird's upgrade to Outperform ($62) and cuts by Piper Sandler/TD Cowen (attribution conflicts, $60 to $56), Truist, Citi and Freedom Broker lacked a verified analyst name or firm and are omitted; the Fintel consensus on Oct 23 was $63.82.",
+      "sources": [
+        {
+          "label": "Benzinga: BAC analysts slash forecasts after weak Q3",
+          "url": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "supports": "Schorr, Graseck, Mayo, Goldberg, Cassidy targets and ratings"
+        },
+        {
+          "label": "Pulse 2.0: BAC Q3 2026 results",
+          "url": "https://pulse2.com/bank-of-america-q3-2026-results/",
+          "supports": "EPS $0.91 / $1.08 adjusted, TBVPS $29.14, NII, buybacks, earnings date"
+        },
+        {
+          "label": "Bank of America Q3 2026 earnings summary (Quartr)",
+          "url": "https://quartr.com/events/bank-of-america-bac-q3-2026_3ehnAbkc",
+          "supports": "Q3 results"
+        },
+        {
+          "label": "TIKR: Baird upgrades Bank of America",
+          "url": "https://www.tikr.com/blog/baird-upgrades-bank-of-america-stock-outperform",
+          "supports": "Baird upgrade, about 10x 2027 earnings"
+        },
+        {
+          "label": "Yahoo Finance: BAC fair value cut after Q3",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-bac-stock-sees-111757553.html",
+          "supports": "Expense run-rate, Oct 23 context"
+        },
+        {
+          "label": "StockStory: BAC Q3 deep dive",
+          "url": "https://stockstory.org/us/stocks/nyse/bac/news/earnings-call/bac-q3-deep-dive-regulatory-costs-and-trading-slowdown-weigh-on-results",
+          "supports": "2027 NII growth of 8% or more"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-14T06:45:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 29.0,
+        "max_weight_pct": 25.0,
+        "contributors": [
+          {
+            "analyst": "Betsy Graseck",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+            "weight": 0.25
+          },
+          {
+            "analyst": "Gerard Cassidy",
+            "firm": "RBC Capital Markets",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+            "weight": 0.25
+          },
+          {
+            "analyst": "Glenn Schorr",
+            "firm": "Evercore ISI",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+            "weight": 0.25
+          },
+          {
+            "analyst": "Mike Mayo",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+            "weight": 0.25
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Betsy Graseck",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Betsy Graseck",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 61.0,
+          "source_prior": 67,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "revision_pct": -8.955223880597018,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Gerard Cassidy",
+          "firm": "RBC Capital Markets",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Gerard Cassidy",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 60.0,
+          "source_prior": 65,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "revision_pct": -7.692307692307687,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Glenn Schorr",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Glenn Schorr",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 57.0,
+          "source_prior": 62,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "revision_pct": -8.064516129032262,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 68.0,
+          "source_prior": 72,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "revision_pct": -5.555555555555558,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mike Mayo",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mike Mayo",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 64.0,
+          "source_prior": 69,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results",
+          "prior_observed": null,
+          "revision_pct": -7.246376811594201,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -23691,12 +25417,22 @@
         "kind": "new"
       },
       {
+        "symbol": "BAC",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "BRK/B",
         "researched_at": "2026-11-16",
         "kind": "new"
       },
       {
         "symbol": "COST",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "CSCO",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -23741,6 +25477,11 @@
         "kind": "new"
       },
       {
+        "symbol": "MRK",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "MSFT",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -23753,6 +25494,11 @@
       {
         "symbol": "NVDA",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "ORCL",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -23788,6 +25534,11 @@
       {
         "symbol": "TSM",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "UNH",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -23840,6 +25591,102 @@
         "horizon_months": null
       },
       {
+        "symbol": "CSCO",
+        "firm": "Evercore ISI",
+        "analyst": "Amit Daryanani",
+        "issued_at": "2026-11-13",
+        "source": "https://stockanalysis.com/stocks/csco/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 150.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "CSCO",
+        "firm": "Citi",
+        "analyst": "Atif Malik",
+        "issued_at": "2026-11-13",
+        "source": "https://stocktwits.com/news-articles/markets/equity/cisco-s-growth-may-have-peaked-despite-raised-ai-revenue-outlook-says-citi-barclays-sees-margins-holding-up/cNbRTvGR9fO",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 120.0,
+        "prior_target": 139,
+        "direction": "cut",
+        "revision_pct": -13.669064748201443,
+        "horizon_months": null
+      },
+      {
+        "symbol": "CSCO",
+        "firm": "KeyBanc",
+        "analyst": "Brandon Nispel",
+        "issued_at": "2026-11-13",
+        "source": "https://stockanalysis.com/stocks/csco/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 135.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "CSCO",
+        "firm": "UBS",
+        "analyst": "David Vogt",
+        "issued_at": "2026-11-13",
+        "source": "https://stockanalysis.com/stocks/csco/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 138.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "CSCO",
+        "firm": "Truist Financial",
+        "analyst": "Matthew Niknam",
+        "issued_at": "2026-11-13",
+        "source": "https://stockanalysis.com/stocks/csco/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 127.0,
+        "prior_target": 140,
+        "direction": "cut",
+        "revision_pct": -9.285714285714286,
+        "horizon_months": null
+      },
+      {
+        "symbol": "CSCO",
+        "firm": "Goldman Sachs",
+        "analyst": "Michael Ng",
+        "issued_at": "2026-11-13",
+        "source": "https://stockanalysis.com/stocks/csco/ratings/",
+        "currency": null,
+        "rating": "Hold",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 125.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
         "symbol": "XOM",
         "firm": "Bernstein",
         "analyst": "Bernstein (analyst not named)",
@@ -23853,6 +25700,38 @@
         "prior_target": 193,
         "direction": "cut",
         "revision_pct": -3.626943005181349,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ORCL",
+        "firm": "DBS",
+        "analyst": "Andy Yu",
+        "issued_at": "2026-11-12",
+        "source": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 290.0,
+        "prior_target": 310,
+        "direction": "cut",
+        "revision_pct": -6.451612903225811,
+        "horizon_months": null
+      },
+      {
+        "symbol": "MRK",
+        "firm": "Cantor Fitzgerald",
+        "analyst": "Carter Gould",
+        "issued_at": "2026-11-12",
+        "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+        "currency": null,
+        "rating": "Hold",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 155.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
         "horizon_months": null
       },
       {
@@ -23917,6 +25796,38 @@
         "prior_target": 1143,
         "direction": "raise",
         "revision_pct": 1.049868766404205,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ORCL",
+        "firm": "Bernstein",
+        "analyst": "Mark Moerdler",
+        "issued_at": "2026-11-10",
+        "source": "https://www.tikr.com/ja/blog/bernsteins-325-target-says-oracles-selloff-went-too-far",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 325.0,
+        "prior_target": 325,
+        "direction": "unchanged",
+        "revision_pct": 0.0,
+        "horizon_months": null
+      },
+      {
+        "symbol": "MRK",
+        "firm": "Scotiabank",
+        "analyst": "Louise Chen",
+        "issued_at": "2026-11-10",
+        "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 180.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
         "horizon_months": null
       },
       {

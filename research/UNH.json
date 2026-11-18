@@ -1,0 +1,185 @@
+{
+ "issuer_id": "UnitedHealth Group Incorporated",
+ "symbol": "UNH",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 407.46,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-13T05:55:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Michael Ha",
+   "firm": "Baird",
+   "field": "target",
+   "value": 427,
+   "source_prior": 453,
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results"
+  },
+  {
+   "analyst": "Michael Ha",
+   "firm": "Baird",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results"
+  },
+  {
+   "analyst": "Andrew Mok",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 440,
+   "source_prior": 441,
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results"
+  },
+  {
+   "analyst": "Andrew Mok",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results"
+  },
+  {
+   "analyst": "John Ransom",
+   "firm": "Raymond James",
+   "field": "target",
+   "value": 450,
+   "source_prior": 475,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://uk.investing.com/news/stock-market-news/raymond-james-lowers-unitedhealth-stock-price-target-to-450-on-valuation-93CH-4911821"
+  },
+  {
+   "analyst": "John Ransom",
+   "firm": "Raymond James",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://uk.investing.com/news/stock-market-news/raymond-james-lowers-unitedhealth-stock-price-target-to-450-on-valuation-93CH-4911821"
+  },
+  {
+   "analyst": "Jessica Tassan",
+   "firm": "Piper Sandler",
+   "field": "target",
+   "value": 504,
+   "source_prior": 502,
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.defenseworld.net/2026/10/15/piper-sandler-issues-positive-forecast-for-unitedhealth-group-nyseunh-stock-price.html"
+  },
+  {
+   "analyst": "Jessica Tassan",
+   "firm": "Piper Sandler",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "source": "https://www.defenseworld.net/2026/10/15/piper-sandler-issues-positive-forecast-for-unitedhealth-group-nyseunh-stock-price.html"
+  },
+  {
+   "analyst": "RBC Capital (analyst not named)",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 498,
+   "source_prior": 478,
+   "issued_at": "2026-10-20",
+   "public_at": "2026-10-20T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/news/analyst-ratings/rbc-capital-raises-unitedhealth-stock-price-target-to-498-on-strong-quarter-93CH-4959227"
+  },
+  {
+   "analyst": "RBC Capital (analyst not named)",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-20",
+   "public_at": "2026-10-20T23:59:59-04:00",
+   "source": "https://www.investing.com/news/analyst-ratings/rbc-capital-raises-unitedhealth-stock-price-target-to-498-on-strong-quarter-93CH-4959227"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date, Nov 2027). FY2026 adjusted EPS guided to at least $20.50 (9M actual $18.30, implied Q4 ~$2.20); FY2027 EPS is my estimate built on management's 13-16% long-term growth target and its comment that 2027 expectations look conservative. Diluted shares ~902M (Q3 2026).",
+  "bear": 312.0,
+  "base": 423.0,
+  "bull": 497.0,
+  "cases": {
+   "bear": {
+    "driver": "Commercial and Medicaid cost trend reverses the Q3 MCR gain (88.4%); 2027 EPS grows only ~5% off a $20.50 base",
+    "assumption": "EPS $21.50 at 14.5x",
+    "target": 311.75
+   },
+   "base": {
+    "driver": "2026 lands near $20.70; FY2027 EPS grows ~13-14% on margin repair and buybacks (~$5B YTD) at the low end of the 13-16% target",
+    "assumption": "EPS $23.50 at 18.0x",
+    "target": 423.0
+   },
+   "bull": {
+    "driver": "MCR keeps improving, 2027 rates (MA +2.48%) and repricing lift EPS ~23%",
+    "assumption": "EPS $25.50 at 19.5x",
+    "target": 497.25
+   }
+  },
+  "implied_by_close": "At base EPS $23.50 the $407.46 close implies 17.3x; the recency-weighted analyst target (~$470) implies about 20.0x on that EPS, or EPS about $26.1 at 18x",
+  "sensitivity": "One turn of P/E moves the base target by $23.50 (5.8 pp of the close)",
+  "watch_metric": "Consolidated medical care ratio (Q3 2026: 88.4%) and the initial 2027 adjusted EPS outlook",
+  "next_disclosure": "Q4 and full-year 2026 results and 2027 guidance, expected mid-January 2027 (date not confirmed in sources)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named post-Q3 moves were mixed: Piper Sandler ($504) and RBC ($498) raised, while Baird ($427), Barclays ($440) and Raymond James ($450, valuation-only) trimmed, all within about a week of the Oct 13 print; all ratings were maintained. The sample averages roughly $470 versus a $423 base, a gap of about 2.7 turns of P/E on my EPS or about $2.6 of EPS at 18x; analyst EPS inputs are not disclosed. Only five firms with dated calls were verified, horizons are undocumented so none enter the weighted target, and several other targets (UBS $490, KeyBanc $500, Bernstein $500, Goldman, JPMorgan $524) lacked verifiable dates and were excluded.",
+ "sources": [
+  {
+   "label": "UnitedHealth Q3 2026 results (8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000731766/000073176626000255/earningsrelease3q26unh.htm",
+   "supports": "EPS, outlook, MCR"
+  },
+  {
+   "label": "Q3 2026 results summary",
+   "url": "https://finviz.com/news/401499/unitedhealth-group-reports-third-quarter-2026-results",
+   "supports": "902M diluted shares, buybacks, release time"
+  },
+  {
+   "label": "Benzinga post-Q3 target changes",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62356817/unitedhealth-analysts-slash-their-forecasts-following-q3-results",
+   "supports": "Baird, Barclays moves"
+  },
+  {
+   "label": "Investing.com Raymond James",
+   "url": "https://uk.investing.com/news/stock-market-news/raymond-james-lowers-unitedhealth-stock-price-target-to-450-on-valuation-93CH-4911821",
+   "supports": "Raymond James target"
+  },
+  {
+   "label": "Investing.com RBC",
+   "url": "https://www.investing.com/news/analyst-ratings/rbc-capital-raises-unitedhealth-stock-price-target-to-498-on-strong-quarter-93CH-4959227",
+   "supports": "RBC target"
+  },
+  {
+   "label": "Defense World Piper Sandler",
+   "url": "https://www.defenseworld.net/2026/10/15/piper-sandler-issues-positive-forecast-for-unitedhealth-group-nyseunh-stock-price.html",
+   "supports": "Piper target"
+  },
+  {
+   "label": "Healthcare Finance News Q3 2026",
+   "url": "https://www.healthcarefinancenews.com/news/unitedhealth-targets-growth-q3-profit-rises",
+   "supports": "2027 commentary, long-term growth"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+  "issuer_id": "Bank of America Corporation",
+  "symbol": "BAC",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 51.02, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-14T06:45:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Glenn Schorr", "firm": "Evercore ISI", "field": "target", "value": 57, "source_prior": 62,
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"},
+    {"analyst": "Glenn Schorr", "firm": "Evercore ISI", "field": "rating", "value": "Outperform", "bucket": "Buy",
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00",
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"},
+    {"analyst": "Betsy Graseck", "firm": "Morgan Stanley", "field": "target", "value": 61, "source_prior": 67,
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"},
+    {"analyst": "Betsy Graseck", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00",
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"},
+    {"analyst": "Mike Mayo", "firm": "Wells Fargo", "field": "target", "value": 64, "source_prior": 69,
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"},
+    {"analyst": "Mike Mayo", "firm": "Wells Fargo", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00",
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"},
+    {"analyst": "Jason Goldberg", "firm": "Barclays", "field": "target", "value": 68, "source_prior": 72,
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"},
+    {"analyst": "Gerard Cassidy", "firm": "RBC Capital Markets", "field": "target", "value": 60, "source_prior": 65,
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"},
+    {"analyst": "Gerard Cassidy", "firm": "RBC Capital Markets", "field": "rating", "value": "Outperform", "bucket": "Buy",
+     "issued_at": "2026-10-15", "public_at": "2026-10-15T23:59:59-04:00",
+     "source": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results"}
+  ],
+  "valuation": {
+    "method": "Bank: tangible book value per common share (TBVPS) projected to the 12-month target date (Nov 2027) x P/TBV. Q3 2026 TBVPS $29.14 (reported 2026-10-14; first quarterly decline in a year on a $3.2B bond/hedge loss from higher rates). Grown about 5%/yr in the base case (adjusted ROTCE 14.9%, less dividends and about $6B/quarter buybacks, plus AOCI drag easing) to roughly $30.5 by Nov 2027. Steady-state check: P/TBV = (ROTCE - g)/(COE - g) = (15% - 4.5%)/(10.5% - 4.5%) = 1.75x, so base uses 1.85x given 2027 NII growth of 8% or more guided on the call. Cross-check: $56.4 is about 10.8x FY2027 EPS of roughly $5.2 (model assumption, in line with Baird's ~10x 2027 EPS framing, not guidance). USD listing, no ADR conversion. Q3 figures are secondary-source (press summaries of the 8-K); verify against the filing.",
+    "bear": 41.3, "base": 56.4, "bull": 69.3,
+    "cases": {
+      "bear": {"driver": "Credit cycle and further regulatory/legal charges push ROTCE to about 11%, NII growth falls short of 8%, buybacks slow and rate losses keep TBVPS nearly flat.", "assumption": "TBVPS $29.5 at 1.4x P/TBV", "target": 41.3},
+      "base": {"driver": "2027 NII grows about 8% as guided, expenses near $18.5-18.6B per quarter, the $1.2B settlement is one-off, ROTCE about 15%, TBVPS compounding about 5%.", "assumption": "TBVPS $30.5 at 1.85x P/TBV", "target": 56.4},
+      "bull": {"driver": "NII growth above 8%, stronger trading and investment banking, benign credit, ROTCE about 17%, faster buybacks and lighter capital rules lift TBVPS growth to about 8%.", "assumption": "TBVPS $31.5 at 2.2x P/TBV", "target": 69.3}
+    },
+    "implied_by_close": "The close of $51.02 is 1.75x Q3 TBVPS of $29.14 and 1.67x base-case Nov 2027 TBVPS of $30.5. The named-analyst targets average about $62 (range $57-$68), which implies about 2.0x base TBVPS, or TBVPS of about $33.5 at a constant 1.85x.",
+    "sensitivity": "0.1x of P/TBV moves the base target by $3.05 (6.0 pp of price return); $1 of TBVPS moves it by $1.85 (3.6 pp).",
+    "watch_metric": "Adjusted ROTCE (base needs about 15%), TBVPS growth resuming (base needs about 5% y/y) and 2027 NII growth tracking the 8%-or-more guide, with quarterly noninterest expense near $18.5B.",
+    "next_disclosure": "Q4 2026 earnings, expected mid-January 2027 (date not confirmed; check the company IR calendar)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Five named analysts were sourced from one post-Q3 Benzinga roundup (Oct 15, date inferred from the day after the Oct 14 release); all cut targets by $4-$6 after the $0.91 GAAP / $1.08 adjusted EPS (consensus about $1.10) and the $1.2B regulatory settlement, while keeping Buy-equivalent ratings where stated. Named targets of $57-$68 average about $62, roughly 10% above the $56.4 base case; that is equivalent to about 2.0x versus 1.85x base TBVPS, or TBVPS near $33.5, though the analysts' assumptions are unknown. Horizons are undocumented, so none enter the weighted target, and all calls come from one date, so concentration is high. Baird's upgrade to Outperform ($62) and cuts by Piper Sandler/TD Cowen (attribution conflicts, $60 to $56), Truist, Citi and Freedom Broker lacked a verified analyst name or firm and are omitted; the Fintel consensus on Oct 23 was $63.82.",
+  "sources": [
+    {"label": "Benzinga: BAC analysts slash forecasts after weak Q3", "url": "https://www.benzinga.com/news/26/10/62393957/bank-of-america-analysts-slash-their-forecasts-following-weak-q3-results", "supports": "Schorr, Graseck, Mayo, Goldberg, Cassidy targets and ratings"},
+    {"label": "Pulse 2.0: BAC Q3 2026 results", "url": "https://pulse2.com/bank-of-america-q3-2026-results/", "supports": "EPS $0.91 / $1.08 adjusted, TBVPS $29.14, NII, buybacks, earnings date"},
+    {"label": "Bank of America Q3 2026 earnings summary (Quartr)", "url": "https://quartr.com/events/bank-of-america-bac-q3-2026_3ehnAbkc", "supports": "Q3 results"},
+    {"label": "TIKR: Baird upgrades Bank of America", "url": "https://www.tikr.com/blog/baird-upgrades-bank-of-america-stock-outperform", "supports": "Baird upgrade, about 10x 2027 earnings"},
+    {"label": "Yahoo Finance: BAC fair value cut after Q3", "url": "https://finance.yahoo.com/markets/stocks/articles/bank-america-bac-stock-sees-111757553.html", "supports": "Expense run-rate, Oct 23 context"},
+    {"label": "StockStory: BAC Q3 deep dive", "url": "https://stockstory.org/us/stocks/nyse/bac/news/earnings-call/bac-q3-deep-dive-regulatory-costs-and-trading-slowdown-weigh-on-results", "supports": "2027 NII growth of 8% or more"}
+  ]
+}

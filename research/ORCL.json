@@ -1,0 +1,214 @@
+{
+  "issuer_id": "Oracle Corporation",
+  "symbol": "ORCL",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 125.35,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-09-10T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Andy Yu",
+      "firm": "DBS",
+      "field": "target",
+      "value": 290,
+      "source_prior": 310,
+      "horizon_months": null,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut"
+    },
+    {
+      "analyst": "Andy Yu",
+      "firm": "DBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut"
+    },
+    {
+      "analyst": "Mark Moerdler",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 325,
+      "source_prior": 325,
+      "horizon_months": null,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.tikr.com/ja/blog/bernsteins-325-target-says-oracles-selloff-went-too-far"
+    },
+    {
+      "analyst": "Mark Moerdler",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.tikr.com/ja/blog/bernsteins-325-target-says-oracles-selloff-went-too-far"
+    },
+    {
+      "analyst": "(unnamed) Stephens",
+      "firm": "Stephens",
+      "field": "target",
+      "value": 213,
+      "source_prior": 185,
+      "horizon_months": null,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.tikr.com/blog/63-upside-for-oracle-stephens-thinks-so-and-heres-how"
+    },
+    {
+      "analyst": "(unnamed) Stephens",
+      "firm": "Stephens",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.tikr.com/blog/63-upside-for-oracle-stephens-thinks-so-and-heres-how"
+    },
+    {
+      "analyst": "(unnamed) UBS",
+      "firm": "UBS",
+      "field": "target",
+      "value": 250,
+      "source_prior": 245,
+      "horizon_months": null,
+      "issued_at": "2026-09-11",
+      "public_at": "2026-09-11T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results"
+    },
+    {
+      "analyst": "(unnamed) Barclays",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 252,
+      "source_prior": 250,
+      "horizon_months": null,
+      "issued_at": "2026-09-11",
+      "public_at": "2026-09-11T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results"
+    },
+    {
+      "analyst": "(unnamed) BMO Capital Markets",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 195,
+      "source_prior": 220,
+      "horizon_months": null,
+      "issued_at": "2026-09-11",
+      "public_at": "2026-09-11T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results"
+    },
+    {
+      "analyst": "(unnamed) Royal Bank of Canada",
+      "firm": "Royal Bank of Canada",
+      "field": "target",
+      "value": 165,
+      "source_prior": 190,
+      "horizon_months": null,
+      "issued_at": "2026-09-11",
+      "public_at": "2026-09-11T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results"
+    },
+    {
+      "analyst": "(unnamed) Stifel",
+      "firm": "Stifel",
+      "field": "target",
+      "value": 200,
+      "source_prior": 220,
+      "horizon_months": null,
+      "issued_at": "2026-09-11",
+      "public_at": "2026-09-11T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results"
+    },
+    {
+      "analyst": "(unnamed) Morgan Stanley",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 210,
+      "source_prior": 207,
+      "horizon_months": null,
+      "issued_at": "2026-09-04",
+      "public_at": "2026-09-04T23:59:59-04:00",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-5-morgan-stanley-131627036.html"
+    },
+    {
+      "analyst": "(unnamed) Morgan Stanley",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-09-04",
+      "public_at": "2026-09-04T23:59:59-04:00",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-5-morgan-stanley-131627036.html"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E. At the 12-month target date (Nov 2027) an investor prices next-twelve-month non-GAAP EPS, about half FY2028 (May-2028 year end) plus half FY2029. Inputs: Q1 FY2027 non-GAAP EPS $1.92, FY2027 guidance $8.10 (consensus about $8.15), FY2028 consensus about $11.05; FY2029 and the NTM blend are model assumptions, haircut for dilution (diluted shares 3.0B in Q1, up 3% y/y, plus a $20B equity program) and interest cost on about $125B of borrowings. USD NYSE listing, no ADR conversion. Quarterly dividend $0.50 ($2.00 a year) is shown separately and is not in the targets.",
+    "bear": 95.0,
+    "base": 168.0,
+    "bull": 252.0,
+    "cases": {
+      "bear": {
+        "driver": "AI capacity delivery slips and counterparties (OpenAI is about half of the $664B RPO per S&P) cut or cancel contracts; financing costs and dilution absorb the growth; credit rating pressure persists",
+        "assumption": "NTM EPS $9.50 at 10x",
+        "target": 95.0
+      },
+      "base": {
+        "driver": "RPO converts roughly half within 36 months, revenue at least $90B in FY2027, cloud infrastructure growth continues; free cash flow turns positive in H2 FY2028 as management states; dilution trims EPS vs consensus",
+        "assumption": "NTM EPS $12.00 at 14x",
+        "target": 168.0
+      },
+      "bull": {
+        "driver": "Backlog converts on schedule with better margins, funding needs stay inside the $20B cap, and the market re-rates toward the 5-year average multiple",
+        "assumption": "NTM EPS $14.00 at 18x",
+        "target": 252.0
+      }
+    },
+    "implied_by_close": "At base NTM EPS $12.00 the $125.35 close implies 10.4x; the mean of the nine most recent named targets ($233) implies 19.4x on that EPS, or EPS of about $16.7 at 14x.",
+    "sensitivity": "One turn of P/E moves the base target by $12 (9.6 pp of the close); $1 of NTM EPS moves it by $14 (11 pp)",
+    "watch_metric": "Free cash flow and capex against the $90-95B FY2027 capex guide (no more than $70B net cash), plus RPO conversion and customer concentration",
+    "next_disclosure": "Fiscal Q2 2027 earnings, expected mid-December 2026"
+  },
+  "dividend_per_share": 2.0,
+  "analyst_notes": "Named calls since the Sept 10 earnings are split: UBS and Barclays raised slightly, while BMO, RBC and Stifel cut by $15-25; in November DBS cut to $290 and Stephens upgraded to Overweight at $213, with Bernstein holding $325. The nine latest targets average about $233 (range $165-$325), roughly 86% above the close, a gap of about 52 pp to the base case; it needs either about $16.7 of NTM EPS at 14x or about 19x on $12. Evidence is concentrated in a few names, many analysts are unnamed in the sources, and horizons are not documented so no target is weighted. Bernstein's analyst name is given as Moerdler by one source and Mohler by another.",
+  "sources": [
+    {
+      "label": "Oracle Q1 FY2027 press release",
+      "url": "https://investor.oracle.com/investor-news/news-details/2026/Oracle-Announces-Q1-Results-Driven-by-Triple-Digit-Growth-in-Cloud-Infrastructure-Revenues/",
+      "supports": "EPS, guidance, RPO, diluted shares, cash and debt, dividend"
+    },
+    {
+      "label": "TIKR on DBS target cut",
+      "url": "https://www.tikr.com/blog/dbss-290-oracle-target-still-implies-126-upside-even-after-a-cut",
+      "supports": "DBS call, consensus EPS, FCF and capex, management FCF guidance"
+    },
+    {
+      "label": "TIKR on Stephens upgrade",
+      "url": "https://www.tikr.com/blog/63-upside-for-oracle-stephens-thinks-so-and-heres-how",
+      "supports": "Stephens call, backlog, capex, equity and debt raise cap"
+    },
+    {
+      "label": "TIKR on Bernstein target",
+      "url": "https://www.tikr.com/ja/blog/bernsteins-325-target-says-oracles-selloff-went-too-far",
+      "supports": "Bernstein call, total debt $169.1B incl. leases"
+    },
+    {
+      "label": "Benzinga post-Q1 target changes",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/09/61739498/these-analysts-revise-their-forecasts-on-oracle-after-q1-results",
+      "supports": "UBS, Barclays, BMO, RBC, Stifel targets"
+    },
+    {
+      "label": "Yahoo Finance on Morgan Stanley target",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-rallies-5-morgan-stanley-131627036.html",
+      "supports": "Morgan Stanley target raise"
+    }
+  ]
+}

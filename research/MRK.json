@@ -1,0 +1,208 @@
+{
+ "issuer_id": "Merck & Co., Inc.",
+ "symbol": "MRK",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 147.76,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-29T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Asad Haider",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 165,
+   "issued_at": "2026-11-13",
+   "public_at": "2026-11-13T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+   "source_prior": 155
+  },
+  {
+   "analyst": "Asad Haider",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-13",
+   "public_at": "2026-11-13T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Carter Gould",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 155,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Carter Gould",
+   "firm": "Cantor Fitzgerald",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Louise Chen",
+   "firm": "Scotiabank",
+   "field": "target",
+   "value": 180,
+   "issued_at": "2026-11-10",
+   "public_at": "2026-11-10T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Louise Chen",
+   "firm": "Scotiabank",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-10",
+   "public_at": "2026-11-10T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 140,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Elmar Kraus",
+   "firm": "DZ BANK AG",
+   "field": "target",
+   "value": 153,
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Elmar Kraus",
+   "firm": "DZ BANK AG",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Daina Graybosch",
+   "firm": "Leerink Partners",
+   "field": "target",
+   "value": 162,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+   "source_prior": 161
+  },
+  {
+   "analyst": "Daina Graybosch",
+   "firm": "Leerink Partners",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  },
+  {
+   "analyst": "Ilya Zubkov",
+   "firm": "Freedom Capital Markets",
+   "field": "target",
+   "value": 140,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/",
+   "source_prior": 125
+  },
+  {
+   "analyst": "Ilya Zubkov",
+   "firm": "Freedom Capital Markets",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/mrk/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS excluding acquired-IPR&D charges, viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchor: FY2026 non-GAAP EPS guidance $2.77-$2.82 (raised Oct 29 2026), which includes one-time charges of $3.62 (Cidara), $2.31 (Terns) and $0.12 (SciBrunch) per share, i.e. about $6.05 in total; adding these back gives about $8.85 on sales of $66.8-$67.3B and about 2.48B diluted shares. FY2027 EPS is my own assumption (no company 2027 guidance; no sourced consensus). It assumes mid-single-digit sales growth from Keytruda/Qlex, Gardasil and new launches, flat margins, and no new large IPR&D charge; a future business-development charge would cut reported EPS.",
+  "bear": 110.5,
+  "base": 139.5,
+  "bull": 166.3,
+  "cases": {
+   "bear": {
+    "driver": "Keytruda 2028 loss of exclusivity and pricing/Gardasil pressure drive investors to a trough multiple; underlying growth stalls and opex rises.",
+    "assumption": "FY2027 EPS $8.50 at 13x",
+    "target": 110.5
+   },
+   "base": {
+    "driver": "Underlying EPS grows about 2% from the roughly $8.85 FY2026 add-back level as Keytruda Qlex conversion, launches and Gardasil offset Q3 purchase-timing reversal; multiple stays below the large-cap pharma premium because of the 2028 Keytruda cliff.",
+    "assumption": "FY2027 EPS $9.00 at 15.5x",
+    "target": 139.5
+   },
+   "bull": {
+    "driver": "Subcutaneous Keytruda conversion protects the franchise, pipeline (sac-TMT, Enflonsia, Winrevair) offsets the 2028 cliff, and margins expand on cost savings.",
+    "assumption": "FY2027 EPS $9.50 at 17.5x",
+    "target": 166.3
+   }
+  },
+  "implied_by_close": "At base EPS of $9.00 the $147.76 close implies 16.4x; the equal-weight average of the seven named pre-close targets (about $156) implies 17.3x on $9.00, or about $10.05 EPS at 15.5x.",
+  "sensitivity": "One turn of P/E moves the base target by $9.00 (about 6.1 pp of the close).",
+  "watch_metric": "Keytruda plus Keytruda Qlex sales (Q3 2026 $8.6B, Qlex $830M) and the Qlex share of conversion, plus 2027 non-GAAP EPS guidance including any IPR&D charges.",
+  "next_disclosure": "Q4 and FY2026 results with initial 2027 guidance, expected around early February 2027 (date not confirmed)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Seven named analysts (Goldman, Cantor, Scotiabank, RBC, DZ Bank, Leerink, Freedom Capital) issued calls from Nov 2-13 2026, all after the Oct 29 earnings release; three Buys and four Holds with targets of $140-$180. Goldman raised $155 to $165, Leerink $161 to $162 and Freedom $125 to $140, with no cuts. The $156 average target is about 12% above my base of $139.5, equal to roughly $1.05 of FY2027 EPS at 15.5x or one turn of multiple. A Barclays Buy at $180 dated Nov 16 falls after the reference close and is excluded. Horizons are undocumented, so no target enters the weighted average, and all calls come from a single aggregator table.",
+ "sources": [
+  {
+   "label": "Merck Q3 2026 results press release",
+   "url": "https://www.merck.com/news/merck-co-inc-rahway-n-j-usa-announces-third-quarter-2026-financial-results-highlights-multiple-milestones-advancing-broad-diverse-pipeline",
+   "supports": "Q3 EPS, FY2026 guidance, charges, share count"
+  },
+  {
+   "label": "MarketBeat Q3 2026 call transcript summary",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-merck-co-inc-q3-earnings-call-highlights-2026-10-30/",
+   "supports": "Purchase-timing benefit, guidance context"
+  },
+  {
+   "label": "StockAnalysis MRK ratings",
+   "url": "https://stockanalysis.com/stocks/mrk/ratings/",
+   "supports": "Named analyst ratings and targets, Nov 2026"
+  },
+  {
+   "label": "Quartr Q3 2026 earnings summary",
+   "url": "https://quartr.com/events/merck-co-inc-mrk-q3-2026_ojVXvVLh",
+   "supports": "Gross margin, opex, tax guidance"
+  }
+ ]
+}

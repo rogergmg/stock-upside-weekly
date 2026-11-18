@@ -1,0 +1,81 @@
+{
+  "issuer_id": "Corning Incorporated",
+  "symbol": "GLW",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 114.08,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Asiya Merchant",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 220,
+      "source_prior": 240,
+      "issued_at": "2026-07-29",
+      "public_at": "2026-07-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/"
+    },
+    {
+      "analyst": "Asiya Merchant",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-07-29",
+      "public_at": "2026-07-29T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 core EPS viewed at the 12-month target date. USD listing, no ADR conversion. FY2026 core EPS run-rate assumed about $3.5 from Q3 core EPS $0.91 and Q4 revenue guide near $5.25B; FY2027 EPS is my assumption, not a sourced filing figure.",
+    "bear": 81.4,
+    "base": 120.4,
+    "bull": 160.0,
+    "cases": {
+      "bear": {
+        "driver": "AI optical demand digestion, margin flat",
+        "assumption": "EPS $3.70 at 22x",
+        "target": 81.4
+      },
+      "base": {
+        "driver": "Optical Communications keeps growing 25-40% with modest margin gains",
+        "assumption": "EPS $4.30 at 28x",
+        "target": 120.4
+      },
+      "bull": {
+        "driver": "Optical build-out accelerates toward the 2030 sales ambition",
+        "assumption": "EPS $5.00 at 32x",
+        "target": 160.0
+      }
+    },
+    "implied_by_close": "At base EPS $4.30 the close implies 26.5x; the roughly $177 consensus target implies 41x or EPS about $6.3 at 28x",
+    "sensitivity": "One turn of P/E moves the base target by $4.30 (3.8 pp)",
+    "watch_metric": "Optical Communications sales growth and core operating margin",
+    "next_disclosure": "Q4 2026 earnings, late January 2027 (date not confirmed)"
+  },
+  "dividend_per_share": 1.12,
+  "analyst_notes": "Only one named, dated call was verifiable (Citi, July). Other firms (Morgan Stanley $165, Oppenheimer $200, Barclays $129) were found without analyst names. Consensus near $177 is well above the $114 close, implying higher EPS or multiple than the base case. Targets are pre-Q3 and may be stale.",
+  "sources": [
+    {
+      "label": "MarketBeat Q3 2026 earnings",
+      "url": "https://www.marketbeat.com/instant-alerts/earnings-corning-nyse-glw-announces-earnings-results-2026-10-27/",
+      "supports": "Q3 EPS, revenue, guidance, dividend, targets"
+    },
+    {
+      "label": "MarketBeat Citi target cut",
+      "url": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/",
+      "supports": "Citigroup target and rating"
+    },
+    {
+      "label": "Zacks Q3 review",
+      "url": "https://www.zacks.com/stock/news/3018357/buy-corning-on-solid-q3-earnings,-guidance-and-ai-photonics-space-rally",
+      "supports": "Q3 results, target range"
+    }
+  ]
+}

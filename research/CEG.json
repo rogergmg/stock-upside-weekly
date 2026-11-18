@@ -1,0 +1,30 @@
+{
+  "issuer_id": "Constellation Energy Corporation",
+  "symbol": "CEG",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 280.2, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": null,
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward adjusted operating EPS x P/E. Each case uses FY2027 adjusted operating EPS (the year priced at the 2027-11-18 target date). Anchors: Q3 2026 adjusted operating EPS $5.06; 2026 guidance narrowed to $12.50-12.80 (midpoint $12.65); company will refresh 2027-2028 guidance with year-end results. FY2027 EPS values are our assumptions off the 2026 midpoint; multiples are judgement against merchant-nuclear/IPP ranges, not broker targets. US common share in USD, so no ADR or FX conversion applies.",
+    "bear": 204.8, "base": 290.0, "bull": 379.5,
+    "cases": {
+      "bear": {"driver": "Lower power prices and contract repricing flatten earnings; multiple compresses as AI-load enthusiasm fades", "assumption": "FY2027 adjusted EPS $12.80 (+1%) at 16x", "target": 204.8},
+      "base": {"driver": "Nuclear uprates, Calpine integration and data-center contracts lift earnings", "assumption": "FY2027 adjusted EPS $14.50 (+14.6%) at 20x", "target": 290.0},
+      "bull": {"driver": "Additional hyperscaler contracts at premium prices and 2027-28 guidance above expectations", "assumption": "FY2027 adjusted EPS $16.50 (+30%) at 23x", "target": 379.5}
+    },
+    "implied_by_close": "At base FY2027 EPS of $14.50 the close of $280.2 implies 19.3x (22.2x on 2026 midpoint EPS of $12.65). Named analyst targets were not retrieved.",
+    "sensitivity": "One turn of P/E moves the base target by $14.50 (5.2% of the close, 5.2 percentage points of price return).",
+    "watch_metric": "2027 adjusted operating EPS guidance versus the $14.50 base and the 2026 result against the $12.50-12.80 range.",
+    "next_disclosure": "Q4 and full-year 2026 results with refreshed 2027-2028 guidance, expected around February 2027 (date not announced)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "No named-analyst calls with verifiable dates were retrieved, so coverage is marked unavailable. Published consensus for 2026 EPS (about $12.20) predates the guidance raise and is stale; shares are down over 30% year to date.",
+  "sources": [
+    {"label": "Constellation Q3 2026 results", "url": "https://www.constellationenergy.com/news/2026/11/constellation-reports-third-quarter-2026-results.html", "supports": "Q3 EPS, 2026 guidance"},
+    {"label": "Constellation Q3 2026 results (Finviz)", "url": "https://finviz.com/news/418842/constellation-reports-third-quarter-2026-results", "supports": "Q3 EPS, guidance"},
+    {"label": "Raises 2026 earnings outlook after Q3 beat", "url": "https://stocktwits.com/news-articles/markets/equity/constellation-energy-raises-2026-earnings-outlook-after-q3-beat-ceo-highlights-growing-demand-for-reliable-power/cNGrQIqR9ew", "supports": "guidance raise"}
+  ]
+}

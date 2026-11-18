@@ -1,0 +1,165 @@
+{
+ "issuer_id": "Intercontinental Exchange, Inc.",
+ "symbol": "ICE",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 178.51,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-29T08:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "TD Cowen analyst (unnamed)",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 182,
+   "source_prior": 167,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "TD Cowen analyst (unnamed)",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "Bank of America analyst (unnamed)",
+   "firm": "Bank of America",
+   "field": "target",
+   "value": 236,
+   "source_prior": 232,
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "Bank of America analyst (unnamed)",
+   "firm": "Bank of America",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "Goldman Sachs analyst (unnamed)",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 195,
+   "source_prior": 192,
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "Goldman Sachs analyst (unnamed)",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "Piper Sandler analyst (unnamed)",
+   "firm": "Piper Sandler",
+   "field": "target",
+   "value": 195,
+   "source_prior": 190,
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "Piper Sandler analyst (unnamed)",
+   "firm": "Piper Sandler",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "Rothschild & Co Redburn analyst (unnamed)",
+   "firm": "Rothschild & Co Redburn",
+   "field": "target",
+   "value": 181,
+   "source_prior": 173,
+   "issued_at": "2026-09-10",
+   "public_at": "2026-09-10T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  },
+  {
+   "analyst": "Rothschild & Co Redburn analyst (unnamed)",
+   "firm": "Rothschild & Co Redburn",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-10",
+   "public_at": "2026-09-10T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 adjusted EPS viewed at the 12-month target date. Q3 2026 adjusted EPS $2.02 (+18%), 9M $6.27; FY2026 approx $8.27 assuming Q4 near $2.00; Q4 diluted shares guided 558-563m. FY2027 modelled on recurring revenue growth (exchange ~9%, FI&D ~8% guided for 2026), stable margin and buybacks; MarketAxess acquisition (expected close Q1 2027) excluded as terms and financing not modelled, buybacks paused after close per CFO.",
+  "bear": 153.0,
+  "base": 191.1,
+  "bull": 220.8,
+  "cases": {
+   "bear": {
+    "driver": "Energy/rate volatility fades, ADV falls back, mortgage softness",
+    "assumption": "EPS $8.50 at 18x",
+    "target": 153.0
+   },
+   "base": {
+    "driver": "Recurring revenue high-single-digit growth, modest margin gain, buybacks",
+    "assumption": "EPS $9.10 at 21x",
+    "target": 191.1
+   },
+   "bull": {
+    "driver": "Sustained record futures volumes, data growth, accretive deal",
+    "assumption": "EPS $9.60 at 23x",
+    "target": 220.8
+   }
+  },
+  "implied_by_close": "At base EPS $9.10 the close implies 19.6x; the analyst-weighted target is not computable (no 12-month horizons documented, so none weighted); a $190 target implies 20.9x or EPS $9.05 at 21x",
+  "sensitivity": "One turn of P/E moves the base target by $9.10 (5.1 pp)",
+  "watch_metric": "Futures and options ADV and exchange recurring revenue growth versus the 9% guide, plus MarketAxess closing and leverage",
+  "next_disclosure": "Q4 2026 earnings, February 4, 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named analysts were not available in the sources; five firm calls found, all from Sept-Oct 2026 (Argus 16 Nov excluded as after the close). Targets cluster at $181-236 versus a $191 base, a gap of about one P/E turn or roughly $0.1-0.9 of EPS; BofA's $236 is the high outlier and Redburn's is stale (September). TD Cowen is the lone Hold after raising to $182 post-earnings.",
+ "sources": [
+  {
+   "label": "MarketBeat analyst actions",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+   "supports": "Analyst targets and ratings"
+  },
+  {
+   "label": "ICE Q3 2026 results",
+   "url": "https://investingnews.com/intercontinental-exchange-reports-third-quarter-2026/",
+   "supports": "EPS, share count, guidance, MarketAxess timing"
+  },
+  {
+   "label": "ICE Q3 2026 release (Wedbush IR)",
+   "url": "https://investor.wedbush.com/wedbush/article/bizwire-2026-10-29-intercontinental-exchange-reports-third-quarter-2026",
+   "supports": "Q3 results"
+  }
+ ]
+}

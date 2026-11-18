@@ -1,0 +1,30 @@
+{
+"issuer_id":"Regeneron Pharmaceuticals, Inc.","symbol":"REGN","researched_at":"2026-11-18",
+"research_close":{"close":955.47,"close_date":"2026-11-13"},"currency":"USD",
+"earnings_at":"2026-10-30T06:30:00-04:00","coverage":"partial",
+"events":[
+{"analyst":"Guggenheim analyst (unnamed)","firm":"Guggenheim","field":"target","value":1000,"source_prior":995,"issued_at":"2026-07-21","public_at":"2026-07-21T23:59:59-04:00","horizon_months":null,"source":"https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/"},
+{"analyst":"Guggenheim analyst (unnamed)","firm":"Guggenheim","field":"rating","value":"Buy","bucket":"Buy","issued_at":"2026-07-21","public_at":"2026-07-21T23:59:59-04:00","source":"https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/"},
+{"analyst":"Citigroup analyst (unnamed)","firm":"Citigroup","field":"target","value":740,"source_prior":null,"issued_at":"2026-08-03","public_at":"2026-08-03T23:59:59-04:00","horizon_months":null,"source":"https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-given-new-74000-price-target-at-citigroup-2026-08-03/"},
+{"analyst":"Canaccord analyst (unnamed)","firm":"Canaccord Genuity","field":"target","value":875,"source_prior":1057,"issued_at":"2026-05-19","public_at":"2026-05-19T23:59:59-04:00","horizon_months":null,"source":"https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/"},
+{"analyst":"Canaccord analyst (unnamed)","firm":"Canaccord Genuity","field":"rating","value":"Buy","bucket":"Buy","issued_at":"2026-05-19","public_at":"2026-05-19T23:59:59-04:00","source":"https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/"}
+],
+"valuation":{
+"method":"Forward EPS x P/E: FY2027 non-GAAP diluted EPS (viewed at the Nov 2027 target date) x justified multiple. Base: 9M 2026 non-GAAP EPS $43.70 (Q3 $20.07) implies FY2026 about $63 assuming Q4 near $19; FY2027 EPS $66 is my estimate on ~108M diluted shares, ~15% tax, 86% gross margin, R&D about $6.1B, SG&A about $2.45B per company guidance. Net cash about $16.1B (cash $18.9B less $2.0B debt and $0.7B finance leases) is about $150/share and is within the multiple. EPS and multiples are my estimates; no full-year EPS guidance was published.",
+"bear":644,"base":924,"bull":1221,
+"cases":{
+"bear":{"driver":"Eylea HD and Dupixent royalties disappoint, pipeline setbacks, pricing pressure","assumption":"EPS $56 at 11.5x","target":644},
+"base":{"driver":"Dupixent royalty and Eylea HD growth offset by opex growth; modest pipeline contribution","assumption":"EPS $66 at 14.0x","target":924},
+"bull":{"driver":"Strong Dupixent/Eylea HD, cemdisiran and pipeline wins, buybacks","assumption":"EPS $74 at 16.5x","target":1221}},
+"implied_by_close":"At base EPS $66 the close implies 14.5x; the simple average of the three sourced targets ($872) implies 13.2x or EPS about $62 at 14x",
+"sensitivity":"One turn of P/E moves the base target by $66 (6.9 pp of the close)",
+"watch_metric":"Non-GAAP EPS run-rate (Q3 $20.07) with Dupixent collaboration profit and Eylea HD net sales, plus the cemdisiran FDA decision",
+"next_disclosure":"Q4 and FY2026 results, expected late Jan/early Feb 2027"},
+"dividend_per_share":null,
+"analyst_notes":"Only three firms' calls were found with dates (Guggenheim, Citigroup, Canaccord), none after the Oct 30 Q3 beat, so the sample is stale and thin; targets were mostly set pre-earnings with the stock lower. The $872 average sits below the close and implies a lower multiple (13.2x) than the base case; post-Q3 target raises are likely but were not sourced. Horizon is undocumented for all, so none enters the weighted target.",
+"sources":[
+{"label":"Regeneron Q3 2026 results","url":"https://finviz.com/news/412417/regeneron-reports-third-quarter-2026-financial-and-operating-results","supports":"9M EPS, cash, debt, guidance, shares"},
+{"label":"Regeneron investor release Q3 2026","url":"https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-third-quarter-2026-financial-and-operating","supports":"Q3 EPS $20.07, revenue"},
+{"label":"MarketBeat REGN price targets","url":"https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/","supports":"Canaccord target and rating"},
+{"label":"MarketBeat Guggenheim note","url":"https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/","supports":"Guggenheim target"}
+]}

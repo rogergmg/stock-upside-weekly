@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T16:08:07.651366+00:00",
+  "built_at": "2026-11-18T16:09:55.576434+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 162,
+    "rank_valued": 167,
     "rank_with_named_targets": 2,
-    "rank_matched": 162,
-    "researched": 162
+    "rank_matched": 167,
+    "researched": 167
   },
   "ranked": [
     {
@@ -1241,6 +1241,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "ICE",
+      "issuer_id": "Intercontinental Exchange, Inc.",
+      "close": 178.51,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 97755625199,
+        "high": 101757051429
+      },
+      "scenarios_pct": {
+        "bear": -14.290515937482494,
+        "base": 7.052826172203238,
+        "bull": 23.69054954904487
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "META",
       "issuer_id": "Meta Platforms, Inc.",
       "close": 641.69,
@@ -1493,6 +1514,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "GLW",
+      "issuer_id": "Corning Incorporated",
+      "close": 114.08,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 96286381947,
+        "high": 100234010936
+      },
+      "scenarios_pct": {
+        "bear": -28.64656381486676,
+        "base": 5.539971949509116,
+        "bull": 40.252454417952315
+      },
+      "base_total_return_pct": 6.521739130434782,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "SNOW",
       "issuer_id": "Snowflake Inc.",
       "close": 291.0,
@@ -1655,6 +1697,27 @@
         "bull": 21.898379502585286
       },
       "base_total_return_pct": 6.762182616482278,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "MRSH",
+      "issuer_id": "Marsh & McLennan Companies, Inc.",
+      "close": 207.78,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 96826319527,
+        "high": 100778414201
+      },
+      "scenarios_pct": {
+        "bear": -16.06506882279334,
+        "base": 4.702088747713928,
+        "bull": 20.271440947155646
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1994,6 +2057,27 @@
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "CEG",
+      "issuer_id": "Constellation Energy Corporation",
+      "close": 280.2,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 96550288764,
+        "high": 100491116877
+      },
+      "scenarios_pct": {
+        "bear": -26.90935046395432,
+        "base": 3.497501784439686,
+        "bull": 35.438972162740896
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
       "analyst_minus_base_pp": null
     },
     {
@@ -3089,6 +3173,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "REGN",
+      "issuer_id": "Regeneron Pharmaceuticals, Inc.",
+      "close": 955.47,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 96864499322,
+        "high": 100818152356
+      },
+      "scenarios_pct": {
+        "bear": -32.59861638774635,
+        "base": -3.293666991114321,
+        "bull": 27.790511476027504
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "AMGN",
       "issuer_id": "Amgen Inc.",
       "close": 465.67,
@@ -3428,26 +3533,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ICE",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "REGN",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MRSH",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "CEG",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "GLW",
       "reason": "independent valuation unavailable"
     },
     {
@@ -66148,6 +66233,1090 @@
         }
       },
       "history": []
+    },
+    "ICE": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 178.51,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 adjusted EPS viewed at the 12-month target date. Q3 2026 adjusted EPS $2.02 (+18%), 9M $6.27; FY2026 approx $8.27 assuming Q4 near $2.00; Q4 diluted shares guided 558-563m. FY2027 modelled on recurring revenue growth (exchange ~9%, FI&D ~8% guided for 2026), stable margin and buybacks; MarketAxess acquisition (expected close Q1 2027) excluded as terms and financing not modelled, buybacks paused after close per CFO.",
+        "bear": 153.0,
+        "base": 191.1,
+        "bull": 220.8,
+        "cases": {
+          "bear": {
+            "driver": "Energy/rate volatility fades, ADV falls back, mortgage softness",
+            "assumption": "EPS $8.50 at 18x",
+            "target": 153.0
+          },
+          "base": {
+            "driver": "Recurring revenue high-single-digit growth, modest margin gain, buybacks",
+            "assumption": "EPS $9.10 at 21x",
+            "target": 191.1
+          },
+          "bull": {
+            "driver": "Sustained record futures volumes, data growth, accretive deal",
+            "assumption": "EPS $9.60 at 23x",
+            "target": 220.8
+          }
+        },
+        "implied_by_close": "At base EPS $9.10 the close implies 19.6x; the analyst-weighted target is not computable (no 12-month horizons documented, so none weighted); a $190 target implies 20.9x or EPS $9.05 at 21x",
+        "sensitivity": "One turn of P/E moves the base target by $9.10 (5.1 pp)",
+        "watch_metric": "Futures and options ADV and exchange recurring revenue growth versus the 9% guide, plus MarketAxess closing and leverage",
+        "next_disclosure": "Q4 2026 earnings, February 4, 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named analysts were not available in the sources; five firm calls found, all from Sept-Oct 2026 (Argus 16 Nov excluded as after the close). Targets cluster at $181-236 versus a $191 base, a gap of about one P/E turn or roughly $0.1-0.9 of EPS; BofA's $236 is the high outlier and Redburn's is stale (September). TD Cowen is the lone Hold after raising to $182 post-earnings.",
+      "sources": [
+        {
+          "label": "MarketBeat analyst actions",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "supports": "Analyst targets and ratings"
+        },
+        {
+          "label": "ICE Q3 2026 results",
+          "url": "https://investingnews.com/intercontinental-exchange-reports-third-quarter-2026/",
+          "supports": "EPS, share count, guidance, MarketAxess timing"
+        },
+        {
+          "label": "ICE Q3 2026 release (Wedbush IR)",
+          "url": "https://investor.wedbush.com/wedbush/article/bizwire-2026-10-29-intercontinental-exchange-reports-third-quarter-2026",
+          "supports": "Q3 results"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T08:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 42,
+        "max_weight_pct": 24.399424887940054,
+        "contributors": [
+          {
+            "analyst": "Bank of America analyst (unnamed)",
+            "firm": "Bank of America",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-02",
+            "age_days": 42,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+            "weight": 0.1966644280443421
+          },
+          {
+            "analyst": "Goldman Sachs analyst (unnamed)",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-02",
+            "age_days": 42,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+            "weight": 0.1966644280443421
+          },
+          {
+            "analyst": "Piper Sandler analyst (unnamed)",
+            "firm": "Piper Sandler",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-02",
+            "age_days": 42,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+            "weight": 0.1966644280443421
+          },
+          {
+            "analyst": "Rothschild & Co Redburn analyst (unnamed)",
+            "firm": "Rothschild & Co Redburn",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-10",
+            "age_days": 64,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+            "weight": 0.16601246698757322
+          },
+          {
+            "analyst": "TD Cowen analyst (unnamed)",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+            "weight": 0.24399424887940055
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 75.60057511205996,
+          "Hold": 24.399424887940054,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 236.0,
+          "source_prior": 232,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "revision_pct": 1.724137931034475,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 195.0,
+          "source_prior": 192,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "revision_pct": 1.5625,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Piper Sandler analyst (unnamed)",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Piper Sandler analyst (unnamed)",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 195.0,
+          "source_prior": 190,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "revision_pct": 2.6315789473684292,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Rothschild & Co Redburn analyst (unnamed)",
+          "firm": "Rothschild & Co Redburn",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Rothschild & Co Redburn analyst (unnamed)",
+          "firm": "Rothschild & Co Redburn",
+          "field": "target",
+          "value": 181.0,
+          "source_prior": 173,
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "revision_pct": 4.6242774566473965,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 182.0,
+          "source_prior": 167,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/",
+          "prior_observed": null,
+          "revision_pct": 8.982035928143706,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "REGN": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 955.47,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS (viewed at the Nov 2027 target date) x justified multiple. Base: 9M 2026 non-GAAP EPS $43.70 (Q3 $20.07) implies FY2026 about $63 assuming Q4 near $19; FY2027 EPS $66 is my estimate on ~108M diluted shares, ~15% tax, 86% gross margin, R&D about $6.1B, SG&A about $2.45B per company guidance. Net cash about $16.1B (cash $18.9B less $2.0B debt and $0.7B finance leases) is about $150/share and is within the multiple. EPS and multiples are my estimates; no full-year EPS guidance was published.",
+        "bear": 644,
+        "base": 924,
+        "bull": 1221,
+        "cases": {
+          "bear": {
+            "driver": "Eylea HD and Dupixent royalties disappoint, pipeline setbacks, pricing pressure",
+            "assumption": "EPS $56 at 11.5x",
+            "target": 644
+          },
+          "base": {
+            "driver": "Dupixent royalty and Eylea HD growth offset by opex growth; modest pipeline contribution",
+            "assumption": "EPS $66 at 14.0x",
+            "target": 924
+          },
+          "bull": {
+            "driver": "Strong Dupixent/Eylea HD, cemdisiran and pipeline wins, buybacks",
+            "assumption": "EPS $74 at 16.5x",
+            "target": 1221
+          }
+        },
+        "implied_by_close": "At base EPS $66 the close implies 14.5x; the simple average of the three sourced targets ($872) implies 13.2x or EPS about $62 at 14x",
+        "sensitivity": "One turn of P/E moves the base target by $66 (6.9 pp of the close)",
+        "watch_metric": "Non-GAAP EPS run-rate (Q3 $20.07) with Dupixent collaboration profit and Eylea HD net sales, plus the cemdisiran FDA decision",
+        "next_disclosure": "Q4 and FY2026 results, expected late Jan/early Feb 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Only three firms' calls were found with dates (Guggenheim, Citigroup, Canaccord), none after the Oct 30 Q3 beat, so the sample is stale and thin; targets were mostly set pre-earnings with the stock lower. The $872 average sits below the close and implies a lower multiple (13.2x) than the base case; post-Q3 target raises are likely but were not sourced. Horizon is undocumented for all, so none enters the weighted target.",
+      "sources": [
+        {
+          "label": "Regeneron Q3 2026 results",
+          "url": "https://finviz.com/news/412417/regeneron-reports-third-quarter-2026-financial-and-operating-results",
+          "supports": "9M EPS, cash, debt, guidance, shares"
+        },
+        {
+          "label": "Regeneron investor release Q3 2026",
+          "url": "https://investor.regeneron.com/news-releases/news-release-details/regeneron-reports-third-quarter-2026-financial-and-operating",
+          "supports": "Q3 EPS $20.07, revenue"
+        },
+        {
+          "label": "MarketBeat REGN price targets",
+          "url": "https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/",
+          "supports": "Canaccord target and rating"
+        },
+        {
+          "label": "MarketBeat Guggenheim note",
+          "url": "https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/",
+          "supports": "Guggenheim target"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-30T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 146.5,
+        "max_weight_pct": 61.89757386701197,
+        "contributors": [
+          {
+            "analyst": "Canaccord analyst (unnamed)",
+            "firm": "Canaccord Genuity",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-05-19",
+            "age_days": 178,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/",
+            "weight": 0.3810242613298804
+          },
+          {
+            "analyst": "Guggenheim analyst (unnamed)",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-21",
+            "age_days": 115,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/",
+            "weight": 0.6189757386701197
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Canaccord analyst (unnamed)",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-05-19",
+          "public_at": "2026-05-19T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Canaccord analyst (unnamed)",
+          "firm": "Canaccord Genuity",
+          "field": "target",
+          "value": 875.0,
+          "source_prior": 1057,
+          "issued_at": "2026-05-19",
+          "public_at": "2026-05-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/",
+          "prior_observed": null,
+          "revision_pct": -17.218543046357617,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Citigroup analyst (unnamed)",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 740.0,
+          "source_prior": null,
+          "issued_at": "2026-08-03",
+          "public_at": "2026-08-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-given-new-74000-price-target-at-citigroup-2026-08-03/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-21",
+          "public_at": "2026-07-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 1000.0,
+          "source_prior": 995,
+          "issued_at": "2026-07-21",
+          "public_at": "2026-07-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/",
+          "prior_observed": null,
+          "revision_pct": 0.5025125628140614,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "MRSH": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 207.78,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward adjusted EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date). FY2026 adjusted EPS ~ $10.45 = 9M $8.29 plus Q4 ~ $2.16 (roughly in line with the ~$10.45 sell-side consensus cited by MarketBeat). Q3 diluted shares 479M; $2.0B buybacks YTD. US-listed common, USD, no ADR conversion. Management gave only directional 2026 guidance (underlying growth similar to 2025, margin expansion).",
+        "bear": 174.4,
+        "base": 217.55,
+        "bull": 249.9,
+        "cases": {
+          "bear": {
+            "driver": "Brokerage organic growth slows with softer P&C pricing; margin gains stall",
+            "assumption": "EPS $10.90 at 16.0x",
+            "target": 174.4
+          },
+          "base": {
+            "driver": "Mid-single-digit underlying growth, modest margin expansion, buybacks lift EPS ~9.5%",
+            "assumption": "EPS $11.45 at 19.0x",
+            "target": 217.55
+          },
+          "bull": {
+            "driver": "Underlying growth near 6-7%, stronger margin expansion, multiple recovers toward historical premium",
+            "assumption": "EPS $11.90 at 21.0x",
+            "target": 249.9
+          }
+        },
+        "implied_by_close": "At base EPS $11.45 the close implies 18.1x; the ~$196 average of the six named targets implies 17.1x or EPS near $10.3 at 19x",
+        "sensitivity": "One turn of P/E moves the base target by $11.45 (5.5 pp)",
+        "watch_metric": "Underlying revenue growth (5% in Q3 2026) and adjusted operating margin expansion",
+        "next_disclosure": "Q4 and full-year 2026 results, expected mid/late January 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named targets were raised after the Oct 15 Q3 beat (adj EPS $2.03 vs $1.96): JPMorgan Overweight $218 is the high end, Citigroup $203, KBW $201 and Wells Fargo $197 are Hold-equivalent, Morgan Stanley $180 (Oct 6) and BofA Underperform $178 (July) pre-date the print. Analyst names were not published in the sources and horizons are undocumented, so no call is weighted. The ~$196 average sits about 10 pp below the base case, equal to roughly 1.9 turns of P/E or $1.1 of EPS.",
+      "sources": [
+        {
+          "label": "MarketBeat MRSH JPMorgan $218 and peer actions",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "supports": "analyst targets, ratings, dates, consensus EPS"
+        },
+        {
+          "label": "Marsh Q3 2026 results (Seeking Alpha)",
+          "url": "https://seekingalpha.com/pr/20687122",
+          "supports": "adj EPS 2.03, 9M 8.29, shares, release time"
+        },
+        {
+          "label": "Marsh Q3 2026 results (Morningstar/Business Wire)",
+          "url": "https://www.morningstar.com/news/business-wire/20261014382149/marsh-reports-third-quarter-2026-results",
+          "supports": "buybacks, outlook"
+        },
+        {
+          "label": "MarketBeat Citi/Wells Fargo target raises",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-20300-2026-10-16/",
+          "supports": "Citigroup and Wells Fargo targets"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-15T07:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 28.0,
+        "max_weight_pct": 18.856543627492275,
+        "contributors": [
+          {
+            "analyst": "Unnamed Bank of America analyst",
+            "firm": "Bank of America",
+            "value": "Underperform",
+            "bucket": "Sell",
+            "issued_at": "2026-07-15",
+            "age_days": 121,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+            "weight": 0.08933438469553909
+          },
+          {
+            "analyst": "Unnamed Citigroup analyst",
+            "firm": "Citigroup",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+            "weight": 0.1828449539100219
+          },
+          {
+            "analyst": "Unnamed JPMorgan analyst",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-20",
+            "age_days": 24,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+            "weight": 0.18856543627492275
+          },
+          {
+            "analyst": "Unnamed Keefe, Bruyette & Woods analyst",
+            "firm": "Keefe, Bruyette & Woods",
+            "value": "Market Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+            "weight": 0.18711875211487003
+          },
+          {
+            "analyst": "Unnamed Morgan Stanley analyst",
+            "firm": "Morgan Stanley",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-10-06",
+            "age_days": 38,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+            "weight": 0.1692915190946244
+          },
+          {
+            "analyst": "Unnamed Wells Fargo analyst",
+            "firm": "Wells Fargo",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+            "weight": 0.1828449539100219
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 4,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 18.856543627492275,
+          "Hold": 72.21001790295382,
+          "Sell": 8.93343846955391
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Unnamed Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Underperform",
+          "bucket": "Sell",
+          "issued_at": "2026-07-15",
+          "public_at": "2026-07-15T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 178.0,
+          "source_prior": 179,
+          "issued_at": "2026-07-15",
+          "public_at": "2026-07-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "revision_pct": -0.5586592178770999,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 203.0,
+          "source_prior": 200,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "revision_pct": 1.4999999999999902,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 218.0,
+          "source_prior": 215,
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "revision_pct": 1.3953488372093092,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Keefe, Bruyette & Woods analyst",
+          "firm": "Keefe, Bruyette & Woods",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Keefe, Bruyette & Woods analyst",
+          "firm": "Keefe, Bruyette & Woods",
+          "field": "target",
+          "value": 201.0,
+          "source_prior": 186,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "revision_pct": 8.064516129032251,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 180.0,
+          "source_prior": 200,
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "revision_pct": -9.999999999999998,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 197.0,
+          "source_prior": 183,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+          "prior_observed": null,
+          "revision_pct": 7.650273224043724,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "CEG": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 280.2,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward adjusted operating EPS x P/E. Each case uses FY2027 adjusted operating EPS (the year priced at the 2027-11-18 target date). Anchors: Q3 2026 adjusted operating EPS $5.06; 2026 guidance narrowed to $12.50-12.80 (midpoint $12.65); company will refresh 2027-2028 guidance with year-end results. FY2027 EPS values are our assumptions off the 2026 midpoint; multiples are judgement against merchant-nuclear/IPP ranges, not broker targets. US common share in USD, so no ADR or FX conversion applies.",
+        "bear": 204.8,
+        "base": 290.0,
+        "bull": 379.5,
+        "cases": {
+          "bear": {
+            "driver": "Lower power prices and contract repricing flatten earnings; multiple compresses as AI-load enthusiasm fades",
+            "assumption": "FY2027 adjusted EPS $12.80 (+1%) at 16x",
+            "target": 204.8
+          },
+          "base": {
+            "driver": "Nuclear uprates, Calpine integration and data-center contracts lift earnings",
+            "assumption": "FY2027 adjusted EPS $14.50 (+14.6%) at 20x",
+            "target": 290.0
+          },
+          "bull": {
+            "driver": "Additional hyperscaler contracts at premium prices and 2027-28 guidance above expectations",
+            "assumption": "FY2027 adjusted EPS $16.50 (+30%) at 23x",
+            "target": 379.5
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $14.50 the close of $280.2 implies 19.3x (22.2x on 2026 midpoint EPS of $12.65). Named analyst targets were not retrieved.",
+        "sensitivity": "One turn of P/E moves the base target by $14.50 (5.2% of the close, 5.2 percentage points of price return).",
+        "watch_metric": "2027 adjusted operating EPS guidance versus the $14.50 base and the 2026 result against the $12.50-12.80 range.",
+        "next_disclosure": "Q4 and full-year 2026 results with refreshed 2027-2028 guidance, expected around February 2027 (date not announced)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "No named-analyst calls with verifiable dates were retrieved, so coverage is marked unavailable. Published consensus for 2026 EPS (about $12.20) predates the guidance raise and is stale; shares are down over 30% year to date.",
+      "sources": [
+        {
+          "label": "Constellation Q3 2026 results",
+          "url": "https://www.constellationenergy.com/news/2026/11/constellation-reports-third-quarter-2026-results.html",
+          "supports": "Q3 EPS, 2026 guidance"
+        },
+        {
+          "label": "Constellation Q3 2026 results (Finviz)",
+          "url": "https://finviz.com/news/418842/constellation-reports-third-quarter-2026-results",
+          "supports": "Q3 EPS, guidance"
+        },
+        {
+          "label": "Raises 2026 earnings outlook after Q3 beat",
+          "url": "https://stocktwits.com/news-articles/markets/equity/constellation-energy-raises-2026-earnings-outlook-after-q3-beat-ceo-highlights-growing-demand-for-reliable-power/cNGrQIqR9ew",
+          "supports": "guidance raise"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": null,
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
+    "GLW": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 114.08,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 core EPS viewed at the 12-month target date. USD listing, no ADR conversion. FY2026 core EPS run-rate assumed about $3.5 from Q3 core EPS $0.91 and Q4 revenue guide near $5.25B; FY2027 EPS is my assumption, not a sourced filing figure.",
+        "bear": 81.4,
+        "base": 120.4,
+        "bull": 160.0,
+        "cases": {
+          "bear": {
+            "driver": "AI optical demand digestion, margin flat",
+            "assumption": "EPS $3.70 at 22x",
+            "target": 81.4
+          },
+          "base": {
+            "driver": "Optical Communications keeps growing 25-40% with modest margin gains",
+            "assumption": "EPS $4.30 at 28x",
+            "target": 120.4
+          },
+          "bull": {
+            "driver": "Optical build-out accelerates toward the 2030 sales ambition",
+            "assumption": "EPS $5.00 at 32x",
+            "target": 160.0
+          }
+        },
+        "implied_by_close": "At base EPS $4.30 the close implies 26.5x; the roughly $177 consensus target implies 41x or EPS about $6.3 at 28x",
+        "sensitivity": "One turn of P/E moves the base target by $4.30 (3.8 pp)",
+        "watch_metric": "Optical Communications sales growth and core operating margin",
+        "next_disclosure": "Q4 2026 earnings, late January 2027 (date not confirmed)"
+      },
+      "dividend_per_share": 1.12,
+      "analyst_notes": "Only one named, dated call was verifiable (Citi, July). Other firms (Morgan Stanley $165, Oppenheimer $200, Barclays $129) were found without analyst names. Consensus near $177 is well above the $114 close, implying higher EPS or multiple than the base case. Targets are pre-Q3 and may be stale.",
+      "sources": [
+        {
+          "label": "MarketBeat Q3 2026 earnings",
+          "url": "https://www.marketbeat.com/instant-alerts/earnings-corning-nyse-glw-announces-earnings-results-2026-10-27/",
+          "supports": "Q3 EPS, revenue, guidance, dividend, targets"
+        },
+        {
+          "label": "MarketBeat Citi target cut",
+          "url": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/",
+          "supports": "Citigroup target and rating"
+        },
+        {
+          "label": "Zacks Q3 review",
+          "url": "https://www.zacks.com/stock/news/3018357/buy-corning-on-solid-q3-earnings,-guidance-and-ai-photonics-space-rally",
+          "supports": "Q3 results, target range"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-28T07:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 107,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Asiya Merchant",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-29",
+            "age_days": 107,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Asiya Merchant",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Asiya Merchant",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 220.0,
+          "source_prior": 240,
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/",
+          "prior_observed": null,
+          "revision_pct": -8.333333333333337,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
     }
   },
   "failures": [],
@@ -66337,6 +67506,11 @@
         "kind": "new"
       },
       {
+        "symbol": "CEG",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "CM",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -66452,6 +67626,11 @@
         "kind": "new"
       },
       {
+        "symbol": "GLW",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "GOOGL",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -66493,6 +67672,11 @@
       },
       {
         "symbol": "IBN",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "ICE",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -66598,6 +67782,11 @@
       },
       {
         "symbol": "MRK",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "MRSH",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -66733,6 +67922,11 @@
       },
       {
         "symbol": "QCOM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "REGN",
         "researched_at": "2026-11-18",
         "kind": "new"
       },

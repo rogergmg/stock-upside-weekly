@@ -1,0 +1,191 @@
+{
+ "issuer_id": "Marsh & McLennan Companies, Inc.",
+ "symbol": "MRSH",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 207.78,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-15T07:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Unnamed JPMorgan analyst",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 218,
+   "source_prior": 215,
+   "issued_at": "2026-10-20",
+   "public_at": "2026-10-20T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed JPMorgan analyst",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-20",
+   "public_at": "2026-10-20T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Citigroup analyst",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 203,
+   "source_prior": 200,
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Citigroup analyst",
+   "firm": "Citigroup",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Wells Fargo analyst",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 197,
+   "source_prior": 183,
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Wells Fargo analyst",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Keefe, Bruyette & Woods analyst",
+   "firm": "Keefe, Bruyette & Woods",
+   "field": "target",
+   "value": 201,
+   "source_prior": 186,
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Keefe, Bruyette & Woods analyst",
+   "firm": "Keefe, Bruyette & Woods",
+   "field": "rating",
+   "value": "Market Perform",
+   "bucket": "Hold",
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Morgan Stanley analyst",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 180,
+   "source_prior": 200,
+   "issued_at": "2026-10-06",
+   "public_at": "2026-10-06T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Morgan Stanley analyst",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-06",
+   "public_at": "2026-10-06T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Bank of America analyst",
+   "firm": "Bank of America",
+   "field": "target",
+   "value": 178,
+   "source_prior": 179,
+   "issued_at": "2026-07-15",
+   "public_at": "2026-07-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  },
+  {
+   "analyst": "Unnamed Bank of America analyst",
+   "firm": "Bank of America",
+   "field": "rating",
+   "value": "Underperform",
+   "bucket": "Sell",
+   "issued_at": "2026-07-15",
+   "public_at": "2026-07-15T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward adjusted EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date). FY2026 adjusted EPS ~ $10.45 = 9M $8.29 plus Q4 ~ $2.16 (roughly in line with the ~$10.45 sell-side consensus cited by MarketBeat). Q3 diluted shares 479M; $2.0B buybacks YTD. US-listed common, USD, no ADR conversion. Management gave only directional 2026 guidance (underlying growth similar to 2025, margin expansion).",
+  "bear": 174.4,
+  "base": 217.55,
+  "bull": 249.9,
+  "cases": {
+   "bear": {
+    "driver": "Brokerage organic growth slows with softer P&C pricing; margin gains stall",
+    "assumption": "EPS $10.90 at 16.0x",
+    "target": 174.4
+   },
+   "base": {
+    "driver": "Mid-single-digit underlying growth, modest margin expansion, buybacks lift EPS ~9.5%",
+    "assumption": "EPS $11.45 at 19.0x",
+    "target": 217.55
+   },
+   "bull": {
+    "driver": "Underlying growth near 6-7%, stronger margin expansion, multiple recovers toward historical premium",
+    "assumption": "EPS $11.90 at 21.0x",
+    "target": 249.9
+   }
+  },
+  "implied_by_close": "At base EPS $11.45 the close implies 18.1x; the ~$196 average of the six named targets implies 17.1x or EPS near $10.3 at 19x",
+  "sensitivity": "One turn of P/E moves the base target by $11.45 (5.5 pp)",
+  "watch_metric": "Underlying revenue growth (5% in Q3 2026) and adjusted operating margin expansion",
+  "next_disclosure": "Q4 and full-year 2026 results, expected mid/late January 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named targets were raised after the Oct 15 Q3 beat (adj EPS $2.03 vs $1.96): JPMorgan Overweight $218 is the high end, Citigroup $203, KBW $201 and Wells Fargo $197 are Hold-equivalent, Morgan Stanley $180 (Oct 6) and BofA Underperform $178 (July) pre-date the print. Analyst names were not published in the sources and horizons are undocumented, so no call is weighted. The ~$196 average sits about 10 pp below the base case, equal to roughly 1.9 turns of P/E or $1.1 of EPS.",
+ "sources": [
+  {
+   "label": "MarketBeat MRSH JPMorgan $218 and peer actions",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/",
+   "supports": "analyst targets, ratings, dates, consensus EPS"
+  },
+  {
+   "label": "Marsh Q3 2026 results (Seeking Alpha)",
+   "url": "https://seekingalpha.com/pr/20687122",
+   "supports": "adj EPS 2.03, 9M 8.29, shares, release time"
+  },
+  {
+   "label": "Marsh Q3 2026 results (Morningstar/Business Wire)",
+   "url": "https://www.morningstar.com/news/business-wire/20261014382149/marsh-reports-third-quarter-2026-results",
+   "supports": "buybacks, outlook"
+  },
+  {
+   "label": "MarketBeat Citi/Wells Fargo target raises",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-20300-2026-10-16/",
+   "supports": "Citigroup and Wells Fargo targets"
+  }
+ ]
+}

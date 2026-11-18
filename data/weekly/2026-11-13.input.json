@@ -21640,9 +21640,120 @@
         "high": 101757051429
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 182,
+          "source_prior": 167,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 236,
+          "source_prior": 232,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "Bank of America analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 195,
+          "source_prior": 192,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "Piper Sandler analyst (unnamed)",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 195,
+          "source_prior": 190,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "Piper Sandler analyst (unnamed)",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "Rothschild & Co Redburn analyst (unnamed)",
+          "firm": "Rothschild & Co Redburn",
+          "field": "target",
+          "value": 181,
+          "source_prior": 173,
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        },
+        {
+          "analyst": "Rothschild & Co Redburn analyst (unnamed)",
+          "firm": "Rothschild & Co Redburn",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-intercontinental-exchange-nyse-ice-price-target-raised-to-19800-2026-11-16/"
+        }
+      ],
+      "earnings_at": "2026-10-29T08:00:00-04:00",
+      "valuation": {
+        "bear": 153.0,
+        "base": 191.1,
+        "bull": 220.8
+      }
     },
     {
       "issuer_id": "Regeneron Pharmaceuticals, Inc.",
@@ -21656,9 +21767,68 @@
         "high": 100818152356
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 1000,
+          "source_prior": 995,
+          "issued_at": "2026-07-21",
+          "public_at": "2026-07-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-21",
+          "public_at": "2026-07-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-price-target-raised-to-100000-2026-07-21/"
+        },
+        {
+          "analyst": "Citigroup analyst (unnamed)",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 740,
+          "source_prior": null,
+          "issued_at": "2026-08-03",
+          "public_at": "2026-08-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/regeneron-pharmaceuticals-nasdaqregn-given-new-74000-price-target-at-citigroup-2026-08-03/"
+        },
+        {
+          "analyst": "Canaccord analyst (unnamed)",
+          "firm": "Canaccord Genuity",
+          "field": "target",
+          "value": 875,
+          "source_prior": 1057,
+          "issued_at": "2026-05-19",
+          "public_at": "2026-05-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/"
+        },
+        {
+          "analyst": "Canaccord analyst (unnamed)",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-05-19",
+          "public_at": "2026-05-19T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/stocks/NASDAQ/REGN/price-target/"
+        }
+      ],
+      "earnings_at": "2026-10-30T06:30:00-04:00",
+      "valuation": {
+        "bear": 644,
+        "base": 924,
+        "bull": 1221
+      }
     },
     {
       "issuer_id": "Marsh & McLennan Companies, Inc.",
@@ -21672,9 +21842,141 @@
         "high": 100778414201
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Unnamed JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 218,
+          "source_prior": 215,
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-20",
+          "public_at": "2026-10-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 203,
+          "source_prior": 200,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Citigroup analyst",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 197,
+          "source_prior": 183,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Keefe, Bruyette & Woods analyst",
+          "firm": "Keefe, Bruyette & Woods",
+          "field": "target",
+          "value": 201,
+          "source_prior": 186,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Keefe, Bruyette & Woods analyst",
+          "firm": "Keefe, Bruyette & Woods",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 180,
+          "source_prior": 200,
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 178,
+          "source_prior": 179,
+          "issued_at": "2026-07-15",
+          "public_at": "2026-07-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        },
+        {
+          "analyst": "Unnamed Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Underperform",
+          "bucket": "Sell",
+          "issued_at": "2026-07-15",
+          "public_at": "2026-07-15T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marsh-mclennan-companies-nyse-mrsh-price-target-raised-to-21800-2026-10-20/"
+        }
+      ],
+      "earnings_at": "2026-10-15T07:00:00-04:00",
+      "valuation": {
+        "bear": 174.4,
+        "base": 217.55,
+        "bull": 249.9
+      }
     },
     {
       "issuer_id": "Constellation Energy Corporation",
@@ -21688,9 +21990,14 @@
         "high": 100491116877
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": null,
+      "valuation": {
+        "bear": 204.8,
+        "base": 290.0,
+        "bull": 379.5
+      }
     },
     {
       "issuer_id": "Corning Incorporated",
@@ -21704,9 +22011,37 @@
         "high": 100234010936
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Asiya Merchant",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 220,
+          "source_prior": 240,
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/"
+        },
+        {
+          "analyst": "Asiya Merchant",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/citigroup-lowers-corning-nyseglw-price-target-to-22000-2026-07-29/"
+        }
+      ],
+      "earnings_at": "2026-10-28T07:00:00-04:00",
+      "valuation": {
+        "bear": 81.4,
+        "base": 120.4,
+        "bull": 160.0
+      },
+      "dividend_per_share": 1.12
     },
     {
       "issuer_id": "General Dynamics Corporation",

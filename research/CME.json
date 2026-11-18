@@ -1,0 +1,144 @@
+{
+ "issuer_id": "CME Group Inc.",
+ "symbol": "CME",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 317.97,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-21T07:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Michael Cyprys",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 337,
+   "source_prior": 330,
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62436372"
+  },
+  {
+   "analyst": "Michael Cyprys",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62436372"
+  },
+  {
+   "analyst": "Benjamin Budish",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 281,
+   "source_prior": 270,
+   "issued_at": "2026-10-07",
+   "public_at": "2026-10-07T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62436372"
+  },
+  {
+   "analyst": "Benjamin Budish",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Equal-Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-07",
+   "public_at": "2026-10-07T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62436372"
+  },
+  {
+   "analyst": "Alex Kramm",
+   "firm": "UBS",
+   "field": "target",
+   "value": 270,
+   "source_prior": 260,
+   "issued_at": "2026-10-05",
+   "public_at": "2026-10-05T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62436372"
+  },
+  {
+   "analyst": "Alex Kramm",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-05",
+   "public_at": "2026-10-05T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62436372"
+  },
+  {
+   "analyst": "Bill Katz",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 300,
+   "source_prior": 273,
+   "issued_at": "2026-10-05",
+   "public_at": "2026-10-05T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62436372"
+  },
+  {
+   "analyst": "Bill Katz",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-05",
+   "public_at": "2026-10-05T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62436372"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 adjusted EPS viewed at the 12-month target date. Q3 2026 adjusted EPS $3.02 (record Q3 revenue $1.74bn, +13%); FY2026 run-rate approx $12.6 assumed from reported quarters; FY2027 modelled on volume growth, ~stable margin and buybacks.",
+  "bear": 249.6,
+  "base": 310.5,
+  "bull": 365.0,
+  "cases": {
+   "bear": {
+    "driver": "Volatility normalises, ADV falls, clearing fee capture slips",
+    "assumption": "EPS $12.80 at 19.5x",
+    "target": 249.6
+   },
+   "base": {
+    "driver": "Volume growth mid-single digit, stable ~68% adjusted margin, steady buybacks",
+    "assumption": "EPS $13.80 at 22.5x",
+    "target": 310.5
+   },
+   "bull": {
+    "driver": "Sustained high volatility, record ADV, non-US expansion",
+    "assumption": "EPS $14.60 at 25x",
+    "target": 365.0
+   }
+  },
+  "implied_by_close": "At base EPS $13.80 the close implies 23.0x; the analyst-weighted target (no 12-month horizons documented, so none weighted) is not computable; a $300 target implies 21.7x or EPS $13.33 at 22.5x",
+  "sensitivity": "One turn of P/E moves the base target by $13.80 (4.3 pp)",
+  "watch_metric": "Average daily volume and rate-per-contract, plus adjusted operating margin",
+  "next_disclosure": "Q4 2026 earnings, expected February 2026-27 (late Feb 2027)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named views in early October 2026 mostly raised targets (Morgan Stanley $337, TD Cowen $300 from $273, Barclays $281, UBS $270), before the Oct 21 results. Targets sit below the $317.97 close except Morgan Stanley, implying either lower EPS than the model or a P/E near 20x. Only four firms sampled; horizons undocumented and the Q3 beat is not reflected in these calls.",
+ "sources": [
+  {
+   "label": "Benzinga CME rating changes Oct 2026",
+   "url": "https://www.benzinga.com/node/62436372",
+   "supports": "targets and ratings"
+  },
+  {
+   "label": "CME Q3 2026 press release",
+   "url": "https://www.cmegroup.com/media-room/press-releases/2026/10/21/cme_group_inc_reportshighestq3revenueonrecordforq32026.html",
+   "supports": "EPS, revenue, buybacks"
+  },
+  {
+   "label": "Newsquawk Q3 2026",
+   "url": "https://www.newsquawk.com/headlines/cme-group-inc-cme-q3-2026-usd-adj-eps-302-exp-298-revenue-17bln-exp-171bln",
+   "supports": "adjusted EPS vs consensus"
+  }
+ ]
+}

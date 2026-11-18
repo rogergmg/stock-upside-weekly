@@ -1,0 +1,291 @@
+{
+ "issuer_id": "Sanofi",
+ "symbol": "SNY",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 48.37,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-30T06:30:00+02:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Matthew Weston",
+   "firm": "UBS",
+   "field": "target",
+   "value": 48.96,
+   "source_prior": 43.4,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Matthew Weston",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Peter Verdult",
+   "firm": "Exane BNP Paribas",
+   "field": "target",
+   "value": 56.75,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Peter Verdult",
+   "firm": "Exane BNP Paribas",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Emmanuel Papadakis",
+   "firm": "Deutsche Bank",
+   "field": "target",
+   "value": 52.85,
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Emmanuel Papadakis",
+   "firm": "Deutsche Bank",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Richard Vosser",
+   "firm": "J.P. Morgan",
+   "field": "target",
+   "value": 52.85,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Richard Vosser",
+   "firm": "J.P. Morgan",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Luisa Hector",
+   "firm": "Berenberg",
+   "field": "target",
+   "value": 58.42,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Luisa Hector",
+   "firm": "Berenberg",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Justin Smith",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 61.2,
+   "source_prior": 59.09,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Justin Smith",
+   "firm": "Bernstein",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Thibault Boutherin",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 47.85,
+   "source_prior": 45.62,
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Thibault Boutherin",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital Markets",
+   "field": "target",
+   "value": 44.51,
+   "source_prior": 41.73,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital Markets",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "James Gordon",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 50.07,
+   "source_prior": 46.18,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "James Gordon",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Sachin Jain",
+   "firm": "Bank of America Securities",
+   "field": "target",
+   "value": 51.18,
+   "issued_at": "2026-10-08",
+   "public_at": "2026-10-08T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Sachin Jain",
+   "firm": "Bank of America Securities",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-08",
+   "public_at": "2026-10-08T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Rajesh Kumar",
+   "firm": "HSBC",
+   "field": "target",
+   "value": 55.63,
+   "source_prior": 52.85,
+   "issued_at": "2026-09-10",
+   "public_at": "2026-09-10T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  },
+  {
+   "analyst": "Rajesh Kumar",
+   "firm": "HSBC",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-10",
+   "public_at": "2026-09-10T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/fr:san/forecast"
+  }
+ ],
+ "valuation": {
+  "method": "Forward business EPS x P/E on ordinary shares (FY2027E EPS at the 12-month date), converted to the ADR. 1 SNY ADR = 0.5 ordinary share; EUR/USD 1.1127 (ECB-based fix of 11 Nov 2026, nearest sourced rate to the 13 Nov close). FY2026E business EPS ~EUR 9.4 = 9M EUR 7.52 reported plus an assumed ~EUR 1.9 Q4 after the ~EUR 500m H2 Regeneron reimbursement headwind (my estimate).",
+  "bear": 41.39,
+  "base": 52.85,
+  "bull": 65.48,
+  "cases": {
+   "bear": {
+    "driver": "Dupixent growth slows, vaccine weakness persists, pipeline disappointments",
+    "assumption": "FY2027E EPS EUR 9.3 (flat) at 8x = EUR 74.4 per share",
+    "target": 41.39
+   },
+   "base": {
+    "driver": "Dupixent double-digit growth offsets Regeneron cost headwind and vaccine phasing",
+    "assumption": "FY2027E EPS EUR 10.0 (~+6%) at 9.5x = EUR 95 per share",
+    "target": 52.85
+   },
+   "bull": {
+    "driver": "Dupixent/pipeline beats, margin expansion, buybacks",
+    "assumption": "FY2027E EPS EUR 10.7 (~+14%) at 11x = EUR 117.7 per share",
+    "target": 65.48
+   }
+  },
+  "implied_by_close": "Close $48.37 = EUR 87.0 per ordinary share, 8.7x base FY2027E EPS of EUR 10.0 (9.3x FY2026E); the analyst-average ~EUR 95 target implies 9.5x base EPS, or EPS of ~EUR 10.9 at 8.7x",
+  "sensitivity": "One turn of P/E moves the base target by about $5.6 (about 11.5 pp of the close)",
+  "watch_metric": "Dupixent sales growth and business EPS growth at constant exchange rates versus the 15-17% FY2026 guidance, plus 2027 guidance",
+  "next_disclosure": "Q4 and FY2026 results on 2027-01-28"
+ },
+ "dividend_per_share": 2.29,
+ "analyst_notes": "Named targets (EUR, converted to ADR) were mostly raised after Q3 on 30 Oct (Citi, UBS, Barclays, RBC, Morgan Stanley up), but ratings split about 8 Buy to 7 Hold; the Exane BNP upgrade to Buy is the notable shift. The average of about EUR 95 is roughly equal to my base case, so the gap to close is multiple, not EPS. Horizon is not documented for these calls, so none enter the weighted target; some entries (HSBC, BofA) are older than the latest quarter.",
+ "sources": [
+  {
+   "label": "Sanofi Q3 2026 press release (6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001121404/000112140426000009/pressreleaseq32026english.htm",
+   "supports": "EPS, guidance, share count, dividend, net debt"
+  },
+  {
+   "label": "TipRanks Sanofi (FR:SAN) forecast",
+   "url": "https://www.tipranks.com/stocks/fr:san/forecast",
+   "supports": "named analyst targets and ratings in EUR"
+  },
+  {
+   "label": "Banca d'Italia reference rates 11 Nov 2026",
+   "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261111",
+   "supports": "EUR/USD 1.1127"
+  },
+  {
+   "label": "Sanofi Q3 2026 press release",
+   "url": "https://www.sanofi.com/en/media-room/press-releases/2026/2026-10-30-06-30-00-3392028",
+   "supports": "results date and guidance"
+  }
+ ]
+}

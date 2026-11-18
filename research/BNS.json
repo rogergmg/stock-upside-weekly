@@ -1,0 +1,194 @@
+{
+ "issuer_id": "The Bank of Nova Scotia",
+ "symbol": "BNS",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 92.54,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-08-25T06:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Douglas Young",
+   "firm": "Desjardins",
+   "field": "target",
+   "value": 93,
+   "source_prior": 91,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Douglas Young",
+   "firm": "Desjardins",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "John Aiken",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 84,
+   "source_prior": 83,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "John Aiken",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Paul Holden",
+   "firm": "CIBC",
+   "field": "target",
+   "value": 96,
+   "source_prior": 95,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Paul Holden",
+   "firm": "CIBC",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Matthew Lee",
+   "firm": "Canaccord Genuity",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Brian Morton",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 91,
+   "issued_at": "2026-08-27",
+   "public_at": "2026-08-27T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Brian Morton",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-08-27",
+   "public_at": "2026-08-27T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Darko Mihelic",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 90,
+   "source_prior": 82,
+   "issued_at": "2026-08-27",
+   "public_at": "2026-08-27T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Darko Mihelic",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-08-27",
+   "public_at": "2026-08-27T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Gabriel Dechaine",
+   "firm": "National Bank",
+   "field": "target",
+   "value": 99,
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  },
+  {
+   "analyst": "Gabriel Dechaine",
+   "firm": "National Bank",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bns/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Bank: forward P/E on FY2027 (year to Oct 2027) adjusted EPS viewed at Nov 2027, computed in CAD and converted once to USD. NYSE BNS is the common share itself (ratio 1:1, no ADR conversion). FX: 1.4257 CAD per USD (Bank of Canada rate for 2026-11-13, held constant; same as used for other Canadian banks in this set). Earnings base: nine-month FY2026 adjusted EPS C$6.35 (Q3 C$2.28) plus Q4 at about C$2.30 gives about C$8.65; base FY2027 C$9.50 (+10%). Base 9.50 x 14x = C$133.0 = US$93.28. Bear 8.65 x 11.5x = C$99.48 = US$69.78. Bull 10.40 x 15.5x = C$161.2 = US$113.07. P/E used because tangible book was not sourced. Dividend assumed C$1.14 per quarter (Q2 declared level; later raise not verified), C$4.56 a year = US$3.20.",
+  "bear": 69.78,
+  "base": 93.28,
+  "bull": 113.07,
+  "cases": {
+   "bear": {
+    "driver": "Credit losses and international restructuring hold FY2027 EPS flat and the multiple compresses.",
+    "assumption": "EPS C$8.65 at 11.5x = C$99.48 = US$69.78",
+    "target": 69.78
+   },
+   "base": {
+    "driver": "Reset strategy, Canadian banking margin expansion, markets strength and buybacks lift EPS about 10%; multiple near today's.",
+    "assumption": "EPS C$9.50 at 14x = C$133.0 = US$93.28",
+    "target": 93.28
+   },
+   "bull": {
+    "driver": "ROE moves well above the 14% target, EPS grows 20% and the multiple re-rates toward peers.",
+    "assumption": "EPS C$10.40 at 15.5x = C$161.2 = US$113.07",
+    "target": 113.07
+   }
+  },
+  "implied_by_close": "At base EPS C$9.50 the close (about C$131.9 at 1.4257) implies about 13.9x; the analyst average target of about US$92 implies about 13.8x or EPS about C$9.4 at 14x.",
+  "sensitivity": "One turn of P/E moves the base target by about US$6.66 (7.1 pp).",
+  "watch_metric": "Q4 FY2026 adjusted EPS versus about C$2.30 and adjusted ROE versus the 14% target.",
+  "next_disclosure": "Q4 FY2026 results, expected early December 2026 (date not verified)."
+ },
+ "dividend_per_share": 3.2,
+ "analyst_notes": "Seven named analysts since the Aug 25 Q3 release: six Hold, one Buy (National Bank); targets US$84 to US$99, averaging about US$92, so analyst upside is near zero. Most raised targets modestly after the Q3 beat. A Raymond James Buy at US$100 dated Nov 17 is after the reference close and excluded. Horizons are not documented, so none are weighted.",
+ "sources": [
+  {
+   "label": "StockAnalysis BNS ratings",
+   "url": "https://stockanalysis.com/stocks/bns/ratings/",
+   "supports": "analyst targets and ratings"
+  },
+  {
+   "label": "Scotiabank Q3 2026 results",
+   "url": "https://www.newswire.ca/news-releases/scotiabank-reports-third-quarter-results-856214963.html",
+   "supports": "adjusted EPS, release time"
+  },
+  {
+   "label": "Scotiabank Q3 2026 press release PDF",
+   "url": "https://www.scotiabank.com/content/dam/scotiabank/corporate/quarterly-reports/2026/q3/Q326_Quarterly_Press_Release-EN.pdf",
+   "supports": "EPS, ROE, CET1"
+  }
+ ]
+}

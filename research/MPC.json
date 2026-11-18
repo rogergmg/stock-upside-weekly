@@ -1,0 +1,35 @@
+{
+  "issuer_id": "Marathon Petroleum Corporation",
+  "symbol": "MPC",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 414.65, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-03T16:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "TD Cowen analyst", "firm": "TD Cowen", "field": "target", "value": 375, "source_prior": 357, "issued_at": "2026-08-05", "public_at": "2026-08-05T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/marathon-petroleum-nysempc-stock-price-expected-to-rise-td-cowen-analyst-says-2026-08-05/"},
+    {"analyst": "Goldman Sachs analyst", "firm": "Goldman Sachs", "field": "target", "value": 376, "source_prior": 291, "issued_at": "2026-07-22", "public_at": "2026-07-22T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/the-goldman-sachs-group-issues-positive-forecast-for-marathon-petroleum-nysempc-stock-price-2026-07-22/"},
+    {"analyst": "Jefferies analyst", "firm": "Jefferies", "field": "target", "value": 335, "source_prior": 296, "issued_at": "2026-07-12", "public_at": "2026-07-12T23:59:59-04:00", "horizon_months": null, "source": "https://site.financialmodelingprep.com/market-news/jefferies-raises-marathon-petroleum-mpc-price-target-to-335"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 adjusted EPS viewed at the Nov 2027 target date, USD per share of the US common listing (no ADR conversion). Q3 2026 adjusted EPS was $26.93 on an R&M margin of $45.70/bbl, a cyclical peak (about 278M diluted shares implied by $7.4B net income / $26.59). Cases assume margins normalize from the peak; EPS and multiples are my assumptions, not company guidance.",
+    "bear": 165.0, "base": 336.0, "bull": 456.0,
+    "cases": {
+      "bear": {"driver": "Refining margins revert to mid-cycle, Q4 utilization 95%", "assumption": "EPS $15 at 11x", "target": 165.0},
+      "base": {"driver": "Margins stay elevated but ease, buybacks and asset sales ($4.2B) support per-share earnings", "assumption": "EPS $28 at 12x", "target": 336.0},
+      "bull": {"driver": "Tight product markets persist, near-peak margins", "assumption": "EPS $38 at 12x", "target": 456.0}
+    },
+    "implied_by_close": "At base EPS $28 the close of $414.65 implies 14.8x; the published consensus target near $385 implies 13.7x on base EPS or EPS about $32 at 12x",
+    "sensitivity": "One turn of P/E moves the base target by $28 (6.8 pp of the close)",
+    "watch_metric": "R&M margin per barrel and crude utilization versus the Q3 level of $45.70/bbl and 100%",
+    "next_disclosure": "Q4 2026 results, expected early February 2027"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only three named calls were verified (Jefferies, Goldman, TD Cowen, all raises in Jul-Aug 2026), none after the Nov 3 earnings; horizons are undocumented so they carry no weight. Benzinga showed a consensus target near $385 (Nov 6). The base case sits below that mainly because it assumes margins and EPS fall from the Q3 peak.",
+  "sources": [
+    {"label": "Finviz: MPC Q3 2026 results", "url": "https://finviz.com/news/414014/marathon-petroleum-corp-reports-third-quarter-2026-results", "supports": "EPS, margin, buybacks"},
+    {"label": "Newsquawk: MPC Q3 2026", "url": "https://www.newsquawk.com/headlines/marathon-petroleum-mpc-q3-2026-usd-adj-eps-2693-exp-2537-revenue-565bln-exp-4660bln-adj-ebitda-117bln-exp-109bln", "supports": "Adjusted EPS vs consensus"},
+    {"label": "Benzinga MPC", "url": "https://www.benzinga.com/stock/mpc", "supports": "Consensus target"},
+    {"label": "MarketBeat TD Cowen", "url": "https://www.marketbeat.com/instant-alerts/marathon-petroleum-nysempc-stock-price-expected-to-rise-td-cowen-analyst-says-2026-08-05/", "supports": "TD Cowen target"}
+  ]
+}

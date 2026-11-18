@@ -1,0 +1,194 @@
+{
+ "issuer_id": "CVS Health Corporation",
+ "symbol": "CVS",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 89.35,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-11-04T06:30:00-05:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Wells Fargo analyst",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 112,
+   "source_prior": 123,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/"
+  },
+  {
+   "analyst": "Wells Fargo analyst",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/"
+  },
+  {
+   "analyst": "Leerink Partners analyst",
+   "firm": "Leerink Partners",
+   "field": "target",
+   "value": 104,
+   "source_prior": 112,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-cvs-health-nyse-cvs-stock-price-target-cut-by-leerink-partners-2026-11-05/"
+  },
+  {
+   "analyst": "Leerink Partners analyst",
+   "firm": "Leerink Partners",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-cvs-health-nyse-cvs-stock-price-target-cut-by-leerink-partners-2026-11-05/"
+  },
+  {
+   "analyst": "Barclays analyst",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 107,
+   "source_prior": 108,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-barclays-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-05/"
+  },
+  {
+   "analyst": "Barclays analyst",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-barclays-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-05/"
+  },
+  {
+   "analyst": "UBS analyst",
+   "firm": "UBS",
+   "field": "target",
+   "value": 107,
+   "source_prior": 118,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/"
+  },
+  {
+   "analyst": "UBS analyst",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/"
+  },
+  {
+   "analyst": "Jefferies analyst",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 103,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/"
+  },
+  {
+   "analyst": "Jefferies analyst",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/"
+  },
+  {
+   "analyst": "Raymond James analyst",
+   "firm": "Raymond James",
+   "field": "target",
+   "value": 103,
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/"
+  },
+  {
+   "analyst": "Raymond James analyst",
+   "firm": "Raymond James",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/"
+  }
+ ],
+ "valuation": {
+  "method": "Managed care/pharmacy: forward adjusted EPS x P/E. FY2026 adjusted EPS guidance raised to at least $8.20 (Q3 adj EPS $2.09, revenue $108.4B). FY2027 EPS is my assumption (not company guidance), viewed at the Nov-2027 target date. US listing in USD, no ADR conversion.",
+  "bear": 72.0,
+  "base": 103.5,
+  "bull": 127.4,
+  "cases": {
+   "bear": {
+    "driver": "Elevated medical cost trend and Medicare Advantage margin pressure stall EPS",
+    "assumption": "EPS $8.00 at 9.0x",
+    "target": 72.0
+   },
+   "base": {
+    "driver": "Guidance of at least $8.20 for 2026 grows about 10% on Health Care Benefits recovery",
+    "assumption": "EPS $9.00 at 11.5x",
+    "target": 103.5
+   },
+   "bull": {
+    "driver": "Faster margin repair in Aetna and pharmacy lifts EPS and the multiple",
+    "assumption": "EPS $9.80 at 13.0x",
+    "target": 127.4
+   }
+  },
+  "implied_by_close": "At base EPS $9.00 the close implies 9.9x; the recent named-analyst average target of about $105 implies 11.7x or EPS $10.5 at 10x",
+  "sensitivity": "One turn of P/E moves the base target by $9.00 (10.1 pp of the close)",
+  "watch_metric": "Health Care Benefits medical benefit ratio versus guidance",
+  "next_disclosure": "Q4 and FY2026 results, expected early 2027 (10-K follows)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Since the Nov 4 print (adj EPS $2.09 vs $1.65 consensus, guidance raised), named brokers mostly trimmed targets (Wells 123 to 112, UBS 118 to 107, Leerink 112 to 104) while keeping Buy-equivalent ratings; the stock fell to about $80 then recovered to $89. Targets sit about 15-20% above the close, implying roughly 11.7x on $9 EPS versus my 11.5x base, so the gap is mostly multiple. Names of individual analysts were not published in the sources and horizons are undocumented; only 6 firms found.",
+ "sources": [
+  {
+   "label": "8-K Q3 2026 results",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000064803/000006480326000107/cvs_ex99x1q3-26.htm",
+   "supports": "EPS, guidance"
+  },
+  {
+   "label": "CVS Q3 2026 press release",
+   "url": "https://www.cvshealth.com/news/company-news/cvs-health-corporation-reports-third-quarter-2026-results-and-raises-full-year-2026-guidance.html",
+   "supports": "guidance"
+  },
+  {
+   "label": "MarketBeat Leerink",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-cvs-health-nyse-cvs-stock-price-target-cut-by-leerink-partners-2026-11-05/",
+   "supports": "analyst targets"
+  },
+  {
+   "label": "MarketBeat Wells Fargo",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-12/",
+   "supports": "analyst targets"
+  },
+  {
+   "label": "MarketBeat Barclays",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-barclays-issues-pessimistic-forecast-for-cvs-health-nyse-cvs-stock-price-2026-11-05/",
+   "supports": "analyst targets"
+  }
+ ]
+}

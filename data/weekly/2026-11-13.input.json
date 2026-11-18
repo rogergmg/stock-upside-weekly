@@ -11546,9 +11546,58 @@
         "high": 182157322273
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "David Arcaro",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 110,
+          "source_prior": 111,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/"
+        },
+        {
+          "analyst": "David Arcaro",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/"
+        },
+        {
+          "analyst": "Alex Kania",
+          "firm": "BTIG",
+          "field": "target",
+          "value": 112,
+          "source_prior": 103,
+          "issued_at": "2026-04-24",
+          "public_at": "2026-04-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html"
+        },
+        {
+          "analyst": "Alex Kania",
+          "firm": "BTIG",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-24",
+          "public_at": "2026-04-24T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html"
+        }
+      ],
+      "earnings_at": "2026-10-21T08:30:00-04:00",
+      "valuation": {
+        "bear": 68.85,
+        "base": 85.0,
+        "bull": 95.7
+      },
+      "dividend_per_share": 2.49
     },
     {
       "issuer_id": "Banco Santander, S.A.",
@@ -11562,9 +11611,183 @@
         "high": 180049450752
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Alvaro Serrano",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 17.02,
+          "source_prior": 15.98,
+          "horizon_months": null,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Alvaro Serrano",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Cecilia Romero",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 14.58,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Cecilia Romero",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Marta Sanchez Romero",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 14.46,
+          "source_prior": 14.12,
+          "horizon_months": null,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Marta Sanchez Romero",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Ignacio Cerezo",
+          "firm": "UBS",
+          "field": "target",
+          "value": 15.59,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Ignacio Cerezo",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Miruna Chirea",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 14.47,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Miruna Chirea",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Sofie Peterzens",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 16.82,
+          "source_prior": 15.81,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Sofie Peterzens",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Benjamin Toms",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 14.53,
+          "source_prior": 14.81,
+          "horizon_months": null,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Benjamin Toms",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Borja Ramirez Segura",
+          "firm": "Citi",
+          "field": "target",
+          "value": 16.0,
+          "source_prior": 16.34,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        },
+        {
+          "analyst": "Borja Ramirez Segura",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-28T13:30:00+01:00",
+      "valuation": {
+        "bear": 9.45,
+        "base": 13.98,
+        "bull": 18.68
+      }
     },
     {
       "issuer_id": "ConocoPhillips",
@@ -11578,9 +11801,58 @@
         "high": 171683563089
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Lloyd Byrne",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 160,
+          "source_prior": 129,
+          "issued_at": "2026-04-12",
+          "public_at": "2026-04-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html"
+        },
+        {
+          "analyst": "Lloyd Byrne",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-12",
+          "public_at": "2026-04-12T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html"
+        },
+        {
+          "analyst": "Ryan Todd",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 115,
+          "source_prior": null,
+          "issued_at": "2025-11-27",
+          "public_at": "2025-11-27T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html"
+        },
+        {
+          "analyst": "Ryan Todd",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2025-11-27",
+          "public_at": "2025-11-27T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html"
+        }
+      ],
+      "earnings_at": "2026-11-05T08:30:00-05:00",
+      "valuation": {
+        "bear": 104.0,
+        "base": 147.9,
+        "bull": 185.6
+      },
+      "dividend_per_share": 3.72
     },
     {
       "issuer_id": "Anheuser-Busch InBev SA/NV",
@@ -11594,9 +11866,37 @@
         "high": 170601736396
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Laurence Whyatt",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 90.63,
+          "source_prior": 104.99,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/news/the-fly/ab-inbev-downgraded-to-equal-weight-from-overweight-at-barclays-thefly-news"
+        },
+        {
+          "analyst": "Laurence Whyatt",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59+01:00",
+          "source": "https://www.tipranks.com/news/the-fly/ab-inbev-downgraded-to-equal-weight-from-overweight-at-barclays-thefly-news"
+        }
+      ],
+      "earnings_at": "2026-10-29T07:00:00+01:00",
+      "valuation": {
+        "bear": 63.75,
+        "base": 84.6,
+        "bull": 102.0
+      },
+      "dividend_per_share": 0.44
     },
     {
       "issuer_id": "Pfizer Inc.",
@@ -11610,9 +11910,139 @@
         "high": 167991219087
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ilya Zubkov",
+          "firm": "Freedom Capital Markets (Freedom Broker)",
+          "field": "target",
+          "value": 34,
+          "source_prior": 33,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Ilya Zubkov",
+          "firm": "Freedom Capital Markets (Freedom Broker)",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Elmar Kraus",
+          "firm": "DZ BANK AG",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Vamil Divan",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 33,
+          "source_prior": 31,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Vamil Divan",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Evan Seigerman",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 35,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Evan Seigerman",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Jason Gerberry",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Asad Haider",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 28,
+          "source_prior": 26,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Asad Haider",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 28,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        },
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/"
+        }
+      ],
+      "earnings_at": "2026-11-03T05:45:00-05:00",
+      "valuation": {
+        "bear": 27.0,
+        "base": 33.0,
+        "bull": 39.0
+      },
+      "dividend_per_share": 1.72
     },
     {
       "issuer_id": "Danaher Corporation",

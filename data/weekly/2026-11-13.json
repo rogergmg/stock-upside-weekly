@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:46:47.712519+00:00",
+  "built_at": "2026-11-18T12:50:45.282372+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 88,
+    "rank_valued": 93,
     "rank_with_named_targets": 2,
-    "rank_matched": 88,
-    "researched": 88
+    "rank_matched": 93,
+    "researched": 93
   },
   "ranked": [
     {
@@ -290,6 +290,48 @@
         "bull": 45.96343390264089
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "SAN",
+      "issuer_id": "Banco Santander, S.A.",
+      "close": 12.21,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 172377971053,
+        "high": 180049450752
+      },
+      "scenarios_pct": {
+        "bear": -22.604422604422606,
+        "base": 14.496314496314497,
+        "bull": 52.98935298935299
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "PFE",
+      "issuer_id": "Pfizer Inc.",
+      "close": 28.89,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 161375398859,
+        "high": 167991219087
+      },
+      "scenarios_pct": {
+        "bear": -6.542056074766355,
+        "base": 14.2263759086189,
+        "bull": 34.994807892004154
+      },
+      "base_total_return_pct": 20.17999307718934,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1094,6 +1136,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "COP",
+      "issuer_id": "ConocoPhillips",
+      "close": 142.28,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 164858179272,
+        "high": 171683563089
+      },
+      "scenarios_pct": {
+        "bear": -26.904694967669386,
+        "base": 3.949957829631712,
+        "bull": 30.44700590385156
+      },
+      "base_total_return_pct": 6.564520663480462,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "UNH",
       "issuer_id": "UnitedHealth Group Incorporated",
       "close": 407.46,
@@ -1514,6 +1577,48 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "NEE",
+      "issuer_id": "NextEra Energy, Inc.",
+      "close": 85.12,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 174952237073,
+        "high": 182157322273
+      },
+      "scenarios_pct": {
+        "bear": -19.11419172932331,
+        "base": -0.14097744360902256,
+        "bull": 12.42951127819549
+      },
+      "base_total_return_pct": 2.7843045112781954,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "BUD",
+      "issuer_id": "Anheuser-Busch InBev SA/NV",
+      "close": 84.81,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 163661781912,
+        "high": 170601736396
+      },
+      "scenarios_pct": {
+        "bear": -24.83197736116024,
+        "base": -0.2476123098691192,
+        "bull": 20.268836222143616
+      },
+      "base_total_return_pct": 0.2711944346185591,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "V",
       "issuer_id": "Visa Inc.",
       "close": 425.76,
@@ -1874,26 +1979,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "NEE",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SAN",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "COP",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "BUD",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PFE",
       "reason": "independent valuation unavailable"
     },
     {
@@ -41511,6 +41596,1387 @@
         }
       ]
     },
+    "NEE": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 85.12,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward adjusted EPS x justified P/E. Each case uses FY2027 adjusted EPS (the period an investor at the 2027-11-18 target date is pricing) for NextEra standalone, excluding the pending all-stock Dominion Energy combination, which is expected to close in 2H 2027 and would change the share count and earnings base. Forward P/E is chosen over EV/EBITDA because NEE is a regulated utility plus renewables developer whose earnings are reported as adjusted EPS and whose holding-company debt is already in the share price. Anchors: 2026 adjusted EPS guidance $3.92-4.02 (management targeting the high end; 9M 2026 adjusted EPS $3.47), 2025 base $3.71, company target of 8%+ adjusted EPS CAGR through 2032, and Q3 2026 diluted shares of 2,098 million. Multiples are our judgement against the stock's own forward range and the rate backdrop, not broker targets.",
+        "bear": 68.85,
+        "base": 85.0,
+        "bull": 95.7,
+        "cases": {
+          "bear": {
+            "driver": "Wind shortfall persists, FPL and renewables earnings growth slows, Dominion approvals and financing raise dilution, and rates pressure utility multiples",
+            "assumption": "FY2027 adjusted EPS $4.05 (about 3% above the 2026 low end) at 17x",
+            "target": 68.85
+          },
+          "base": {
+            "driver": "Delivery of the 2026 high-end guide and roughly 6% growth into 2027 as FPL rate base and the 36.7 GW backlog come into service, below the 8%+ company path",
+            "assumption": "FY2027 adjusted EPS $4.25 at 20x",
+            "target": 85.0
+          },
+          "bull": {
+            "driver": "8%+ EPS growth on the company path, with backlog conversion and data-center demand supporting a premium multiple",
+            "assumption": "FY2027 adjusted EPS $4.35 at 22x",
+            "target": 95.7
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $4.25 the close of $85.12 implies 20.0x (21.2x on the 2026 high-end guide of $4.02). The Yahoo provider aggregate mean of $94 implies 22.1x on base EPS, or FY2027 EPS of about $4.70 at 20x (+10.6%). Named analyst targets were not available on a common basis, so the gap is shown against the provider aggregate only.",
+        "sensitivity": "One turn of P/E moves the base target by $4.25 (5.0% of target, 5.0 percentage points of price return). A $0.10 change in FY2027 EPS at 20x moves it by $2.00 (2.4 pp).",
+        "watch_metric": "Adjusted EPS growth against the 8%+ path, with FPL regulatory capital employed growth (9.2% y/y in Q3 2026) and renewables backlog conversion (36.7 GW) as the leading indicators; Dominion approval milestones also matter because they set the timing of the share-count change.",
+        "next_disclosure": "Q4 and full-year 2026 results, expected around late January 2027 based on the prior-year timing (date not yet announced); Virginia and South Carolina Dominion hearings in Nov-Dec 2026 with final orders expected January 2027."
+      },
+      "dividend_per_share": 2.49,
+      "analyst_notes": "Named coverage in the last six months is thin: Morgan Stanley's David Arcaro trimmed to $110 from $111 on 14 Oct 2026 while keeping Overweight, and BTIG's Alex Kania raised to $112 from $103 on 24 Apr 2026, before Q3. Other post-Q3 actions are firm-only and not attributed to a named analyst (Mizuho $80 from $95 Neutral on 6 Oct; Jefferies $87 from $94 on 8 Oct; Barclays $79 from $84 on 22 Oct; HSBC $103 from $114 on 22 Oct; BTIG $106 from $105 on 22 Oct; Argus $96 from $102 on 28 Oct; Bernstein SocGen reiterated Outperform $108 on 22 Oct). The provider aggregate of $94 sits about 10% above base, which needs roughly $4.70 of FY2027 EPS at 20x, or about 22x on base EPS; the reasons for most of the post-September cuts were not disclosed in the sources reviewed.",
+      "sources": [
+        {
+          "label": "8-K Exhibit 99, Q3 2026 results (21 Oct 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000753308/000075330826000077/neeq32026exhibit99.htm",
+          "supports": "Q3 adjusted EPS $1.24, 9M adjusted EPS $3.47, 2026 guidance $3.92-4.02, diluted shares 2,098M, 8%+ CAGR off 2025 base $3.71, Dominion timing 2H 2027"
+        },
+        {
+          "label": "Q3 2026 results release index (investor site)",
+          "url": "https://www.investor.nexteraenergy.com/news-and-events/news-releases/2026",
+          "supports": "Release dates: results 21 Oct 2026, dividend declaration 22 Oct 2026"
+        },
+        {
+          "label": "Quarterly dividend declaration (22 Oct 2026)",
+          "url": "https://finviz.com/news/406721/nextera-energy-board-declares-quarterly-dividend",
+          "supports": "Quarterly dividend $0.6232 per share, annualised to $2.49"
+        },
+        {
+          "label": "Form S-4 Dominion combination",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000753308/000110465926082301/tm2614888-13_s4.htm",
+          "supports": "All-stock combination with Dominion Energy, pending approvals"
+        },
+        {
+          "label": "24/7 Wall St, Morgan Stanley Overweight $110 (22 Oct 2026)",
+          "url": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/",
+          "supports": "David Arcaro, Morgan Stanley, Overweight, $110 target"
+        },
+        {
+          "label": "Ad-hoc-news, Morgan Stanley cut to $110 from $111 (14 Oct 2026)",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/morgan-stanley-cuts-target-for-nextera-energy-stock-to-usd-110/70327634",
+          "supports": "Prior target $111, new target $110, dated 14 Oct 2026"
+        },
+        {
+          "label": "Yahoo Finance, BTIG Buy $112 from $103 (24 Apr 2026)",
+          "url": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html",
+          "supports": "Alex Kania, BTIG, Buy, $112 from $103, change made 24 Apr 2026"
+        },
+        {
+          "label": "MarketBeat, Mizuho $80 from $95 (6 Oct 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-nextera-energy-nyse-nee-given-new-8000-price-target-at-mizuho-2026-10-06/",
+          "supports": "Firm-only Mizuho cut, Neutral"
+        },
+        {
+          "label": "Yahoo Finance analyst aggregate (19 analysts, mean $94, median $99)",
+          "url": "https://finance.yahoo.com/quote/NEE/analyst-insights/",
+          "supports": "Provider aggregate used only as context, labelled as aggregate"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-21T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 116.5,
+        "max_weight_pct": 79.12345234898477,
+        "contributors": [
+          {
+            "analyst": "Alex Kania",
+            "firm": "BTIG",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-04-24",
+            "age_days": 203,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html",
+            "weight": 0.20876547651015223
+          },
+          {
+            "analyst": "David Arcaro",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-14",
+            "age_days": 30,
+            "after_earnings": false,
+            "source": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/",
+            "weight": 0.7912345234898477
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 99.99999999999999,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Alex Kania",
+          "firm": "BTIG",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-24",
+          "public_at": "2026-04-24T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Alex Kania",
+          "firm": "BTIG",
+          "field": "target",
+          "value": 112.0,
+          "source_prior": 103,
+          "issued_at": "2026-04-24",
+          "public_at": "2026-04-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html",
+          "prior_observed": null,
+          "revision_pct": 8.737864077669899,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Arcaro",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Arcaro",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 110.0,
+          "source_prior": 111,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/",
+          "prior_observed": null,
+          "revision_pct": -0.9009009009009028,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "SAN": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 12.21,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E on the ordinary share, converted to the NYSE ADR (SAN, USD). ADR ratio: 1 ADS = 1 ordinary share, per the deposit agreement exhibit to Santander Form 20-F (SEC, exhibit 2.2 to the FY2022 20-F: each ADS represents one of Banco Santander shares; depositary Citibank, N.A.). The ratio is therefore 1:1, applied as x1 to ordinary-share values. FX: EUR to USD at the ECB euro reference rate published 13 Nov 2026 14:10 CET by Banca di Italia, 1.1052 USD per EUR, held flat for all 12-month targets (no FX forecast). This is a 14:10 CET fixing, not the NYSE close. Earnings base: FY2026 underlying profit approximately EUR 14.98bn (9M 2026 underlying EUR 11.176bn plus a Q4 equal to Q3 underlying of EUR 3.8bn) over about 14.41bn shares, giving roughly EUR 1.04 per share (ADR-equivalent). FY2027 (calendar year, viewed at the Nov 2027 target date) is an operating assumption, not a sourced consensus. Dividends are excluded (price-only basis).",
+        "bear": 9.45,
+        "base": 13.98,
+        "bull": 18.68,
+        "cases": {
+          "bear": {
+            "driver": "Earnings fall from FY26 with a weaker revenue path and higher credit or US retail drag; market refuses the premium multiple",
+            "assumption": "FY27 EPS EUR 0.95 (about -9% vs FY26 est.) at 9x = EUR 8.55 x 1.1052",
+            "target": 9.45
+          },
+          "base": {
+            "driver": "Mid-single-digit revenue growth and lower costs per Q3 2026 targets, with buybacks (about 15% of profit from 2027 policy) lifting per-share earnings about 10%; multiple near 11x for a profitable European bank with about 16% underlying RoTE",
+            "assumption": "FY27 EPS EUR 1.15 (about +10% vs FY26 est.) at 11x = EUR 12.65 x 1.1052",
+            "target": 13.98
+          },
+          "bull": {
+            "driver": "RoTE trends toward the 20%+ ambition (stated for 2028) earlier than expected, with lower US retail losses and capital return above the 50% payout; multiple re-rates to 13x",
+            "assumption": "FY27 EPS EUR 1.30 (about +25% vs FY26 est.) at 13x = EUR 16.90 x 1.1052",
+            "target": 18.68
+          }
+        },
+        "implied_by_close": "At the 13 Nov close of USD 12.21 (EUR 11.05 at 1.1052), the stock trades at about 10.6x FY26 est. EPS of EUR 1.04 and 9.6x base FY27 EPS of EUR 1.15. The median of the eight named analyst targets is EUR 13.50 (USD 15.09 at the event-date FX), which implies 11.7x base FY27 EPS, or EUR 1.23 of FY27 EPS at 11x (about 7% above the base EPS).",
+        "sensitivity": "One turn of P/E on base FY27 EPS moves the base target by USD 1.27, about 10.4 pp of the USD 12.21 close. FX is a translation effect only: each 0.01 move in USD per EUR moves the base target by about USD 0.13.",
+        "watch_metric": "Underlying RoTE (16.0% in 9M 2026) holding at or above 16% while ordinary profit grows; cost-to-income falling as guided; CET1 staying in the 12.8-13% target range after the Webster acquisition (CET1 12.7% at 30 Sep 2026 after a 147 bp hit).",
+        "next_disclosure": "FY2026 results (early February 2027; the FY2025 release was 3 Feb 2026, the 2027 date is not confirmed in the sources), and the Q1 2027 statement; FY2027 EPS and buyback pace appear there."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Eight named analysts (Citi, RBC, Goldman Sachs and UBS Buy; JPMorgan and Jefferies Hold; Barclays and Morgan Stanley Buy) have dated calls from 2 Sep to 4 Nov 2026, with the cluster after the 28 Oct results. Named targets are EUR 12.90-15.00 (USD 14.46-17.02); their EUR median of 13.50 sits about 7% above the base-case EUR 12.65 (USD 13.98), so the gap is a higher FY27 earnings or multiple view. Horizons are not documented in the sources, so all target rows stay in the timeline with horizon null and are excluded from any weighted target. Barclays (21 Oct), JPMorgan (15 Oct) and Morgan Stanley (2 Sep) predate the 28 Oct results, and coverage is a partial panel.",
+      "sources": [
+        {
+          "label": "StockAnalysis, Banco Santander (BME:SAN) analyst ratings, actions 2 Sep to 4 Nov 2026 (EUR targets and prior targets)",
+          "url": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "supports": "Named analysts, firms, ratings, EUR targets and prior targets, dates"
+        },
+        {
+          "label": "Santander Q3 2026 results press release (28 Oct 2026)",
+          "url": "https://www.santander.com/en/press-room/press-releases/2026/10/q3-2026-santander-bank-results",
+          "supports": "9M 2026 underlying profit EUR 11,176m; underlying RoTE 16.0%; CET1 12.7%; 2026 targets; interim dividend and 50% payout policy"
+        },
+        {
+          "label": "Santander 2025 results press release (3 Feb 2026)",
+          "url": "https://www.santander.com/en/press-room/press-releases/2026/02/2025-santander-bank-earnings",
+          "supports": "2025 attributable profit EUR 14,101m; EPS EUR 0.91; TNAV EUR 5.76; RoTE 16.3%"
+        },
+        {
+          "label": "Santander Form 20-F exhibit 2.2 (deposit agreement), ADS ratio and depositary",
+          "url": "https://www.sec.gov/Archives/edgar/data/891478/000089147823000047/exhibit222022.htm",
+          "supports": "1 ADS = 1 ordinary share; Citibank, N.A. depositary"
+        },
+        {
+          "label": "Banca d Italia, euro reference rates 13 Nov 2026 (USD 1.1052)",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261113",
+          "supports": "FX 1.1052 USD per EUR for valuation"
+        },
+        {
+          "label": "Banca d Italia, euro reference rate 2 Sep 2026 (USD 1.1578)",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20260902",
+          "supports": "FX for Morgan Stanley target event"
+        },
+        {
+          "label": "Banca d Italia, euro reference rate 15 Oct 2026 (USD 1.1208)",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261015",
+          "supports": "FX for J.P. Morgan event"
+        },
+        {
+          "label": "Banca d Italia, euro reference rate 21 Oct 2026 (USD 1.1234)",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261021",
+          "supports": "FX for Barclays event"
+        },
+        {
+          "label": "Banca d Italia, euro reference rate 28 Oct 2026 (USD 1.1133)",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261028",
+          "supports": "FX for UBS and Jefferies events"
+        },
+        {
+          "label": "Banca d Italia, euro reference rate 2 Nov 2026 (USD 1.1216)",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261102",
+          "supports": "FX for Goldman Sachs event"
+        },
+        {
+          "label": "Banca d Italia, euro reference rate 3 Nov 2026 (USD 1.1179)",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261103",
+          "supports": "FX for RBC event"
+        },
+        {
+          "label": "Banca d Italia, euro reference rate 4 Nov 2026 (USD 1.1267)",
+          "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261104",
+          "supports": "FX for Citi event"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-28T13:30:00+01:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 3,
+        "earnings_order_unknown": 2,
+        "median_age_days": 16.0,
+        "max_weight_pct": 13.807048587501908,
+        "contributors": [
+          {
+            "analyst": "Alvaro Serrano",
+            "firm": "Morgan Stanley",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-02",
+            "age_days": 72,
+            "after_earnings": false,
+            "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+            "weight": 0.08499235366642396
+          },
+          {
+            "analyst": "Benjamin Toms",
+            "firm": "RBC Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-03",
+            "age_days": 10,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+            "weight": 0.13701120168788444
+          },
+          {
+            "analyst": "Borja Ramirez Segura",
+            "firm": "Citi",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+            "weight": 0.13807048587501908
+          },
+          {
+            "analyst": "Cecilia Romero",
+            "firm": "Barclays",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": false,
+            "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+            "weight": 0.12395783001204969
+          },
+          {
+            "analyst": "Ignacio Cerezo",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+            "weight": 0.13082399557335314
+          },
+          {
+            "analyst": "Marta Sanchez Romero",
+            "firm": "J.P. Morgan",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": false,
+            "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+            "weight": 0.11836009322596029
+          },
+          {
+            "analyst": "Miruna Chirea",
+            "firm": "Jefferies",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+            "weight": 0.13082399557335314
+          },
+          {
+            "analyst": "Sofie Peterzens",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+            "weight": 0.1359600443859563
+          }
+        ],
+        "counts": {
+          "Buy": 6,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 75.08159112006865,
+          "Hold": 24.91840887993134,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Alvaro Serrano",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Alvaro Serrano",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 17.02,
+          "source_prior": 15.98,
+          "horizon_months": null,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "revision_pct": 6.508135168961204,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Benjamin Toms",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Benjamin Toms",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 14.53,
+          "source_prior": 14.81,
+          "horizon_months": null,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "revision_pct": -1.8906144496961597,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Borja Ramirez Segura",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Borja Ramirez Segura",
+          "firm": "Citi",
+          "field": "target",
+          "value": 16.0,
+          "source_prior": 16.34,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "revision_pct": -2.0807833537331732,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Cecilia Romero",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Cecilia Romero",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 14.58,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ignacio Cerezo",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ignacio Cerezo",
+          "firm": "UBS",
+          "field": "target",
+          "value": 15.59,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Marta Sanchez Romero",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Marta Sanchez Romero",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 14.46,
+          "source_prior": 14.12,
+          "horizon_months": null,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59+02:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "revision_pct": 2.4079320113314484,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Miruna Chirea",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Miruna Chirea",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 14.47,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sofie Peterzens",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sofie Peterzens",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 16.82,
+          "source_prior": 15.81,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/SAN/ratings/",
+          "prior_observed": null,
+          "revision_pct": 6.388361796331443,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "COP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 142.28,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date, November 2027). Common-share USD listing, no ADR conversion. FY2026 anchor: 9M 2026 adjusted EPS of about $8.40 (Q1 about $1.89 derived as six-month $5.13 less Q2 $3.24; Q2 $3.24; Q3 $3.27) plus a Q4 implied by the Chartmill FY2026 estimate of $11.31 (as of 2026-11-07). Scenario EPS and multiples are our stated assumptions; the sourced oil and gas strip for 2027 was not located, so the EPS range is a judgement, not a sourced forecast.",
+        "bear": 104.0,
+        "base": 147.9,
+        "bull": 185.6,
+        "cases": {
+          "bear": {
+            "driver": "Oil and gas realizations normalize from the Q3 2026 Brent average of about $97/bbl toward a lower strip; buybacks slow and the market applies a lower multiple to a mature E&P.",
+            "assumption": "FY2027 EPS $8.00 at 13x",
+            "target": 104.0
+          },
+          "base": {
+            "driver": "Realized prices ease from the Q3 level but production holds near the Q4 2026 guidance of 2.32 to 2.36 MMboe/d; the company's 45%-of-CFO shareholder return target for 2026 is kept (Q3 buybacks $2.4B); dividend raised 11% to $0.93 per quarter.",
+            "assumption": "FY2027 EPS $10.20 at 14.5x",
+            "target": 147.9
+          },
+          "bull": {
+            "driver": "Price strength persists, Willow (first oil early 2029) and LNG optionality support a premium multiple, and the $7B FCF inflection by 2029 is pulled forward in market expectations.",
+            "assumption": "FY2027 EPS $11.60 at 16x",
+            "target": 185.6
+          }
+        },
+        "implied_by_close": "At base EPS of $10.20 the close of $142.28 implies 13.9x; the published 27-analyst mean target of $152.96 (Yahoo via yfinance aggregate) implies about 15.0x on the same EPS. Both are alternative explanations for the gap; we have not attributed the gap to any named broker.",
+        "sensitivity": "One turn of P/E moves the base target by about $10.20 (6.9% of base target); a $1.00 change in FY2027 EPS at 14.5x moves it by $14.50 (about 10%).",
+        "watch_metric": "Realized oil and gas price per BOE against the assumed strip, and FY2027 production and adjusted operating cost guidance (not yet issued); a Q4 2026 realized price well below the Q3 level of $61.40/BOE, or a FY2027 capex or cost outlook that cuts the cash return, would weaken the base case.",
+        "next_disclosure": "Q4 and FY2026 results and FY2027 outlook, expected early February 2027 per the company's cadence (date not confirmed in sources)."
+      },
+      "dividend_per_share": 3.72,
+      "analyst_notes": "Only two named dated calls were verified in this window: Jefferies (Lloyd Byrne) raised to $160 from $129 with Buy on 2026-04-12, and Piper Sandler (Ryan Todd) reiterated Buy with a $115 target on 2025-11-27. Both have undisclosed horizons, so neither enters the weighted target. Aggregator reports of October 2026 moves (Susquehanna $175, Jefferies $174, Truist $136, a Piper Sandler Neutral $157) and a Bernstein downgrade to $122 without a confirmed date could not be verified against primary sources and are excluded. The published 27-analyst mean ($152.96) sits about 3% above our base case, which implies the Street assumes higher realized prices or a higher multiple than our 14.5x; the gap is roughly $5 per share, or about 0.5 EPS at our multiple.",
+      "sources": [
+        {
+          "label": "ConocoPhillips Q3 2026 earnings release (8-K Ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001163165/000116316526000043/cop-20261105x8kexx991.htm",
+          "supports": "Q3 2026 GAAP EPS $3.34 and adjusted EPS $3.27, release date 2026-11-05, Q4 2026 production guidance 2.32 to 2.36 MMboe/d, $2.4B Q3 buybacks, FCF $4.0B, dividend $0.93"
+        },
+        {
+          "label": "24/7 Wall St Q3 2026 earnings card",
+          "url": "https://247wallst.com/cards/conocophillips-q3-2026-earnings-cop-01m6ntf7bv13qrkqqv5xbk53rb",
+          "supports": "Q3 realized price $61.40/BOE, Brent dated average $97.00/bbl, adjusted EPS vs consensus, 2029 $7B FCF inflection, Willow timing"
+        },
+        {
+          "label": "ConocoPhillips Q2 2026 results release",
+          "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-second-quarter-2026-results-and-quarterly-dividend/",
+          "supports": "Q2 2026 adjusted EPS $3.24 and six-month adjusted EPS $5.13 (used to derive Q1 2026)"
+        },
+        {
+          "label": "Chartmill COP estimates (FY2026 consensus $11.31, as of 2026-11-07)",
+          "url": "https://www.chartmill.com/stock/quote/1COP.MI/estimates",
+          "supports": "FY2026 EPS anchor for the scenario math; listing is the Milan line, so treat as indicative"
+        },
+        {
+          "label": "Jefferies Lloyd Byrne price target note (Yahoo Finance, April 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html",
+          "supports": "Jefferies Buy, target $160 from $129, note dated 2026-04-12"
+        },
+        {
+          "label": "Piper Sandler Ryan Todd Buy reiteration (Yahoo Finance, Nov 2025)",
+          "url": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html",
+          "supports": "Piper Sandler Buy reiterated with $115 target, dated 2025-11-27"
+        },
+        {
+          "label": "MT Newswires via Placera: Susquehanna target $152 from $149",
+          "url": "https://www.placera.se/telegram/conocophillips-susquehanna-adjusts-conocophillips-price-target-to-152-from-149-20260501",
+          "supports": "Susquehanna target change to $152 from $149 on 2026-05-01; FactSet mean target $141.30 at that date (analyst not named, not used as an event)"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-05T08:30:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 283.0,
+        "max_weight_pct": 74.0279623315176,
+        "contributors": [
+          {
+            "analyst": "Lloyd Byrne",
+            "firm": "Jefferies",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-04-12",
+            "age_days": 215,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html",
+            "weight": 0.740279623315176
+          },
+          {
+            "analyst": "Ryan Todd",
+            "firm": "Piper Sandler",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2025-11-27",
+            "age_days": 351,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html",
+            "weight": 0.25972037668482395
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Lloyd Byrne",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-12",
+          "public_at": "2026-04-12T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Lloyd Byrne",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 160.0,
+          "source_prior": 129,
+          "issued_at": "2026-04-12",
+          "public_at": "2026-04-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html",
+          "prior_observed": null,
+          "revision_pct": 24.031007751937985,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ryan Todd",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2025-11-27",
+          "public_at": "2025-11-27T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ryan Todd",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 115.0,
+          "source_prior": null,
+          "issued_at": "2025-11-27",
+          "public_at": "2025-11-27T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "BUD": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 84.81,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 underlying EPS viewed at the 12-month target date (Nov 2027), times a justified P/E, in USD per share. Listing is an ADR: the depositary (BNY Mellon) states each ADS represents one ordinary share (424B7 prospectus supplement, 2024; FY2025 20-F reiterates the 1:1 ratio), so the ADR ratio is 1:1 and per-share figures carry over without scaling. AB InBev reports in USD, so the valuation needs no FX conversion. FX is used only for EUR-quoted items: EUR/USD 1.1052 (Banque de France daily reference rate, 13 Nov 2026) converts the EUR 0.40 FY2026 interim dividend ($0.44) and the EUR-quoted Barclays target (EUR 82 and EUR 95 shown as $90.63 and $104.99; same rate applied to both, not the July 27 rate). Anchor: FY2025 underlying EPS $3.73; 9M26 underlying EPS $3.40 (vs $2.78 in 9M25, +22.2%, of which about 8 points FX per the constant-currency comparison); FY2026E about $4.45 = 9M actual plus an assumed Q4 of about $1.05 (Q4 2025 was $0.95 grown by roughly the 9M FX-inclusive rate; my estimate, not company guidance). Company guidance: EBITDA to grow in line with the 4-8% medium-term outlook; net capex $3.5-4.0bn; no EPS guidance. FY2027E EPS is my own assumption: no 2027 outlook was issued, and no sourced post-Q3 2027 consensus was found. Diluted share count taken from the 1,973M weighted average in 3Q26.",
+        "bear": 63.75,
+        "base": 84.6,
+        "bull": 102.0,
+        "cases": {
+          "bear": {
+            "driver": "FX tailwind reverses and the 2027 Brazil sin tax (cited by Barclays) hits a large profit pool; the World Cup-supported 2026 volume lapses, so EPS falls below FY2026E before growing again.",
+            "assumption": "FY2027 EPS $4.25 at 15x",
+            "target": 63.75
+          },
+          "base": {
+            "driver": "EBITDA grows inside the 4-8% medium-term range; buybacks (2.6bn of the 6bn program done by 26 Oct 2026) and lower interest lift EPS faster than EBITDA, but FX and the 2026 World Cup boost do not repeat, leaving about 5.6% EPS growth on FY2026E.",
+            "assumption": "FY2027 EPS $4.70 at 18x",
+            "target": 84.6
+          },
+          "bull": {
+            "driver": "Premiumisation and emerging-market pricing sustain the top of the 4-8% EBITDA range, and the market keeps paying a premium multiple for visible cash returns.",
+            "assumption": "FY2027 EPS $5.10 at 20x",
+            "target": 102.0
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $4.70 the $84.81 close implies 18.0x (19.1x on FY2026E of $4.45). The MarketBeat consensus target of $87.83 (25 Oct 2026, 12 Buy and 4 Hold) implies 18.7x on $4.70, or about $4.97 of EPS at 18x.",
+        "sensitivity": "One turn of P/E moves the base target by $4.70 (about 5.5 pp of the close); a $0.10 change in FY2027 EPS moves it by $1.80 (about 2.1 pp).",
+        "watch_metric": "Normalised EBITDA growth against the 4-8% range (9M26 was +5.0% at $17,332M), together with the company's initial 2027 EPS or EBITDA framing and the Brazil sin tax impact on volumes and pricing.",
+        "next_disclosure": "FY2026 results with initial 2027 outlook, expected around mid-February 2027 (date not confirmed; FY2025 results were released 12 Feb 2026)."
+      },
+      "dividend_per_share": 0.44,
+      "analyst_notes": "Only one named call could be sourced with a date before the close: Laurence Whyatt at Barclays cut the EUR target from 95 to 82 and moved to Equal Weight on 27 Jul 2026, citing the 2027 Brazil sin tax and a premium valuation. Firm-only actions (Wells Fargo cut to $88 from $97 on 5 Oct 2026, TD Cowen cut to $85 from $89 on 13 Oct 2026 with a Hold, RBC raised to EUR 95 from EUR 93 on 8 Oct 2026, and others) have no named analyst in the sources, so they are excluded from the named timeline and from the weighted target. The MarketBeat consensus of $87.83 sits 3.5% above the close and about $4.97 of FY2027 EPS at 18x, above the base case, so the gap is mostly a difference in 2027 earnings assumptions rather than in multiple; no named target carries a documented 12-month horizon.",
+      "sources": [
+        {
+          "label": "AB InBev Q3 2026 results (6-K exhibit 99.1), 29 Oct 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001668717/000119312526437051/d159047dex991.htm",
+          "supports": "3Q26 and 9M26 underlying EPS, normalized EBITDA, weighted shares, 2026 outlook, net capex, interim dividend and ex-dividend dates"
+        },
+        {
+          "label": "AB InBev Form 424B7 prospectus supplement (2024)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1668717/000119312524066952/d759700d424b7.htm",
+          "supports": "ADS to ordinary share ratio 1:1 (each ADS represents one Ordinary Share), BNY Mellon as depositary, NYSE ticker BUD"
+        },
+        {
+          "label": "AB InBev full year and Q4 2025 results (Business Wire), 12 Feb 2026",
+          "url": "https://www.businesswire.com/news/home/20260211688662/en",
+          "supports": "FY2025 underlying EPS $3.73, Q4 2025 underlying EPS $0.95, FY2025 dividend EUR 1.15, net debt to EBITDA 2.87x"
+        },
+        {
+          "label": "Barclays downgrade of AB InBev to Equal Weight (TheFly via TipRanks), 27 Jul 2026",
+          "url": "https://www.tipranks.com/news/the-fly/ab-inbev-downgraded-to-equal-weight-from-overweight-at-barclays-thefly-news",
+          "supports": "Laurence Whyatt rating change and EUR 95 to EUR 82 target, Brazil 2027 sin tax reasoning"
+        },
+        {
+          "label": "Banque de France daily EUR/USD reference rate, 13 Nov 2026",
+          "url": "https://www.banque-france.fr/en/statistics/rates-and-prices/exchange-rates-daily-parities-2026-11-13",
+          "supports": "EUR/USD 1.1052 on 13 Nov 2026 used for EUR conversions"
+        },
+        {
+          "label": "MarketBeat consensus article on BUD, 25 Oct 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/consensus-anheuser-busch-inbev-sanv-nyse-bud-stock-has-average-target-price-of-8783-2026-10-25/",
+          "supports": "Consensus target $87.83 with 12 Buy and 4 Hold; Wells Fargo $97 to $88 on 5 Oct 2026 (firm only, unnamed)"
+        },
+        {
+          "label": "Ad-hoc-news RBC EUR target raise (published 23 Oct 2026)",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/anheuser-busch-inbev-stock-rbc-raises-target-to-eur-95-00/70399089",
+          "supports": "RBC EUR 93 to EUR 95 target on 8 Oct 2026, unnamed analyst, EUR 75.95 share price on 23 Oct 2026"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T07:00:00+01:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 109,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Laurence Whyatt",
+            "firm": "Barclays",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-07-27",
+            "age_days": 109,
+            "after_earnings": false,
+            "source": "https://www.tipranks.com/news/the-fly/ab-inbev-downgraded-to-equal-weight-from-overweight-at-barclays-thefly-news",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 100.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Laurence Whyatt",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59+01:00",
+          "source": "https://www.tipranks.com/news/the-fly/ab-inbev-downgraded-to-equal-weight-from-overweight-at-barclays-thefly-news",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Laurence Whyatt",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 90.63,
+          "source_prior": 104.99,
+          "issued_at": "2026-07-27",
+          "public_at": "2026-07-27T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/news/the-fly/ab-inbev-downgraded-to-equal-weight-from-overweight-at-barclays-thefly-news",
+          "prior_observed": null,
+          "revision_pct": -13.67749309458044,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "PFE": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 28.89,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. Each case uses FY2027 adjusted diluted EPS, the year an investor at the November 2027 target date would be pricing, times a P/E. Anchor: FY2026 adjusted EPS guidance $2.95-$3.05 (midpoint $3.00, raised from $2.80-$3.00 on 2026-11-03), which absorbs about $0.10 per share from the $650M Innovent acquired IPR&D charge; underlying FY2026 is about $3.10. Scenario EPS is that base less stated loss-of-exclusivity erosion, offset by the $2.5B of net productivity savings Pfizer plans for 2027-2029. Per-share figures are on the USD listing of the ordinary share (no ADR conversion). Targets are price-only; dividend shown separately.",
+        "bear": 27.0,
+        "base": 33.0,
+        "bull": 39.0,
+        "cases": {
+          "bear": {
+            "driver": "Loss-of-exclusivity erosion outruns cost savings and the multiple stays near today's level",
+            "assumption": "FY2027 adjusted EPS $2.70 (about 13% below underlying FY2026 near $3.10) at 10x",
+            "target": 27.0
+          },
+          "base": {
+            "driver": "Erosion is roughly offset by productivity savings and growth from launched products; revenue growth ex-Comirnaty and Paxlovid continues (Q3 up 7% operationally)",
+            "assumption": "FY2027 adjusted EPS $3.00 (flat to the guided FY2026 midpoint, which carries the one-time $0.10 charge) at 11x, a re-rating of about 1.4 turns from the 9.6x the close implies on the guided midpoint",
+            "target": 33.0
+          },
+          "bull": {
+            "driver": "Pipeline and acquired products (including the Innovent deal) lift growth and the market pays for visible earnings durability",
+            "assumption": "FY2027 adjusted EPS $3.25 (underlying FY2026 plus about 5%) at 12x",
+            "target": 39.0
+          }
+        },
+        "implied_by_close": "The $28.89 close implies 9.6x the FY2026 guided midpoint of $3.00 and 9.6x base FY2027 EPS of $3.00. The Yahoo aggregate mean of $30.22 (26 analysts, weekly aggregate) implies 10.1x $3.00. The five named targets with a dated call through 2026-11-13 average $31.60 (median $33), or 10.5x $3.00. Those named targets carry no 12-month horizon disclosure, so they are not weighted into this model.",
+        "sensitivity": "One turn of P/E on base EPS $3.00 moves the base target by $3.00 (about 10.4 pp of price return). A $0.10 change in FY2027 EPS at 11x moves it by $1.10 (about 3.8 pp).",
+        "watch_metric": "FY2027 adjusted EPS guidance (expected to be issued with the Q4 and FY2026 results, timing not stated in sources reviewed) versus the $3.00 base, together with revenue growth excluding Comirnaty and Paxlovid (7% operational in Q3 2026) and delivery of the $2.5B 2027-2029 productivity savings.",
+        "next_disclosure": "Q4 and full-year 2026 earnings release (date not in the sources reviewed). Pfizer said on 2026-11-04 it expects nearly all of the $7.2B net savings by end-2026; the FY2027 outlook has not been published as of 2026-11-13."
+      },
+      "dividend_per_share": 1.72,
+      "analyst_notes": "Since the 2026-11-03 Q3 release, the named calls moved mostly up: Divan (Guggenheim) raised 31 to 33 with Buy, Zubkov (Freedom) raised 33 to 34 with Buy, Haider (Goldman) raised 26 to 28 but kept Hold, and Seigerman (BMO) set 35 Buy with no prior shown. Gould (Cantor) is Hold at 28 with no prior shown. Kraus (DZ Bank) cut to Hold, and Gerberry (BofA) reiterated Hold. Sources date the DZ Bank downgrade 2026-11-05 (StockAnalysis) and 2026-11-06 (MarketBeat); the event uses 11-05 and the discrepancy is unresolved. Named targets cluster at $28-$35 and sit about 4% below the $33 base, roughly 0.5 turn of P/E on $3.00 EPS, so the gap is a multiple call, not an EPS disagreement. The named sample is small (five targets, no horizon disclosures) and does not support an analyst-weighted target. Unnamed firm actions reported in aggregator snippets (Argus, Scotiabank, UBS, RBC, Citi) are excluded because the analyst could not be confirmed on a dated source.",
+      "sources": [
+        {
+          "label": "Pfizer Q3 2026 results article (release date 2026-11-03; FY2026 guidance; $7.3B dividends in 9M)",
+          "url": "https://www.pfizer.com/news/articles/pfizer_s_third_quarter_results_reflect_confidence_and_momentum",
+          "supports": "Release date, FY2026 adjusted EPS guidance $2.95-$3.05 and revenue $62-64B, dividend cash returned"
+        },
+        {
+          "label": "Pfizer Q3 2026 press release (finviz copy)",
+          "url": "https://finviz.com/news/414019/pfizer-reports-strong-third-quarter-2026-results-and-raises-2026-guidance",
+          "supports": "Adjusted EPS $0.87, reported EPS $0.56, nine-month adjusted EPS $2.39, Innovent $650M charge about $0.10 per share, release time"
+        },
+        {
+          "label": "MarketBeat Q3 2026 earnings call highlights (2026-11-04)",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-pfizer-q3-earnings-call-highlights-2026-11-04/",
+          "supports": "Nearly all $7.2B net savings by end-2026; additional $2.5B net savings 2027-2029; no 2027 guidance or buyback stated"
+        },
+        {
+          "label": "StockAnalysis PFE analyst ratings table",
+          "url": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "supports": "Named analyst calls, dates, ratings, targets and prior targets through 2026-11-13"
+        },
+        {
+          "label": "MarketBeat: Freedom Broker target raised (2026-11-06)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-pfizer-nyse-pfe-stock-gets-price-target-bump-from-freedom-broker-2026-11-06/",
+          "supports": "Freedom Broker Buy, target 33 to 34"
+        },
+        {
+          "label": "MarketBeat: DZ Bank rating lowered (2026-11-06)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-pfizer-nyse-pfe-stock-rating-lowered-by-dz-bank-2026-11-06/",
+          "supports": "DZ Bank downgrade from Buy to Hold, no target given; date differs from StockAnalysis"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-03T05:45:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 7,
+        "post_earnings": 7,
+        "earnings_order_unknown": 0,
+        "median_age_days": 9,
+        "max_weight_pct": 14.443530689652793,
+        "contributors": [
+          {
+            "analyst": "Asad Haider",
+            "firm": "Goldman Sachs",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+            "weight": 0.14222757754562323
+          },
+          {
+            "analyst": "Carter Gould",
+            "firm": "Cantor Fitzgerald",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+            "weight": 0.14222757754562323
+          },
+          {
+            "analyst": "Elmar Kraus",
+            "firm": "DZ BANK AG",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+            "weight": 0.14332719146048953
+          },
+          {
+            "analyst": "Evan Seigerman",
+            "firm": "BMO Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+            "weight": 0.14222757754562323
+          },
+          {
+            "analyst": "Ilya Zubkov",
+            "firm": "Freedom Capital Markets (Freedom Broker)",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+            "weight": 0.14443530689652792
+          },
+          {
+            "analyst": "Jason Gerberry",
+            "firm": "Bank of America Securities",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+            "weight": 0.14222757754562323
+          },
+          {
+            "analyst": "Vamil Divan",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+            "weight": 0.14332719146048953
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 4,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 42.99900759026407,
+          "Hold": 57.00099240973593,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Asad Haider",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Asad Haider",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 28.0,
+          "source_prior": 26,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "revision_pct": 7.692307692307687,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Carter Gould",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 28.0,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Elmar Kraus",
+          "firm": "DZ BANK AG",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Evan Seigerman",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Evan Seigerman",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 35.0,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ilya Zubkov",
+          "firm": "Freedom Capital Markets (Freedom Broker)",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ilya Zubkov",
+          "firm": "Freedom Capital Markets (Freedom Broker)",
+          "field": "target",
+          "value": 34.0,
+          "source_prior": 33,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "revision_pct": 3.0303030303030276,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jason Gerberry",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Vamil Divan",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Vamil Divan",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 33.0,
+          "source_prior": 31,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pfe/ratings/",
+          "prior_observed": null,
+          "revision_pct": 6.451612903225801,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -42149,12 +43615,22 @@
         "kind": "new"
       },
       {
+        "symbol": "BUD",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "C",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
         "symbol": "CAT",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "COP",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -42319,6 +43795,11 @@
         "kind": "new"
       },
       {
+        "symbol": "NEE",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "NFLX",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -42354,6 +43835,11 @@
         "kind": "new"
       },
       {
+        "symbol": "PFE",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "PG",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -42380,6 +43866,11 @@
       },
       {
         "symbol": "RY",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "SAN",
         "researched_at": "2026-11-18",
         "kind": "new"
       },

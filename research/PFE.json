@@ -1,0 +1,48 @@
+{
+  "issuer_id": "Pfizer Inc.",
+  "symbol": "PFE",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 28.89, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-03T05:45:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Ilya Zubkov", "firm": "Freedom Capital Markets (Freedom Broker)", "field": "target", "value": 34, "source_prior": 33, "issued_at": "2026-11-06", "public_at": "2026-11-06T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Ilya Zubkov", "firm": "Freedom Capital Markets (Freedom Broker)", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-06", "public_at": "2026-11-06T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Elmar Kraus", "firm": "DZ BANK AG", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Vamil Divan", "firm": "Guggenheim", "field": "target", "value": 33, "source_prior": 31, "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Vamil Divan", "firm": "Guggenheim", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Evan Seigerman", "firm": "BMO Capital", "field": "target", "value": 35, "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Evan Seigerman", "firm": "BMO Capital", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Jason Gerberry", "firm": "Bank of America Securities", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Asad Haider", "firm": "Goldman Sachs", "field": "target", "value": 28, "source_prior": 26, "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Asad Haider", "firm": "Goldman Sachs", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Carter Gould", "firm": "Cantor Fitzgerald", "field": "target", "value": 28, "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pfe/ratings/"},
+    {"analyst": "Carter Gould", "firm": "Cantor Fitzgerald", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/pfe/ratings/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E. Each case uses FY2027 adjusted diluted EPS, the year an investor at the November 2027 target date would be pricing, times a P/E. Anchor: FY2026 adjusted EPS guidance $2.95-$3.05 (midpoint $3.00, raised from $2.80-$3.00 on 2026-11-03), which absorbs about $0.10 per share from the $650M Innovent acquired IPR&D charge; underlying FY2026 is about $3.10. Scenario EPS is that base less stated loss-of-exclusivity erosion, offset by the $2.5B of net productivity savings Pfizer plans for 2027-2029. Per-share figures are on the USD listing of the ordinary share (no ADR conversion). Targets are price-only; dividend shown separately.",
+    "bear": 27.0,
+    "base": 33.0,
+    "bull": 39.0,
+    "cases": {
+      "bear": {"driver": "Loss-of-exclusivity erosion outruns cost savings and the multiple stays near today's level", "assumption": "FY2027 adjusted EPS $2.70 (about 13% below underlying FY2026 near $3.10) at 10x", "target": 27.0},
+      "base": {"driver": "Erosion is roughly offset by productivity savings and growth from launched products; revenue growth ex-Comirnaty and Paxlovid continues (Q3 up 7% operationally)", "assumption": "FY2027 adjusted EPS $3.00 (flat to the guided FY2026 midpoint, which carries the one-time $0.10 charge) at 11x, a re-rating of about 1.4 turns from the 9.6x the close implies on the guided midpoint", "target": 33.0},
+      "bull": {"driver": "Pipeline and acquired products (including the Innovent deal) lift growth and the market pays for visible earnings durability", "assumption": "FY2027 adjusted EPS $3.25 (underlying FY2026 plus about 5%) at 12x", "target": 39.0}
+    },
+    "implied_by_close": "The $28.89 close implies 9.6x the FY2026 guided midpoint of $3.00 and 9.6x base FY2027 EPS of $3.00. The Yahoo aggregate mean of $30.22 (26 analysts, weekly aggregate) implies 10.1x $3.00. The five named targets with a dated call through 2026-11-13 average $31.60 (median $33), or 10.5x $3.00. Those named targets carry no 12-month horizon disclosure, so they are not weighted into this model.",
+    "sensitivity": "One turn of P/E on base EPS $3.00 moves the base target by $3.00 (about 10.4 pp of price return). A $0.10 change in FY2027 EPS at 11x moves it by $1.10 (about 3.8 pp).",
+    "watch_metric": "FY2027 adjusted EPS guidance (expected to be issued with the Q4 and FY2026 results, timing not stated in sources reviewed) versus the $3.00 base, together with revenue growth excluding Comirnaty and Paxlovid (7% operational in Q3 2026) and delivery of the $2.5B 2027-2029 productivity savings.",
+    "next_disclosure": "Q4 and full-year 2026 earnings release (date not in the sources reviewed). Pfizer said on 2026-11-04 it expects nearly all of the $7.2B net savings by end-2026; the FY2027 outlook has not been published as of 2026-11-13."
+  },
+  "dividend_per_share": 1.72,
+  "analyst_notes": "Since the 2026-11-03 Q3 release, the named calls moved mostly up: Divan (Guggenheim) raised 31 to 33 with Buy, Zubkov (Freedom) raised 33 to 34 with Buy, Haider (Goldman) raised 26 to 28 but kept Hold, and Seigerman (BMO) set 35 Buy with no prior shown. Gould (Cantor) is Hold at 28 with no prior shown. Kraus (DZ Bank) cut to Hold, and Gerberry (BofA) reiterated Hold. Sources date the DZ Bank downgrade 2026-11-05 (StockAnalysis) and 2026-11-06 (MarketBeat); the event uses 11-05 and the discrepancy is unresolved. Named targets cluster at $28-$35 and sit about 4% below the $33 base, roughly 0.5 turn of P/E on $3.00 EPS, so the gap is a multiple call, not an EPS disagreement. The named sample is small (five targets, no horizon disclosures) and does not support an analyst-weighted target. Unnamed firm actions reported in aggregator snippets (Argus, Scotiabank, UBS, RBC, Citi) are excluded because the analyst could not be confirmed on a dated source.",
+  "sources": [
+    {"label": "Pfizer Q3 2026 results article (release date 2026-11-03; FY2026 guidance; $7.3B dividends in 9M)", "url": "https://www.pfizer.com/news/articles/pfizer_s_third_quarter_results_reflect_confidence_and_momentum", "supports": "Release date, FY2026 adjusted EPS guidance $2.95-$3.05 and revenue $62-64B, dividend cash returned"},
+    {"label": "Pfizer Q3 2026 press release (finviz copy)", "url": "https://finviz.com/news/414019/pfizer-reports-strong-third-quarter-2026-results-and-raises-2026-guidance", "supports": "Adjusted EPS $0.87, reported EPS $0.56, nine-month adjusted EPS $2.39, Innovent $650M charge about $0.10 per share, release time"},
+    {"label": "MarketBeat Q3 2026 earnings call highlights (2026-11-04)", "url": "https://www.marketbeat.com/instant-alerts/transcript-pfizer-q3-earnings-call-highlights-2026-11-04/", "supports": "Nearly all $7.2B net savings by end-2026; additional $2.5B net savings 2027-2029; no 2027 guidance or buyback stated"},
+    {"label": "StockAnalysis PFE analyst ratings table", "url": "https://stockanalysis.com/stocks/pfe/ratings/", "supports": "Named analyst calls, dates, ratings, targets and prior targets through 2026-11-13"},
+    {"label": "MarketBeat: Freedom Broker target raised (2026-11-06)", "url": "https://www.marketbeat.com/instant-alerts/analyst-pfizer-nyse-pfe-stock-gets-price-target-bump-from-freedom-broker-2026-11-06/", "supports": "Freedom Broker Buy, target 33 to 34"},
+    {"label": "MarketBeat: DZ Bank rating lowered (2026-11-06)", "url": "https://www.marketbeat.com/instant-alerts/analyst-pfizer-nyse-pfe-stock-rating-lowered-by-dz-bank-2026-11-06/", "supports": "DZ Bank downgrade from Buy to Hold, no target given; date differs from StockAnalysis"}
+  ]
+}

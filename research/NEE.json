@@ -1,0 +1,49 @@
+{
+  "issuer_id": "NextEra Energy, Inc.",
+  "symbol": "NEE",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 85.12, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-21T08:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "David Arcaro", "firm": "Morgan Stanley", "field": "target", "value": 110, "source_prior": 111,
+     "issued_at": "2026-10-14", "public_at": "2026-10-14T23:59:59-04:00", "horizon_months": null,
+     "source": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/"},
+    {"analyst": "David Arcaro", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-10-14", "public_at": "2026-10-14T23:59:59-04:00",
+     "source": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/"},
+    {"analyst": "Alex Kania", "firm": "BTIG", "field": "target", "value": 112, "source_prior": 103,
+     "issued_at": "2026-04-24", "public_at": "2026-04-24T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html"},
+    {"analyst": "Alex Kania", "firm": "BTIG", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-04-24", "public_at": "2026-04-24T23:59:59-04:00",
+     "source": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html"}
+  ],
+  "valuation": {
+    "method": "Forward adjusted EPS x justified P/E. Each case uses FY2027 adjusted EPS (the period an investor at the 2027-11-18 target date is pricing) for NextEra standalone, excluding the pending all-stock Dominion Energy combination, which is expected to close in 2H 2027 and would change the share count and earnings base. Forward P/E is chosen over EV/EBITDA because NEE is a regulated utility plus renewables developer whose earnings are reported as adjusted EPS and whose holding-company debt is already in the share price. Anchors: 2026 adjusted EPS guidance $3.92-4.02 (management targeting the high end; 9M 2026 adjusted EPS $3.47), 2025 base $3.71, company target of 8%+ adjusted EPS CAGR through 2032, and Q3 2026 diluted shares of 2,098 million. Multiples are our judgement against the stock's own forward range and the rate backdrop, not broker targets.",
+    "bear": 68.85, "base": 85.0, "bull": 95.7,
+    "cases": {
+      "bear": {"driver": "Wind shortfall persists, FPL and renewables earnings growth slows, Dominion approvals and financing raise dilution, and rates pressure utility multiples", "assumption": "FY2027 adjusted EPS $4.05 (about 3% above the 2026 low end) at 17x", "target": 68.85},
+      "base": {"driver": "Delivery of the 2026 high-end guide and roughly 6% growth into 2027 as FPL rate base and the 36.7 GW backlog come into service, below the 8%+ company path", "assumption": "FY2027 adjusted EPS $4.25 at 20x", "target": 85.0},
+      "bull": {"driver": "8%+ EPS growth on the company path, with backlog conversion and data-center demand supporting a premium multiple", "assumption": "FY2027 adjusted EPS $4.35 at 22x", "target": 95.7}
+    },
+    "implied_by_close": "At base FY2027 EPS of $4.25 the close of $85.12 implies 20.0x (21.2x on the 2026 high-end guide of $4.02). The Yahoo provider aggregate mean of $94 implies 22.1x on base EPS, or FY2027 EPS of about $4.70 at 20x (+10.6%). Named analyst targets were not available on a common basis, so the gap is shown against the provider aggregate only.",
+    "sensitivity": "One turn of P/E moves the base target by $4.25 (5.0% of target, 5.0 percentage points of price return). A $0.10 change in FY2027 EPS at 20x moves it by $2.00 (2.4 pp).",
+    "watch_metric": "Adjusted EPS growth against the 8%+ path, with FPL regulatory capital employed growth (9.2% y/y in Q3 2026) and renewables backlog conversion (36.7 GW) as the leading indicators; Dominion approval milestones also matter because they set the timing of the share-count change.",
+    "next_disclosure": "Q4 and full-year 2026 results, expected around late January 2027 based on the prior-year timing (date not yet announced); Virginia and South Carolina Dominion hearings in Nov-Dec 2026 with final orders expected January 2027."
+  },
+  "dividend_per_share": 2.49,
+  "analyst_notes": "Named coverage in the last six months is thin: Morgan Stanley's David Arcaro trimmed to $110 from $111 on 14 Oct 2026 while keeping Overweight, and BTIG's Alex Kania raised to $112 from $103 on 24 Apr 2026, before Q3. Other post-Q3 actions are firm-only and not attributed to a named analyst (Mizuho $80 from $95 Neutral on 6 Oct; Jefferies $87 from $94 on 8 Oct; Barclays $79 from $84 on 22 Oct; HSBC $103 from $114 on 22 Oct; BTIG $106 from $105 on 22 Oct; Argus $96 from $102 on 28 Oct; Bernstein SocGen reiterated Outperform $108 on 22 Oct). The provider aggregate of $94 sits about 10% above base, which needs roughly $4.70 of FY2027 EPS at 20x, or about 22x on base EPS; the reasons for most of the post-September cuts were not disclosed in the sources reviewed.",
+  "sources": [
+    {"label": "8-K Exhibit 99, Q3 2026 results (21 Oct 2026)", "url": "https://www.sec.gov/Archives/edgar/data/0000753308/000075330826000077/neeq32026exhibit99.htm", "supports": "Q3 adjusted EPS $1.24, 9M adjusted EPS $3.47, 2026 guidance $3.92-4.02, diluted shares 2,098M, 8%+ CAGR off 2025 base $3.71, Dominion timing 2H 2027"},
+    {"label": "Q3 2026 results release index (investor site)", "url": "https://www.investor.nexteraenergy.com/news-and-events/news-releases/2026", "supports": "Release dates: results 21 Oct 2026, dividend declaration 22 Oct 2026"},
+    {"label": "Quarterly dividend declaration (22 Oct 2026)", "url": "https://finviz.com/news/406721/nextera-energy-board-declares-quarterly-dividend", "supports": "Quarterly dividend $0.6232 per share, annualised to $2.49"},
+    {"label": "Form S-4 Dominion combination", "url": "https://www.sec.gov/Archives/edgar/data/0000753308/000110465926082301/tm2614888-13_s4.htm", "supports": "All-stock combination with Dominion Energy, pending approvals"},
+    {"label": "24/7 Wall St, Morgan Stanley Overweight $110 (22 Oct 2026)", "url": "https://247wallst.com/investing/2026/10/22/nextera-energy-lost-15-in-6-months-a-respected-analyst-predicts-40-returns-in-12-months/", "supports": "David Arcaro, Morgan Stanley, Overweight, $110 target"},
+    {"label": "Ad-hoc-news, Morgan Stanley cut to $110 from $111 (14 Oct 2026)", "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/morgan-stanley-cuts-target-for-nextera-energy-stock-to-usd-110/70327634", "supports": "Prior target $111, new target $110, dated 14 Oct 2026"},
+    {"label": "Yahoo Finance, BTIG Buy $112 from $103 (24 Apr 2026)", "url": "https://finance.yahoo.com/sectors/energy/articles/btig-raises-price-target-nextera-175426819.html", "supports": "Alex Kania, BTIG, Buy, $112 from $103, change made 24 Apr 2026"},
+    {"label": "MarketBeat, Mizuho $80 from $95 (6 Oct 2026)", "url": "https://www.marketbeat.com/instant-alerts/analyst-nextera-energy-nyse-nee-given-new-8000-price-target-at-mizuho-2026-10-06/", "supports": "Firm-only Mizuho cut, Neutral"},
+    {"label": "Yahoo Finance analyst aggregate (19 analysts, mean $94, median $99)", "url": "https://finance.yahoo.com/quote/NEE/analyst-insights/", "supports": "Provider aggregate used only as context, labelled as aggregate"}
+  ]
+}

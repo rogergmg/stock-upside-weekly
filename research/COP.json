@@ -1,0 +1,47 @@
+{
+  "issuer_id": "ConocoPhillips",
+  "symbol": "COP",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 142.28, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-05T08:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Lloyd Byrne", "firm": "Jefferies", "field": "target", "value": 160, "source_prior": 129,
+     "issued_at": "2026-04-12", "public_at": "2026-04-12T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html"},
+    {"analyst": "Lloyd Byrne", "firm": "Jefferies", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-04-12", "public_at": "2026-04-12T23:59:59-04:00",
+     "source": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html"},
+    {"analyst": "Ryan Todd", "firm": "Piper Sandler", "field": "target", "value": 115, "source_prior": null,
+     "issued_at": "2025-11-27", "public_at": "2025-11-27T23:59:59-05:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html"},
+    {"analyst": "Ryan Todd", "firm": "Piper Sandler", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2025-11-27", "public_at": "2025-11-27T23:59:59-05:00",
+     "source": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date, November 2027). Common-share USD listing, no ADR conversion. FY2026 anchor: 9M 2026 adjusted EPS of about $8.40 (Q1 about $1.89 derived as six-month $5.13 less Q2 $3.24; Q2 $3.24; Q3 $3.27) plus a Q4 implied by the Chartmill FY2026 estimate of $11.31 (as of 2026-11-07). Scenario EPS and multiples are our stated assumptions; the sourced oil and gas strip for 2027 was not located, so the EPS range is a judgement, not a sourced forecast.",
+    "bear": 104.0, "base": 147.9, "bull": 185.6,
+    "cases": {
+      "bear": {"driver": "Oil and gas realizations normalize from the Q3 2026 Brent average of about $97/bbl toward a lower strip; buybacks slow and the market applies a lower multiple to a mature E&P.", "assumption": "FY2027 EPS $8.00 at 13x", "target": 104.0},
+      "base": {"driver": "Realized prices ease from the Q3 level but production holds near the Q4 2026 guidance of 2.32 to 2.36 MMboe/d; the company's 45%-of-CFO shareholder return target for 2026 is kept (Q3 buybacks $2.4B); dividend raised 11% to $0.93 per quarter.", "assumption": "FY2027 EPS $10.20 at 14.5x", "target": 147.9},
+      "bull": {"driver": "Price strength persists, Willow (first oil early 2029) and LNG optionality support a premium multiple, and the $7B FCF inflection by 2029 is pulled forward in market expectations.", "assumption": "FY2027 EPS $11.60 at 16x", "target": 185.6}
+    },
+    "implied_by_close": "At base EPS of $10.20 the close of $142.28 implies 13.9x; the published 27-analyst mean target of $152.96 (Yahoo via yfinance aggregate) implies about 15.0x on the same EPS. Both are alternative explanations for the gap; we have not attributed the gap to any named broker.",
+    "sensitivity": "One turn of P/E moves the base target by about $10.20 (6.9% of base target); a $1.00 change in FY2027 EPS at 14.5x moves it by $14.50 (about 10%).",
+    "watch_metric": "Realized oil and gas price per BOE against the assumed strip, and FY2027 production and adjusted operating cost guidance (not yet issued); a Q4 2026 realized price well below the Q3 level of $61.40/BOE, or a FY2027 capex or cost outlook that cuts the cash return, would weaken the base case.",
+    "next_disclosure": "Q4 and FY2026 results and FY2027 outlook, expected early February 2027 per the company's cadence (date not confirmed in sources)."
+  },
+  "dividend_per_share": 3.72,
+  "analyst_notes": "Only two named dated calls were verified in this window: Jefferies (Lloyd Byrne) raised to $160 from $129 with Buy on 2026-04-12, and Piper Sandler (Ryan Todd) reiterated Buy with a $115 target on 2025-11-27. Both have undisclosed horizons, so neither enters the weighted target. Aggregator reports of October 2026 moves (Susquehanna $175, Jefferies $174, Truist $136, a Piper Sandler Neutral $157) and a Bernstein downgrade to $122 without a confirmed date could not be verified against primary sources and are excluded. The published 27-analyst mean ($152.96) sits about 3% above our base case, which implies the Street assumes higher realized prices or a higher multiple than our 14.5x; the gap is roughly $5 per share, or about 0.5 EPS at our multiple.",
+  "sources": [
+    {"label": "ConocoPhillips Q3 2026 earnings release (8-K Ex. 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0001163165/000116316526000043/cop-20261105x8kexx991.htm", "supports": "Q3 2026 GAAP EPS $3.34 and adjusted EPS $3.27, release date 2026-11-05, Q4 2026 production guidance 2.32 to 2.36 MMboe/d, $2.4B Q3 buybacks, FCF $4.0B, dividend $0.93"},
+    {"label": "24/7 Wall St Q3 2026 earnings card", "url": "https://247wallst.com/cards/conocophillips-q3-2026-earnings-cop-01m6ntf7bv13qrkqqv5xbk53rb", "supports": "Q3 realized price $61.40/BOE, Brent dated average $97.00/bbl, adjusted EPS vs consensus, 2029 $7B FCF inflection, Willow timing"},
+    {"label": "ConocoPhillips Q2 2026 results release", "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-second-quarter-2026-results-and-quarterly-dividend/", "supports": "Q2 2026 adjusted EPS $3.24 and six-month adjusted EPS $5.13 (used to derive Q1 2026)"},
+    {"label": "Chartmill COP estimates (FY2026 consensus $11.31, as of 2026-11-07)", "url": "https://www.chartmill.com/stock/quote/1COP.MI/estimates", "supports": "FY2026 EPS anchor for the scenario math; listing is the Milan line, so treat as indicative"},
+    {"label": "Jefferies Lloyd Byrne price target note (Yahoo Finance, April 2026)", "url": "https://finance.yahoo.com/markets/stocks/articles/jefferies-raises-pt-conocophillips-cop-020333148.html", "supports": "Jefferies Buy, target $160 from $129, note dated 2026-04-12"},
+    {"label": "Piper Sandler Ryan Todd Buy reiteration (Yahoo Finance, Nov 2025)", "url": "https://finance.yahoo.com/news/piper-sandler-maintains-buy-conocophillips-105201308.html", "supports": "Piper Sandler Buy reiterated with $115 target, dated 2025-11-27"},
+    {"label": "MT Newswires via Placera: Susquehanna target $152 from $149", "url": "https://www.placera.se/telegram/conocophillips-susquehanna-adjusts-conocophillips-price-target-to-152-from-149-20260501", "supports": "Susquehanna target change to $152 from $149 on 2026-05-01; FactSet mean target $141.30 at that date (analyst not named, not used as an event)"}
+  ]
+}

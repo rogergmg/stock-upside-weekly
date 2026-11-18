@@ -13105,9 +13105,222 @@
         "high": 146457079061
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Bob Huang",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 360,
+          "source_prior": 350,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Bob Huang",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Andrew Kligerman",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 379,
+          "source_prior": 360,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Andrew Kligerman",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Brian Meredith",
+          "firm": "UBS",
+          "field": "target",
+          "value": 380,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Brian Meredith",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Pablo Singzon",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 374,
+          "source_prior": 371,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Pablo Singzon",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Elyse Greenspan",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 366,
+          "source_prior": 343,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Elyse Greenspan",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Yaron Kinar",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 350,
+          "source_prior": 336,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Yaron Kinar",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Matthew Heimermann",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 405,
+          "source_prior": 395,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Matthew Heimermann",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Ryan Tunis",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 333,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Ryan Tunis",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Meyer Shields",
+          "firm": "Keefe, Bruyette & Woods",
+          "field": "target",
+          "value": 387,
+          "source_prior": 389,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Meyer Shields",
+          "firm": "Keefe, Bruyette & Woods",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Vikram Gandhi",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 359,
+          "issued_at": "2026-10-07",
+          "public_at": "2026-10-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        },
+        {
+          "analyst": "Vikram Gandhi",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-07",
+          "public_at": "2026-10-07T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/CB"
+        }
+      ],
+      "earnings_at": "2026-10-20T16:05:00-04:00",
+      "valuation": {
+        "bear": 313.5,
+        "base": 381.0,
+        "bull": 452.25
+      }
     },
     {
       "issuer_id": "Unilever PLC",
@@ -13121,9 +13334,58 @@
         "high": 145490773715
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Robert Moskow",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 76,
+          "source_prior": 67,
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/"
+        },
+        {
+          "analyst": "Robert Moskow",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/"
+        },
+        {
+          "analyst": "Nicolas Ceron",
+          "firm": "BofA",
+          "field": "target",
+          "value": 76,
+          "source_prior": 72,
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/"
+        },
+        {
+          "analyst": "Nicolas Ceron",
+          "firm": "BofA",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/"
+        }
+      ],
+      "earnings_at": "2026-10-28T07:00:00+00:00",
+      "valuation": {
+        "bear": 54.3,
+        "base": 67.1,
+        "bull": 79.0
+      },
+      "dividend_per_share": 2.08
     },
     {
       "issuer_id": "Uber Technologies, Inc.",
@@ -13137,9 +13399,201 @@
         "high": 145145874028
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Justin Post",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 98,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-revamps-uber-stock-190300372.html",
+          "source_prior": 101
+        },
+        {
+          "analyst": "Justin Post",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/bank-america-revamps-uber-stock-190300372.html"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 110,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://ca.investing.com/news/stock-market-news/uber-stock-rating-maintained-at-buy-by-goldman-sachs-on-q3-results-93CH-4932883"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://ca.investing.com/news/stock-market-news/uber-stock-rating-maintained-at-buy-by-goldman-sachs-on-q3-results-93CH-4932883"
+        },
+        {
+          "analyst": "Bernie McTernan",
+          "firm": "Needham",
+          "field": "target",
+          "value": 109,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact",
+          "source_prior": 100
+        },
+        {
+          "analyst": "Bernie McTernan",
+          "firm": "Needham",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact"
+        },
+        {
+          "analyst": "Justin Patterson",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 95,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact",
+          "source_prior": 105
+        },
+        {
+          "analyst": "Justin Patterson",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact"
+        },
+        {
+          "analyst": "Jake Fuller",
+          "firm": "BTIG",
+          "field": "target",
+          "value": 90,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact",
+          "source_prior": 100
+        },
+        {
+          "analyst": "Jake Fuller",
+          "firm": "BTIG",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact"
+        },
+        {
+          "analyst": "Scott Devitt",
+          "firm": "Rosenblatt",
+          "field": "target",
+          "value": 95,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact",
+          "source_prior": 100
+        },
+        {
+          "analyst": "Scott Devitt",
+          "firm": "Rosenblatt",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 125,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact"
+        },
+        {
+          "analyst": "Wedbush analyst (unnamed)",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 91,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact"
+        },
+        {
+          "analyst": "Wedbush analyst (unnamed)",
+          "firm": "Wedbush",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62937768/uber-q3-mobility-miss-on-high-fuel-prices-delivery-av-momentum-intact"
+        },
+        {
+          "analyst": "Mark Mahaney",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 150,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/evercore-isis-150-target-says-ubers-selloff-went-too-far",
+          "source_prior": 150
+        },
+        {
+          "analyst": "Mark Mahaney",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/evercore-isis-150-target-says-ubers-selloff-went-too-far"
+        }
+      ],
+      "earnings_at": "2026-11-04T06:55:00-05:00",
+      "valuation": {
+        "bear": 65.0,
+        "base": 92.0,
+        "bull": 137.0
+      }
     },
     {
       "issuer_id": "Banco Bilbao Vizcaya Argentaria, S.A.",
@@ -13153,9 +13607,184 @@
         "high": 149988689219
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Benjamin Toms",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 25.97,
+          "source_prior": 26.52,
+          "horizon_months": null,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Benjamin Toms",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Ignacio Cerezo",
+          "firm": "UBS",
+          "field": "target",
+          "value": 25.09,
+          "source_prior": 27.08,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Ignacio Cerezo",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Sofie Peterzens",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 31.5,
+          "source_prior": 31.39,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Sofie Peterzens",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Alfredo Alonso Estudillo",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 26.14,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Alfredo Alonso Estudillo",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Miruna Chirea",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 30.39,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Miruna Chirea",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Cecilia Romero",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 24.1,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Cecilia Romero",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Borja Ramirez Segura",
+          "firm": "Citi",
+          "field": "target",
+          "value": 29.29,
+          "source_prior": 29.84,
+          "horizon_months": null,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Borja Ramirez Segura",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Marta Sanchez Romero",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 29.95,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-09-24",
+          "public_at": "2026-09-24T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        },
+        {
+          "analyst": "Marta Sanchez Romero",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-24",
+          "public_at": "2026-09-24T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/bme/BBVA/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-29T08:00:00+01:00",
+      "valuation": {
+        "bear": 18.57,
+        "base": 24.67,
+        "bull": 29.59
+      },
+      "dividend_per_share": 0.9
     },
     {
       "issuer_id": "Southern Copper Corporation",
@@ -13169,9 +13798,36 @@
         "high": 142808532794
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Timna Tanners",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 186,
+          "source_prior": 192,
+          "issued_at": "2026-04-15",
+          "public_at": "2026-04-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/commodities/articles/wells-fargo-cuts-southern-copper-071047230.html"
+        },
+        {
+          "analyst": "Timna Tanners",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-04-15",
+          "public_at": "2026-04-15T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/commodities/articles/wells-fargo-cuts-southern-copper-071047230.html"
+        }
+      ],
+      "earnings_at": null,
+      "valuation": {
+        "bear": 102.0,
+        "base": 160.0,
+        "bull": 220.0
+      }
     },
     {
       "issuer_id": "Lockheed Martin Corporation",

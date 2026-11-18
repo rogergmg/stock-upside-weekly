@@ -1,0 +1,26 @@
+{
+ "issuer_id":"Southern Copper Corporation","symbol":"SCCO","researched_at":"2026-11-18",
+ "research_close":{"close":164.08,"close_date":"2026-11-13"},"currency":"USD","earnings_at":null,"coverage":"partial",
+ "events":[
+  {"analyst":"Timna Tanners","firm":"Wells Fargo","field":"target","value":186,"source_prior":192,"issued_at":"2026-04-15","public_at":"2026-04-15T23:59:59-04:00","horizon_months":null,"source":"https://finance.yahoo.com/markets/commodities/articles/wells-fargo-cuts-southern-copper-071047230.html"},
+  {"analyst":"Timna Tanners","firm":"Wells Fargo","field":"rating","value":"Equal Weight","bucket":"Hold","issued_at":"2026-04-15","public_at":"2026-04-15T23:59:59-04:00","source":"https://finance.yahoo.com/markets/commodities/articles/wells-fargo-cuts-southern-copper-071047230.html"}
+ ],
+ "valuation":{
+  "method":"Forward EPS x P/E (FY2027 EPS viewed at the 12-month target date, Nov 2027). US common-share listing, no ADR conversion. Anchor: Q3 2026 EPS $2.15 (record; net income about $1.8B, sales $4.7B), annualized near $8. Management gives 2027 production and capex guidance only with FY2026 results. EPS and multiples are my assumptions, not sourced forecasts; copper price strip for 2027 not sourced.",
+  "bear":102.0,"base":160.0,"bull":220.0,
+  "cases":{
+   "bear":{"driver":"Copper falls well below current levels and Peru grades keep output falling.","assumption":"EPS $6.00 at 17x","target":102.0},
+   "base":{"driver":"Copper holds near Q3 levels, output about flat (Q3 mined copper 232,396 t, down 1.1%).","assumption":"EPS $8.00 at 20x","target":160.0},
+   "bull":{"driver":"Copper strength persists and Mexico growth offsets Peru, supporting a premium multiple.","assumption":"EPS $10.00 at 22x","target":220.0}},
+  "implied_by_close":"At base EPS of $8.00 the close of $164.08 implies 20.5x; the published consensus (about $145 to $172 depending on provider) implies roughly 18 to 21.5x on the same EPS.",
+  "sensitivity":"One turn of P/E moves the base target by $8.00 (5.0%); $1.00 of EPS at 20x moves it by $20.",
+  "watch_metric":"Realized copper price and mined copper volume against the assumed $8 EPS run rate, plus 2027 production and capex guidance.",
+  "next_disclosure":"Q4 and FY2026 results with 2027 guidance, expected around late January 2027 (date not confirmed)."},
+ "dividend_per_share":null,
+ "analyst_notes":"Only one named dated call was verified: Wells Fargo (Timna Tanners) cut its target to $186 from $192 with Equal Weight on 2026-04-15; its horizon is undisclosed so it is excluded from the weighted target. Aggregator reports show many Underweight and Sell views (Barclays, Morgan Stanley, UBS, JPMorgan, Scotiabank) but without verifiable analyst names or dates, so they are excluded. Provider consensus ranges from $145 to $172, bracketing the close and my $160 base.",
+ "sources":[
+  {"label":"Wells Fargo cuts SCCO target","url":"https://finance.yahoo.com/markets/commodities/articles/wells-fargo-cuts-southern-copper-071047230.html","supports":"Wells Fargo target and rating"},
+  {"label":"SCCO Q3 2026 earnings","url":"https://www.allinvestview.com/earnings/SCCO/q3-2026/","supports":"Q3 EPS $2.15, revenue"},
+  {"label":"SCCO Q3 2026 net income","url":"https://capital.com/en-ae/news/southern-copper-3q26-net-income-jumps-63-year-over-year","supports":"net income growth"},
+  {"label":"SCCO forecast","url":"https://stockanalysis.com/stocks/scco/forecast/","supports":"consensus target range"}]
+}

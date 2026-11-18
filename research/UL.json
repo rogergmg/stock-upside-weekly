@@ -1,0 +1,46 @@
+{
+  "issuer_id": "Unilever PLC",
+  "symbol": "UL",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 66.21, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-28T07:00:00+00:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Robert Moskow", "firm": "TD Cowen", "field": "target", "value": 76, "source_prior": 67,
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/"},
+    {"analyst": "Robert Moskow", "firm": "TD Cowen", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/"},
+    {"analyst": "Nicolas Ceron", "firm": "BofA", "field": "target", "value": 76, "source_prior": 72,
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/"},
+    {"analyst": "Nicolas Ceron", "firm": "BofA", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 underlying EPS viewed at the 12-month target date (Nov 2027), times a justified P/E, in USD per ADS. ADR ratio: one UL ADS represents one Unilever PLC ordinary share (1:1, per the depositary programme), so per-share values carry over without scaling. Unilever reports in EUR; EUR/USD 1.1127 (Banca d'Italia reference rate, 11 Nov 2026, the nearest sourced date; the 13 Nov rate could not be retrieved) converts EPS and dividend. Anchor: FY2025 underlying EPS EUR 3.08 (+0.7%, continuing operations after the Magnum ice cream demerger). Q3 2026 underlying sales growth 5.2% (volume +2.9%, price +2.3%); guidance raised to at least 3% FY2026 volume growth, USG within 4-6%, modest underlying operating margin improvement from 20.0%; EUR 1.5bn buyback from Q2 2026. FY2026E EPS EUR 3.15 and FY2027E EPS EUR 3.35 are my own assumptions (no company EPS guidance; no sourced consensus EPS).",
+    "bear": 54.3,
+    "base": 67.1,
+    "bull": 79.0,
+    "cases": {
+      "bear": {"driver": "Commodity cost inflation and weak developed-market Foods volumes squeeze margin; price-led growth fades and the multiple de-rates.", "assumption": "FY2027 EPS EUR 3.15 ($3.51) at 15.5x", "target": 54.3},
+      "base": {"driver": "USG about 4-5%, modest margin gain and buybacks give roughly 6% EPS growth on FY2026E; FX roughly neutral.", "assumption": "FY2027 EPS EUR 3.35 ($3.73) at 18x", "target": 67.1},
+      "bull": {"driver": "Volume-led growth in emerging markets and Home Care/Personal Care sustains the top of the 4-6% range with margin expansion.", "assumption": "FY2027 EPS EUR 3.55 ($3.95) at 20x", "target": 79.0}
+    },
+    "implied_by_close": "At base EPS of $3.73 the $66.21 close implies 17.8x. The analyst-weighted target of $76 implies 20.4x, or about $4.22 of EPS (EUR 3.79) at 18x.",
+    "sensitivity": "One turn of P/E moves the base target by $3.73 (5.6 pp of the close); EUR 0.10 of FY2027 EPS moves it by $2.00 (3.0 pp).",
+    "watch_metric": "Underlying sales growth split between volume and price (Q3: 5.2%, volume +2.9%) and underlying operating margin versus 20.0% in 2025.",
+    "next_disclosure": "FY2026 results with 2027 outlook, expected February 2027 (date not confirmed; FY2025 was released 12 Feb 2026)."
+  },
+  "dividend_per_share": 2.08,
+  "analyst_notes": "Two named US-listing calls were sourced: TD Cowen's Robert Moskow (target 67 to 76) and BofA's Nicolas Ceron (72 to 76), both Buy after Q2 results on 29 Jul 2026; both pre-date the Q3 update of 28 Oct and neither has a documented 12-month horizon, so they stay out of the weighted target. Firm-only London-line calls (Jefferies Underperform GBX 4,000, Berenberg Underperform GBX 4,000, Deutsche Bank Hold GBX 5,150, Bernstein Buy GBX 5,800) have no named analyst. The $76 targets imply about EPS $4.22 at 18x versus my $3.73, a roughly 13% EPS gap or 2.4 turns of multiple; MarketBeat shows a Hold consensus near $65.55.",
+  "sources": [
+    {"label": "Unilever Q3 2026 trading statement", "url": "https://www.unilever.com/news/press-and-media/press-releases/2026/continued-strong-performance-in-the-third-quarter/", "supports": "Q3 USG, volume, guidance"},
+    {"label": "Unilever 2025 Full Year Results", "url": "https://www.investegate.co.uk/announcement/rns/unilever--ulvr/2025-full-year-results/9426818", "supports": "FY2025 underlying EPS EUR 3.08, dividend, buyback, margin 20.0%"},
+    {"label": "MarketBeat UL price targets", "url": "https://www.marketbeat.com/stocks/NYSE/UL/price-target/", "supports": "TD Cowen and BofA targets, consensus"},
+    {"label": "Banca d'Italia reference rates 11 Nov 2026", "url": "https://www.bancaditalia.it/compiti/operazioni-cambi/cambio/cambi_rif_20261111", "supports": "EUR/USD 1.1127"}
+  ]
+}

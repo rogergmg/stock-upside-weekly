@@ -1,0 +1,272 @@
+{
+ "issuer_id": "Chubb Limited",
+ "symbol": "CB",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 375.74,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-20T16:05:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Bob Huang",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 360,
+   "source_prior": 350,
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Bob Huang",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-27",
+   "public_at": "2026-10-27T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Andrew Kligerman",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 379,
+   "source_prior": 360,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Andrew Kligerman",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Brian Meredith",
+   "firm": "UBS",
+   "field": "target",
+   "value": 380,
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Brian Meredith",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Pablo Singzon",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 374,
+   "source_prior": 371,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Pablo Singzon",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Elyse Greenspan",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 366,
+   "source_prior": 343,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Elyse Greenspan",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Yaron Kinar",
+   "firm": "Mizuho",
+   "field": "target",
+   "value": 350,
+   "source_prior": 336,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Yaron Kinar",
+   "firm": "Mizuho",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Matthew Heimermann",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 405,
+   "source_prior": 395,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Matthew Heimermann",
+   "firm": "Citigroup",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Ryan Tunis",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 333,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Ryan Tunis",
+   "firm": "Cantor Fitzgerald",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Meyer Shields",
+   "firm": "Keefe, Bruyette & Woods",
+   "field": "target",
+   "value": 387,
+   "source_prior": 389,
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Meyer Shields",
+   "firm": "Keefe, Bruyette & Woods",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Vikram Gandhi",
+   "firm": "HSBC",
+   "field": "target",
+   "value": 359,
+   "issued_at": "2026-10-07",
+   "public_at": "2026-10-07T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  },
+  {
+   "analyst": "Vikram Gandhi",
+   "firm": "HSBC",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-07",
+   "public_at": "2026-10-07T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/CB"
+  }
+ ],
+ "valuation": {
+  "method": "Forward core operating EPS x P/E (FY2027 core EPS viewed at the 12-month target date), cross-checked to P/TBV. FY2026 core EPS ~ $29 = 9M $21.94 plus Q4 ~ $7.1. Core EPS uses Chubb's Q3 2026 redefinition (excludes most purchased-intangible amortization). TBVPS $126.96 at 30 Sep 2026.",
+  "bear": 313.5,
+  "base": 381.0,
+  "bull": 452.25,
+  "cases": {
+   "bear": {
+    "driver": "Elevated catastrophe losses and softer commercial P&C pricing; reserve charge",
+    "assumption": "EPS $28.50 at 11.0x",
+    "target": 313.5
+   },
+   "base": {
+    "driver": "Mid-single-digit premium growth, combined ratio near current level, steady investment income, buybacks",
+    "assumption": "EPS $31.00 at 12.3x",
+    "target": 381.0
+   },
+   "bull": {
+    "driver": "Benign cat year, Asia/life growth, higher investment yield",
+    "assumption": "EPS $33.50 at 13.5x",
+    "target": 452.25
+   }
+  },
+  "implied_by_close": "At base EPS $31.00 the close implies 12.1x; the roughly $370 average of recent named targets implies about 11.9x or EPS near $30.1 at 12.3x",
+  "sensitivity": "One turn of P/E moves the base target by $31.00 (8.3 pp)",
+  "watch_metric": "P&C combined ratio and catastrophe losses ex-reserve development, plus core operating ROTE (21.6% in Q3)",
+  "next_disclosure": "Q4 and full-year 2026 results, expected late January 2026-27 (Jan 2027)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named targets were mostly raised after the Oct 20 Q3 beat, now clustered $333-405 with Citigroup the high end (Buy) and most others Hold/Neutral. Average of these named targets (~$373) is near the close, so the gap to the base case is about 2 pp, equal to roughly $0.6 of EPS or 0.2x P/E. Horizons are undocumented so none are weighted; several targets pre-date the Q3 print.",
+ "sources": [
+  {
+   "label": "PriceTargets.com CB analyst actions",
+   "url": "https://www.pricetargets.com/NYSE/CB",
+   "supports": "analyst targets, ratings, dates"
+  },
+  {
+   "label": "Zacks Chubb Q3 2026 earnings",
+   "url": "https://www.zacks.com/stock/news/3012022/chubb-q3-earnings-beat-estimates-on-investment-and-life-income-growth",
+   "supports": "Q3 core EPS 7.66, 9M core EPS 21.94, BVPS/TBVPS"
+  },
+  {
+   "label": "Chubb Q3 2026 call transcript",
+   "url": "https://www.marketbeat.com/instant-alerts/transcript-what-chubb-cb-said-on-its-q3-earnings-call-2026-10-21/",
+   "supports": "outlook, core income definition change"
+  },
+  {
+   "label": "Reinsurance News Chubb 9M 2026",
+   "url": "https://www.reinsurancene.ws/chubb-posts-record-5-79bn-pc-underwriting-income-for-first-9m-26/",
+   "supports": "P&C underwriting income"
+  }
+ ]
+}

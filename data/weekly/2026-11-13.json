@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T16:03:13.880587+00:00",
+  "built_at": "2026-11-18T16:04:57.149336+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 147,
+    "rank_valued": 152,
     "rank_with_named_targets": 2,
-    "rank_matched": 147,
-    "researched": 147
+    "rank_matched": 152,
+    "researched": 152
   },
   "ranked": [
     {
@@ -1136,6 +1136,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "NOW",
+      "issuer_id": "ServiceNow, Inc.",
+      "close": 102.25,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 104004472985,
+        "high": 108289972800
+      },
+      "scenarios_pct": {
+        "bear": -22.73838630806846,
+        "base": 7.579462102689487,
+        "bull": 41.80929095354523
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "AMZN",
       "issuer_id": "Amazon.com, Inc.",
       "close": 266.66,
@@ -1193,6 +1214,27 @@
         "bull": 32.94596165020337
       },
       "base_total_return_pct": 9.238814642649622,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "ENB",
+      "issuer_id": "Enbridge Inc.",
+      "close": 47.67,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 104126073252,
+        "high": 108387484387
+      },
+      "scenarios_pct": {
+        "bear": -11.600587371512482,
+        "base": 6.838682609607719,
+        "bull": 19.86574365428991
+      },
+      "base_total_return_pct": 12.712397734424165,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -2102,6 +2144,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "SO",
+      "issuer_id": "The Southern Company",
+      "close": 93.59,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 106783925910,
+        "high": 111154328960
+      },
+      "scenarios_pct": {
+        "bear": -11.902981087723047,
+        "base": 2.5216369270221177,
+        "bull": 12.832567582006625
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "ABNB",
       "issuer_id": "Airbnb, Inc.",
       "close": 186.78,
@@ -2348,6 +2411,48 @@
         "bull": 19.31732366711977
       },
       "base_total_return_pct": 4.485727231536022,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "VLO",
+      "issuer_id": "Valero Energy Corporation",
+      "close": 379.83,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 103782757748,
+        "high": 108047234885
+      },
+      "scenarios_pct": {
+        "bear": -52.61037832714636,
+        "base": 1.0978595687544428,
+        "bull": 38.21972987915647
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "CM",
+      "issuer_id": "Canadian Imperial Bank of Commerce",
+      "close": 115.8,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 102980657558,
+        "high": 107241702077
+      },
+      "scenarios_pct": {
+        "bear": -24.76683937823834,
+        "base": 0.9067357512953368,
+        "bull": 22.055267702936096
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -3113,26 +3218,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SO",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ENB",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "NOW",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "VLO",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "CM",
       "reason": "independent valuation unavailable"
     },
     {
@@ -61667,6 +61752,1550 @@
           "status_at_cutoff": "unknown or different horizon"
         }
       ]
+    },
+    "SO": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 93.59,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward adjusted EPS x P/E. Each case uses FY2027 adjusted EPS (the year an investor at the 2027-11-18 target date is pricing). Anchors: Q3 2026 adjusted EPS $1.94, nine-month adjusted EPS $4.40, 2026 adjusted EPS outlook raised to $4.70 (from $4.50-4.60), management guiding 8-9% adjusted EPS growth through 2028 and expecting to raise the upper end of 2027-2028 ranges; about 1,157 million average shares in Q3 2026. The exact 2027 guidance range was not retrieved, so FY2027 EPS values are our assumptions off the $4.70 base. Multiples are judgement against regulated-utility forward ranges, not broker targets. Listing is a US common share in USD, so no ADR or FX conversion applies.",
+        "bear": 82.45,
+        "base": 95.95,
+        "bull": 105.6,
+        "cases": {
+          "bear": {
+            "driver": "Data-center load ramp slips, rate-case outcomes and rising financing costs trim growth, and utility multiples compress",
+            "assumption": "FY2027 adjusted EPS $4.85 (+3% on 2026) at 17x",
+            "target": 82.45
+          },
+          "base": {
+            "driver": "Delivery of 2026 guidance and about 7.5% growth into 2027 on rate base growth and data-center demand, within the 8-9% company path",
+            "assumption": "FY2027 adjusted EPS $5.05 at 19x",
+            "target": 95.95
+          },
+          "bull": {
+            "driver": "8-9% growth path met with upper-end guidance raises and data-center capital upside, supporting a premium multiple",
+            "assumption": "FY2027 adjusted EPS $5.15 at 20.5x",
+            "target": 105.6
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $5.05 the close of $93.59 implies 18.5x (19.9x on 2026 EPS of $4.70). The only named target found ($112, TD Cowen, March 2026) implies 22.2x on base EPS, or FY2027 EPS of about $5.89 at 19x.",
+        "sensitivity": "One turn of P/E moves the base target by $5.05 (5.4% of the close, 5.4 percentage points of price return). A $0.10 change in FY2027 EPS at 19x moves it by $1.90 (2.0 pp).",
+        "watch_metric": "Adjusted EPS growth versus the 8-9% path, with weather-normalized sales growth (3.5% in Q3 2026) and data-center usage (up 59% in Q3) as leading indicators.",
+        "next_disclosure": "Q4 and full-year 2026 results, expected around February 2027 (date not yet announced), where 2027 guidance will be updated."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Only one named analyst call in the last 12 months was found with a verifiable date: TD Cowen's Shelby Tucker raised to $112 from $108 (Buy) on 6 Mar 2026, before the Q3 beat and 2026 guidance raise, so it is stale relative to last earnings. Other firm-level targets (Raymond James $104 and Mizuho $105 in May 2026) were not attributed to named analysts and are excluded. The $112 target implies roughly 22x base EPS against our 19x, a 20 percentage point gap to the close-based base case, which would need FY2027 EPS near $5.89 at 19x.",
+      "sources": [
+        {
+          "label": "Southern Company Q3 2026 earnings release",
+          "url": "https://finviz.com/news/416808/southern-company-reports-third-quarter-2026-earnings",
+          "supports": "Q3 and 9M adjusted EPS, share count, release date"
+        },
+        {
+          "label": "Q3 2026 earnings call highlights",
+          "url": "https://www.gurufocus.com/news/9177976",
+          "supports": "2026 outlook raise, growth guidance, data-center demand"
+        },
+        {
+          "label": "Southern raises 2026 adjusted EPS outlook to $4.70",
+          "url": "https://www.securities.io/southern-company-lifts-2026-adjusted-eps-outlook-to-4-70/",
+          "supports": "2026 adjusted EPS $4.70"
+        },
+        {
+          "label": "TD Cowen price target raise",
+          "url": "https://finance.yahoo.com/news/southern-company-price-target-raised-173612455.html",
+          "supports": "TD Cowen target and rating"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-05T07:30:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 252,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Shelby Tucker",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-03-06",
+            "age_days": 252,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/news/southern-company-price-target-raised-173612455.html",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Shelby Tucker",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-03-06",
+          "public_at": "2026-03-06T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/news/southern-company-price-target-raised-173612455.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Shelby Tucker",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 112.0,
+          "source_prior": 108,
+          "issued_at": "2026-03-06",
+          "public_at": "2026-03-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/news/southern-company-price-target-raised-173612455.html",
+          "prior_observed": null,
+          "revision_pct": 3.703703703703698,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ENB": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 47.67,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward DCF per share x P/DCF (FY2027 DCF/share viewed at the 12-month date), in CAD then converted to USD. ENB trades 1:1 as a US listing of the ordinary share; converted at an assumed CAD 1.40 per USD (approximate Nov 2026 rate, not independently dated). FY2026 guidance DCF/share C$5.70-6.10 (midpoint C$5.90, management expects midpoint); FY2027 base assumes ~5% growth per the medium-term outlook = C$6.20.",
+        "bear": 42.14,
+        "base": 50.93,
+        "bull": 57.14,
+        "cases": {
+          "bear": {
+            "driver": "Growth stalls, rates/valuation pressure",
+            "assumption": "DCF/share C$5.90 at 10.0x = C$59.0 = US$42.14",
+            "target": 42.14
+          },
+          "base": {
+            "driver": "~5% DCF/share growth, projects in service",
+            "assumption": "DCF/share C$6.20 at 11.5x = C$71.3 = US$50.93",
+            "target": 50.93
+          },
+          "bull": {
+            "driver": "Faster growth, Tallgrass/gas projects accretive, multiple re-rates",
+            "assumption": "DCF/share C$6.40 at 12.5x = C$80.0 = US$57.14",
+            "target": 57.14
+          }
+        },
+        "implied_by_close": "At base DCF/share the close (C$66.7 at 1.40) implies 10.8x; the ~US$54 broker average implies 12.6x or DCF/share ~C$7.25",
+        "sensitivity": "One turn of P/DCF moves the base target by about US$4.43 (9.3 pp)",
+        "watch_metric": "Full-year DCF/share versus the C$5.90 midpoint and 2027 guidance growth near 5%",
+        "next_disclosure": "Q4/FY2026 results and 2027 guidance, expected February 2027"
+      },
+      "dividend_per_share": 2.8,
+      "analyst_notes": "Named views on the TipRanks page are clustered in a Hold/Buy split (5 Hold, 5 Buy among those used) with targets US$48.93-58.71 against a US$47.67 close. The Street average (~US$54) sits above the base case of US$50.93, equal to roughly one extra turn of P/DCF (about 12.6x) or DCF/share near C$7.25. Several targets (Scotiabank, ATB Cormark, RBC) are identical, suggesting a shared CAD-to-USD conversion, and some are stale from September-October. Horizons are undocumented so none count toward the weighted target.",
+      "sources": [
+        {
+          "label": "Enbridge Q3 2026 results press release",
+          "url": "https://www.enbridge.com/media-center/news/details?id=123894",
+          "supports": "EBITDA, DCF/share guidance C$5.70-6.10, medium-term outlook"
+        },
+        {
+          "label": "RTTNews Q3 2026 summary",
+          "url": "https://www.rttnews.com/3711314/enbridge-q3-earnings-rise-confirms-fy26-mid-term-outlook.aspx",
+          "supports": "Adjusted EPS C$0.49, guidance reaffirmed"
+        },
+        {
+          "label": "Nasdaq Q3 2026 call highlights",
+          "url": "https://www.nasdaq.com/articles/enbridge-q3-earnings-call-highlights",
+          "supports": "Midpoint expectation, Tallgrass deal"
+        },
+        {
+          "label": "TipRanks ENB forecast",
+          "url": "https://www.tipranks.com/stocks/enb/forecast",
+          "supports": "Analyst ratings and targets"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-06T09:00:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 9,
+        "post_earnings": 4,
+        "earnings_order_unknown": 1,
+        "median_age_days": 7,
+        "max_weight_pct": 12.281197096198735,
+        "contributors": [
+          {
+            "analyst": "Aaron Macneil",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": false,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.10052555517636717
+          },
+          {
+            "analyst": "Benjamin Pham",
+            "firm": "BMO Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": false,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.10052555517636717
+          },
+          {
+            "analyst": "Jeremy Tonet",
+            "firm": "J.P. Morgan",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-06",
+            "age_days": 38,
+            "after_earnings": false,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.09307406947643909
+          },
+          {
+            "analyst": "John Mackay",
+            "firm": "Goldman Sachs",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-18",
+            "age_days": 26,
+            "after_earnings": false,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.10208596436359152
+          },
+          {
+            "analyst": "Nate Heywood",
+            "firm": "ATB Cormark Capital Markets",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.12093475964322394
+          },
+          {
+            "analyst": "Praneeth Satish",
+            "firm": "Wells Fargo",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-11",
+            "age_days": 2,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.12281197096198736
+          },
+          {
+            "analyst": "Robert Catellier",
+            "firm": "CIBC",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.12093475964322394
+          },
+          {
+            "analyst": "Robert Hope",
+            "firm": "Scotiabank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.12093475964322394
+          },
+          {
+            "analyst": "Theresa Chen",
+            "firm": "Barclays",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": null,
+            "source": "https://www.tipranks.com/stocks/enb/forecast",
+            "weight": 0.11817260591557582
+          }
+        ],
+        "counts": {
+          "Buy": 5,
+          "Hold": 4,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 56.38553892824062,
+          "Hold": 43.61446107175938,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Aaron Macneil",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Aaron Macneil",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 58.01,
+          "source_prior": 56.62,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "revision_pct": 2.4549629106322968,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Benjamin Pham",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Benjamin Pham",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 55.57,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jeremy Tonet",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jeremy Tonet",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 53.12,
+          "source_prior": 56.62,
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "revision_pct": -6.181561285764747,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John Mackay",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-18",
+          "public_at": "2026-10-18T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "John Mackay",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 48.93,
+          "source_prior": 49.63,
+          "issued_at": "2026-10-18",
+          "public_at": "2026-10-18T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "revision_pct": -1.4104372355430272,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Nate Heywood",
+          "firm": "ATB Cormark Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Nate Heywood",
+          "firm": "ATB Cormark Capital Markets",
+          "field": "target",
+          "value": 58.71,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Praneeth Satish",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Praneeth Satish",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 50.33,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Robert Catellier",
+          "firm": "CIBC",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Robert Catellier",
+          "firm": "CIBC",
+          "field": "target",
+          "value": 53.12,
+          "source_prior": 52.42,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "revision_pct": 1.335368180083929,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Robert Hope",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Robert Hope",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 58.71,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Theresa Chen",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Theresa Chen",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 51.02,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/enb/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "NOW": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 102.25,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward non-GAAP EPS x P/E, with FY2027 non-GAAP diluted EPS used as the forward earnings base at the 12-month target date (Nov 2027). FY2026E non-GAAP EPS is built from the Q3 FY2026 release: nine-month non-GAAP EPS $2.87 plus Q4 of about $1.03 (Q4 guided non-GAAP operating margin 32% on about $4.35B revenue, about 1.05B diluted shares) gives about $3.90; the company does not guide EPS. FY2027 EPS = $3.90 x (1 + growth), growth 12% bear, 18% base, 24% bull, against FY2026 subscription revenue guidance of $15.78-15.79B (+22.5%, +21% constant currency) that includes Armis. Targets are per share of the NYSE listing in USD, after the 5-for-1 split; no ADR or FX conversion applies.",
+        "bear": 79.0,
+        "base": 110.0,
+        "bull": 145.0,
+        "cases": {
+          "bear": {
+            "driver": "Seat-based workflow demand weakens against AI agents, growth decelerates toward low teens and the multiple compresses to a mature-software level",
+            "assumption": "FY27 EPS $4.37 at 18x",
+            "target": 79.0
+          },
+          "base": {
+            "driver": "Subscription growth slows to high teens as guided cRPO growth (18.5% constant currency in Q4) implies, with margin about 32% and AI ACV ($1.7B target) adding growth",
+            "assumption": "FY27 EPS $4.60 at 24x",
+            "target": 110.0
+          },
+          "bull": {
+            "driver": "AI Control Tower and Now Assist monetization re-accelerates growth and margins, restoring a premium software multiple",
+            "assumption": "FY27 EPS $4.84 at 30x",
+            "target": 145.0
+          }
+        },
+        "implied_by_close": "At FY2026E EPS of $3.90 the close of $102.25 implies 26.2x; at base FY2027 EPS of $4.60 it implies 22.2x. The four named post-earnings targets average $169 (range $110-$201) but none has a documented 12-month horizon, so no weighted target is formed; the $169 average implies about 36.8x base FY2027 EPS, or EPS of $7.04 at 24x.",
+        "sensitivity": "One turn of P/E moves the base target by $4.60 (about 4.2 pp of the $110 base). A 2-point change in FY2027 EPS growth moves base EPS by about $0.08 and the base target by about $1.9 at 24x.",
+        "watch_metric": "Subscription revenue growth and cRPO growth in constant currency (Q4 guide 18.5% cRPO), together with non-GAAP operating margin against the 32% Q4 guide and any AI ACV progress against the $1.7B target.",
+        "next_disclosure": "Q4 and full-year FY2026 results with FY2027 guidance, expected around late January 2027; the date is not confirmed in the sources found."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Four named calls were dated 29 October 2026, the day after the Q3 release: Baird $185, Cantor $201 and BofA $180 (all Buy) and KeyBanc Sell at $110. Prior targets were not stated in the source, so revisions cannot be measured. The stock was about $150 before the print and fell roughly 19% in extended trading, then drifted to $102.25 by 13 November, so every Buy target sat 76-97% above the close and several are likely stale. The gap to the $110 base case is mostly multiple: $180 needs about 39x base FY2027 EPS, or EPS near $7.50 at 24x. Only KeyBanc's target is near the close.",
+      "sources": [
+        {
+          "label": "ServiceNow Q3 2026 results release, 28 Oct 2026",
+          "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+          "supports": "Q3 non-GAAP EPS $1.00, 1,043M diluted shares, FY26 subscription revenue and margin guidance, nine-month EPS $2.87"
+        },
+        {
+          "label": "Finbold: analysts revise ServiceNow price target after Q3 earnings",
+          "url": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "supports": "Baird, Cantor, BofA and KeyBanc ratings and targets, post-earnings share move"
+        },
+        {
+          "label": "ServiceNow Q3 2026 earnings summary, Quartr",
+          "url": "https://quartr.com/events/servicenow-now-q3-2026_3gnKPsN5",
+          "supports": "Q3 results context, cRPO and Q4 guidance"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-28T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 15.0,
+        "max_weight_pct": 25.0,
+        "contributors": [
+          {
+            "analyst": "Jackson Ader",
+            "firm": "KeyBanc",
+            "value": "Sell",
+            "bucket": "Sell",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+            "weight": 0.25
+          },
+          {
+            "analyst": "Robert Oliver",
+            "firm": "Robert W. Baird",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+            "weight": 0.25
+          },
+          {
+            "analyst": "Tal Liani",
+            "firm": "Bank of America",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+            "weight": 0.25
+          },
+          {
+            "analyst": "Thomas Blakey",
+            "firm": "Cantor Fitzgerald",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+            "weight": 0.25
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 0,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 75.0,
+          "Hold": 0.0,
+          "Sell": 25.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Jackson Ader",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jackson Ader",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 110.0,
+          "source_prior": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Robert Oliver",
+          "firm": "Robert W. Baird",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Robert Oliver",
+          "firm": "Robert W. Baird",
+          "field": "target",
+          "value": 185.0,
+          "source_prior": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Tal Liani",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Tal Liani",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 180.0,
+          "source_prior": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Thomas Blakey",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Thomas Blakey",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 201.0,
+          "source_prior": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "VLO": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 379.83,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date, November 2027). Common-share USD listing, no ADR conversion. FY2026 anchor: adjusted EPS Q1 $4.22 (Zacks-reported; release shows net income $4.22/share), Q2 $12.54, Q3 $23.90, nine months about $40.66; Q4 not yet reported. Scenario EPS and multiples are our stated assumptions; a sourced FY2027 consensus was not located, and the release time of day is an assumption (date 2026-10-22 sourced).",
+        "bear": 180.0,
+        "base": 384.0,
+        "bull": 525.0,
+        "cases": {
+          "bear": {
+            "driver": "Refining crack spreads that tripled in Q3 (Brent near $114 on Middle East supply risk) mean-revert to mid-cycle levels; throughput stays near 2.97 mb/d.",
+            "assumption": "FY2027 EPS $20.00 at 9x",
+            "target": 180.0
+          },
+          "base": {
+            "driver": "Cracks stay well above 2025 levels but ease from the Q3 peak; Diamond Green Diesel remains profitable; cash returns about 50-60% of adjusted operating cash flow (Q3 52%).",
+            "assumption": "FY2027 EPS $32.00 at 12x",
+            "target": 384.0
+          },
+          "bull": {
+            "driver": "Tight global refining capacity and supply disruption keep margins near Q3-Q4 2026 levels through 2027.",
+            "assumption": "FY2027 EPS $42.00 at 12.5x",
+            "target": 525.0
+          }
+        },
+        "implied_by_close": "At base EPS of $32.00 the close of $379.83 implies 11.9x; the dated named targets (mostly set in July, mean about $336) would imply about 10.5x on the same EPS, but they predate the Q3 beat and are stale.",
+        "sensitivity": "One turn of P/E moves the base target by $32 (8.3%); a $1.00 change in FY2027 EPS at 12x moves it by $12 (3.1%).",
+        "watch_metric": "Refining margin capture and Gulf Coast crack spreads versus the assumed mid-peak level, plus Q4 throughput; cracks falling back toward 2025 levels would break the base case.",
+        "next_disclosure": "Q4 and FY2026 results, expected late January 2027 per the company's cadence (date not confirmed in sources)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Six named-firm calls from July-August 2026 were verified via MarketBeat/FMP notes; all moved targets up by $11-71 after Q2 and have undisclosed horizons so none enter the weighted target. All predate the Q3 beat ($23.90 vs about $21 consensus) and the $379.83 close sits above all six targets, so they are stale. A Jefferies $401 target on 2026-09-21 and October raises were reported but not verifiable to a primary source and are excluded; individual analyst names beyond Lloyd Byrne were not given in the sources.",
+      "sources": [
+        {
+          "label": "Valero 10-Q Q3 2026",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001035002/000162828026067679/vlo-20260930.htm",
+          "supports": "Q3 results"
+        },
+        {
+          "label": "Valero Q3 2026 earnings coverage (OilPrice)",
+          "url": "https://oilprice.com/Company-News/Valero-Q3-Earnings-Surge-Sixfold-to-68-Billion-on-Refining-Boom.html",
+          "supports": "Q3 adjusted EPS $23.90, throughput, payout 52%"
+        },
+        {
+          "label": "Valero Q2 2026 results",
+          "url": "https://www.barchart.com/story/news/3546104/valero-energy-reports-second-quarter-2026-results",
+          "supports": "Q2 adjusted EPS $12.54"
+        },
+        {
+          "label": "Valero Q1 2026 earnings release (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001035002/000162828026028602/a3312026exh9901earningsrel.htm",
+          "supports": "Q1 EPS $4.22"
+        },
+        {
+          "label": "Jefferies raises VLO target",
+          "url": "https://site.financialmodelingprep.com/market-news/jefferies-raises-valero-energy-vlo-price-target-strong-performance",
+          "supports": "Jefferies $312"
+        },
+        {
+          "label": "MarketBeat VLO target notes",
+          "url": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-33800-2026-07-21/",
+          "supports": "Broker target changes"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-22T07:00:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 109.5,
+        "max_weight_pct": 18.12443634845495,
+        "contributors": [
+          {
+            "analyst": "Goldman Sachs analyst (unnamed)",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-22",
+            "age_days": 114,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-given-new-35700-price-target-at-the-goldman-sachs-group-2026-07-22/",
+            "weight": 0.163976796952994
+          },
+          {
+            "analyst": "Lloyd Byrne",
+            "firm": "Jefferies",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-02",
+            "age_days": 134,
+            "after_earnings": false,
+            "source": "https://site.financialmodelingprep.com/market-news/jefferies-raises-valero-energy-vlo-price-target-strong-performance",
+            "weight": 0.14056812251547418
+          },
+          {
+            "analyst": "Mizuho analyst (unnamed)",
+            "firm": "Mizuho",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-08-04",
+            "age_days": 101,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-stock-price-expected-to-rise-mizuho-analyst-says-2026-08-04/",
+            "weight": 0.1812443634845495
+          },
+          {
+            "analyst": "TD Cowen analyst (unnamed)",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-07-21",
+            "age_days": 115,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-33800-2026-07-21/",
+            "weight": 0.1627187581551402
+          },
+          {
+            "analyst": "UBS analyst (unnamed)",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-31",
+            "age_days": 105,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-35500-2026-07-31/",
+            "weight": 0.17574597944592107
+          },
+          {
+            "analyst": "Wells Fargo analyst (unnamed)",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-07-31",
+            "age_days": 105,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-35600-at-wells-fargo-company-2026-07-31/",
+            "weight": 0.17574597944592107
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 65.60368783603103,
+          "Hold": 34.396312163968965,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-given-new-35700-price-target-at-the-goldman-sachs-group-2026-07-22/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 357.0,
+          "source_prior": 286,
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-given-new-35700-price-target-at-the-goldman-sachs-group-2026-07-22/",
+          "prior_observed": null,
+          "revision_pct": 24.825174825174834,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Lloyd Byrne",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-02",
+          "public_at": "2026-07-02T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/jefferies-raises-valero-energy-vlo-price-target-strong-performance",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Lloyd Byrne",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 312.0,
+          "source_prior": 284,
+          "issued_at": "2026-07-02",
+          "public_at": "2026-07-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://site.financialmodelingprep.com/market-news/jefferies-raises-valero-energy-vlo-price-target-strong-performance",
+          "prior_observed": null,
+          "revision_pct": 9.859154929577475,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mizuho analyst (unnamed)",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-stock-price-expected-to-rise-mizuho-analyst-says-2026-08-04/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mizuho analyst (unnamed)",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": 289,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-stock-price-expected-to-rise-mizuho-analyst-says-2026-08-04/",
+          "prior_observed": null,
+          "revision_pct": 3.806228373702414,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-07-21",
+          "public_at": "2026-07-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-33800-2026-07-21/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 338.0,
+          "source_prior": 292,
+          "issued_at": "2026-07-21",
+          "public_at": "2026-07-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-33800-2026-07-21/",
+          "prior_observed": null,
+          "revision_pct": 15.753424657534243,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "UBS analyst (unnamed)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-35500-2026-07-31/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "UBS analyst (unnamed)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 355.0,
+          "source_prior": 280,
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-35500-2026-07-31/",
+          "prior_observed": null,
+          "revision_pct": 26.785714285714278,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Wells Fargo analyst (unnamed)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-35600-at-wells-fargo-company-2026-07-31/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Wells Fargo analyst (unnamed)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 356.0,
+          "source_prior": 292,
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/valero-energy-nysevlo-price-target-raised-to-35600-at-wells-fargo-company-2026-07-31/",
+          "prior_observed": null,
+          "revision_pct": 21.91780821917808,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "CM": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 115.8,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank: forward P/E on FY2027 (year to Oct 2027) adjusted EPS viewed at Nov 2027, computed in CAD and converted once to USD. NYSE CM is the common share itself (ratio 1:1, no ADR conversion). FX: 1.4257 CAD per USD (Bank of Canada rate for 2026-11-13, as used for other Canadian banks in this set), held constant. Earnings base: nine-month FY2026 adjusted EPS C$8.03 plus Q4 at about C$2.75 gives about C$10.78; base FY2027 C$11.90 (+10%). Base C$11.90 x 14x = C$166.6 = US$116.85. Bear C$10.80 x 11.5x = C$124.2 = US$87.12. Bull C$13.00 x 15.5x = C$201.5 = US$141.34. P/E used because tangible book was not sourced.",
+        "bear": 87.12,
+        "base": 116.85,
+        "bull": 141.34,
+        "cases": {
+          "bear": {
+            "driver": "Credit losses and weaker capital markets hold FY2027 EPS flat on FY2026 and the multiple compresses.",
+            "assumption": "EPS C$10.80 at 11.5x = C$124.2 = US$87.12",
+            "target": 87.12
+          },
+          "base": {
+            "driver": "Fee and capital markets growth with controlled expenses lifts FY2027 EPS about 10%; multiple stays near today's level.",
+            "assumption": "EPS C$11.90 at 14x = C$166.6 = US$116.85",
+            "target": 116.85
+          },
+          "bull": {
+            "driver": "ROE near 17% sustained, EPS grows 20% and the multiple re-rates toward peers.",
+            "assumption": "EPS C$13.00 at 15.5x = C$201.5 = US$141.34",
+            "target": 141.34
+          }
+        },
+        "implied_by_close": "At base EPS C$11.90 the close (about C$165.1 at 1.4257) implies about 13.9x; the average named target of about US$119 implies about 14.2x or EPS about C$12.1 at 14x.",
+        "sensitivity": "One turn of P/E moves the base target by about US$8.35 (7.2 pp).",
+        "watch_metric": "Q4 FY2026 adjusted EPS versus about C$2.75, adjusted ROE and credit provisions.",
+        "next_disclosure": "Q4 FY2026 results, 2026-12-03."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Seven named analysts since the Aug 27 Q3 release, four Hold and three Buy; targets range US$108 to US$130 and cluster near the close, so analyst upside is small. TD Cowen and RBC raised after Q3 (adjusted EPS up 26%). Raymond James (Nov 17) is after the reference close and excluded. Horizons are undocumented, so targets stay out of the weighted target.",
+      "sources": [
+        {
+          "label": "CIBC Q3 2026 news release",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326newsrelease-en.pdf",
+          "supports": "EPS"
+        },
+        {
+          "label": "CIBC Q3 2026 report to shareholders",
+          "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326report-en.pdf",
+          "supports": "Results detail"
+        },
+        {
+          "label": "StockAnalysis CM ratings",
+          "url": "https://stockanalysis.com/stocks/cm/ratings/",
+          "supports": "Analyst ratings and targets"
+        },
+        {
+          "label": "CIBC Q4 2026 date advisory",
+          "url": "https://www.cantechletter.com/newswires/media-advisory-cibc-to-announce-fourth-quarter-2026-results-on-december-3-2026/",
+          "supports": "Next disclosure date"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-27T06:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 7,
+        "post_earnings": 7,
+        "earnings_order_unknown": 0,
+        "median_age_days": 74,
+        "max_weight_pct": 22.689899018558915,
+        "contributors": [
+          {
+            "analyst": "Brian Morton",
+            "firm": "Barclays",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-31",
+            "age_days": 74,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/cm/ratings/",
+            "weight": 0.1293194321117292
+          },
+          {
+            "analyst": "Darko Mihelic",
+            "firm": "RBC Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-28",
+            "age_days": 77,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/cm/ratings/",
+            "weight": 0.1263657722002319
+          },
+          {
+            "analyst": "David Konrad",
+            "firm": "KBW",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-08-28",
+            "age_days": 77,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/cm/ratings/",
+            "weight": 0.1263657722002319
+          },
+          {
+            "analyst": "Douglas Young",
+            "firm": "Desjardins",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/cm/ratings/",
+            "weight": 0.22689899018558915
+          },
+          {
+            "analyst": "John Aiken",
+            "firm": "Jefferies",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-09-03",
+            "age_days": 71,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/cm/ratings/",
+            "weight": 0.132342130550993
+          },
+          {
+            "analyst": "Mario Mendonca",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-28",
+            "age_days": 77,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/cm/ratings/",
+            "weight": 0.1263657722002319
+          },
+          {
+            "analyst": "Matthew Lee",
+            "firm": "Canaccord Genuity",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-09-03",
+            "age_days": 71,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/cm/ratings/",
+            "weight": 0.132342130550993
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 4,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 38.2050976512193,
+          "Hold": 61.79490234878071,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Brian Morton",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Brian Morton",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 119.0,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Darko Mihelic",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Darko Mihelic",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 123.0,
+          "source_prior": 117,
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "revision_pct": 5.128205128205132,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Konrad",
+          "firm": "KBW",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Konrad",
+          "firm": "KBW",
+          "field": "target",
+          "value": 130.0,
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Douglas Young",
+          "firm": "Desjardins",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Douglas Young",
+          "firm": "Desjardins",
+          "field": "target",
+          "value": 119.0,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John Aiken",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "John Aiken",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 108.0,
+          "source_prior": 107,
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "revision_pct": 0.9345794392523255,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mario Mendonca",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mario Mendonca",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 122.0,
+          "source_prior": 114,
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "revision_pct": 7.017543859649122,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Matthew Lee",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-03",
+          "public_at": "2026-09-03T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/cm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        }
+      ]
     }
   },
   "failures": [],
@@ -61851,6 +63480,11 @@
         "kind": "new"
       },
       {
+        "symbol": "CM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "CME",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -61912,6 +63546,11 @@
       },
       {
         "symbol": "DIS",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "ENB",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -62121,6 +63760,11 @@
         "kind": "new"
       },
       {
+        "symbol": "NOW",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "NVDA",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -62266,6 +63910,11 @@
         "kind": "new"
       },
       {
+        "symbol": "SO",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "SONY",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -62373,6 +64022,11 @@
       {
         "symbol": "V",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "VLO",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -62749,6 +64403,22 @@
         "horizon_months": null
       },
       {
+        "symbol": "CM",
+        "firm": "Desjardins",
+        "analyst": "Douglas Young",
+        "issued_at": "2026-11-12",
+        "source": "https://stockanalysis.com/stocks/cm/ratings/",
+        "currency": null,
+        "rating": "Hold",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 119.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
         "symbol": "BNS",
         "firm": "Desjardins",
         "analyst": "Douglas Young",
@@ -62855,6 +64525,22 @@
         "bucket": "Hold",
         "prior_rating": null,
         "target": 395.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ENB",
+        "firm": "Wells Fargo",
+        "analyst": "Praneeth Satish",
+        "issued_at": "2026-11-11",
+        "source": "https://www.tipranks.com/stocks/enb/forecast",
+        "currency": null,
+        "rating": "Hold",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 50.33,
         "prior_target": null,
         "direction": null,
         "revision_pct": null,
@@ -63321,6 +65007,54 @@
         "bucket": "Buy",
         "prior_rating": null,
         "target": 485.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ENB",
+        "firm": "ATB Cormark Capital Markets",
+        "analyst": "Nate Heywood",
+        "issued_at": "2026-11-09",
+        "source": "https://www.tipranks.com/stocks/enb/forecast",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 58.71,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ENB",
+        "firm": "CIBC",
+        "analyst": "Robert Catellier",
+        "issued_at": "2026-11-09",
+        "source": "https://www.tipranks.com/stocks/enb/forecast",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 53.12,
+        "prior_target": 52.42,
+        "direction": "raise",
+        "revision_pct": 1.335368180083929,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ENB",
+        "firm": "Scotiabank",
+        "analyst": "Robert Hope",
+        "issued_at": "2026-11-09",
+        "source": "https://www.tipranks.com/stocks/enb/forecast",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 58.71,
         "prior_target": null,
         "direction": null,
         "revision_pct": null,

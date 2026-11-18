@@ -1,0 +1,198 @@
+{
+ "issuer_id": "Canadian Imperial Bank of Commerce",
+ "symbol": "CM",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 115.8,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-08-27T06:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Douglas Young",
+   "firm": "Desjardins",
+   "field": "target",
+   "value": 119,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "Douglas Young",
+   "firm": "Desjardins",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "John Aiken",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 108,
+   "source_prior": 107,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "John Aiken",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "Matthew Lee",
+   "firm": "Canaccord Genuity",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "Brian Morton",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 119,
+   "issued_at": "2026-08-31",
+   "public_at": "2026-08-31T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "Brian Morton",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-31",
+   "public_at": "2026-08-31T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "Mario Mendonca",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 122,
+   "source_prior": 114,
+   "issued_at": "2026-08-28",
+   "public_at": "2026-08-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "Mario Mendonca",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-28",
+   "public_at": "2026-08-28T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "Darko Mihelic",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 123,
+   "source_prior": 117,
+   "issued_at": "2026-08-28",
+   "public_at": "2026-08-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "Darko Mihelic",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-28",
+   "public_at": "2026-08-28T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "David Konrad",
+   "firm": "KBW",
+   "field": "target",
+   "value": 130,
+   "issued_at": "2026-08-28",
+   "public_at": "2026-08-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  },
+  {
+   "analyst": "David Konrad",
+   "firm": "KBW",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-08-28",
+   "public_at": "2026-08-28T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/cm/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Bank: forward P/E on FY2027 (year to Oct 2027) adjusted EPS viewed at Nov 2027, computed in CAD and converted once to USD. NYSE CM is the common share itself (ratio 1:1, no ADR conversion). FX: 1.4257 CAD per USD (Bank of Canada rate for 2026-11-13, as used for other Canadian banks in this set), held constant. Earnings base: nine-month FY2026 adjusted EPS C$8.03 plus Q4 at about C$2.75 gives about C$10.78; base FY2027 C$11.90 (+10%). Base C$11.90 x 14x = C$166.6 = US$116.85. Bear C$10.80 x 11.5x = C$124.2 = US$87.12. Bull C$13.00 x 15.5x = C$201.5 = US$141.34. P/E used because tangible book was not sourced.",
+  "bear": 87.12,
+  "base": 116.85,
+  "bull": 141.34,
+  "cases": {
+   "bear": {
+    "driver": "Credit losses and weaker capital markets hold FY2027 EPS flat on FY2026 and the multiple compresses.",
+    "assumption": "EPS C$10.80 at 11.5x = C$124.2 = US$87.12",
+    "target": 87.12
+   },
+   "base": {
+    "driver": "Fee and capital markets growth with controlled expenses lifts FY2027 EPS about 10%; multiple stays near today's level.",
+    "assumption": "EPS C$11.90 at 14x = C$166.6 = US$116.85",
+    "target": 116.85
+   },
+   "bull": {
+    "driver": "ROE near 17% sustained, EPS grows 20% and the multiple re-rates toward peers.",
+    "assumption": "EPS C$13.00 at 15.5x = C$201.5 = US$141.34",
+    "target": 141.34
+   }
+  },
+  "implied_by_close": "At base EPS C$11.90 the close (about C$165.1 at 1.4257) implies about 13.9x; the average named target of about US$119 implies about 14.2x or EPS about C$12.1 at 14x.",
+  "sensitivity": "One turn of P/E moves the base target by about US$8.35 (7.2 pp).",
+  "watch_metric": "Q4 FY2026 adjusted EPS versus about C$2.75, adjusted ROE and credit provisions.",
+  "next_disclosure": "Q4 FY2026 results, 2026-12-03."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Seven named analysts since the Aug 27 Q3 release, four Hold and three Buy; targets range US$108 to US$130 and cluster near the close, so analyst upside is small. TD Cowen and RBC raised after Q3 (adjusted EPS up 26%). Raymond James (Nov 17) is after the reference close and excluded. Horizons are undocumented, so targets stay out of the weighted target.",
+ "sources": [
+  {
+   "label": "CIBC Q3 2026 news release",
+   "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326newsrelease-en.pdf",
+   "supports": "EPS"
+  },
+  {
+   "label": "CIBC Q3 2026 report to shareholders",
+   "url": "https://www.cibc.com/content/dam/cibc-public-assets/about-cibc/investor-relations/pdfs/quarterly-results/2026/q326report-en.pdf",
+   "supports": "Results detail"
+  },
+  {
+   "label": "StockAnalysis CM ratings",
+   "url": "https://stockanalysis.com/stocks/cm/ratings/",
+   "supports": "Analyst ratings and targets"
+  },
+  {
+   "label": "CIBC Q4 2026 date advisory",
+   "url": "https://www.cantechletter.com/newswires/media-advisory-cibc-to-announce-fourth-quarter-2026-results-on-december-3-2026/",
+   "supports": "Next disclosure date"
+  }
+ ]
+}

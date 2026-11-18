@@ -1,0 +1,38 @@
+{
+  "issuer_id": "The Southern Company",
+  "symbol": "SO",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 93.59, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-05T07:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Shelby Tucker", "firm": "TD Cowen", "field": "target", "value": 112, "source_prior": 108,
+     "issued_at": "2026-03-06", "public_at": "2026-03-06T23:59:59-05:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/news/southern-company-price-target-raised-173612455.html"},
+    {"analyst": "Shelby Tucker", "firm": "TD Cowen", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-03-06", "public_at": "2026-03-06T23:59:59-05:00",
+     "source": "https://finance.yahoo.com/news/southern-company-price-target-raised-173612455.html"}
+  ],
+  "valuation": {
+    "method": "Forward adjusted EPS x P/E. Each case uses FY2027 adjusted EPS (the year an investor at the 2027-11-18 target date is pricing). Anchors: Q3 2026 adjusted EPS $1.94, nine-month adjusted EPS $4.40, 2026 adjusted EPS outlook raised to $4.70 (from $4.50-4.60), management guiding 8-9% adjusted EPS growth through 2028 and expecting to raise the upper end of 2027-2028 ranges; about 1,157 million average shares in Q3 2026. The exact 2027 guidance range was not retrieved, so FY2027 EPS values are our assumptions off the $4.70 base. Multiples are judgement against regulated-utility forward ranges, not broker targets. Listing is a US common share in USD, so no ADR or FX conversion applies.",
+    "bear": 82.45, "base": 95.95, "bull": 105.6,
+    "cases": {
+      "bear": {"driver": "Data-center load ramp slips, rate-case outcomes and rising financing costs trim growth, and utility multiples compress", "assumption": "FY2027 adjusted EPS $4.85 (+3% on 2026) at 17x", "target": 82.45},
+      "base": {"driver": "Delivery of 2026 guidance and about 7.5% growth into 2027 on rate base growth and data-center demand, within the 8-9% company path", "assumption": "FY2027 adjusted EPS $5.05 at 19x", "target": 95.95},
+      "bull": {"driver": "8-9% growth path met with upper-end guidance raises and data-center capital upside, supporting a premium multiple", "assumption": "FY2027 adjusted EPS $5.15 at 20.5x", "target": 105.6}
+    },
+    "implied_by_close": "At base FY2027 EPS of $5.05 the close of $93.59 implies 18.5x (19.9x on 2026 EPS of $4.70). The only named target found ($112, TD Cowen, March 2026) implies 22.2x on base EPS, or FY2027 EPS of about $5.89 at 19x.",
+    "sensitivity": "One turn of P/E moves the base target by $5.05 (5.4% of the close, 5.4 percentage points of price return). A $0.10 change in FY2027 EPS at 19x moves it by $1.90 (2.0 pp).",
+    "watch_metric": "Adjusted EPS growth versus the 8-9% path, with weather-normalized sales growth (3.5% in Q3 2026) and data-center usage (up 59% in Q3) as leading indicators.",
+    "next_disclosure": "Q4 and full-year 2026 results, expected around February 2027 (date not yet announced), where 2027 guidance will be updated."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only one named analyst call in the last 12 months was found with a verifiable date: TD Cowen's Shelby Tucker raised to $112 from $108 (Buy) on 6 Mar 2026, before the Q3 beat and 2026 guidance raise, so it is stale relative to last earnings. Other firm-level targets (Raymond James $104 and Mizuho $105 in May 2026) were not attributed to named analysts and are excluded. The $112 target implies roughly 22x base EPS against our 19x, a 20 percentage point gap to the close-based base case, which would need FY2027 EPS near $5.89 at 19x.",
+  "sources": [
+    {"label": "Southern Company Q3 2026 earnings release", "url": "https://finviz.com/news/416808/southern-company-reports-third-quarter-2026-earnings", "supports": "Q3 and 9M adjusted EPS, share count, release date"},
+    {"label": "Q3 2026 earnings call highlights", "url": "https://www.gurufocus.com/news/9177976", "supports": "2026 outlook raise, growth guidance, data-center demand"},
+    {"label": "Southern raises 2026 adjusted EPS outlook to $4.70", "url": "https://www.securities.io/southern-company-lifts-2026-adjusted-eps-outlook-to-4-70/", "supports": "2026 adjusted EPS $4.70"},
+    {"label": "TD Cowen price target raise", "url": "https://finance.yahoo.com/news/southern-company-price-target-raised-173612455.html", "supports": "TD Cowen target and rating"}
+  ]
+}

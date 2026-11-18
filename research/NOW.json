@@ -1,0 +1,57 @@
+{
+  "issuer_id": "ServiceNow, Inc.",
+  "symbol": "NOW",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 102.25, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-28T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Robert Oliver", "firm": "Robert W. Baird", "field": "target", "value": 185, "source_prior": null,
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/"},
+    {"analyst": "Robert Oliver", "firm": "Robert W. Baird", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00",
+     "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/"},
+    {"analyst": "Thomas Blakey", "firm": "Cantor Fitzgerald", "field": "target", "value": 201, "source_prior": null,
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/"},
+    {"analyst": "Thomas Blakey", "firm": "Cantor Fitzgerald", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00",
+     "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/"},
+    {"analyst": "Tal Liani", "firm": "Bank of America", "field": "target", "value": 180, "source_prior": null,
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/"},
+    {"analyst": "Tal Liani", "firm": "Bank of America", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00",
+     "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/"},
+    {"analyst": "Jackson Ader", "firm": "KeyBanc", "field": "target", "value": 110, "source_prior": null,
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/"},
+    {"analyst": "Jackson Ader", "firm": "KeyBanc", "field": "rating", "value": "Sell", "bucket": "Sell",
+     "issued_at": "2026-10-29", "public_at": "2026-10-29T23:59:59-04:00",
+     "source": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/"}
+  ],
+  "valuation": {
+    "method": "Forward non-GAAP EPS x P/E, with FY2027 non-GAAP diluted EPS used as the forward earnings base at the 12-month target date (Nov 2027). FY2026E non-GAAP EPS is built from the Q3 FY2026 release: nine-month non-GAAP EPS $2.87 plus Q4 of about $1.03 (Q4 guided non-GAAP operating margin 32% on about $4.35B revenue, about 1.05B diluted shares) gives about $3.90; the company does not guide EPS. FY2027 EPS = $3.90 x (1 + growth), growth 12% bear, 18% base, 24% bull, against FY2026 subscription revenue guidance of $15.78-15.79B (+22.5%, +21% constant currency) that includes Armis. Targets are per share of the NYSE listing in USD, after the 5-for-1 split; no ADR or FX conversion applies.",
+    "bear": 79.0,
+    "base": 110.0,
+    "bull": 145.0,
+    "cases": {
+      "bear": {"driver": "Seat-based workflow demand weakens against AI agents, growth decelerates toward low teens and the multiple compresses to a mature-software level", "assumption": "FY27 EPS $4.37 at 18x", "target": 79.0},
+      "base": {"driver": "Subscription growth slows to high teens as guided cRPO growth (18.5% constant currency in Q4) implies, with margin about 32% and AI ACV ($1.7B target) adding growth", "assumption": "FY27 EPS $4.60 at 24x", "target": 110.0},
+      "bull": {"driver": "AI Control Tower and Now Assist monetization re-accelerates growth and margins, restoring a premium software multiple", "assumption": "FY27 EPS $4.84 at 30x", "target": 145.0}
+    },
+    "implied_by_close": "At FY2026E EPS of $3.90 the close of $102.25 implies 26.2x; at base FY2027 EPS of $4.60 it implies 22.2x. The four named post-earnings targets average $169 (range $110-$201) but none has a documented 12-month horizon, so no weighted target is formed; the $169 average implies about 36.8x base FY2027 EPS, or EPS of $7.04 at 24x.",
+    "sensitivity": "One turn of P/E moves the base target by $4.60 (about 4.2 pp of the $110 base). A 2-point change in FY2027 EPS growth moves base EPS by about $0.08 and the base target by about $1.9 at 24x.",
+    "watch_metric": "Subscription revenue growth and cRPO growth in constant currency (Q4 guide 18.5% cRPO), together with non-GAAP operating margin against the 32% Q4 guide and any AI ACV progress against the $1.7B target.",
+    "next_disclosure": "Q4 and full-year FY2026 results with FY2027 guidance, expected around late January 2027; the date is not confirmed in the sources found."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Four named calls were dated 29 October 2026, the day after the Q3 release: Baird $185, Cantor $201 and BofA $180 (all Buy) and KeyBanc Sell at $110. Prior targets were not stated in the source, so revisions cannot be measured. The stock was about $150 before the print and fell roughly 19% in extended trading, then drifted to $102.25 by 13 November, so every Buy target sat 76-97% above the close and several are likely stale. The gap to the $110 base case is mostly multiple: $180 needs about 39x base FY2027 EPS, or EPS near $7.50 at 24x. Only KeyBanc's target is near the close.",
+  "sources": [
+    {"label": "ServiceNow Q3 2026 results release, 28 Oct 2026", "url": "https://newsroom.servicenow.com/press-releases/details/2026/ServiceNow-Reports-Third-Quarter-2026-Financial-Results/default.aspx", "supports": "Q3 non-GAAP EPS $1.00, 1,043M diluted shares, FY26 subscription revenue and margin guidance, nine-month EPS $2.87"},
+    {"label": "Finbold: analysts revise ServiceNow price target after Q3 earnings", "url": "https://finbold.com/analysts-revise-servicenow-stock-price-target-after-q3-earnings/", "supports": "Baird, Cantor, BofA and KeyBanc ratings and targets, post-earnings share move"},
+    {"label": "ServiceNow Q3 2026 earnings summary, Quartr", "url": "https://quartr.com/events/servicenow-now-q3-2026_3gnKPsN5", "supports": "Q3 results context, cRPO and Q4 guidance"}
+  ]
+}

@@ -12056,9 +12056,268 @@
         "high": 167244189579
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Daniel Brennan",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 255,
+          "source_prior": 236,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-target-raised-at-stifel-nicolaus-2026-10-22/"
+        },
+        {
+          "analyst": "Daniel Brennan",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 270,
+          "source_prior": 255,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-td-cowen-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/"
+        },
+        {
+          "analyst": "Daniel Brennan",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Luke Sergott",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 260,
+          "source_prior": 255,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/"
+        },
+        {
+          "analyst": "Luke Sergott",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 270,
+          "source_prior": 230,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Catherine Ramsey Schulte",
+          "firm": "Robert W. Baird",
+          "field": "target",
+          "value": 254,
+          "source_prior": 246,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-expected-to-rise-robert-w-baird-analyst-says-2026-10-22/"
+        },
+        {
+          "analyst": "Catherine Ramsey Schulte",
+          "firm": "Robert W. Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-expected-to-rise-robert-w-baird-analyst-says-2026-10-22/"
+        },
+        {
+          "analyst": "Daniel Arias",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 260,
+          "source_prior": 220,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-target-raised-at-stifel-nicolaus-2026-10-22/"
+        },
+        {
+          "analyst": "Daniel Arias",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Casey Woodring",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 270,
+          "source_prior": 250,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/"
+        },
+        {
+          "analyst": "Casey Woodring",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/"
+        },
+        {
+          "analyst": "Doug Schenkel",
+          "firm": "UBS",
+          "field": "target",
+          "value": 260,
+          "source_prior": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Doug Schenkel",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Lu Li",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 270,
+          "source_prior": 255,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Lu Li",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Evie Koslosky",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 275,
+          "source_prior": 250,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Evie Koslosky",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Dan Leonard",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 250,
+          "source_prior": 215,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-td-cowen-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/"
+        },
+        {
+          "analyst": "Dan Leonard",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 265,
+          "source_prior": 250,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Dan Leonard",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        },
+        {
+          "analyst": "Subbu Nambi",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 250,
+          "source_prior": 200,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-td-cowen-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/"
+        },
+        {
+          "analyst": "Subbu Nambi",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast"
+        }
+      ],
+      "earnings_at": "2026-10-21T08:30:00-04:00",
+      "valuation": {
+        "bear": 195.8,
+        "base": 243.1,
+        "bull": 281.3
+      }
     },
     {
       "issuer_id": "The Charles Schwab Corporation",
@@ -12072,9 +12331,37 @@
         "high": 163693880339
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Patrick Moley",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 105,
+          "source_prior": 103,
+          "issued_at": "2026-05-15",
+          "public_at": "2026-05-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html"
+        },
+        {
+          "analyst": "Patrick Moley",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-05-15",
+          "public_at": "2026-05-15T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html"
+        }
+      ],
+      "earnings_at": "2026-10-15T08:30:00-04:00",
+      "valuation": {
+        "bear": 90.0,
+        "base": 116.33,
+        "bull": 144.4
+      },
+      "dividend_per_share": 1.28
     },
     {
       "issuer_id": "Sony Group Corporation",
@@ -12104,9 +12391,14 @@
         "high": 161046117037
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-11-13T23:59:59+09:00",
+      "valuation": {
+        "bear": 18.19,
+        "base": 26.16,
+        "bull": 31.39
+      }
     },
     {
       "issuer_id": "Intuitive Surgical, Inc.",
@@ -12120,9 +12412,36 @@
         "high": 156843040605
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 500,
+          "source_prior": null,
+          "issued_at": "2026-08-13",
+          "public_at": "2026-08-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.ca/news-detail/15440745732547584"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-13",
+          "public_at": "2026-08-13T23:59:59-04:00",
+          "source": "https://www.webull.ca/news-detail/15440745732547584"
+        }
+      ],
+      "earnings_at": "2026-10-20T16:00:00-04:00",
+      "valuation": {
+        "bear": 357.0,
+        "base": 464.4,
+        "bull": 560.0
+      }
     },
     {
       "issuer_id": "AT&T Inc.",

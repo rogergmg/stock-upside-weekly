@@ -1,0 +1,74 @@
+{
+  "issuer_id": "Sumitomo Mitsui Financial Group, Inc.",
+  "symbol": "SMFG",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 24.74,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-13T23:59:59+09:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Bank: forward P/E on ordinary-share EPS, converted to the ADR. Per ordinary share: FY3/2028 (Apr 2027 to Mar 2028) net income attributable to owners divided by 6,318.3 million shares (aggregate shares_used, post 2-for-1 split), times a justified P/E at the 2027-11-18 target date. ADR value = ordinary-share value in JPY x 1.2 / USDJPY 159.75 (2026-11-13). ADR ratio: 1 ADR = 1.2 ordinary shares from 1 Oct 2026 (2-for-1 split with ADR ratio change from 0.6, per SMFG's 13 May 2026 disclosure; depositary Citibank, N.A.). Caveat: SMFG's ADR page still showed the 0.6 ratio when checked and the Citi notice could not be read, so the 1.2 ratio is taken from the company's disclosure and should be confirmed with Citi. FX is held constant at 159.75 in all cases, so the targets carry no yen translation view. Anchors: FY3/2027 net income forecast raised to JPY 1.9tn (H1 actual JPY 1,003.2bn), giving FY3/2027 EPS of about JPY 300.7 and a close-implied 11.0x on ordinary shares (close 24.74 / 1.2 x 159.75 = JPY 3,294). Multiples are our judgement, not broker targets.",
+    "bear": 18.19,
+    "base": 26.16,
+    "bull": 31.39,
+    "cases": {
+      "bear": {
+        "driver": "Mid-term plan level earnings with no growth from the raised forecast: lower domestic rate-cycle benefit, credit costs rising, and slower capital returns",
+        "assumption": "FY3/2028 net income JPY 1.7tn (EPS about JPY 269) at 9x, JPY 2,422 per ordinary share, ADR 1.2 x 2,422 / 159.75",
+        "target": 18.19
+      },
+      "base": {
+        "driver": "Net income grows about 5% from the FY3/2027 forecast of JPY 1.9tn as the Japan rate tailwind and overseas lending growth continue, with the multiple unchanged against the close",
+        "assumption": "FY3/2028 net income JPY 2.0tn (EPS about JPY 317) at 11x, JPY 3,482 per ordinary share",
+        "target": 26.16
+      },
+      "bull": {
+        "driver": "Earnings reach the upper end of plan and continued buybacks lift EPS, with the market re-rating Japanese megabanks toward the top of their recent range",
+        "assumption": "FY3/2028 net income JPY 2.2tn (EPS about JPY 348) at 12x, JPY 4,178 per ordinary share",
+        "target": 31.39
+      }
+    },
+    "implied_by_close": "At FY3/2027 EPS of about JPY 300.7 the close of USD 24.74 (JPY 3,294 per ordinary share) implies 11.0x. The only aggregate in the weekly data is a single-analyst mean of USD 15.76, which implies a 36% decline and is not a usable consensus; a Yahoo-type single-source figure is not treated as consensus. No named analyst targets could be converted to the ADR basis, so no analyst-implied multiple is stated.",
+    "sensitivity": "One turn of P/E on FY3/2028 base EPS of JPY 317 moves the base target by about USD 2.4 (about 10 pp of price return from the close). A JPY 10 change in FY3/2028 EPS at 11x moves it by about USD 0.83 per ADR (about 3%). A 5 yen move in USDJPY moves all targets by about 3%.",
+    "watch_metric": "Net income against the JPY 1.9tn FY3/2027 forecast and the JPY 2.0tn base for FY3/2028, with the ROE trend and the pace of share buybacks as the leading indicators. Credit cost ratio is the main downside indicator for the bear case.",
+    "next_disclosure": "Q3 FY3/2027 (nine-month) results, expected around early February 2027 based on the reporting pattern; date not confirmed in the sources reviewed."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "No named analyst call dated within the last 12 months could be converted to an ADR USD basis: the named Tokyo-line calls found on the StockAnalysis ratings page (Goldman Sachs Buy JPY 6,100 on 2 Feb 2026, UBS JPY 6,200 on 23 Jan 2026, DBS JPY 6,050 on 31 Jan 2026, SBI Securities JPY 7,100 on 22 Jan 2026) are pre-split ordinary-share targets, and dated yen-to-dollar rates for those issue dates were not sourced. The aggregate sources disagree (a 19-analyst view with an average of USD 25.64, a 3-analyst MarketBeat view with no consensus target, and a single-analyst USD 15.76), so none is used for weighting. Named coverage is therefore unavailable here, and the base case rests on company guidance and stated multiples rather than a reconciled analyst view.",
+  "sources": [
+    {
+      "label": "SMFG H1 FY3/2027 statement (first half to 30 Sep 2026)",
+      "url": "https://www.smfg.co.jp/english/investor/financial/latest_statement/2027_3/2027_2q_e03.pdf",
+      "supports": "H1 net income JPY 1,003.2bn; full-year net income forecast raised to JPY 1.9tn"
+    },
+    {
+      "label": "SMFG consolidated results filing, 13 Nov 2026 (Japanese-language disclosure)",
+      "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113577652.pdf",
+      "supports": "Release date 13 Nov 2026; H1 ordinary profit JPY 1,395.6bn (PDF not machine-readable in review; figures taken from the search summary of it)"
+    },
+    {
+      "label": "SMBC notice on ADR ratio change and 2-for-1 split (13 May 2026)",
+      "url": "https://www.smbc.co.jp/news_e/pdf/e20260513_03.pdf",
+      "supports": "ADR ratio change from 1 ADR : 0.6 to 1 ADR : 1.2 ordinary shares, effective 1 Oct 2026; Citibank, N.A. depositary (PDF not machine-readable in review; from search summary)"
+    },
+    {
+      "label": "SMFG ADR page (Citibank depositary, pre-change ratio)",
+      "url": "https://www.smfg.co.jp/english/investor/stock/adr.html",
+      "supports": "Depositary Citibank, N.A.; still shows the old 1 ADR : 0.6 ratio, so it is stale for the post-1 Oct 2026 basis"
+    },
+    {
+      "label": "USD/JPY 13 Nov 2026 (159.75)",
+      "url": "https://www.valutafx.com/history/usd-jpy-2026-11-13",
+      "supports": "USDJPY 159.75 on 2026-11-13, close not labelled; BOJ Nov 12 at 159.70 is consistent"
+    },
+    {
+      "label": "StockAnalysis TYO:8316 ratings (named Tokyo-line calls, Jan-Feb 2026)",
+      "url": "https://stockanalysis.com/quote/tyo/8316/ratings/",
+      "supports": "Named Buy ratings and pre-split yen targets, not converted; context for analyst coverage"
+    }
+  ]
+}

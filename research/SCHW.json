@@ -1,0 +1,40 @@
+{
+  "issuer_id": "The Charles Schwab Corporation",
+  "symbol": "SCHW",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 92.98, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-15T08:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Patrick Moley", "firm": "Piper Sandler", "field": "target", "value": 105, "source_prior": 103,
+     "issued_at": "2026-05-15", "public_at": "2026-05-15T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html"},
+    {"analyst": "Patrick Moley", "firm": "Piper Sandler", "field": "rating", "value": "Neutral", "bucket": "Hold",
+     "issued_at": "2026-05-15", "public_at": "2026-05-15T23:59:59-04:00",
+     "source": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E on the NYSE USD common-stock listing, per share (no ADR conversion). Fee-based and net-interest-driven brokerage and bank holding company, so P/E on EPS is the primary method, not P/TBV. Base and bull use FY2027 diluted EPS viewed at the 12-month target date (Nov 2027); bear uses FY2027 EPS near the FY2026 run-rate with net interest margin compression. FY2026 EPS basis: nine-month GAAP diluted EPS of $4.53 (up 36%) from the Q3 2026 release, plus an assumed Q4 of about $1.75, gives about $6.30 (our estimate; Q3 GAAP EPS $1.62, adjusted $1.69). Management's January 2026 scenario of $5.70 to $5.80 is described by Barclays coverage (May 2026) as being exceeded. FY2027 base growth of about 12% gives $7.05. Share basis: 1,733 million diluted weighted-average common shares in Q3 2026 (aggregate row shows 1,726 million shares used for market cap). FX not applicable (USD listing, USD reporting).",
+    "bear": 90.0,
+    "base": 116.33,
+    "bull": 144.4,
+    "cases": {
+      "bear": {"driver": "Net interest margin compresses as deposit pricing catches up and cash sorting and asset-management fee growth slows; expenses stay elevated; EPS barely grows from FY2026 and the multiple de-rates toward the low end of its range", "assumption": "EPS $6.00 at 15x", "target": 90.0},
+      "base": {"driver": "Record net new assets (Q3 core net new assets $190.4 billion, up 38%), 2026 revenue growth of 14 to 15% per management guidance cited by Barclays (May 2026), net interest margin held near the 3.04% Q3 level, and buybacks reduce the share count; EPS grows about 12% in FY2027", "assumption": "EPS $7.05 at 16.5x", "target": 116.33},
+      "bull": {"driver": "Rate-cut-driven deposit repricing and strong client activity lift FY2027 EPS about 20% above FY2026, and the multiple re-rates toward the upper end of the historical range on sustained organic growth", "assumption": "EPS $7.60 at 19x", "target": 144.4}
+    },
+    "implied_by_close": "At base EPS of $7.05 the close of $92.98 implies about 13.2x FY2027 EPS. The published 25-rating average target of about $116.29 (Fox Business quote page, dated 2026-11-06) corresponds to about 16.5x our base EPS, so the gap with the analyst average is almost entirely the multiple, not the EPS path. The one named broker in the sources reviewed (Piper Sandler, Neutral, $105) sits below the base case.",
+    "sensitivity": "One turn of P/E moves the base target by $7.05 (about 7.6 percentage points of price return on the close). A $0.10 change in FY2027 EPS moves it by $1.65 (about 1.8 pp).",
+    "watch_metric": "Net interest margin and the NII trajectory in the Q4 2026 and FY2026 results: NIM holding near 3.0% with expense growth below revenue growth supports the base case; NIM falling back toward 2.9% or below (the bear-case driver) would move the case toward bear.",
+    "next_disclosure": "Q4 and FY2026 earnings release, expected around mid-January 2027 (date not confirmed in sources reviewed); the Q3 2026 release was on 2026-10-15."
+  },
+  "dividend_per_share": 1.28,
+  "analyst_notes": "Named coverage in the sources reviewed is thin and only one dated named call could be verified: Patrick Moley (Piper Sandler) kept a Neutral rating and raised his target to $105 from $103 on 2026-05-15, citing net interest margin upside, which is below both the close-implied multiple and the broad average target. Other October 2026 items (Bank of America Underperform at $95, Evercore In Line at $107, Wells Fargo Equal Weight at $105, Barclays at $118 or $115) and the 2026 Barclays $127 target were found only on aggregator pages without a verified analyst name or primary note, so they are excluded; a Barclays $115 item also turned out to be a 2025 article. The consensus average (about $116 on 25 ratings) is well above the base case, with the gap driven by a higher multiple (16.5x vs our 13.2x implied by the close) rather than a higher EPS path, and the average target may be stale for several brokers that moved in early October after the Q3 print.",
+  "sources": [
+    {"label": "Q3 2026 earnings release, Form 8-K Exhibit 99.1 (released 2026-10-15)", "url": "https://www.sec.gov/Archives/edgar/data/0000316709/000031670926000035/a3q26exhibit991.htm", "supports": "Q3 2026 GAAP EPS $1.62, net revenues $7,171m, net income $2,906m, 1,733m diluted shares, NIM 3.04%, nine-month GAAP EPS $4.53 (from the Q3 summary)"},
+    {"label": "Piper Sandler target raise to $105 from $103 (Patrick Moley, Neutral), reported 2026-05-21 for a 2026-05-15 action", "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html", "supports": "Named analyst call, prior and new target, Neutral rating, NIM rationale"},
+    {"label": "Barclays target raise to $127 from $117 (Overweight), 2026-05-15", "url": "https://247wallst.com/investing/2026/05/15/barclays-hikes-charles-schwab-price-target-to-127-2026-guidance-crushes-street-expectations/?.tsrc=rss", "supports": "2026 revenue growth guidance of 14% to 15% and management tracking above the $5.70 to $5.80 January scenario"},
+    {"label": "Fox Business SCHW quote page, 25-rating average target snapshot (last updated 2026-11-06)", "url": "https://www.foxbusiness.com/quote?stockTicker=SCHW", "supports": "Average target of about $116.29 and an Overweight average recommendation, used as the analyst benchmark; close $92.58 on 2026-11-06"}
+  ]
+}

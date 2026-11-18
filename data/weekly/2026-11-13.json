@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:50:45.282372+00:00",
+  "built_at": "2026-11-18T12:54:33.524225+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 93,
+    "rank_valued": 97,
     "rank_with_named_targets": 2,
-    "rank_matched": 93,
-    "researched": 93
+    "rank_matched": 97,
+    "researched": 97
   },
   "ranked": [
     {
@@ -188,6 +188,27 @@
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "SCHW",
+      "issuer_id": "The Charles Schwab Corporation",
+      "close": 92.98,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 157257597607,
+        "high": 163693880339
+      },
+      "scenarios_pct": {
+        "bear": -3.204990320499032,
+        "base": 25.11292751129275,
+        "bull": 55.30221553022155
+      },
+      "base_total_return_pct": 26.489567648956765,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
       "analyst_minus_base_pp": null
     },
     {
@@ -947,6 +968,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "SMFG",
+      "issuer_id": "Sumitomo Mitsui Financial Group, Inc.",
+      "close": 24.74,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 153189328279,
+        "high": 161046117037
+      },
+      "scenarios_pct": {
+        "bear": -26.475343573160874,
+        "base": 5.739692805173807,
+        "bull": 26.879547291835085
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "MA",
       "issuer_id": "Mastercard Incorporated",
       "close": 661.19,
@@ -1052,6 +1094,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "ISRG",
+      "issuer_id": "Intuitive Surgical, Inc.",
+      "close": 443.59,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 150692333130,
+        "high": 156843040605
+      },
+      "scenarios_pct": {
+        "bear": -19.520277733943505,
+        "base": 4.691268964584413,
+        "bull": 26.242701593814107
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "BLK",
       "issuer_id": "BlackRock, Inc.",
       "close": 1222.91,
@@ -1067,6 +1130,27 @@
         "bull": 22.33116091944624
       },
       "base_total_return_pct": 6.542591032864234,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "DHR",
+      "issuer_id": "Danaher Corporation",
+      "close": 233.02,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 160658015501,
+        "high": 167244189579
+      },
+      "scenarios_pct": {
+        "bear": -15.972877864560981,
+        "base": 4.325808943438331,
+        "bull": 20.71925156638915
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1982,23 +2066,7 @@
       "reason": "independent valuation unavailable"
     },
     {
-      "symbol": "DHR",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SCHW",
-      "reason": "independent valuation unavailable"
-    },
-    {
       "symbol": "SONY",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SMFG",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ISRG",
       "reason": "independent valuation unavailable"
     },
     {
@@ -42977,6 +43045,996 @@
         }
       ]
     },
+    "DHR": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 233.02,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (NYSE), no ADR conversion. Anchor: FY2026 adjusted diluted EPS guidance raised on Oct 21, 2026 to $8.57-$8.62 (midpoint $8.595, from $8.45-$8.60); nine-month adjusted EPS is $6.11, so the implied Q4 is about $2.46-$2.51. Adjusted EPS excludes amortization, fair-value investment losses, acquisition-related items (including Masimo deal costs and inventory step-up), impairments and discrete tax items. Management gave no FY2027 EPS figure; it said 4-5% core revenue growth excluding respiratory is the starting point for 2027, with formal guidance in January, so FY2027 EPS is my assumption. Share basis: 706.8M diluted weighted shares in Q3 2026 and 703.5M shares outstanding at the reference date. Interest expense rose to $135M in Q3 from $67M a year earlier, reflecting debt raised for the Masimo acquisition, which is a drag already in the adjusted EPS base.",
+        "bear": 195.8,
+        "base": 243.1,
+        "bull": 281.3,
+        "cases": {
+          "bear": {
+            "driver": "Respiratory revenue fades further and core growth stays near the low end of the 4-5% starting point; Masimo interest and dilution absorb most operating leverage; the multiple de-rates as the stock loses its recovery narrative.",
+            "assumption": "FY2027 EPS $8.90 (+3.5% on the FY2026 midpoint) at 22x",
+            "target": 195.8
+          },
+          "base": {
+            "driver": "Core growth recovers to about 5% excluding respiratory, Q3 adjusted EPS growth of 11.5% moderates to about 9% through cost actions and the Masimo integration, and the stock keeps a premium to peers at about 26x.",
+            "assumption": "FY2027 EPS $9.35 (+8.8% on the FY2026 midpoint) at 26x",
+            "target": 243.1
+          },
+          "bull": {
+            "driver": "Core growth accelerates above the starting range as diagnostics and bioprocess demand recover, the Masimo deal adds synergies earlier than planned, and the market pays a growth multiple for a clearer share-gain story.",
+            "assumption": "FY2027 EPS $9.70 (+12.9% on the FY2026 midpoint) at 29x",
+            "target": 281.3
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $9.35 the $233.02 close implies 24.9x; on FY2026 guidance midpoint it implies 27.1x. The analyst-weighted target (the TipRanks 3-month average of $258 across 13 analysts, with 11 named calls here) implies 27.6x base EPS, or EPS of about $9.92 at 26x (about 6% above the base).",
+        "sensitivity": "One turn of P/E moves the base target by about $9.35 (3.8 pp of the base return); a one-turn change in the bull and bear multiples moves targets by $9.70 and $8.90 respectively. A 1% change in FY2027 EPS moves the base target by about $2.43.",
+        "watch_metric": "Core revenue growth excluding respiratory revenue, and whether Q4 2026 core growth of 4-5% (guided) and the 2027 starting point of 4-5% hold, with adjusted operating margin expansion and Masimo synergies visible in the adjusted EPS line.",
+        "next_disclosure": "Q4 and full-year 2026 results and FY2027 outlook, expected in late January 2027 per the company's statement that formal 2027 guidance will come in January."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Eleven named analysts with dated calls since Oct 1, 2026 raised or reiterated targets after the Oct 21 Q3 beat: nine raises to $250-$275 and reiterations from UBS ($260) and others, so most named targets now sit above the $233.02 close and the base case of $243.10. The gap to the analyst view is about 6% of EPS at 26x, which is consistent with analysts assuming a faster 2027 earnings recovery, a re-rating toward the mid-to-high 20s, or both; the sample does not reveal which. Coverage is partial and the horizons are not documented in the sources, so no named target carries a weighted 12-month horizon here; the figures are an unweighted read. The MarketBeat consensus of $239.50 (Oct 22) and the Yahoo Finance aggregate of 21 analysts (mean $259.90) are shown for context only and are not included in the event rows.",
+      "sources": [
+        {
+          "label": "Danaher Q3 2026 earnings release (Oct 21, 2026)",
+          "url": "https://www.biospace.com/press-releases/danaher-reports-third-quarter-2026-results",
+          "supports": "Q3 adjusted EPS $2.11, nine-month adjusted EPS $6.11, FY2026 adjusted EPS guidance $8.57-$8.62, Q4 and 2027 core growth commentary, diluted share count"
+        },
+        {
+          "label": "TipRanks DHR analyst forecast (named ratings and targets, Oct 1-22, 2026 rows)",
+          "url": "https://www.tipranks.com/stocks/dhr/forecast",
+          "supports": "Analyst names, firms, dated target changes and Buy ratings for Oct 1-22, 2026; 3-month average target $258"
+        },
+        {
+          "label": "MarketBeat: TD Cowen raises DHR target to $270 (Oct 22, 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-td-cowen-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+          "supports": "TD Cowen $255 to $270 Buy on Oct 22; RBC $215 to $250 on Oct 5; Guggenheim $200 to $250 on Oct 1; consensus $239.50"
+        },
+        {
+          "label": "MarketBeat: Stifel raises DHR target to $260 (Oct 22, 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-target-raised-at-stifel-nicolaus-2026-10-22/",
+          "supports": "Stifel $220 to $260 Buy on Oct 22; TD Cowen $236 to $255 on Oct 13"
+        },
+        {
+          "label": "MarketBeat: JPMorgan raises DHR target to $270 (Oct 22, 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+          "supports": "JPMorgan $250 to $270 Overweight on Oct 22; Barclays reiterated Overweight at $260 on Oct 22"
+        },
+        {
+          "label": "MarketBeat: Baird raises DHR target to $254 (Oct 22, 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-expected-to-rise-robert-w-baird-analyst-says-2026-10-22/",
+          "supports": "Baird $246 to $254 Outperform on Oct 22"
+        },
+        {
+          "label": "Investing.com: Stifel raises DHR target to $260 (Oct 22, 2026)",
+          "url": "https://www.investing.com/news/analyst-ratings/stifel-raises-danaher-stock-price-target-to-260-on-growth-outlook-93CH-4966006",
+          "supports": "Stifel Buy rating and reasoning on non-respiratory core growth; Q4 respiratory headwind"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-21T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 11,
+        "post_earnings": 7,
+        "earnings_order_unknown": 3,
+        "median_age_days": 22,
+        "max_weight_pct": 9.235613523413726,
+        "contributors": [
+          {
+            "analyst": "Casey Woodring",
+            "firm": "J.P. Morgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+            "weight": 0.09235613523413726
+          },
+          {
+            "analyst": "Catherine Ramsey Schulte",
+            "firm": "Robert W. Baird",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-expected-to-rise-robert-w-baird-analyst-says-2026-10-22/",
+            "weight": 0.09235613523413726
+          },
+          {
+            "analyst": "Dan Leonard",
+            "firm": "RBC Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": null,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.0916475740016741
+          },
+          {
+            "analyst": "Daniel Arias",
+            "firm": "Stifel Nicolaus",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.09235613523413726
+          },
+          {
+            "analyst": "Daniel Brennan",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.09235613523413726
+          },
+          {
+            "analyst": "Doug Schenkel",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.09235613523413726
+          },
+          {
+            "analyst": "Evie Koslosky",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": null,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.0916475740016741
+          },
+          {
+            "analyst": "Joanne Wuensch",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.09235613523413726
+          },
+          {
+            "analyst": "Lu Li",
+            "firm": "Bank of America Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": null,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.0916475740016741
+          },
+          {
+            "analyst": "Luke Sergott",
+            "firm": "Barclays",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.09235613523413726
+          },
+          {
+            "analyst": "Subbu Nambi",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-01",
+            "age_days": 43,
+            "after_earnings": false,
+            "source": "https://www.tipranks.com/stocks/dhr/forecast",
+            "weight": 0.07856433135601683
+          }
+        ],
+        "counts": {
+          "Buy": 11,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 99.99999999999999,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Casey Woodring",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Casey Woodring",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 270.0,
+          "source_prior": 250,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 8.000000000000007,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Catherine Ramsey Schulte",
+          "firm": "Robert W. Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-expected-to-rise-robert-w-baird-analyst-says-2026-10-22/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Catherine Ramsey Schulte",
+          "firm": "Robert W. Baird",
+          "field": "target",
+          "value": 254.0,
+          "source_prior": 246,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-expected-to-rise-robert-w-baird-analyst-says-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 3.2520325203251987,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Dan Leonard",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Dan Leonard",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 215,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-td-cowen-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 16.279069767441868,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Dan Leonard",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 265.0,
+          "source_prior": 250,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": 250.0,
+          "revision_pct": 6.000000000000005,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Daniel Arias",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Daniel Arias",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 260.0,
+          "source_prior": 220,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-target-raised-at-stifel-nicolaus-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 18.181818181818187,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Daniel Brennan",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Daniel Brennan",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 255.0,
+          "source_prior": 236,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-danaher-nyse-dhr-stock-price-target-raised-at-stifel-nicolaus-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 8.05084745762712,
+          "direction": "raise"
+        },
+        {
+          "analyst": "Daniel Brennan",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 270.0,
+          "source_prior": 255,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-td-cowen-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+          "prior_observed": 255.0,
+          "revision_pct": 5.882352941176472,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Doug Schenkel",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Doug Schenkel",
+          "firm": "UBS",
+          "field": "target",
+          "value": 260.0,
+          "source_prior": null,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Evie Koslosky",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Evie Koslosky",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 275.0,
+          "source_prior": 250,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "revision_pct": 10.000000000000009,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 270.0,
+          "source_prior": 230,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "revision_pct": 17.391304347826097,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Lu Li",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Lu Li",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 270.0,
+          "source_prior": 255,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "revision_pct": 5.882352941176472,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Luke Sergott",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Luke Sergott",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 260.0,
+          "source_prior": 255,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 1.9607843137254832,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Subbu Nambi",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/dhr/forecast",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Subbu Nambi",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 200,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-td-cowen-forecasts-strong-price-appreciation-for-danaher-nyse-dhr-stock-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 25.0,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "SCHW": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 92.98,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E on the NYSE USD common-stock listing, per share (no ADR conversion). Fee-based and net-interest-driven brokerage and bank holding company, so P/E on EPS is the primary method, not P/TBV. Base and bull use FY2027 diluted EPS viewed at the 12-month target date (Nov 2027); bear uses FY2027 EPS near the FY2026 run-rate with net interest margin compression. FY2026 EPS basis: nine-month GAAP diluted EPS of $4.53 (up 36%) from the Q3 2026 release, plus an assumed Q4 of about $1.75, gives about $6.30 (our estimate; Q3 GAAP EPS $1.62, adjusted $1.69). Management's January 2026 scenario of $5.70 to $5.80 is described by Barclays coverage (May 2026) as being exceeded. FY2027 base growth of about 12% gives $7.05. Share basis: 1,733 million diluted weighted-average common shares in Q3 2026 (aggregate row shows 1,726 million shares used for market cap). FX not applicable (USD listing, USD reporting).",
+        "bear": 90.0,
+        "base": 116.33,
+        "bull": 144.4,
+        "cases": {
+          "bear": {
+            "driver": "Net interest margin compresses as deposit pricing catches up and cash sorting and asset-management fee growth slows; expenses stay elevated; EPS barely grows from FY2026 and the multiple de-rates toward the low end of its range",
+            "assumption": "EPS $6.00 at 15x",
+            "target": 90.0
+          },
+          "base": {
+            "driver": "Record net new assets (Q3 core net new assets $190.4 billion, up 38%), 2026 revenue growth of 14 to 15% per management guidance cited by Barclays (May 2026), net interest margin held near the 3.04% Q3 level, and buybacks reduce the share count; EPS grows about 12% in FY2027",
+            "assumption": "EPS $7.05 at 16.5x",
+            "target": 116.33
+          },
+          "bull": {
+            "driver": "Rate-cut-driven deposit repricing and strong client activity lift FY2027 EPS about 20% above FY2026, and the multiple re-rates toward the upper end of the historical range on sustained organic growth",
+            "assumption": "EPS $7.60 at 19x",
+            "target": 144.4
+          }
+        },
+        "implied_by_close": "At base EPS of $7.05 the close of $92.98 implies about 13.2x FY2027 EPS. The published 25-rating average target of about $116.29 (Fox Business quote page, dated 2026-11-06) corresponds to about 16.5x our base EPS, so the gap with the analyst average is almost entirely the multiple, not the EPS path. The one named broker in the sources reviewed (Piper Sandler, Neutral, $105) sits below the base case.",
+        "sensitivity": "One turn of P/E moves the base target by $7.05 (about 7.6 percentage points of price return on the close). A $0.10 change in FY2027 EPS moves it by $1.65 (about 1.8 pp).",
+        "watch_metric": "Net interest margin and the NII trajectory in the Q4 2026 and FY2026 results: NIM holding near 3.0% with expense growth below revenue growth supports the base case; NIM falling back toward 2.9% or below (the bear-case driver) would move the case toward bear.",
+        "next_disclosure": "Q4 and FY2026 earnings release, expected around mid-January 2027 (date not confirmed in sources reviewed); the Q3 2026 release was on 2026-10-15."
+      },
+      "dividend_per_share": 1.28,
+      "analyst_notes": "Named coverage in the sources reviewed is thin and only one dated named call could be verified: Patrick Moley (Piper Sandler) kept a Neutral rating and raised his target to $105 from $103 on 2026-05-15, citing net interest margin upside, which is below both the close-implied multiple and the broad average target. Other October 2026 items (Bank of America Underperform at $95, Evercore In Line at $107, Wells Fargo Equal Weight at $105, Barclays at $118 or $115) and the 2026 Barclays $127 target were found only on aggregator pages without a verified analyst name or primary note, so they are excluded; a Barclays $115 item also turned out to be a 2025 article. The consensus average (about $116 on 25 ratings) is well above the base case, with the gap driven by a higher multiple (16.5x vs our 13.2x implied by the close) rather than a higher EPS path, and the average target may be stale for several brokers that moved in early October after the Q3 print.",
+      "sources": [
+        {
+          "label": "Q3 2026 earnings release, Form 8-K Exhibit 99.1 (released 2026-10-15)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000316709/000031670926000035/a3q26exhibit991.htm",
+          "supports": "Q3 2026 GAAP EPS $1.62, net revenues $7,171m, net income $2,906m, 1,733m diluted shares, NIM 3.04%, nine-month GAAP EPS $4.53 (from the Q3 summary)"
+        },
+        {
+          "label": "Piper Sandler target raise to $105 from $103 (Patrick Moley, Neutral), reported 2026-05-21 for a 2026-05-15 action",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html",
+          "supports": "Named analyst call, prior and new target, Neutral rating, NIM rationale"
+        },
+        {
+          "label": "Barclays target raise to $127 from $117 (Overweight), 2026-05-15",
+          "url": "https://247wallst.com/investing/2026/05/15/barclays-hikes-charles-schwab-price-target-to-127-2026-guidance-crushes-street-expectations/?.tsrc=rss",
+          "supports": "2026 revenue growth guidance of 14% to 15% and management tracking above the $5.70 to $5.80 January scenario"
+        },
+        {
+          "label": "Fox Business SCHW quote page, 25-rating average target snapshot (last updated 2026-11-06)",
+          "url": "https://www.foxbusiness.com/quote?stockTicker=SCHW",
+          "supports": "Average target of about $116.29 and an Overweight average recommendation, used as the analyst benchmark; close $92.58 on 2026-11-06"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-15T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 182,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Patrick Moley",
+            "firm": "Piper Sandler",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-05-15",
+            "age_days": 182,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 100.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Patrick Moley",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-05-15",
+          "public_at": "2026-05-15T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Patrick Moley",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 105.0,
+          "source_prior": 103,
+          "issued_at": "2026-05-15",
+          "public_at": "2026-05-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-raises-pt-charles-174558300.html",
+          "prior_observed": null,
+          "revision_pct": 1.9417475728155331,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "SMFG": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 24.74,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank: forward P/E on ordinary-share EPS, converted to the ADR. Per ordinary share: FY3/2028 (Apr 2027 to Mar 2028) net income attributable to owners divided by 6,318.3 million shares (aggregate shares_used, post 2-for-1 split), times a justified P/E at the 2027-11-18 target date. ADR value = ordinary-share value in JPY x 1.2 / USDJPY 159.75 (2026-11-13). ADR ratio: 1 ADR = 1.2 ordinary shares from 1 Oct 2026 (2-for-1 split with ADR ratio change from 0.6, per SMFG's 13 May 2026 disclosure; depositary Citibank, N.A.). Caveat: SMFG's ADR page still showed the 0.6 ratio when checked and the Citi notice could not be read, so the 1.2 ratio is taken from the company's disclosure and should be confirmed with Citi. FX is held constant at 159.75 in all cases, so the targets carry no yen translation view. Anchors: FY3/2027 net income forecast raised to JPY 1.9tn (H1 actual JPY 1,003.2bn), giving FY3/2027 EPS of about JPY 300.7 and a close-implied 11.0x on ordinary shares (close 24.74 / 1.2 x 159.75 = JPY 3,294). Multiples are our judgement, not broker targets.",
+        "bear": 18.19,
+        "base": 26.16,
+        "bull": 31.39,
+        "cases": {
+          "bear": {
+            "driver": "Mid-term plan level earnings with no growth from the raised forecast: lower domestic rate-cycle benefit, credit costs rising, and slower capital returns",
+            "assumption": "FY3/2028 net income JPY 1.7tn (EPS about JPY 269) at 9x, JPY 2,422 per ordinary share, ADR 1.2 x 2,422 / 159.75",
+            "target": 18.19
+          },
+          "base": {
+            "driver": "Net income grows about 5% from the FY3/2027 forecast of JPY 1.9tn as the Japan rate tailwind and overseas lending growth continue, with the multiple unchanged against the close",
+            "assumption": "FY3/2028 net income JPY 2.0tn (EPS about JPY 317) at 11x, JPY 3,482 per ordinary share",
+            "target": 26.16
+          },
+          "bull": {
+            "driver": "Earnings reach the upper end of plan and continued buybacks lift EPS, with the market re-rating Japanese megabanks toward the top of their recent range",
+            "assumption": "FY3/2028 net income JPY 2.2tn (EPS about JPY 348) at 12x, JPY 4,178 per ordinary share",
+            "target": 31.39
+          }
+        },
+        "implied_by_close": "At FY3/2027 EPS of about JPY 300.7 the close of USD 24.74 (JPY 3,294 per ordinary share) implies 11.0x. The only aggregate in the weekly data is a single-analyst mean of USD 15.76, which implies a 36% decline and is not a usable consensus; a Yahoo-type single-source figure is not treated as consensus. No named analyst targets could be converted to the ADR basis, so no analyst-implied multiple is stated.",
+        "sensitivity": "One turn of P/E on FY3/2028 base EPS of JPY 317 moves the base target by about USD 2.4 (about 10 pp of price return from the close). A JPY 10 change in FY3/2028 EPS at 11x moves it by about USD 0.83 per ADR (about 3%). A 5 yen move in USDJPY moves all targets by about 3%.",
+        "watch_metric": "Net income against the JPY 1.9tn FY3/2027 forecast and the JPY 2.0tn base for FY3/2028, with the ROE trend and the pace of share buybacks as the leading indicators. Credit cost ratio is the main downside indicator for the bear case.",
+        "next_disclosure": "Q3 FY3/2027 (nine-month) results, expected around early February 2027 based on the reporting pattern; date not confirmed in the sources reviewed."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "No named analyst call dated within the last 12 months could be converted to an ADR USD basis: the named Tokyo-line calls found on the StockAnalysis ratings page (Goldman Sachs Buy JPY 6,100 on 2 Feb 2026, UBS JPY 6,200 on 23 Jan 2026, DBS JPY 6,050 on 31 Jan 2026, SBI Securities JPY 7,100 on 22 Jan 2026) are pre-split ordinary-share targets, and dated yen-to-dollar rates for those issue dates were not sourced. The aggregate sources disagree (a 19-analyst view with an average of USD 25.64, a 3-analyst MarketBeat view with no consensus target, and a single-analyst USD 15.76), so none is used for weighting. Named coverage is therefore unavailable here, and the base case rests on company guidance and stated multiples rather than a reconciled analyst view.",
+      "sources": [
+        {
+          "label": "SMFG H1 FY3/2027 statement (first half to 30 Sep 2026)",
+          "url": "https://www.smfg.co.jp/english/investor/financial/latest_statement/2027_3/2027_2q_e03.pdf",
+          "supports": "H1 net income JPY 1,003.2bn; full-year net income forecast raised to JPY 1.9tn"
+        },
+        {
+          "label": "SMFG consolidated results filing, 13 Nov 2026 (Japanese-language disclosure)",
+          "url": "https://finance-frontend-pc-dist.west.edge.storage-yahoo.jp/disclosure/20261113/20261113577652.pdf",
+          "supports": "Release date 13 Nov 2026; H1 ordinary profit JPY 1,395.6bn (PDF not machine-readable in review; figures taken from the search summary of it)"
+        },
+        {
+          "label": "SMBC notice on ADR ratio change and 2-for-1 split (13 May 2026)",
+          "url": "https://www.smbc.co.jp/news_e/pdf/e20260513_03.pdf",
+          "supports": "ADR ratio change from 1 ADR : 0.6 to 1 ADR : 1.2 ordinary shares, effective 1 Oct 2026; Citibank, N.A. depositary (PDF not machine-readable in review; from search summary)"
+        },
+        {
+          "label": "SMFG ADR page (Citibank depositary, pre-change ratio)",
+          "url": "https://www.smfg.co.jp/english/investor/stock/adr.html",
+          "supports": "Depositary Citibank, N.A.; still shows the old 1 ADR : 0.6 ratio, so it is stale for the post-1 Oct 2026 basis"
+        },
+        {
+          "label": "USD/JPY 13 Nov 2026 (159.75)",
+          "url": "https://www.valutafx.com/history/usd-jpy-2026-11-13",
+          "supports": "USDJPY 159.75 on 2026-11-13, close not labelled; BOJ Nov 12 at 159.70 is consistent"
+        },
+        {
+          "label": "StockAnalysis TYO:8316 ratings (named Tokyo-line calls, Jan-Feb 2026)",
+          "url": "https://stockanalysis.com/quote/tyo/8316/ratings/",
+          "supports": "Named Buy ratings and pre-split yen targets, not converted; context for analyst coverage"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": "2026-11-13T23:59:59+09:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
+    "ISRG": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 443.59,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (NASDAQ), no ADR conversion, no FX. Anchor: nine-month 2026 non-GAAP diluted EPS of $8.30 (reported Oct 20, 2026), plus a Q4 2026 assumption of about $3.10 (not guided by the company), so FY2026E is about $11.40. Full-year 2026 guidance is da Vinci procedure growth of 14-15% (closer to the midpoint), non-GAAP gross margin of 68.7-69.3% and non-GAAP opex growth of 11-13%; no EPS or operating-margin guidance and no 2027 outlook were given. FY2027 EPS is my assumption. Diluted shares were 351.6M in Q3 2026 and falling on buybacks.",
+        "bear": 357.0,
+        "base": 464.4,
+        "bull": 560.0,
+        "cases": {
+          "bear": {
+            "driver": "Da Vinci procedure growth slips toward the low end of the 14-15% range and tariffs and pricing pressure hold gross margin near the bottom of its range; opex growth absorbs most of the revenue growth, so EPS grows only about 4%, and the multiple de-rates as competition from rival systems weighs on the premium.",
+            "assumption": "FY2027 EPS $11.90 at 30x",
+            "target": 357.0
+          },
+          "base": {
+            "driver": "Da Vinci procedures keep growing near the 14.5% midpoint and Ion grows faster; gross margin holds around 69% and opex growth stays within 11-13%, so EPS grows about 13%, in line with 2026 non-GAAP EPS growth of roughly 25% slowing as buybacks and margin gains fade.",
+            "assumption": "FY2027 EPS $12.90 at 36x",
+            "target": 464.4
+          },
+          "bull": {
+            "driver": "Procedure growth runs above the guided range with faster placement growth (546 systems in Q3, up 28% from 427) and margin expansion from the gross margin raise; EPS grows about 23% and the stock holds a premium multiple as the installed base compounds.",
+            "assumption": "FY2027 EPS $14.00 at 40x",
+            "target": 560.0
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $12.90 the $443.59 close implies 34.4x (38.9x the FY2026E EPS of $11.40). The Yahoo Finance aggregate mean target of $486.57 (30 analysts, not used in the base case) implies about 37.7x base EPS, or about $13.80 of EPS at 36x.",
+        "sensitivity": "One turn of P/E moves the base target by $12.90 (about 2.9% of the close); $0.10 of FY2027 EPS moves it by about $3.60 at 36x.",
+        "watch_metric": "Worldwide da Vinci procedure growth against the 14-15% guide (Q3 2026: da Vinci +14%, Ion +31%), together with non-GAAP gross margin inside 68.7-69.3% and opex growth inside 11-13%. Base case requires EPS growth near 13% in 2027.",
+        "next_disclosure": "Q4 and full-year 2026 results, expected around late January 2027 (date not sourced); the first point at which the company is likely to give 2027 framing."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Only one named analyst call with a dated source falls in the window: Joanne Wuensch (Citigroup) maintained Buy with a $500 target on Aug 13, 2026, 13% above the close, and that target has no documented 12-month horizon, so it stays out of the weighted target. Named notes after the Oct 20 Q3 beat (for example a Leerink $503 Outperform, dated Oct 21 or Oct 27 by different sources, and an RBC cut from $575 to $550) could not be confirmed from a primary source with consistent prior targets or dates, so they are excluded. The aggregate mean of $486.57 sits about 10% above the base case and implies roughly 37.7x base EPS, so the gap is mainly a multiple question: reaching it at 36x needs about $13.80 of FY2027 EPS, roughly 7% above the base model. Coverage is thin for a 30-analyst stock, and the sample cannot support a recency-weighted consensus.",
+      "sources": [
+        {
+          "label": "Intuitive Q3 2026 earnings release (BioSpace copy)",
+          "url": "https://www.biospace.com/press-releases/intuitive-announces-third-quarter-2026-earnings",
+          "supports": "Q3 2026 revenue $3.05B, non-GAAP EPS $3.00, GAAP EPS $1.49, 351.6M diluted shares, 9M non-GAAP EPS $8.30, FY2026 guidance (procedures 14-15%, gross margin 68.7-69.3%, opex growth 11-13%), $6.80B cash and investments, Oct 20 2026 release date"
+        },
+        {
+          "label": "Intuitive Q3 2026 earnings release (Morningstar/GlobeNewswire)",
+          "url": "https://www.morningstar.com/news/globe-newswire/9849716/intuitive-announces-third-quarter-earnings",
+          "supports": "Q3 2026 system placements (546 vs 427) and $450M pre-tax antitrust settlement charge"
+        },
+        {
+          "label": "Zacks: ISRG sales jump 22%, procedure volumes",
+          "url": "https://www.zacks.com/stock/news/3018804/isrg-sales-jump-22-can-growth-stay-ahead-of-procedure-volumes",
+          "supports": "Q3 2026 revenue growth of 22% and procedure growth context; guidance narrowing from 13.5-15.5% to 14-15% and gross margin raise from 68-69% to 68.7-69.3%"
+        },
+        {
+          "label": "Webull: Citigroup maintains Buy on ISRG (Joanne Wuensch)",
+          "url": "https://www.webull.ca/news-detail/15440745732547584",
+          "supports": "Citigroup Buy maintained, $500 target, Aug 13 2026 (year inferred from article date 08/21/2026)"
+        },
+        {
+          "label": "MarketBeat ISRG consensus, Jul 31 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/intuitive-surgical-inc-nasdaqisrg-given-consensus-rating-of-moderate-buy-by-brokerages-2026-07-31/",
+          "supports": "Pre-Q3 analyst mix (20 buy, 8 hold, 1 sell of 29) and average target of about $509, context only"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-20T16:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 92,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Joanne Wuensch",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-13",
+            "age_days": 92,
+            "after_earnings": false,
+            "source": "https://www.webull.ca/news-detail/15440745732547584",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-13",
+          "public_at": "2026-08-13T23:59:59-04:00",
+          "source": "https://www.webull.ca/news-detail/15440745732547584",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 500.0,
+          "source_prior": null,
+          "issued_at": "2026-08-13",
+          "public_at": "2026-08-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.webull.ca/news-detail/15440745732547584",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -43670,6 +44728,11 @@
         "kind": "new"
       },
       {
+        "symbol": "DHR",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "DIS",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -43716,6 +44779,11 @@
       },
       {
         "symbol": "INTC",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "ISRG",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -43880,6 +44948,11 @@
         "kind": "new"
       },
       {
+        "symbol": "SCHW",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "SHEL",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -43892,6 +44965,11 @@
       {
         "symbol": "SKHY",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "SMFG",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {

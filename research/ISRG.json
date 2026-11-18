@@ -1,0 +1,44 @@
+{
+  "issuer_id": "Intuitive Surgical, Inc.",
+  "symbol": "ISRG",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 443.59, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-20T16:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Joanne Wuensch", "firm": "Citigroup", "field": "target", "value": 500, "source_prior": null,
+     "issued_at": "2026-08-13", "public_at": "2026-08-13T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.webull.ca/news-detail/15440745732547584"},
+    {"analyst": "Joanne Wuensch", "firm": "Citigroup", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-08-13", "public_at": "2026-08-13T23:59:59-04:00",
+     "source": "https://www.webull.ca/news-detail/15440745732547584"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (NASDAQ), no ADR conversion, no FX. Anchor: nine-month 2026 non-GAAP diluted EPS of $8.30 (reported Oct 20, 2026), plus a Q4 2026 assumption of about $3.10 (not guided by the company), so FY2026E is about $11.40. Full-year 2026 guidance is da Vinci procedure growth of 14-15% (closer to the midpoint), non-GAAP gross margin of 68.7-69.3% and non-GAAP opex growth of 11-13%; no EPS or operating-margin guidance and no 2027 outlook were given. FY2027 EPS is my assumption. Diluted shares were 351.6M in Q3 2026 and falling on buybacks.",
+    "bear": 357.0,
+    "base": 464.4,
+    "bull": 560.0,
+    "cases": {
+      "bear": {"driver": "Da Vinci procedure growth slips toward the low end of the 14-15% range and tariffs and pricing pressure hold gross margin near the bottom of its range; opex growth absorbs most of the revenue growth, so EPS grows only about 4%, and the multiple de-rates as competition from rival systems weighs on the premium.",
+               "assumption": "FY2027 EPS $11.90 at 30x", "target": 357.0},
+      "base": {"driver": "Da Vinci procedures keep growing near the 14.5% midpoint and Ion grows faster; gross margin holds around 69% and opex growth stays within 11-13%, so EPS grows about 13%, in line with 2026 non-GAAP EPS growth of roughly 25% slowing as buybacks and margin gains fade.",
+               "assumption": "FY2027 EPS $12.90 at 36x", "target": 464.4},
+      "bull": {"driver": "Procedure growth runs above the guided range with faster placement growth (546 systems in Q3, up 28% from 427) and margin expansion from the gross margin raise; EPS grows about 23% and the stock holds a premium multiple as the installed base compounds.",
+               "assumption": "FY2027 EPS $14.00 at 40x", "target": 560.0}
+    },
+    "implied_by_close": "At base FY2027 EPS of $12.90 the $443.59 close implies 34.4x (38.9x the FY2026E EPS of $11.40). The Yahoo Finance aggregate mean target of $486.57 (30 analysts, not used in the base case) implies about 37.7x base EPS, or about $13.80 of EPS at 36x.",
+    "sensitivity": "One turn of P/E moves the base target by $12.90 (about 2.9% of the close); $0.10 of FY2027 EPS moves it by about $3.60 at 36x.",
+    "watch_metric": "Worldwide da Vinci procedure growth against the 14-15% guide (Q3 2026: da Vinci +14%, Ion +31%), together with non-GAAP gross margin inside 68.7-69.3% and opex growth inside 11-13%. Base case requires EPS growth near 13% in 2027.",
+    "next_disclosure": "Q4 and full-year 2026 results, expected around late January 2027 (date not sourced); the first point at which the company is likely to give 2027 framing."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only one named analyst call with a dated source falls in the window: Joanne Wuensch (Citigroup) maintained Buy with a $500 target on Aug 13, 2026, 13% above the close, and that target has no documented 12-month horizon, so it stays out of the weighted target. Named notes after the Oct 20 Q3 beat (for example a Leerink $503 Outperform, dated Oct 21 or Oct 27 by different sources, and an RBC cut from $575 to $550) could not be confirmed from a primary source with consistent prior targets or dates, so they are excluded. The aggregate mean of $486.57 sits about 10% above the base case and implies roughly 37.7x base EPS, so the gap is mainly a multiple question: reaching it at 36x needs about $13.80 of FY2027 EPS, roughly 7% above the base model. Coverage is thin for a 30-analyst stock, and the sample cannot support a recency-weighted consensus.",
+  "sources": [
+    {"label": "Intuitive Q3 2026 earnings release (BioSpace copy)", "url": "https://www.biospace.com/press-releases/intuitive-announces-third-quarter-2026-earnings", "supports": "Q3 2026 revenue $3.05B, non-GAAP EPS $3.00, GAAP EPS $1.49, 351.6M diluted shares, 9M non-GAAP EPS $8.30, FY2026 guidance (procedures 14-15%, gross margin 68.7-69.3%, opex growth 11-13%), $6.80B cash and investments, Oct 20 2026 release date"},
+    {"label": "Intuitive Q3 2026 earnings release (Morningstar/GlobeNewswire)", "url": "https://www.morningstar.com/news/globe-newswire/9849716/intuitive-announces-third-quarter-earnings", "supports": "Q3 2026 system placements (546 vs 427) and $450M pre-tax antitrust settlement charge"},
+    {"label": "Zacks: ISRG sales jump 22%, procedure volumes", "url": "https://www.zacks.com/stock/news/3018804/isrg-sales-jump-22-can-growth-stay-ahead-of-procedure-volumes", "supports": "Q3 2026 revenue growth of 22% and procedure growth context; guidance narrowing from 13.5-15.5% to 14-15% and gross margin raise from 68-69% to 68.7-69.3%"},
+    {"label": "Webull: Citigroup maintains Buy on ISRG (Joanne Wuensch)", "url": "https://www.webull.ca/news-detail/15440745732547584", "supports": "Citigroup Buy maintained, $500 target, Aug 13 2026 (year inferred from article date 08/21/2026)"},
+    {"label": "MarketBeat ISRG consensus, Jul 31 2026", "url": "https://www.marketbeat.com/instant-alerts/intuitive-surgical-inc-nasdaqisrg-given-consensus-rating-of-moderate-buy-by-brokerages-2026-07-31/", "supports": "Pre-Q3 analyst mix (20 buy, 8 hold, 1 sell of 29) and average target of about $509, context only"}
+  ]
+}

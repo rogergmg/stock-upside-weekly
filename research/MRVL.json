@@ -1,0 +1,123 @@
+{
+ "issuer_id": "Marvell Technology, Inc.",
+ "symbol": "MRVL",
+ "researched_at": "2026-11-16",
+ "research_close": {
+  "close": 156.76,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-08-27T16:05:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "B. Riley analyst",
+   "firm": "B. Riley",
+   "field": "target",
+   "value": 275,
+   "source_prior": 365,
+   "horizon_months": null,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://trading-treff.de/trading/marvell-technology-aktie-analysten-halten-dagegen"
+  },
+  {
+   "analyst": "Sean O'Loughlin",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 175,
+   "source_prior": 350,
+   "horizon_months": null,
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "source": "https://www.boerse-global.de/marvell-technology-aktie-kursziel-halbiert-nach-lumentum-deal/838455"
+  },
+  {
+   "analyst": "Sean O'Loughlin",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "source": "https://www.boerse-global.de/marvell-technology-aktie-kursziel-halbiert-nach-lumentum-deal/838455"
+  },
+  {
+   "analyst": "RBC analyst",
+   "firm": "RBC Capital Markets",
+   "field": "target",
+   "value": 250,
+   "source_prior": 425,
+   "horizon_months": null,
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "source": "https://www.boerse-global.de/marvell-aktie-rbc-kappt-auf-250-dollar-bleibt-positiv/839200"
+  },
+  {
+   "analyst": "RBC analyst",
+   "firm": "RBC Capital Markets",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "source": "https://www.boerse-global.de/marvell-aktie-rbc-kappt-auf-250-dollar-bleibt-positiv/839200"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. Earnings period priced at the Nov 2027 target date is FY2028 (year to Jan 2028), non-GAAP diluted EPS, about 0.93B diluted shares (Q2 FY27 non-GAAP net income $865.9M / EPS $0.94 = 0.92B). Standalone Marvell: the pending all-stock Lumentum deal ($115B, closing uncertain, $3.2B reverse termination fee per Cantor) is excluded and is the main unmodelled risk. Anchors: Q2 FY27 revenue $2.739B; Q3 guide $3.15B +/-5%, non-GAAP EPS $1.10 (about 32% net margin); company-raised FY27 revenue about $12B and FY28 about $18B (Zacks report, secondary). Non-GAAP excludes stock compensation, which flatters EPS.",
+  "bear": 99.0,
+  "base": 186.0,
+  "bull": 248.0,
+  "cases": {
+   "bear": {
+    "driver": "Custom-silicon ramp slips, FY28 revenue $15B, gross margin pressure",
+    "assumption": "EPS $4.50 at 22x",
+    "target": 99.0
+   },
+   "base": {
+    "driver": "FY28 revenue near $18B guide, net margin about 32%",
+    "assumption": "EPS $6.20 at 30x",
+    "target": 186.0
+   },
+   "bull": {
+    "driver": "FY28 revenue $20B, net margin 34%, AI demand sustained",
+    "assumption": "EPS $7.30 at 34x",
+    "target": 248.0
+   }
+  },
+  "implied_by_close": "At base EPS $6.20 the close implies 25.3x; the sampled named targets (average about $233) imply 37.6x or EPS $7.77 at 30x",
+  "sensitivity": "One turn of P/E moves the base target by $6.20 (4.0 pp)",
+  "watch_metric": "Non-GAAP gross margin and data center revenue growth against the Q3 guide of 57.5-58.5% and $3.15B total revenue, plus Lumentum deal approval status",
+  "next_disclosure": "Q3 FY2027 earnings, around Dec 1, 2026 (per aggregator listing, unconfirmed)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named views found are all after the Lumentum all-stock deal (early Nov 2026): TD Cowen cut to $175 and Hold, RBC to $250 (Outperform), B. Riley to $275, each citing deal dilution and integration. The base case sits below RBC and B. Riley mainly through a lower multiple (30x vs implied 37x+ at the same EPS) rather than EPS. Only three firms were found with dated calls, and no brokers' 12-month horizons were documented, so none enter the weighted target. Aggregator consensus (about $317) predates or ignores many cuts and is stale.",
+ "sources": [
+  {
+   "label": "Marvell Q2 FY2027 results",
+   "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/mar",
+   "supports": "Q2 revenue, EPS, Q3 guidance"
+  },
+  {
+   "label": "Zacks Q2 FY27 summary",
+   "url": "https://www.zacks.com/stock/news/2981826/mrvl-q2-earnings-beat-on-data-center-strength-outlook-raised",
+   "supports": "FY27/FY28 revenue outlook"
+  },
+  {
+   "label": "Boerse-global RBC cut",
+   "url": "https://www.boerse-global.de/marvell-aktie-rbc-kappt-auf-250-dollar-bleibt-positiv/839200",
+   "supports": "RBC and TD Cowen calls"
+  },
+  {
+   "label": "Boerse-global TD Cowen",
+   "url": "https://www.boerse-global.de/marvell-technology-aktie-kursziel-halbiert-nach-lumentum-deal/838455",
+   "supports": "TD Cowen, B. Riley, deal reaction"
+  },
+  {
+   "label": "Trading-treff analysts",
+   "url": "https://trading-treff.de/trading/marvell-technology-aktie-analysten-halten-dagegen",
+   "supports": "B. Riley target cut"
+  }
+ ]
+}

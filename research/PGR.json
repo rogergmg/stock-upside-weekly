@@ -1,0 +1,242 @@
+{
+ "issuer_id": "The Progressive Corporation",
+ "symbol": "PGR",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 235.78,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-15T09:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Brian Meredith",
+   "firm": "UBS",
+   "field": "target",
+   "value": 238,
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Brian Meredith",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Meyer Shields",
+   "firm": "KBW",
+   "field": "target",
+   "value": 246,
+   "source_prior": 252,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Meyer Shields",
+   "firm": "KBW",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Elyse Greenspan",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 196,
+   "source_prior": 201,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Elyse Greenspan",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Underweight",
+   "bucket": "Sell",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Michael Zaremski",
+   "firm": "BMO Capital Markets",
+   "field": "target",
+   "value": 216,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Michael Zaremski",
+   "firm": "BMO Capital Markets",
+   "field": "rating",
+   "value": "Market Perform",
+   "bucket": "Hold",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Alex Scott",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 247,
+   "source_prior": 246,
+   "issued_at": "2026-10-07",
+   "public_at": "2026-10-07T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Alex Scott",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-07",
+   "public_at": "2026-10-07T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Pablo Singzon",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 250,
+   "source_prior": 241,
+   "issued_at": "2026-10-05",
+   "public_at": "2026-10-05T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Pablo Singzon",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-05",
+   "public_at": "2026-10-05T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Joshua Shanker",
+   "firm": "Bank of America",
+   "field": "target",
+   "value": 314,
+   "source_prior": 302,
+   "issued_at": "2026-10-01",
+   "public_at": "2026-10-01T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Yaron Kinar",
+   "firm": "Mizuho",
+   "field": "target",
+   "value": 230,
+   "source_prior": 236,
+   "issued_at": "2026-09-16",
+   "public_at": "2026-09-16T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Yaron Kinar",
+   "firm": "Mizuho",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-09-16",
+   "public_at": "2026-09-16T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Gregory Peters",
+   "firm": "Raymond James",
+   "field": "target",
+   "value": 245,
+   "source_prior": 265,
+   "issued_at": "2026-09-21",
+   "public_at": "2026-09-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  },
+  {
+   "analyst": "Gregory Peters",
+   "firm": "Raymond James",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/PGR"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E (FY2027 EPS viewed at the 12-month target date). Q3 2026 GAAP EPS $4.37, combined ratio 88.7, NPW $22.3B (+4%), about 586M shares; 2026 consensus EPS about $16.3. FY2027 EPS is my estimate, not sourced consensus; the only FY2027 figure found was $15.50 from one firm.",
+  "bear": 180.0,
+  "base": 243.0,
+  "bull": 315.0,
+  "cases": {
+   "bear": {
+    "driver": "Rate cuts and rising claims severity push combined ratio to about 94",
+    "assumption": "EPS $15.00 at 12.0x",
+    "target": 180.0
+   },
+   "base": {
+    "driver": "Combined ratio about 90 with 4-5% premium growth and steady investment income",
+    "assumption": "EPS $18.00 at 13.5x",
+    "target": 243.0
+   },
+   "bull": {
+    "driver": "Combined ratio about 87 with policy growth re-accelerating",
+    "assumption": "EPS $21.00 at 15.0x",
+    "target": 315.0
+   }
+  },
+  "implied_by_close": "At base EPS $18 the close implies 13.1x; the analyst-weighted target (null horizons, so unweighted median about 238) implies about 13.2x.",
+  "sensitivity": "One turn of P/E moves the base target by $18 (7.6 pp)",
+  "watch_metric": "Monthly and quarterly combined ratio and policies-in-force growth",
+  "next_disclosure": "October/November 2026 monthly results (mid-December release) and Q4 2026 earnings in January 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named views are clustered: eight firms with dated targets between $196 and $314 since the Q3 release, with Bank of America a high outlier and Wells Fargo the low Underweight. Most revisions were small after Q3, and the median near $238 is close to the base case, so the gap is mostly about whether the combined ratio holds near 90. Horizons are undocumented, so none enter the weighted target.",
+ "sources": [
+  {
+   "label": "Analyst actions table (pricetargets.com)",
+   "url": "https://www.pricetargets.com/NYSE/PGR",
+   "supports": "named analyst targets and ratings"
+  },
+  {
+   "label": "Progressive Q3 2026 results coverage",
+   "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/progressives-q3-profit-slips-3-despite-better-underwriting-margin-593580.aspx",
+   "supports": "Q3 EPS 4.37, CR 88.7, NPW 22.3B, BVPS 59.51"
+  },
+  {
+   "label": "Q3 2026 earnings summary",
+   "url": "https://quartr.com/events/the-progressive-corporation-pgr-q3-2026_3sHVFEOf",
+   "supports": "Q3 results"
+  },
+  {
+   "label": "EPS estimates",
+   "url": "https://www.benzinga.com/quote/PGR/earnings-forecasts",
+   "supports": "2026 consensus EPS ~16.3"
+  }
+ ]
+}

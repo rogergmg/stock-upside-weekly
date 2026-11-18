@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T15:50:00.349793+00:00",
+  "built_at": "2026-11-18T15:51:51.940685+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 107,
+    "rank_valued": 112,
     "rank_with_named_targets": 2,
-    "rank_matched": 107,
-    "researched": 107
+    "rank_matched": 112,
+    "researched": 112
   },
   "ranked": [
     {
@@ -120,6 +120,27 @@
         "bear": -37.85380956147388,
         "base": 28.812103818035954,
         "bull": 116.94670116721845
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "ETN",
+      "issuer_id": "Eaton Corporation plc",
+      "close": 352.97,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 134386268100,
+        "high": 139871421900
+      },
+      "scenarios_pct": {
+        "bear": -15.856871688812081,
+        "base": 27.829560585885485,
+        "bull": 66.58639544437204
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -252,6 +273,27 @@
       "target_count": 1,
       "coverage": "partial",
       "analyst_minus_base_pp": -1.842186060792141
+    },
+    {
+      "symbol": "MRVL",
+      "issuer_id": "Marvell Technology, Inc.",
+      "close": 156.76,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 134713587120,
+        "high": 143868245656
+      },
+      "scenarios_pct": {
+        "bear": -36.846134217912734,
+        "base": 18.652717529982137,
+        "bull": 58.20362337330952
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
     },
     {
       "symbol": "ASML",
@@ -1514,6 +1556,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "PGR",
+      "issuer_id": "The Progressive Corporation",
+      "close": 235.78,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 133858617850,
+        "high": 139334053894
+      },
+      "scenarios_pct": {
+        "bear": -23.657646959029602,
+        "base": 3.062176605310035,
+        "bull": 33.599117821698194
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "ABBV",
       "issuer_id": "AbbVie Inc.",
       "close": 295.03,
@@ -1592,6 +1655,27 @@
         "bull": 26.422673510377148
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "SPGI",
+      "issuer_id": "S&P Global Inc.",
+      "close": 473.59,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 134547866180,
+        "high": 140072142600
+      },
+      "scenarios_pct": {
+        "bear": -17.523596359720433,
+        "base": 2.409256952216052,
+        "bull": 18.836968685994215
+      },
+      "base_total_return_pct": 3.2200848835490614,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1865,6 +1949,27 @@
         "bull": 20.268836222143616
       },
       "base_total_return_pct": 0.2711944346185591,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "LMT",
+      "issuer_id": "Lockheed Martin Corporation",
+      "close": 596.04,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 134916134749,
+        "high": 140441765738
+      },
+      "scenarios_pct": {
+        "bear": -20.810683846721698,
+        "base": -0.34225890879806725,
+        "bull": 20.797261928729615
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -2273,26 +2378,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "LMT",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MRVL",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SPGI",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ETN",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PGR",
       "reason": "independent valuation unavailable"
     },
     {
@@ -47438,6 +47523,1810 @@
         }
       ]
     },
+    "LMT": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 596.04,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 diluted EPS viewed at the 12-month target date (Nov 2027). Starts from 2026 guidance of $30.35-$30.75 (Q3 2026 release) and management's line of sight to high-single-digit revenue growth; no formal FY2027 outlook issued. USD listing, no ADR conversion.",
+        "bear": 472.0,
+        "base": 594.0,
+        "bull": 720.0,
+        "cases": {
+          "bear": {
+            "driver": "F-35 Lot 20+ contract negotiation and Lot 20 funding overrun cause charges and margin pressure",
+            "assumption": "EPS $29.50 at 16x",
+            "target": 472.0
+          },
+          "base": {
+            "driver": "High-single-digit sales growth, stable segment margin, buybacks offset higher interest",
+            "assumption": "EPS $33.00 (about 8% above 2026 guidance midpoint) at 18x",
+            "target": 594.0
+          },
+          "bull": {
+            "driver": "Record $292B backlog converts, PAC-3 and munitions ramp, F-35 lots settle on good terms",
+            "assumption": "EPS $36.00 at 20x",
+            "target": 720.0
+          }
+        },
+        "implied_by_close": "At base EPS $33 the close implies 18.1x; the analyst-weighted target (not computed, horizons undocumented) of roughly $640 would imply 19.4x or EPS about $35.5 at 18x",
+        "sensitivity": "One turn of P/E moves the base target by $33 (5.5 pp)",
+        "watch_metric": "F-35 Lot 20+ contract terms and segment operating margin versus the $8.575-8.675B 2026 guide",
+        "next_disclosure": "Q4 and full-year 2026 results with 2027 outlook, expected January 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Targets rose broadly after the Oct 22 Q3 beat and EPS guidance raise (Wells Fargo $600 to $700, Citigroup $691 to $706, UBS $653 to $692, JPMorgan $620 to $665). Views range from Barclays $560 to Guggenheim $735; most ratings are Hold. The close of $596 sits below the roughly $650 median of these named targets, a gap of about 9% that equals roughly 2 P/E turns or $3 of EPS versus the base case. Some targets (Barclays, Bernstein, TD Cowen) predate or lag the Q3 print.",
+      "sources": [
+        {
+          "label": "PriceTargets.com LMT analyst actions",
+          "url": "https://www.pricetargets.com/NYSE/LMT",
+          "supports": "Analyst targets and ratings"
+        },
+        {
+          "label": "Lockheed Martin Q3 2026 results",
+          "url": "https://news.lockheedmartin.com/2026-10-22-Lockheed-Martin-Reports-Third-Quarter-2026-Financial-Results",
+          "supports": "EPS, guidance, backlog"
+        },
+        {
+          "label": "Lockheed Martin Q3 2026 results (PDF)",
+          "url": "https://news.lockheedmartin.com/2026-10-22-Lockheed-Martin-Reports-Third-Quarter-2026-Financial-Results?asPDF=1",
+          "supports": "2026 outlook and F-35 Lot 20 risk"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-22T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 11,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 21,
+        "max_weight_pct": 10.40358021574881,
+        "contributors": [
+          {
+            "analyst": "Anthony Valentini",
+            "firm": "Barclays",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.09485178044217536
+          },
+          {
+            "analyst": "David Strauss",
+            "firm": "Wells Fargo",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.10244558921784627
+          },
+          {
+            "analyst": "Douglas Harned",
+            "firm": "Bernstein",
+            "value": "Market Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-10-14",
+            "age_days": 30,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.08849984045855532
+          },
+          {
+            "analyst": "Gautam Khanna",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-09",
+            "age_days": 35,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.0851566560505508
+          },
+          {
+            "analyst": "Gavin Parsons",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.09485178044217536
+          },
+          {
+            "analyst": "John Godyn",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.09485178044217536
+          },
+          {
+            "analyst": "Ken Herbert",
+            "firm": "RBC",
+            "value": "Sector Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.09485178044217536
+          },
+          {
+            "analyst": "Kristine Liwag",
+            "firm": "Morgan Stanley",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-07-24",
+            "age_days": 112,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.04706203624278375
+          },
+          {
+            "analyst": "Michael Ciarmoli",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.1040358021574881
+          },
+          {
+            "analyst": "Seth Seifman",
+            "firm": "JPMorgan",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-26",
+            "age_days": 18,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.09706883571393257
+          },
+          {
+            "analyst": "Sheila Kahyaoglu",
+            "firm": "Jefferies",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-25",
+            "age_days": 19,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/LMT",
+            "weight": 0.09632411839014177
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 8,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 29.373936304183886,
+          "Hold": 70.62606369581613,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Anthony Valentini",
+          "firm": "Barclays",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Anthony Valentini",
+          "firm": "Barclays",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 560.0,
+          "source_prior": 554,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": 1.0830324909747224,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Strauss",
+          "firm": "Wells Fargo",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Strauss",
+          "firm": "Wells Fargo",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 700.0,
+          "source_prior": 600,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": 16.666666666666675,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Douglas Harned",
+          "firm": "Bernstein",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Douglas Harned",
+          "firm": "Bernstein",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 564.0,
+          "source_prior": 629,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": -10.333863275039745,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Gautam Khanna",
+          "firm": "TD Cowen",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Gautam Khanna",
+          "firm": "TD Cowen",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 570.0,
+          "source_prior": 600,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": -5.000000000000004,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Gavin Parsons",
+          "firm": "UBS",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Gavin Parsons",
+          "firm": "UBS",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 692.0,
+          "source_prior": 653,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": 5.97243491577335,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John Godyn",
+          "firm": "Citigroup",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "John Godyn",
+          "firm": "Citigroup",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 706.0,
+          "source_prior": 691,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": 2.170767004341534,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ken Herbert",
+          "firm": "RBC",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ken Herbert",
+          "firm": "RBC",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 600.0,
+          "source_prior": 550,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": 9.090909090909083,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kristine Liwag",
+          "firm": "Morgan Stanley",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kristine Liwag",
+          "firm": "Morgan Stanley",
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 690.0,
+          "source_prior": 653,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": 5.666156202143946,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Ciarmoli",
+          "firm": "Guggenheim",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Ciarmoli",
+          "firm": "Guggenheim",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 735.0,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Seth Seifman",
+          "firm": "JPMorgan",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Seth Seifman",
+          "firm": "JPMorgan",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 665.0,
+          "source_prior": 620,
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": 7.258064516129026,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sheila Kahyaoglu",
+          "firm": "Jefferies",
+          "issued_at": "2026-10-25",
+          "public_at": "2026-10-25T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sheila Kahyaoglu",
+          "firm": "Jefferies",
+          "issued_at": "2026-10-25",
+          "public_at": "2026-10-25T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/LMT",
+          "field": "target",
+          "value": 615.0,
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "MRVL": {
+      "researched_at": "2026-11-16",
+      "research_close": {
+        "close": 156.76,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. Earnings period priced at the Nov 2027 target date is FY2028 (year to Jan 2028), non-GAAP diluted EPS, about 0.93B diluted shares (Q2 FY27 non-GAAP net income $865.9M / EPS $0.94 = 0.92B). Standalone Marvell: the pending all-stock Lumentum deal ($115B, closing uncertain, $3.2B reverse termination fee per Cantor) is excluded and is the main unmodelled risk. Anchors: Q2 FY27 revenue $2.739B; Q3 guide $3.15B +/-5%, non-GAAP EPS $1.10 (about 32% net margin); company-raised FY27 revenue about $12B and FY28 about $18B (Zacks report, secondary). Non-GAAP excludes stock compensation, which flatters EPS.",
+        "bear": 99.0,
+        "base": 186.0,
+        "bull": 248.0,
+        "cases": {
+          "bear": {
+            "driver": "Custom-silicon ramp slips, FY28 revenue $15B, gross margin pressure",
+            "assumption": "EPS $4.50 at 22x",
+            "target": 99.0
+          },
+          "base": {
+            "driver": "FY28 revenue near $18B guide, net margin about 32%",
+            "assumption": "EPS $6.20 at 30x",
+            "target": 186.0
+          },
+          "bull": {
+            "driver": "FY28 revenue $20B, net margin 34%, AI demand sustained",
+            "assumption": "EPS $7.30 at 34x",
+            "target": 248.0
+          }
+        },
+        "implied_by_close": "At base EPS $6.20 the close implies 25.3x; the sampled named targets (average about $233) imply 37.6x or EPS $7.77 at 30x",
+        "sensitivity": "One turn of P/E moves the base target by $6.20 (4.0 pp)",
+        "watch_metric": "Non-GAAP gross margin and data center revenue growth against the Q3 guide of 57.5-58.5% and $3.15B total revenue, plus Lumentum deal approval status",
+        "next_disclosure": "Q3 FY2027 earnings, around Dec 1, 2026 (per aggregator listing, unconfirmed)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named views found are all after the Lumentum all-stock deal (early Nov 2026): TD Cowen cut to $175 and Hold, RBC to $250 (Outperform), B. Riley to $275, each citing deal dilution and integration. The base case sits below RBC and B. Riley mainly through a lower multiple (30x vs implied 37x+ at the same EPS) rather than EPS. Only three firms were found with dated calls, and no brokers' 12-month horizons were documented, so none enter the weighted target. Aggregator consensus (about $317) predates or ignores many cuts and is stale.",
+      "sources": [
+        {
+          "label": "Marvell Q2 FY2027 results",
+          "url": "https://investor.marvell.com/news-events/press-releases/detail/1031/mar",
+          "supports": "Q2 revenue, EPS, Q3 guidance"
+        },
+        {
+          "label": "Zacks Q2 FY27 summary",
+          "url": "https://www.zacks.com/stock/news/2981826/mrvl-q2-earnings-beat-on-data-center-strength-outlook-raised",
+          "supports": "FY27/FY28 revenue outlook"
+        },
+        {
+          "label": "Boerse-global RBC cut",
+          "url": "https://www.boerse-global.de/marvell-aktie-rbc-kappt-auf-250-dollar-bleibt-positiv/839200",
+          "supports": "RBC and TD Cowen calls"
+        },
+        {
+          "label": "Boerse-global TD Cowen",
+          "url": "https://www.boerse-global.de/marvell-technology-aktie-kursziel-halbiert-nach-lumentum-deal/838455",
+          "supports": "TD Cowen, B. Riley, deal reaction"
+        },
+        {
+          "label": "Trading-treff analysts",
+          "url": "https://trading-treff.de/trading/marvell-technology-aktie-analysten-halten-dagegen",
+          "supports": "B. Riley target cut"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-27T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 2,
+        "earnings_order_unknown": 0,
+        "median_age_days": 10.0,
+        "max_weight_pct": 50.0,
+        "contributors": [
+          {
+            "analyst": "RBC analyst",
+            "firm": "RBC Capital Markets",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-03",
+            "age_days": 10,
+            "after_earnings": true,
+            "source": "https://www.boerse-global.de/marvell-aktie-rbc-kappt-auf-250-dollar-bleibt-positiv/839200",
+            "weight": 0.5
+          },
+          {
+            "analyst": "Sean O'Loughlin",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-03",
+            "age_days": 10,
+            "after_earnings": true,
+            "source": "https://www.boerse-global.de/marvell-technology-aktie-kursziel-halbiert-nach-lumentum-deal/838455",
+            "weight": 0.5
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 50.0,
+          "Hold": 50.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "B. Riley analyst",
+          "firm": "B. Riley",
+          "field": "target",
+          "value": 275.0,
+          "source_prior": 365,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://trading-treff.de/trading/marvell-technology-aktie-analysten-halten-dagegen",
+          "prior_observed": null,
+          "revision_pct": -24.65753424657534,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "RBC analyst",
+          "firm": "RBC Capital Markets",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.boerse-global.de/marvell-aktie-rbc-kappt-auf-250-dollar-bleibt-positiv/839200",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "RBC analyst",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 425,
+          "horizon_months": null,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.boerse-global.de/marvell-aktie-rbc-kappt-auf-250-dollar-bleibt-positiv/839200",
+          "prior_observed": null,
+          "revision_pct": -41.17647058823529,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sean O'Loughlin",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.boerse-global.de/marvell-technology-aktie-kursziel-halbiert-nach-lumentum-deal/838455",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sean O'Loughlin",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 175.0,
+          "source_prior": 350,
+          "horizon_months": null,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.boerse-global.de/marvell-technology-aktie-kursziel-halbiert-nach-lumentum-deal/838455",
+          "prior_observed": null,
+          "revision_pct": -50.0,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "SPGI": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 473.59,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: 2027 adjusted diluted EPS viewed at the Nov 2027 target date, built from 2026 adjusted EPS guidance of $17.70-$17.95 (raised Oct 27, 2026; revenue growth 7.4-8.4%, margin +75-100bps) plus 2027 growth from revenue, margin and buybacks ($4.1B repurchased YTD). Listing is a US common share, no ADR conversion.",
+        "bear": 390.6,
+        "base": 485.0,
+        "bull": 562.8,
+        "cases": {
+          "bear": {
+            "driver": "Slower revenue growth, AI pressure on data/ratings multiples, Capital IQ review disrupts",
+            "assumption": "EPS $18.60 at 21x",
+            "target": 390.6
+          },
+          "base": {
+            "driver": "~8% EPS growth off 2026 midpoint $17.83 on mid-to-high single digit revenue growth, margin expansion and buybacks",
+            "assumption": "EPS $19.40 at 25x",
+            "target": 485.0
+          },
+          "bull": {
+            "driver": "Stronger issuance and indices, faster margin gains, value unlocked by Capital IQ review",
+            "assumption": "EPS $20.10 at 28x",
+            "target": 562.8
+          }
+        },
+        "implied_by_close": "At base EPS $19.40 the close implies 24.4x; the sampled analyst targets (avg about $524) imply 27.0x on that EPS, or EPS about $20.96 at 25x",
+        "sensitivity": "One turn of P/E moves the base target by $19.40 (4.1pp of the close)",
+        "watch_metric": "Adjusted operating margin expansion and organic revenue growth in Ratings and Indices, plus the outcome of the Capital IQ strategic review",
+        "next_disclosure": "Q4/FY2026 earnings with 2027 guidance, expected February 2027"
+      },
+      "dividend_per_share": 3.84,
+      "analyst_notes": "Named calls since the Oct 27 earnings are Barclays (572, from 553) and Morgan Stanley (515, from 477), both raised. The sample average of about $524 is above the base case, equal to roughly 27x base EPS or about 8% higher EPS at 25x. Several targets (Stifel, Citi, RBC) predate earnings and are stale; analyst names are unavailable and horizons undocumented.",
+      "sources": [
+        {
+          "label": "MarketBeat Barclays/MS/RBC/Stifel target summary",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "supports": "analyst targets and ratings"
+        },
+        {
+          "label": "MarketBeat Citigroup target",
+          "url": "https://www.marketbeat.com/instant-alerts/sp-global-nysespgi-price-target-raised-to-50000-at-citigroup-2026-07-29/",
+          "supports": "Citigroup target"
+        },
+        {
+          "label": "S&P Global Q3 2026 earnings release (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000064040/000006404026000053/spgi3q2026-earningsrelease.htm",
+          "supports": "EPS, guidance, buybacks"
+        },
+        {
+          "label": "S&P Global press release Q3 2026",
+          "url": "https://press.spglobal.com/2026-10-27-S-P-Global-Reports-Third-Quarter-Results-Announces-Strategic-Review-for-Capital-IQ-and-Associated-Data-Businesses",
+          "supports": "strategic review, results"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-27T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 2,
+        "earnings_order_unknown": 0,
+        "median_age_days": 47.5,
+        "max_weight_pct": 33.44685900631873,
+        "contributors": [
+          {
+            "analyst": "(unnamed) Barclays",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+            "weight": 0.33446859006318735
+          },
+          {
+            "analyst": "(unnamed) Morgan Stanley",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+            "weight": 0.3218336500511751
+          },
+          {
+            "analyst": "(unnamed) Royal Bank of Canada",
+            "firm": "Royal Bank of Canada",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-08-26",
+            "age_days": 79,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+            "weight": 0.1981118501434535
+          },
+          {
+            "analyst": "(unnamed) Stifel Nicolaus",
+            "firm": "Stifel Nicolaus",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-07-17",
+            "age_days": 119,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+            "weight": 0.14558590974218408
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 572.0,
+          "source_prior": 553,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "prior_observed": null,
+          "revision_pct": 3.435804701627476,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 500.0,
+          "horizon_months": null,
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/sp-global-nysespgi-price-target-raised-to-50000-at-citigroup-2026-07-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 515.0,
+          "source_prior": 477,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "prior_observed": null,
+          "revision_pct": 7.966457023060802,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Royal Bank of Canada",
+          "firm": "Royal Bank of Canada",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Royal Bank of Canada",
+          "firm": "Royal Bank of Canada",
+          "field": "target",
+          "value": 510.0,
+          "horizon_months": null,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Stifel Nicolaus",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-17",
+          "public_at": "2026-07-17T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Stifel Nicolaus",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 521.0,
+          "source_prior": 489,
+          "horizon_months": null,
+          "issued_at": "2026-07-17",
+          "public_at": "2026-07-17T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+          "prior_observed": null,
+          "revision_pct": 6.543967280163598,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ETN": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 352.97,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2028 adjusted diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD NYSE listing, no ADR conversion. Anchor: FY2026 adjusted EPS guidance $13.70-$13.80 (raised Nov 3; Q3 adjusted EPS $3.68, Q4 guide $4.05-$4.15, organic growth 13-15%, segment margin 24.1-24.5%). FY2027 and FY2028 EPS are my assumptions (about +17% and +15%), not sourced consensus; figures come from press-release reprints, not the 8-K itself.",
+        "bear": 297.0,
+        "base": 451.2,
+        "bull": 588.0,
+        "cases": {
+          "bear": {
+            "driver": "Data-center and electrical capex cycle slows, organic growth fades to high single digits, margins flat and the multiple de-rates toward the pre-AI industrial range.",
+            "assumption": "FY2028 EPS $16.50 at 18x",
+            "target": 297.0
+          },
+          "base": {
+            "driver": "Record orders and backlog convert, organic growth stays double digit through 2027 then high single digit, segment margin edges toward 26%.",
+            "assumption": "FY2028 EPS $18.80 at 24x",
+            "target": 451.2
+          },
+          "bull": {
+            "driver": "Data-center and grid demand sustains mid-teens growth with further margin expansion and buybacks.",
+            "assumption": "FY2028 EPS $21.00 at 28x",
+            "target": 588.0
+          }
+        },
+        "implied_by_close": "At base EPS the $352.97 close implies 18.8x FY2028 EPS (about 25.7x the FY2026 guidance midpoint of $13.75). The simple mean of the named post-earnings targets (about $476, no documented 12-month horizon) implies 25.3x base EPS, or $19.8 of EPS at 24x.",
+        "sensitivity": "One turn of P/E moves the base target by $18.80 (about 5.3% of the close); $1 of FY2028 EPS moves it by $24.",
+        "watch_metric": "Orders, backlog and organic growth in Electrical Americas and Global (data-center demand), with segment margin against the 25.4-25.8% Q4 guide.",
+        "next_disclosure": "Q4 and FY2026 results, expected early February 2027; the exact date is not sourced here."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "After the Nov 3 results most named targets moved little: RBC raised to $539, Wells Fargo cut to $485 from $503, while Jefferies sits at $395 Neutral. Named targets span $395 to $539, median near $485, well above the $451 base; the gap is about 1.5 turns of P/E or roughly $1.50 of FY2028 EPS at 24x. No call documents a 12-month horizon so none enters a weighted target; the list is a subset from an aggregator.",
+      "sources": [
+        {
+          "label": "PriceTargets.com ETN analyst actions",
+          "url": "https://www.pricetargets.com/NYSE/ETN",
+          "supports": "Named analyst, firm, rating and targets Aug to Nov 2026"
+        },
+        {
+          "label": "Eaton Q3 2026 results press release",
+          "url": "https://finviz.com/news/414001/eaton-reports-record-third-quarter-2026-results-with-strong-organic-growth-accelerating-record-orders-and-backlog-raises-organic-growth-guidance",
+          "supports": "Q3 EPS, FY2026 and Q4 guidance, Nov 3 release"
+        },
+        {
+          "label": "Newsquawk Eaton Q3 2026 summary",
+          "url": "https://www.newsquawk.com/headlines/eaton-corp-etn-q3-2026-usd-adj-eps-368-exp-354-revenue-89bln-exp-853bln-next-qtr-eps-405-415-exp-409-current-fy-eps-1370-1380-exp-1360",
+          "supports": "Adjusted EPS $3.68, FY guide $13.70-13.80"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-03T06:30:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 7,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 9,
+        "max_weight_pct": 17.12082112346379,
+        "contributors": [
+          {
+            "analyst": "Amit Mehrotra",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-07",
+            "age_days": 67,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/ETN",
+            "weight": 0.10378008866613554
+          },
+          {
+            "analyst": "Andrew Kaplowitz",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-12",
+            "age_days": 32,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/ETN",
+            "weight": 0.13588804730972898
+          },
+          {
+            "analyst": "Chris Snyder",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-08-28",
+            "age_days": 77,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/ETN",
+            "weight": 0.09608735973490774
+          },
+          {
+            "analyst": "Jeffrey Reive",
+            "firm": "RBC",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ETN",
+            "weight": 0.16222252081416372
+          },
+          {
+            "analyst": "Julian Mitchell",
+            "firm": "Jefferies",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-11-11",
+            "age_days": 2,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ETN",
+            "weight": 0.17120821123463792
+          },
+          {
+            "analyst": "Stephen Tusa",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-04",
+            "age_days": 9,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ETN",
+            "weight": 0.16222252081416372
+          },
+          {
+            "analyst": "Tim Thein",
+            "firm": "Raymond James",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/ETN",
+            "weight": 0.16859125142626238
+          }
+        ],
+        "counts": {
+          "Buy": 6,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 82.8791788765362,
+          "Hold": 17.12082112346379,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Amit Mehrotra",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-07",
+          "public_at": "2026-09-07T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Amit Mehrotra",
+          "firm": "UBS",
+          "field": "target",
+          "value": 515.0,
+          "source_prior": 450,
+          "issued_at": "2026-09-07",
+          "public_at": "2026-09-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "revision_pct": 14.444444444444438,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Andrew Kaplowitz",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Andrew Kaplowitz",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 498.0,
+          "source_prior": 485,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "revision_pct": 2.680412371134011,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Brett Linzey",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 485.0,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Chris Snyder",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Chris Snyder",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 520.0,
+          "source_prior": 500,
+          "issued_at": "2026-08-28",
+          "public_at": "2026-08-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "revision_pct": 4.0000000000000036,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jeffrey Reive",
+          "firm": "RBC",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jeffrey Reive",
+          "firm": "RBC",
+          "field": "target",
+          "value": 539.0,
+          "source_prior": 526,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "revision_pct": 2.471482889733845,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Julian Mitchell",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Julian Mitchell",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 395.0,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Stephen Tusa",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Stephen Tusa",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 485.0,
+          "source_prior": 503,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "revision_pct": -3.5785288270377746,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Tim Thein",
+          "firm": "Raymond James",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Tim Thein",
+          "firm": "Raymond James",
+          "field": "target",
+          "value": 485.0,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ETN",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "PGR": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 235.78,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 EPS viewed at the 12-month target date). Q3 2026 GAAP EPS $4.37, combined ratio 88.7, NPW $22.3B (+4%), about 586M shares; 2026 consensus EPS about $16.3. FY2027 EPS is my estimate, not sourced consensus; the only FY2027 figure found was $15.50 from one firm.",
+        "bear": 180.0,
+        "base": 243.0,
+        "bull": 315.0,
+        "cases": {
+          "bear": {
+            "driver": "Rate cuts and rising claims severity push combined ratio to about 94",
+            "assumption": "EPS $15.00 at 12.0x",
+            "target": 180.0
+          },
+          "base": {
+            "driver": "Combined ratio about 90 with 4-5% premium growth and steady investment income",
+            "assumption": "EPS $18.00 at 13.5x",
+            "target": 243.0
+          },
+          "bull": {
+            "driver": "Combined ratio about 87 with policy growth re-accelerating",
+            "assumption": "EPS $21.00 at 15.0x",
+            "target": 315.0
+          }
+        },
+        "implied_by_close": "At base EPS $18 the close implies 13.1x; the analyst-weighted target (null horizons, so unweighted median about 238) implies about 13.2x.",
+        "sensitivity": "One turn of P/E moves the base target by $18 (7.6 pp)",
+        "watch_metric": "Monthly and quarterly combined ratio and policies-in-force growth",
+        "next_disclosure": "October/November 2026 monthly results (mid-December release) and Q4 2026 earnings in January 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named views are clustered: eight firms with dated targets between $196 and $314 since the Q3 release, with Bank of America a high outlier and Wells Fargo the low Underweight. Most revisions were small after Q3, and the median near $238 is close to the base case, so the gap is mostly about whether the combined ratio holds near 90. Horizons are undocumented, so none enter the weighted target.",
+      "sources": [
+        {
+          "label": "Analyst actions table (pricetargets.com)",
+          "url": "https://www.pricetargets.com/NYSE/PGR",
+          "supports": "named analyst targets and ratings"
+        },
+        {
+          "label": "Progressive Q3 2026 results coverage",
+          "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/progressives-q3-profit-slips-3-despite-better-underwriting-margin-593580.aspx",
+          "supports": "Q3 EPS 4.37, CR 88.7, NPW 22.3B, BVPS 59.51"
+        },
+        {
+          "label": "Q3 2026 earnings summary",
+          "url": "https://quartr.com/events/the-progressive-corporation-pgr-q3-2026_3sHVFEOf",
+          "supports": "Q3 results"
+        },
+        {
+          "label": "EPS estimates",
+          "url": "https://www.benzinga.com/quote/PGR/earnings-forecasts",
+          "supports": "2026 consensus EPS ~16.3"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-15T09:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 2,
+        "earnings_order_unknown": 3,
+        "median_age_days": 29.0,
+        "max_weight_pct": 13.384675418970213,
+        "contributors": [
+          {
+            "analyst": "Alex Scott",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-07",
+            "age_days": 37,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/PGR",
+            "weight": 0.12203109581527516
+          },
+          {
+            "analyst": "Brian Meredith",
+            "firm": "UBS",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-19",
+            "age_days": 25,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/PGR",
+            "weight": 0.13384675418970213
+          },
+          {
+            "analyst": "Elyse Greenspan",
+            "firm": "Wells Fargo",
+            "value": "Underweight",
+            "bucket": "Sell",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": null,
+            "source": "https://www.pricetargets.com/NYSE/PGR",
+            "weight": 0.12978626456834286
+          },
+          {
+            "analyst": "Gregory Peters",
+            "firm": "Raymond James",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/PGR",
+            "weight": 0.1307896900990356
+          },
+          {
+            "analyst": "Meyer Shields",
+            "firm": "KBW",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": null,
+            "source": "https://www.pricetargets.com/NYSE/PGR",
+            "weight": 0.12978626456834286
+          },
+          {
+            "analyst": "Michael Zaremski",
+            "firm": "BMO Capital Markets",
+            "value": "Market Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": null,
+            "source": "https://www.pricetargets.com/NYSE/PGR",
+            "weight": 0.12978626456834286
+          },
+          {
+            "analyst": "Pablo Singzon",
+            "firm": "JPMorgan",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-05",
+            "age_days": 39,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/PGR",
+            "weight": 0.12016582036605658
+          },
+          {
+            "analyst": "Yaron Kinar",
+            "firm": "Mizuho",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-09-16",
+            "age_days": 58,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/PGR",
+            "weight": 0.10380784582490198
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 4,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 38.260705048265365,
+          "Hold": 48.76066849490036,
+          "Sell": 12.978626456834286
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Alex Scott",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-07",
+          "public_at": "2026-10-07T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Alex Scott",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 247.0,
+          "source_prior": 246,
+          "issued_at": "2026-10-07",
+          "public_at": "2026-10-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "revision_pct": 0.40650406504065817,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Brian Meredith",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Brian Meredith",
+          "firm": "UBS",
+          "field": "target",
+          "value": 238.0,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Elyse Greenspan",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Elyse Greenspan",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 196.0,
+          "source_prior": 201,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "revision_pct": -2.487562189054726,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Gregory Peters",
+          "firm": "Raymond James",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Gregory Peters",
+          "firm": "Raymond James",
+          "field": "target",
+          "value": 245.0,
+          "source_prior": 265,
+          "issued_at": "2026-09-21",
+          "public_at": "2026-09-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "revision_pct": -7.547169811320753,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joshua Shanker",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 314.0,
+          "source_prior": 302,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "revision_pct": 3.9735099337748325,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Meyer Shields",
+          "firm": "KBW",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Meyer Shields",
+          "firm": "KBW",
+          "field": "target",
+          "value": 246.0,
+          "source_prior": 252,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "revision_pct": -2.3809523809523836,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Zaremski",
+          "firm": "BMO Capital Markets",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Zaremski",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 216.0,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Pablo Singzon",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Pablo Singzon",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 241,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "revision_pct": 3.734439834024905,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Yaron Kinar",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-09-16",
+          "public_at": "2026-09-16T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Yaron Kinar",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 230.0,
+          "source_prior": 236,
+          "issued_at": "2026-09-16",
+          "public_at": "2026-09-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/PGR",
+          "prior_observed": null,
+          "revision_pct": -2.5423728813559365,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -48156,6 +50045,11 @@
         "kind": "new"
       },
       {
+        "symbol": "ETN",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "GE",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -48236,6 +50130,11 @@
         "kind": "new"
       },
       {
+        "symbol": "LMT",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "LRCX",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -48258,6 +50157,11 @@
       {
         "symbol": "MRK",
         "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "MRVL",
+        "researched_at": "2026-11-16",
         "kind": "new"
       },
       {
@@ -48327,6 +50231,11 @@
       },
       {
         "symbol": "PG",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "PGR",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -48408,6 +50317,11 @@
       {
         "symbol": "SPCX",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "SPGI",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -48870,6 +50784,22 @@
         "horizon_months": null
       },
       {
+        "symbol": "ETN",
+        "firm": "Jefferies",
+        "analyst": "Julian Mitchell",
+        "issued_at": "2026-11-11",
+        "source": "https://www.pricetargets.com/NYSE/ETN",
+        "currency": null,
+        "rating": "Neutral",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 395.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
         "symbol": "COST",
         "firm": "Bernstein",
         "analyst": "(unnamed)",
@@ -49226,6 +51156,22 @@
         "prior_target": 396,
         "direction": "raise",
         "revision_pct": 1.0101010101010166,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ETN",
+        "firm": "Raymond James",
+        "analyst": "Tim Thein",
+        "issued_at": "2026-11-09",
+        "source": "https://www.pricetargets.com/NYSE/ETN",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 485.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
         "horizon_months": null
       },
       {

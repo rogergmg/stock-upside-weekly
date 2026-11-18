@@ -1,0 +1,289 @@
+{
+ "issuer_id": "Lockheed Martin Corporation",
+ "symbol": "LMT",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 596.04,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-22T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Michael Ciarmoli",
+   "firm": "Guggenheim",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 735,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Michael Ciarmoli",
+   "firm": "Guggenheim",
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "David Strauss",
+   "firm": "Wells Fargo",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 700,
+   "source_prior": 600,
+   "horizon_months": null
+  },
+  {
+   "analyst": "David Strauss",
+   "firm": "Wells Fargo",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "Seth Seifman",
+   "firm": "JPMorgan",
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 665,
+   "source_prior": 620,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Seth Seifman",
+   "firm": "JPMorgan",
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "Sheila Kahyaoglu",
+   "firm": "Jefferies",
+   "issued_at": "2026-10-25",
+   "public_at": "2026-10-25T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 615,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Sheila Kahyaoglu",
+   "firm": "Jefferies",
+   "issued_at": "2026-10-25",
+   "public_at": "2026-10-25T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "Gavin Parsons",
+   "firm": "UBS",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 692,
+   "source_prior": 653,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Gavin Parsons",
+   "firm": "UBS",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "Ken Herbert",
+   "firm": "RBC",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 600,
+   "source_prior": 550,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Ken Herbert",
+   "firm": "RBC",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Sector Perform",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "John Godyn",
+   "firm": "Citigroup",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 706,
+   "source_prior": 691,
+   "horizon_months": null
+  },
+  {
+   "analyst": "John Godyn",
+   "firm": "Citigroup",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "Anthony Valentini",
+   "firm": "Barclays",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 560,
+   "source_prior": 554,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Anthony Valentini",
+   "firm": "Barclays",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "Douglas Harned",
+   "firm": "Bernstein",
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 564,
+   "source_prior": 629,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Douglas Harned",
+   "firm": "Bernstein",
+   "issued_at": "2026-10-14",
+   "public_at": "2026-10-14T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Market Perform",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "Gautam Khanna",
+   "firm": "TD Cowen",
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 570,
+   "source_prior": 600,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Gautam Khanna",
+   "firm": "TD Cowen",
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "Kristine Liwag",
+   "firm": "Morgan Stanley",
+   "issued_at": "2026-07-24",
+   "public_at": "2026-07-24T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "target",
+   "value": 690,
+   "source_prior": 653,
+   "horizon_months": null
+  },
+  {
+   "analyst": "Kristine Liwag",
+   "firm": "Morgan Stanley",
+   "issued_at": "2026-07-24",
+   "public_at": "2026-07-24T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/LMT",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 diluted EPS viewed at the 12-month target date (Nov 2027). Starts from 2026 guidance of $30.35-$30.75 (Q3 2026 release) and management's line of sight to high-single-digit revenue growth; no formal FY2027 outlook issued. USD listing, no ADR conversion.",
+  "bear": 472.0,
+  "base": 594.0,
+  "bull": 720.0,
+  "cases": {
+   "bear": {
+    "driver": "F-35 Lot 20+ contract negotiation and Lot 20 funding overrun cause charges and margin pressure",
+    "assumption": "EPS $29.50 at 16x",
+    "target": 472.0
+   },
+   "base": {
+    "driver": "High-single-digit sales growth, stable segment margin, buybacks offset higher interest",
+    "assumption": "EPS $33.00 (about 8% above 2026 guidance midpoint) at 18x",
+    "target": 594.0
+   },
+   "bull": {
+    "driver": "Record $292B backlog converts, PAC-3 and munitions ramp, F-35 lots settle on good terms",
+    "assumption": "EPS $36.00 at 20x",
+    "target": 720.0
+   }
+  },
+  "implied_by_close": "At base EPS $33 the close implies 18.1x; the analyst-weighted target (not computed, horizons undocumented) of roughly $640 would imply 19.4x or EPS about $35.5 at 18x",
+  "sensitivity": "One turn of P/E moves the base target by $33 (5.5 pp)",
+  "watch_metric": "F-35 Lot 20+ contract terms and segment operating margin versus the $8.575-8.675B 2026 guide",
+  "next_disclosure": "Q4 and full-year 2026 results with 2027 outlook, expected January 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Targets rose broadly after the Oct 22 Q3 beat and EPS guidance raise (Wells Fargo $600 to $700, Citigroup $691 to $706, UBS $653 to $692, JPMorgan $620 to $665). Views range from Barclays $560 to Guggenheim $735; most ratings are Hold. The close of $596 sits below the roughly $650 median of these named targets, a gap of about 9% that equals roughly 2 P/E turns or $3 of EPS versus the base case. Some targets (Barclays, Bernstein, TD Cowen) predate or lag the Q3 print.",
+ "sources": [
+  {
+   "label": "PriceTargets.com LMT analyst actions",
+   "url": "https://www.pricetargets.com/NYSE/LMT",
+   "supports": "Analyst targets and ratings"
+  },
+  {
+   "label": "Lockheed Martin Q3 2026 results",
+   "url": "https://news.lockheedmartin.com/2026-10-22-Lockheed-Martin-Reports-Third-Quarter-2026-Financial-Results",
+   "supports": "EPS, guidance, backlog"
+  },
+  {
+   "label": "Lockheed Martin Q3 2026 results (PDF)",
+   "url": "https://news.lockheedmartin.com/2026-10-22-Lockheed-Martin-Reports-Third-Quarter-2026-Financial-Results?asPDF=1",
+   "supports": "2026 outlook and F-35 Lot 20 risk"
+  }
+ ]
+}

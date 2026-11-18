@@ -1,0 +1,158 @@
+{
+ "issuer_id": "S&P Global Inc.",
+ "symbol": "SPGI",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 473.59,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-27T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "(unnamed) Barclays",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 572,
+   "source_prior": 553,
+   "horizon_months": null,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/"
+  },
+  {
+   "analyst": "(unnamed) Barclays",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/"
+  },
+  {
+   "analyst": "(unnamed) Morgan Stanley",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 515,
+   "source_prior": 477,
+   "horizon_months": null,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/"
+  },
+  {
+   "analyst": "(unnamed) Morgan Stanley",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/"
+  },
+  {
+   "analyst": "(unnamed) Royal Bank of Canada",
+   "firm": "Royal Bank of Canada",
+   "field": "target",
+   "value": 510,
+   "horizon_months": null,
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/"
+  },
+  {
+   "analyst": "(unnamed) Royal Bank of Canada",
+   "firm": "Royal Bank of Canada",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/"
+  },
+  {
+   "analyst": "(unnamed) Stifel Nicolaus",
+   "firm": "Stifel Nicolaus",
+   "field": "target",
+   "value": 521,
+   "source_prior": 489,
+   "horizon_months": null,
+   "issued_at": "2026-07-17",
+   "public_at": "2026-07-17T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/"
+  },
+  {
+   "analyst": "(unnamed) Stifel Nicolaus",
+   "firm": "Stifel Nicolaus",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-07-17",
+   "public_at": "2026-07-17T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/"
+  },
+  {
+   "analyst": "(unnamed) Citigroup",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 500,
+   "horizon_months": null,
+   "issued_at": "2026-07-29",
+   "public_at": "2026-07-29T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/sp-global-nysespgi-price-target-raised-to-50000-at-citigroup-2026-07-29/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: 2027 adjusted diluted EPS viewed at the Nov 2027 target date, built from 2026 adjusted EPS guidance of $17.70-$17.95 (raised Oct 27, 2026; revenue growth 7.4-8.4%, margin +75-100bps) plus 2027 growth from revenue, margin and buybacks ($4.1B repurchased YTD). Listing is a US common share, no ADR conversion.",
+  "bear": 390.6,
+  "base": 485.0,
+  "bull": 562.8,
+  "cases": {
+   "bear": {
+    "driver": "Slower revenue growth, AI pressure on data/ratings multiples, Capital IQ review disrupts",
+    "assumption": "EPS $18.60 at 21x",
+    "target": 390.6
+   },
+   "base": {
+    "driver": "~8% EPS growth off 2026 midpoint $17.83 on mid-to-high single digit revenue growth, margin expansion and buybacks",
+    "assumption": "EPS $19.40 at 25x",
+    "target": 485.0
+   },
+   "bull": {
+    "driver": "Stronger issuance and indices, faster margin gains, value unlocked by Capital IQ review",
+    "assumption": "EPS $20.10 at 28x",
+    "target": 562.8
+   }
+  },
+  "implied_by_close": "At base EPS $19.40 the close implies 24.4x; the sampled analyst targets (avg about $524) imply 27.0x on that EPS, or EPS about $20.96 at 25x",
+  "sensitivity": "One turn of P/E moves the base target by $19.40 (4.1pp of the close)",
+  "watch_metric": "Adjusted operating margin expansion and organic revenue growth in Ratings and Indices, plus the outcome of the Capital IQ strategic review",
+  "next_disclosure": "Q4/FY2026 earnings with 2027 guidance, expected February 2027"
+ },
+ "dividend_per_share": 3.84,
+ "analyst_notes": "Named calls since the Oct 27 earnings are Barclays (572, from 553) and Morgan Stanley (515, from 477), both raised. The sample average of about $524 is above the base case, equal to roughly 27x base EPS or about 8% higher EPS at 25x. Several targets (Stifel, Citi, RBC) predate earnings and are stale; analyst names are unavailable and horizons undocumented.",
+ "sources": [
+  {
+   "label": "MarketBeat Barclays/MS/RBC/Stifel target summary",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-sp-global-nyse-spgi-price-target-raised-to-57200-2026-11-02/",
+   "supports": "analyst targets and ratings"
+  },
+  {
+   "label": "MarketBeat Citigroup target",
+   "url": "https://www.marketbeat.com/instant-alerts/sp-global-nysespgi-price-target-raised-to-50000-at-citigroup-2026-07-29/",
+   "supports": "Citigroup target"
+  },
+  {
+   "label": "S&P Global Q3 2026 earnings release (8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000064040/000006404026000053/spgi3q2026-earningsrelease.htm",
+   "supports": "EPS, guidance, buybacks"
+  },
+  {
+   "label": "S&P Global press release Q3 2026",
+   "url": "https://press.spglobal.com/2026-10-27-S-P-Global-Reports-Third-Quarter-Results-Announces-Strategic-Review-for-Capital-IQ-and-Associated-Data-Businesses",
+   "supports": "strategic review, results"
+  }
+ ]
+}

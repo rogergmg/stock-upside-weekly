@@ -1,0 +1,44 @@
+{
+ "issuer_id": "Lam Research Corporation",
+ "symbol": "LRCX",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 225.92, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-10-21T16:05:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {"analyst": "Craig Ellis", "firm": "B. Riley Securities", "field": "target", "value": 390, "source_prior": 350, "issued_at": "2026-10-01", "public_at": "2026-10-01T23:59:59-04:00", "horizon_months": null, "source": "https://tickernerd.com/stock/lrcx-forecast/"},
+  {"analyst": "Craig Ellis", "firm": "B. Riley Securities", "field": "target", "value": 310, "source_prior": 338, "issued_at": "2026-11-09", "public_at": "2026-11-09T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/lrcx/forecast/"},
+  {"analyst": "Craig Ellis", "firm": "B. Riley Securities", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-09", "public_at": "2026-11-09T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/lrcx/forecast/"},
+  {"analyst": "Shane Brett", "firm": "Morgan Stanley", "field": "target", "value": 385, "source_prior": 367, "issued_at": "2026-10-05", "public_at": "2026-10-05T23:59:59-04:00", "horizon_months": null, "source": "https://tickernerd.com/stock/lrcx-forecast/"},
+  {"analyst": "Shane Brett", "firm": "Morgan Stanley", "field": "target", "value": 339, "source_prior": 385, "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00", "horizon_months": null, "source": "https://tickernerd.com/stock/lrcx-forecast/"},
+  {"analyst": "Shane Brett", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy", "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00", "source": "https://tickernerd.com/stock/lrcx-forecast/"},
+  {"analyst": "James Schneider", "firm": "Goldman Sachs", "field": "target", "value": 380, "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/lrcx/forecast/"},
+  {"analyst": "James Schneider", "firm": "Goldman Sachs", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-22", "public_at": "2026-10-22T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/lrcx/forecast/"},
+  {"analyst": "Ling Lee Keng", "firm": "DBS", "field": "target", "value": 416, "issued_at": "2026-10-23", "public_at": "2026-10-23T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/lrcx/forecast/"},
+  {"analyst": "Ling Lee Keng", "firm": "DBS", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-23", "public_at": "2026-10-23T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/lrcx/forecast/"},
+  {"analyst": "C.J. Muse", "firm": "Cantor Fitzgerald", "field": "target", "value": 500, "issued_at": "2026-10-19", "public_at": "2026-10-19T23:59:59-04:00", "horizon_months": null, "source": "https://247wallst.com/investing/2026/10/19/lam-research-imploded-by-20-in-the-last-3-months-this-respected-wall-street-firm-says-its-about-to-double/"},
+  {"analyst": "Vivek Arya", "firm": "Bank of America Securities", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-09", "public_at": "2026-11-09T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/lrcx/forecast/"}
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. At the Nov 2027 target date an investor prices FY2028 (year to June 2028) non-GAAP diluted EPS. Built from Q1 FY2027 results (revenue $8.22B, non-GAAP EPS $2.20, op margin 40.2%, 1,255.8M diluted shares) and the Dec-quarter guide (revenue $8.60B +/- $0.4B, op margin 40.5%, EPS $2.33, 1.253B shares). Model: FY2028 revenue x operating margin x (1 - tax) / ~1.24-1.25B shares; tax 13-15% (derived 11-17% recent quarters); interest/other ignored; net cash is small (cash $7.4B vs debt $3.7B) and is not added. Price-only targets; dividend shown separately. All EPS and multiples are model assumptions, not company guidance. No FY2028 consensus was sourced.",
+  "bear": 134, "base": 260, "bull": 361,
+  "cases": {
+   "bear": {"driver": "China share falls from 35% of revenue and WFE digests; FY2028 revenue about $32B (below the ~$34B Dec-quarter run rate), operating margin 36%", "assumption": "EPS $7.90 at 17x (trough-ish cyclical multiple)", "target": 134},
+   "base": {"driver": "Guide-based growth: FY2028 revenue about $41B (+~11% on FY2027 est. $36.8B), operating margin 41%, shares 1.24B", "assumption": "EPS $11.80 at 22x", "target": 260},
+   "bull": {"driver": "AI-driven NAND/DRAM/foundry capex upcycle: FY2028 revenue about $46B, operating margin 43%", "assumption": "EPS $13.90 at 26x", "target": 361}
+  },
+  "implied_by_close": "At base EPS $11.80 the 225.92 close implies 19.1x; the recency-weighted analyst target (roughly $350, Oct-Nov calls) implies about 29.7x at base EPS, or about $15.90 EPS at a constant 22x.",
+  "sensitivity": "One turn of P/E moves the base target by about $11.80 (about 5.2 pp of return); $1 of EPS moves it by $22.",
+  "watch_metric": "Quarterly revenue vs the $8.6B +/- $0.4B guide and the China share of revenue (35% in Sept quarter, guided significantly lower), plus operating margin vs 40.5%",
+  "next_disclosure": "Fiscal Q2 2027 (December quarter) earnings, expected late January 2027 (date not confirmed)"
+ },
+ "dividend_per_share": 1.32,
+ "analyst_notes": "Named targets were mostly cut after the Oct 21 print (Morgan Stanley 385 to 339, Needham 390 to 290, B. Riley 338 to 310 on Nov 9) while ratings stayed Buy; Cantor ($500, Oct 19) and DBS ($416) remain well above. The sampled spread of $310-500 sits far above the $260 base: matching a ~$350 target at 22x needs about $15.90 EPS, roughly 35% above the model, or a ~30x multiple. The panel is small, all Buy, with no stated 12-month horizons so none feed the weighted target; Bernstein (Rasgon, $350, Nov 17) was excluded as after the reference close. Several firms (Citi, Mizuho, UBS, Evercore, Needham) were found without a named analyst and are omitted.",
+ "sources": [
+  {"label": "Lam Research 8-K, Q1 FY2027 results and Dec-quarter guidance", "url": "https://www.sec.gov/Archives/edgar/data/0000707549/000070754926000052/lrcx_exhibitx991xq1x2027.htm", "supports": "Revenue, EPS, share count, guidance, cash, debt, dividend"},
+  {"label": "StockAnalysis LRCX forecast", "url": "https://stockanalysis.com/stocks/lrcx/forecast/", "supports": "Named analyst ratings and targets"},
+  {"label": "Ticker Nerd LRCX forecast", "url": "https://tickernerd.com/stock/lrcx-forecast/", "supports": "Dated target changes (Twelve Data)"},
+  {"label": "24/7 Wall St, Cantor $500 target", "url": "https://247wallst.com/investing/2026/10/19/lam-research-imploded-by-20-in-the-last-3-months-this-respected-wall-street-firm-says-its-about-to-double/", "supports": "C.J. Muse target"}
+ ]
+}

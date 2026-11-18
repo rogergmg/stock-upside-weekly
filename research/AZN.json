@@ -1,0 +1,314 @@
+{
+ "issuer_id": "AstraZeneca PLC",
+ "symbol": "AZN",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 184.45,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-30T07:00:00+00:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Emmanuel Papadakis",
+   "firm": "Deutsche Bank",
+   "field": "target",
+   "value": 158.12,
+   "source_prior": 154.17,
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Emmanuel Papadakis",
+   "firm": "Deutsche Bank",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Justin Smith",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 270.12,
+   "source_prior": 260.9,
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Justin Smith",
+   "firm": "Bernstein",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Rajan Sharma",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 231.64,
+   "source_prior": 218.74,
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Rajan Sharma",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-03",
+   "public_at": "2026-11-03T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Colin White",
+   "firm": "UBS",
+   "field": "target",
+   "value": 210.82,
+   "source_prior": 200.28,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Colin White",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital Markets",
+   "field": "target",
+   "value": 200.94,
+   "source_prior": 191.06,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Trung Huynh",
+   "firm": "RBC Capital Markets",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "James Gordon",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 224.0,
+   "source_prior": 210.82,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "James Gordon",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Graham Parry",
+   "firm": "Citi",
+   "field": "target",
+   "value": 249.04,
+   "source_prior": 245.08,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Graham Parry",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Richard Vosser",
+   "firm": "J.P. Morgan",
+   "field": "target",
+   "value": 210.82,
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Richard Vosser",
+   "firm": "J.P. Morgan",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Luisa Hector",
+   "firm": "Berenberg",
+   "field": "target",
+   "value": 197.65,
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Luisa Hector",
+   "firm": "Berenberg",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Mattias Haggblom",
+   "firm": "Nordea Markets",
+   "field": "target",
+   "value": 187.95,
+   "source_prior": 163.22,
+   "issued_at": "2026-10-13",
+   "public_at": "2026-10-13T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Mattias Haggblom",
+   "firm": "Nordea Markets",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-13",
+   "public_at": "2026-10-13T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Rajesh Kumar",
+   "firm": "HSBC",
+   "field": "target",
+   "value": 183.42,
+   "source_prior": 181.18,
+   "issued_at": "2026-09-10",
+   "public_at": "2026-09-10T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  },
+  {
+   "analyst": "Rajesh Kumar",
+   "firm": "HSBC",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-09-10",
+   "public_at": "2026-09-10T23:59:59-04:00",
+   "source": "https://www.tipranks.com/stocks/azn/forecast"
+  }
+ ],
+ "valuation": {
+  "method": "Forward core EPS x P/E (FY2027 core EPS viewed at the Nov 2027 target date). Currency/share basis: since 2 Feb 2026 AstraZeneca's ordinary shares ($0.25 nominal) trade directly on the NYSE under AZN and the Nasdaq ADS programme (previously 2 ADSs = 1 ordinary share, Citibank depositary) ended, so the listing is one ordinary share and the ADR ratio is 1:1 (no ratio conversion; per-share EPS is reported in USD so no FX needed). Cross-check: 184.45 USD / 1.322 USD per GBP (GBPUSD ~1.322 intraday 13 Nov 2026, Trading Economics) = ~GBP 139.5, in line with the ~13,800-13,960p London price. Broker pence targets are shown in USD as converted by TipRanks (~1.318 USD/GBP).",
+  "bear": 159.0,
+  "base": 205.0,
+  "bull": 240.0,
+  "cases": {
+   "bear": {
+    "driver": "Growth stalls at ~3% core EPS in FY27 (US pricing/MFN pressure, Farxiga and Brilinta erosion, AVANZAR miss), de-rating",
+    "assumption": "FY27 core EPS $10.60 at 15.0x",
+    "target": 159.0
+   },
+   "base": {
+    "driver": "FY26 core EPS ~$10.30 (9M $8.00 + Q4 ~$2.30; guide low double-digit growth on FY25 $9.16), FY27 +11% with oncology/R&I growth outpacing Farxiga/Brilinta losses",
+    "assumption": "FY27 core EPS $11.40 at 18.0x",
+    "target": 205.0
+   },
+   "bull": {
+    "driver": "Positive AVANZAR/pipeline readouts, double-digit EPS growth ~16%, margin gains",
+    "assumption": "FY27 core EPS $12.00 at 20.0x",
+    "target": 240.0
+   }
+  },
+  "implied_by_close": "At base FY27 EPS $11.40 the 184.45 close implies 16.2x (17.9x FY26 EPS ~$10.30); the weighted analyst target (~$215-220) implies ~19x base EPS, or ~$12.0 EPS at 18x.",
+  "sensitivity": "One turn of P/E moves the base target by $11.40 (6.2 pp of the close)",
+  "watch_metric": "Core EPS growth and Q4 oncology revenue growth vs the low double-digit FY26 guide, plus AVANZAR Phase III timing (now Q1 2027)",
+  "next_disclosure": "FY and Q4 2026 results, 9 February 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "After Q3 (30 Oct 2026) nine of eleven sampled analysts raised targets (e.g. Bernstein 260.90 to 270.12, Goldman 218.74 to 231.64, Barclays 210.82 to 224.00, RBC 191.06 to 200.94), citing the beat and the AVANZAR readout slipping to Q1 2027; Deutsche Bank and HSBC are the Holds. Targets are TipRanks USD conversions of London pence targets, with no documented horizon, so they stay out of the weighted target. The sample mean (~$211) is ~3% above the base case, equal to about 0.5 turns of P/E or ~$0.60 FY27 EPS; the Street is 9 Buy / 2 Hold in this sample, and several targets (JPM, Berenberg, Nordea, HSBC) predate earnings. Jefferies (17 Nov) is excluded as after the reference close.",
+ "sources": [
+  {
+   "label": "AstraZeneca 9M and Q3 2026 results",
+   "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/9m-and-q3-2026-results.html",
+   "supports": "9M core EPS $8.00, FY26 guidance, earnings date"
+  },
+  {
+   "label": "AstraZeneca FY and Q4 2025 results",
+   "url": "https://www.biospace.com/press-releases/astrazeneca-results-fy-and-q4-2025",
+   "supports": "FY25 core EPS $9.16, dividend"
+  },
+  {
+   "label": "AstraZeneca NYSE direct listing announcement",
+   "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-to-complete-direct-listing-on-NYSE.html",
+   "supports": "ADS programme ended, ordinary shares trade on NYSE as AZN"
+  },
+  {
+   "label": "Form 6-K direct listing",
+   "url": "https://www.sec.gov/Archives/edgar/data/901832/000165495426000464/a4875p.htm",
+   "supports": "ADS two-for-one basis, listing dates"
+  },
+  {
+   "label": "TipRanks AZN forecast USD",
+   "url": "https://www.tipranks.com/stocks/azn/forecast",
+   "supports": "named analyst targets and ratings"
+  },
+  {
+   "label": "TipRanks AZN forecast GBX",
+   "url": "https://www.tipranks.com/stocks/gb:azn/forecast",
+   "supports": "pence targets used for the FX cross-check"
+  },
+  {
+   "label": "Proactive Investors broker targets",
+   "url": "https://www.proactiveinvestors.com/companies/news/1101060/astrazeneca-results-reassure-on-long-term-growth-as-three-brokers-raise-price-targets-1101060.html",
+   "supports": "Citi, RBC, UBS target raises on 2 Nov 2026"
+  },
+  {
+   "label": "Trading Economics GBPUSD 13 Nov 2026",
+   "url": "https://tradingeconomics.com/united-kingdom/currency/news/601113",
+   "supports": "GBPUSD ~1.322"
+  }
+ ]
+}

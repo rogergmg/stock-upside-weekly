@@ -1,0 +1,43 @@
+{
+  "issuer_id": "Applied Materials, Inc.",
+  "symbol": "AMAT",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 370.5, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-12T16:05:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Timothy Arcuri", "firm": "UBS", "field": "target", "value": 640, "source_prior": 695, "issued_at": "2026-11-13", "public_at": "2026-11-13T16:00:00-05:00", "horizon_months": null, "source": "https://www.tikr.com/blog/ubs-cut-its-applied-materials-target-after-a-record-quarter-it-still-sees-68-upside"},
+    {"analyst": "Timothy Arcuri", "firm": "UBS", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-13", "public_at": "2026-11-13T16:00:00-05:00", "source": "https://www.tikr.com/blog/ubs-cut-its-applied-materials-target-after-a-record-quarter-it-still-sees-68-upside"},
+    {"analyst": "Harlan Sur", "firm": "JPMorgan", "field": "target", "value": 500, "source_prior": 660, "issued_at": "2026-11-13", "public_at": "2026-11-13T16:00:00-05:00", "horizon_months": null, "source": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL"},
+    {"analyst": "Harlan Sur", "firm": "JPMorgan", "field": "rating", "value": "Overweight", "bucket": "Buy", "issued_at": "2026-11-13", "public_at": "2026-11-13T16:00:00-05:00", "source": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL"},
+    {"analyst": "Charles Shi", "firm": "Needham", "field": "target", "value": 470, "source_prior": 580, "issued_at": "2026-11-13", "public_at": "2026-11-13T16:00:00-05:00", "horizon_months": null, "source": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL"},
+    {"analyst": "Charles Shi", "firm": "Needham", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-13", "public_at": "2026-11-13T16:00:00-05:00", "source": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL"},
+    {"analyst": "Craig Ellis", "firm": "B. Riley", "field": "target", "value": 475, "source_prior": 700, "issued_at": "2026-11-09", "public_at": "2026-11-10T23:59:59-05:00", "horizon_months": null, "source": "https://www.tikr.com/ja/blog/b-riley-cut-its-applied-materials-target-to-475-it-still-sees-28-upside"},
+    {"analyst": "Craig Ellis", "firm": "B. Riley", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-09", "public_at": "2026-11-10T23:59:59-05:00", "source": "https://www.tikr.com/ja/blog/b-riley-cut-its-applied-materials-target-to-475-it-still-sees-28-upside"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E at the 12-month target date. An investor in mid-Nov 2027 prices fiscal 2028 (Oct 2028 year-end) non-GAAP diluted EPS, so each case uses FY2028 EPS x a P/E, per share in USD (US-listed common, no ADR conversion). Base year FY2026: revenue $34.45B, non-GAAP EPS $12.89 (GAAP $12.62); Q4 FY26 revenue $10.41B, non-GAAP EPS $4.16; Q1 FY27 guide revenue $11.1B +/- $0.5B (14-week quarter), EPS $4.35 +/- $0.20. Roughly 0.80B diluted shares (market cap about $302B at $380.95 per MarketBeat), held flat with buybacks offsetting dilution. Share count and FY2028 EPS are my estimates; I could not open the 10-K or the full release (403), so figures come from press summaries.",
+    "bear": 224.0,
+    "base": 418.0,
+    "bull": 594.0,
+    "cases": {
+      "bear": {"driver": "Wafer fab equipment growth fades after 2027 (management sees more than 30% growth in 2027) and an AI-capex digestion plus China export limits cut FY2028 EPS about 24% below the base.", "assumption": "EPS $16.00 at 14x (trough-style multiple, in line with the Nov 2026 compression)", "target": 224.0},
+      "base": {"driver": "FY2027 EPS near $19 (quarterly path $4.35 rising to about $5), then roughly 15% growth in FY2028 as AI logic, DRAM and advanced packaging spending continues.", "assumption": "EPS $22.00 at 19x", "target": 418.0},
+      "bull": {"driver": "WFE keeps growing strongly into 2028 with packaging and mature-node recovery, lifting EPS about 23% above the base.", "assumption": "EPS $27.00 at 22x", "target": 594.0}
+    },
+    "implied_by_close": "At base EPS $22 the $370.50 close implies 16.8x; the 4-name analyst average target of $521 implies 23.7x on base EPS, or EPS $27.4 at 19x.",
+    "sensitivity": "One turn of P/E moves the base target by $22 (5.9 pp of the close).",
+    "watch_metric": "Semiconductor Systems revenue growth and the Q1 FY27 non-GAAP EPS against the $4.35 guide midpoint, tracking the more than 30% 2027 WFE growth call.",
+    "next_disclosure": "Fiscal Q1 2027 earnings, expected mid-February 2027 (date not confirmed)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Four named analysts (UBS, JPMorgan, Needham, B. Riley) all kept Buy-equivalent ratings but cut targets by 8% to 32% after the Nov 12 report, mostly citing sector multiple compression; their $470-$640 targets average about $521, 41% above the close, versus 12.8% for the base case, a 28 pp gap that equals about 4.7 turns of P/E or 25% more EPS than modeled. Wells Fargo, Stifel, Bernstein, TD Cowen, Jefferies, Bank of America and RBC also moved targets ($500-$600) but I could not source analyst names, so they are excluded. Horizons are unverified, so no call enters the weighted target; B. Riley's date (Nov 9) comes from a secondary article and may be unreliable.",
+  "sources": [
+    {"label": "UBS target cut (TIKR)", "url": "https://www.tikr.com/blog/ubs-cut-its-applied-materials-target-after-a-record-quarter-it-still-sees-68-upside", "supports": "UBS Arcuri target and rating"},
+    {"label": "Stocktwits post-earnings target cuts", "url": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL", "supports": "JPMorgan Sur and Needham Shi calls (via search summary)"},
+    {"label": "B. Riley target cut (TIKR)", "url": "https://www.tikr.com/ja/blog/b-riley-cut-its-applied-materials-target-to-475-it-still-sees-28-upside", "supports": "B. Riley Ellis target and rating"},
+    {"label": "Q4 FY2026 results press release", "url": "https://www.appliedmaterials.com/us/en/newsroom/press-releases/111226-applied-materials-announces-fourth-qtr-fiscal-year-end-2026-results.html", "supports": "FY26 revenue, EPS, Q1 FY27 guidance (via search summaries)"},
+    {"label": "MarketBeat Stifel cut", "url": "https://www.marketbeat.com/instant-alerts/analyst-applied-materials-nasdaq-amat-stock-price-target-cut-by-stifel-nicolaus-2026-11-13/", "supports": "Market cap, share count estimate, firm-level target moves"}
+  ]
+}

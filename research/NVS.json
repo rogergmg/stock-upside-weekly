@@ -1,0 +1,48 @@
+{
+ "issuer_id": "Novartis AG",
+ "symbol": "NVS",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 160.5, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-10-27T07:00:00+01:00",
+ "coverage": "partial",
+ "events": [
+  {"analyst": "Thibault Boutherin", "firm": "Morgan Stanley", "field": "target", "value": 163, "source_prior": 156, "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/nvs/forecast/"},
+  {"analyst": "Thibault Boutherin", "firm": "Morgan Stanley", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-28", "public_at": "2026-10-28T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/nvs/forecast/"},
+  {"analyst": "Sachin Jain", "firm": "Bank of America Securities", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-27", "public_at": "2026-10-27T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/nvs/forecast/"},
+  {"analyst": "Emmanuel Papadakis", "firm": "Deutsche Bank", "field": "target", "value": 136.9, "source_prior": 142.86, "issued_at": "2026-11-02", "public_at": "2026-11-02T02:40:00-05:00", "horizon_months": null, "source": "https://www.investing.com/news/analyst-ratings/deutsche-bank-downgrades-novartis-stock-rating-to-sell-on-valuation-93CH-4990069"},
+  {"analyst": "Emmanuel Papadakis", "firm": "Deutsche Bank", "field": "rating", "value": "Sell", "bucket": "Sell", "issued_at": "2026-11-02", "public_at": "2026-11-02T02:40:00-05:00", "source": "https://www.investing.com/news/analyst-ratings/deutsche-bank-downgrades-novartis-stock-rating-to-sell-on-valuation-93CH-4990069"},
+  {"analyst": "Rajesh Kumar", "firm": "HSBC", "field": "target", "value": 136, "source_prior": 123, "issued_at": "2026-09-10", "public_at": "2026-09-10T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/nvs/forecast/"},
+  {"analyst": "Rajesh Kumar", "firm": "HSBC", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-09-10", "public_at": "2026-09-10T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/nvs/forecast/"},
+  {"analyst": "Steve Scala", "firm": "TD Cowen", "field": "target", "value": 180, "issued_at": "2026-09-09", "public_at": "2026-09-09T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/nvs/forecast/"},
+  {"analyst": "Steve Scala", "firm": "TD Cowen", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-09-09", "public_at": "2026-09-09T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/nvs/forecast/"},
+  {"analyst": "Kerry Holford", "firm": "Berenberg Bank", "field": "target", "value": 147, "source_prior": 141, "issued_at": "2026-07-28", "public_at": "2026-07-28T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/nvs/forecast/"},
+  {"analyst": "Kerry Holford", "firm": "Berenberg Bank", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-07-28", "public_at": "2026-07-28T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/nvs/forecast/"}
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 core diluted EPS (USD, Novartis reports in USD) viewed at the Nov 2027 target date. ADR conversion: 1 NVS ADS = 1 Novartis AG ordinary share (ADR ratio from the FY2025 Form 20-F ADR footnote that the depositary JPMorgan Chase Bank holds one share per ADR, as returned by search; the cover-page text could not be opened directly, so confirm on the 20-F or the depositary page). Because EPS is reported in USD no FX is applied to the valuation; the ADR value equals the per-share value x 1. FX is only used for CHF analyst targets (SIX line): converted at USD/CHF 0.84 (CHF per USD; Trading Economics, Nov 13 2026 intraday touch, not an official close), i.e. CHF 115 = $136.90, and the same rate is applied to the prior CHF 120 = $142.86.",
+  "bear": 121.8,
+  "base": 163.2,
+  "bull": 195.7,
+  "cases": {
+   "bear": {"driver": "Generic erosion of Entresto, Tasigna and Promacta outpaces Kisqali, Pluvicto, Scemblix, Cosentyx and Leqvio growth, and the Avidity deal and R&D charges weigh on margin; core EPS falls about 5% from the FY2026 run-rate.", "assumption": "FY2027 core EPS $8.70 at 14.0x = $121.8", "target": 121.8},
+   "base": {"driver": "2026 guidance (net sales low single-digit growth; core operating income now low single-digit growth) holds, with 2027 sales growth of about 3-4%, core margin edging toward the 40%+ 2029 goal, and buybacks (up to $4.9bn remaining under the $10bn program) lowering the share count by about 1.5-2% a year.", "assumption": "FY2026E core EPS about $9.20 (9M26 $6.85 plus Q4 about $2.35, my estimate); FY2027E core EPS $9.60 at 17.0x = $163.2", "target": 163.2},
+   "bull": {"driver": "Pipeline and launches (Kisqali, Pluvicto, Scemblix, Leqvio, abelacimab) push mid-term sales growth to the 5-6% CAGR upper end, margin reaches 41-42% early, and buybacks continue.", "assumption": "FY2027 core EPS $10.30 at 19.0x = $195.7", "target": 195.7}
+  },
+  "implied_by_close": "At base FY2027 EPS $9.60 the close of $160.50 implies 16.7x (17.4x on FY2026E $9.20). The equal-weight USD-equivalent named target of about $152.8 implies 15.9x base EPS, or EPS of about $8.99 at a constant 17x.",
+  "sensitivity": "One turn of P/E moves the base target by $9.60 (6.0 pp of price return); $0.10 of FY2027 EPS moves it by $1.70 (1.1 pp).",
+  "watch_metric": "Core operating income growth and core EPS versus the $9.20 FY2026E run-rate, especially generic erosion of Entresto/Tasigna/Promacta against Kisqali, Pluvicto and Scemblix growth, and the 2027 core margin outlook.",
+  "next_disclosure": "Q4 and full-year 2026 results on February 3, 2027 (per the Q3 coverage on Quartr)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Six named analysts were found (Morgan Stanley, BofA, Deutsche Bank, HSBC, TD Cowen, Berenberg); JPMorgan, UBS, RBC, Jefferies, Bernstein and Barclays updates after the Oct 27 Q3 release were omitted because the sources do not name the analyst or give a target. Morgan Stanley raised $156 to $163 and Deutsche Bank downgraded to Sell with a CHF 115 target (about $136.9, cut from CHF 120), while TD Cowen's $180 Hold is Sept and the highest. The equal-weight named target of about $152.8 sits 4.9% below the close, about 6.6 pp under the +1.7% base return, which equals 15.9x versus the 17x base multiple; horizons are undocumented so none enter the weighted target, and three of the five targets predate the Q3 release. MarketScreener shows a Hold consensus of 23 analysts averaging $153.93.",
+ "sources": [
+  {"label": "Novartis Q3 2026 media release (Oct 27 2026)", "url": "https://www.novartis.com/news/media-releases/novartis-delivered-sales-growth-and-core-margin-expansion-q3-raised-fy-core-operating-income-guidance.md", "supports": "Core EPS, guidance, net debt, buyback, share count change"},
+  {"label": "Novartis FY2025 results release", "url": "https://www.novartis.com/news/media-releases/novartis-delivered-high-single-digit-sales-growth-achieved-40-core-margin-and-further-advanced-pipeline-2025.md", "supports": "FY2025 core EPS $8.98, Q4 2025 core EPS $2.03"},
+  {"label": "Novartis FY2025 Form 20-F", "url": "https://www.sec.gov/Archives/edgar/data/0001114448/000111444826000004/nvs-20251231.htm", "supports": "1 ADS = 1 ordinary share; 1,908,151,679 shares outstanding at Dec 31 2025"},
+  {"label": "StockAnalysis NVS forecast table", "url": "https://stockanalysis.com/stocks/nvs/forecast/", "supports": "Named USD targets and ratings for MS, BofA, HSBC, TD Cowen, Berenberg"},
+  {"label": "Investing.com Deutsche Bank downgrade", "url": "https://www.investing.com/news/analyst-ratings/deutsche-bank-downgrades-novartis-stock-rating-to-sell-on-valuation-93CH-4990069", "supports": "Papadakis Sell, CHF 115 from 120, Nov 2 2026"},
+  {"label": "MarketScreener Novartis consensus", "url": "https://www.marketscreener.com/quote/stock/NOVARTIS-AG-13838/consensus/", "supports": "Consensus Hold, $153.93 average target, dated broker actions"},
+  {"label": "Trading Economics: Swiss franc 17-month low", "url": "https://tradingeconomics.com/switzerland/currency/news/601255", "supports": "USD/CHF about 0.84 on Nov 13 2026"}
+ ]
+}

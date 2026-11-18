@@ -1,0 +1,233 @@
+{
+ "issuer_id": "Morgan Stanley",
+ "symbol": "MS",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 190.65,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-14T07:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Jason Goldberg",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 262,
+   "source_prior": null,
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Jason Goldberg",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Erika Najarian",
+   "firm": "UBS",
+   "field": "target",
+   "value": 240,
+   "source_prior": 236,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Erika Najarian",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Mikhail Paramonov",
+   "firm": "Freedom Capital Markets",
+   "field": "target",
+   "value": 210,
+   "source_prior": 245,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Mikhail Paramonov",
+   "firm": "Freedom Capital Markets",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Brennan Hawken",
+   "firm": "BMO Capital Markets",
+   "field": "target",
+   "value": 210,
+   "source_prior": 215,
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Brennan Hawken",
+   "firm": "BMO Capital Markets",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Kian Abouhossein",
+   "firm": "J.P. Morgan",
+   "field": "target",
+   "value": 198,
+   "source_prior": 195,
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Kian Abouhossein",
+   "firm": "J.P. Morgan",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Ebrahim Poonawala",
+   "firm": "Bank of America Securities",
+   "field": "target",
+   "value": 220,
+   "source_prior": 225,
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Ebrahim Poonawala",
+   "firm": "Bank of America Securities",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Glenn Schorr",
+   "firm": "Evercore ISI",
+   "field": "target",
+   "value": 205,
+   "source_prior": 215,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Glenn Schorr",
+   "firm": "Evercore ISI",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Scott Siefers",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 205,
+   "source_prior": 210,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  },
+  {
+   "analyst": "Scott Siefers",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ms/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Bank: tangible book value per common share (TBVPS) projected to the 12-month target date (Nov 2027) x P/TBV. Q3 2026 TBVPS $53.96 (up 10.9% from $48.64 a year earlier), ROTCE 22.6%, diluted EPS $3.03, CET1 14.9%. Base TBVPS grows about 9%/yr (ROTCE low 20s less dividends of $4.60/share and buybacks) to about $59.5 in Nov 2027. Steady-state check: P/TBV = (ROTCE 22% - g 6%)/(COE 10.5% - 6%) = 3.5x. Cross-check: $59.5 x 3.5 = $208, roughly 16x an assumed FY2027 EPS of about $13 (model assumption, not guidance). USD listing, no ADR conversion. Share count and TBVPS not independently verified in the 10-Q (fetch timed out); figures come from secondary summaries of the Q3 release.",
+  "bear": 147.0,
+  "base": 208.0,
+  "bull": 258.0,
+  "cases": {
+   "bear": {
+    "driver": "Market and credit stress cut trading and investment banking revenue, wealth-management net interest income and fees fall short, ROTCE drops to about 15%, buybacks slow so TBVPS grows only about 5%.",
+    "assumption": "TBVPS $56.5 at 2.6x P/TBV",
+    "target": 147.0
+   },
+   "base": {
+    "driver": "Wealth and investment management fees keep growing, trading holds near current run-rate, ROTCE stays about 20-22%, TBVPS compounds about 9% with steady buybacks and dividends.",
+    "assumption": "TBVPS $59.5 at 3.5x P/TBV",
+    "target": 208.0
+   },
+   "bull": {
+    "driver": "Strong capital-markets cycle and wealth inflows, ROTCE 24%+, lighter capital rules allow faster buybacks, TBVPS grows about 14%.",
+    "assumption": "TBVPS $61.5 at 4.2x P/TBV",
+    "target": 258.0
+   }
+  },
+  "implied_by_close": "The close of $190.65 is 3.53x Q3 TBVPS of $53.96 and 3.20x base Nov 2027 TBVPS of $59.5. The recency-weighted named-analyst target (about $225, dominated by Barclays $262 and UBS $240) implies about 3.8x base TBVPS, or TBVPS near $64 at a constant 3.5x.",
+  "sensitivity": "0.1x of P/TBV moves the base target by $5.95 (3.1 pp of price return); a full turn is $59.5 (31 pp). $1 of TBVPS moves the target $3.5.",
+  "watch_metric": "Reported ROTCE (base case needs about 20-22%) and TBVPS growth (base needs about 9% y/y), together with wealth-management net new assets and trading revenue.",
+  "next_disclosure": "Q4 2026 earnings, expected about mid-January 2027 (estimate; confirm on the company IR calendar)."
+ },
+ "dividend_per_share": 4.6,
+ "analyst_notes": "Eight named analysts issued post-Q3 calls (Oct 15 to Nov 6). Five trimmed targets after the Oct 14 print (Evercore, TD Cowen, BMO, Freedom, BofA) while Barclays ($262) and UBS (raised to $240) stayed high and J.P. Morgan nudged up to $198 with a Hold. Weighted target near $225 sits about 8% above the $208 base; that gap equals roughly 0.3x P/TBV or about $5 of TBVPS, assumptions unknown for the brokers. Target horizons are undocumented so none enter the weighted target, the sample is partial (8 of about 26 analysts), and one aggregator page (stockanalysis.com) is the source for every row.",
+ "sources": [
+  {
+   "label": "Analyst ratings feed (stockanalysis.com)",
+   "url": "https://stockanalysis.com/stocks/ms/ratings/",
+   "supports": "Named analyst targets, ratings, dates"
+  },
+  {
+   "label": "Q3 2026 earnings analysis (beancount.io)",
+   "url": "https://beancount.io/blog/2026/10/24/morgan-stanley-fy2026-q3-earnings-analysis",
+   "supports": "EPS, TBVPS, ROTCE, dividend, buybacks"
+  },
+  {
+   "label": "Q3 2026 results summary (Quartr)",
+   "url": "https://quartr.com/events/morgan-stanley-ms-q3-2026_3eZXrPEV",
+   "supports": "ROTCE 22.6%, TBVPS"
+  },
+  {
+   "label": "Stock forecast and consensus (beinsure.com)",
+   "url": "https://beinsure.com/news/morgan-stanley-nyse-ms-stock-price-forecast/",
+   "supports": "Consensus target $222.14, 26 analysts, Oct 14 close"
+  }
+ ]
+}

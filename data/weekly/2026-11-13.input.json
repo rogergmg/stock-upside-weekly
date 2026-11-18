@@ -6000,9 +6000,129 @@
         "high": 312441900811
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Thibault Boutherin",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 163,
+          "source_prior": 156,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        },
+        {
+          "analyst": "Thibault Boutherin",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        },
+        {
+          "analyst": "Sachin Jain",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        },
+        {
+          "analyst": "Emmanuel Papadakis",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 136.9,
+          "source_prior": 142.86,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T02:40:00-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/deutsche-bank-downgrades-novartis-stock-rating-to-sell-on-valuation-93CH-4990069"
+        },
+        {
+          "analyst": "Emmanuel Papadakis",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T02:40:00-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/deutsche-bank-downgrades-novartis-stock-rating-to-sell-on-valuation-93CH-4990069"
+        },
+        {
+          "analyst": "Rajesh Kumar",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 136,
+          "source_prior": 123,
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        },
+        {
+          "analyst": "Rajesh Kumar",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        },
+        {
+          "analyst": "Steve Scala",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 180,
+          "issued_at": "2026-09-09",
+          "public_at": "2026-09-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        },
+        {
+          "analyst": "Steve Scala",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-09",
+          "public_at": "2026-09-09T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        },
+        {
+          "analyst": "Kerry Holford",
+          "firm": "Berenberg Bank",
+          "field": "target",
+          "value": 147,
+          "source_prior": 141,
+          "issued_at": "2026-07-28",
+          "public_at": "2026-07-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        },
+        {
+          "analyst": "Kerry Holford",
+          "firm": "Berenberg Bank",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-07-28",
+          "public_at": "2026-07-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nvs/forecast/"
+        }
+      ],
+      "earnings_at": "2026-10-27T07:00:00+01:00",
+      "valuation": {
+        "bear": 121.8,
+        "base": 163.2,
+        "bull": 195.7
+      }
     },
     {
       "issuer_id": "Morgan Stanley",
@@ -6016,9 +6136,184 @@
         "high": 304318632000
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 262,
+          "source_prior": null,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 240,
+          "source_prior": 236,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 210,
+          "source_prior": 245,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Mikhail Paramonov",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Brennan Hawken",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 210,
+          "source_prior": 215,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Brennan Hawken",
+          "firm": "BMO Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Kian Abouhossein",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 198,
+          "source_prior": 195,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Kian Abouhossein",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 220,
+          "source_prior": 225,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Glenn Schorr",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 205,
+          "source_prior": 215,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Glenn Schorr",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Scott Siefers",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 205,
+          "source_prior": 210,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        },
+        {
+          "analyst": "Scott Siefers",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/ms/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-14T07:30:00-04:00",
+      "valuation": {
+        "bear": 147.0,
+        "base": 208.0,
+        "bull": 258.0
+      },
+      "dividend_per_share": 4.6
     },
     {
       "issuer_id": "Applied Materials, Inc.",
@@ -6032,9 +6327,99 @@
         "high": 299908409685
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Timothy Arcuri",
+          "firm": "UBS",
+          "field": "target",
+          "value": 640,
+          "source_prior": 695,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T16:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/ubs-cut-its-applied-materials-target-after-a-record-quarter-it-still-sees-68-upside"
+        },
+        {
+          "analyst": "Timothy Arcuri",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T16:00:00-05:00",
+          "source": "https://www.tikr.com/blog/ubs-cut-its-applied-materials-target-after-a-record-quarter-it-still-sees-68-upside"
+        },
+        {
+          "analyst": "Harlan Sur",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 500,
+          "source_prior": 660,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T16:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL"
+        },
+        {
+          "analyst": "Harlan Sur",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T16:00:00-05:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL"
+        },
+        {
+          "analyst": "Charles Shi",
+          "firm": "Needham",
+          "field": "target",
+          "value": 470,
+          "source_prior": 580,
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T16:00:00-05:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL"
+        },
+        {
+          "analyst": "Charles Shi",
+          "firm": "Needham",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-13",
+          "public_at": "2026-11-13T16:00:00-05:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/amat-gets-slew-of-price-target-cuts-even-after-beat-and-raise-quarter-morningstar-calls-ai-worries-overblown/cNbR5vBR9fL"
+        },
+        {
+          "analyst": "Craig Ellis",
+          "firm": "B. Riley",
+          "field": "target",
+          "value": 475,
+          "source_prior": 700,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/ja/blog/b-riley-cut-its-applied-materials-target-to-475-it-still-sees-28-upside"
+        },
+        {
+          "analyst": "Craig Ellis",
+          "firm": "B. Riley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://www.tikr.com/ja/blog/b-riley-cut-its-applied-materials-target-to-475-it-still-sees-28-upside"
+        }
+      ],
+      "earnings_at": "2026-11-12T16:05:00-05:00",
+      "valuation": {
+        "bear": 224.0,
+        "base": 418.0,
+        "bull": 594.0
+      }
     },
     {
       "issuer_id": "AstraZeneca PLC",
@@ -6048,9 +6433,244 @@
         "high": 291831101288
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Emmanuel Papadakis",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 158.12,
+          "source_prior": 154.17,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Emmanuel Papadakis",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Justin Smith",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 270.12,
+          "source_prior": 260.9,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Justin Smith",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Rajan Sharma",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 231.64,
+          "source_prior": 218.74,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Rajan Sharma",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Colin White",
+          "firm": "UBS",
+          "field": "target",
+          "value": 210.82,
+          "source_prior": 200.28,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Colin White",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Trung Huynh",
+          "firm": "RBC Capital Markets",
+          "field": "target",
+          "value": 200.94,
+          "source_prior": 191.06,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Trung Huynh",
+          "firm": "RBC Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "James Gordon",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 224.0,
+          "source_prior": 210.82,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "James Gordon",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Graham Parry",
+          "firm": "Citi",
+          "field": "target",
+          "value": 249.04,
+          "source_prior": 245.08,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Graham Parry",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Richard Vosser",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 210.82,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Richard Vosser",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Luisa Hector",
+          "firm": "Berenberg",
+          "field": "target",
+          "value": 197.65,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Luisa Hector",
+          "firm": "Berenberg",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Mattias Haggblom",
+          "firm": "Nordea Markets",
+          "field": "target",
+          "value": 187.95,
+          "source_prior": 163.22,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Mattias Haggblom",
+          "firm": "Nordea Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Rajesh Kumar",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 183.42,
+          "source_prior": 181.18,
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        },
+        {
+          "analyst": "Rajesh Kumar",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/azn/forecast"
+        }
+      ],
+      "earnings_at": "2026-10-30T07:00:00+00:00",
+      "valuation": {
+        "bear": 159.0,
+        "base": 205.0,
+        "bull": 240.0
+      }
     },
     {
       "issuer_id": "Lam Research Corporation",
@@ -6064,9 +6684,140 @@
         "high": 287856966566
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Craig Ellis",
+          "firm": "B. Riley Securities",
+          "field": "target",
+          "value": 390,
+          "source_prior": 350,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://tickernerd.com/stock/lrcx-forecast/"
+        },
+        {
+          "analyst": "Craig Ellis",
+          "firm": "B. Riley Securities",
+          "field": "target",
+          "value": 310,
+          "source_prior": 338,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lrcx/forecast/"
+        },
+        {
+          "analyst": "Craig Ellis",
+          "firm": "B. Riley Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/lrcx/forecast/"
+        },
+        {
+          "analyst": "Shane Brett",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 385,
+          "source_prior": 367,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://tickernerd.com/stock/lrcx-forecast/"
+        },
+        {
+          "analyst": "Shane Brett",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 339,
+          "source_prior": 385,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://tickernerd.com/stock/lrcx-forecast/"
+        },
+        {
+          "analyst": "Shane Brett",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://tickernerd.com/stock/lrcx-forecast/"
+        },
+        {
+          "analyst": "James Schneider",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 380,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lrcx/forecast/"
+        },
+        {
+          "analyst": "James Schneider",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/lrcx/forecast/"
+        },
+        {
+          "analyst": "Ling Lee Keng",
+          "firm": "DBS",
+          "field": "target",
+          "value": 416,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/lrcx/forecast/"
+        },
+        {
+          "analyst": "Ling Lee Keng",
+          "firm": "DBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/lrcx/forecast/"
+        },
+        {
+          "analyst": "C.J. Muse",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 500,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/10/19/lam-research-imploded-by-20-in-the-last-3-months-this-respected-wall-street-firm-says-its-about-to-double/"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/lrcx/forecast/"
+        }
+      ],
+      "earnings_at": "2026-10-21T16:05:00-04:00",
+      "valuation": {
+        "bear": 134,
+        "base": 260,
+        "bull": 361
+      },
+      "dividend_per_share": 1.32
     },
     {
       "issuer_id": "Royal Bank of Canada",

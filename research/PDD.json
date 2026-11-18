@@ -1,0 +1,198 @@
+{
+ "issuer_id": "PDD Holdings Inc.",
+ "symbol": "PDD",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 78.97,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-08-24T06:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Eddy Wang",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 90,
+   "source_prior": null,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Peter Milliken",
+   "firm": "Deutsche Bank",
+   "field": "target",
+   "value": 105,
+   "source_prior": null,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Andre Chang",
+   "firm": "J.P. Morgan",
+   "field": "target",
+   "value": 95,
+   "source_prior": 110,
+   "issued_at": "2026-09-10",
+   "public_at": "2026-09-10T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Shawn Yang",
+   "firm": "Arete Research",
+   "field": "target",
+   "value": 93,
+   "source_prior": null,
+   "issued_at": "2026-09-07",
+   "public_at": "2026-09-07T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Lei Yang",
+   "firm": "CGS International",
+   "field": "target",
+   "value": 114,
+   "source_prior": null,
+   "issued_at": "2026-08-27",
+   "public_at": "2026-08-27T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Joyce Ju",
+   "firm": "Bank of America Securities",
+   "field": "target",
+   "value": 117,
+   "source_prior": 113,
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Jiong Shao",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 89,
+   "source_prior": null,
+   "issued_at": "2026-08-26",
+   "public_at": "2026-08-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Ronald Keung",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 134,
+   "source_prior": 145,
+   "issued_at": "2026-08-25",
+   "public_at": "2026-08-25T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Eddy Wang",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Equal-weight",
+   "bucket": "Hold",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Peter Milliken",
+   "firm": "Deutsche Bank",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Ronald Keung",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-25",
+   "public_at": "2026-08-25T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  },
+  {
+   "analyst": "Andre Chang",
+   "firm": "J.P. Morgan",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-09-10",
+   "public_at": "2026-09-10T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/pdd/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward non-GAAP EPS x P/E, FY2027 EPS viewed at the Nov-2027 target date. Reported in RMB per ADS; 1 ADS = 4 ordinary shares; converted at an assumed USD/CNY 7.10 (approximate, not sourced from a dated print). Large net cash (reported above US$59bn at Q3 2025) supports a low operating multiple.",
+  "bear": 62.25,
+  "base": 87.89,
+  "bull": 117.75,
+  "cases": {
+   "bear": {
+    "driver": "Temu tariff/duty hit and domestic competition compress margins; heavy investment continues",
+    "assumption": "FY2027 non-GAAP EPS RMB68/ADS (US$9.58) at 6.5x",
+    "target": 62.25
+   },
+   "base": {
+    "driver": "Revenue growth high single digit, margins stabilise near Q2 2026 non-GAAP operating profit of RMB29.1bn per quarter",
+    "assumption": "FY2027 non-GAAP EPS RMB78/ADS (US$10.99) at 8.0x",
+    "target": 87.89
+   },
+   "bull": {
+    "driver": "Margins recover and buybacks/capital return start",
+    "assumption": "FY2027 non-GAAP EPS RMB88/ADS (US$12.39) at 9.5x",
+    "target": 117.75
+   }
+  },
+  "implied_by_close": "At base EPS US$10.99 the close implies 7.2x; a US$105 target implies 9.6x or EPS about US$13.1.",
+  "sensitivity": "One turn of P/E moves the base target by about $11 (14 pp)",
+  "watch_metric": "Non-GAAP operating profit margin and any announced shareholder-return program",
+  "next_disclosure": "Q3 2026 results, expected 2026-11-19 (before US open)",
+  "dividend_per_share": null,
+  "analyst_notes": "Named views have turned more cautious since the Aug 24 results: Morgan Stanley cut to Equal-weight with a $90 target (from $129 per press) and JPMorgan cut to $95, while Deutsche Bank upgraded to Buy at $105. Goldman remains the high Buy at $134. Targets cluster near $90-117, above this base case partly via 9-10x multiples; EPS and FX are my estimates and no broker documents a 12-month horizon, so horizons are null."
+ },
+ "sources": [
+  {
+   "label": "StockAnalysis PDD analyst ratings",
+   "url": "https://stockanalysis.com/stocks/pdd/ratings/",
+   "supports": "analyst targets and ratings"
+  },
+  {
+   "label": "PDD Q2 2026 results summary",
+   "url": "https://finviz.com/news/384666/pdd-holdings-announces-second-quarter-2026-unaudited-financial-results",
+   "supports": "non-GAAP EPS RMB19.33, revenue RMB112.4bn"
+  },
+  {
+   "label": "MarketBeat JPMorgan target cut",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-lowers-pdd-nasdaq-pdd-price-target-to-9500-2026-09-10/",
+   "supports": "JPMorgan $95"
+  },
+  {
+   "label": "Blockchain.News Morgan Stanley cut",
+   "url": "https://blockchain.news/news/20261116-price-prediction-target-pdd-morgan-stanley-cuts-as-pdd-holds",
+   "supports": "Morgan Stanley downgrade"
+  },
+  {
+   "label": "Marketchameleon Q3 2025 results",
+   "url": "https://marketchameleon.com/articles/b/2025/11/18/pdd-holdings-posts-record-q3-profit-cash-reserves-surge-past-59-billion",
+   "supports": "net cash"
+  }
+ ]
+}

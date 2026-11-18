@@ -1,0 +1,202 @@
+{
+ "issuer_id": "Western Digital Corporation",
+ "symbol": "WDC",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 295.65,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-22T16:05:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Baird analyst",
+   "firm": "Baird",
+   "field": "target",
+   "value": 900,
+   "source_prior": 630,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "Baird analyst",
+   "firm": "Baird",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "Bank of America analyst",
+   "firm": "Bank of America",
+   "field": "target",
+   "value": 800,
+   "source_prior": 720,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "Morgan Stanley analyst",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 668,
+   "source_prior": 643,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "Morgan Stanley analyst",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "Cantor Fitzgerald analyst",
+   "firm": "Cantor Fitzgerald",
+   "field": "target",
+   "value": 625,
+   "source_prior": 900,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "Cantor Fitzgerald analyst",
+   "firm": "Cantor Fitzgerald",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "Rosenblatt analyst",
+   "firm": "Rosenblatt",
+   "field": "target",
+   "value": 650,
+   "source_prior": 800,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "Rosenblatt analyst",
+   "firm": "Rosenblatt",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "TD Cowen analyst",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 430,
+   "source_prior": 540,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "TD Cowen analyst",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.benzinga.com/node/62557311"
+  },
+  {
+   "analyst": "UBS analyst",
+   "firm": "UBS",
+   "field": "target",
+   "value": 470,
+   "source_prior": 525,
+   "issued_at": "2026-10-13",
+   "public_at": "2026-10-13T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/western-digital-nasdaqwdc-downgraded-to-hold-rating-by-summit-insights-2026-08-06/"
+  },
+  {
+   "analyst": "Summit Insights analyst",
+   "firm": "Summit Insights",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-08-06",
+   "public_at": "2026-08-06T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/western-digital-nasdaqwdc-downgraded-to-hold-rating-by-summit-insights-2026-08-06/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2028 (Jul-2028) non-GAAP diluted EPS as priced at the Nov-2027 target date. Anchored on FQ1'27 non-GAAP EPS $4.64 and FQ2 guide $5.80 (~380M diluted shares); US common listing, no ADR conversion.",
+  "bear": 171.0,
+  "base": 351.0,
+  "bull": 495.0,
+  "cases": {
+   "bear": {
+    "driver": "HDD pricing rolls over, margins fall toward 50%",
+    "assumption": "EPS $19 at 9x",
+    "target": 171.0
+   },
+   "base": {
+    "driver": "Pricing holds, 60% gross margin, modest exabyte growth, buybacks",
+    "assumption": "EPS $27 at 13x",
+    "target": 351.0
+   },
+   "bull": {
+    "driver": "AI data-center demand extends, HAMR ramp lifts margin",
+    "assumption": "EPS $33 at 15x",
+    "target": 495.0
+   }
+  },
+  "implied_by_close": "At base EPS $27 the close implies 10.9x; the ~$600 analyst-weighted target implies 22x or EPS about $46 at 13x",
+  "sensitivity": "One turn of P/E moves the base target by $27 (9.1 pp)",
+  "watch_metric": "Non-GAAP gross margin versus the 60-61% FQ2 guide, plus HDD price per terabyte",
+  "next_disclosure": "Fiscal Q2 2027 results, expected late January 2027"
+ },
+ "dividend_per_share": 0.7,
+ "analyst_notes": "Post-FQ1 targets were mixed: Baird raised to $900 while Cantor, Rosenblatt and TD Cowen cut. Most targets sit well above the base case; the gap equals roughly 9 turns of P/E or about 70% higher EPS. Individual dates are approximate (search-aggregated, date-only) and horizons are undocumented, so they stay out of the weighted target.",
+ "sources": [
+  {
+   "label": "WD FQ1 2027 press release",
+   "url": "https://westerndigital.com/company/newsroom/press-releases/2026/2026-10-22-wd-reports-fiscal-first-quarter-2027-financial-results",
+   "supports": "EPS, guidance, dividend, shares"
+  },
+  {
+   "label": "SEC 8-K FQ1 2027",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000106040/000162828026066882/a4ex991-pressreleaseq127.htm",
+   "supports": "financials"
+  },
+  {
+   "label": "Benzinga analyst roundup",
+   "url": "https://www.benzinga.com/node/62557311",
+   "supports": "post-earnings targets"
+  },
+  {
+   "label": "MarketBeat Summit downgrade",
+   "url": "https://www.marketbeat.com/instant-alerts/western-digital-nasdaqwdc-downgraded-to-hold-rating-by-summit-insights-2026-08-06/",
+   "supports": "Summit rating"
+  }
+ ]
+}

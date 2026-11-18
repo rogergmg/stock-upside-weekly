@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T16:01:46.777850+00:00",
+  "built_at": "2026-11-18T16:03:13.880587+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 142,
+    "rank_valued": 147,
     "rank_with_named_targets": 2,
-    "rank_matched": 142,
-    "researched": 142
+    "rank_matched": 147,
+    "researched": 147
   },
   "ranked": [
     {
@@ -290,6 +290,27 @@
         "bull": 77.17541501826648
       },
       "base_total_return_pct": 19.828124704234416,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "WDC",
+      "issuer_id": "Western Digital Corporation",
+      "close": 295.65,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 108455300990,
+        "high": 112882047970
+      },
+      "scenarios_pct": {
+        "bear": -42.16133942161339,
+        "base": 18.72146118721461,
+        "bull": 67.42770167427702
+      },
+      "base_total_return_pct": 18.95822763402672,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -708,6 +729,27 @@
         "bear": -21.73913043478261,
         "base": 11.554167667547441,
         "bull": 59.356233485467214
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "PDD",
+      "issuer_id": "PDD Holdings Inc.",
+      "close": 78.97,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 110157506232,
+        "high": 114653730976
+      },
+      "scenarios_pct": {
+        "bear": -21.172597188805877,
+        "base": 11.29542864378878,
+        "bull": 49.10725591996961
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -1997,6 +2039,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "MAR",
+      "issuer_id": "Marriott International, Inc.",
+      "close": 423.16,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 106786249422,
+        "high": 111144871848
+      },
+      "scenarios_pct": {
+        "bear": -17.761603176103602,
+        "base": 2.797996029870498,
+        "bull": 17.449664429530202
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "HSBC",
       "issuer_id": "HSBC Holdings plc",
       "close": 89.62,
@@ -2033,6 +2096,27 @@
         "bull": 37.882269754286725
       },
       "base_total_return_pct": 3.447056743857168,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "ABNB",
+      "issuer_id": "Airbnb, Inc.",
+      "close": 186.78,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 107546308925,
+        "high": 113688697707
+      },
+      "scenarios_pct": {
+        "bear": -34.04004711425206,
+        "base": 2.4734982332155475,
+        "bull": 28.493414712495984
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -2963,6 +3047,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "NET",
+      "issuer_id": "Cloudflare, Inc.",
+      "close": 305.81,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 107407936792,
+        "high": 111821179020
+      },
+      "scenarios_pct": {
+        "bear": -42.611425394853015,
+        "base": -9.747882672247474,
+        "bull": 19.028154736601156
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "MPC",
       "issuer_id": "Marathon Petroleum Corporation",
       "close": 414.65,
@@ -3008,26 +3113,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PDD",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "WDC",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ABNB",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "NET",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MAR",
       "reason": "independent valuation unavailable"
     },
     {
@@ -59782,6 +59867,1806 @@
           "status_at_cutoff": "unknown or different horizon"
         }
       ]
+    },
+    "PDD": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 78.97,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward non-GAAP EPS x P/E, FY2027 EPS viewed at the Nov-2027 target date. Reported in RMB per ADS; 1 ADS = 4 ordinary shares; converted at an assumed USD/CNY 7.10 (approximate, not sourced from a dated print). Large net cash (reported above US$59bn at Q3 2025) supports a low operating multiple.",
+        "bear": 62.25,
+        "base": 87.89,
+        "bull": 117.75,
+        "cases": {
+          "bear": {
+            "driver": "Temu tariff/duty hit and domestic competition compress margins; heavy investment continues",
+            "assumption": "FY2027 non-GAAP EPS RMB68/ADS (US$9.58) at 6.5x",
+            "target": 62.25
+          },
+          "base": {
+            "driver": "Revenue growth high single digit, margins stabilise near Q2 2026 non-GAAP operating profit of RMB29.1bn per quarter",
+            "assumption": "FY2027 non-GAAP EPS RMB78/ADS (US$10.99) at 8.0x",
+            "target": 87.89
+          },
+          "bull": {
+            "driver": "Margins recover and buybacks/capital return start",
+            "assumption": "FY2027 non-GAAP EPS RMB88/ADS (US$12.39) at 9.5x",
+            "target": 117.75
+          }
+        },
+        "implied_by_close": "At base EPS US$10.99 the close implies 7.2x; a US$105 target implies 9.6x or EPS about US$13.1.",
+        "sensitivity": "One turn of P/E moves the base target by about $11 (14 pp)",
+        "watch_metric": "Non-GAAP operating profit margin and any announced shareholder-return program",
+        "next_disclosure": "Q3 2026 results, expected 2026-11-19 (before US open)",
+        "dividend_per_share": null,
+        "analyst_notes": "Named views have turned more cautious since the Aug 24 results: Morgan Stanley cut to Equal-weight with a $90 target (from $129 per press) and JPMorgan cut to $95, while Deutsche Bank upgraded to Buy at $105. Goldman remains the high Buy at $134. Targets cluster near $90-117, above this base case partly via 9-10x multiples; EPS and FX are my estimates and no broker documents a 12-month horizon, so horizons are null."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": null,
+      "sources": [
+        {
+          "label": "StockAnalysis PDD analyst ratings",
+          "url": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "supports": "analyst targets and ratings"
+        },
+        {
+          "label": "PDD Q2 2026 results summary",
+          "url": "https://finviz.com/news/384666/pdd-holdings-announces-second-quarter-2026-unaudited-financial-results",
+          "supports": "non-GAAP EPS RMB19.33, revenue RMB112.4bn"
+        },
+        {
+          "label": "MarketBeat JPMorgan target cut",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-lowers-pdd-nasdaq-pdd-price-target-to-9500-2026-09-10/",
+          "supports": "JPMorgan $95"
+        },
+        {
+          "label": "Blockchain.News Morgan Stanley cut",
+          "url": "https://blockchain.news/news/20261116-price-prediction-target-pdd-morgan-stanley-cuts-as-pdd-holds",
+          "supports": "Morgan Stanley downgrade"
+        },
+        {
+          "label": "Marketchameleon Q3 2025 results",
+          "url": "https://marketchameleon.com/articles/b/2025/11/18/pdd-holdings-posts-record-q3-profit-cash-reserves-surge-past-59-billion",
+          "supports": "net cash"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-24T06:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 39.5,
+        "max_weight_pct": 32.1993048743904,
+        "contributors": [
+          {
+            "analyst": "Andre Chang",
+            "firm": "J.P. Morgan",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-09-10",
+            "age_days": 64,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+            "weight": 0.2028429100161353
+          },
+          {
+            "analyst": "Eddy Wang",
+            "firm": "Morgan Stanley",
+            "value": "Equal-weight",
+            "bucket": "Hold",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+            "weight": 0.321993048743904
+          },
+          {
+            "analyst": "Peter Milliken",
+            "firm": "Deutsche Bank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+            "weight": 0.295837988645591
+          },
+          {
+            "analyst": "Ronald Keung",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-25",
+            "age_days": 80,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+            "weight": 0.1793260525943697
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 47.51640412399607,
+          "Hold": 52.48359587600393,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Andre Chang",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Andre Chang",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 95.0,
+          "source_prior": 110,
+          "issued_at": "2026-09-10",
+          "public_at": "2026-09-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "revision_pct": -13.636363636363635,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Eddy Wang",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal-weight",
+          "bucket": "Hold",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Eddy Wang",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 90.0,
+          "source_prior": null,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jiong Shao",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 89.0,
+          "source_prior": null,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joyce Ju",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 117.0,
+          "source_prior": 113,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "revision_pct": 3.539823008849563,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Lei Yang",
+          "firm": "CGS International",
+          "field": "target",
+          "value": 114.0,
+          "source_prior": null,
+          "issued_at": "2026-08-27",
+          "public_at": "2026-08-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Peter Milliken",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Peter Milliken",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 105.0,
+          "source_prior": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ronald Keung",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-25",
+          "public_at": "2026-08-25T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ronald Keung",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 134.0,
+          "source_prior": 145,
+          "issued_at": "2026-08-25",
+          "public_at": "2026-08-25T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "revision_pct": -7.586206896551728,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Shawn Yang",
+          "firm": "Arete Research",
+          "field": "target",
+          "value": 93.0,
+          "source_prior": null,
+          "issued_at": "2026-09-07",
+          "public_at": "2026-09-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "WDC": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 295.65,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2028 (Jul-2028) non-GAAP diluted EPS as priced at the Nov-2027 target date. Anchored on FQ1'27 non-GAAP EPS $4.64 and FQ2 guide $5.80 (~380M diluted shares); US common listing, no ADR conversion.",
+        "bear": 171.0,
+        "base": 351.0,
+        "bull": 495.0,
+        "cases": {
+          "bear": {
+            "driver": "HDD pricing rolls over, margins fall toward 50%",
+            "assumption": "EPS $19 at 9x",
+            "target": 171.0
+          },
+          "base": {
+            "driver": "Pricing holds, 60% gross margin, modest exabyte growth, buybacks",
+            "assumption": "EPS $27 at 13x",
+            "target": 351.0
+          },
+          "bull": {
+            "driver": "AI data-center demand extends, HAMR ramp lifts margin",
+            "assumption": "EPS $33 at 15x",
+            "target": 495.0
+          }
+        },
+        "implied_by_close": "At base EPS $27 the close implies 10.9x; the ~$600 analyst-weighted target implies 22x or EPS about $46 at 13x",
+        "sensitivity": "One turn of P/E moves the base target by $27 (9.1 pp)",
+        "watch_metric": "Non-GAAP gross margin versus the 60-61% FQ2 guide, plus HDD price per terabyte",
+        "next_disclosure": "Fiscal Q2 2027 results, expected late January 2027"
+      },
+      "dividend_per_share": 0.7,
+      "analyst_notes": "Post-FQ1 targets were mixed: Baird raised to $900 while Cantor, Rosenblatt and TD Cowen cut. Most targets sit well above the base case; the gap equals roughly 9 turns of P/E or about 70% higher EPS. Individual dates are approximate (search-aggregated, date-only) and horizons are undocumented, so they stay out of the weighted target.",
+      "sources": [
+        {
+          "label": "WD FQ1 2027 press release",
+          "url": "https://westerndigital.com/company/newsroom/press-releases/2026/2026-10-22-wd-reports-fiscal-first-quarter-2027-financial-results",
+          "supports": "EPS, guidance, dividend, shares"
+        },
+        {
+          "label": "SEC 8-K FQ1 2027",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000106040/000162828026066882/a4ex991-pressreleaseq127.htm",
+          "supports": "financials"
+        },
+        {
+          "label": "Benzinga analyst roundup",
+          "url": "https://www.benzinga.com/node/62557311",
+          "supports": "post-earnings targets"
+        },
+        {
+          "label": "MarketBeat Summit downgrade",
+          "url": "https://www.marketbeat.com/instant-alerts/western-digital-nasdaqwdc-downgraded-to-hold-rating-by-summit-insights-2026-08-06/",
+          "supports": "Summit rating"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-22T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 21.0,
+        "max_weight_pct": 18.023173328043587,
+        "contributors": [
+          {
+            "analyst": "Baird analyst",
+            "firm": "Baird",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/node/62557311",
+            "weight": 0.18023173328043587
+          },
+          {
+            "analyst": "Cantor Fitzgerald analyst",
+            "firm": "Cantor Fitzgerald",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/node/62557311",
+            "weight": 0.18023173328043587
+          },
+          {
+            "analyst": "Morgan Stanley analyst",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/node/62557311",
+            "weight": 0.18023173328043587
+          },
+          {
+            "analyst": "Rosenblatt analyst",
+            "firm": "Rosenblatt",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/node/62557311",
+            "weight": 0.18023173328043587
+          },
+          {
+            "analyst": "Summit Insights analyst",
+            "firm": "Summit Insights",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-08-06",
+            "age_days": 99,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/western-digital-nasdaqwdc-downgraded-to-hold-rating-by-summit-insights-2026-08-06/",
+            "weight": 0.09884133359782066
+          },
+          {
+            "analyst": "TD Cowen analyst",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/node/62557311",
+            "weight": 0.18023173328043587
+          }
+        ],
+        "counts": {
+          "Buy": 5,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 90.11586664021793,
+          "Hold": 9.884133359782066,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Baird analyst",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Baird analyst",
+          "firm": "Baird",
+          "field": "target",
+          "value": 900.0,
+          "source_prior": 630,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "revision_pct": 42.85714285714286,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 800.0,
+          "source_prior": 720,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "revision_pct": 11.111111111111116,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Cantor Fitzgerald analyst",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 625.0,
+          "source_prior": 900,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "revision_pct": -30.555555555555557,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 668.0,
+          "source_prior": 643,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "revision_pct": 3.8880248833592645,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Rosenblatt analyst",
+          "firm": "Rosenblatt",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Rosenblatt analyst",
+          "firm": "Rosenblatt",
+          "field": "target",
+          "value": 650.0,
+          "source_prior": 800,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "revision_pct": -18.75,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Summit Insights analyst",
+          "firm": "Summit Insights",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/western-digital-nasdaqwdc-downgraded-to-hold-rating-by-summit-insights-2026-08-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 430.0,
+          "source_prior": 540,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/node/62557311",
+          "prior_observed": null,
+          "revision_pct": -20.370370370370374,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "UBS analyst",
+          "firm": "UBS",
+          "field": "target",
+          "value": 470.0,
+          "source_prior": 525,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/western-digital-nasdaqwdc-downgraded-to-hold-rating-by-summit-insights-2026-08-06/",
+          "prior_observed": null,
+          "revision_pct": -10.476190476190473,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ABNB": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 186.78,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 diluted GAAP EPS viewed at the 12-month target date). Q3 2026 diluted EPS $3.16 incl. a $135M tax benefit; Q3 revenue $4.87B (+19%), FCF $1.4B, $12.6B cash and investments, new $12B buyback; Q4 revenue guide $3.22-3.28B, FY adj. EBITDA margin ~36%. FY2027 EPS are my own modeled assumptions (revenue growth low-teens to high-teens, stable ~36% margin, buyback shrink of share count), not sourced company guidance.",
+        "bear": 123.2,
+        "base": 191.4,
+        "bull": 240.0,
+        "cases": {
+          "bear": {
+            "driver": "Travel demand slows, Europe/Middle East weakness, tax tailwind fades",
+            "assumption": "EPS $5.60 at 22x",
+            "target": 123.2
+          },
+          "base": {
+            "driver": "Revenue growth low-to-mid teens, ~36% EBITDA margin, buybacks",
+            "assumption": "EPS $6.60 at 29x",
+            "target": 191.4
+          },
+          "bull": {
+            "driver": "Sustained high-teens growth, margin expansion, new services",
+            "assumption": "EPS $7.50 at 32x",
+            "target": 240.0
+          }
+        },
+        "implied_by_close": "At base EPS $6.60 the close implies 28.3x; the analyst-weighted target (~$210) implies about 31.8x or EPS about $7.24 at 29x",
+        "sensitivity": "One turn of P/E moves the base target by $6.60 (3.5 pp)",
+        "watch_metric": "Nights and seats booked growth and full-year adjusted EBITDA margin vs ~36%",
+        "next_disclosure": "Q4 and FY2026 results, expected February 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "After the Nov 5 Q3 report, named firms raised targets by $15-45 (Cantor to $180, Barclays to $195, Evercore to $230). Targets of $215-230 from bullish firms sit about 11-23% above close, implying either roughly 10% higher EPS or about 3 more turns than the base case. Calls cluster within days of earnings and horizons are undocumented, so none enter the weighted target. Analyst names mostly unavailable from secondary reports.",
+      "sources": [
+        {
+          "label": "Airbnb Q3 2026 results",
+          "url": "https://www.morningstar.com/news/pr-newswire/20261105sf78241/airbnb-announces-third-quarter-2026-results",
+          "supports": "EPS, revenue, outlook"
+        },
+        {
+          "label": "Q3 2026 buyback summary",
+          "url": "https://kalkine.ca/news/travel/how-big-is-a-usd-12-billion-buyback-for-airbnb-nasdaq-abnb-after-its-q3-beat",
+          "supports": "Buyback, cash"
+        },
+        {
+          "label": "Q3 call highlights",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-airbnb-q3-earnings-call-highlights-2026-11-05/",
+          "supports": "Call commentary"
+        },
+        {
+          "label": "Evercore target",
+          "url": "https://www.investing.com/news/analyst-ratings/evercore-isi-raises-airbnb-stock-price-target-to-230-on-product-strength-93CH-5007075",
+          "supports": "Evercore ISI target"
+        },
+        {
+          "label": "Jefferies target",
+          "url": "https://www.dailypolitical.com/2026/11/11/airbnb-nasdaqabnb-price-target-raised-to-230-00.html",
+          "supports": "Jefferies target"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-05T16:05:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 6,
+        "earnings_order_unknown": 0,
+        "median_age_days": 7.0,
+        "max_weight_pct": 16.666666666666664,
+        "contributors": [
+          {
+            "analyst": "Barclays analyst",
+            "firm": "Barclays",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-price-target-raised-to-19500-2026-11-06/",
+            "weight": 0.16666666666666666
+          },
+          {
+            "analyst": "Canaccord analyst",
+            "firm": "Canaccord",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://www.investing.com/news/analyst-ratings/canaccord-raises-airbnb-stock-price-target-to-225-on-q3-beat-93CH-5007040",
+            "weight": 0.16666666666666666
+          },
+          {
+            "analyst": "Deepak Mathivanan",
+            "firm": "Cantor Fitzgerald",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://www.gurufocus.com/news/9181015/abnb-maintained-by-cantor-fitzgerald-price-target-raised-to-180",
+            "weight": 0.16666666666666666
+          },
+          {
+            "analyst": "Evercore ISI analyst",
+            "firm": "Evercore ISI",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://www.investing.com/news/analyst-ratings/evercore-isi-raises-airbnb-stock-price-target-to-230-on-product-strength-93CH-5007075",
+            "weight": 0.16666666666666666
+          },
+          {
+            "analyst": "Susquehanna analyst",
+            "firm": "Susquehanna",
+            "value": "Positive",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-stock-price-expected-to-rise-susquehanna-analyst-says-2026-11-06/",
+            "weight": 0.16666666666666666
+          },
+          {
+            "analyst": "Wells Fargo analyst",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-stock-gets-price-target-increase-from-wells-fargo-company-2026-11-06/",
+            "weight": 0.16666666666666666
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 66.66666666666666,
+          "Hold": 33.33333333333333,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Barclays analyst",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-price-target-raised-to-19500-2026-11-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Barclays analyst",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 195.0,
+          "source_prior": 150,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-price-target-raised-to-19500-2026-11-06/",
+          "prior_observed": null,
+          "revision_pct": 30.000000000000004,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Canaccord analyst",
+          "firm": "Canaccord",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/canaccord-raises-airbnb-stock-price-target-to-225-on-q3-beat-93CH-5007040",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Canaccord analyst",
+          "firm": "Canaccord",
+          "field": "target",
+          "value": 225.0,
+          "source_prior": 200,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/canaccord-raises-airbnb-stock-price-target-to-225-on-q3-beat-93CH-5007040",
+          "prior_observed": null,
+          "revision_pct": 12.5,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.gurufocus.com/news/9181015/abnb-maintained-by-cantor-fitzgerald-price-target-raised-to-180",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Deepak Mathivanan",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 180.0,
+          "source_prior": 160,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9181015/abnb-maintained-by-cantor-fitzgerald-price-target-raised-to-180",
+          "prior_observed": null,
+          "revision_pct": 12.5,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Evercore ISI analyst",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/evercore-isi-raises-airbnb-stock-price-target-to-230-on-product-strength-93CH-5007075",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Evercore ISI analyst",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 230.0,
+          "source_prior": 200,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/evercore-isi-raises-airbnb-stock-price-target-to-230-on-product-strength-93CH-5007075",
+          "prior_observed": null,
+          "revision_pct": 14.999999999999991,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jefferies analyst",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 230.0,
+          "source_prior": 215,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.dailypolitical.com/2026/11/11/airbnb-nasdaqabnb-price-target-raised-to-230-00.html",
+          "prior_observed": null,
+          "revision_pct": 6.976744186046502,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Susquehanna analyst",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Positive",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-stock-price-expected-to-rise-susquehanna-analyst-says-2026-11-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Susquehanna analyst",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 220.0,
+          "source_prior": 200,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-stock-price-expected-to-rise-susquehanna-analyst-says-2026-11-06/",
+          "prior_observed": null,
+          "revision_pct": 10.000000000000009,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-stock-gets-price-target-increase-from-wells-fargo-company-2026-11-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 215.0,
+          "source_prior": 185,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-airbnb-nasdaq-abnb-stock-gets-price-target-increase-from-wells-fargo-company-2026-11-06/",
+          "prior_observed": null,
+          "revision_pct": 16.216216216216207,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "NET": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 305.81,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward non-GAAP EPS x P/E at the 12-month target date (about 2027-11-18), when the forward twelve months are mostly FY2028 (year ending December 2028). FY2026 non-GAAP EPS guidance is $1.35 (Q4 $0.43) on about 376 million weighted shares, from the Q3 release of 5 November 2026; Q3 revenue was $782.5 million, up 39%. FY2028 EPS values are model assumptions, not guidance: bear $1.95, base $2.30, bull $2.60. Non-GAAP EPS excludes stock-based compensation; Q3 GAAP net loss was $34.1 million. USD NYSE listing, no FX conversion.",
+        "bear": 175.5,
+        "base": 276.0,
+        "bull": 364.0,
+        "cases": {
+          "bear": {
+            "driver": "Growth slows toward the mid-20s percent and the premium multiple compresses",
+            "assumption": "FY2028 EPS $1.95 at 90x",
+            "target": 175.5
+          },
+          "base": {
+            "driver": "Revenue growth in the low 30s percent with steady operating leverage from the 18% non-GAAP margin",
+            "assumption": "FY2028 EPS $2.30 at 120x",
+            "target": 276.0
+          },
+          "bull": {
+            "driver": "AI-driven demand keeps growth near 40% and margins expand faster",
+            "assumption": "FY2028 EPS $2.60 at 140x",
+            "target": 364.0
+          }
+        },
+        "implied_by_close": "At base EPS $2.30 the close of $305.81 implies 133x; on FY2026 guidance of $1.35 it implies 227x. The named-analyst average target of about $337 implies 147x base EPS, or $2.81 EPS at 120x (about 22% above base EPS).",
+        "sensitivity": "One turn of P/E moves the base target by $2.30 (0.8 pp of the close). A $0.10 change in FY2028 EPS moves it by $12.00 (3.9 pp of the close).",
+        "watch_metric": "Revenue growth staying near 39% and non-GAAP operating margin rising from 18%, which together set the FY2028 EPS path",
+        "next_disclosure": "Q4 and FY2026 results, expected February 2027 (date not confirmed by the company)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Eight named views dated 6 to 10 November 2026, all after Q3 results. Targets run $300 to $380, with UBS cut to $300 from $350 and Cantor to $310 from $340 while both stay Hold. Wolfe upgraded to Buy without a published target. The named-analyst average of about $337 sits above our $276 base, which equals roughly $0.5 of FY2028 EPS or 27 turns of P/E; target horizons are undocumented so none enter the weighted target.",
+      "sources": [
+        {
+          "label": "Q3 2026 results release",
+          "url": "https://finviz.com/news/417855/cloudflare-announces-third-quarter-2026-financial-results",
+          "supports": "EPS, guidance, shares"
+        },
+        {
+          "label": "StockAnalysis NET ratings",
+          "url": "https://stockanalysis.com/stocks/net/ratings/",
+          "supports": "analyst ratings and targets"
+        },
+        {
+          "label": "24/7 Wall St Q3 2026",
+          "url": "https://247wallst.com/cards/cloudflare-q3-2026-earnings-net-01m6psg0byw1kqkd514aq3zgkb",
+          "supports": "Q3 results context"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-05T15:15:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 7.0,
+        "max_weight_pct": 12.840857327435218,
+        "contributors": [
+          {
+            "analyst": "Adam Borg",
+            "firm": "Stifel Nicolaus",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/net/ratings/",
+            "weight": 0.12451306096080683
+          },
+          {
+            "analyst": "Axel Herlinghaus",
+            "firm": "DZ BANK AG",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-10",
+            "age_days": 3,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/net/ratings/",
+            "weight": 0.12840857327435218
+          },
+          {
+            "analyst": "Joshua Tilton",
+            "firm": "Wolfe Research",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/net/ratings/",
+            "weight": 0.12451306096080683
+          },
+          {
+            "analyst": "Junaid Siddiqui",
+            "firm": "Truist Financial",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/net/ratings/",
+            "weight": 0.12451306096080683
+          },
+          {
+            "analyst": "Roger Boyd",
+            "firm": "UBS",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/net/ratings/",
+            "weight": 0.12451306096080683
+          },
+          {
+            "analyst": "Sanjit Singh",
+            "firm": "Morgan Stanley",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/net/ratings/",
+            "weight": 0.12451306096080683
+          },
+          {
+            "analyst": "Tal Liani",
+            "firm": "Bank of America Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/net/ratings/",
+            "weight": 0.12451306096080683
+          },
+          {
+            "analyst": "Thomas Blakey",
+            "firm": "Cantor Fitzgerald",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/net/ratings/",
+            "weight": 0.12451306096080683
+          }
+        ],
+        "counts": {
+          "Buy": 6,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 75.09738780783863,
+          "Hold": 24.902612192161367,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Adam Borg",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Adam Borg",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 370.0,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Axel Herlinghaus",
+          "firm": "DZ BANK AG",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Axel Herlinghaus",
+          "firm": "DZ BANK AG",
+          "field": "target",
+          "value": 300.0,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joshua Tilton",
+          "firm": "Wolfe Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Junaid Siddiqui",
+          "firm": "Truist Financial",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Junaid Siddiqui",
+          "firm": "Truist Financial",
+          "field": "target",
+          "value": 350.0,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Roger Boyd",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Roger Boyd",
+          "firm": "UBS",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": 350,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": -14.28571428571429,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sanjit Singh",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sanjit Singh",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 370.0,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Tal Liani",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Tal Liani",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 380.0,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Thomas Blakey",
+          "firm": "Cantor Fitzgerald",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Thomas Blakey",
+          "firm": "Cantor Fitzgerald",
+          "field": "target",
+          "value": 310.0,
+          "source_prior": 340,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/net/ratings/",
+          "horizon_months": null,
+          "prior_observed": null,
+          "revision_pct": -8.823529411764708,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "MAR": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 423.16,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS (viewed at the Nov-2027 target date) x justified P/E. FY2026 guide $12.07-12.14 (Q3 release); FY2027 EPS is my estimate from RevPAR +3-4%, net rooms +4.5-5%, fee margin and buybacks. US-listed ordinary shares, no ADR conversion.",
+        "bear": 348.0,
+        "base": 435.0,
+        "bull": 497.0,
+        "cases": {
+          "bear": {
+            "driver": "RevPAR flat to slightly down, slower fee growth, de-rating",
+            "assumption": "EPS $12.90 at 27x",
+            "target": 348.0
+          },
+          "base": {
+            "driver": "RevPAR +3-4%, net rooms +4.5-5%, buybacks, card fees",
+            "assumption": "EPS $13.60 at 32x",
+            "target": 435.0
+          },
+          "bull": {
+            "driver": "RevPAR +5-6%, faster openings, stronger credit-card and fee income",
+            "assumption": "EPS $14.20 at 35x",
+            "target": 497.0
+          }
+        },
+        "implied_by_close": "At base EPS $13.60 the close implies 31.1x; the $400-$480 analyst range implies 29-35x, or at 32x EPS of $13.2-$15.0",
+        "sensitivity": "One turn of P/E moves the base target by $13.60 (3.2 pp of the close)",
+        "watch_metric": "Worldwide RevPAR growth and net rooms growth vs the 4.5-5.0% and 4.5-5% guides",
+        "next_disclosure": "Q4/FY2026 earnings, expected February 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Targets moved up after the Nov 2 Q3 beat and raised FY2026 EPS guide (to $12.07-12.14); Citigroup (+$85), Wells Fargo and Barclays raised the most. Individual analyst names were not published in the sources found, and target horizons are undocumented, so no call enters the weighted target. A Bernstein raise to $479 on Nov 16 is after the reference close and excluded. Street targets above the base need either EPS near $14-15 or a 35x multiple.",
+      "sources": [
+        {
+          "label": "Q3 2026 earnings release (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001048286/000104828626000040/mar-2026q3xex99earningsrel.htm",
+          "supports": "EPS, guidance"
+        },
+        {
+          "label": "Hotel Management Q3 guidance raise",
+          "url": "https://www.hotelmanagement.net/data-trends/following-strong-q3-marriott-raises-2026-full-year-guidance",
+          "supports": "outlook"
+        },
+        {
+          "label": "MarketBeat Barclays/Baird",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "supports": "analyst targets"
+        },
+        {
+          "label": "MarketBeat Citigroup",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-given-new-45000-price-target-at-citigroup-2026-11-06/",
+          "supports": "analyst targets"
+        },
+        {
+          "label": "MarketBeat Bernstein/Wells Fargo",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-gets-price-target-boost-from-sanford-c-bernstein-2026-11-16/",
+          "supports": "Wells Fargo target"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-02T08:00:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 7,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 10,
+        "max_weight_pct": 17.170264119258736,
+        "contributors": [
+          {
+            "analyst": "Argus analyst (unnamed)",
+            "firm": "Argus",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-14",
+            "age_days": 91,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+            "weight": 0.08991158349688778
+          },
+          {
+            "analyst": "BMO Capital Markets analyst (unnamed)",
+            "firm": "BMO Capital Markets",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-08-04",
+            "age_days": 101,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+            "weight": 0.08324686150147566
+          },
+          {
+            "analyst": "Barclays analyst (unnamed)",
+            "firm": "Barclays",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-11-03",
+            "age_days": 10,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+            "weight": 0.16778094744782532
+          },
+          {
+            "analyst": "Citigroup analyst (unnamed)",
+            "firm": "Citigroup",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-given-new-45000-price-target-at-citigroup-2026-11-06/",
+            "weight": 0.17170264119258735
+          },
+          {
+            "analyst": "JPMorgan analyst (unnamed)",
+            "firm": "JPMorgan",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-given-new-45000-price-target-at-citigroup-2026-11-06/",
+            "weight": 0.15179607146557322
+          },
+          {
+            "analyst": "Robert W. Baird analyst (unnamed)",
+            "firm": "Robert W. Baird",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-11-03",
+            "age_days": 10,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+            "weight": 0.16778094744782532
+          },
+          {
+            "analyst": "Wells Fargo analyst (unnamed)",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-03",
+            "age_days": 10,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-gets-price-target-boost-from-sanford-c-bernstein-2026-11-16/",
+            "weight": 0.16778094744782532
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 4,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 34.09393924461887,
+          "Hold": 65.90606075538112,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Argus analyst (unnamed)",
+          "firm": "Argus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-14",
+          "public_at": "2026-08-14T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Argus analyst (unnamed)",
+          "firm": "Argus",
+          "field": "target",
+          "value": 425.0,
+          "source_prior": 445,
+          "issued_at": "2026-08-14",
+          "public_at": "2026-08-14T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "prior_observed": null,
+          "revision_pct": -4.49438202247191,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "BMO Capital Markets analyst (unnamed)",
+          "firm": "BMO Capital Markets",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "BMO Capital Markets analyst (unnamed)",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 395.0,
+          "source_prior": 410,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "prior_observed": null,
+          "revision_pct": -3.658536585365857,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Barclays analyst (unnamed)",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Barclays analyst (unnamed)",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 409.0,
+          "source_prior": 363,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "prior_observed": null,
+          "revision_pct": 12.672176308539939,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Citigroup analyst (unnamed)",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-given-new-45000-price-target-at-citigroup-2026-11-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Citigroup analyst (unnamed)",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 450.0,
+          "source_prior": 365,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-given-new-45000-price-target-at-citigroup-2026-11-06/",
+          "prior_observed": null,
+          "revision_pct": 23.28767123287672,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-given-new-45000-price-target-at-citigroup-2026-11-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 406.0,
+          "source_prior": 388,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-given-new-45000-price-target-at-citigroup-2026-11-06/",
+          "prior_observed": null,
+          "revision_pct": 4.6391752577319645,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Robert W. Baird analyst (unnamed)",
+          "firm": "Robert W. Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Robert W. Baird analyst (unnamed)",
+          "firm": "Robert W. Baird",
+          "field": "target",
+          "value": 414.0,
+          "source_prior": 395,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-price-target-raised-at-barclays-2026-11-03/",
+          "prior_observed": null,
+          "revision_pct": 4.810126582278484,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Wells Fargo analyst (unnamed)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-gets-price-target-boost-from-sanford-c-bernstein-2026-11-16/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Wells Fargo analyst (unnamed)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 463.0,
+          "source_prior": 426,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-marriott-international-nasdaq-mar-stock-gets-price-target-boost-from-sanford-c-bernstein-2026-11-16/",
+          "prior_observed": null,
+          "revision_pct": 8.685446009389675,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
     }
   },
   "failures": [],
@@ -59797,6 +61682,11 @@
       },
       {
         "symbol": "ABBV",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "ABNB",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -60141,6 +62031,11 @@
         "kind": "new"
       },
       {
+        "symbol": "MAR",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "MCD",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -60216,6 +62111,11 @@
         "kind": "new"
       },
       {
+        "symbol": "NET",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "NFLX",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -60247,6 +62147,11 @@
       },
       {
         "symbol": "PBR",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "PDD",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -60477,6 +62382,11 @@
       },
       {
         "symbol": "VZ",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "WDC",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -61021,6 +62931,22 @@
         "horizon_months": null
       },
       {
+        "symbol": "NET",
+        "firm": "DZ BANK AG",
+        "analyst": "Axel Herlinghaus",
+        "issued_at": "2026-11-10",
+        "source": "https://stockanalysis.com/stocks/net/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 300.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
         "symbol": "MRK",
         "firm": "Scotiabank",
         "analyst": "Louise Chen",
@@ -61251,6 +63177,22 @@
         "prior_rating": null
       },
       {
+        "symbol": "PDD",
+        "firm": "Morgan Stanley",
+        "analyst": "Eddy Wang",
+        "issued_at": "2026-11-09",
+        "source": "https://stockanalysis.com/stocks/pdd/ratings/",
+        "currency": null,
+        "rating": "Equal-weight",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 90.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
         "symbol": "NVO",
         "firm": "DZ Bank",
         "analyst": "DZ Bank (analyst not named)",
@@ -61446,6 +63388,19 @@
         "prior_target": 700,
         "direction": "cut",
         "revision_pct": -32.14285714285714,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ABNB",
+        "firm": "Jefferies",
+        "analyst": "Jefferies analyst",
+        "issued_at": "2026-11-09",
+        "source": "https://www.dailypolitical.com/2026/11/11/airbnb-nasdaqabnb-price-target-raised-to-230-00.html",
+        "currency": null,
+        "target": 230.0,
+        "prior_target": 215,
+        "direction": "raise",
+        "revision_pct": 6.976744186046502,
         "horizon_months": null
       },
       {

@@ -1,0 +1,170 @@
+{
+ "issuer_id": "Waste Management, Inc.",
+ "symbol": "WM",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 243.83,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-27T16:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Not named in source",
+   "firm": "JPMorgan Chase",
+   "field": "target",
+   "value": 260,
+   "source_prior": 235,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Not named in source",
+   "firm": "JPMorgan Chase",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Jon Windham",
+   "firm": "UBS",
+   "field": "target",
+   "value": 280,
+   "source_prior": 270,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Jon Windham",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Jeffrey Goldstein",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 220,
+   "source_prior": 230,
+   "issued_at": "2026-10-13",
+   "public_at": "2026-10-13T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Jeffrey Goldstein",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Equal-Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-13",
+   "public_at": "2026-10-13T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Not named in source",
+   "firm": "Stifel Nicolaus",
+   "field": "target",
+   "value": 261,
+   "source_prior": 252,
+   "issued_at": "2026-07-30",
+   "public_at": "2026-07-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Not named in source",
+   "firm": "Stifel Nicolaus",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-07-30",
+   "public_at": "2026-07-30T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Not named in source",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 269,
+   "source_prior": 263,
+   "issued_at": "2026-07-10",
+   "public_at": "2026-07-10T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  },
+  {
+   "analyst": "Not named in source",
+   "firm": "Citigroup",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-07-10",
+   "public_at": "2026-07-10T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS viewed at the Nov 2027 target date. FY2026 base ~$8.10 (consensus ~$8.09; Q3 adj EPS $2.15, guidance of revenue $26.3-26.5B, adj EBITDA $8.15-8.25B, FCF $3.75-3.85B reaffirmed). FY2027 grows ~10% on pricing above cost inflation, Stericycle synergies, recycling/renewable energy and buybacks. Share count and FY2027 path are my estimates; no company EPS guidance found.",
+  "bear": 210.0,
+  "base": 250.6,
+  "bull": 282.0,
+  "cases": {
+   "bear": {
+    "driver": "Volume and commodity weakness, Stericycle integration slippage, margin flat",
+    "assumption": "EPS $8.40 at 25.0x",
+    "target": 210.0
+   },
+   "base": {
+    "driver": "Price over cost spread, Stericycle synergies, buybacks",
+    "assumption": "EPS $8.95 at 28.0x",
+    "target": 250.6
+   },
+   "bull": {
+    "driver": "Faster synergies, strong renewable energy and recycling, margin expansion",
+    "assumption": "EPS $9.40 at 30.0x",
+    "target": 282.0
+   }
+  },
+  "implied_by_close": "At base EPS $8.95 the close implies 27.2x; the ~$257 analyst mean implies 28.7x or EPS $9.18 at 28x",
+  "sensitivity": "One turn of P/E moves the base target by $8.95 (3.7 pp)",
+  "watch_metric": "Q4 collection and disposal core price vs cost inflation and adjusted operating EBITDA margin, plus FY2027 EPS guidance",
+  "next_disclosure": "Q4 2026 earnings, late January 2027"
+ },
+ "dividend_per_share": 3.78,
+ "analyst_notes": "After the Q3 miss on adjusted EPS ($2.15 vs $2.18) with reaffirmed guidance, JPMorgan (to $260) and UBS (to $280) raised targets while Morgan Stanley cut to $220 (Equal-Weight) on Oct 13. Barclays ($283), Raymond James ($251), RBC ($247) and BNP ($245) targets were found without reliable dates and are excluded. Horizons are undocumented, so targets stay out of the weighted view. The Street mean (~$257) implies roughly 28.5x the $9.00 FY2027 EPS I model, versus 28x in my base.",
+ "sources": [
+  {
+   "label": "MarketBeat analyst actions",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/",
+   "supports": "Analyst targets, ratings, consensus"
+  },
+  {
+   "label": "Waste360 Q3 2026 results",
+   "url": "https://www.waste360.com/industry-insights/wm-reports-6-3-percent-revenue-growth-in-q3-reaffirms-2026-guidance",
+   "supports": "Revenue, EBITDA, FCF guidance"
+  },
+  {
+   "label": "247WallSt Q3 2026",
+   "url": "https://247wallst.com/cards/waste-management-q3-2026-earnings-wm-01m5zhkq683emwkxwjsz4fcce7",
+   "supports": "Adj EPS 2.15, charges"
+  },
+  {
+   "label": "Newsquawk Q3 2026",
+   "url": "https://www.newsquawk.com/headlines/waste-management-inc-wm-q3-2026-usd-adj-eps-215-exp-218-revenue-685bln-exp-681bln-adj-ebitda-212bln-exp-216bln",
+   "supports": "EPS vs consensus"
+  }
+ ]
+}

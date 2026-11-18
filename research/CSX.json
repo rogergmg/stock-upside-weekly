@@ -1,0 +1,161 @@
+{
+ "issuer_id": "CSX Corporation",
+ "symbol": "CSX",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 52.05,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-21T16:05:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Ravi Shanker",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 32,
+   "source_prior": 30,
+   "issued_at": "2026-07-06",
+   "public_at": "2026-07-06T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/morgan-stanley-forecasts-strong-price-appreciation-for-csx-nasdaqcsx-stock-2026-07-06/"
+  },
+  {
+   "analyst": "Ravi Shanker",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Underweight",
+   "bucket": "Sell",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+  },
+  {
+   "analyst": "JPMorgan analyst (not named)",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 58,
+   "source_prior": 57,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+  },
+  {
+   "analyst": "JPMorgan analyst (not named)",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+  },
+  {
+   "analyst": "Citigroup analyst (not named)",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 54,
+   "source_prior": 53,
+   "issued_at": "2026-07-24",
+   "public_at": "2026-07-24T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/citigroup-boosts-csx-nasdaqcsx-price-target-to-5400-2026-07-24/"
+  },
+  {
+   "analyst": "TD Cowen analyst (not named)",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 54,
+   "source_prior": 46,
+   "issued_at": "2026-07-23",
+   "public_at": "2026-07-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-csx-nasdaqcsx-stock-2026-07-23/"
+  },
+  {
+   "analyst": "TD Cowen analyst (not named)",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-07-23",
+   "public_at": "2026-07-23T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-csx-nasdaqcsx-stock-2026-07-23/"
+  },
+  {
+   "analyst": "Raymond James analyst (not named)",
+   "firm": "Raymond James",
+   "field": "target",
+   "value": 53,
+   "source_prior": 56,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+  },
+  {
+   "analyst": "Benchmark analyst (not named)",
+   "firm": "Benchmark",
+   "field": "target",
+   "value": 54,
+   "source_prior": 48,
+   "issued_at": "2026-07-15",
+   "public_at": "2026-07-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 EPS viewed at the 12-month target date. USD listing, no ADR conversion. Q3 2026 adjusted EPS $0.57, revenue $4.02B, operating margin 39.1%; FY2026 EPS about $2.0 (analyst expectation $1.99). FY2027 EPS is my assumption, not a sourced filing figure; P/E multiples are judgment vs. Class I rail history.",
+  "bear": 38.95,
+  "base": 52.9,
+  "bull": 65.0,
+  "cases": {
+   "bear": {
+    "driver": "Volume stalls, pricing and cost gains fade",
+    "assumption": "EPS $2.05 at 19x",
+    "target": 38.95
+   },
+   "base": {
+    "driver": "Mid-single-digit volume growth and continued nonfuel cost cuts",
+    "assumption": "EPS $2.30 at 23x",
+    "target": 52.9
+   },
+   "bull": {
+    "driver": "Share win from trucks, operating margin expands further",
+    "assumption": "EPS $2.50 at 26x",
+    "target": 65.0
+   }
+  },
+  "implied_by_close": "At base EPS $2.30 the close implies 22.6x; the roughly $51 consensus target implies 22.2x or EPS about $2.22 at 23x",
+  "sensitivity": "One turn of P/E moves the base target by $2.30 (4.4 pp)",
+  "watch_metric": "Operating ratio and volume growth",
+  "next_disclosure": "Q4 2026 earnings, late January 2027 (date not confirmed)"
+ },
+ "dividend_per_share": 0.52,
+ "analyst_notes": "Only Ravi Shanker (Morgan Stanley) was named in sources; other firms are listed by firm with analyst not named. Targets moved up after Q3 (JPMorgan $58) while Morgan Stanley stays at $32 and Raymond James cut to $53. Consensus near $51 is close to the $52.05 close and the base case, so the gap is small; horizons are undocumented. Dividend is an assumption of $0.13 per quarter, not verified here.",
+ "sources": [
+  {
+   "label": "MarketBeat JPMorgan target raise and Q3",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/",
+   "supports": "Q3 EPS, revenue, targets"
+  },
+  {
+   "label": "MarketBeat CSX price targets",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/CSX/price-target/",
+   "supports": "Target history"
+  },
+  {
+   "label": "AJOT CSX Q3 2026 release",
+   "url": "https://www.ajot.com/news/csx-corp-announces-third-quarter-2026-results",
+   "supports": "Q3 results"
+  },
+  {
+   "label": "Benzinga CSX targets",
+   "url": "https://www.benzinga.com/node/62542521",
+   "supports": "Target changes"
+  }
+ ]
+}

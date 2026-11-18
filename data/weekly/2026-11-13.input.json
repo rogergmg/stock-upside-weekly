@@ -22055,9 +22055,152 @@
         "high": 100179819459
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ken Herbert",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 400,
+          "source_prior": 360,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "Ken Herbert",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "Jefferies analyst",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 455,
+          "source_prior": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "Jefferies analyst",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 380,
+          "source_prior": 420,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 415,
+          "source_prior": 400,
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "Susquehanna analyst",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 455,
+          "source_prior": 420,
+          "issued_at": "2026-07-30",
+          "public_at": "2026-07-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "Susquehanna analyst",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Positive",
+          "bucket": "Buy",
+          "issued_at": "2026-07-30",
+          "public_at": "2026-07-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-general-dynamics-nyse-gd-stock-price-target-raised-at-royal-bank-of-canada-2026-11-02/"
+        },
+        {
+          "analyst": "Bernstein analyst",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 386,
+          "source_prior": 365,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.thecerbatgem.com/2026/11/03/general-dynamics-nysegd-price-target-raised-to-386-00.html"
+        },
+        {
+          "analyst": "Bernstein analyst",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "source": "https://www.thecerbatgem.com/2026/11/03/general-dynamics-nysegd-price-target-raised-to-386-00.html"
+        },
+        {
+          "analyst": "Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 480,
+          "source_prior": 465,
+          "issued_at": "2026-11-03",
+          "public_at": "2026-11-03T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.dailypolitical.com/2026/11/03/general-dynamics-nysegd-stock-gets-price-target-increase-from-morgan-stanley.html"
+        }
+      ],
+      "earnings_at": "2026-10-30T07:00:00-04:00",
+      "valuation": {
+        "bear": 304.0,
+        "base": 378.0,
+        "bull": 443.0
+      }
     },
     {
       "issuer_id": "Waste Management, Inc.",
@@ -22071,9 +22214,121 @@
         "high": 98894428000
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Not named in source",
+          "firm": "JPMorgan Chase",
+          "field": "target",
+          "value": 260,
+          "source_prior": 235,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Not named in source",
+          "firm": "JPMorgan Chase",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Jon Windham",
+          "firm": "UBS",
+          "field": "target",
+          "value": 280,
+          "source_prior": 270,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Jon Windham",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Jeffrey Goldstein",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 220,
+          "source_prior": 230,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Jeffrey Goldstein",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal-Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Not named in source",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 261,
+          "source_prior": 252,
+          "issued_at": "2026-07-30",
+          "public_at": "2026-07-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Not named in source",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-30",
+          "public_at": "2026-07-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Not named in source",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 269,
+          "source_prior": 263,
+          "issued_at": "2026-07-10",
+          "public_at": "2026-07-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        },
+        {
+          "analyst": "Not named in source",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-10",
+          "public_at": "2026-07-10T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-jpmorgan-chase-co-forecasts-strong-price-appreciation-for-waste-management-nyse-wm-stock-2026-10-29/"
+        }
+      ],
+      "earnings_at": "2026-10-27T16:30:00-04:00",
+      "valuation": {
+        "bear": 210.0,
+        "base": 250.6,
+        "bull": 282.0
+      },
+      "dividend_per_share": 3.78
     },
     {
       "issuer_id": "CSX Corporation",
@@ -22087,9 +22342,112 @@
         "high": 97867854368
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ravi Shanker",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 32,
+          "source_prior": 30,
+          "issued_at": "2026-07-06",
+          "public_at": "2026-07-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/morgan-stanley-forecasts-strong-price-appreciation-for-csx-nasdaqcsx-stock-2026-07-06/"
+        },
+        {
+          "analyst": "Ravi Shanker",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+        },
+        {
+          "analyst": "JPMorgan analyst (not named)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 58,
+          "source_prior": 57,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+        },
+        {
+          "analyst": "JPMorgan analyst (not named)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+        },
+        {
+          "analyst": "Citigroup analyst (not named)",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 54,
+          "source_prior": 53,
+          "issued_at": "2026-07-24",
+          "public_at": "2026-07-24T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/citigroup-boosts-csx-nasdaqcsx-price-target-to-5400-2026-07-24/"
+        },
+        {
+          "analyst": "TD Cowen analyst (not named)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 54,
+          "source_prior": 46,
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-csx-nasdaqcsx-stock-2026-07-23/"
+        },
+        {
+          "analyst": "TD Cowen analyst (not named)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-07-23",
+          "public_at": "2026-07-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/td-cowen-forecasts-strong-price-appreciation-for-csx-nasdaqcsx-stock-2026-07-23/"
+        },
+        {
+          "analyst": "Raymond James analyst (not named)",
+          "firm": "Raymond James",
+          "field": "target",
+          "value": 53,
+          "source_prior": 56,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+        },
+        {
+          "analyst": "Benchmark analyst (not named)",
+          "firm": "Benchmark",
+          "field": "target",
+          "value": 54,
+          "source_prior": 48,
+          "issued_at": "2026-07-15",
+          "public_at": "2026-07-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-csx-nasdaq-csx-price-target-raised-to-5800-2026-10-22/"
+        }
+      ],
+      "earnings_at": "2026-10-21T16:05:00-04:00",
+      "valuation": {
+        "bear": 38.95,
+        "base": 52.9,
+        "bull": 65.0
+      },
+      "dividend_per_share": 0.52
     },
     {
       "issuer_id": "United Parcel Service, Inc.",
@@ -22103,9 +22461,181 @@
         "high": 97654000512
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ken Hoexter",
+          "firm": "BofA Securities",
+          "field": "target",
+          "value": 114,
+          "source_prior": 108,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-ups-stock-price-target-to-114-on-lifted-2026-targets-93CH-4978104"
+        },
+        {
+          "analyst": "Ken Hoexter",
+          "firm": "BofA Securities",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-ups-stock-price-target-to-114-on-lifted-2026-targets-93CH-4978104"
+        },
+        {
+          "analyst": "(unnamed) Truist",
+          "firm": "Truist",
+          "field": "target",
+          "value": 120,
+          "source_prior": 115,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/consensus-united-parcel-service-inc-nyse-ups-stock-has-average-price-target-of-11845-2026-11-07/"
+        },
+        {
+          "analyst": "(unnamed) Truist",
+          "firm": "Truist",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/consensus-united-parcel-service-inc-nyse-ups-stock-has-average-price-target-of-11845-2026-11-07/"
+        },
+        {
+          "analyst": "(unnamed) Citi",
+          "firm": "Citi",
+          "field": "target",
+          "value": 131,
+          "source_prior": 122,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "(unnamed) Citi",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "(unnamed) Goldman Sachs",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 135,
+          "source_prior": 132,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "(unnamed) Goldman Sachs",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "target",
+          "value": 125,
+          "source_prior": 124,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "(unnamed) Wells Fargo",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 112,
+          "source_prior": 110,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "(unnamed) Wells Fargo",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 95,
+          "source_prior": 80,
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "horizon_months": null,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "David Vernon",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 128,
+          "source_prior": 122,
+          "horizon_months": null,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        },
+        {
+          "analyst": "David Vernon",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "horizon_months": null,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62652470/ups-analysts-boost-their-forecasts-following-better-than-expected-q3-earnings"
+        }
+      ],
+      "earnings_at": "2026-10-27T06:30:00-04:00",
+      "valuation": {
+        "bear": 91.0,
+        "base": 120.0,
+        "bull": 148.0
+      },
+      "dividend_per_share": 6.56
     },
     {
       "issuer_id": "U.S. Bancorp",
@@ -22119,9 +22649,172 @@
         "high": 96951753092
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 75,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Jason Goldberg",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 66,
+          "source_prior": 64,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Vivek Juneja",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 66,
+          "source_prior": 65,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Vivek Juneja",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Tracy Benguigui",
+          "firm": "Wolfe Research",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 68,
+          "source_prior": 67,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Ebrahim Poonawala",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Ben Gerlinger",
+          "firm": "Citi",
+          "field": "target",
+          "value": 70,
+          "source_prior": 72,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Ben Gerlinger",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Manan Gosalia",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 68,
+          "source_prior": 67,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Manan Gosalia",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Gerard Cassidy",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 65,
+          "source_prior": 68,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        },
+        {
+          "analyst": "Gerard Cassidy",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/usb/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-15T06:30:00-04:00",
+      "valuation": {
+        "bear": 49.4,
+        "base": 66.7,
+        "bull": 81.9
+      },
+      "dividend_per_share": 2.08
     },
     {
       "issuer_id": "3M Company",

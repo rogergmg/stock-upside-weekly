@@ -1,0 +1,296 @@
+{
+ "issuer_id": "Stryker Corporation",
+ "symbol": "SYK",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 309.64,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-29T16:05:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Matt O'Brien",
+   "firm": "Piper Sandler",
+   "field": "target",
+   "value": 350,
+   "source_prior": 325,
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Matt O'Brien",
+   "firm": "Piper Sandler",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-09",
+   "public_at": "2026-11-09T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Rick Wise",
+   "firm": "Stifel Nicolaus",
+   "field": "target",
+   "value": 325,
+   "source_prior": 330,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Rick Wise",
+   "firm": "Stifel Nicolaus",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Richard Newitter",
+   "firm": "Truist Financial",
+   "field": "target",
+   "value": 305,
+   "source_prior": 310,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Richard Newitter",
+   "firm": "Truist Financial",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Kendall Au",
+   "firm": "Royal Bank of Canada",
+   "field": "target",
+   "value": 375,
+   "source_prior": 420,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Kendall Au",
+   "firm": "Royal Bank of Canada",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Robbie Marcus",
+   "firm": "JPMorgan Chase",
+   "field": "target",
+   "value": 340,
+   "source_prior": 350,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Robbie Marcus",
+   "firm": "JPMorgan Chase",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Christopher Pasquale",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 365,
+   "source_prior": 375,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Christopher Pasquale",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Mathew Blackman",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 290,
+   "source_prior": 298,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Mathew Blackman",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Kyle Rose",
+   "firm": "Canaccord Genuity",
+   "field": "target",
+   "value": 300,
+   "source_prior": 385,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Kyle Rose",
+   "firm": "Canaccord Genuity",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Mike Matson",
+   "firm": "Needham & Company",
+   "field": "target",
+   "value": 359,
+   "source_prior": 418,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Mike Matson",
+   "firm": "Needham & Company",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Joanne Wuensch",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 315,
+   "source_prior": 360,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Joanne Wuensch",
+   "firm": "Citigroup",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Mike Kratky",
+   "firm": "Leerink Partners",
+   "field": "target",
+   "value": 353,
+   "source_prior": 403,
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  },
+  {
+   "analyst": "Mike Kratky",
+   "firm": "Leerink Partners",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/SYK"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 adjusted EPS viewed at the 12-month target date, built from FY2026 adjusted EPS guidance of $14.80-$14.90 (Q3 2026 release, 29 Oct 2026) grown by stated organic growth and margin assumptions. US-listed common shares, USD, no ADR conversion.",
+  "bear": 262.0,
+  "base": 324.0,
+  "bull": 391.0,
+  "cases": {
+   "bear": {
+    "driver": "Ortho procedure softness and SAP/cyber disruption persist; organic growth ~5%, little margin gain",
+    "assumption": "FY2027 EPS $15.40 (+3.5%) at 17.0x",
+    "target": 262.0
+   },
+   "base": {
+    "driver": "Q4 growth stabilises near 7%; FY2027 organic growth ~7% with modest margin expansion and buybacks",
+    "assumption": "FY2027 EPS $16.20 (+9%) at 20.0x",
+    "target": 324.0
+   },
+   "bull": {
+    "driver": "Procedure volumes and Mako/Inspire-type new products re-accelerate organic growth to 8-9%",
+    "assumption": "FY2027 EPS $17.00 (+14%) at 23.0x",
+    "target": 391.0
+   }
+  },
+  "implied_by_close": "At base EPS $16.20 the $309.64 close implies 19.1x; at 20x the close implies EPS of about $15.50, near the bear-to-base boundary.",
+  "sensitivity": "One turn of P/E moves the base target by $16.20 (5.2 pp of the close)",
+  "watch_metric": "Quarterly orthopaedics (Knee/Hip) organic growth and adjusted EPS vs the $14.80-$14.90 guide",
+  "next_disclosure": "Q4 and FY2026 results with FY2027 guidance, expected late January 2026-27 (about 27-29 Jan 2027)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "After the 29-30 Oct guidance cut, most named targets fell $10-85 (Canaccord to Hold at $300, RBC $420 to $375, Needham $418 to $359), while Piper Sandler raised to $350 on 9 Nov. Named targets cluster around $300-375, a median near $340, above the $324 base: the gap is roughly 0.8 turns of P/E or about $0.80 of EPS. Targets carry no documented 12-month horizon so none enters the weighted target; Truist, TD Cowen and Canaccord sit at Hold.",
+ "sources": [
+  {
+   "label": "Analyst actions SYK",
+   "url": "https://www.pricetargets.com/NYSE/SYK",
+   "supports": "Named analyst targets and ratings"
+  },
+  {
+   "label": "Stryker Q3 2026 earnings release 8-K",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000310764/000031076426000059/sykex991earningsq32026.htm",
+   "supports": "Q3 adjusted EPS $3.52, guidance"
+  },
+  {
+   "label": "Zacks: SYK Q3 miss and outlook cut",
+   "url": "https://zacks.com/stock/news/3019992/syk-stock-skids-as-q3-earnings-and-sales-miss-2026-outlook-cut",
+   "supports": "FY2026 EPS guide $14.80-$14.90, organic 6.5-7.0%"
+  },
+  {
+   "label": "MD+DI Stryker ortho slowdown",
+   "url": "https://www.mddionline.com/orthopedic/stryker-s-ortho-slowdown-forces-a-reset-on-2026-expectations",
+   "supports": "Hip and knee volume drivers"
+  }
+ ]
+}

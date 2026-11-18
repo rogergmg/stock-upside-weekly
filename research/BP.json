@@ -1,0 +1,41 @@
+{
+  "issuer_id": "BP p.l.c.",
+  "symbol": "BP",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 45.7, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-30T07:00:00+00:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Piper Sandler analyst (not named in source)", "firm": "Piper Sandler", "field": "target", "value": 47, "source_prior": 44, "issued_at": "2026-03-12", "public_at": "2026-03-12T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/piper-sandler-boosts-bp-nysebp-price-target-to-4700-2026-03-12/"},
+    {"analyst": "Piper Sandler analyst (not named in source)", "firm": "Piper Sandler", "field": "rating", "value": "Neutral", "bucket": "Hold", "issued_at": "2026-03-12", "public_at": "2026-03-12T23:59:59-04:00", "source": "https://www.marketbeat.com/instant-alerts/piper-sandler-boosts-bp-nysebp-price-target-to-4700-2026-03-12/"},
+    {"analyst": "TD Cowen analyst (not named in source)", "firm": "TD Cowen", "field": "target", "value": 41, "source_prior": 40, "issued_at": "2026-07-16", "public_at": "2026-07-16T23:59:59-04:00", "horizon_months": null, "source": "https://www.pulse.bot/large-cap-stocks/news/bp-price-target-lowered-by-2-at-td-cowen-abe3b82d-e4f8-48af-a249-b9565dff8774/"},
+    {"analyst": "TD Cowen analyst (not named in source)", "firm": "TD Cowen", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-07-16", "public_at": "2026-07-16T23:59:59-04:00", "source": "https://www.pulse.bot/large-cap-stocks/news/bp-price-target-lowered-by-2-at-td-cowen-abe3b82d-e4f8-48af-a249-b9565dff8774/"},
+    {"analyst": "HSBC analyst (not named in source)", "firm": "HSBC", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-03-20", "public_at": "2026-03-20T23:59:59-04:00", "source": "https://www.nasdaq.com/articles/hsbc-upgrades-bp-plc-depositary-receipt-bp"},
+    {"analyst": "Sergey Pigarev", "firm": "Freedom Finance", "field": "rating", "value": "Sell", "bucket": "Sell", "issued_at": "2026-02-13", "public_at": "2026-02-13T23:59:59-05:00", "source": "https://finviz.com/news/322683/bp-downgraded-to-sell-price-target-maintained-at-37"},
+    {"analyst": "Sergey Pigarev", "firm": "Freedom Finance", "field": "target", "value": 37, "source_prior": 37, "issued_at": "2026-02-13", "public_at": "2026-02-13T23:59:59-05:00", "horizon_months": null, "source": "https://finviz.com/news/322683/bp-downgraded-to-sell-price-target-maintained-at-37"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 underlying RC EPS per ADS viewed at the Nov 2027 target date). Cyclical producer, so mid-cycle judgement. ADR: 1 ADS = 6 ordinary shares; BP reports per-ADS figures in USD, so no FX conversion needed (dividend $0.0866 per share x 6 = $0.5196 per ADS). Anchor: underlying RC profit per ADS $2.22 in Q2 and $3.26 in Q3 2026 (Q3 inflated by refining margins and trading; Q1 not sourced). FY2027 EPS and multiples are our stated assumptions, not a sourced forecast.",
+    "bear": 30.8, "base": 46.5, "bull": 64.0,
+    "cases": {
+      "bear": {"driver": "Oil and refining margins normalize sharply from the Q3 2026 crisis-level; earnings fall back toward the $0.85 per ADS of Q3 2025 run-rate in part.", "assumption": "FY2027 EPS $4.40 per ADS at 7.0x", "target": 30.8},
+      "base": {"driver": "Margins ease from Q3 but remain above 2025; net debt target already met at $13.9B supports distributions; strategy update on 15 December.", "assumption": "FY2027 EPS $6.20 per ADS at 7.5x", "target": 46.5},
+      "bull": {"driver": "Elevated prices persist and cost and balance sheet gains lift buybacks, supporting a higher multiple.", "assumption": "FY2027 EPS $8.00 per ADS at 8.0x", "target": 64.0}
+    },
+    "implied_by_close": "At base EPS of $6.20 the close of $45.70 implies 7.4x; the broker mean of roughly $46 to $47 (aggregator, July 2026) implies about 7.5x on the same EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $6.20 (13.6% of the close); $1.00 of EPS at 7.5x moves it by $7.50.",
+    "watch_metric": "Realized refining margin and upstream price versus Q3 2026, and the buyback and capital allocation framework in the 15 December strategy update.",
+    "next_disclosure": "Strategy and outlook update on 15 December 2026; Q4 and FY2026 results expected early February 2027 (date not confirmed)."
+  },
+  "dividend_per_share": 2.08,
+  "analyst_notes": "Named, dated calls found are few and all have undisclosed horizons, so none enter the weighted target. Piper Sandler Neutral $47 (Mar), TD Cowen Hold $41 (Jul), HSBC Hold (Mar) and Freedom Finance Sell $37 (Feb) bracket the close, which is near our base case. Most are stale relative to the Q3 2026 beat, and aggregator figures (Raymond James $52, Mizuho $51, Evercore In-Line $38) lacked verified dates and are excluded.",
+  "sources": [
+    {"label": "BP Q3 2026 results release", "url": "https://www.bp.com/en-IN/press-and-publications/press-releases/third-quarter-2026-results", "supports": "Underlying RC profit per ADS, net debt, dividend"},
+    {"label": "BP dividend information", "url": "https://www.bp.com/investors/shareholder-and-dividend-information/dividends", "supports": "3Q 2026 dividend $0.5196 per ADS, 6 shares per ADS"},
+    {"label": "MarketBeat Piper Sandler", "url": "https://www.marketbeat.com/instant-alerts/piper-sandler-boosts-bp-nysebp-price-target-to-4700-2026-03-12/", "supports": "Piper target and rating"},
+    {"label": "Pulse TD Cowen", "url": "https://www.pulse.bot/large-cap-stocks/news/bp-price-target-lowered-by-2-at-td-cowen-abe3b82d-e4f8-48af-a249-b9565dff8774/", "supports": "TD Cowen target and rating"},
+    {"label": "Nasdaq HSBC", "url": "https://www.nasdaq.com/articles/hsbc-upgrades-bp-plc-depositary-receipt-bp", "supports": "HSBC upgrade to Hold"},
+    {"label": "Finviz Freedom downgrade", "url": "https://finviz.com/news/322683/bp-downgraded-to-sell-price-target-maintained-at-37", "supports": "Freedom Finance Sell, $37"}
+  ]
+}

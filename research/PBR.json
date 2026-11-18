@@ -1,0 +1,152 @@
+{
+ "issuer_id": "Petróleo Brasileiro S.A. - Petrobras",
+ "symbol": "PBR",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 18.34,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": null,
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Morgan Stanley analyst team (not named in source)",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 25,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://www.webull.com/news/15908687991784448",
+   "horizon_months": null,
+   "source_prior": 31
+  },
+  {
+   "analyst": "Morgan Stanley analyst team (not named in source)",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://www.webull.com/news/15908687991784448",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "BofA analyst team (not named in source)",
+   "firm": "BofA",
+   "field": "target",
+   "value": 24.8,
+   "issued_at": "2026-04-17",
+   "public_at": "2026-04-17T23:59:59-05:00",
+   "source": "https://www.pulse.bot/stock-investing/news/petrobras-pbr-upgraded-at-bofa-amid-higher-oil-prices-b3313ea1-23da-4f95-b3f8-ff8888bc1fa2/",
+   "horizon_months": null,
+   "source_prior": 18.7
+  },
+  {
+   "analyst": "BofA analyst team (not named in source)",
+   "firm": "BofA",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-04-17",
+   "public_at": "2026-04-17T23:59:59-05:00",
+   "source": "https://www.pulse.bot/stock-investing/news/petrobras-pbr-upgraded-at-bofa-amid-higher-oil-prices-b3313ea1-23da-4f95-b3f8-ff8888bc1fa2/",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "Jefferies analyst team (not named in source)",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 19,
+   "issued_at": "2026-03-13",
+   "public_at": "2026-03-13T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-nysepbr-rating-lowered-to-hold-at-jefferies-financial-group-2026-03-13/",
+   "horizon_months": null
+  },
+  {
+   "analyst": "Jefferies analyst team (not named in source)",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Hold",
+   "issued_at": "2026-03-13",
+   "public_at": "2026-03-13T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-nysepbr-rating-lowered-to-hold-at-jefferies-financial-group-2026-03-13/",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "Santander analyst team (not named in source)",
+   "firm": "Santander",
+   "field": "target",
+   "value": 24,
+   "issued_at": "2026-05-21",
+   "public_at": "2026-05-21T23:59:59-05:00",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/grupo-santander-upgrades-petrobras-pbr-090017080.html",
+   "horizon_months": null
+  },
+  {
+   "analyst": "Santander analyst team (not named in source)",
+   "firm": "Santander",
+   "field": "rating",
+   "value": "Outperform",
+   "issued_at": "2026-05-21",
+   "public_at": "2026-05-21T23:59:59-05:00",
+   "source": "https://finance.yahoo.com/markets/stocks/articles/grupo-santander-upgrades-petrobras-pbr-090017080.html",
+   "bucket": "Buy"
+  }
+ ],
+ "valuation": {
+  "method": "Mid-cycle EPS x P/E per ADS. Petrobras reports in BRL; 1 PBR ADS = 1 common share (ratio 1:1 for the common ADS; preferred ADS is a separate line, not used). FX assumed 5.17 BRL/USD, derived from Q3 2026 net income R$39.8bn = about US$7.7bn (reported coverage, Nov 2026), no independent dated rate pulled. Roughly 12.9bn shares. FY2027 EPS viewed at the Nov 2027 target date. Price-only; dividends excluded (R$1.1873/share for Q3 = about $0.23).",
+  "bear": 9.75,
+  "base": 18.7,
+  "bull": 26.6,
+  "cases": {
+   "bear": {
+    "driver": "Brent falls toward $60, export tax and Brazil policy/political risk persist, payouts shrink",
+    "assumption": "EPS $1.50 per ADS at 6.5x",
+    "target": 9.75
+   },
+   "base": {
+    "driver": "Q3 2026 run-rate (net income R$39.8bn, production 3.51m boe/d) partly normalised for lower oil; payout 45% of FCF",
+    "assumption": "EPS $2.20 per ADS at 8.5x",
+    "target": 18.7
+   },
+   "bull": {
+    "driver": "Oil near current levels (Brent about $95), production 3.3-3.4m boe/d guidance met, clean strategic plan on Nov 23",
+    "assumption": "EPS $2.80 per ADS at 9.5x",
+    "target": 26.6
+   }
+  },
+  "implied_by_close": "At base EPS $2.20 the close of $18.34 implies 8.3x; the Morgan Stanley $25 target implies 11.4x or EPS $2.94 at 8.5x.",
+  "sensitivity": "One turn of P/E moves the base target by $2.20 (12.0 pp of the close).",
+  "watch_metric": "Brent realised price and quarterly net income against R$39.8bn, plus the payout under the 45% FCF policy",
+  "next_disclosure": "Strategic plan due 2026-11-23; Q4 2026 results in early 2027"
+ },
+ "dividend_per_share": 0.23,
+ "analyst_notes": "Only Morgan Stanley's post-Q3 cut (target $31 to $25, still top-rated) is dated after the 2026-11 results; others are older 2026 calls. Analyst names are not published in sources, targets have undocumented horizons so they are excluded from the weighted target. Gap to base case: $25 requires about $2.94 EPS at 8.5x, or 11.4x on base EPS.",
+ "sources": [
+  {
+   "label": "Webull/Zhitong Q3 2026 and Morgan Stanley",
+   "url": "https://www.webull.com/news/15908687991784448",
+   "supports": "Net income, dividends, MS target"
+  },
+  {
+   "label": "Brazil Energy Insight Q3 2026",
+   "url": "https://brazilenergyinsight.com/2026/11/11/petrobras-reports-net-income-of-brl-39-8-billion-in-the-third-quarter-of-2026/",
+   "supports": "Net income R$39.8bn"
+  },
+  {
+   "label": "BofA upgrade",
+   "url": "https://www.pulse.bot/stock-investing/news/petrobras-pbr-upgraded-at-bofa-amid-higher-oil-prices-b3313ea1-23da-4f95-b3f8-ff8888bc1fa2/",
+   "supports": "BofA target"
+  },
+  {
+   "label": "Jefferies downgrade",
+   "url": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-nysepbr-rating-lowered-to-hold-at-jefferies-financial-group-2026-03-13/",
+   "supports": "Jefferies Hold"
+  },
+  {
+   "label": "Santander upgrade",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/grupo-santander-upgrades-petrobras-pbr-090017080.html",
+   "supports": "Santander target"
+  }
+ ]
+}

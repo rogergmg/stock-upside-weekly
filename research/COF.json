@@ -1,0 +1,193 @@
+{
+ "issuer_id": "Capital One Financial Corporation",
+ "symbol": "COF",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 195.08,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-20T16:05:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Erika Najarian",
+   "firm": "UBS",
+   "field": "target",
+   "value": 274,
+   "source_prior": 280,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Erika Najarian",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Richard Shane",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 241,
+   "source_prior": 227,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Richard Shane",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Richard Shane",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 227,
+   "source_prior": 246,
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Jeffrey Adelson",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 267,
+   "source_prior": 273,
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Jeffrey Adelson",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Arren Cyganovich",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 285,
+   "source_prior": 280,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Arren Cyganovich",
+   "firm": "Citigroup",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Moshe Orenbuch",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 250,
+   "source_prior": 242,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-capital-one-financial-nyse-cof-given-new-22500-price-target-at-bmo-capital-markets-2026-10-21/"
+  },
+  {
+   "analyst": "Terry Ma",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 238,
+   "source_prior": 237,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  },
+  {
+   "analyst": "Kevin Barker",
+   "firm": "Piper Sandler",
+   "field": "target",
+   "value": 269,
+   "source_prior": 260,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/quote/COF/price-targets"
+  }
+ ],
+ "valuation": {
+  "method": "Bank/lender: forward EPS x P/E cross-checked to P/TBV. Q3 2026 TBV/share $102.72, ROTCE 21.1%, adj EPS $6.69 (GAAP $5.61); buybacks ($2.6B in Q3) shrink share count. Targets use FY2027 EPS viewed at the Nov-2027 target date, on a GAAP-leaning basis because acquisition amortization (Discover, Brex) is real cost.",
+  "bear": 150.0,
+  "base": 225.0,
+  "bull": 294.0,
+  "cases": {
+   "bear": {
+    "driver": "Credit losses rise, ROTCE falls to mid-teens",
+    "assumption": "EPS $20 at 7.5x",
+    "target": 150.0
+   },
+   "base": {
+    "driver": "Stable credit, Discover network synergies, steady buybacks",
+    "assumption": "EPS $25 at 9.0x (about 2.1x P/TBV on ~$108 TBV)",
+    "target": 225.0
+   },
+   "bull": {
+    "driver": "Synergies and buybacks lift adjusted EPS toward run-rate",
+    "assumption": "EPS $28 at 10.5x",
+    "target": 294.0
+   }
+  },
+  "implied_by_close": "At base EPS $25 the close implies 7.8x; the analyst average target of about $256 implies 10.2x or EPS $28.5 at 9.0x",
+  "sensitivity": "One turn of P/E moves the base target by $25 (12.8 pp of the close)",
+  "watch_metric": "Net charge-off and delinquency rates plus ROTCE vs 21%",
+  "next_disclosure": "Q4 2026 earnings, expected late January 2027 (date not confirmed); monthly credit metrics earlier"
+ },
+ "dividend_per_share": 2.4,
+ "analyst_notes": "Named targets mostly rose on Oct 21 after the Q3 beat, though JPMorgan and Morgan Stanley cut on Oct 12 and UBS trimmed on Nov 2. Panel targets ($225-285) sit above the $225 base; the gap is about 1-3 P/E turns or about $3-6 of EPS. Horizons are undocumented so none enter the weighted target; analyst names beyond UBS, JPMorgan and Morgan Stanley were inferred from coverage lists and should be checked.",
+ "sources": [
+  {
+   "label": "Q3 2026 earnings review",
+   "url": "https://finsee.ai/earnings/cof/2026/q3/en/",
+   "supports": "TBV, ROTCE, buybacks"
+  },
+  {
+   "label": "Zacks Q3 2026",
+   "url": "https://www.zacks.com/stock/news/3011611/capital-one-stock-gains-as-q3-earnings-beat-estimates-on-higher-nii",
+   "supports": "Adjusted EPS $6.69"
+  },
+  {
+   "label": "Benzinga COF price targets",
+   "url": "https://www.benzinga.com/quote/COF/price-targets",
+   "supports": "Analyst target changes"
+  },
+  {
+   "label": "MarketBeat consensus",
+   "url": "https://www.marketbeat.com/instant-alerts/consensus-capital-one-financial-corporation-nyse-cof-stock-has-consensus-target-price-of-25650-2026-11-15/",
+   "supports": "Consensus $256.50"
+  }
+ ]
+}

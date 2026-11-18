@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T15:58:54.528803+00:00",
+  "built_at": "2026-11-18T16:00:20.057132+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 132,
+    "rank_valued": 137,
     "rank_with_named_targets": 2,
-    "rank_matched": 132,
-    "researched": 132
+    "rank_matched": 137,
+    "researched": 137
   },
   "ranked": [
     {
@@ -416,6 +416,27 @@
         "bull": 38.14605014710403
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "COF",
+      "issuer_id": "Capital One Financial Corporation",
+      "close": 195.08,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 115000145737,
+        "high": 119724707428
+      },
+      "scenarios_pct": {
+        "bear": -23.10846832068895,
+        "base": 15.337297518966578,
+        "bull": 50.70740209144966
+      },
+      "base_total_return_pct": 16.567562025835553,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1472,6 +1493,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "SYK",
+      "issuer_id": "Stryker Corporation",
+      "close": 309.64,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 115515888458,
+        "high": 120234705728
+      },
+      "scenarios_pct": {
+        "bear": -15.385609094432244,
+        "base": 4.637643715282263,
+        "bull": 26.275674977393102
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "ACN",
       "issuer_id": "Accenture plc",
       "close": 250.49,
@@ -1934,6 +1976,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "NEM",
+      "issuer_id": "Newmont Corporation",
+      "close": 113.14,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 115222830612,
+        "high": 119989401913
+      },
+      "scenarios_pct": {
+        "bear": -51.3876613045784,
+        "base": 2.5278416121619234,
+        "bull": 37.882269754286725
+      },
+      "base_total_return_pct": 3.447056743857168,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "SPGI",
       "issuer_id": "S&P Global Inc.",
       "close": 473.59,
@@ -2012,6 +2075,48 @@
         "bull": 21.210595226105347
       },
       "base_total_return_pct": 3.595528250579112,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "PBR",
+      "issuer_id": "Petr\u00f3leo Brasileiro S.A. - Petrobras",
+      "close": 18.34,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 115825885839,
+        "high": 120619205553
+      },
+      "scenarios_pct": {
+        "bear": -46.837513631406765,
+        "base": 1.9629225736095965,
+        "bull": 45.038167938931295
+      },
+      "base_total_return_pct": 3.21701199563795,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "BP",
+      "issuer_id": "BP p.l.c.",
+      "close": 45.7,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 115353155264,
+        "high": 122032207713
+      },
+      "scenarios_pct": {
+        "bear": -32.60393873085339,
+        "base": 1.75054704595186,
+        "bull": 40.0437636761488
+      },
+      "base_total_return_pct": 6.301969365426696,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -2798,26 +2903,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PBR",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "SYK",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "BP",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "NEM",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "COF",
       "reason": "independent valuation unavailable"
     },
     {
@@ -56215,6 +56300,1786 @@
           "status_at_cutoff": "unknown or different horizon"
         }
       ]
+    },
+    "PBR": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 18.34,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Mid-cycle EPS x P/E per ADS. Petrobras reports in BRL; 1 PBR ADS = 1 common share (ratio 1:1 for the common ADS; preferred ADS is a separate line, not used). FX assumed 5.17 BRL/USD, derived from Q3 2026 net income R$39.8bn = about US$7.7bn (reported coverage, Nov 2026), no independent dated rate pulled. Roughly 12.9bn shares. FY2027 EPS viewed at the Nov 2027 target date. Price-only; dividends excluded (R$1.1873/share for Q3 = about $0.23).",
+        "bear": 9.75,
+        "base": 18.7,
+        "bull": 26.6,
+        "cases": {
+          "bear": {
+            "driver": "Brent falls toward $60, export tax and Brazil policy/political risk persist, payouts shrink",
+            "assumption": "EPS $1.50 per ADS at 6.5x",
+            "target": 9.75
+          },
+          "base": {
+            "driver": "Q3 2026 run-rate (net income R$39.8bn, production 3.51m boe/d) partly normalised for lower oil; payout 45% of FCF",
+            "assumption": "EPS $2.20 per ADS at 8.5x",
+            "target": 18.7
+          },
+          "bull": {
+            "driver": "Oil near current levels (Brent about $95), production 3.3-3.4m boe/d guidance met, clean strategic plan on Nov 23",
+            "assumption": "EPS $2.80 per ADS at 9.5x",
+            "target": 26.6
+          }
+        },
+        "implied_by_close": "At base EPS $2.20 the close of $18.34 implies 8.3x; the Morgan Stanley $25 target implies 11.4x or EPS $2.94 at 8.5x.",
+        "sensitivity": "One turn of P/E moves the base target by $2.20 (12.0 pp of the close).",
+        "watch_metric": "Brent realised price and quarterly net income against R$39.8bn, plus the payout under the 45% FCF policy",
+        "next_disclosure": "Strategic plan due 2026-11-23; Q4 2026 results in early 2027"
+      },
+      "dividend_per_share": 0.23,
+      "analyst_notes": "Only Morgan Stanley's post-Q3 cut (target $31 to $25, still top-rated) is dated after the 2026-11 results; others are older 2026 calls. Analyst names are not published in sources, targets have undocumented horizons so they are excluded from the weighted target. Gap to base case: $25 requires about $2.94 EPS at 8.5x, or 11.4x on base EPS.",
+      "sources": [
+        {
+          "label": "Webull/Zhitong Q3 2026 and Morgan Stanley",
+          "url": "https://www.webull.com/news/15908687991784448",
+          "supports": "Net income, dividends, MS target"
+        },
+        {
+          "label": "Brazil Energy Insight Q3 2026",
+          "url": "https://brazilenergyinsight.com/2026/11/11/petrobras-reports-net-income-of-brl-39-8-billion-in-the-third-quarter-of-2026/",
+          "supports": "Net income R$39.8bn"
+        },
+        {
+          "label": "BofA upgrade",
+          "url": "https://www.pulse.bot/stock-investing/news/petrobras-pbr-upgraded-at-bofa-amid-higher-oil-prices-b3313ea1-23da-4f95-b3f8-ff8888bc1fa2/",
+          "supports": "BofA target"
+        },
+        {
+          "label": "Jefferies downgrade",
+          "url": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-nysepbr-rating-lowered-to-hold-at-jefferies-financial-group-2026-03-13/",
+          "supports": "Jefferies Hold"
+        },
+        {
+          "label": "Santander upgrade",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/grupo-santander-upgrades-petrobras-pbr-090017080.html",
+          "supports": "Santander target"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": null,
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": 193.0,
+        "max_weight_pct": 62.01602646960175,
+        "contributors": [
+          {
+            "analyst": "BofA analyst team (not named in source)",
+            "firm": "BofA",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-04-17",
+            "age_days": 210,
+            "after_earnings": null,
+            "source": "https://www.pulse.bot/stock-investing/news/petrobras-pbr-upgraded-at-bofa-amid-higher-oil-prices-b3313ea1-23da-4f95-b3f8-ff8888bc1fa2/",
+            "weight": 0.1240067686638648
+          },
+          {
+            "analyst": "Jefferies analyst team (not named in source)",
+            "firm": "Jefferies",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-03-13",
+            "age_days": 245,
+            "after_earnings": null,
+            "source": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-nysepbr-rating-lowered-to-hold-at-jefferies-financial-group-2026-03-13/",
+            "weight": 0.0947061474641961
+          },
+          {
+            "analyst": "Morgan Stanley analyst team (not named in source)",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": null,
+            "source": "https://www.webull.com/news/15908687991784448",
+            "weight": 0.6201602646960175
+          },
+          {
+            "analyst": "Santander analyst team (not named in source)",
+            "firm": "Santander",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-05-21",
+            "age_days": 176,
+            "after_earnings": null,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/grupo-santander-upgrades-petrobras-pbr-090017080.html",
+            "weight": 0.1611268191759216
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 90.52938525358039,
+          "Hold": 9.47061474641961,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "BofA analyst team (not named in source)",
+          "firm": "BofA",
+          "field": "rating",
+          "value": "Buy",
+          "issued_at": "2026-04-17",
+          "public_at": "2026-04-17T23:59:59-05:00",
+          "source": "https://www.pulse.bot/stock-investing/news/petrobras-pbr-upgraded-at-bofa-amid-higher-oil-prices-b3313ea1-23da-4f95-b3f8-ff8888bc1fa2/",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "BofA analyst team (not named in source)",
+          "firm": "BofA",
+          "field": "target",
+          "value": 24.8,
+          "issued_at": "2026-04-17",
+          "public_at": "2026-04-17T23:59:59-05:00",
+          "source": "https://www.pulse.bot/stock-investing/news/petrobras-pbr-upgraded-at-bofa-amid-higher-oil-prices-b3313ea1-23da-4f95-b3f8-ff8888bc1fa2/",
+          "horizon_months": null,
+          "source_prior": 18.7,
+          "prior_observed": null,
+          "revision_pct": 32.62032085561499,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jefferies analyst team (not named in source)",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "issued_at": "2026-03-13",
+          "public_at": "2026-03-13T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-nysepbr-rating-lowered-to-hold-at-jefferies-financial-group-2026-03-13/",
+          "bucket": "Hold",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jefferies analyst team (not named in source)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 19.0,
+          "issued_at": "2026-03-13",
+          "public_at": "2026-03-13T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/petroleo-brasileiro-sa-petrobras-nysepbr-rating-lowered-to-hold-at-jefferies-financial-group-2026-03-13/",
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Morgan Stanley analyst team (not named in source)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.webull.com/news/15908687991784448",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley analyst team (not named in source)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 25.0,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.webull.com/news/15908687991784448",
+          "horizon_months": null,
+          "source_prior": 31,
+          "prior_observed": null,
+          "revision_pct": -19.354838709677423,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Santander analyst team (not named in source)",
+          "firm": "Santander",
+          "field": "rating",
+          "value": "Outperform",
+          "issued_at": "2026-05-21",
+          "public_at": "2026-05-21T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/grupo-santander-upgrades-petrobras-pbr-090017080.html",
+          "bucket": "Buy",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Santander analyst team (not named in source)",
+          "firm": "Santander",
+          "field": "target",
+          "value": 24.0,
+          "issued_at": "2026-05-21",
+          "public_at": "2026-05-21T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/grupo-santander-upgrades-petrobras-pbr-090017080.html",
+          "horizon_months": null,
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "SYK": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 309.64,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 adjusted EPS viewed at the 12-month target date, built from FY2026 adjusted EPS guidance of $14.80-$14.90 (Q3 2026 release, 29 Oct 2026) grown by stated organic growth and margin assumptions. US-listed common shares, USD, no ADR conversion.",
+        "bear": 262.0,
+        "base": 324.0,
+        "bull": 391.0,
+        "cases": {
+          "bear": {
+            "driver": "Ortho procedure softness and SAP/cyber disruption persist; organic growth ~5%, little margin gain",
+            "assumption": "FY2027 EPS $15.40 (+3.5%) at 17.0x",
+            "target": 262.0
+          },
+          "base": {
+            "driver": "Q4 growth stabilises near 7%; FY2027 organic growth ~7% with modest margin expansion and buybacks",
+            "assumption": "FY2027 EPS $16.20 (+9%) at 20.0x",
+            "target": 324.0
+          },
+          "bull": {
+            "driver": "Procedure volumes and Mako/Inspire-type new products re-accelerate organic growth to 8-9%",
+            "assumption": "FY2027 EPS $17.00 (+14%) at 23.0x",
+            "target": 391.0
+          }
+        },
+        "implied_by_close": "At base EPS $16.20 the $309.64 close implies 19.1x; at 20x the close implies EPS of about $15.50, near the bear-to-base boundary.",
+        "sensitivity": "One turn of P/E moves the base target by $16.20 (5.2 pp of the close)",
+        "watch_metric": "Quarterly orthopaedics (Knee/Hip) organic growth and adjusted EPS vs the $14.80-$14.90 guide",
+        "next_disclosure": "Q4 and FY2026 results with FY2027 guidance, expected late January 2026-27 (about 27-29 Jan 2027)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "After the 29-30 Oct guidance cut, most named targets fell $10-85 (Canaccord to Hold at $300, RBC $420 to $375, Needham $418 to $359), while Piper Sandler raised to $350 on 9 Nov. Named targets cluster around $300-375, a median near $340, above the $324 base: the gap is roughly 0.8 turns of P/E or about $0.80 of EPS. Targets carry no documented 12-month horizon so none enters the weighted target; Truist, TD Cowen and Canaccord sit at Hold.",
+      "sources": [
+        {
+          "label": "Analyst actions SYK",
+          "url": "https://www.pricetargets.com/NYSE/SYK",
+          "supports": "Named analyst targets and ratings"
+        },
+        {
+          "label": "Stryker Q3 2026 earnings release 8-K",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000310764/000031076426000059/sykex991earningsq32026.htm",
+          "supports": "Q3 adjusted EPS $3.52, guidance"
+        },
+        {
+          "label": "Zacks: SYK Q3 miss and outlook cut",
+          "url": "https://zacks.com/stock/news/3019992/syk-stock-skids-as-q3-earnings-and-sales-miss-2026-outlook-cut",
+          "supports": "FY2026 EPS guide $14.80-$14.90, organic 6.5-7.0%"
+        },
+        {
+          "label": "MD+DI Stryker ortho slowdown",
+          "url": "https://www.mddionline.com/orthopedic/stryker-s-ortho-slowdown-forces-a-reset-on-2026-expectations",
+          "supports": "Hip and knee volume drivers"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 11,
+        "post_earnings": 10,
+        "earnings_order_unknown": 0,
+        "median_age_days": 14,
+        "max_weight_pct": 9.838872509381337,
+        "contributors": [
+          {
+            "analyst": "Christopher Pasquale",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09109563253854777
+          },
+          {
+            "analyst": "Joanne Wuensch",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09109563253854777
+          },
+          {
+            "analyst": "Kendall Au",
+            "firm": "Royal Bank of Canada",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09109563253854777
+          },
+          {
+            "analyst": "Kyle Rose",
+            "firm": "Canaccord Genuity",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09109563253854777
+          },
+          {
+            "analyst": "Mathew Blackman",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09109563253854777
+          },
+          {
+            "analyst": "Matt O'Brien",
+            "firm": "Piper Sandler",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09838872509381337
+          },
+          {
+            "analyst": "Mike Kratky",
+            "firm": "Leerink Partners",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-10-09",
+            "age_days": 35,
+            "after_earnings": false,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.07749206310658882
+          },
+          {
+            "analyst": "Mike Matson",
+            "firm": "Needham & Company",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09109563253854777
+          },
+          {
+            "analyst": "Richard Newitter",
+            "firm": "Truist Financial",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09322489201488167
+          },
+          {
+            "analyst": "Rick Wise",
+            "firm": "Stifel Nicolaus",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09322489201488167
+          },
+          {
+            "analyst": "Robbie Marcus",
+            "firm": "JPMorgan Chase",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.pricetargets.com/NYSE/SYK",
+            "weight": 0.09109563253854777
+          }
+        ],
+        "counts": {
+          "Buy": 8,
+          "Hold": 3,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 72.45838429080227,
+          "Hold": 27.54161570919772,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Christopher Pasquale",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Christopher Pasquale",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 365.0,
+          "source_prior": 375,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -2.6666666666666616,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Joanne Wuensch",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 315.0,
+          "source_prior": 360,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -12.5,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kendall Au",
+          "firm": "Royal Bank of Canada",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kendall Au",
+          "firm": "Royal Bank of Canada",
+          "field": "target",
+          "value": 375.0,
+          "source_prior": 420,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -10.71428571428571,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kyle Rose",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Kyle Rose",
+          "firm": "Canaccord Genuity",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": 385,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -22.077922077922075,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mathew Blackman",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mathew Blackman",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 290.0,
+          "source_prior": 298,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -2.684563758389258,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Matt O'Brien",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Matt O'Brien",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 350.0,
+          "source_prior": 325,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": 7.692307692307687,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mike Kratky",
+          "firm": "Leerink Partners",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mike Kratky",
+          "firm": "Leerink Partners",
+          "field": "target",
+          "value": 353.0,
+          "source_prior": 403,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -12.406947890818854,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mike Matson",
+          "firm": "Needham & Company",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mike Matson",
+          "firm": "Needham & Company",
+          "field": "target",
+          "value": 359.0,
+          "source_prior": 418,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -14.114832535885169,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Richard Newitter",
+          "firm": "Truist Financial",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Richard Newitter",
+          "firm": "Truist Financial",
+          "field": "target",
+          "value": 305.0,
+          "source_prior": 310,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -1.6129032258064502,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Rick Wise",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Rick Wise",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 325.0,
+          "source_prior": 330,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -1.5151515151515138,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Robbie Marcus",
+          "firm": "JPMorgan Chase",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Robbie Marcus",
+          "firm": "JPMorgan Chase",
+          "field": "target",
+          "value": 340.0,
+          "source_prior": 350,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/SYK",
+          "prior_observed": null,
+          "revision_pct": -2.857142857142858,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "BP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 45.7,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 underlying RC EPS per ADS viewed at the Nov 2027 target date). Cyclical producer, so mid-cycle judgement. ADR: 1 ADS = 6 ordinary shares; BP reports per-ADS figures in USD, so no FX conversion needed (dividend $0.0866 per share x 6 = $0.5196 per ADS). Anchor: underlying RC profit per ADS $2.22 in Q2 and $3.26 in Q3 2026 (Q3 inflated by refining margins and trading; Q1 not sourced). FY2027 EPS and multiples are our stated assumptions, not a sourced forecast.",
+        "bear": 30.8,
+        "base": 46.5,
+        "bull": 64.0,
+        "cases": {
+          "bear": {
+            "driver": "Oil and refining margins normalize sharply from the Q3 2026 crisis-level; earnings fall back toward the $0.85 per ADS of Q3 2025 run-rate in part.",
+            "assumption": "FY2027 EPS $4.40 per ADS at 7.0x",
+            "target": 30.8
+          },
+          "base": {
+            "driver": "Margins ease from Q3 but remain above 2025; net debt target already met at $13.9B supports distributions; strategy update on 15 December.",
+            "assumption": "FY2027 EPS $6.20 per ADS at 7.5x",
+            "target": 46.5
+          },
+          "bull": {
+            "driver": "Elevated prices persist and cost and balance sheet gains lift buybacks, supporting a higher multiple.",
+            "assumption": "FY2027 EPS $8.00 per ADS at 8.0x",
+            "target": 64.0
+          }
+        },
+        "implied_by_close": "At base EPS of $6.20 the close of $45.70 implies 7.4x; the broker mean of roughly $46 to $47 (aggregator, July 2026) implies about 7.5x on the same EPS.",
+        "sensitivity": "One turn of P/E moves the base target by $6.20 (13.6% of the close); $1.00 of EPS at 7.5x moves it by $7.50.",
+        "watch_metric": "Realized refining margin and upstream price versus Q3 2026, and the buyback and capital allocation framework in the 15 December strategy update.",
+        "next_disclosure": "Strategy and outlook update on 15 December 2026; Q4 and FY2026 results expected early February 2027 (date not confirmed)."
+      },
+      "dividend_per_share": 2.08,
+      "analyst_notes": "Named, dated calls found are few and all have undisclosed horizons, so none enter the weighted target. Piper Sandler Neutral $47 (Mar), TD Cowen Hold $41 (Jul), HSBC Hold (Mar) and Freedom Finance Sell $37 (Feb) bracket the close, which is near our base case. Most are stale relative to the Q3 2026 beat, and aggregator figures (Raymond James $52, Mizuho $51, Evercore In-Line $38) lacked verified dates and are excluded.",
+      "sources": [
+        {
+          "label": "BP Q3 2026 results release",
+          "url": "https://www.bp.com/en-IN/press-and-publications/press-releases/third-quarter-2026-results",
+          "supports": "Underlying RC profit per ADS, net debt, dividend"
+        },
+        {
+          "label": "BP dividend information",
+          "url": "https://www.bp.com/investors/shareholder-and-dividend-information/dividends",
+          "supports": "3Q 2026 dividend $0.5196 per ADS, 6 shares per ADS"
+        },
+        {
+          "label": "MarketBeat Piper Sandler",
+          "url": "https://www.marketbeat.com/instant-alerts/piper-sandler-boosts-bp-nysebp-price-target-to-4700-2026-03-12/",
+          "supports": "Piper target and rating"
+        },
+        {
+          "label": "Pulse TD Cowen",
+          "url": "https://www.pulse.bot/large-cap-stocks/news/bp-price-target-lowered-by-2-at-td-cowen-abe3b82d-e4f8-48af-a249-b9565dff8774/",
+          "supports": "TD Cowen target and rating"
+        },
+        {
+          "label": "Nasdaq HSBC",
+          "url": "https://www.nasdaq.com/articles/hsbc-upgrades-bp-plc-depositary-receipt-bp",
+          "supports": "HSBC upgrade to Hold"
+        },
+        {
+          "label": "Finviz Freedom downgrade",
+          "url": "https://finviz.com/news/322683/bp-downgraded-to-sell-price-target-maintained-at-37",
+          "supports": "Freedom Finance Sell, $37"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-30T07:00:00+00:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 242.0,
+        "max_weight_pct": 47.85317220073197,
+        "contributors": [
+          {
+            "analyst": "HSBC analyst (not named in source)",
+            "firm": "HSBC",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-03-20",
+            "age_days": 238,
+            "after_earnings": false,
+            "source": "https://www.nasdaq.com/articles/hsbc-upgrades-bp-plc-depositary-receipt-bp",
+            "weight": 0.19285324929146103
+          },
+          {
+            "analyst": "Piper Sandler analyst (not named in source)",
+            "firm": "Piper Sandler",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-03-12",
+            "age_days": 246,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/piper-sandler-boosts-bp-nysebp-price-target-to-4700-2026-03-12/",
+            "weight": 0.18132961466181075
+          },
+          {
+            "analyst": "Sergey Pigarev",
+            "firm": "Freedom Finance",
+            "value": "Sell",
+            "bucket": "Sell",
+            "issued_at": "2026-02-13",
+            "age_days": 273,
+            "after_earnings": false,
+            "source": "https://finviz.com/news/322683/bp-downgraded-to-sell-price-target-maintained-at-37",
+            "weight": 0.14728541403940856
+          },
+          {
+            "analyst": "TD Cowen analyst (not named in source)",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-07-16",
+            "age_days": 120,
+            "after_earnings": false,
+            "source": "https://www.pulse.bot/large-cap-stocks/news/bp-price-target-lowered-by-2-at-td-cowen-abe3b82d-e4f8-48af-a249-b9565dff8774/",
+            "weight": 0.4785317220073197
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 3,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 85.27145859605915,
+          "Sell": 14.728541403940856
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "HSBC analyst (not named in source)",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-03-20",
+          "public_at": "2026-03-20T23:59:59-04:00",
+          "source": "https://www.nasdaq.com/articles/hsbc-upgrades-bp-plc-depositary-receipt-bp",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Piper Sandler analyst (not named in source)",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-03-12",
+          "public_at": "2026-03-12T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/piper-sandler-boosts-bp-nysebp-price-target-to-4700-2026-03-12/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Piper Sandler analyst (not named in source)",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 47.0,
+          "source_prior": 44,
+          "issued_at": "2026-03-12",
+          "public_at": "2026-03-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/piper-sandler-boosts-bp-nysebp-price-target-to-4700-2026-03-12/",
+          "prior_observed": null,
+          "revision_pct": 6.818181818181812,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Sergey Pigarev",
+          "firm": "Freedom Finance",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-02-13",
+          "public_at": "2026-02-13T23:59:59-05:00",
+          "source": "https://finviz.com/news/322683/bp-downgraded-to-sell-price-target-maintained-at-37",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Sergey Pigarev",
+          "firm": "Freedom Finance",
+          "field": "target",
+          "value": 37.0,
+          "source_prior": 37,
+          "issued_at": "2026-02-13",
+          "public_at": "2026-02-13T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://finviz.com/news/322683/bp-downgraded-to-sell-price-target-maintained-at-37",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "TD Cowen analyst (not named in source)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "source": "https://www.pulse.bot/large-cap-stocks/news/bp-price-target-lowered-by-2-at-td-cowen-abe3b82d-e4f8-48af-a249-b9565dff8774/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "TD Cowen analyst (not named in source)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 41.0,
+          "source_prior": 40,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pulse.bot/large-cap-stocks/news/bp-price-target-lowered-by-2-at-td-cowen-abe3b82d-e4f8-48af-a249-b9565dff8774/",
+          "prior_observed": null,
+          "revision_pct": 2.499999999999991,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "NEM": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 113.14,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 EPS (attributable gold ~5.4 Moz, realized gold price less by-product AISC, ~$1.9bn DD&A, ~30% tax, ~1,045M shares) at a 11-14x multiple. US-listed ordinary shares, no ADR conversion. Operating inputs from Q3 2026 release (realized $4,317/oz, AISC $1,454, 2026 guide 5.26 Moz, AISC $1,520); 2027 AISC and DD&A are my estimates because 2027 guidance is only qualitative (production up low-to-mid single digit, costs higher).",
+        "bear": 55.0,
+        "base": 116.0,
+        "bull": 156.0,
+        "cases": {
+          "bear": {
+            "driver": "Gold falls to $3,500/oz, AISC $1,750 on inflation",
+            "assumption": "EPS $5.0 at 11x",
+            "target": 55.0
+          },
+          "base": {
+            "driver": "Gold $4,300/oz, 5.4 Moz, AISC $1,650",
+            "assumption": "EPS $8.3 at 14x",
+            "target": 116.0
+          },
+          "bull": {
+            "driver": "Gold $5,000/oz, 5.5 Moz, AISC $1,650",
+            "assumption": "EPS $11.1 at 14x",
+            "target": 156.0
+          }
+        },
+        "implied_by_close": "At base EPS $8.3 the close implies 13.6x; the analyst average target (~$140) implies about 16.9x or EPS of about $10.0 at 14x",
+        "sensitivity": "One turn of P/E moves the base target by $8.3 (7.3 pp); each $100/oz of gold moves EPS about $0.35",
+        "watch_metric": "Realized gold price and 2027 AISC guidance versus the $1,650/oz assumption",
+        "next_disclosure": "Q4 and full-year 2026 results with 2027 guidance (expected February 2027; date not confirmed)"
+      },
+      "dividend_per_share": 1.04,
+      "analyst_notes": "All eight named calls are dated October 22-29 after Q3 results; most trimmed targets by $1-5 while Argus raised $110 to $123 and Goldman nudged $119 to $120. Targets span $115 (Freedom, Hold) to $165 (Stifel), seven of eight Buy. Targets are mostly above my base $116, implying about 16-17x on my EPS or EPS near $10, i.e. a higher gold price deck. Horizons are undocumented so none enter the weighted target; coverage is a subset from one aggregator.",
+      "sources": [
+        {
+          "label": "Newmont Q3 2026 earnings release (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001164727/000116472726000041/newmontq32026earningsrelea.htm",
+          "supports": "realized price, AISC, FCF, shares, dividend, guidance"
+        },
+        {
+          "label": "StockAnalysis NEM ratings",
+          "url": "https://stockanalysis.com/stocks/nem/ratings/",
+          "supports": "analyst targets and ratings"
+        },
+        {
+          "label": "Kitco Q3 2026 coverage",
+          "url": "https://www.kitco.com/news/article/2026-10-22/newmont-beats-third-quarter-earnings-expectations-higher-gold-sales-boost",
+          "supports": "results date and cost outlook"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-22T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 18.0,
+        "max_weight_pct": 12.802935066049178,
+        "contributors": [
+          {
+            "analyst": "Alexandra Yates",
+            "firm": "Argus Research",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-28",
+            "age_days": 16,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/nem/ratings/",
+            "weight": 0.12704710260230404
+          },
+          {
+            "analyst": "Daniel Major",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-26",
+            "age_days": 18,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/nem/ratings/",
+            "weight": 0.12510515625006316
+          },
+          {
+            "analyst": "Harrison Reynolds",
+            "firm": "RBC Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-26",
+            "age_days": 18,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/nem/ratings/",
+            "weight": 0.12510515625006316
+          },
+          {
+            "analyst": "Hugo Nicolaci",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-25",
+            "age_days": 19,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/nem/ratings/",
+            "weight": 0.12414534276852981
+          },
+          {
+            "analyst": "Lawson Winder",
+            "firm": "Bank of America Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/nem/ratings/",
+            "weight": 0.12224775053227312
+          },
+          {
+            "analyst": "Ralph M. Profiti",
+            "firm": "Stifel Nicolaus",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/nem/ratings/",
+            "weight": 0.12224775053227312
+          },
+          {
+            "analyst": "Tanya Jakusconek",
+            "firm": "Scotiabank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-27",
+            "age_days": 17,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/nem/ratings/",
+            "weight": 0.1260723904040018
+          },
+          {
+            "analyst": "Vitaly Kononov",
+            "firm": "Freedom Capital Markets",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/nem/ratings/",
+            "weight": 0.1280293506604918
+          }
+        ],
+        "counts": {
+          "Buy": 7,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 87.19706493395081,
+          "Hold": 12.802935066049178,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Alexandra Yates",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Alexandra Yates",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 123.0,
+          "source_prior": 110,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "revision_pct": 11.818181818181817,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Daniel Major",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Daniel Major",
+          "firm": "UBS",
+          "field": "target",
+          "value": 150.0,
+          "source_prior": 155,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "revision_pct": -3.2258064516129004,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Harrison Reynolds",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Harrison Reynolds",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 155.0,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Hugo Nicolaci",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-25",
+          "public_at": "2026-10-25T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Hugo Nicolaci",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 120.0,
+          "source_prior": 119,
+          "issued_at": "2026-10-25",
+          "public_at": "2026-10-25T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "revision_pct": 0.8403361344537785,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Lawson Winder",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Lawson Winder",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 140.0,
+          "source_prior": 139,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "revision_pct": 0.7194244604316502,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ralph M. Profiti",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ralph M. Profiti",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 165.0,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Tanya Jakusconek",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Tanya Jakusconek",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 148.0,
+          "source_prior": 149,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "revision_pct": -0.6711409395973145,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Vitaly Kononov",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Vitaly Kononov",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 115.0,
+          "source_prior": 116,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/nem/ratings/",
+          "prior_observed": null,
+          "revision_pct": -0.8620689655172376,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "COF": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 195.08,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank/lender: forward EPS x P/E cross-checked to P/TBV. Q3 2026 TBV/share $102.72, ROTCE 21.1%, adj EPS $6.69 (GAAP $5.61); buybacks ($2.6B in Q3) shrink share count. Targets use FY2027 EPS viewed at the Nov-2027 target date, on a GAAP-leaning basis because acquisition amortization (Discover, Brex) is real cost.",
+        "bear": 150.0,
+        "base": 225.0,
+        "bull": 294.0,
+        "cases": {
+          "bear": {
+            "driver": "Credit losses rise, ROTCE falls to mid-teens",
+            "assumption": "EPS $20 at 7.5x",
+            "target": 150.0
+          },
+          "base": {
+            "driver": "Stable credit, Discover network synergies, steady buybacks",
+            "assumption": "EPS $25 at 9.0x (about 2.1x P/TBV on ~$108 TBV)",
+            "target": 225.0
+          },
+          "bull": {
+            "driver": "Synergies and buybacks lift adjusted EPS toward run-rate",
+            "assumption": "EPS $28 at 10.5x",
+            "target": 294.0
+          }
+        },
+        "implied_by_close": "At base EPS $25 the close implies 7.8x; the analyst average target of about $256 implies 10.2x or EPS $28.5 at 9.0x",
+        "sensitivity": "One turn of P/E moves the base target by $25 (12.8 pp of the close)",
+        "watch_metric": "Net charge-off and delinquency rates plus ROTCE vs 21%",
+        "next_disclosure": "Q4 2026 earnings, expected late January 2027 (date not confirmed); monthly credit metrics earlier"
+      },
+      "dividend_per_share": 2.4,
+      "analyst_notes": "Named targets mostly rose on Oct 21 after the Q3 beat, though JPMorgan and Morgan Stanley cut on Oct 12 and UBS trimmed on Nov 2. Panel targets ($225-285) sit above the $225 base; the gap is about 1-3 P/E turns or about $3-6 of EPS. Horizons are undocumented so none enter the weighted target; analyst names beyond UBS, JPMorgan and Morgan Stanley were inferred from coverage lists and should be checked.",
+      "sources": [
+        {
+          "label": "Q3 2026 earnings review",
+          "url": "https://finsee.ai/earnings/cof/2026/q3/en/",
+          "supports": "TBV, ROTCE, buybacks"
+        },
+        {
+          "label": "Zacks Q3 2026",
+          "url": "https://www.zacks.com/stock/news/3011611/capital-one-stock-gains-as-q3-earnings-beat-estimates-on-higher-nii",
+          "supports": "Adjusted EPS $6.69"
+        },
+        {
+          "label": "Benzinga COF price targets",
+          "url": "https://www.benzinga.com/quote/COF/price-targets",
+          "supports": "Analyst target changes"
+        },
+        {
+          "label": "MarketBeat consensus",
+          "url": "https://www.marketbeat.com/instant-alerts/consensus-capital-one-financial-corporation-nyse-cof-stock-has-consensus-target-price-of-25650-2026-11-15/",
+          "supports": "Consensus $256.50"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-20T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 3,
+        "earnings_order_unknown": 0,
+        "median_age_days": 23.0,
+        "max_weight_pct": 27.217459958259056,
+        "contributors": [
+          {
+            "analyst": "Arren Cyganovich",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/quote/COF/price-targets",
+            "weight": 0.24814770325377564
+          },
+          {
+            "analyst": "Erika Najarian",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/quote/COF/price-targets",
+            "weight": 0.27217459958259055
+          },
+          {
+            "analyst": "Jeffrey Adelson",
+            "firm": "Morgan Stanley",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-12",
+            "age_days": 32,
+            "after_earnings": false,
+            "source": "https://www.benzinga.com/quote/COF/price-targets",
+            "weight": 0.23152999390985823
+          },
+          {
+            "analyst": "Richard Shane",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-21",
+            "age_days": 23,
+            "after_earnings": true,
+            "source": "https://www.benzinga.com/quote/COF/price-targets",
+            "weight": 0.24814770325377564
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Arren Cyganovich",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Arren Cyganovich",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 285.0,
+          "source_prior": 280,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "revision_pct": 1.7857142857142794,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 274.0,
+          "source_prior": 280,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "revision_pct": -2.1428571428571463,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jeffrey Adelson",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jeffrey Adelson",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 267.0,
+          "source_prior": 273,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "revision_pct": -2.197802197802201,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Kevin Barker",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 269.0,
+          "source_prior": 260,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "revision_pct": 3.4615384615384714,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Moshe Orenbuch",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 242,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-capital-one-financial-nyse-cof-given-new-22500-price-target-at-bmo-capital-markets-2026-10-21/",
+          "prior_observed": null,
+          "revision_pct": 3.305785123966931,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 227.0,
+          "source_prior": 246,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "revision_pct": -7.72357723577236,
+          "direction": "cut"
+        },
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 241.0,
+          "source_prior": 227,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": 227.0,
+          "revision_pct": 6.167400881057272,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Terry Ma",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 238.0,
+          "source_prior": 237,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/COF/price-targets",
+          "prior_observed": null,
+          "revision_pct": 0.42194092827003704,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
     }
   },
   "failures": [],
@@ -56354,6 +58219,11 @@
         "kind": "new"
       },
       {
+        "symbol": "BP",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "BRK/B",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -56380,6 +58250,11 @@
       },
       {
         "symbol": "CB",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "COF",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -56614,6 +58489,11 @@
         "kind": "new"
       },
       {
+        "symbol": "NEM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "NFLX",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -56640,6 +58520,11 @@
       },
       {
         "symbol": "PANW",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "PBR",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -56770,6 +58655,11 @@
       },
       {
         "symbol": "STX",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "SYK",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -57075,6 +58965,22 @@
         "prior_target": 193,
         "direction": "cut",
         "revision_pct": -3.626943005181349,
+        "horizon_months": null
+      },
+      {
+        "symbol": "PBR",
+        "firm": "Morgan Stanley",
+        "analyst": "Morgan Stanley analyst team (not named in source)",
+        "issued_at": "2026-11-12",
+        "source": "https://www.webull.com/news/15908687991784448",
+        "currency": null,
+        "rating": "Overweight",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 25.0,
+        "prior_target": 31,
+        "direction": "cut",
+        "revision_pct": -19.354838709677423,
         "horizon_months": null
       },
       {
@@ -57481,6 +59387,22 @@
         "prior_target": 125,
         "direction": "raise",
         "revision_pct": 15.999999999999993,
+        "horizon_months": null
+      },
+      {
+        "symbol": "SYK",
+        "firm": "Piper Sandler",
+        "analyst": "Matt O'Brien",
+        "issued_at": "2026-11-09",
+        "source": "https://www.pricetargets.com/NYSE/SYK",
+        "currency": null,
+        "rating": "Overweight",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 350.0,
+        "prior_target": 325,
+        "direction": "raise",
+        "revision_pct": 7.692307692307687,
         "horizon_months": null
       },
       {

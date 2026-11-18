@@ -1,0 +1,36 @@
+{
+  "issuer_id": "Toyota Motor Corporation",
+  "symbol": "TM",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 212.43, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-05T14:00:00+09:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward EPS x P/E per ADS, valued at the 12-month target date (Nov 2027), when the investor prices FY2028 (year ending March 2028) earnings. Share basis: the ADS represents 10 ordinary shares (1 ADS : 10 shares since 1 Oct 2021, after Toyota's 5-for-1 split; BNY Mellon ratio-change notice dated 3 Sep 2021, depositary BNY Mellon). FX: USD/JPY 159.70 close on 13 Nov 2026 (TradingNews, 16 Nov 2026), held constant for both the EPS conversion and the target. Base year: FY2027 (year ending March 2027) revised guidance on 5 Nov 2026 of net income JPY 3.57tn (Hurriyet Daily News, 5 Nov 2026; prior JPY 3.25tn), divided by about 12.04bn weighted shares implied by H1 net income JPY 2.24tn and basic EPS JPY 185.97. That gives about JPY 296 per ordinary share, or JPY 2,964 (about USD 18.56) per ADS. Targets: bear FY2028 EPS -15% at 10x (JPY 2,520 per ADS, USD 157.75); base +5% at 12x (JPY 3,112, USD 233.85); bull +12% at 13x (JPY 3,321, USD 270.22). Operating-income guidance of JPY 3.9tn (raised from JPY 3.4tn) and the JPY 14tn shareholder-return plan through March 2031 (TIKR, 5 Nov 2026) are context only: buyback size and share-count effect are not disclosed in the sources opened, so no accretion is modelled beyond the +5% base step. Dividends are excluded from the targets (price-only basis).",
+    "bear": 157.75,
+    "base": 233.85,
+    "bull": 270.22,
+    "cases": {
+      "bear": {"driver": "Tariff and yen headwinds, North America margin relapse", "assumption": "FY2028 EPS -15% from FY2027 base (about JPY 2,520 per ADS, USD 15.78) at 10x", "target": 157.75},
+      "base": {"driver": "Guidance held, modest growth from weaker-yen and lower-tariff tailwinds", "assumption": "FY2028 EPS +5% (about JPY 3,112 per ADS, USD 19.49) at 12x", "target": 233.85},
+      "bull": {"driver": "Buybacks under the JPY 14tn plan and North America recovery", "assumption": "FY2028 EPS +12% (about JPY 3,321 per ADS, USD 20.80) at 13x", "target": 270.22}
+    },
+    "implied_by_close": "At base FY2028 EPS of USD 19.49 the 212.43 close implies 10.9x. The analyst mean of USD 238.08 (4 analysts, Yahoo Finance aggregate in the weekly data) implies 12.2x on the same EPS, or about USD 19.84 EPS at 12x. The gap is small (about 1.8% above the base target), so it does not require a different earnings view.",
+    "sensitivity": "One turn of P/E moves the base target by USD 19.49 (about 9.2 pp of the close). A JPY 10 move in USD/JPY moves the base target by about USD 14 to 16 (6 to 7%): a stronger yen lowers the USD value of yen earnings.",
+    "watch_metric": "Operating income tracking the JPY 3.9tn guide (ADS EPS in USD), tariff cost in North America, and buyback execution against the JPY 14tn plan (share count). A miss against the guide or a yen move toward 150 would weaken the base case.",
+    "next_disclosure": "Q3 FY2027 results (nine months to December 2026), expected in early February 2027; exact date not verified in the sources opened."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "No named individual analyst calls could be sourced: the opened sources (MarketBeat, Yahoo Finance) identify firms only, so coverage is recorded as unavailable with no events. Freedom Broker (firm only) downgraded TM from Buy to Hold on 12 Nov 2026 with a USD 230 target, unchanged from its 14 May 2026 upgrade (target raised from USD 221 to 230). That target sits about 8% above the 12 Nov prior close and is below the base target, so the firm's Hold reflects a limited upside view rather than an earnings disagreement.Aggregate of four analysts (Yahoo Finance, weekly data) averages USD 238.08 with a range of 230 to 253; it is not recency-weighted and has no dates. Firm-level calls cited secondhand (Morgan Stanley upgrade April 2026 at USD 215; BNP Paribas Exane initiation Feb 2026 at USD 290; Erste Group rating changes) are not opened at source and are not entered.",
+  "sources": [
+    {"label": "BNY Mellon ratio-change notice (1 ADS : 2 shares to 1 ADS : 10 shares, effective 1 Oct 2021)", "url": "https://in.marketscreener.com/quote/stock/BANK-OF-NEW-YORK-MELLON-C-11848/news/General-Announcement-Toyota-Motor-Corporation-Ratio-Change-36353154/", "supports": "ADR ratio 1 ADS = 10 ordinary shares; depositary BNY Mellon"},
+    {"label": "TradingNews USD/JPY report, 16 Nov 2026", "url": "https://www.tradingnews.com/news/usdjpy-holds-159-under-tokyo-160-line-a-close-above-160", "supports": "USD/JPY close 159.70 on 13 Nov 2026"},
+    {"label": "Toyota FY2027 2Q press briefing announcement (5 Nov 2026, 14:00 JST)", "url": "https://global.toyota/en/newsroom/corporate/44911706.html", "supports": "Release date and time, earnings_at"},
+    {"label": "Hurriyet Daily News, Toyota hikes profit forecasts (5 Nov 2026)", "url": "https://www.hurriyetdailynews.com/toyota-hikes-profit-forecasts-on-strong-demand-229040", "supports": "FY2027 net income forecast JPY 3.57tn, prior JPY 3.25tn, operating income JPY 3.9tn"},
+    {"label": "TIKR, Toyota raised outlook and JPY 14tn shareholder return plan (5 Nov 2026)", "url": "https://www.tikr.com/blog/toyota-soars-10-on-raised-outlook-and-89-billion-shareholder-return-plan-wow", "supports": "Operating income JPY 3.9tn; FX assumption JPY 157/USD; shareholder return plan through March 2031"},
+    {"label": "MarketBeat, Freedom Broker downgrade to Hold (12 Nov 2026)", "url": "https://www.marketbeat.com/instant-alerts/analyst-toyota-motor-nyse-tm-rating-lowered-to-hold-at-freedom-broker-2026-11-12/", "supports": "Firm-level downgrade Buy to Hold, USD 230 target, no named analyst"},
+    {"label": "Yahoo Finance, Freedom Broker upgrade (27 May 2026 article)", "url": "https://finance.yahoo.com/markets/stocks/articles/why-freedom-broker-upgraded-toyota-214032903.html", "supports": "14 May 2026 upgrade to Buy, target raised from USD 221 to 230, no named analyst"}
+  ]
+}

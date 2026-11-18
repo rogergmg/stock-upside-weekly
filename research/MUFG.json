@@ -1,0 +1,39 @@
+{
+  "issuer_id": "Mitsubishi UFJ Financial Group, Inc.",
+  "symbol": "MUFG",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 21.83, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-13T16:00:00+09:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Shinichiro Nakamura", "firm": "Bank of America Securities", "field": "target", "value": 25.09, "issued_at": "2026-08-03", "public_at": "2026-08-03T23:59:59-04:00", "horizon_months": null, "source": "https://www.tipranks.com/stocks/mufg/forecast"},
+    {"analyst": "Shinichiro Nakamura", "firm": "Bank of America Securities", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-08-03", "public_at": "2026-08-03T23:59:59-04:00", "source": "https://www.tipranks.com/stocks/mufg/forecast"},
+    {"analyst": "Hans Engel", "firm": "Erste Group", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-06-25", "public_at": "2026-06-25T23:59:59+02:00", "source": "https://www.tipranks.com/stocks/mufg/forecast"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E at the 12-month target date (mid-Nov 2027). An investor then prices fiscal year ending March 2028 (FY28) net profit per ordinary share. Ordinary-share basis: FY27 (year to 31 Mar 2027) profit attributable to owners of the parent target of JPY 2.8 trillion (raised from JPY 2.7 trillion on 13 Nov 2026) divided by about 10.69 billion shares (11,278,786,507 issued less 588,924,413 treasury shares, per the company's 13 Nov 2026 release as reported by panabee.com). ADR conversion: 1 ADR = 1 ordinary share (depositary ratio per the MUFG ADR listing at Hargreaves Lansdown and the 2019 Form 20-F; the depositary notice itself was not opened). Converted to USD at JPY 159.70 per USD, the approximate 13 Nov 2026 close reported by TradingNEWS; an official BOJ 13 Nov 2026 rate was not extractable, so the FX input is secondary. Thus FY27 EPS is about $1.64 per ADR. Scenario EPS is FY28 net profit in JPY trillions / 10.69bn shares / 159.70. Scenario FX is held constant; a 10 percent yen move changes all targets proportionally. Dividend: JPY 100 annual forecast (JPY 48 interim paid, JPY 52 year-end forecast) = about $0.63 per ADR at 159.70. Price returns exclude this dividend.",
+    "bear": 16.11,
+    "base": 22.93,
+    "bull": 26.33,
+    "cases": {
+      "bear": {"driver": "Net interest margin squeeze from a slower Japanese rate path and higher credit costs, plus a weaker yen reversing part of the 2026 profit gain; FY28 net profit falls about 14% below the FY27 target.", "assumption": "FY28 net profit JPY 2.5 trillion, EPS about JPY 234 = $1.46 per ADR at 159.70, at 11.0x (a discount to the 13.3x implied by the close).", "target": 16.11},
+      "base": {"driver": "Fee income and domestic loan growth continue; buybacks (up to JPY 200bn from 16 Nov 2026) offset dilution, and FY28 net profit grows about 3.6% from the raised FY27 target to JPY 2.9 trillion.", "assumption": "FY28 net profit JPY 2.9 trillion, EPS about JPY 271 = $1.70 per ADR at 159.70, at 13.5x (close to the current 13.3x FY27 multiple).", "target": 22.93},
+      "bull": {"driver": "Rate normalization lifts margins further, overseas and capital-markets fees grow faster, and the market re-rates Japanese megabanks toward a 14.5x multiple after strong capital returns.", "assumption": "FY28 net profit JPY 3.1 trillion, EPS about JPY 290 = $1.82 per ADR at 159.70, at 14.5x.", "target": 26.33}
+    },
+    "implied_by_close": "At base FY28 EPS of $1.70 the 21.83 close implies 12.9x. On FY27 EPS of $1.64 the close implies 13.3x. The one named analyst target in the sample, $25.09 (BofA, 3 Aug 2026), implies about 14.8x base EPS, or EPS of $2.04 at a constant 12.3x, close to the bull case.",
+    "sensitivity": "One turn of P/E moves the base target by $1.70 (about 7.4 percent of the base target). A 5 percent yen appreciation (USD/JPY from 159.7 to about 152) lifts all USD targets by about 5 percent, and a 5 percent depreciation lowers them by the same amount.",
+    "watch_metric": "Net profit attributable to owners of the parent for FY27 versus the JPY 2.8 trillion target, especially net interest income and credit costs in the Q3 FY27 release, and ordinary-share buyback progress against the JPY 200bn programme.",
+    "next_disclosure": "Q3 FY27 results (quarter to 31 Dec 2026), expected around late January or early February 2027 on MUFG's investor relations calendar; the company's FY27 annual results in May 2027 will set the FY28 base."
+  },
+  "dividend_per_share": 0.63,
+  "analyst_notes": "Named coverage in the sources found is thin: two dated calls in the last 12 months, Shinichiro Nakamura (BofA, Buy, $25.09 target on 3 Aug 2026) and Hans Engel (Erste Group, initiated Buy on 25 Jun 2026, no target listed). The JPMorgan upgrade to Overweight with a JPY 2,910 yen target and an earlier BofA downgrade to Neutral at $13.39 are undated in the sources, so they are excluded. The $25.09 target sits about 9 percent above base and about 15 percent above the close; with no documented 12-month horizon it stays out of the weighted target. Aggregate sources show a much lower average of about $20 to $25 from two or three analysts, so the sample is too small for a consensus view. The 13 Nov 2026 profit raise (JPY 2.7 trillion to 2.8 trillion) is the main post-earnings input and is reflected in the base case.",
+  "sources": [
+    {"label": "MUFG FY27 profit target raised to JPY 2.8 trillion, dividend JPY 100 (13 Nov 2026)", "url": "https://www.panabee.com/news/mitsubishi-ufj-financial-earnings-q3-2026", "supports": "FY27 net profit target, dividend forecast, shares outstanding and treasury shares, buyback size and dates"},
+    {"label": "MUFG ADR each representing 1 ordinary share (Hargreaves Lansdown)", "url": "https://www.hl.co.uk/shares/shares-search-results/m/mitsubishi-ufj-financial-group-inc-adr/company-information", "supports": "ADR ratio of 1:1 and NYSE ticker MUFG"},
+    {"label": "MUFG 2018 Form 20-F (American depositary shares, one share each)", "url": "https://docoh.com/filing/67088/0001193125-19-191525/MUFG-20F-2018FY", "supports": "ADR ratio of 1 American depositary share per ordinary share, corroborating the 1:1 ratio"},
+    {"label": "USD/JPY around 159.70 close on Friday 13 Nov 2026 (TradingNEWS)", "url": "https://www.tradingnews.com/news/usdjpy-holds-159-under-tokyo-160-line-a-close-above-160", "supports": "JPY 159.70 per USD FX conversion (secondary source; official BOJ rate not extracted)"},
+    {"label": "MUFG analyst ratings and targets (TipRanks)", "url": "https://www.tipranks.com/stocks/mufg/forecast", "supports": "Nakamura BofA Buy and $25.09 target (3 Aug 2026); Engel Erste Buy initiation (25 Jun 2026)"},
+    {"label": "MUFG Tokyo results schedule (traders.co.jp)", "url": "https://traders.co.jp/stocks/8306/", "supports": "Half-year results release time of 13 Nov 2026 16:00 JST, used as earnings_at"}
+  ]
+}

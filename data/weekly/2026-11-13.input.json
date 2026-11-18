@@ -8028,9 +8028,180 @@
         "high": 260312317969
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "John Hodulik",
+          "firm": "UBS",
+          "field": "target",
+          "value": 110,
+          "source_prior": 115,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "John Hodulik",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "Michael Morris",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 78,
+          "source_prior": 80,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "Michael Morris",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "David Joyce",
+          "firm": "Seaport Research",
+          "field": "target",
+          "value": 85,
+          "source_prior": 90,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "David Joyce",
+          "firm": "Seaport Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "John Colantuoni",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 85,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "John Colantuoni",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "John Blackledge",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 100,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "John Blackledge",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "Ralph Schackart",
+          "firm": "William Blair",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.thewrap.com/industry-news/business/netflix-q3-2026-earnings-stock-reaction/"
+        },
+        {
+          "analyst": "Laura Martin",
+          "firm": "Needham",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://247wallst.com/investing/2026/10/21/netflix-sinks-7-as-soft-q4-outlook-sparks-wave-of-price-target-cuts-spotify-slips-disney-holds-steady/"
+        },
+        {
+          "analyst": "Mohammed Khallouf",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 76,
+          "source_prior": 96,
+          "issued_at": "2026-09-22",
+          "public_at": "2026-09-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thewrap.com/industry-news/business/netflix-stock-wells-fargo-hsbc-downgrade-engagement-trends-youtube-competition/"
+        },
+        {
+          "analyst": "Mohammed Khallouf",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-09-22",
+          "public_at": "2026-09-22T23:59:59-04:00",
+          "source": "https://www.thewrap.com/industry-news/business/netflix-stock-wells-fargo-hsbc-downgrade-engagement-trends-youtube-competition/"
+        },
+        {
+          "analyst": "Steve Cahall",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 57,
+          "source_prior": 80,
+          "issued_at": "2026-09-18",
+          "public_at": "2026-09-18T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.thewrap.com/industry-news/business/netflix-stock-wells-fargo-hsbc-downgrade-engagement-trends-youtube-competition/"
+        },
+        {
+          "analyst": "Steve Cahall",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-09-18",
+          "public_at": "2026-09-18T23:59:59-04:00",
+          "source": "https://www.thewrap.com/industry-news/business/netflix-stock-wells-fargo-hsbc-downgrade-engagement-trends-youtube-competition/"
+        }
+      ],
+      "earnings_at": "2026-10-20T16:00:00-04:00",
+      "valuation": {
+        "bear": 48.48,
+        "base": 71.6,
+        "bull": 96.0
+      }
     },
     {
       "issuer_id": "Amgen Inc.",
@@ -8044,9 +8215,163 @@
         "high": 256923978619
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Freedom Broker analyst (unnamed)",
+          "firm": "Freedom Broker",
+          "field": "target",
+          "value": 470,
+          "source_prior": 450,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-amgen-nasdaq-amgn-cut-to-hold-at-freedom-broker-2026-11-06/"
+        },
+        {
+          "analyst": "Freedom Broker analyst (unnamed)",
+          "firm": "Freedom Broker",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-amgen-nasdaq-amgn-cut-to-hold-at-freedom-broker-2026-11-06/"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 340,
+          "source_prior": 351,
+          "issued_at": "2026-05-04",
+          "public_at": "2026-05-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://247wallst.com/investing/2026/05/04/guggenheim-trims-amgen-price-target-to-340-is-the-biotech-giant-losing-its-edge/"
+        },
+        {
+          "analyst": "Guggenheim analyst (unnamed)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-05-04",
+          "public_at": "2026-05-04T23:59:59-04:00",
+          "source": "https://247wallst.com/investing/2026/05/04/guggenheim-trims-amgen-price-target-to-340-is-the-biotech-giant-losing-its-edge/"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 351,
+          "source_prior": 333,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/morgan-stanley-issues-positive-forecast-for-amgen-nasdaqamgn-stock-price-2026-08-05/"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/morgan-stanley-issues-positive-forecast-for-amgen-nasdaqamgn-stock-price-2026-08-05/"
+        },
+        {
+          "analyst": "Truist analyst (unnamed)",
+          "firm": "Truist Financial",
+          "field": "target",
+          "value": 362,
+          "source_prior": 340,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/truist-financial-boosts-amgen-nasdaqamgn-price-target-to-36200-2026-08-05/"
+        },
+        {
+          "analyst": "Truist analyst (unnamed)",
+          "firm": "Truist Financial",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/truist-financial-boosts-amgen-nasdaqamgn-price-target-to-36200-2026-08-05/"
+        },
+        {
+          "analyst": "Scotiabank analyst (unnamed)",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 450,
+          "source_prior": 385,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/scotiabank-forecasts-strong-price-appreciation-for-amgen-nasdaqamgn-stock-2026-08-05/"
+        },
+        {
+          "analyst": "Scotiabank analyst (unnamed)",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Sector Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/scotiabank-forecasts-strong-price-appreciation-for-amgen-nasdaqamgn-stock-2026-08-05/"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 452,
+          "source_prior": 420,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/amgen-nasdaqamgn-stock-price-expected-to-rise-td-cowen-analyst-says-2026-08-05/"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/amgen-nasdaqamgn-stock-price-expected-to-rise-td-cowen-analyst-says-2026-08-05/"
+        },
+        {
+          "analyst": "RBC Capital analyst (unnamed)",
+          "firm": "Royal Bank of Canada",
+          "field": "target",
+          "value": 400,
+          "source_prior": 370,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/amgen-nasdaqamgn-given-new-40000-price-target-at-royal-bank-of-canada-2026-08-05/"
+        },
+        {
+          "analyst": "RBC Capital analyst (unnamed)",
+          "firm": "Royal Bank of Canada",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/amgen-nasdaqamgn-given-new-40000-price-target-at-royal-bank-of-canada-2026-08-05/"
+        }
+      ],
+      "earnings_at": "2026-11-03T16:00:00-05:00",
+      "valuation": {
+        "bear": 328.0,
+        "base": 446.5,
+        "bull": 525.0
+      },
+      "dividend_per_share": 10.08
     },
     {
       "issuer_id": "Toyota Motor Corporation",
@@ -8060,9 +8385,14 @@
         "high": 282417413176
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-11-05T14:00:00+09:00",
+      "valuation": {
+        "bear": 157.75,
+        "base": 233.85,
+        "bull": 270.22
+      }
     },
     {
       "issuer_id": "Arista Networks, Inc.",
@@ -8076,9 +8406,182 @@
         "high": 254370646644
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "target",
+          "value": 291,
+          "source_prior": 259,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://uk.investing.com/news/stock-market-news/ubs-raises-arista-networks-stock-price-target-on-strong-ai-demand-93CH-4955696"
+        },
+        {
+          "analyst": "(unnamed) UBS",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://uk.investing.com/news/stock-market-news/ubs-raises-arista-networks-stock-price-target-on-strong-ai-demand-93CH-4955696"
+        },
+        {
+          "analyst": "(unnamed) Truist Securities",
+          "firm": "Truist Securities",
+          "field": "target",
+          "value": 240,
+          "source_prior": 234,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/truist-raises-arista-networks-stock-price-target-on-ai-growth-93CH-4999567"
+        },
+        {
+          "analyst": "(unnamed) Truist Securities",
+          "firm": "Truist Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/truist-raises-arista-networks-stock-price-target-on-ai-growth-93CH-4999567"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 230,
+          "source_prior": 220,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://in.investing.com/news/stock-market-news/morgan-stanley-raises-arista-networks-price-target-on-tam-expansion-93CH-5678145"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://in.investing.com/news/stock-market-news/morgan-stanley-raises-arista-networks-price-target-on-tam-expansion-93CH-5678145"
+        },
+        {
+          "analyst": "(unnamed) Piper Sandler",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 261,
+          "source_prior": 240,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-wall-street-121759668.html"
+        },
+        {
+          "analyst": "(unnamed) Piper Sandler",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-stock-wall-street-121759668.html"
+        },
+        {
+          "analyst": "(unnamed) Wells Fargo",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 245,
+          "source_prior": 255,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://in.investing.com/news/stock-market-news/morgan-stanley-raises-arista-networks-price-target-on-tam-expansion-93CH-5678145"
+        },
+        {
+          "analyst": "(unnamed) Wells Fargo",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://in.investing.com/news/stock-market-news/morgan-stanley-raises-arista-networks-price-target-on-tam-expansion-93CH-5678145"
+        },
+        {
+          "analyst": "(unnamed) Needham",
+          "firm": "Needham",
+          "field": "target",
+          "value": 260,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/truist-raises-arista-networks-stock-price-target-on-ai-growth-93CH-4999567"
+        },
+        {
+          "analyst": "(unnamed) Needham",
+          "firm": "Needham",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/truist-raises-arista-networks-stock-price-target-on-ai-growth-93CH-4999567"
+        },
+        {
+          "analyst": "(unnamed) Rosenblatt Securities",
+          "firm": "Rosenblatt Securities",
+          "field": "target",
+          "value": 280,
+          "source_prior": 210,
+          "horizon_months": null,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/arista-networks-nyseanet-given-new-28000-price-target-at-rosenblatt-securities-2026-08-05/"
+        },
+        {
+          "analyst": "(unnamed) Rosenblatt Securities",
+          "firm": "Rosenblatt Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/arista-networks-nyseanet-given-new-28000-price-target-at-rosenblatt-securities-2026-08-05/"
+        },
+        {
+          "analyst": "(unnamed) TD Cowen",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 250,
+          "source_prior": 210,
+          "horizon_months": null,
+          "issued_at": "2026-08-05",
+          "public_at": "2026-08-05T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/arista-networks-nyseanet-given-new-25000-price-target-at-td-cowen-2026-08-05/"
+        },
+        {
+          "analyst": "(unnamed) Needham",
+          "firm": "Needham",
+          "field": "target",
+          "value": 200,
+          "horizon_months": null,
+          "issued_at": "2026-07-22",
+          "public_at": "2026-07-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/needham-company-llc-increases-arista-networks-nyseanet-price-target-to-20000-2026-07-22/"
+        }
+      ],
+      "earnings_at": "2026-11-03T16:00:00-05:00",
+      "valuation": {
+        "bear": 152.6,
+        "base": 212.8,
+        "bull": 262.8
+      }
     },
     {
       "issuer_id": "Mitsubishi UFJ Financial Group, Inc.",
@@ -8092,9 +8595,46 @@
         "high": 264374622623
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Shinichiro Nakamura",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 25.09,
+          "issued_at": "2026-08-03",
+          "public_at": "2026-08-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/mufg/forecast"
+        },
+        {
+          "analyst": "Shinichiro Nakamura",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-03",
+          "public_at": "2026-08-03T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/mufg/forecast"
+        },
+        {
+          "analyst": "Hans Engel",
+          "firm": "Erste Group",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-06-25",
+          "public_at": "2026-06-25T23:59:59+02:00",
+          "source": "https://www.tipranks.com/stocks/mufg/forecast"
+        }
+      ],
+      "earnings_at": "2026-11-13T16:00:00+09:00",
+      "valuation": {
+        "bear": 16.11,
+        "base": 22.93,
+        "bull": 26.33
+      },
+      "dividend_per_share": 0.63
     },
     {
       "issuer_id": "Linde plc",

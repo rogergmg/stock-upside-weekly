@@ -14659,9 +14659,68 @@
         "high": 139286499041
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Citi analyst (unnamed)",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 585,
+          "source_prior": 575,
+          "issued_at": "2026-03-10",
+          "public_at": "2026-03-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/vertex-pharmaceuticals-nasdaqvrtx-price-target-raised-to-58500-at-citigroup-2026-03-10/"
+        },
+        {
+          "analyst": "Citi analyst (unnamed)",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-03-10",
+          "public_at": "2026-03-10T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/vertex-pharmaceuticals-nasdaqvrtx-price-target-raised-to-58500-at-citigroup-2026-03-10/"
+        },
+        {
+          "analyst": "BofA analyst (unnamed)",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 598,
+          "source_prior": null,
+          "issued_at": "2026-03-10",
+          "public_at": "2026-03-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/vertex-pharmaceuticals-nasdaqvrtx-given-new-59800-price-target-at-bank-of-america-2026-03-10/"
+        },
+        {
+          "analyst": "Canaccord analyst (unnamed)",
+          "firm": "Canaccord Genuity",
+          "field": "target",
+          "value": 442,
+          "source_prior": 436,
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/canaccord-genuity-group-issues-positive-forecast-for-vertex-pharmaceuticals-nasdaqvrtx-stock-price-2026-08-04/"
+        },
+        {
+          "analyst": "Canaccord analyst (unnamed)",
+          "firm": "Canaccord Genuity",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-04",
+          "public_at": "2026-08-04T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/canaccord-genuity-group-issues-positive-forecast-for-vertex-pharmaceuticals-nasdaqvrtx-stock-price-2026-08-04/"
+        }
+      ],
+      "earnings_at": "2026-11-02T16:05:00-05:00",
+      "valuation": {
+        "bear": 425.5,
+        "base": 560.0,
+        "bull": 660.0
+      }
     },
     {
       "issuer_id": "The Boeing Company",
@@ -14675,9 +14734,110 @@
         "high": 138663682951
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "JPMorgan (analyst not named)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 240,
+          "source_prior": 290,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+        },
+        {
+          "analyst": "JPMorgan (analyst not named)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+        },
+        {
+          "analyst": "UBS (analyst not named)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 240,
+          "source_prior": 275,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+        },
+        {
+          "analyst": "UBS (analyst not named)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+        },
+        {
+          "analyst": "Wells Fargo (analyst not named)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 210,
+          "source_prior": 250,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+        },
+        {
+          "analyst": "Wells Fargo (analyst not named)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+        },
+        {
+          "analyst": "BofA (analyst not named)",
+          "firm": "BofA",
+          "field": "target",
+          "value": 235,
+          "source_prior": 270,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+        },
+        {
+          "analyst": "BofA (analyst not named)",
+          "firm": "BofA",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+        },
+        {
+          "analyst": "Bernstein (analyst not named)",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 278,
+          "source_prior": 298,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stocktwits.com/news-articles/markets/equity/bernstein-cuts-boeing-price-target-to-278-flags-no-clear-visibility-on-cash-flow/cZxI12pRB8k"
+        }
+      ],
+      "earnings_at": "2026-10-27T06:30:00-04:00",
+      "valuation": {
+        "bear": 114,
+        "base": 203,
+        "bull": 296
+      }
     },
     {
       "issuer_id": "AppLovin Corporation",
@@ -14691,9 +14851,186 @@
         "high": 138254735179
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "James Heaney",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 500,
+          "source_prior": 375,
+          "issued_at": "2026-11-16",
+          "public_at": "2026-11-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "James Heaney",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-16",
+          "public_at": "2026-11-16T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Alec Brondolo",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 347,
+          "source_prior": 325,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Alec Brondolo",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Alicia Reese",
+          "firm": "Wedbush",
+          "field": "target",
+          "value": 600,
+          "source_prior": 560,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Alicia Reese",
+          "firm": "Wedbush",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Eric Sheridan",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 445,
+          "source_prior": 400,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Eric Sheridan",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Matthew Swanson",
+          "firm": "Royal Bank of Canada",
+          "field": "target",
+          "value": 520,
+          "source_prior": 500,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Matthew Swanson",
+          "firm": "Royal Bank of Canada",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Martin Yang",
+          "firm": "Oppenheimer",
+          "field": "target",
+          "value": 520,
+          "source_prior": 490,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Clark Lampen",
+          "firm": "BTIG Research",
+          "field": "target",
+          "value": 450,
+          "source_prior": 396,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Nathaniel Schindler",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 450,
+          "source_prior": 515,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Stephen Ju",
+          "firm": "UBS Group",
+          "field": "target",
+          "value": 414,
+          "source_prior": 790,
+          "issued_at": "2026-10-28",
+          "public_at": "2026-10-28T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Jason Bazinet",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 500,
+          "source_prior": 600,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        },
+        {
+          "analyst": "Matthew Cost",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 400,
+          "source_prior": 450,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/APP"
+        }
+      ],
+      "earnings_at": "2026-11-04T16:05:00-05:00",
+      "valuation": {
+        "bear": 238.0,
+        "base": 418.0,
+        "bull": 648.0
+      }
     },
     {
       "issuer_id": "British American Tobacco p.l.c.",
@@ -14707,9 +15044,67 @@
         "high": 136355069191
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Aron Adamski",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 74.0,
+          "source_prior": 68.72,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/bti/forecast"
+        },
+        {
+          "analyst": "Aron Adamski",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tipranks.com/stocks/bti/forecast"
+        },
+        {
+          "analyst": "Bastien Agaud",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/bti/forecast"
+        },
+        {
+          "analyst": "Rashad Kawan",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 68.1,
+          "source_prior": 66.7,
+          "issued_at": "2026-09-07",
+          "public_at": "2026-09-07T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tipranks.com/stocks/bti/forecast"
+        },
+        {
+          "analyst": "Rashad Kawan",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-07",
+          "public_at": "2026-09-07T23:59:59-04:00",
+          "source": "https://www.tipranks.com/stocks/bti/forecast"
+        }
+      ],
+      "earnings_at": "2026-07-30T07:00:00+01:00",
+      "valuation": {
+        "bear": 56.5,
+        "base": 66.6,
+        "bull": 76.6
+      }
     },
     {
       "issuer_id": "HDFC Bank Limited",
@@ -14723,9 +15118,216 @@
         "high": 135529487888
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Bernstein analyst (unnamed in source)",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 36.62,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q2-review-earnings-in-line-with-estimates-brokerages-share-price-targets-562326-2026-10-19"
+        },
+        {
+          "analyst": "Bernstein analyst (unnamed in source)",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q2-review-earnings-in-line-with-estimates-brokerages-share-price-targets-562326-2026-10-19"
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 30.89,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q2-review-earnings-in-line-with-estimates-brokerages-share-price-targets-562326-2026-10-19",
+          "source_prior": 31.53
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q2-review-earnings-in-line-with-estimates-brokerages-share-price-targets-562326-2026-10-19"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 27.42,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q2-review-earnings-in-line-with-estimates-brokerages-share-price-targets-562326-2026-10-19"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q2-review-earnings-in-line-with-estimates-brokerages-share-price-targets-562326-2026-10-19"
+        },
+        {
+          "analyst": "Nomura analyst (unnamed)",
+          "firm": "Nomura",
+          "field": "target",
+          "value": 29.94,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q2-review-earnings-in-line-with-estimates-brokerages-share-price-targets-562326-2026-10-19"
+        },
+        {
+          "analyst": "Nomura analyst (unnamed)",
+          "firm": "Nomura",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-q2-review-earnings-in-line-with-estimates-brokerages-share-price-targets-562326-2026-10-19"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 28.03,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.goodreturns.in/news/hdfc-bank-shares-fall-2-3-after-q2-results-jefferies-pl-jm-emkay-see-up-to-44-upside-better-than-fds-1542415.html"
+        },
+        {
+          "analyst": "Jefferies analyst (unnamed)",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/hdfc-bank-shares-fall-2-3-after-q2-results-jefferies-pl-jm-emkay-see-up-to-44-upside-better-than-fds-1542415.html"
+        },
+        {
+          "analyst": "Emkay analyst (unnamed)",
+          "firm": "Emkay Global",
+          "field": "target",
+          "value": 33.44,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.goodreturns.in/news/hdfc-bank-shares-fall-2-3-after-q2-results-jefferies-pl-jm-emkay-see-up-to-44-upside-better-than-fds-1542415.html"
+        },
+        {
+          "analyst": "Emkay analyst (unnamed)",
+          "firm": "Emkay Global",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/hdfc-bank-shares-fall-2-3-after-q2-results-jefferies-pl-jm-emkay-see-up-to-44-upside-better-than-fds-1542415.html"
+        },
+        {
+          "analyst": "PL Capital analyst (unnamed)",
+          "firm": "PL Capital",
+          "field": "target",
+          "value": 30.25,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.goodreturns.in/news/hdfc-bank-shares-fall-2-3-after-q2-results-jefferies-pl-jm-emkay-see-up-to-44-upside-better-than-fds-1542415.html"
+        },
+        {
+          "analyst": "PL Capital analyst (unnamed)",
+          "firm": "PL Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/hdfc-bank-shares-fall-2-3-after-q2-results-jefferies-pl-jm-emkay-see-up-to-44-upside-better-than-fds-1542415.html"
+        },
+        {
+          "analyst": "JM Financial analyst (unnamed)",
+          "firm": "JM Financial",
+          "field": "target",
+          "value": 27.07,
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.goodreturns.in/news/hdfc-bank-shares-fall-2-3-after-q2-results-jefferies-pl-jm-emkay-see-up-to-44-upside-better-than-fds-1542415.html"
+        },
+        {
+          "analyst": "JM Financial analyst (unnamed)",
+          "firm": "JM Financial",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-19",
+          "public_at": "2026-10-19T23:59:59+05:30",
+          "source": "https://www.goodreturns.in/news/hdfc-bank-shares-fall-2-3-after-q2-results-jefferies-pl-jm-emkay-see-up-to-44-upside-better-than-fds-1542415.html"
+        },
+        {
+          "analyst": "Subramanian Iyer",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 32.64,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-share-price-rises-targets-by-ubs-bernstein-jefferies-morgan-stanley-552137-2026-08-31"
+        },
+        {
+          "analyst": "Subramanian Iyer",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-share-price-rises-targets-by-ubs-bernstein-jefferies-morgan-stanley-552137-2026-08-31"
+        },
+        {
+          "analyst": "Suresh Ganapathy",
+          "firm": "Macquarie",
+          "field": "target",
+          "value": 36.62,
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59+05:30",
+          "horizon_months": null,
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-share-price-rises-targets-by-ubs-bernstein-jefferies-morgan-stanley-552137-2026-08-31"
+        },
+        {
+          "analyst": "Suresh Ganapathy",
+          "firm": "Macquarie",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-31",
+          "public_at": "2026-08-31T23:59:59+05:30",
+          "source": "https://www.businesstoday.in/markets/stocks/story/hdfc-bank-share-price-rises-targets-by-ubs-bernstein-jefferies-morgan-stanley-552137-2026-08-31"
+        }
+      ],
+      "earnings_at": null,
+      "valuation": {
+        "bear": 22.42,
+        "base": 28.98,
+        "bull": 35.92
+      }
     },
     {
       "issuer_id": "Medtronic plc",

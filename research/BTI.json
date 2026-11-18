@@ -1,0 +1,39 @@
+{
+  "issuer_id": "British American Tobacco p.l.c.",
+  "symbol": "BTI",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 61.89, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-07-30T07:00:00+01:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Aron Adamski", "firm": "Goldman Sachs", "field": "target", "value": 74.0, "source_prior": 68.72, "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "horizon_months": null, "source": "https://www.tipranks.com/stocks/bti/forecast"},
+    {"analyst": "Aron Adamski", "firm": "Goldman Sachs", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "source": "https://www.tipranks.com/stocks/bti/forecast"},
+    {"analyst": "Bastien Agaud", "firm": "Bank of America Securities", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-01", "public_at": "2026-10-01T23:59:59-04:00", "source": "https://www.tipranks.com/stocks/bti/forecast"},
+    {"analyst": "Rashad Kawan", "firm": "Morgan Stanley", "field": "target", "value": 68.1, "source_prior": 66.7, "issued_at": "2026-09-07", "public_at": "2026-09-07T23:59:59-04:00", "horizon_months": null, "source": "https://www.tipranks.com/stocks/bti/forecast"},
+    {"analyst": "Rashad Kawan", "firm": "Morgan Stanley", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-09-07", "public_at": "2026-09-07T23:59:59-04:00", "source": "https://www.tipranks.com/stocks/bti/forecast"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E on the ordinary share, converted to the USD ADR. FY2027 adjusted diluted EPS (the year an investor at the Nov 2027 target date prices) times a P/E, in pence, then converted. 1 ADR = 1 ordinary share (ratio 1:1). FX: GBP/USD about 1.32 (intraday 2026-11-13 per Trading Economics; the exact close was not found). Anchor: FY2025 adjusted diluted EPS 352.1p reported (352.8p Canada-adjusted constant currency); FY2026 guided towards the middle of 5-8% constant-currency growth (H1 2026 167.7p) less a 2-3% translational FX headwind, so about +4% reported, about 366p. FY2027 EPS is my assumption: about +6% on that, from low-single-digit revenue growth, mid-single-digit profit growth, GBP1.3bn buyback and lower finance costs. Targets are price only.",
+    "bear": 56.5,
+    "base": 66.6,
+    "bull": 76.6,
+    "cases": {
+      "bear": {"driver": "Cigarette volumes fall faster than the guided c.2.5% and new-category growth slows; EPS growth only about +1.5% and the multiple stays near today's", "assumption": "FY2027 EPS 372p at 11.5x = GBP 42.8 x 1.32", "target": 56.5},
+      "base": {"driver": "FY2026 lands mid-guidance, H2-weighted profit delivers, buyback and deleveraging support mid-single-digit EPS growth", "assumption": "FY2027 EPS 388p at 13.0x = GBP 50.4 x 1.32", "target": 66.6},
+      "bull": {"driver": "New categories (Velo, Glo, Vuse) scale with US share gains, leverage reaches 2.0x and the discount to global staples narrows", "assumption": "FY2027 EPS 400p at 14.5x = GBP 58.0 x 1.32", "target": 76.6}
+    },
+    "implied_by_close": "At base EPS of 388p the $61.89 close (about GBP 46.9) implies 12.1x; the analyst-weighted target (no 12-month-documented targets, so none weighted) is not available, the Goldman $74 would imply about 14.4x.",
+    "sensitivity": "One turn of P/E moves the base target by about $5.12 (8.3 pp of the close)",
+    "watch_metric": "Adjusted diluted EPS growth at constant currency versus the middle of 5-8%, plus H2 adjusted operating profit delivery",
+    "next_disclosure": "FY2026 preliminary results, expected February 2027 (date not confirmed)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only three named BTI calls were found in the last three months, all Buy: Goldman raised its target to $74 from $68.72 on 2026-11-02, Morgan Stanley to $68.10 from $66.70 on 2026-09-07, and BofA reiterated Buy. Horizons are undocumented so none enter the weighted target. Goldman's $74 versus my $66.6 base is about 1.3 turns of P/E (or about 30p of FY2027 EPS at 13x). Coverage here is thin and GBP-based LSE targets are not included.",
+  "sources": [
+    {"label": "TipRanks BTI forecast", "url": "https://www.tipranks.com/stocks/bti/forecast", "supports": "Goldman, Morgan Stanley, BofA calls"},
+    {"label": "BAT half-year report 2026", "url": "https://www.bat.com/media/press-releases/_2026/july/half-year-report-for-the-six-months-to-30-june-2026", "supports": "H1 EPS 167.7p, FY26 guidance"},
+    {"label": "BAT preliminary results FY2025", "url": "https://www.bat.com/media/press-releases/_2026/february/preliminary-results-for-the-year-ended-31-december-2025", "supports": "FY2025 EPS 352.1p, dividend, buyback"},
+    {"label": "Trading Economics GBPUSD", "url": "https://tradingeconomics.com/united-kingdom/currency/news/601113", "supports": "GBP/USD about 1.32"}
+  ]
+}

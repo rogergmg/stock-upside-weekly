@@ -1,0 +1,160 @@
+{
+ "issuer_id": "The Boeing Company",
+ "symbol": "BA",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 171.5,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-27T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "JPMorgan (analyst not named)",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 240,
+   "source_prior": 290,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+  },
+  {
+   "analyst": "JPMorgan (analyst not named)",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+  },
+  {
+   "analyst": "UBS (analyst not named)",
+   "firm": "UBS",
+   "field": "target",
+   "value": 240,
+   "source_prior": 275,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+  },
+  {
+   "analyst": "UBS (analyst not named)",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+  },
+  {
+   "analyst": "Wells Fargo (analyst not named)",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 210,
+   "source_prior": 250,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+  },
+  {
+   "analyst": "Wells Fargo (analyst not named)",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+  },
+  {
+   "analyst": "BofA (analyst not named)",
+   "firm": "BofA",
+   "field": "target",
+   "value": 235,
+   "source_prior": 270,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+  },
+  {
+   "analyst": "BofA (analyst not named)",
+   "firm": "BofA",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1"
+  },
+  {
+   "analyst": "Bernstein (analyst not named)",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 278,
+   "source_prior": 298,
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stocktwits.com/news-articles/markets/equity/bernstein-cuts-boeing-price-target-to-278-flags-no-clear-visibility-on-cash-flow/cZxI12pRB8k"
+  }
+ ],
+ "valuation": {
+  "method": "2028 free cash flow x FCF multiple at the 12-month date (Nov 2027), divided by ~790M shares (approximate; share count not verified from a filing). USD listing, no ADR conversion. Cross-checked against company FCF guidance of ~$2B 2026, ~$3B 2027, ~$6B 2028, $10B 2029.",
+  "bear": 114,
+  "base": 203,
+  "bull": 296,
+  "cases": {
+   "bear": {
+    "driver": "737 stuck below 47/mo, 777X certification slips past 2027",
+    "assumption": "2028 FCF $3B at 30x = $90B equity, ~$114/sh",
+    "target": 114
+   },
+   "base": {
+    "driver": "737 reaches 47-52/mo, 777X certified 2027 but FCF lags guidance",
+    "assumption": "2028 FCF $5B (vs $6B guided) at 32x = $160B, ~$203/sh",
+    "target": 203
+   },
+   "bull": {
+    "driver": "Guidance met, 737 at 52/mo, FCF ramp on schedule",
+    "assumption": "2028 FCF $6.5B at 36x = $234B, ~$296/sh",
+    "target": 296
+   }
+  },
+  "implied_by_close": "At base 2028 FCF $5B the $171.5 close (~$135B equity) implies ~27x; the analyst targets (~$235-240) imply ~$6B FCF at 31x.",
+  "sensitivity": "One turn of FCF multiple moves the base target by ~$6 (3.5 pp of return); $1B of 2028 FCF moves it by ~$40.",
+  "watch_metric": "737 monthly production rate and quarterly free cash flow versus the ~$3B 2027 target",
+  "next_disclosure": "Q4 2026 results, expected late January 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "After the Oct 27 Q3 report, JPMorgan, UBS, Wells Fargo and BofA cut targets by $35-40 each while keeping Buy-equivalent ratings, citing slower free cash flow normalization. Their $210-240 targets sit above the base case, implying roughly $1B more 2028 FCF or a higher multiple. Only five named calls were found, all from broker-summary articles with no documented 12-month horizon.",
+ "sources": [
+  {
+   "label": "Boeing Q3 2026 results release",
+   "url": "https://boeing.mediaroom.com/2026-10-27-Boeing-Reports-Third-Quarter-Results",
+   "supports": "EPS, FCF, guidance, 737 rate"
+  },
+  {
+   "label": "TIKR Q3 2026 recap",
+   "url": "https://www.tikr.com/blog/boeing-ba-stock-q3-2026-wider-loss-revenue-beat",
+   "supports": "Q3 loss, FCF targets, price reaction"
+  },
+  {
+   "label": "Stocktwits post-Q3 target cuts",
+   "url": "https://stocktwits.com/news-articles/markets/equity/boeing-stock-hits-fresh-18-month-low-after-slew-of-price-target-cuts-bof-a-says-turnaround-story-is-still-intact/cZU9Vd1R9G1",
+   "supports": "JPM, UBS, Wells Fargo, BofA targets"
+  },
+  {
+   "label": "Stocktwits Bernstein cut",
+   "url": "https://stocktwits.com/news-articles/markets/equity/bernstein-cuts-boeing-price-target-to-278-flags-no-clear-visibility-on-cash-flow/cZxI12pRB8k",
+   "supports": "Bernstein target"
+  }
+ ]
+}

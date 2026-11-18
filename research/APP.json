@@ -1,0 +1,231 @@
+{
+ "issuer_id": "AppLovin Corporation",
+ "symbol": "APP",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 409.1,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-11-04T16:05:00-05:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "James Heaney",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 500,
+   "source_prior": 375,
+   "issued_at": "2026-11-16",
+   "public_at": "2026-11-16T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "James Heaney",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-16",
+   "public_at": "2026-11-16T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Alec Brondolo",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 347,
+   "source_prior": 325,
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Alec Brondolo",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-11-06",
+   "public_at": "2026-11-06T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Alicia Reese",
+   "firm": "Wedbush",
+   "field": "target",
+   "value": 600,
+   "source_prior": 560,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Alicia Reese",
+   "firm": "Wedbush",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Eric Sheridan",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 445,
+   "source_prior": 400,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Eric Sheridan",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Matthew Swanson",
+   "firm": "Royal Bank of Canada",
+   "field": "target",
+   "value": 520,
+   "source_prior": 500,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Matthew Swanson",
+   "firm": "Royal Bank of Canada",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Martin Yang",
+   "firm": "Oppenheimer",
+   "field": "target",
+   "value": 520,
+   "source_prior": 490,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Clark Lampen",
+   "firm": "BTIG Research",
+   "field": "target",
+   "value": 450,
+   "source_prior": 396,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Nathaniel Schindler",
+   "firm": "Scotiabank",
+   "field": "target",
+   "value": 450,
+   "source_prior": 515,
+   "issued_at": "2026-11-05",
+   "public_at": "2026-11-05T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Stephen Ju",
+   "firm": "UBS Group",
+   "field": "target",
+   "value": 414,
+   "source_prior": 790,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Jason Bazinet",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 500,
+   "source_prior": 600,
+   "issued_at": "2026-10-19",
+   "public_at": "2026-10-19T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  },
+  {
+   "analyst": "Matthew Cost",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 400,
+   "source_prior": 450,
+   "issued_at": "2026-10-13",
+   "public_at": "2026-10-13T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/APP"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 diluted EPS viewed at the 12-month target date. Q3 2026 GAAP diluted EPS $4.30 (about 335M diluted shares implied); Q4 guide revenue $2.365-2.395B, adj. EBITDA $1.995-2.025B (84-85% margin). FY2027 EPS is my extrapolation from the Q4 run rate, not company guidance.",
+  "bear": 238.0,
+  "base": 418.0,
+  "bull": 648.0,
+  "cases": {
+   "bear": {
+    "driver": "Ad-tech growth slows to about 20% and margins compress",
+    "assumption": "FY2027 EPS $17 at 14x",
+    "target": 238.0
+   },
+   "base": {
+    "driver": "Revenue growth decelerates from 55% toward about 30% with margin near 84% EBITDA",
+    "assumption": "FY2027 EPS $22 at 19x",
+    "target": 418.0
+   },
+   "bull": {
+    "driver": "E-commerce ad expansion sustains 40%+ growth plus buybacks",
+    "assumption": "FY2027 EPS $27 at 24x",
+    "target": 648.0
+   }
+  },
+  "implied_by_close": "At base EPS $22 the close of $409.10 implies 18.6x; the roughly $470 simple average of recent targets implies 21.4x on $22 or EPS about $24.7 at 19x.",
+  "sensitivity": "One turn of P/E moves the base target by $22 (5.4 pp)",
+  "watch_metric": "Net revenue per installation growth and adjusted EBITDA margin vs the 84-85% Q4 guide",
+  "next_disclosure": "Q4 2026 results, expected February 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "After the Nov 4 print most named brokers raised targets (Wedbush $600, Goldman $445, RBC $520, Jefferies $500) while Scotiabank cut to $450. Targets sit mostly above the $418 base, which implies either higher EPS (about $24-25) or a higher multiple. Targets were slashed from $600-800 in August, so many are recently reset; horizons are not documented so none enter the weighted target.",
+ "sources": [
+  {
+   "label": "APP analyst actions",
+   "url": "https://www.pricetargets.com/NYSE/APP",
+   "supports": "Analyst targets and ratings"
+  },
+  {
+   "label": "AppLovin Q3 2026 earnings",
+   "url": "https://stockanalysis.com/news/applovin-q3-2026-earnings/",
+   "supports": "Q3 results, Q4 guidance, buybacks"
+  },
+  {
+   "label": "AppLovin Q3 2026 release",
+   "url": "https://finviz.com/news/415920/applovin-announces-third-quarter-2026-financial-results",
+   "supports": "Company results and guidance"
+  }
+ ]
+}

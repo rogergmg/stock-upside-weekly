@@ -1,0 +1,38 @@
+{
+ "issuer_id": "Vertex Pharmaceuticals Incorporated",
+ "symbol": "VRTX",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 538.6, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-11-02T16:05:00-05:00",
+ "coverage": "partial",
+ "events": [
+  {"analyst": "Citi analyst (unnamed)", "firm": "Citigroup", "field": "target", "value": 585, "source_prior": 575, "issued_at": "2026-03-10", "public_at": "2026-03-10T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/vertex-pharmaceuticals-nasdaqvrtx-price-target-raised-to-58500-at-citigroup-2026-03-10/"},
+  {"analyst": "Citi analyst (unnamed)", "firm": "Citigroup", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-03-10", "public_at": "2026-03-10T23:59:59-04:00", "source": "https://www.marketbeat.com/instant-alerts/vertex-pharmaceuticals-nasdaqvrtx-price-target-raised-to-58500-at-citigroup-2026-03-10/"},
+  {"analyst": "BofA analyst (unnamed)", "firm": "Bank of America", "field": "target", "value": 598, "source_prior": null, "issued_at": "2026-03-10", "public_at": "2026-03-10T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/vertex-pharmaceuticals-nasdaqvrtx-given-new-59800-price-target-at-bank-of-america-2026-03-10/"},
+  {"analyst": "Canaccord analyst (unnamed)", "firm": "Canaccord Genuity", "field": "target", "value": 442, "source_prior": 436, "issued_at": "2026-08-04", "public_at": "2026-08-04T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/canaccord-genuity-group-issues-positive-forecast-for-vertex-pharmaceuticals-nasdaqvrtx-stock-price-2026-08-04/"},
+  {"analyst": "Canaccord analyst (unnamed)", "firm": "Canaccord Genuity", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-08-04", "public_at": "2026-08-04T23:59:59-04:00", "source": "https://www.marketbeat.com/instant-alerts/canaccord-genuity-group-issues-positive-forecast-for-vertex-pharmaceuticals-nasdaqvrtx-stock-price-2026-08-04/"}
+ ],
+ "valuation": {
+  "method": "Forward non-GAAP EPS x P/E: FY2027 EPS viewed at the 12-month target date (Nov 2027). Native USD listing, no ADR conversion. Build: 2026 revenue guide $13.15-13.25B, non-GAAP opex about $6.0B (incl. Crinetics), non-GAAP tax 19.5-20.5%, 255.2M diluted shares in Q3 (Q3 non-GAAP EPS $4.76); FY2027 revenue assumed about $14.6B, ~12% COGS, opex ~$6.4B, $4.5B term loan interest, ~252M shares. EPS and multiples are analyst-style estimates, not company guidance.",
+  "bear": 425.5, "base": 560.0, "bull": 660.0,
+  "cases": {
+   "bear": {"driver": "CF growth stalls on Trikafta erosion, Alyftrek ramp slow, povetacicept delayed", "assumption": "FY2027 EPS $18.50 at 23x", "target": 425.5},
+   "base": {"driver": "Revenue about $14.6B on Alyftrek conversion, Journavx and Casgevy growth; Crinetics opex absorbed", "assumption": "FY2027 EPS $20.00 at 28x", "target": 560.0},
+   "bull": {"driver": "Povetacicept approval and fast launch, pain and kidney pipeline progress, margin leverage", "assumption": "FY2027 EPS $22.00 at 30x", "target": 660.0}
+  },
+  "implied_by_close": "At base EPS $20.00 the close of $538.60 implies 26.9x; the sampled analyst targets (about $442-$598) imply 22x-30x on the same EPS.",
+  "sensitivity": "One turn of P/E moves the base target by $20 (3.7 pp of the close)",
+  "watch_metric": "Povetacicept FDA decision (PDUFA Nov 30, 2026) and Alyftrek/CF revenue trend vs Trikafta decline",
+  "next_disclosure": "FDA decision on povetacicept by Nov 30, 2026; Q4 2026 earnings around late Feb 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Only a small sample of dated calls could be verified; several November 2026 target raises were reported in headlines (to about $600-$650) but could not be opened, so they are excluded. Sampled targets are $442 to $598 and are stale relative to the Q3 report. Canaccord is the lone Hold; spread reflects multiple (22x-30x) more than EPS.",
+ "sources": [
+  {"label": "Vertex Q3 2026 results (Finviz)", "url": "https://finviz.com/news/413471/vertex-reports-third-quarter-2026-financial-results", "supports": "Revenue, GAAP EPS, share count, guidance, catalysts"},
+  {"label": "Zacks Q3 2026 call highlights", "url": "https://zacks.com/stock/news/3022148/vertex-q3-earnings-call-highlights-revenue-beat-and-pipeline-expansion", "supports": "Non-GAAP EPS $4.76 and consensus"},
+  {"label": "MarketBeat Citi target Mar 2026", "url": "https://www.marketbeat.com/instant-alerts/vertex-pharmaceuticals-nasdaqvrtx-price-target-raised-to-58500-at-citigroup-2026-03-10/", "supports": "Citi target"},
+  {"label": "MarketBeat BofA target Mar 2026", "url": "https://www.marketbeat.com/instant-alerts/vertex-pharmaceuticals-nasdaqvrtx-given-new-59800-price-target-at-bank-of-america-2026-03-10/", "supports": "BofA target"},
+  {"label": "MarketBeat Canaccord Aug 2026", "url": "https://www.marketbeat.com/instant-alerts/canaccord-genuity-group-issues-positive-forecast-for-vertex-pharmaceuticals-nasdaqvrtx-stock-price-2026-08-04/", "supports": "Canaccord target and rating"}
+ ]
+}

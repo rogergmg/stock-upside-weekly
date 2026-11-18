@@ -1,0 +1,173 @@
+{
+ "issuer_id": "GE Vernova Inc.",
+ "symbol": "GEV",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 803.13,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-28T23:59:59-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "David Arcaro",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 1350,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how"
+  },
+  {
+   "analyst": "David Arcaro",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how"
+  },
+  {
+   "analyst": "Alexander Virgo",
+   "firm": "Evercore ISI",
+   "field": "target",
+   "value": 1350,
+   "issued_at": "2026-11-11",
+   "public_at": "2026-11-11T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside"
+  },
+  {
+   "analyst": "Alexander Virgo",
+   "firm": "Evercore ISI",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-11",
+   "public_at": "2026-11-11T23:59:59-05:00",
+   "source": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside"
+  },
+  {
+   "analyst": "Joseph Osha",
+   "firm": "Guggenheim",
+   "field": "target",
+   "value": 1400,
+   "source_prior": 1450,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside"
+  },
+  {
+   "analyst": "Joseph Osha",
+   "firm": "Guggenheim",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside"
+  },
+  {
+   "analyst": "Marc Bianchi",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 1125,
+   "source_prior": 1235,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.fool.com/investing/2026/10/30/why-ge-vernova-stock-fell-on-friday/"
+  },
+  {
+   "analyst": "Marc Bianchi",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/gev-stock-in-focus-amid-mixed-analyst-views-hsbc-upgrades-ge-vernova-to-buy-says-wind-business-is-past-the-worst/cZUhARNR9T9"
+  },
+  {
+   "analyst": "Jefferies (analyst not named)",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 1100,
+   "source_prior": 1185,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.fool.com/investing/2026/10/30/why-ge-vernova-stock-fell-on-friday/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E (FY2027 normalized EPS viewed at the 12-month target date, Nov 2027). FY2026 normalized EPS consensus about $15.62-$15.68 (TIKR and Evercore); FY2027 normalized EPS from Evercore ISI $25.86, which I haircut to $25.50 in base. Q3 2026 GAAP diluted EPS $4.81; no company adjusted EPS or full-year EPS guidance was found in the sources, so the EPS figures are estimates. Revenue, EBITDA margin and FCF guidance were raised on 2026-10-28. Prices are USD per GEV share, US listing, no ADR conversion.",
+  "bear": 602.0,
+  "base": 867.0,
+  "bull": 1120.0,
+  "cases": {
+   "bear": {
+    "driver": "Gas turbine orders and slot reservations slow after the 2026 surge, wind and electrification margins disappoint, and the multiple compresses from today's 2027 level",
+    "assumption": "EPS $21.50 at 28x",
+    "target": 602.0
+   },
+   "base": {
+    "driver": "Gas Power backlog and slot reservations reach 130 GW+ and convert to revenue; EBITDA margin holds within the raised 13.5%-14.5% guide; buybacks ($20B authorization) add to per-share growth",
+    "assumption": "EPS $25.50 at 34x",
+    "target": 867.0
+   },
+   "bull": {
+    "driver": "Backlog passes $200B and converts faster, services and grid margins expand above guidance, and the market keeps a premium multiple for AI-power demand",
+    "assumption": "EPS $28.00 at 40x",
+    "target": 1120.0
+   }
+  },
+  "implied_by_close": "At base EPS $25.50 the $803.13 close implies 31.5x FY2027 EPS, versus 34x in base. The nine-event analyst mean of about $1,265 (named calls) implies 49.6x base EPS, or EPS about $37 at 34x; the gap is mostly multiple, not 2027 EPS, since Evercore's $25.86 sits close to base.",
+  "sensitivity": "One turn of P/E moves the base target by $25.50 (about 3.2 pp of the close); a $1 change in FY2027 EPS moves it by $34 (about 4.2 pp)",
+  "watch_metric": "Gas Power equipment backlog plus slot reservations (122 GW at Q3; company expects at least 130 GW by year-end 2026) and adjusted EBITDA margin versus the 13.5%-14.5% 2026 guide",
+  "next_disclosure": "Q4/FY2026 earnings release, date not confirmed in the sources (expected around late January 2027)"
+ },
+ "dividend_per_share": 2.0,
+ "analyst_notes": "Named Buy-equivalent calls (Morgan Stanley and Evercore at $1,350, Guggenheim at $1,400, TD Cowen at $1,125) cluster well above the $867 base after the late-October and early-November cuts; Jefferies cut to $1,100 from $1,185 but is firm-only in the sources. The named targets imply about 50x base FY2027 EPS, while our base assumes 34x, so the gap is mostly the multiple and whether targets capitalize FY2028 earnings, which I could not verify. Only four analysts are named with dated calls; horizons are undocumented, so no target enters a weighted average.",
+ "sources": [
+  {
+   "label": "GE Vernova Q3 2026 earnings release (8-K exhibit, filed 2026-10-28)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
+   "supports": "Q3 GAAP EPS $4.81, orders $29.3B, backlog $197B, $0.50 quarterly dividend"
+  },
+  {
+   "label": "GE Vernova Q3 2026 results and Trench acquisition announcement",
+   "url": "https://www.gevernova.com/news/articles/ge-vernova-releases-third-quarter-2026-financial-results-announces-agreement-acquire",
+   "supports": "Raised 2026 guidance (revenue $46.5-47.5B, EBITDA margin 13.5-14.5%, FCF $16-17B), $20B buyback authorization"
+  },
+  {
+   "label": "TIKR: Guggenheim keeps Buy, $1,400 from $1,450",
+   "url": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside",
+   "supports": "Guggenheim target and rating; 2026 normalized EPS consensus $15.62"
+  },
+  {
+   "label": "TIKR: Morgan Stanley Buy, $1,350 (Nov 12, 2026)",
+   "url": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how",
+   "supports": "Morgan Stanley target, rating and $808 Nov 11 close reference"
+  },
+  {
+   "label": "TIKR: Evercore ISI Outperform, $1,350 (Nov 11, 2026)",
+   "url": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside",
+   "supports": "Evercore target and rating; 2026 EPS $15.68 and 2027 EPS $25.86 consensus-style estimates"
+  },
+  {
+   "label": "Motley Fool: why GE Vernova fell on Oct 30, 2026",
+   "url": "https://www.fool.com/investing/2026/10/30/why-ge-vernova-stock-fell-on-friday/",
+   "supports": "TD Cowen cut to $1,125 from $1,235; Jefferies cut to $1,100 from $1,185"
+  },
+  {
+   "label": "Stocktwits: TD Cowen Buy kept at $1,125",
+   "url": "https://stocktwits.com/news-articles/markets/equity/gev-stock-in-focus-amid-mixed-analyst-views-hsbc-upgrades-ge-vernova-to-buy-says-wind-business-is-past-the-worst/cZUhARNR9T9",
+   "supports": "TD Cowen rating Buy"
+  }
+ ]
+}

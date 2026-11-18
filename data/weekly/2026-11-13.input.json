@@ -9089,9 +9089,101 @@
         "high": 219278556510
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 360,
+          "source_prior": 400,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071"
+        },
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071"
+        },
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 365,
+          "source_prior": 360,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/AXP/analyst-ratings"
+        },
+        {
+          "analyst": "Betsy Graseck",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 380,
+          "source_prior": 382,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2"
+        },
+        {
+          "analyst": "Betsy Graseck",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal-Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 345,
+          "source_prior": 384,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 346,
+          "source_prior": 345,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/AXP/analyst-ratings"
+        }
+      ],
+      "earnings_at": "2026-10-23T08:30:00-04:00",
+      "valuation": {
+        "bear": 275.0,
+        "base": 362.0,
+        "bull": 420.0
+      },
+      "dividend_per_share": 3.8
     },
     {
       "issuer_id": "GE Vernova Inc.",
@@ -9105,9 +9197,109 @@
         "high": 216821493857
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "David Arcaro",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 1350,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how"
+        },
+        {
+          "analyst": "David Arcaro",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how"
+        },
+        {
+          "analyst": "Alexander Virgo",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 1350,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside"
+        },
+        {
+          "analyst": "Alexander Virgo",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside"
+        },
+        {
+          "analyst": "Joseph Osha",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 1400,
+          "source_prior": 1450,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside"
+        },
+        {
+          "analyst": "Joseph Osha",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside"
+        },
+        {
+          "analyst": "Marc Bianchi",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 1125,
+          "source_prior": 1235,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.fool.com/investing/2026/10/30/why-ge-vernova-stock-fell-on-friday/"
+        },
+        {
+          "analyst": "Marc Bianchi",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/gev-stock-in-focus-amid-mixed-analyst-views-hsbc-upgrades-ge-vernova-to-buy-says-wind-business-is-past-the-worst/cZUhARNR9T9"
+        },
+        {
+          "analyst": "Jefferies (analyst not named)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 1100,
+          "source_prior": 1185,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.fool.com/investing/2026/10/30/why-ge-vernova-stock-fell-on-friday/"
+        }
+      ],
+      "earnings_at": "2026-10-28T23:59:59-04:00",
+      "valuation": {
+        "bear": 602.0,
+        "base": 867.0,
+        "bull": 1120.0
+      },
+      "dividend_per_share": 2.0
     },
     {
       "issuer_id": "Gilead Sciences, Inc.",
@@ -9121,9 +9313,148 @@
         "high": 212645636526
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Jasper Hellweg",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 190,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Jasper Hellweg",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 200,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Michael Okunewitch",
+          "firm": "Maxim Group",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Geoff Meacham",
+          "firm": "Citi",
+          "field": "target",
+          "value": 188,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "source_prior": 180
+        },
+        {
+          "analyst": "Geoff Meacham",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Brian Abrahams",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 131,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Brian Abrahams",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Daina Graybosch",
+          "firm": "Leerink Partners",
+          "field": "target",
+          "value": 145,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "source_prior": 129
+        },
+        {
+          "analyst": "Daina Graybosch",
+          "firm": "Leerink Partners",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Evan Seigerman",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 184,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        },
+        {
+          "analyst": "Evan Seigerman",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-29T16:00:00-04:00",
+      "valuation": {
+        "bear": 117.6,
+        "base": 155.1,
+        "bull": 190.0
+      },
+      "dividend_per_share": 3.28
     },
     {
       "issuer_id": "The Walt Disney Company",
@@ -9137,9 +9468,57 @@
         "high": 209532419546
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Steven Cahall",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 132,
+          "source_prior": 125,
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/"
+        },
+        {
+          "analyst": "Steven Cahall",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/"
+        },
+        {
+          "analyst": "Mike Hickey",
+          "firm": "Benchmark",
+          "field": "target",
+          "value": 115,
+          "source_prior": 115,
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target"
+        },
+        {
+          "analyst": "Mike Hickey",
+          "firm": "Benchmark",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target"
+        }
+      ],
+      "earnings_at": "2026-08-06T06:45:00-04:00",
+      "valuation": {
+        "bear": 111.52,
+        "base": 131.4,
+        "bull": 152.8
+      }
     },
     {
       "issuer_id": "Citigroup Inc.",
@@ -9153,9 +9532,15 @@
         "high": 209367150649
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-10-13T06:30:00-04:00",
+      "valuation": {
+        "bear": 93.0,
+        "base": 137.0,
+        "bull": 161.0
+      },
+      "dividend_per_share": 2.68
     },
     {
       "issuer_id": "Arm Holdings plc",

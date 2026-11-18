@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:28:14.936469+00:00",
+  "built_at": "2026-11-18T12:30:43.309000+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 63,
+    "rank_valued": 68,
     "rank_with_named_targets": 2,
-    "rank_matched": 63,
-    "researched": 63
+    "rank_matched": 68,
+    "researched": 68
   },
   "ranked": [
     {
@@ -296,6 +296,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "AXP",
+      "issuer_id": "American Express Company",
+      "close": 320.6,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 210676111727,
+        "high": 219278556510
+      },
+      "scenarios_pct": {
+        "bear": -14.22333125389894,
+        "base": 12.913287585776668,
+        "bull": 31.004366812227076
+      },
+      "base_total_return_pct": 14.098565190268246,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "AMAT",
       "issuer_id": "Applied Materials, Inc.",
       "close": 370.5,
@@ -372,6 +393,48 @@
         "bear": -19.051352410819288,
         "base": 10.544884359074873,
         "bull": 35.82908663269306
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "C",
+      "issuer_id": "Citigroup Inc.",
+      "close": 124.01,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 201139904000,
+        "high": 209367150649
+      },
+      "scenarios_pct": {
+        "bear": -25.006047899362954,
+        "base": 10.474961696637369,
+        "bull": 29.82823965809209
+      },
+      "base_total_return_pct": 12.636077735666479,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "DIS",
+      "issuer_id": "The Walt Disney Company",
+      "close": 118.97,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 201315461916,
+        "high": 209532419546
+      },
+      "scenarios_pct": {
+        "bear": -6.2620828780364794,
+        "base": 10.448012103891738,
+        "bull": 28.43574010254686
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -479,6 +542,27 @@
         "bull": 35.32651455546814
       },
       "base_total_return_pct": 11.51324416469971,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "GEV",
+      "issuer_id": "GE Vernova Inc.",
+      "close": 803.13,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 208212342932,
+        "high": 216821493857
+      },
+      "scenarios_pct": {
+        "bear": -25.043268213116182,
+        "base": 7.952635314332674,
+        "bull": 39.454384719783846
+      },
+      "base_total_return_pct": 8.201661001332287,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1325,6 +1409,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "GILD",
+      "issuer_id": "Gilead Sciences, Inc.",
+      "close": 168.08,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 204306591956,
+        "high": 212645636526
+      },
+      "scenarios_pct": {
+        "bear": -30.033317467872443,
+        "base": -7.722513089005235,
+        "bull": 13.041408852927178
+      },
+      "base_total_return_pct": -5.77106139933365,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "TSLA",
       "issuer_id": "Tesla, Inc.",
       "close": 390.22,
@@ -1349,26 +1454,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "AXP",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "GEV",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "GILD",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "DIS",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "C",
       "reason": "independent valuation unavailable"
     },
     {
@@ -34735,6 +34820,1233 @@
       },
       "history": []
     },
+    "AXP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 320.6,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Card network and lender: forward EPS x justified P/E at the 12-month target date (Nov 2027), viewing FY2027 diluted EPS. Base FY2026 adjusted EPS guidance is $17.60-$17.90 (raised 2026-10-23, excluding the GBTG sale gain net of restructuring; GAAP $18.30-$18.60). FY2027 base EPS $20.10 is the Street consensus snapshot (about $20.1-$20.2 across TIKR, Barchart and FN2, dated variously; not company guidance), about 13% growth on the FY2026 adjusted midpoint. Share basis: Q3 2026 diluted weighted shares 674M (shares_used 670.6M in the pipeline). USD listing, no ADR conversion. Net income and buyback effects are embedded in the EPS line.",
+        "bear": 275.0,
+        "base": 362.0,
+        "bull": 420.0,
+        "cases": {
+          "bear": {
+            "driver": "Consumer spending slows and credit losses rise (card fee growth and billed business cool, as the Q3 release noted a revenue miss versus consensus), premium-card investment and remediation costs cap margins, and buybacks slow. FY2027 EPS grows only about 3% on the FY2026 adjusted midpoint.",
+            "assumption": "EPS $18.30 at 15.0x",
+            "target": 275.0
+          },
+          "base": {
+            "driver": "Management's 10% revenue growth framework holds with stable provisions and continued buybacks (diluted shares down 3% y/y in Q3). EPS compounds in line with the Street's FY2027 consensus.",
+            "assumption": "EPS $20.10 at 18.0x",
+            "target": 362.0
+          },
+          "bull": {
+            "driver": "Card fees and billed business re-accelerate, Platinum refresh and merchant expansion lift revenue growth above 10%, provisions stay benign, and the multiple re-rates toward the top of its historical range.",
+            "assumption": "EPS $21.00 at 20.0x",
+            "target": 420.0
+          }
+        },
+        "implied_by_close": "The close of $320.60 is 15.9x base FY2027 EPS of $20.10 and 18.1x FY2026 adjusted midpoint of $17.75. The mean of the three named current targets ($365, $380, $346, about $364) implies 18.1x base FY2027 EPS, or about $20.2 of EPS at 18.0x. The Yahoo aggregate mean of $364.79 (24 analysts) implies the same multiple.",
+        "sensitivity": "One turn of P/E moves the base target by $20.10 (about 6.3 pp of price return); $1 of FY2027 EPS moves it by $18 (about 5.6 pp).",
+        "watch_metric": "Billed business growth and card fee growth against the 10% revenue growth framework, together with the credit provision rate and the 2027 EPS path (base needs about $20 in FY2027, growth of about 13%).",
+        "next_disclosure": "Q4 2026 earnings and FY2027 outlook, expected in January 2027 (provider estimate; confirm on the company IR calendar)."
+      },
+      "dividend_per_share": 3.8,
+      "analyst_notes": "Only three named analysts were sourced, with eight dated rows (target and rating) since October 5 (partial coverage; the Yahoo aggregate has 24 analysts). Post-Q3 targets moved within a narrow band: JPMorgan's Shane cut to $360 on Oct 12 (before results) and raised to $365 on Oct 26, UBS's Najarian cut to $345 on Oct 5 and nudged to $346 on Nov 2, and Morgan Stanley's Graseck trimmed $382 to $380 on Oct 12. These three sit about 1-2% from the base case of $362 in aggregate, so the named sample does not disagree with the base case on the multiple; the gap to the Street EPS path is small. Horizons are not documented for any sampled firm, so none enter a weighted target. Other firms (BofA, Citi, Evercore, KBW, RBC, TD Cowen) were reported in Oct 2026 without verifiable analyst names and are omitted from the individual histories.",
+      "sources": [
+        {
+          "label": "AXP Q3 2026 Form 8-K Exhibit 99.1 (GAAP EPS $5.42, adjusted EPS $4.68, FY2026 guidance $18.30-$18.60 GAAP / $17.60-$17.90 adjusted, diluted shares 674M)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000405/q326exhibit991.htm",
+          "supports": "Q3 2026 EPS, FY2026 guidance, share count, earnings date"
+        },
+        {
+          "label": "AmEx Q3 2026 financial results newsroom article",
+          "url": "https://www.americanexpress.com/en-us/newsroom/articles/financial-news/american-express-third-quarter-2026-financial-results.html",
+          "supports": "Release date and results (reference only; page content not fully retrieved)"
+        },
+        {
+          "label": "Benzinga: analyst forecast changes ahead of AXP Q3 print (Oct 12 Shane and Graseck actions)",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+          "supports": "Graseck $382 to $380 Equal-Weight, Oct 12"
+        },
+        {
+          "label": "Benzinga: analysts revise AXP forecasts after Q3 (Najarian Oct 5 cut)",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results",
+          "supports": "Najarian $384 to $345 Neutral, Oct 5"
+        },
+        {
+          "label": "Benzinga AXP analyst ratings page (Shane Oct 26 raise to $365, Najarian Nov 2 to $346, aggregate $344.07)",
+          "url": "https://www.benzinga.com/quote/AXP/analyst-ratings",
+          "supports": "Later named target revisions and aggregate"
+        },
+        {
+          "label": "AD-HOC News: JPMorgan cuts AXP target to $360 (Overweight, Oct 12; analyst not named in article)",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071",
+          "supports": "JPMorgan $400 to $360 Overweight, Oct 12"
+        },
+        {
+          "label": "TIKR: AXP FY2027 normalized EPS consensus about $20.20",
+          "url": "https://www.tikr.com/blog/american-express-vs-paypal-which-stock-does-wall-street-expect-to-grow-faster-through-2027",
+          "supports": "FY2027 EPS consensus range"
+        },
+        {
+          "label": "Yahoo Finance aggregate via pipeline data (mean target $364.79, 24 analysts, dividend rate $3.80)",
+          "url": "https://finance.yahoo.com/quote/AXP/analysis/",
+          "supports": "Published consensus and dividend rate"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-23T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 3,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 32,
+        "max_weight_pct": 33.92687257163895,
+        "contributors": [
+          {
+            "analyst": "Betsy Graseck",
+            "firm": "Morgan Stanley",
+            "value": "Equal-Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-10-12",
+            "age_days": 32,
+            "after_earnings": false,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+            "weight": 0.33926872571638955
+          },
+          {
+            "analyst": "Erika Najarian",
+            "firm": "UBS",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-05",
+            "age_days": 39,
+            "after_earnings": false,
+            "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results",
+            "weight": 0.32146254856722084
+          },
+          {
+            "analyst": "Richard Shane",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-12",
+            "age_days": 32,
+            "after_earnings": false,
+            "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071",
+            "weight": 0.33926872571638955
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 33.92687257163895,
+          "Hold": 66.07312742836105,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Betsy Graseck",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal-Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Betsy Graseck",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 380.0,
+          "source_prior": 382,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+          "prior_observed": null,
+          "revision_pct": -0.5235602094240788,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 345.0,
+          "source_prior": 384,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results",
+          "prior_observed": null,
+          "revision_pct": -10.15625,
+          "direction": "cut"
+        },
+        {
+          "analyst": "Erika Najarian",
+          "firm": "UBS",
+          "field": "target",
+          "value": 346.0,
+          "source_prior": 345,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/AXP/analyst-ratings",
+          "prior_observed": 345.0,
+          "revision_pct": 0.28985507246377384,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 360.0,
+          "source_prior": 400,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071",
+          "prior_observed": null,
+          "revision_pct": -9.999999999999998,
+          "direction": "cut"
+        },
+        {
+          "analyst": "Richard Shane",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 365.0,
+          "source_prior": 360,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/quote/AXP/analyst-ratings",
+          "prior_observed": 360.0,
+          "revision_pct": 1.388888888888884,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "GEV": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 803.13,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 normalized EPS viewed at the 12-month target date, Nov 2027). FY2026 normalized EPS consensus about $15.62-$15.68 (TIKR and Evercore); FY2027 normalized EPS from Evercore ISI $25.86, which I haircut to $25.50 in base. Q3 2026 GAAP diluted EPS $4.81; no company adjusted EPS or full-year EPS guidance was found in the sources, so the EPS figures are estimates. Revenue, EBITDA margin and FCF guidance were raised on 2026-10-28. Prices are USD per GEV share, US listing, no ADR conversion.",
+        "bear": 602.0,
+        "base": 867.0,
+        "bull": 1120.0,
+        "cases": {
+          "bear": {
+            "driver": "Gas turbine orders and slot reservations slow after the 2026 surge, wind and electrification margins disappoint, and the multiple compresses from today's 2027 level",
+            "assumption": "EPS $21.50 at 28x",
+            "target": 602.0
+          },
+          "base": {
+            "driver": "Gas Power backlog and slot reservations reach 130 GW+ and convert to revenue; EBITDA margin holds within the raised 13.5%-14.5% guide; buybacks ($20B authorization) add to per-share growth",
+            "assumption": "EPS $25.50 at 34x",
+            "target": 867.0
+          },
+          "bull": {
+            "driver": "Backlog passes $200B and converts faster, services and grid margins expand above guidance, and the market keeps a premium multiple for AI-power demand",
+            "assumption": "EPS $28.00 at 40x",
+            "target": 1120.0
+          }
+        },
+        "implied_by_close": "At base EPS $25.50 the $803.13 close implies 31.5x FY2027 EPS, versus 34x in base. The nine-event analyst mean of about $1,265 (named calls) implies 49.6x base EPS, or EPS about $37 at 34x; the gap is mostly multiple, not 2027 EPS, since Evercore's $25.86 sits close to base.",
+        "sensitivity": "One turn of P/E moves the base target by $25.50 (about 3.2 pp of the close); a $1 change in FY2027 EPS moves it by $34 (about 4.2 pp)",
+        "watch_metric": "Gas Power equipment backlog plus slot reservations (122 GW at Q3; company expects at least 130 GW by year-end 2026) and adjusted EBITDA margin versus the 13.5%-14.5% 2026 guide",
+        "next_disclosure": "Q4/FY2026 earnings release, date not confirmed in the sources (expected around late January 2027)"
+      },
+      "dividend_per_share": 2.0,
+      "analyst_notes": "Named Buy-equivalent calls (Morgan Stanley and Evercore at $1,350, Guggenheim at $1,400, TD Cowen at $1,125) cluster well above the $867 base after the late-October and early-November cuts; Jefferies cut to $1,100 from $1,185 but is firm-only in the sources. The named targets imply about 50x base FY2027 EPS, while our base assumes 34x, so the gap is mostly the multiple and whether targets capitalize FY2028 earnings, which I could not verify. Only four analysts are named with dated calls; horizons are undocumented, so no target enters a weighted average.",
+      "sources": [
+        {
+          "label": "GE Vernova Q3 2026 earnings release (8-K exhibit, filed 2026-10-28)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001996810/000199681026000162/gevpressrelease3q26.htm",
+          "supports": "Q3 GAAP EPS $4.81, orders $29.3B, backlog $197B, $0.50 quarterly dividend"
+        },
+        {
+          "label": "GE Vernova Q3 2026 results and Trench acquisition announcement",
+          "url": "https://www.gevernova.com/news/articles/ge-vernova-releases-third-quarter-2026-financial-results-announces-agreement-acquire",
+          "supports": "Raised 2026 guidance (revenue $46.5-47.5B, EBITDA margin 13.5-14.5%, FCF $16-17B), $20B buyback authorization"
+        },
+        {
+          "label": "TIKR: Guggenheim keeps Buy, $1,400 from $1,450",
+          "url": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside",
+          "supports": "Guggenheim target and rating; 2026 normalized EPS consensus $15.62"
+        },
+        {
+          "label": "TIKR: Morgan Stanley Buy, $1,350 (Nov 12, 2026)",
+          "url": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how",
+          "supports": "Morgan Stanley target, rating and $808 Nov 11 close reference"
+        },
+        {
+          "label": "TIKR: Evercore ISI Outperform, $1,350 (Nov 11, 2026)",
+          "url": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside",
+          "supports": "Evercore target and rating; 2026 EPS $15.68 and 2027 EPS $25.86 consensus-style estimates"
+        },
+        {
+          "label": "Motley Fool: why GE Vernova fell on Oct 30, 2026",
+          "url": "https://www.fool.com/investing/2026/10/30/why-ge-vernova-stock-fell-on-friday/",
+          "supports": "TD Cowen cut to $1,125 from $1,235; Jefferies cut to $1,100 from $1,185"
+        },
+        {
+          "label": "Stocktwits: TD Cowen Buy kept at $1,125",
+          "url": "https://stocktwits.com/news-articles/markets/equity/gev-stock-in-focus-amid-mixed-analyst-views-hsbc-upgrades-ge-vernova-to-buy-says-wind-business-is-past-the-worst/cZUhARNR9T9",
+          "supports": "TD Cowen rating Buy"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-28T23:59:59-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 6.5,
+        "max_weight_pct": 26.15794443002634,
+        "contributors": [
+          {
+            "analyst": "Alexander Virgo",
+            "firm": "Evercore ISI",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-11-11",
+            "age_days": 2,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside",
+            "weight": 0.25957259274708244
+          },
+          {
+            "analyst": "David Arcaro",
+            "firm": "Morgan Stanley",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how",
+            "weight": 0.2615794443002634
+          },
+          {
+            "analyst": "Joseph Osha",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside",
+            "weight": 0.2421897927317757
+          },
+          {
+            "analyst": "Marc Bianchi",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stocktwits.com/news-articles/markets/equity/gev-stock-in-focus-amid-mixed-analyst-views-hsbc-upgrades-ge-vernova-to-buy-says-wind-business-is-past-the-worst/cZUhARNR9T9",
+            "weight": 0.2366581702208785
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Alexander Virgo",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Alexander Virgo",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 1350.0,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Arcaro",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Arcaro",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 1350.0,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jefferies (analyst not named)",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 1100.0,
+          "source_prior": 1185,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.fool.com/investing/2026/10/30/why-ge-vernova-stock-fell-on-friday/",
+          "prior_observed": null,
+          "revision_pct": -7.1729957805907185,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Joseph Osha",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Joseph Osha",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 1400.0,
+          "source_prior": 1450,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/ge-vernova-keeps-sliding-even-after-raising-guidance-why-guggenheim-sees-60-upside",
+          "prior_observed": null,
+          "revision_pct": -3.4482758620689613,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Marc Bianchi",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/gev-stock-in-focus-amid-mixed-analyst-views-hsbc-upgrades-ge-vernova-to-buy-says-wind-business-is-past-the-worst/cZUhARNR9T9",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Marc Bianchi",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 1125.0,
+          "source_prior": 1235,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.fool.com/investing/2026/10/30/why-ge-vernova-stock-fell-on-friday/",
+          "prior_observed": null,
+          "revision_pct": -8.906882591093112,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "GILD": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 168.08,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (Nasdaq GILD common), no ADR conversion. Anchor: FY2026 non-GAAP EPS guidance is a loss of $(1.20) to $(0.85) (raised Oct 29 2026), which includes about $12.4B of acquired IPR&D (about $9.88 per share, Arcellx, Tubulis, Ouro, PepStar, net of Lakefront). Excluding acquired IPR&D, acquisition financing costs and nonrecurring other revenue, the company's illustrative non-GAAP EPS range is $8.75-$9.10 (about $8.93 midpoint, from the Zacks summary of the release). FY2027 EPS is my own assumption: the company gives no 2027 financial guidance. Diluted shares about 1.24-1.25B. Base assumes low-to-mid single-digit EPS growth from HIV (Biktarvy, Yeztugo), Trodelvy and Livdelzi, with no new large IPR&D charge in the forecast year. A future business-development charge would cut reported EPS. Biktarvy Medicare Maximum Fair Price starts Jan 1 2028, after the FY2027 earnings year but within the horizon, so it is a bear-case driver for the 2027 multiple.",
+        "bear": 117.6,
+        "base": 155.1,
+        "bull": 190.0,
+        "cases": {
+          "bear": {
+            "driver": "Biktarvy pricing pressure ahead of the 2028 Medicare price, HIV competition and Veklury erosion compress sales growth; investors pay a lower multiple for a flat-to-down earnings stream and the IPR&D run-rate continues.",
+            "assumption": "FY2027 EPS $8.40 at 14x",
+            "target": 117.6
+          },
+          "base": {
+            "driver": "Underlying EPS grows about 5% from the roughly $8.93 FY2026 ex-IPR&D level as HIV volume (Yeztugo, Biktarvy), Trodelvy and Livdelzi offset Veklury and pricing; the multiple stays below the current 18.8x because of the 2028 Biktarvy price cut.",
+            "assumption": "FY2027 EPS $9.40 at 16.5x",
+            "target": 155.1
+          },
+          "bull": {
+            "driver": "Yeztugo and Trodelvy growth and pipeline (Arcellx, Tubulis, emvistegrast) lift EPS faster, and the 2028 pricing overhang is judged manageable, so the stock keeps a premium large-cap pharma multiple.",
+            "assumption": "FY2027 EPS $10.00 at 19x",
+            "target": 190.0
+          }
+        },
+        "implied_by_close": "At base EPS of $9.40 the $168.08 close implies 17.9x (18.8x on the $8.93 FY2026 ex-IPR&D midpoint). The median of the six named targets (about $186) implies about 19.8x on $9.40 or about $11.30 EPS at 16.5x, and their simple mean (about $173) implies about $10.50 EPS at 16.5x; the Yahoo-sourced 26-analyst mean of $174.77 implies about $10.60 EPS at 16.5x. Consensus FY2027 EPS of about $10.14 (StockAnalysis summary box) would support a $167 value at 16.5x, close to today's price.",
+        "sensitivity": "One turn of P/E moves the base target by $9.40 (about 5.6 pp of the close). A $0.50 change in FY2027 EPS moves it by about $8.25 at 16.5x.",
+        "watch_metric": "HIV franchise sales (Biktarvy and Yeztugo) growth and the FY2027 non-GAAP EPS guidance, including any acquired IPR&D charges, which the company has already raised to $12.4B for 2026.",
+        "next_disclosure": "Q4 and FY2026 results with first commentary on 2027, expected around early February 2027 (date not confirmed)."
+      },
+      "dividend_per_share": 3.28,
+      "analyst_notes": "Seven named analysts issued dated calls from Nov 2-12 2026 after the Oct 29 release: six targets from $131 to $200 (simple mean about $173) and seven Buy/Hold ratings, four Buy and two Hold plus RBC. Citi raised $180 to $188 and Leerink raised $129 to $145, with no cuts shown; RBC at $131 is the low and Scotiabank at $200 the high. Barclays (Hold, $160 from $145, Nov 16) is after the reference close and is excluded. The named-target mean sits about 12% above my base of $155.10, which equals roughly $1.10 of FY2027 EPS at 16.5x or about 1.2 turns of multiple. Horizons are undocumented, so no target enters a weighted average; the StockAnalysis aggregate also reports a Argus $85 prior that looks like a data error and is not used as a source_prior. Coverage is partial: StockAnalysis shows 8 rows including Barclays, and Yahoo reports 26 analysts, so the named set is a subset.",
+      "sources": [
+        {
+          "label": "Gilead Q3 2026 financial results press release (Oct 29 2026)",
+          "url": "https://www.gilead.com/news/news-details/2026/gilead-sciences-announces-third-quarter-2026-financial-results",
+          "supports": "Q3 non-GAAP EPS $2.55, FY2026 non-GAAP EPS guidance, IPR&D $12.4B (about $9.88/share), product sales guidance, Q3 diluted shares, Q4 dividend $0.82"
+        },
+        {
+          "label": "Zacks: GILD beats Q3 earnings (illustrative ex-IPR&D EPS range $8.75-$9.10)",
+          "url": "https://www.zacks.com/stock/news/3019881/gild-beats-q3-earnings-on-hiv-strength-trodelvy-sales-growth",
+          "supports": "Illustrative non-GAAP EPS excluding acquired IPR&D, financing costs and nonrecurring revenue"
+        },
+        {
+          "label": "StockAnalysis GILD ratings (Nov 2026)",
+          "url": "https://stockanalysis.com/stocks/gild/ratings/",
+          "supports": "Named analyst targets, ratings, prior targets and dates"
+        },
+        {
+          "label": "StockAnalysis GILD forecast (consensus $175.92, 28 analysts)",
+          "url": "https://stockanalysis.com/stocks/gild/forecast/",
+          "supports": "Consensus target range and FY2027 EPS estimate summary"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T16:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 7,
+        "post_earnings": 7,
+        "earnings_order_unknown": 0,
+        "median_age_days": 8,
+        "max_weight_pct": 14.95587016918786,
+        "contributors": [
+          {
+            "analyst": "Brian Abrahams",
+            "firm": "RBC Capital",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gild/ratings/",
+            "weight": 0.14170926396105918
+          },
+          {
+            "analyst": "Daina Graybosch",
+            "firm": "Leerink Partners",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gild/ratings/",
+            "weight": 0.13847261989902881
+          },
+          {
+            "analyst": "Evan Seigerman",
+            "firm": "BMO Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gild/ratings/",
+            "weight": 0.13847261989902881
+          },
+          {
+            "analyst": "Geoff Meacham",
+            "firm": "Citi",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gild/ratings/",
+            "weight": 0.14170926396105918
+          },
+          {
+            "analyst": "Jasper Hellweg",
+            "firm": "Argus Research",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gild/ratings/",
+            "weight": 0.1495587016918786
+          },
+          {
+            "analyst": "Louise Chen",
+            "firm": "Scotiabank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-10",
+            "age_days": 3,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gild/ratings/",
+            "weight": 0.14727265998571254
+          },
+          {
+            "analyst": "Michael Okunewitch",
+            "firm": "Maxim Group",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/gild/ratings/",
+            "weight": 0.1428048706022329
+          }
+        ],
+        "counts": {
+          "Buy": 5,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 71.9818116139912,
+          "Hold": 28.018188386008802,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Brian Abrahams",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Brian Abrahams",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 131.0,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Daina Graybosch",
+          "firm": "Leerink Partners",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Daina Graybosch",
+          "firm": "Leerink Partners",
+          "field": "target",
+          "value": 145.0,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "source_prior": 129,
+          "prior_observed": null,
+          "revision_pct": 12.4031007751938,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Evan Seigerman",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Evan Seigerman",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 184.0,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Geoff Meacham",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Geoff Meacham",
+          "firm": "Citi",
+          "field": "target",
+          "value": 188.0,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "source_prior": 180,
+          "prior_observed": null,
+          "revision_pct": 4.444444444444451,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jasper Hellweg",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Jasper Hellweg",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 190.0,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Louise Chen",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 200.0,
+          "issued_at": "2026-11-10",
+          "public_at": "2026-11-10T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Okunewitch",
+          "firm": "Maxim Group",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/gild/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        }
+      ]
+    },
+    "DIS": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 118.97,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x justified P/E. Listing is the NYSE common stock in USD (no ADR conversion). Base EPS is the FY2026 adjusted EPS guidance (about 12% growth excluding the 53rd week, on FY2025 adjusted EPS of about $5.93, so about $6.64), grown one year to FY2027 at the 12-month target date (Nov 2027). Bear 5% growth at 16x, base 10% growth at 18x, bull 15% growth at 20x. Information cutoff is the 2026-11-13 close; the Q4 FY2026 release scheduled for 2026-11-17 is a subsequent event and is not used.",
+        "bear": 111.52,
+        "base": 131.4,
+        "bull": 152.8,
+        "cases": {
+          "bear": {
+            "driver": "Growth slows to mid-single digits; parks and streaming margin gains fade; market keeps a discount multiple",
+            "assumption": "EPS $6.97 (+5% on $6.64) x 16x",
+            "target": 111.52
+          },
+          "base": {
+            "driver": "Management's double-digit EPS growth framework is met; buybacks of about $9B a year support per-share growth",
+            "assumption": "EPS $7.30 (+10% on $6.64) x 18x",
+            "target": 131.4
+          },
+          "bull": {
+            "driver": "Experiences and streaming profit beat the framework; multiple re-rates toward the historical premium",
+            "assumption": "EPS $7.64 (+15% on $6.64) x 20x",
+            "target": 152.8
+          }
+        },
+        "implied_by_close": "At base FY2027 EPS of $7.30 the close of $118.97 implies 16.3x; on FY2026 EPS of $6.64 it implies 17.9x. The aggregate analyst mean of $126.79 implies about 17.4x base EPS, so the gap to the base case is mostly multiple, not EPS.",
+        "sensitivity": "One turn of P/E moves the base target by $7.30 (about 5.6%, or 6.1 pp of price return). A two-point EPS change at 18x moves it by about $36.",
+        "watch_metric": "FY2027 adjusted EPS growth against the double-digit framework, with Experiences operating income growth and streaming operating margin as the drivers",
+        "next_disclosure": "Q1 FY2027 earnings (expected around February 2027), where FY2027 guidance is tested; the FY2026 Q4 and full-year results released 2026-11-17 are a subsequent event to review in a later run"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Only two named analysts with dated calls could be verified from the sources reached: Steven Cahall (Wells Fargo) raised the target from $125 to $132 and kept Overweight on 2026-08-06, and Mike Hickey (Benchmark) reiterated Buy with a $115 target the same day. Neither source documents a 12-month horizon, so these calls stay in the timeline but are excluded from the weighted target. The aggregate mean of $126.79 across about 30 analysts includes many unnamed or undated targets, so it cannot be reconciled to named calls; the base case at $131.40 sits above the aggregate mean, and the gap is attributable to multiple (about 18x against an implied 17.4x) rather than a disputed EPS base.",
+      "sources": [
+        {
+          "label": "Q3 FY2026 earnings call highlights (adjusted EPS $2.06, FY2026 guidance)",
+          "url": "https://www.marketbeat.com/instant-alerts/walt-disney-q3-earnings-call-highlights-2026-08-06/",
+          "supports": "FY2026 adjusted EPS growth framework (about 12% ex 53rd week), FY2027 double-digit growth, buyback target"
+        },
+        {
+          "label": "Zacks: Disney Q3 earnings surpass estimates",
+          "url": "https://www.zacks.com/stock/news/2968891/disney-q3-earnings-surpass-estimates-revenues-increase-y-y",
+          "supports": "Q3 FY2026 adjusted EPS beat and revenue growth"
+        },
+        {
+          "label": "Wells Fargo Overweight, target 125 to 132 (2026-08-06)",
+          "url": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/",
+          "supports": "Steven Cahall target and rating event"
+        },
+        {
+          "label": "Benchmark Buy reiterated, $115 target (2026-08-06)",
+          "url": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target",
+          "supports": "Mike Hickey reaffirmed rating and target event"
+        },
+        {
+          "label": "Q4 FY2026 earnings call date (2026-11-17, after reference close)",
+          "url": "https://www.laughingplace.com/disney-business/walt-disney-company-q4-2026-earnings-call-date-announced/",
+          "supports": "Next disclosure date and subsequent-event exclusion"
+        },
+        {
+          "label": "24/7 Wall St: consensus target $128.34 across 33 analysts (2026-09-15)",
+          "url": "https://247wallst.com/investing/2026/09/15/disney-trades-well-below-wall-streets-target-heres-what-closes-the-gap/",
+          "supports": "Published consensus context, not used in the valuation"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-06T06:45:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 0,
+        "earnings_order_unknown": 2,
+        "median_age_days": 99.0,
+        "max_weight_pct": 50.0,
+        "contributors": [
+          {
+            "analyst": "Mike Hickey",
+            "firm": "Benchmark",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-06",
+            "age_days": 99,
+            "after_earnings": null,
+            "source": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target",
+            "weight": 0.5
+          },
+          {
+            "analyst": "Steven Cahall",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-08-06",
+            "age_days": 99,
+            "after_earnings": null,
+            "source": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/",
+            "weight": 0.5
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Mike Hickey",
+          "firm": "Benchmark",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "source": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mike Hickey",
+          "firm": "Benchmark",
+          "field": "target",
+          "value": 115.0,
+          "source_prior": 115,
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Steven Cahall",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Steven Cahall",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 132.0,
+          "source_prior": 125,
+          "issued_at": "2026-08-06",
+          "public_at": "2026-08-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/",
+          "prior_observed": null,
+          "revision_pct": 5.600000000000005,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "C": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 124.01,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank: tangible book value per common share (TBVPS) projected to the 12-month target date (Nov 2027) x P/TBV. Q3 2026 TBVPS $101.59 (reported 2026-10-13), growing about 6% a year (Q3 TBVPS up 6% y/y) to about $108 in Nov 2027 in the base case. P/TBV uses the steady-state check P/TBV = (ROTCE - g)/(COE - g): base (12% - 5%)/(10.5% - 5%) = 1.27x, with ROTCE 12% at the midpoint of management's 11-13% near-term target and COE 10.5% as a modelling assumption. Diluted shares about 1.84bn are derived from Q3 net income $5.245bn / diluted EPS $2.85 (not from a filing cover). USD listing, no ADR conversion.",
+        "bear": 93.0,
+        "base": 137.0,
+        "bull": 161.0,
+        "cases": {
+          "bear": {
+            "driver": "Credit cycle turns (card and CRE losses, Markets seasonal and stress trading losses), ROTCE falls to about 10% and buybacks slow so TBVPS grows only about 1.5%.",
+            "assumption": "TBVPS $103 at 0.9x P/TBV (ROTCE 10% against COE about 11%)",
+            "target": 93.0
+          },
+          "base": {
+            "driver": "Management path holds: 2026 ROTCE above 11%, rising toward the 11-13% near-term target, TBVPS compounding about 6% with buybacks (about $3bn a quarter) and the dividend ($0.67 a quarter).",
+            "assumption": "TBVPS $108 at 1.27x P/TBV",
+            "target": 137.0
+          },
+          "bull": {
+            "driver": "Markets and fee strength, benign credit, ROTCE about 13.5-14% and Banamex deconsolidation (2027) accretive to CET1 lets buybacks run faster; the market pays for delivery of the 14-15% longer-term ROTCE goal.",
+            "assumption": "TBVPS $111 at 1.45x P/TBV (a discount to the 1.8x steady-state value at 14% ROTCE)",
+            "target": 161.0
+          }
+        },
+        "implied_by_close": "The close of $124.01 is 1.22x Q3 TBVPS of $101.59 and 1.15x base-case Nov 2027 TBVPS of $108. Aggregator consensus of roughly $144-152 (undated mix, see analyst_notes) implies about 1.35x base TBVPS, or TBVPS of about $113 at a constant 1.27x.",
+        "sensitivity": "0.1x of P/TBV moves the base target by $10.80 (8.7 pp of price return); $1 of TBVPS moves it by about $1.27 (1.0 pp).",
+        "watch_metric": "Reported ROTCE against the 11-13% near-term target (base needs about 12% for 2027), together with TBVPS growth (base needs about 6% y/y) and the buyback pace against the $30bn programme.",
+        "next_disclosure": "Q4 2026 earnings, expected in mid-January 2027 (date not verified; confirm on the Citi IR calendar)."
+      },
+      "dividend_per_share": 2.68,
+      "analyst_notes": "No named individual analyst call was verifiable from the sources reached: the RBC (target cut to $135 from $150, Outperform, 2026-10-14) and TD Cowen (cut to $148 from $150, Buy, 2026-10-14) items are firm-only in the sources opened, and UBS, Evercore, KBW and Morgan Stanley items conflict across aggregators, so coverage is labelled unavailable and no weighted target is computed. Firm-level targets after Q3 cluster at $135-165 (mostly trimmed by $2-15 on Q3 results), and the aggregator consensus of about $144-152 is above the $137 base case, so the gap is roughly 5-10% of price, equivalent to about 1.35x P/TBV or TBVPS of about $113 at the base multiple. Targets are concentrated in the bank's 12-month views, many of them stale (June-August 2026 entries) and mixed horizon. Analyst consensus is not reconciled to any single dated source.",
+      "sources": [
+        {
+          "label": "Citigroup Q3 2026 results and guidance (MarketBeat transcript summary, 2026-10-13)",
+          "url": "https://www.marketbeat.com/instant-alerts/transcript-citigroup-q3-earnings-call-highlights-2026-10-13/",
+          "supports": "Q3 net income, revenue, ROTCE 11.5%, TBVPS $101.59, CET1 12.8%, 2026 ROTCE above 11%, 11-13% near-term ROTCE target, buybacks and dividend increase, Banamex deconsolidation in 2027"
+        },
+        {
+          "label": "Citigroup Q3 2026 results (Beinsure, 2026-10-13)",
+          "url": "https://beinsure.com/news/citigroup-q3-profit-jumps-beating-wall-street-estimates/",
+          "supports": "Diluted EPS $2.85, net income $5.25bn, book value per share $115.61, ROTCE 12.6% year to date, cumulative 2026 buybacks about $13.3bn"
+        },
+        {
+          "label": "Citi dividend increase, $0.60 to $0.67 quarterly (Zacks)",
+          "url": "https://www.zacks.com/stock/news/2943755/how-citigroups-stress-test-success-strengthens-shareholder-returns",
+          "supports": "Quarterly common dividend $0.60 raised to $0.67 from Q3 2026, annualised $2.68"
+        },
+        {
+          "label": "RBC target cut to $135 from $150 (Investing.com, 2026-10-14)",
+          "url": "https://www.investing.com/news/analyst-ratings/rbc-capital-lowers-citi-stock-price-target-on-strategic-execution-93CH-4949510",
+          "supports": "Firm-level target trim after Q3 (analyst name not stated)"
+        },
+        {
+          "label": "TD Cowen target cut to $148 from $150 (Investing.com, 2026-10-14)",
+          "url": "https://www.investing.com/news/analyst-ratings/td-cowen-lowers-citi-stock-price-target-to-148-on-revised-estimates-93CH-4949576",
+          "supports": "Firm-level target trim after Q3 (analyst name not stated)"
+        },
+        {
+          "label": "Consensus target of $128 (Rallies.ai, 2026-01-13)",
+          "url": "https://rallies.ai/news/citigroup-raises-consensus-price-target-to-128-and-plans-1000-job-cuts",
+          "supports": "Earlier consensus context and 1,000 job cuts plan; no EPS or ROTCE forecast in source"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": "2026-10-13T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -35323,6 +36635,11 @@
         "kind": "new"
       },
       {
+        "symbol": "AXP",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "AZN",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -35335,6 +36652,11 @@
       {
         "symbol": "BRK/B",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "C",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -35368,7 +36690,22 @@
         "kind": "new"
       },
       {
+        "symbol": "DIS",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "GE",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "GEV",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "GILD",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -35851,6 +37188,38 @@
         "horizon_months": null
       },
       {
+        "symbol": "GILD",
+        "firm": "Argus Research",
+        "analyst": "Jasper Hellweg",
+        "issued_at": "2026-11-12",
+        "source": "https://stockanalysis.com/stocks/gild/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 190.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "GEV",
+        "firm": "Morgan Stanley",
+        "analyst": "David Arcaro",
+        "issued_at": "2026-11-12",
+        "source": "https://www.tikr.com/blog/67-upside-for-ge-vernova-morgan-stanley-thinks-so-and-heres-how",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 1350.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
         "symbol": "SNDK",
         "firm": "Evercore ISI",
         "analyst": "Amit Daryanani",
@@ -35881,6 +37250,22 @@
         "direction": "cut",
         "revision_pct": -60.0,
         "horizon_months": 12
+      },
+      {
+        "symbol": "GEV",
+        "firm": "Evercore ISI",
+        "analyst": "Alexander Virgo",
+        "issued_at": "2026-11-11",
+        "source": "https://www.tikr.com/blog/ge-vernova-has-slid-since-summer-why-evercore-isi-sees-67-upside",
+        "currency": null,
+        "rating": "Outperform",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 1350.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
       },
       {
         "symbol": "COST",
@@ -36011,6 +37396,22 @@
         "bucket": "Buy",
         "prior_rating": null,
         "target": 105.84,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "GILD",
+        "firm": "Scotiabank",
+        "analyst": "Louise Chen",
+        "issued_at": "2026-11-10",
+        "source": "https://stockanalysis.com/stocks/gild/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 200.0,
         "prior_target": null,
         "direction": null,
         "revision_pct": null,

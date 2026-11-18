@@ -1,0 +1,47 @@
+{
+  "issuer_id": "Gilead Sciences, Inc.",
+  "symbol": "GILD",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 168.08, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-29T16:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Jasper Hellweg", "firm": "Argus Research", "field": "target", "value": 190, "issued_at": "2026-11-12", "public_at": "2026-11-12T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Jasper Hellweg", "firm": "Argus Research", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-12", "public_at": "2026-11-12T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Louise Chen", "firm": "Scotiabank", "field": "target", "value": 200, "issued_at": "2026-11-10", "public_at": "2026-11-10T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Louise Chen", "firm": "Scotiabank", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-10", "public_at": "2026-11-10T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Michael Okunewitch", "firm": "Maxim Group", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-06", "public_at": "2026-11-06T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Geoff Meacham", "firm": "Citi", "field": "target", "value": 188, "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/gild/ratings/", "source_prior": 180},
+    {"analyst": "Geoff Meacham", "firm": "Citi", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Brian Abrahams", "firm": "RBC Capital", "field": "target", "value": 131, "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Brian Abrahams", "firm": "RBC Capital", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Daina Graybosch", "firm": "Leerink Partners", "field": "target", "value": 145, "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/gild/ratings/", "source_prior": 129},
+    {"analyst": "Daina Graybosch", "firm": "Leerink Partners", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Evan Seigerman", "firm": "BMO Capital", "field": "target", "value": 184, "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/gild/ratings/"},
+    {"analyst": "Evan Seigerman", "firm": "BMO Capital", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "source": "https://stockanalysis.com/stocks/gild/ratings/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (Nasdaq GILD common), no ADR conversion. Anchor: FY2026 non-GAAP EPS guidance is a loss of $(1.20) to $(0.85) (raised Oct 29 2026), which includes about $12.4B of acquired IPR&D (about $9.88 per share, Arcellx, Tubulis, Ouro, PepStar, net of Lakefront). Excluding acquired IPR&D, acquisition financing costs and nonrecurring other revenue, the company's illustrative non-GAAP EPS range is $8.75-$9.10 (about $8.93 midpoint, from the Zacks summary of the release). FY2027 EPS is my own assumption: the company gives no 2027 financial guidance. Diluted shares about 1.24-1.25B. Base assumes low-to-mid single-digit EPS growth from HIV (Biktarvy, Yeztugo), Trodelvy and Livdelzi, with no new large IPR&D charge in the forecast year. A future business-development charge would cut reported EPS. Biktarvy Medicare Maximum Fair Price starts Jan 1 2028, after the FY2027 earnings year but within the horizon, so it is a bear-case driver for the 2027 multiple.",
+    "bear": 117.6,
+    "base": 155.1,
+    "bull": 190.0,
+    "cases": {
+      "bear": {"driver": "Biktarvy pricing pressure ahead of the 2028 Medicare price, HIV competition and Veklury erosion compress sales growth; investors pay a lower multiple for a flat-to-down earnings stream and the IPR&D run-rate continues.", "assumption": "FY2027 EPS $8.40 at 14x", "target": 117.6},
+      "base": {"driver": "Underlying EPS grows about 5% from the roughly $8.93 FY2026 ex-IPR&D level as HIV volume (Yeztugo, Biktarvy), Trodelvy and Livdelzi offset Veklury and pricing; the multiple stays below the current 18.8x because of the 2028 Biktarvy price cut.", "assumption": "FY2027 EPS $9.40 at 16.5x", "target": 155.1},
+      "bull": {"driver": "Yeztugo and Trodelvy growth and pipeline (Arcellx, Tubulis, emvistegrast) lift EPS faster, and the 2028 pricing overhang is judged manageable, so the stock keeps a premium large-cap pharma multiple.", "assumption": "FY2027 EPS $10.00 at 19x", "target": 190.0}
+    },
+    "implied_by_close": "At base EPS of $9.40 the $168.08 close implies 17.9x (18.8x on the $8.93 FY2026 ex-IPR&D midpoint). The median of the six named targets (about $186) implies about 19.8x on $9.40 or about $11.30 EPS at 16.5x, and their simple mean (about $173) implies about $10.50 EPS at 16.5x; the Yahoo-sourced 26-analyst mean of $174.77 implies about $10.60 EPS at 16.5x. Consensus FY2027 EPS of about $10.14 (StockAnalysis summary box) would support a $167 value at 16.5x, close to today's price.",
+    "sensitivity": "One turn of P/E moves the base target by $9.40 (about 5.6 pp of the close). A $0.50 change in FY2027 EPS moves it by about $8.25 at 16.5x.",
+    "watch_metric": "HIV franchise sales (Biktarvy and Yeztugo) growth and the FY2027 non-GAAP EPS guidance, including any acquired IPR&D charges, which the company has already raised to $12.4B for 2026.",
+    "next_disclosure": "Q4 and FY2026 results with first commentary on 2027, expected around early February 2027 (date not confirmed)."
+  },
+  "dividend_per_share": 3.28,
+  "analyst_notes": "Seven named analysts issued dated calls from Nov 2-12 2026 after the Oct 29 release: six targets from $131 to $200 (simple mean about $173) and seven Buy/Hold ratings, four Buy and two Hold plus RBC. Citi raised $180 to $188 and Leerink raised $129 to $145, with no cuts shown; RBC at $131 is the low and Scotiabank at $200 the high. Barclays (Hold, $160 from $145, Nov 16) is after the reference close and is excluded. The named-target mean sits about 12% above my base of $155.10, which equals roughly $1.10 of FY2027 EPS at 16.5x or about 1.2 turns of multiple. Horizons are undocumented, so no target enters a weighted average; the StockAnalysis aggregate also reports a Argus $85 prior that looks like a data error and is not used as a source_prior. Coverage is partial: StockAnalysis shows 8 rows including Barclays, and Yahoo reports 26 analysts, so the named set is a subset.",
+  "sources": [
+    {"label": "Gilead Q3 2026 financial results press release (Oct 29 2026)", "url": "https://www.gilead.com/news/news-details/2026/gilead-sciences-announces-third-quarter-2026-financial-results", "supports": "Q3 non-GAAP EPS $2.55, FY2026 non-GAAP EPS guidance, IPR&D $12.4B (about $9.88/share), product sales guidance, Q3 diluted shares, Q4 dividend $0.82"},
+    {"label": "Zacks: GILD beats Q3 earnings (illustrative ex-IPR&D EPS range $8.75-$9.10)", "url": "https://www.zacks.com/stock/news/3019881/gild-beats-q3-earnings-on-hiv-strength-trodelvy-sales-growth", "supports": "Illustrative non-GAAP EPS excluding acquired IPR&D, financing costs and nonrecurring revenue"},
+    {"label": "StockAnalysis GILD ratings (Nov 2026)", "url": "https://stockanalysis.com/stocks/gild/ratings/", "supports": "Named analyst targets, ratings, prior targets and dates"},
+    {"label": "StockAnalysis GILD forecast (consensus $175.92, 28 analysts)", "url": "https://stockanalysis.com/stocks/gild/forecast/", "supports": "Consensus target range and FY2027 EPS estimate summary"}
+  ]
+}

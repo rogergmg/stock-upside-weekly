@@ -1,0 +1,48 @@
+{
+  "issuer_id": "The Walt Disney Company",
+  "symbol": "DIS",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 118.97, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-08-06T06:45:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Steven Cahall", "firm": "Wells Fargo", "field": "target", "value": 132, "source_prior": 125,
+     "issued_at": "2026-08-06", "public_at": "2026-08-06T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/"},
+    {"analyst": "Steven Cahall", "firm": "Wells Fargo", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-08-06", "public_at": "2026-08-06T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/"},
+    {"analyst": "Mike Hickey", "firm": "Benchmark", "field": "target", "value": 115, "source_prior": 115,
+     "issued_at": "2026-08-06", "public_at": "2026-08-06T23:59:59-04:00", "horizon_months": null,
+     "source": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target"},
+    {"analyst": "Mike Hickey", "firm": "Benchmark", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-08-06", "public_at": "2026-08-06T23:59:59-04:00",
+     "source": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x justified P/E. Listing is the NYSE common stock in USD (no ADR conversion). Base EPS is the FY2026 adjusted EPS guidance (about 12% growth excluding the 53rd week, on FY2025 adjusted EPS of about $5.93, so about $6.64), grown one year to FY2027 at the 12-month target date (Nov 2027). Bear 5% growth at 16x, base 10% growth at 18x, bull 15% growth at 20x. Information cutoff is the 2026-11-13 close; the Q4 FY2026 release scheduled for 2026-11-17 is a subsequent event and is not used.",
+    "bear": 111.52,
+    "base": 131.40,
+    "bull": 152.80,
+    "cases": {
+      "bear": {"driver": "Growth slows to mid-single digits; parks and streaming margin gains fade; market keeps a discount multiple", "assumption": "EPS $6.97 (+5% on $6.64) x 16x", "target": 111.52},
+      "base": {"driver": "Management's double-digit EPS growth framework is met; buybacks of about $9B a year support per-share growth", "assumption": "EPS $7.30 (+10% on $6.64) x 18x", "target": 131.40},
+      "bull": {"driver": "Experiences and streaming profit beat the framework; multiple re-rates toward the historical premium", "assumption": "EPS $7.64 (+15% on $6.64) x 20x", "target": 152.80}
+    },
+    "implied_by_close": "At base FY2027 EPS of $7.30 the close of $118.97 implies 16.3x; on FY2026 EPS of $6.64 it implies 17.9x. The aggregate analyst mean of $126.79 implies about 17.4x base EPS, so the gap to the base case is mostly multiple, not EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $7.30 (about 5.6%, or 6.1 pp of price return). A two-point EPS change at 18x moves it by about $36.",
+    "watch_metric": "FY2027 adjusted EPS growth against the double-digit framework, with Experiences operating income growth and streaming operating margin as the drivers",
+    "next_disclosure": "Q1 FY2027 earnings (expected around February 2027), where FY2027 guidance is tested; the FY2026 Q4 and full-year results released 2026-11-17 are a subsequent event to review in a later run"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only two named analysts with dated calls could be verified from the sources reached: Steven Cahall (Wells Fargo) raised the target from $125 to $132 and kept Overweight on 2026-08-06, and Mike Hickey (Benchmark) reiterated Buy with a $115 target the same day. Neither source documents a 12-month horizon, so these calls stay in the timeline but are excluded from the weighted target. The aggregate mean of $126.79 across about 30 analysts includes many unnamed or undated targets, so it cannot be reconciled to named calls; the base case at $131.40 sits above the aggregate mean, and the gap is attributable to multiple (about 18x against an implied 17.4x) rather than a disputed EPS base.",
+  "sources": [
+    {"label": "Q3 FY2026 earnings call highlights (adjusted EPS $2.06, FY2026 guidance)", "url": "https://www.marketbeat.com/instant-alerts/walt-disney-q3-earnings-call-highlights-2026-08-06/", "supports": "FY2026 adjusted EPS growth framework (about 12% ex 53rd week), FY2027 double-digit growth, buyback target"},
+    {"label": "Zacks: Disney Q3 earnings surpass estimates", "url": "https://www.zacks.com/stock/news/2968891/disney-q3-earnings-surpass-estimates-revenues-increase-y-y", "supports": "Q3 FY2026 adjusted EPS beat and revenue growth"},
+    {"label": "Wells Fargo Overweight, target 125 to 132 (2026-08-06)", "url": "https://www.marketbeat.com/instant-alerts/wells-fargo-company-issues-positive-forecast-for-walt-disney-nysedis-stock-price-2026-08-06/", "supports": "Steven Cahall target and rating event"},
+    {"label": "Benchmark Buy reiterated, $115 target (2026-08-06)", "url": "https://site.financialmodelingprep.com/market-news/disney-dis-benchmark-reiterates-buy-rating-115-target", "supports": "Mike Hickey reaffirmed rating and target event"},
+    {"label": "Q4 FY2026 earnings call date (2026-11-17, after reference close)", "url": "https://www.laughingplace.com/disney-business/walt-disney-company-q4-2026-earnings-call-date-announced/", "supports": "Next disclosure date and subsequent-event exclusion"},
+    {"label": "24/7 Wall St: consensus target $128.34 across 33 analysts (2026-09-15)", "url": "https://247wallst.com/investing/2026/09/15/disney-trades-well-below-wall-streets-target-heres-what-closes-the-gap/", "supports": "Published consensus context, not used in the valuation"}
+  ]
+}

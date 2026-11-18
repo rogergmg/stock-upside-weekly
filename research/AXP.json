@@ -1,0 +1,170 @@
+{
+  "issuer_id": "American Express Company",
+  "symbol": "AXP",
+  "researched_at": "2026-11-18",
+  "research_close": {
+    "close": 320.6,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-23T08:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Richard Shane",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 360,
+      "source_prior": 400,
+      "issued_at": "2026-10-12",
+      "public_at": "2026-10-12T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071"
+    },
+    {
+      "analyst": "Richard Shane",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-12",
+      "public_at": "2026-10-12T23:59:59-04:00",
+      "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071"
+    },
+    {
+      "analyst": "Richard Shane",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 365,
+      "source_prior": 360,
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/AXP/analyst-ratings"
+    },
+    {
+      "analyst": "Betsy Graseck",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 380,
+      "source_prior": 382,
+      "issued_at": "2026-10-12",
+      "public_at": "2026-10-12T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2"
+    },
+    {
+      "analyst": "Betsy Graseck",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-12",
+      "public_at": "2026-10-12T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2"
+    },
+    {
+      "analyst": "Erika Najarian",
+      "firm": "UBS",
+      "field": "target",
+      "value": 345,
+      "source_prior": 384,
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results"
+    },
+    {
+      "analyst": "Erika Najarian",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results"
+    },
+    {
+      "analyst": "Erika Najarian",
+      "firm": "UBS",
+      "field": "target",
+      "value": 346,
+      "source_prior": 345,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/AXP/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Card network and lender: forward EPS x justified P/E at the 12-month target date (Nov 2027), viewing FY2027 diluted EPS. Base FY2026 adjusted EPS guidance is $17.60-$17.90 (raised 2026-10-23, excluding the GBTG sale gain net of restructuring; GAAP $18.30-$18.60). FY2027 base EPS $20.10 is the Street consensus snapshot (about $20.1-$20.2 across TIKR, Barchart and FN2, dated variously; not company guidance), about 13% growth on the FY2026 adjusted midpoint. Share basis: Q3 2026 diluted weighted shares 674M (shares_used 670.6M in the pipeline). USD listing, no ADR conversion. Net income and buyback effects are embedded in the EPS line.",
+    "bear": 275.0,
+    "base": 362.0,
+    "bull": 420.0,
+    "cases": {
+      "bear": {
+        "driver": "Consumer spending slows and credit losses rise (card fee growth and billed business cool, as the Q3 release noted a revenue miss versus consensus), premium-card investment and remediation costs cap margins, and buybacks slow. FY2027 EPS grows only about 3% on the FY2026 adjusted midpoint.",
+        "assumption": "EPS $18.30 at 15.0x",
+        "target": 275.0
+      },
+      "base": {
+        "driver": "Management's 10% revenue growth framework holds with stable provisions and continued buybacks (diluted shares down 3% y/y in Q3). EPS compounds in line with the Street's FY2027 consensus.",
+        "assumption": "EPS $20.10 at 18.0x",
+        "target": 362.0
+      },
+      "bull": {
+        "driver": "Card fees and billed business re-accelerate, Platinum refresh and merchant expansion lift revenue growth above 10%, provisions stay benign, and the multiple re-rates toward the top of its historical range.",
+        "assumption": "EPS $21.00 at 20.0x",
+        "target": 420.0
+      }
+    },
+    "implied_by_close": "The close of $320.60 is 15.9x base FY2027 EPS of $20.10 and 18.1x FY2026 adjusted midpoint of $17.75. The mean of the three named current targets ($365, $380, $346, about $364) implies 18.1x base FY2027 EPS, or about $20.2 of EPS at 18.0x. The Yahoo aggregate mean of $364.79 (24 analysts) implies the same multiple.",
+    "sensitivity": "One turn of P/E moves the base target by $20.10 (about 6.3 pp of price return); $1 of FY2027 EPS moves it by $18 (about 5.6 pp).",
+    "watch_metric": "Billed business growth and card fee growth against the 10% revenue growth framework, together with the credit provision rate and the 2027 EPS path (base needs about $20 in FY2027, growth of about 13%).",
+    "next_disclosure": "Q4 2026 earnings and FY2027 outlook, expected in January 2027 (provider estimate; confirm on the company IR calendar)."
+  },
+  "dividend_per_share": 3.8,
+  "analyst_notes": "Only three named analysts were sourced, with eight dated rows (target and rating) since October 5 (partial coverage; the Yahoo aggregate has 24 analysts). Post-Q3 targets moved within a narrow band: JPMorgan's Shane cut to $360 on Oct 12 (before results) and raised to $365 on Oct 26, UBS's Najarian cut to $345 on Oct 5 and nudged to $346 on Nov 2, and Morgan Stanley's Graseck trimmed $382 to $380 on Oct 12. These three sit about 1-2% from the base case of $362 in aggregate, so the named sample does not disagree with the base case on the multiple; the gap to the Street EPS path is small. Horizons are not documented for any sampled firm, so none enter a weighted target. Other firms (BofA, Citi, Evercore, KBW, RBC, TD Cowen) were reported in Oct 2026 without verifiable analyst names and are omitted from the individual histories.",
+  "sources": [
+    {
+      "label": "AXP Q3 2026 Form 8-K Exhibit 99.1 (GAAP EPS $5.42, adjusted EPS $4.68, FY2026 guidance $18.30-$18.60 GAAP / $17.60-$17.90 adjusted, diluted shares 674M)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000004962/000000496226000405/q326exhibit991.htm",
+      "supports": "Q3 2026 EPS, FY2026 guidance, share count, earnings date"
+    },
+    {
+      "label": "AmEx Q3 2026 financial results newsroom article",
+      "url": "https://www.americanexpress.com/en-us/newsroom/articles/financial-news/american-express-third-quarter-2026-financial-results.html",
+      "supports": "Release date and results (reference only; page content not fully retrieved)"
+    },
+    {
+      "label": "Benzinga: analyst forecast changes ahead of AXP Q3 print (Oct 12 Shane and Graseck actions)",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62551069/american-express-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts-2",
+      "supports": "Graseck $382 to $380 Equal-Weight, Oct 12"
+    },
+    {
+      "label": "Benzinga: analysts revise AXP forecasts after Q3 (Najarian Oct 5 cut)",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62596946/these-analysts-revise-their-forecasts-on-american-express-after-q3-results",
+      "supports": "Najarian $384 to $345 Neutral, Oct 5"
+    },
+    {
+      "label": "Benzinga AXP analyst ratings page (Shane Oct 26 raise to $365, Najarian Nov 2 to $346, aggregate $344.07)",
+      "url": "https://www.benzinga.com/quote/AXP/analyst-ratings",
+      "supports": "Later named target revisions and aggregate"
+    },
+    {
+      "label": "AD-HOC News: JPMorgan cuts AXP target to $360 (Overweight, Oct 12; analyst not named in article)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/jpmorgan-cuts-target-for-american-express-stock-to-usd-360-00/70382071",
+      "supports": "JPMorgan $400 to $360 Overweight, Oct 12"
+    },
+    {
+      "label": "TIKR: AXP FY2027 normalized EPS consensus about $20.20",
+      "url": "https://www.tikr.com/blog/american-express-vs-paypal-which-stock-does-wall-street-expect-to-grow-faster-through-2027",
+      "supports": "FY2027 EPS consensus range"
+    },
+    {
+      "label": "Yahoo Finance aggregate via pipeline data (mean target $364.79, 24 analysts, dividend rate $3.80)",
+      "url": "https://finance.yahoo.com/quote/AXP/analysis/",
+      "supports": "Published consensus and dividend rate"
+    }
+  ]
+}

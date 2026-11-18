@@ -1,0 +1,35 @@
+{
+  "issuer_id": "Citigroup Inc.",
+  "symbol": "C",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 124.01, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-13T06:30:00-04:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Bank: tangible book value per common share (TBVPS) projected to the 12-month target date (Nov 2027) x P/TBV. Q3 2026 TBVPS $101.59 (reported 2026-10-13), growing about 6% a year (Q3 TBVPS up 6% y/y) to about $108 in Nov 2027 in the base case. P/TBV uses the steady-state check P/TBV = (ROTCE - g)/(COE - g): base (12% - 5%)/(10.5% - 5%) = 1.27x, with ROTCE 12% at the midpoint of management's 11-13% near-term target and COE 10.5% as a modelling assumption. Diluted shares about 1.84bn are derived from Q3 net income $5.245bn / diluted EPS $2.85 (not from a filing cover). USD listing, no ADR conversion.",
+    "bear": 93.0,
+    "base": 137.0,
+    "bull": 161.0,
+    "cases": {
+      "bear": {"driver": "Credit cycle turns (card and CRE losses, Markets seasonal and stress trading losses), ROTCE falls to about 10% and buybacks slow so TBVPS grows only about 1.5%.", "assumption": "TBVPS $103 at 0.9x P/TBV (ROTCE 10% against COE about 11%)", "target": 93.0},
+      "base": {"driver": "Management path holds: 2026 ROTCE above 11%, rising toward the 11-13% near-term target, TBVPS compounding about 6% with buybacks (about $3bn a quarter) and the dividend ($0.67 a quarter).", "assumption": "TBVPS $108 at 1.27x P/TBV", "target": 137.0},
+      "bull": {"driver": "Markets and fee strength, benign credit, ROTCE about 13.5-14% and Banamex deconsolidation (2027) accretive to CET1 lets buybacks run faster; the market pays for delivery of the 14-15% longer-term ROTCE goal.", "assumption": "TBVPS $111 at 1.45x P/TBV (a discount to the 1.8x steady-state value at 14% ROTCE)", "target": 161.0}
+    },
+    "implied_by_close": "The close of $124.01 is 1.22x Q3 TBVPS of $101.59 and 1.15x base-case Nov 2027 TBVPS of $108. Aggregator consensus of roughly $144-152 (undated mix, see analyst_notes) implies about 1.35x base TBVPS, or TBVPS of about $113 at a constant 1.27x.",
+    "sensitivity": "0.1x of P/TBV moves the base target by $10.80 (8.7 pp of price return); $1 of TBVPS moves it by about $1.27 (1.0 pp).",
+    "watch_metric": "Reported ROTCE against the 11-13% near-term target (base needs about 12% for 2027), together with TBVPS growth (base needs about 6% y/y) and the buyback pace against the $30bn programme.",
+    "next_disclosure": "Q4 2026 earnings, expected in mid-January 2027 (date not verified; confirm on the Citi IR calendar)."
+  },
+  "dividend_per_share": 2.68,
+  "analyst_notes": "No named individual analyst call was verifiable from the sources reached: the RBC (target cut to $135 from $150, Outperform, 2026-10-14) and TD Cowen (cut to $148 from $150, Buy, 2026-10-14) items are firm-only in the sources opened, and UBS, Evercore, KBW and Morgan Stanley items conflict across aggregators, so coverage is labelled unavailable and no weighted target is computed. Firm-level targets after Q3 cluster at $135-165 (mostly trimmed by $2-15 on Q3 results), and the aggregator consensus of about $144-152 is above the $137 base case, so the gap is roughly 5-10% of price, equivalent to about 1.35x P/TBV or TBVPS of about $113 at the base multiple. Targets are concentrated in the bank's 12-month views, many of them stale (June-August 2026 entries) and mixed horizon. Analyst consensus is not reconciled to any single dated source.",
+  "sources": [
+    {"label": "Citigroup Q3 2026 results and guidance (MarketBeat transcript summary, 2026-10-13)", "url": "https://www.marketbeat.com/instant-alerts/transcript-citigroup-q3-earnings-call-highlights-2026-10-13/", "supports": "Q3 net income, revenue, ROTCE 11.5%, TBVPS $101.59, CET1 12.8%, 2026 ROTCE above 11%, 11-13% near-term ROTCE target, buybacks and dividend increase, Banamex deconsolidation in 2027"},
+    {"label": "Citigroup Q3 2026 results (Beinsure, 2026-10-13)", "url": "https://beinsure.com/news/citigroup-q3-profit-jumps-beating-wall-street-estimates/", "supports": "Diluted EPS $2.85, net income $5.25bn, book value per share $115.61, ROTCE 12.6% year to date, cumulative 2026 buybacks about $13.3bn"},
+    {"label": "Citi dividend increase, $0.60 to $0.67 quarterly (Zacks)", "url": "https://www.zacks.com/stock/news/2943755/how-citigroups-stress-test-success-strengthens-shareholder-returns", "supports": "Quarterly common dividend $0.60 raised to $0.67 from Q3 2026, annualised $2.68"},
+    {"label": "RBC target cut to $135 from $150 (Investing.com, 2026-10-14)", "url": "https://www.investing.com/news/analyst-ratings/rbc-capital-lowers-citi-stock-price-target-on-strategic-execution-93CH-4949510", "supports": "Firm-level target trim after Q3 (analyst name not stated)"},
+    {"label": "TD Cowen target cut to $148 from $150 (Investing.com, 2026-10-14)", "url": "https://www.investing.com/news/analyst-ratings/td-cowen-lowers-citi-stock-price-target-to-148-on-revised-estimates-93CH-4949576", "supports": "Firm-level target trim after Q3 (analyst name not stated)"},
+    {"label": "Consensus target of $128 (Rallies.ai, 2026-01-13)", "url": "https://rallies.ai/news/citigroup-raises-consensus-price-target-to-128-and-plans-1000-job-cuts", "supports": "Earlier consensus context and 1,000 job cuts plan; no EPS or ROTCE forecast in source"}
+  ]
+}

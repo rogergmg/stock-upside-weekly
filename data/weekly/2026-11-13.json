@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T16:12:25.168258+00:00",
+  "built_at": "2026-11-18T16:13:45.925482+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 172,
+    "rank_valued": 177,
     "rank_with_named_targets": 2,
-    "rank_matched": 172,
-    "researched": 172
+    "rank_matched": 177,
+    "researched": 177
   },
   "ranked": [
     {
@@ -779,6 +779,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "ADBE",
+      "issuer_id": "Adobe Inc.",
+      "close": 243.08,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 92714601280,
+        "high": 96498870720
+      },
+      "scenarios_pct": {
+        "bear": -21.42504525259174,
+        "base": 11.48593055784104,
+        "bull": 53.03603751851242
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "PDD",
       "issuer_id": "PDD Holdings Inc.",
       "close": 78.97,
@@ -1109,6 +1130,27 @@
         "bull": 35.32651455546814
       },
       "base_total_return_pct": 11.51324416469971,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "MMM",
+      "issuer_id": "3M Company",
+      "close": 183.66,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 93004502490,
+        "high": 96832228482
+      },
+      "scenarios_pct": {
+        "bear": -14.842644016116738,
+        "base": 8.896874659697266,
+        "bull": 32.30970271153218
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1466,6 +1508,27 @@
         "bull": 24.24666533375225
       },
       "base_total_return_pct": 6.692182456942104,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "ING",
+      "issuer_id": "ING Groep N.V.",
+      "close": 33.22,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 92334495389,
+        "high": 98376964459
+      },
+      "scenarios_pct": {
+        "bear": -25.13546056592414,
+        "base": 6.1408789885611075,
+        "bull": 28.92835641180012
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -3194,6 +3257,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "ELV",
+      "issuer_id": "Elevance Health, Inc.",
+      "close": 429.69,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 90980314688,
+        "high": 94713630851
+      },
+      "scenarios_pct": {
+        "bear": -25.06225418324839,
+        "base": -2.2551141520631153,
+        "bull": 15.43205566803975
+      },
+      "base_total_return_pct": -0.6539598315064348,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "CME",
       "issuer_id": "CME Group Inc.",
       "close": 317.97,
@@ -3212,6 +3296,27 @@
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "FTNT",
+      "issuer_id": "Fortinet, Inc.",
+      "close": 127.22,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 91600377785,
+        "high": 95339168715
+      },
+      "scenarios_pct": {
+        "bear": -32.32196195566735,
+        "base": -2.373840591102028,
+        "bull": 24.508725043232197
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
       "analyst_minus_base_pp": null
     },
     {
@@ -3638,26 +3743,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MMM",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ADBE",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ING",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "FTNT",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ELV",
       "reason": "independent valuation unavailable"
     },
     {
@@ -69105,6 +69190,1319 @@
           "status_at_cutoff": "unknown or different horizon"
         }
       ]
+    },
+    "MMM": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 183.66,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. FY2027 adjusted EPS viewed at the 12-month target date (about Nov 2027) times a justified multiple. Q3 2026 adjusted EPS was $2.50 and FY2026 adjusted EPS guidance was raised to $9.10-$9.15 (release of Oct 20, 2026; new non-GAAP basis excludes intangible amortization). FY2027 EPS is my own assumption (about 9.5% growth on the guidance midpoint from organic growth above 3.5%, margin expansion and buybacks); a consensus FY2027 figure was not sourced. NYSE common stock in USD, so no ADR or FX conversion applies. Dividend per share not sourced.",
+        "bear": 156.4,
+        "base": 200.0,
+        "bull": 243.0,
+        "cases": {
+          "bear": {
+            "driver": "Organic growth stalls near 2% and margin gains fade; multiple de-rates",
+            "assumption": "FY2027 EPS $9.20 at 17x",
+            "target": 156.4
+          },
+          "base": {
+            "driver": "Organic growth above 3.5% and operating margin expansion continue; buybacks add",
+            "assumption": "FY2027 EPS $10.00 at 20x",
+            "target": 200.0
+          },
+          "bull": {
+            "driver": "Growth accelerates, margins beat and the market pays a premium multiple",
+            "assumption": "FY2027 EPS $10.80 at 22.5x",
+            "target": 243.0
+          }
+        },
+        "implied_by_close": "At base EPS of $10.00 the close of $183.66 implies 18.4x; the median named target of $188.50 implies about 18.9x base EPS, or EPS of about $9.43 at 20x.",
+        "sensitivity": "One turn of P/E moves the base target by $10.00 (about 5.4 pp of the close).",
+        "watch_metric": "Adjusted organic sales growth and adjusted operating margin against the above 3.5% growth and FY2026 EPS guidance of $9.10-$9.15.",
+        "next_disclosure": "Q4 and full-year 2026 results with 2027 outlook, expected late January 2027 (date not verified)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Most named targets were reset on Oct 21 after the Q3 beat and guidance raise: Bernstein 197, JPMorgan 191, Citigroup 188, Jefferies 186 and RBC 135, with UBS at 230 on Nov 4 the highest. The median of six targets ($188.50) is about 3% above the close and about 6% below my base $200, a gap of roughly $0.6 of EPS at 20x, so views are close on EPS and differ on the multiple. Wolfe Research downgraded to Peer Perform on Nov 12. Horizons are undocumented, ratings per analyst were not available, and the sample is partial.",
+      "sources": [
+        {
+          "label": "3M 8-K Exhibit 99.1, Q3 2026 results",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000066740/000006674026000308/q32026-8kerexx991.htm",
+          "supports": "Q3 EPS, FY2026 guidance, cash flow"
+        },
+        {
+          "label": "3M Reports Third-Quarter 2026 Results (press release)",
+          "url": "https://www.biospace.com/press-releases/3m-reports-third-quarter-2026-results-raises-full-year-eps-guidance",
+          "supports": "Q3 results, raised guidance"
+        },
+        {
+          "label": "FN2 3M analyst price targets",
+          "url": "https://fn2.ai/earnings/mmm/analysts",
+          "supports": "Named analyst targets and dates, Wolfe downgrade"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-20T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 1,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "(unnamed) Wolfe Research",
+            "firm": "Wolfe Research",
+            "value": "Peer Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://fn2.ai/earnings/mmm/analysts",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 100.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 188.0,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "(unnamed) Wolfe Research",
+          "firm": "Wolfe Research",
+          "field": "rating",
+          "value": "Peer Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Amit Mehrotra",
+          "firm": "UBS",
+          "field": "target",
+          "value": 230.0,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Chigusa Katoku",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 191.0,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Jeffrey Reive",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 135.0,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Laurence Alexander",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 186.0,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Varun Govindaraj",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 197.0,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ADBE": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 243.08,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E, with the forward period viewed at the 12-month target date (Nov 2027) taken as FY2028 non-GAAP diluted EPS. Anchor: FY2026 non-GAAP EPS guidance of $24.45-$24.50 (raised with Q3 results, about 400M diluted shares, about 45% non-GAAP operating margin); Street FY2027 EPS about $27.43. Scenario FY2028 EPS is my own assumption: bear $25.50 (growth stalls, AI disruption of seat-based creative software), base $28.50, bull $31.00 (buybacks plus AI-first ARR growth). Per share of the USD Nasdaq listing; no ADR or FX conversion applies.",
+        "bear": 191.0,
+        "base": 271.0,
+        "bull": 372.0,
+        "cases": {
+          "bear": {
+            "driver": "Revenue growth fades and AI-native competitors compress pricing, so the market keeps a trough multiple",
+            "assumption": "FY28 EPS $25.50 at 7.5x",
+            "target": 191.0
+          },
+          "base": {
+            "driver": "Revenue grows about 10-11% as guided (Q3 revenue $6.76B, +13%), margin holds near 45%, buybacks offset dilution",
+            "assumption": "FY28 EPS $28.50 at 9.5x",
+            "target": 271.0
+          },
+          "bull": {
+            "driver": "AI-first ARR (up 150%) scales, new CEO from 1 Dec keeps margins and the multiple re-rates toward large-cap software",
+            "assumption": "FY28 EPS $31.00 at 12x",
+            "target": 372.0
+          }
+        },
+        "implied_by_close": "At FY2026 guided EPS of about $24.48 the close of $243.08 implies 9.9x; at base FY2028 EPS of $28.50 it implies 8.5x. The Oct-Nov named targets average about $229 (range $200-$267), which is 8.0x base FY2028 EPS, or EPS of $24.1 at 9.5x.",
+        "sensitivity": "One turn of P/E moves the base target by $28.50 (10.5% of the $271 base, 11.7% of the close).",
+        "watch_metric": "Total Adobe ARR growth and non-GAAP operating margin against the 44% Q4 guide, plus FY2027 EPS guidance versus the Street $27.43.",
+        "next_disclosure": "Q4 FY2026 results and FY2027 guidance, expected in December 2026."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named-firm targets reset lower in Oct-Nov 2026: Goldman $200 (Sell), Wells Fargo $225 from $270 (downgrade to Sell), HSBC $267 from $310 (downgrade to Hold), TD Cowen $245 and Citi $207 from $250. Only Goldman's analyst (Gabriela Borges) is named in found sources; others are labeled by firm and none has a documented 12-month horizon, so none enters the weighted target. These targets sit about 15% below the base case, equivalent to base EPS near $24 at 9.5x rather than $28.50; the gap is mainly a multiple and growth-durability disagreement. The sample is thin and partly from an aggregator.",
+      "sources": [
+        {
+          "label": "TIKR Adobe analyst price targets, Oct-Nov 2026",
+          "url": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "supports": "firm targets, ratings and dates"
+        },
+        {
+          "label": "Adobe Q3 FY2026 earnings call highlights, Nasdaq",
+          "url": "https://www.nasdaq.com/articles/adobe-q3-earnings-call-highlights",
+          "supports": "FY2026 EPS and revenue guidance, ARR"
+        },
+        {
+          "label": "Adobe Q3 FY2026 results, AI Weekly",
+          "url": "https://aiweekly.co/alerts/adobe-q3-revenue-rises-13-to-676b-ai-first-arr-up-150",
+          "supports": "Q3 revenue, Q4 guidance"
+        },
+        {
+          "label": "Adobe Q3 FY2026 earnings call, Zacks",
+          "url": "https://www.zacks.com/stock/news/2988442/adobe-q3-earnings-call-centers-on-agentic-ai-and-freemium",
+          "supports": "Q4 margin assumption"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": null,
+      "split_adjusted": null,
+      "ratings": {
+        "count": 3,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": 32,
+        "max_weight_pct": 34.351284433537735,
+        "contributors": [
+          {
+            "analyst": "Gabriela Borges",
+            "firm": "Goldman Sachs",
+            "value": "Sell",
+            "bucket": "Sell",
+            "issued_at": "2026-10-02",
+            "age_days": 42,
+            "after_earnings": null,
+            "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+            "weight": 0.31560976033035554
+          },
+          {
+            "analyst": "HSBC analyst",
+            "firm": "HSBC",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-13",
+            "age_days": 31,
+            "after_earnings": null,
+            "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+            "weight": 0.3435128443353773
+          },
+          {
+            "analyst": "Wells Fargo analyst",
+            "firm": "Wells Fargo",
+            "value": "Sell",
+            "bucket": "Sell",
+            "issued_at": "2026-10-12",
+            "age_days": 32,
+            "after_earnings": null,
+            "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+            "weight": 0.3408773953342672
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 1,
+          "Sell": 2
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 34.351284433537735,
+          "Sell": 65.64871556646227
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Citi analyst",
+          "firm": "Citi",
+          "field": "target",
+          "value": 207.0,
+          "source_prior": 250,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "prior_observed": null,
+          "revision_pct": -17.200000000000003,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Gabriela Borges",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Gabriela Borges",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 200.0,
+          "source_prior": null,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "HSBC analyst",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "HSBC analyst",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 267.0,
+          "source_prior": 310,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "prior_observed": null,
+          "revision_pct": -13.87096774193548,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 245.0,
+          "source_prior": null,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 225.0,
+          "source_prior": 270,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe",
+          "prior_observed": null,
+          "revision_pct": -16.666666666666664,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "ING": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 33.22,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E in EUR (FY2027 EPS viewed at the 12-month target date), cross-checked to ROTE ~15-16%. ADR ratio 1 ADS = 1 ordinary share; converted at EUR/USD 1.1052 (Banque de France reference rate, 2026-11-13). Analyst EUR targets converted at the same rate.",
+        "bear": 24.87,
+        "base": 35.26,
+        "bull": 42.83,
+        "cases": {
+          "bear": {
+            "driver": "Rate cuts compress NII and credit provisions rise; ROTE falls to low teens",
+            "assumption": "EPS EUR 2.50 at 9.0x",
+            "target": 24.87
+          },
+          "base": {
+            "driver": "FY26 EPS about EUR 2.5 (3Q26 net result EUR 1.85bn, ROTE 16.3%); FY27 growth ~15% on fees and volume growth, buybacks",
+            "assumption": "EPS EUR 2.90 at 11.0x",
+            "target": 35.26
+          },
+          "bull": {
+            "driver": "Fee growth near 10%, lending growth and buybacks lift ROTE above 17%",
+            "assumption": "EPS EUR 3.10 at 12.5x",
+            "target": 42.83
+          }
+        },
+        "implied_by_close": "At base EPS EUR 2.90 the close (about EUR 30.06) implies 10.4x; the analyst mean target (about EUR 35.8) implies 12.3x or EPS about EUR 3.25 at 11x",
+        "sensitivity": "One turn of P/E moves the base target by $3.21 (9.7 pp)",
+        "watch_metric": "Group ROTE and fee income growth versus 3Q26 ROTE 16.3% and fees up 9.3% year on year",
+        "next_disclosure": "FY2026 results, expected early February 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Eight named analysts updated between 29 Oct and 9 Nov 2026 around the 3Q26 print; six are Buy at EUR 35.0-39.4 and Jefferies and BofA are Hold at EUR 31.0 and 30.5. Goldman, Citi, JPM and Barclays raised targets. Horizons are undocumented so none enter the weighted target. The base case sits about one turn of P/E below the Buy group; EPS FY26-27 estimates are provider aggregates.",
+      "sources": [
+        {
+          "label": "ING 3Q26 results coverage",
+          "url": "https://www.ideal-investisseur.fr/en/stock-news/ing-net-profit-of-eur1-85-billion-in-third-quarter-2026-up-3-5/28129.html",
+          "supports": "3Q net result, ROTE"
+        },
+        {
+          "label": "StockAnalysis ING Amsterdam ratings",
+          "url": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "supports": "Analyst targets and ratings"
+        },
+        {
+          "label": "StockAnalysis ING forecast",
+          "url": "https://stockanalysis.com/stocks/ing/forecast/",
+          "supports": "EPS estimates"
+        },
+        {
+          "label": "ING 2Q26 press release",
+          "url": "https://ing.com/news/press-releases/2q2026-ing-press-release.html",
+          "supports": "Interim dividend EUR 0.40"
+        },
+        {
+          "label": "Banque de France EUR parities 2026-11-13",
+          "url": "https://www.banque-france.fr/en/statistics/rates-and-prices/exchange-rates-daily-parities-2026-11-13",
+          "supports": "EUR/USD 1.1052"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T07:00:00+01:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 8,
+        "post_earnings": 5,
+        "earnings_order_unknown": 3,
+        "median_age_days": 14.0,
+        "max_weight_pct": 13.235252195276232,
+        "contributors": [
+          {
+            "analyst": "Benjamin Goy",
+            "firm": "Deutsche Bank",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+            "weight": 0.1225418531835111
+          },
+          {
+            "analyst": "Chris Hallam",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+            "weight": 0.13235252195276231
+          },
+          {
+            "analyst": "Delphine Lee",
+            "firm": "J.P. Morgan",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+            "weight": 0.12540613322490712
+          },
+          {
+            "analyst": "Johan Ekblom",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+            "weight": 0.1216017055008487
+          },
+          {
+            "analyst": "Namita Samtani",
+            "firm": "Barclays",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+            "weight": 0.1225418531835111
+          },
+          {
+            "analyst": "Shrey Srivastava",
+            "firm": "Citi",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-09",
+            "age_days": 4,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+            "weight": 0.13235252195276231
+          },
+          {
+            "analyst": "Tarik El Mejjad",
+            "firm": "Bank of America Securities",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+            "weight": 0.1216017055008487
+          },
+          {
+            "analyst": "Theo Massing",
+            "firm": "Jefferies",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-29",
+            "age_days": 15,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+            "weight": 0.1216017055008487
+          }
+        ],
+        "counts": {
+          "Buy": 6,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 75.67965889983026,
+          "Hold": 24.320341100169742,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Benjamin Goy",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Benjamin Goy",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 38.68,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Chris Hallam",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Chris Hallam",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 42.11,
+          "source_prior": 40.45,
+          "horizon_months": null,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "revision_pct": 4.103831891223719,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Delphine Lee",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Delphine Lee",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 43.54,
+          "source_prior": 42.55,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "revision_pct": 2.3266745005875444,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Johan Ekblom",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Johan Ekblom",
+          "firm": "UBS",
+          "field": "target",
+          "value": 42.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Namita Samtani",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Namita Samtani",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 38.68,
+          "source_prior": 37.69,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "revision_pct": 2.6266914300875577,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Shrey Srivastava",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Shrey Srivastava",
+          "firm": "Citi",
+          "field": "target",
+          "value": 43.1,
+          "source_prior": 39.79,
+          "horizon_months": null,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "revision_pct": 8.318673033425483,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Tarik El Mejjad",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Tarik El Mejjad",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 33.71,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Theo Massing",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Theo Massing",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 34.26,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "FTNT": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 127.22,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. FY2026 non-GAAP diluted EPS guidance $3.54-$3.58 (midpoint $3.56, 18% tax rate, 741-743M diluted shares) from the Q3 2026 release of Oct 28 2026 is the starting base. At the Nov 2027 12-month target date the market prices FY2028 EPS, so the multiple is applied to FY2028 EPS. USD ordinary share listing, no ADR or FX conversion. FY2027 and FY2028 growth rates are our own assumptions, not company guidance.",
+        "bear": 86.1,
+        "base": 124.2,
+        "bull": 158.4,
+        "cases": {
+          "bear": {
+            "driver": "Service revenue growth keeps disappointing as the firewall refresh cycle fades, revenue growth slows to high single digits and operating margin slips below the 36.5-37.5% FY26 range.",
+            "assumption": "FY2028 EPS $4.10 (about 7% a year on $3.56) at 21x = $86.10 (-32.3% price return)",
+            "target": 86.1
+          },
+          "base": {
+            "driver": "Revenue growth moderates from 20% toward low-teens, non-GAAP operating margin holds near 37%, buybacks keep shares near 740M and EPS compounds about 13% a year.",
+            "assumption": "FY2028 EPS $4.60 at 27x = $124.20 (-2.4% price return)",
+            "target": 124.2
+          },
+          "bull": {
+            "driver": "Product and SASE/secure-networking demand keeps revenue growth in the high teens, service revenue reaccelerates and margins expand, with EPS compounding about 18% a year.",
+            "assumption": "FY2028 EPS $4.95 at 32x = $158.40 (+24.5% price return)",
+            "target": 158.4
+          }
+        },
+        "implied_by_close": "At base FY2028 EPS $4.60 the close of $127.22 implies 27.7x. No individually weighted analyst target is available; the close is 35.7x FY2026 guided EPS of $3.56.",
+        "sensitivity": "One turn of P/E moves the base target by $4.60 (3.6 pp of price return). $0.10 of FY2028 EPS moves it by $2.70 (2.1 pp).",
+        "watch_metric": "Service revenue growth (guided $5.150-5.170bn for FY26) and non-GAAP operating margin against the 35.5-37.5% Q4 guide; both must hold for FY28 EPS near $4.60.",
+        "next_disclosure": "Q4 and full-year 2026 results with FY2027 guidance, expected in February 2027 (date not confirmed in sources read)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "No named analyst calls dated on or before the Nov 13 2026 reference close were verified from primary sources, so coverage is labeled unavailable and no target is weighted. Aggregator reports (MarketBeat, TipRanks) show October-era targets such as Truist $200, Yorkville Ives $225 and JPMorgan $140 (Underweight), set when the stock was near $183; shares then fell sharply after the Oct 28 report on service revenue disappointment, so many targets are likely stale relative to the $127.22 close.",
+      "sources": [
+        {
+          "label": "Fortinet Q3 2026 results release (Oct 28 2026)",
+          "url": "https://finviz.com/news/410526/fortinet-reports-strong-third-quarter-2026-financial-results",
+          "supports": "FY26 and Q4 guidance, EPS, diluted shares, buyback, release time"
+        },
+        {
+          "label": "Fortinet Q2 2026 8-K exhibit 99.1",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001262039/000126203926000018/ftntq2-2026ex991.htm",
+          "supports": "Prior guidance and Q2 base"
+        },
+        {
+          "label": "MarketBeat: JPMorgan lifts Fortinet target",
+          "url": "https://www.marketbeat.com/instant-alerts/price-fortinet-nasdaq-ftnt-shares-up-19-on-analyst-upgrade-2026-10-26/",
+          "supports": "October 2026 analyst targets (not entered as events)"
+        },
+        {
+          "label": "Zacks: Fortinet Q3 earnings beat",
+          "url": "https://www.zacks.com/stock/news/3018782/fortinet-q3-earnings-revenues-beat-estimates-increase-yy",
+          "supports": "Q3 EPS $0.911 and FY26 EPS guide $3.54-3.58"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": "2026-10-28T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
+    "ELV": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 429.69,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date, Nov 2027). Management guides 2026 adjusted EPS to at least $29.00 (includes non-recurring investment income) and at least 12% 2027 growth from a baseline of at least $26.75, i.e. about $30.0 base. Diluted shares ~217.6M (Q3 2026), ~$5.0B buyback authorization remaining.",
+        "bear": 322.0,
+        "base": 420.0,
+        "bull": 496.0,
+        "cases": {
+          "bear": {
+            "driver": "Medicaid and ACA cost trend reverses recent rate-driven gains; 2027 EPS grows only ~5% off the $26.75 baseline",
+            "assumption": "EPS $28.00 at 11.5x",
+            "target": 322.0
+          },
+          "base": {
+            "driver": "2027 adjusted EPS grows the guided 12% from the $26.75 baseline, helped by buybacks and Medicaid repricing",
+            "assumption": "EPS $30.00 at 14.0x",
+            "target": 420.0
+          },
+          "bull": {
+            "driver": "Benefit ratio keeps improving from 90.6% in Q3; 2027 EPS grows ~20% off baseline and multiple re-rates",
+            "assumption": "EPS $32.00 at 15.5x",
+            "target": 496.0
+          }
+        },
+        "implied_by_close": "At base EPS $30.00 the $429.69 close implies 14.3x; the analyst-weighted target (~$475) implies about 15.8x or EPS ~$34",
+        "sensitivity": "One turn of P/E moves the base target by $30 (7.1 pp of the close)",
+        "watch_metric": "Full-year benefit expense ratio and Medicaid margin versus the $26.75 2027 baseline",
+        "next_disclosure": "Q4 2026 earnings and 2027 guidance, expected January 2027"
+      },
+      "dividend_per_share": 6.88,
+      "analyst_notes": "Targets rose across the board after the Oct 21 Q3 beat and guidance raise, with most firms moving up $3-$63. Named targets (about $406-$523) sit above my $420 base because they capitalize roughly 15-16x on EPS near $31-34, versus my 14x on $30. Analyst names are mostly not disclosed in aggregator sources and the target horizon is undocumented, so these calls do not enter the weighted target.",
+      "sources": [
+        {
+          "label": "Q3 2026 earnings release (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001156039/000115603926000068/a3q2026elvearningsrelease.htm",
+          "supports": "EPS, guidance, share count, dividend"
+        },
+        {
+          "label": "Healthcare Dive Q3 2026",
+          "url": "https://www.healthcaredive.com/news/elevance-medicaid-momentum-q3-2026-elv/833559/",
+          "supports": "Q3 context"
+        },
+        {
+          "label": "GuruFocus UBS target",
+          "url": "https://www.gurufocus.com/news/9137732/elv-maintained-by-ubs-price-target-raised-to-523",
+          "supports": "analyst targets"
+        },
+        {
+          "label": "MarketBeat TD Cowen",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-elevance-health-nyse-elv-stock-price-target-raised-at-td-cowen-2026-10-23/",
+          "supports": "analyst targets"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-21T06:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 6,
+        "earnings_order_unknown": 0,
+        "median_age_days": 22.0,
+        "max_weight_pct": 17.18638733866015,
+        "contributors": [
+          {
+            "analyst": "Baird (analyst not named)",
+            "firm": "Baird",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-robert-w-baird-forecasts-strong-price-appreciation-for-elevance-health-nyse-elv-stock-2026-10-22/",
+            "weight": 0.16537151567354527
+          },
+          {
+            "analyst": "Ben Hendrix",
+            "firm": "RBC Capital",
+            "value": "Sector Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.gurufocus.com/news/9137264/elv-maintained-by-rbc-capital-price-target-raised-to-455",
+            "weight": 0.16537151567354527
+          },
+          {
+            "analyst": "Guggenheim (analyst not named)",
+            "firm": "Guggenheim",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.gurufocus.com/news/9137501/elv-maintained-by-guggenheim-price-target-raised-to-485",
+            "weight": 0.16537151567354527
+          },
+          {
+            "analyst": "TD Cowen (analyst not named)",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-23",
+            "age_days": 21,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-elevance-health-nyse-elv-stock-price-target-raised-at-td-cowen-2026-10-23/",
+            "weight": 0.1666500639192174
+          },
+          {
+            "analyst": "UBS (analyst not named)",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-22",
+            "age_days": 22,
+            "after_earnings": true,
+            "source": "https://www.gurufocus.com/news/9137732/elv-maintained-by-ubs-price-target-raised-to-523",
+            "weight": 0.16537151567354527
+          },
+          {
+            "analyst": "Wells Fargo (analyst not named)",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-27",
+            "age_days": 17,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-positive-forecast-for-elevance-health-nyse-elv-stock-price-2026-10-27/",
+            "weight": 0.1718638733866015
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 66.92569686529094,
+          "Hold": 33.074303134709055,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Baird (analyst not named)",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-robert-w-baird-forecasts-strong-price-appreciation-for-elevance-health-nyse-elv-stock-2026-10-22/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Baird (analyst not named)",
+          "firm": "Baird",
+          "field": "target",
+          "value": 406.0,
+          "source_prior": 393,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-robert-w-baird-forecasts-strong-price-appreciation-for-elevance-health-nyse-elv-stock-2026-10-22/",
+          "prior_observed": null,
+          "revision_pct": 3.30788804071247,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Ben Hendrix",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.gurufocus.com/news/9137264/elv-maintained-by-rbc-capital-price-target-raised-to-455",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Ben Hendrix",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 455.0,
+          "source_prior": 424,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9137264/elv-maintained-by-rbc-capital-price-target-raised-to-455",
+          "prior_observed": null,
+          "revision_pct": 7.311320754716988,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Guggenheim (analyst not named)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.gurufocus.com/news/9137501/elv-maintained-by-guggenheim-price-target-raised-to-485",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Guggenheim (analyst not named)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 485.0,
+          "source_prior": 460,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9137501/elv-maintained-by-guggenheim-price-target-raised-to-485",
+          "prior_observed": null,
+          "revision_pct": 5.434782608695654,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "TD Cowen (analyst not named)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-elevance-health-nyse-elv-stock-price-target-raised-at-td-cowen-2026-10-23/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "TD Cowen (analyst not named)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 495.0,
+          "source_prior": 465,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-elevance-health-nyse-elv-stock-price-target-raised-at-td-cowen-2026-10-23/",
+          "prior_observed": null,
+          "revision_pct": 6.451612903225801,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "UBS (analyst not named)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.gurufocus.com/news/9137732/elv-maintained-by-ubs-price-target-raised-to-523",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "UBS (analyst not named)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 523.0,
+          "source_prior": 460,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9137732/elv-maintained-by-ubs-price-target-raised-to-523",
+          "prior_observed": null,
+          "revision_pct": 13.695652173913043,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Wells Fargo (analyst not named)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-positive-forecast-for-elevance-health-nyse-elv-stock-price-2026-10-27/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Wells Fargo (analyst not named)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 492.0,
+          "source_prior": 473,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-positive-forecast-for-elevance-health-nyse-elv-stock-price-2026-10-27/",
+          "prior_observed": null,
+          "revision_pct": 4.016913319238902,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
     }
   },
   "failures": [],
@@ -69135,6 +70533,11 @@
       },
       {
         "symbol": "ACN",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "ADBE",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -69384,6 +70787,11 @@
         "kind": "new"
       },
       {
+        "symbol": "ELV",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "ENB",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -69400,6 +70808,11 @@
       },
       {
         "symbol": "ETN",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "FTNT",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -69475,6 +70888,11 @@
       },
       {
         "symbol": "ICE",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "ING",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -69565,6 +70983,11 @@
       },
       {
         "symbol": "MFG",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "MMM",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -70248,6 +71671,17 @@
         "horizon_months": null
       },
       {
+        "symbol": "MMM",
+        "firm": "Wolfe Research",
+        "analyst": "(unnamed) Wolfe Research",
+        "issued_at": "2026-11-12",
+        "source": "https://fn2.ai/earnings/mmm/analysts",
+        "currency": null,
+        "rating": "Peer Perform",
+        "bucket": "Hold",
+        "prior_rating": null
+      },
+      {
         "symbol": "MA",
         "firm": "Citi",
         "analyst": "Bryan Keane",
@@ -70919,6 +72353,38 @@
         "prior_target": null,
         "direction": null,
         "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ING",
+        "firm": "Goldman Sachs",
+        "analyst": "Chris Hallam",
+        "issued_at": "2026-11-09",
+        "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 42.11,
+        "prior_target": 40.45,
+        "direction": "raise",
+        "revision_pct": 4.103831891223719,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ING",
+        "firm": "Citi",
+        "analyst": "Shrey Srivastava",
+        "issued_at": "2026-11-09",
+        "source": "https://stockanalysis.com/quote/ams/INGA/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 43.1,
+        "prior_target": 39.79,
+        "direction": "raise",
+        "revision_pct": 8.318673033425483,
         "horizon_months": null
       },
       {

@@ -1,0 +1,130 @@
+{
+ "issuer_id": "3M Company",
+ "symbol": "MMM",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 183.66,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-20T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Amit Mehrotra",
+   "firm": "UBS",
+   "field": "target",
+   "value": 230,
+   "horizon_months": null,
+   "issued_at": "2026-11-04",
+   "public_at": "2026-11-04T23:59:59-05:00",
+   "source": "https://fn2.ai/earnings/mmm/analysts"
+  },
+  {
+   "analyst": "Varun Govindaraj",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 197,
+   "horizon_months": null,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://fn2.ai/earnings/mmm/analysts"
+  },
+  {
+   "analyst": "Jeffrey Reive",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 135,
+   "horizon_months": null,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://fn2.ai/earnings/mmm/analysts"
+  },
+  {
+   "analyst": "Chigusa Katoku",
+   "firm": "J.P. Morgan",
+   "field": "target",
+   "value": 191,
+   "horizon_months": null,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://fn2.ai/earnings/mmm/analysts"
+  },
+  {
+   "analyst": "Laurence Alexander",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 186,
+   "horizon_months": null,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://fn2.ai/earnings/mmm/analysts"
+  },
+  {
+   "analyst": "(unnamed) Citigroup",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 188,
+   "horizon_months": null,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://fn2.ai/earnings/mmm/analysts"
+  },
+  {
+   "analyst": "(unnamed) Wolfe Research",
+   "firm": "Wolfe Research",
+   "field": "rating",
+   "value": "Peer Perform",
+   "bucket": "Hold",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-05:00",
+   "source": "https://fn2.ai/earnings/mmm/analysts"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. FY2027 adjusted EPS viewed at the 12-month target date (about Nov 2027) times a justified multiple. Q3 2026 adjusted EPS was $2.50 and FY2026 adjusted EPS guidance was raised to $9.10-$9.15 (release of Oct 20, 2026; new non-GAAP basis excludes intangible amortization). FY2027 EPS is my own assumption (about 9.5% growth on the guidance midpoint from organic growth above 3.5%, margin expansion and buybacks); a consensus FY2027 figure was not sourced. NYSE common stock in USD, so no ADR or FX conversion applies. Dividend per share not sourced.",
+  "bear": 156.4,
+  "base": 200.0,
+  "bull": 243.0,
+  "cases": {
+   "bear": {
+    "driver": "Organic growth stalls near 2% and margin gains fade; multiple de-rates",
+    "assumption": "FY2027 EPS $9.20 at 17x",
+    "target": 156.4
+   },
+   "base": {
+    "driver": "Organic growth above 3.5% and operating margin expansion continue; buybacks add",
+    "assumption": "FY2027 EPS $10.00 at 20x",
+    "target": 200.0
+   },
+   "bull": {
+    "driver": "Growth accelerates, margins beat and the market pays a premium multiple",
+    "assumption": "FY2027 EPS $10.80 at 22.5x",
+    "target": 243.0
+   }
+  },
+  "implied_by_close": "At base EPS of $10.00 the close of $183.66 implies 18.4x; the median named target of $188.50 implies about 18.9x base EPS, or EPS of about $9.43 at 20x.",
+  "sensitivity": "One turn of P/E moves the base target by $10.00 (about 5.4 pp of the close).",
+  "watch_metric": "Adjusted organic sales growth and adjusted operating margin against the above 3.5% growth and FY2026 EPS guidance of $9.10-$9.15.",
+  "next_disclosure": "Q4 and full-year 2026 results with 2027 outlook, expected late January 2027 (date not verified)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Most named targets were reset on Oct 21 after the Q3 beat and guidance raise: Bernstein 197, JPMorgan 191, Citigroup 188, Jefferies 186 and RBC 135, with UBS at 230 on Nov 4 the highest. The median of six targets ($188.50) is about 3% above the close and about 6% below my base $200, a gap of roughly $0.6 of EPS at 20x, so views are close on EPS and differ on the multiple. Wolfe Research downgraded to Peer Perform on Nov 12. Horizons are undocumented, ratings per analyst were not available, and the sample is partial.",
+ "sources": [
+  {
+   "label": "3M 8-K Exhibit 99.1, Q3 2026 results",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000066740/000006674026000308/q32026-8kerexx991.htm",
+   "supports": "Q3 EPS, FY2026 guidance, cash flow"
+  },
+  {
+   "label": "3M Reports Third-Quarter 2026 Results (press release)",
+   "url": "https://www.biospace.com/press-releases/3m-reports-third-quarter-2026-results-raises-full-year-eps-guidance",
+   "supports": "Q3 results, raised guidance"
+  },
+  {
+   "label": "FN2 3M analyst price targets",
+   "url": "https://fn2.ai/earnings/mmm/analysts",
+   "supports": "Named analyst targets and dates, Wolfe downgrade"
+  }
+ ]
+}

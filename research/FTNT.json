@@ -1,0 +1,33 @@
+{
+ "issuer_id": "Fortinet, Inc.",
+ "symbol": "FTNT",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 127.22, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-10-28T16:05:00-04:00",
+ "coverage": "unavailable",
+ "events": [],
+ "valuation": {
+  "method": "Forward EPS x P/E. FY2026 non-GAAP diluted EPS guidance $3.54-$3.58 (midpoint $3.56, 18% tax rate, 741-743M diluted shares) from the Q3 2026 release of Oct 28 2026 is the starting base. At the Nov 2027 12-month target date the market prices FY2028 EPS, so the multiple is applied to FY2028 EPS. USD ordinary share listing, no ADR or FX conversion. FY2027 and FY2028 growth rates are our own assumptions, not company guidance.",
+  "bear": 86.1,
+  "base": 124.2,
+  "bull": 158.4,
+  "cases": {
+   "bear": {"driver": "Service revenue growth keeps disappointing as the firewall refresh cycle fades, revenue growth slows to high single digits and operating margin slips below the 36.5-37.5% FY26 range.", "assumption": "FY2028 EPS $4.10 (about 7% a year on $3.56) at 21x = $86.10 (-32.3% price return)", "target": 86.1},
+   "base": {"driver": "Revenue growth moderates from 20% toward low-teens, non-GAAP operating margin holds near 37%, buybacks keep shares near 740M and EPS compounds about 13% a year.", "assumption": "FY2028 EPS $4.60 at 27x = $124.20 (-2.4% price return)", "target": 124.2},
+   "bull": {"driver": "Product and SASE/secure-networking demand keeps revenue growth in the high teens, service revenue reaccelerates and margins expand, with EPS compounding about 18% a year.", "assumption": "FY2028 EPS $4.95 at 32x = $158.40 (+24.5% price return)", "target": 158.4}
+  },
+  "implied_by_close": "At base FY2028 EPS $4.60 the close of $127.22 implies 27.7x. No individually weighted analyst target is available; the close is 35.7x FY2026 guided EPS of $3.56.",
+  "sensitivity": "One turn of P/E moves the base target by $4.60 (3.6 pp of price return). $0.10 of FY2028 EPS moves it by $2.70 (2.1 pp).",
+  "watch_metric": "Service revenue growth (guided $5.150-5.170bn for FY26) and non-GAAP operating margin against the 35.5-37.5% Q4 guide; both must hold for FY28 EPS near $4.60.",
+  "next_disclosure": "Q4 and full-year 2026 results with FY2027 guidance, expected in February 2027 (date not confirmed in sources read)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "No named analyst calls dated on or before the Nov 13 2026 reference close were verified from primary sources, so coverage is labeled unavailable and no target is weighted. Aggregator reports (MarketBeat, TipRanks) show October-era targets such as Truist $200, Yorkville Ives $225 and JPMorgan $140 (Underweight), set when the stock was near $183; shares then fell sharply after the Oct 28 report on service revenue disappointment, so many targets are likely stale relative to the $127.22 close.",
+ "sources": [
+  {"label": "Fortinet Q3 2026 results release (Oct 28 2026)", "url": "https://finviz.com/news/410526/fortinet-reports-strong-third-quarter-2026-financial-results", "supports": "FY26 and Q4 guidance, EPS, diluted shares, buyback, release time"},
+  {"label": "Fortinet Q2 2026 8-K exhibit 99.1", "url": "https://www.sec.gov/Archives/edgar/data/0001262039/000126203926000018/ftntq2-2026ex991.htm", "supports": "Prior guidance and Q2 base"},
+  {"label": "MarketBeat: JPMorgan lifts Fortinet target", "url": "https://www.marketbeat.com/instant-alerts/price-fortinet-nasdaq-ftnt-shares-up-19-on-analyst-upgrade-2026-10-26/", "supports": "October 2026 analyst targets (not entered as events)"},
+  {"label": "Zacks: Fortinet Q3 earnings beat", "url": "https://www.zacks.com/stock/news/3018782/fortinet-q3-earnings-revenues-beat-estimates-increase-yy", "supports": "Q3 EPS $0.911 and FY26 EPS guide $3.54-3.58"}
+ ]
+}

@@ -22828,9 +22828,85 @@
         "high": 96832228482
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Amit Mehrotra",
+          "firm": "UBS",
+          "field": "target",
+          "value": 230,
+          "horizon_months": null,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts"
+        },
+        {
+          "analyst": "Varun Govindaraj",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 197,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts"
+        },
+        {
+          "analyst": "Jeffrey Reive",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 135,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts"
+        },
+        {
+          "analyst": "Chigusa Katoku",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 191,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts"
+        },
+        {
+          "analyst": "Laurence Alexander",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 186,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 188,
+          "horizon_months": null,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts"
+        },
+        {
+          "analyst": "(unnamed) Wolfe Research",
+          "firm": "Wolfe Research",
+          "field": "rating",
+          "value": "Peer Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://fn2.ai/earnings/mmm/analysts"
+        }
+      ],
+      "earnings_at": "2026-10-20T06:30:00-04:00",
+      "valuation": {
+        "bear": 156.4,
+        "base": 200.0,
+        "bull": 243.0
+      }
     },
     {
       "issuer_id": "Adobe Inc.",
@@ -22844,9 +22920,100 @@
         "high": 96498870720
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Gabriela Borges",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 200,
+          "source_prior": null,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"
+        },
+        {
+          "analyst": "Gabriela Borges",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"
+        },
+        {
+          "analyst": "Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 225,
+          "source_prior": 270,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"
+        },
+        {
+          "analyst": "Wells Fargo analyst",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"
+        },
+        {
+          "analyst": "HSBC analyst",
+          "firm": "HSBC",
+          "field": "target",
+          "value": 267,
+          "source_prior": 310,
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"
+        },
+        {
+          "analyst": "HSBC analyst",
+          "firm": "HSBC",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-13",
+          "public_at": "2026-10-13T23:59:59-04:00",
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"
+        },
+        {
+          "analyst": "TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 245,
+          "source_prior": null,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"
+        },
+        {
+          "analyst": "Citi analyst",
+          "firm": "Citi",
+          "field": "target",
+          "value": 207,
+          "source_prior": 250,
+          "issued_at": "2026-11-04",
+          "public_at": "2026-11-04T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"
+        }
+      ],
+      "earnings_at": null,
+      "valuation": {
+        "bear": 191.0,
+        "base": 271.0,
+        "bull": 372.0
+      }
     },
     {
       "issuer_id": "ING Groep N.V.",
@@ -22860,9 +23027,183 @@
         "high": 98376964459
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Chris Hallam",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 42.11,
+          "source_prior": 40.45,
+          "horizon_months": null,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Chris Hallam",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Shrey Srivastava",
+          "firm": "Citi",
+          "field": "target",
+          "value": 43.1,
+          "source_prior": 39.79,
+          "horizon_months": null,
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Shrey Srivastava",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-09",
+          "public_at": "2026-11-09T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Delphine Lee",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 43.54,
+          "source_prior": 42.55,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Delphine Lee",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Benjamin Goy",
+          "firm": "Deutsche Bank",
+          "field": "target",
+          "value": 38.68,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Benjamin Goy",
+          "firm": "Deutsche Bank",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Namita Samtani",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 38.68,
+          "source_prior": 37.69,
+          "horizon_months": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Namita Samtani",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Theo Massing",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 34.26,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Theo Massing",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Tarik El Mejjad",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 33.71,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Tarik El Mejjad",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Johan Ekblom",
+          "firm": "UBS",
+          "field": "target",
+          "value": 42.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        },
+        {
+          "analyst": "Johan Ekblom",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-29",
+          "public_at": "2026-10-29T23:59:59+01:00",
+          "source": "https://stockanalysis.com/quote/ams/INGA/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-29T07:00:00+01:00",
+      "valuation": {
+        "bear": 24.87,
+        "base": 35.26,
+        "bull": 42.83
+      }
     },
     {
       "issuer_id": "Fortinet, Inc.",
@@ -22876,9 +23217,14 @@
         "high": 95339168715
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-10-28T16:05:00-04:00",
+      "valuation": {
+        "bear": 86.1,
+        "base": 124.2,
+        "bull": 158.4
+      }
     },
     {
       "issuer_id": "Elevance Health, Inc.",
@@ -22892,9 +23238,142 @@
         "high": 94713630851
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Ben Hendrix",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 455,
+          "source_prior": 424,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9137264/elv-maintained-by-rbc-capital-price-target-raised-to-455"
+        },
+        {
+          "analyst": "Ben Hendrix",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.gurufocus.com/news/9137264/elv-maintained-by-rbc-capital-price-target-raised-to-455"
+        },
+        {
+          "analyst": "Baird (analyst not named)",
+          "firm": "Baird",
+          "field": "target",
+          "value": 406,
+          "source_prior": 393,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-robert-w-baird-forecasts-strong-price-appreciation-for-elevance-health-nyse-elv-stock-2026-10-22/"
+        },
+        {
+          "analyst": "Baird (analyst not named)",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-robert-w-baird-forecasts-strong-price-appreciation-for-elevance-health-nyse-elv-stock-2026-10-22/"
+        },
+        {
+          "analyst": "UBS (analyst not named)",
+          "firm": "UBS",
+          "field": "target",
+          "value": 523,
+          "source_prior": 460,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9137732/elv-maintained-by-ubs-price-target-raised-to-523"
+        },
+        {
+          "analyst": "UBS (analyst not named)",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.gurufocus.com/news/9137732/elv-maintained-by-ubs-price-target-raised-to-523"
+        },
+        {
+          "analyst": "Guggenheim (analyst not named)",
+          "firm": "Guggenheim",
+          "field": "target",
+          "value": 485,
+          "source_prior": 460,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.gurufocus.com/news/9137501/elv-maintained-by-guggenheim-price-target-raised-to-485"
+        },
+        {
+          "analyst": "Guggenheim (analyst not named)",
+          "firm": "Guggenheim",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.gurufocus.com/news/9137501/elv-maintained-by-guggenheim-price-target-raised-to-485"
+        },
+        {
+          "analyst": "TD Cowen (analyst not named)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 495,
+          "source_prior": 465,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-elevance-health-nyse-elv-stock-price-target-raised-at-td-cowen-2026-10-23/"
+        },
+        {
+          "analyst": "TD Cowen (analyst not named)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-elevance-health-nyse-elv-stock-price-target-raised-at-td-cowen-2026-10-23/"
+        },
+        {
+          "analyst": "Wells Fargo (analyst not named)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 492,
+          "source_prior": 473,
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-positive-forecast-for-elevance-health-nyse-elv-stock-price-2026-10-27/"
+        },
+        {
+          "analyst": "Wells Fargo (analyst not named)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-27",
+          "public_at": "2026-10-27T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-wells-fargo-company-issues-positive-forecast-for-elevance-health-nyse-elv-stock-price-2026-10-27/"
+        }
+      ],
+      "earnings_at": "2026-10-21T06:00:00-04:00",
+      "valuation": {
+        "bear": 322.0,
+        "base": 420.0,
+        "bull": 496.0
+      },
+      "dividend_per_share": 6.88
     },
     {
       "issuer_id": "The PNC Financial Services Group, Inc.",

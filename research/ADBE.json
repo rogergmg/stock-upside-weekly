@@ -1,0 +1,42 @@
+{
+  "issuer_id": "Adobe Inc.",
+  "symbol": "ADBE",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 243.08, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": null,
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Gabriela Borges", "firm": "Goldman Sachs", "field": "target", "value": 200, "source_prior": null, "issued_at": "2026-10-02", "public_at": "2026-10-02T23:59:59-04:00", "horizon_months": null, "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"},
+    {"analyst": "Gabriela Borges", "firm": "Goldman Sachs", "field": "rating", "value": "Sell", "bucket": "Sell", "issued_at": "2026-10-02", "public_at": "2026-10-02T23:59:59-04:00", "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"},
+    {"analyst": "Wells Fargo analyst", "firm": "Wells Fargo", "field": "target", "value": 225, "source_prior": 270, "issued_at": "2026-10-12", "public_at": "2026-10-12T23:59:59-04:00", "horizon_months": null, "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"},
+    {"analyst": "Wells Fargo analyst", "firm": "Wells Fargo", "field": "rating", "value": "Sell", "bucket": "Sell", "issued_at": "2026-10-12", "public_at": "2026-10-12T23:59:59-04:00", "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"},
+    {"analyst": "HSBC analyst", "firm": "HSBC", "field": "target", "value": 267, "source_prior": 310, "issued_at": "2026-10-13", "public_at": "2026-10-13T23:59:59-04:00", "horizon_months": null, "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"},
+    {"analyst": "HSBC analyst", "firm": "HSBC", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-10-13", "public_at": "2026-10-13T23:59:59-04:00", "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"},
+    {"analyst": "TD Cowen analyst", "firm": "TD Cowen", "field": "target", "value": 245, "source_prior": null, "issued_at": "2026-10-02", "public_at": "2026-10-02T23:59:59-04:00", "horizon_months": null, "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"},
+    {"analyst": "Citi analyst", "firm": "Citi", "field": "target", "value": 207, "source_prior": 250, "issued_at": "2026-11-04", "public_at": "2026-11-04T23:59:59-05:00", "horizon_months": null, "source": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E, with the forward period viewed at the 12-month target date (Nov 2027) taken as FY2028 non-GAAP diluted EPS. Anchor: FY2026 non-GAAP EPS guidance of $24.45-$24.50 (raised with Q3 results, about 400M diluted shares, about 45% non-GAAP operating margin); Street FY2027 EPS about $27.43. Scenario FY2028 EPS is my own assumption: bear $25.50 (growth stalls, AI disruption of seat-based creative software), base $28.50, bull $31.00 (buybacks plus AI-first ARR growth). Per share of the USD Nasdaq listing; no ADR or FX conversion applies.",
+    "bear": 191.0,
+    "base": 271.0,
+    "bull": 372.0,
+    "cases": {
+      "bear": {"driver": "Revenue growth fades and AI-native competitors compress pricing, so the market keeps a trough multiple", "assumption": "FY28 EPS $25.50 at 7.5x", "target": 191.0},
+      "base": {"driver": "Revenue grows about 10-11% as guided (Q3 revenue $6.76B, +13%), margin holds near 45%, buybacks offset dilution", "assumption": "FY28 EPS $28.50 at 9.5x", "target": 271.0},
+      "bull": {"driver": "AI-first ARR (up 150%) scales, new CEO from 1 Dec keeps margins and the multiple re-rates toward large-cap software", "assumption": "FY28 EPS $31.00 at 12x", "target": 372.0}
+    },
+    "implied_by_close": "At FY2026 guided EPS of about $24.48 the close of $243.08 implies 9.9x; at base FY2028 EPS of $28.50 it implies 8.5x. The Oct-Nov named targets average about $229 (range $200-$267), which is 8.0x base FY2028 EPS, or EPS of $24.1 at 9.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $28.50 (10.5% of the $271 base, 11.7% of the close).",
+    "watch_metric": "Total Adobe ARR growth and non-GAAP operating margin against the 44% Q4 guide, plus FY2027 EPS guidance versus the Street $27.43.",
+    "next_disclosure": "Q4 FY2026 results and FY2027 guidance, expected in December 2026."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Named-firm targets reset lower in Oct-Nov 2026: Goldman $200 (Sell), Wells Fargo $225 from $270 (downgrade to Sell), HSBC $267 from $310 (downgrade to Hold), TD Cowen $245 and Citi $207 from $250. Only Goldman's analyst (Gabriela Borges) is named in found sources; others are labeled by firm and none has a documented 12-month horizon, so none enters the weighted target. These targets sit about 15% below the base case, equivalent to base EPS near $24 at 9.5x rather than $28.50; the gap is mainly a multiple and growth-durability disagreement. The sample is thin and partly from an aggregator.",
+  "sources": [
+    {"label": "TIKR Adobe analyst price targets, Oct-Nov 2026", "url": "https://www.tikr.com/blog/adobe-adbe-stock-analyst-price-targets-october-adbe", "supports": "firm targets, ratings and dates"},
+    {"label": "Adobe Q3 FY2026 earnings call highlights, Nasdaq", "url": "https://www.nasdaq.com/articles/adobe-q3-earnings-call-highlights", "supports": "FY2026 EPS and revenue guidance, ARR"},
+    {"label": "Adobe Q3 FY2026 results, AI Weekly", "url": "https://aiweekly.co/alerts/adobe-q3-revenue-rises-13-to-676b-ai-first-arr-up-150", "supports": "Q3 revenue, Q4 guidance"},
+    {"label": "Adobe Q3 FY2026 earnings call, Zacks", "url": "https://www.zacks.com/stock/news/2988442/adobe-q3-earnings-call-centers-on-agentic-ai-and-freemium", "supports": "Q4 margin assumption"}
+  ]
+}

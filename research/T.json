@@ -1,0 +1,248 @@
+{
+ "issuer_id": "AT&T Inc.",
+ "symbol": "T",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 22.18,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-21T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Argus analyst (unnamed)",
+   "firm": "Argus",
+   "field": "target",
+   "value": 30,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+  },
+  {
+   "analyst": "Argus analyst (unnamed)",
+   "firm": "Argus",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+  },
+  {
+   "analyst": "KeyBanc analyst (unnamed)",
+   "firm": "KeyCorp",
+   "field": "target",
+   "value": 33,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+   "source_prior": 36
+  },
+  {
+   "analyst": "KeyBanc analyst (unnamed)",
+   "firm": "KeyCorp",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+  },
+  {
+   "analyst": "Goldman Sachs analyst (unnamed)",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 27,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+   "source_prior": 30
+  },
+  {
+   "analyst": "Scotiabank analyst (unnamed)",
+   "firm": "Scotiabank",
+   "field": "target",
+   "value": 26.5,
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+   "source_prior": 27.5
+  },
+  {
+   "analyst": "Scotiabank analyst (unnamed)",
+   "firm": "Scotiabank",
+   "field": "rating",
+   "value": "Sector Perform",
+   "bucket": "Hold",
+   "issued_at": "2026-10-09",
+   "public_at": "2026-10-09T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+  },
+  {
+   "analyst": "Morgan Stanley analyst (unnamed)",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 25,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+   "source_prior": 28
+  },
+  {
+   "analyst": "Morgan Stanley analyst (unnamed)",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+  },
+  {
+   "analyst": "RBC analyst (unnamed)",
+   "firm": "Royal Bank of Canada",
+   "field": "target",
+   "value": 27,
+   "issued_at": "2026-07-20",
+   "public_at": "2026-07-20T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+   "source_prior": 31
+  },
+  {
+   "analyst": "RBC analyst (unnamed)",
+   "firm": "Royal Bank of Canada",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-07-20",
+   "public_at": "2026-07-20T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+  },
+  {
+   "analyst": "Barclays analyst (unnamed)",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 21,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/",
+   "source_prior": 24
+  },
+  {
+   "analyst": "Barclays analyst (unnamed)",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/"
+  },
+  {
+   "analyst": "JPMorgan analyst (unnamed)",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 31,
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/",
+   "source_prior": 33
+  },
+  {
+   "analyst": "JPMorgan analyst (unnamed)",
+   "firm": "JPMorgan",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-23",
+   "public_at": "2026-10-23T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/"
+  },
+  {
+   "analyst": "TD Cowen analyst (unnamed)",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 33,
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-att-nyse-t-given-hold-rating-at-td-cowen-2026-10-22/",
+   "source_prior": 33
+  },
+  {
+   "analyst": "TD Cowen analyst (unnamed)",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-22",
+   "public_at": "2026-10-22T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-att-nyse-t-given-hold-rating-at-td-cowen-2026-10-22/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward adjusted EPS x P/E, FY2027 EPS viewed at the 12-month target date (Nov 2027). FY2026 adjusted EPS guidance raised to about $2.40 in the Q3 release of 21 Oct 2026 (largely lower depreciation tied to the planned Mexico wireless sale); FY2026 FCF at least $18B, FY2027 FCF at least $19B. FY2027 EPS of $2.50 is a model assumption (no company 2027 EPS guide). USD NYSE listing, no FX. Multiples are model assumptions.",
+  "bear": 19.98,
+  "base": 26.25,
+  "bull": 31.8,
+  "cases": {
+   "bear": {
+    "driver": "Wireless and fiber competition and Mexico-sale dilution cap EPS growth; multiple stays at the depressed post-earnings level",
+    "assumption": "EPS $2.35 at 8.5x",
+    "target": 19.98
+   },
+   "base": {
+    "driver": "Guide delivered, fiber and convergence growth, buybacks lift EPS modestly; FCF of $19B+ in 2027 supports a partial re-rating",
+    "assumption": "EPS $2.50 at 10.5x",
+    "target": 26.25
+   },
+   "bull": {
+    "driver": "Faster fiber penetration and cost savings; market pays a cash-flow-compounder multiple",
+    "assumption": "EPS $2.65 at 12.0x",
+    "target": 31.8
+   }
+  },
+  "implied_by_close": "At 2026 guidance of $2.40 the close of $22.18 implies 9.2x; at base FY2027 EPS of $2.50 it implies 8.9x. A weighted analyst target near $28 implies about 11.2x on $2.50.",
+  "sensitivity": "One turn of P/E moves the base target by $2.50 (about 11.3 pp of the close). A $0.10 change in EPS at 10.5x moves it by $1.05 (about 4.7 pp).",
+  "watch_metric": "Postpaid phone net adds and fiber net adds, plus FY2027 adjusted EPS guidance; guidance below about $2.40 would break the base case.",
+  "next_disclosure": "Q4 2026 earnings and 2027 guidance, expected late January 2027 (date not confirmed)."
+ },
+ "dividend_per_share": 1.11,
+ "analyst_notes": "Most named firms trimmed targets after the 21 Oct Q3 print and 6%+ share drop while keeping ratings (Barclays 24 to 21, JPMorgan 33 to 31, KeyBanc 36 to 33, Morgan Stanley 28 to 25). The sample is mostly unnamed analysts with undocumented horizons, so it is excluded from the weighted target; the spread is $21-$33, and the TD Cowen $33 dates from reaffirmation. Targets near $28 versus the $26.25 base imply roughly 0.7 turns more P/E on the same EPS. Sourced from MarketBeat aggregator reports, not broker notes.",
+ "sources": [
+  {
+   "label": "MarketBeat Argus/KeyCorp/Goldman/Morgan Stanley",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+   "supports": "targets and ratings"
+  },
+  {
+   "label": "MarketBeat TD Cowen",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-att-nyse-t-given-hold-rating-at-td-cowen-2026-10-22/",
+   "supports": "TD Cowen hold $33"
+  },
+  {
+   "label": "MarketBeat JPMorgan/Barclays",
+   "url": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/",
+   "supports": "JPM and Barclays targets"
+  },
+  {
+   "label": "MarketBeat Scotiabank",
+   "url": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-shares-gap-down-on-analyst-downgrade-2026-10-09/",
+   "supports": "Scotiabank target"
+  },
+  {
+   "label": "TIKR Q3 2026 summary",
+   "url": "https://www.tikr.com/blog/att-stock-falls-q3-earnings-beat-raised-full-year-guidance",
+   "supports": "EPS guidance, FCF, dividend $1.11"
+  }
+ ]
+}

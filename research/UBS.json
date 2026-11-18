@@ -1,0 +1,38 @@
+{
+  "issuer_id": "UBS Group AG",
+  "symbol": "UBS",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 48.31, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": null,
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Joseph Dickerson", "firm": "Jefferies", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-06-18", "public_at": "2026-06-18T23:59:59+02:00",
+     "source": "https://www.swissinfo.ch/eng/ubss-big-stock-rally-has-much-further-to-run%2C-jefferies-says/91610067"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E on the NYSE listing. The NYSE-listed security is the UBS Group AG ordinary share (ADR ratio 1:1, no ratio conversion), and UBS reports in USD, so no FX conversion is needed. A bank, so P/TBV is the cross-check: tangible book value per share was $27.00 at 30 Sept 2026 (3Q26 release). EPS basis: 9M26 diluted EPS of $2.66 (3Q26 $0.85, net profit $2,690m, implying about 3.16bn diluted shares, our arithmetic) plus an assumed 4Q26 of about $0.85 gives FY26 about $3.50 (our estimate). Targets use FY2027 EPS viewed at the 12-month target date (Nov 2027).",
+    "bear": 36.3,
+    "base": 50.7,
+    "bull": 65.25,
+    "cases": {
+      "bear": {"driver": "Swiss capital rules on foreign subsidiaries force extra CET1 or curb buybacks, investment banking normalises and integration costs persist; EPS falls below the FY26 run-rate and the multiple de-rates", "assumption": "EPS $3.30 at 11x (about 1.3x TBV on roughly $28 TBV)", "target": 36.3},
+      "base": {"driver": "Cost savings reach about $13.7bn gross by end-2026 (company target), underlying RoCET1 stays above the ~15% exit-rate target, buybacks continue at a ~14% CET1 ratio; EPS grows about 11% from FY26", "assumption": "EPS $3.90 at 13x (about 1.7x TBV on roughly $30 TBV)", "target": 50.7},
+      "bull": {"driver": "Capital rules settle benignly, wealth management and investment banking outperform and capital returns step up; EPS about 29% above FY26 and the multiple re-rates", "assumption": "EPS $4.50 at 14.5x", "target": 65.25}
+    },
+    "implied_by_close": "At base EPS of $3.90 the close of $48.31 implies about 12.4x FY2027 EPS, or about 1.8x reported TBV of $27.00. The few aggregator consensus snapshots found (Yahoo Finance average about $55 on Oct 22; MarketBeat $60.30 in May, possibly stale) imply about 14x to 15.5x our base EPS or EPS of about $4.2 to $4.6 at 13x.",
+    "sensitivity": "One turn of P/E moves the base target by $3.90 (about 8.1 percentage points of price return on the close). A $0.10 change in FY2027 EPS moves it by $1.30 (about 2.7 pp).",
+    "watch_metric": "Underlying RoCET1 versus the ~15% exit-rate target and the CET1 ratio versus ~14%, together with the Swiss Parliament outcome on capitalising foreign subsidiaries, which sets buyback capacity.",
+    "next_disclosure": "4Q26 and FY2026 results in February 2027 (exact date not confirmed in sources reviewed), where UBS will give its 2027 capital return ambitions."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Only one named, dated call on UBS could be verified: Joseph Dickerson (Jefferies) reiterated Buy on 2026-06-18 with a CHF 60 target (not entered because it is in CHF and its horizon is undocumented). Firm-level actions seen only on aggregator pages without a named analyst (Barclays upgrade to Equal-Weight on 2026-04-20, Morgan Stanley Underweight and Citigroup Neutral reaffirmed in July 2026, KBW downgrade to a moderate sell) are excluded. No named target on the USD listing was found, and the Q3 earnings release was on 2026-10-28; the earnings_at time was not verified, so it is null.",
+  "sources": [
+    {"label": "UBS 3Q26 results release (via Ariva)", "url": "https://www.ariva.de/news/ubs-reports-3q26-net-profit-of-usd-2-7bn-and-14-8-rocet1-12184211", "supports": "EPS, TBV per share, CET1, buyback, targets"},
+    {"label": "UBS quarterly reporting", "url": "https://www.ubs.com/quarterlyreporting", "supports": "Company results and reporting calendar"},
+    {"label": "Bloomberg via Swissinfo: Jefferies on UBS", "url": "https://www.swissinfo.ch/eng/ubss-big-stock-rally-has-much-further-to-run%2C-jefferies-says/91610067", "supports": "Dickerson Buy rating, CHF 60 target"},
+    {"label": "MarketBeat: Barclays upgrade of UBS", "url": "https://www.marketbeat.com/instant-alerts/ubs-group-nyseubs-stock-rating-upgraded-by-barclays-2026-04-20/", "supports": "Firm-level analyst action context"},
+    {"label": "Yahoo Finance UBS analysts", "url": "https://finance.yahoo.com/quote/ubs/analysts", "supports": "Consensus target snapshot"}
+  ]
+}

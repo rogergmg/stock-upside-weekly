@@ -1,0 +1,275 @@
+{
+ "issuer_id": "Accenture plc",
+ "symbol": "ACN",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 250.49,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-01T06:45:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "James Schneider",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 260,
+   "source_prior": 230,
+   "issued_at": "2026-10-01",
+   "public_at": "2026-10-01T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "James Schneider",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-01",
+   "public_at": "2026-10-01T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Jason Kupferberg",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 210,
+   "source_prior": 194,
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Jason Kupferberg",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 252,
+   "source_prior": 210,
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Jason Kupferberg",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-26",
+   "public_at": "2026-10-26T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "David Koning",
+   "firm": "Baird",
+   "field": "target",
+   "value": 252,
+   "source_prior": 245,
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "David Koning",
+   "firm": "Baird",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-21",
+   "public_at": "2026-10-21T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Kevin McVeigh",
+   "firm": "UBS",
+   "field": "target",
+   "value": 278,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Kevin McVeigh",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-30",
+   "public_at": "2026-09-30T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Bryan Bergin",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 201,
+   "source_prior": 193,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Bryan Bergin",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "James Friedman",
+   "firm": "Susquehanna",
+   "field": "target",
+   "value": 230,
+   "source_prior": 210,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "James Friedman",
+   "firm": "Susquehanna",
+   "field": "rating",
+   "value": "Neutral",
+   "bucket": "Hold",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "David Grossman",
+   "firm": "Stifel",
+   "field": "target",
+   "value": 242,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Dan Dolev",
+   "firm": "Mizuho",
+   "field": "target",
+   "value": 241,
+   "source_prior": 226,
+   "issued_at": "2026-10-06",
+   "public_at": "2026-10-06T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-accenture-nyse-acn-price-target-raised-to-19500-2026-10-02/"
+  },
+  {
+   "analyst": "Dan Dolev",
+   "firm": "Mizuho",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-06",
+   "public_at": "2026-10-06T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Keith Bachman",
+   "firm": "BMO Capital Markets",
+   "field": "target",
+   "value": 235,
+   "source_prior": 200,
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "David Paige",
+   "firm": "RBC",
+   "field": "target",
+   "value": 240,
+   "source_prior": 195,
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "David Paige",
+   "firm": "RBC",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-10-02",
+   "public_at": "2026-10-02T23:59:59-04:00",
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  },
+  {
+   "analyst": "Tien-Tsin Huang",
+   "firm": "JPMorgan",
+   "field": "target",
+   "value": 200,
+   "source_prior": 179,
+   "issued_at": "2026-09-25",
+   "public_at": "2026-09-25T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.pricetargets.com/NYSE/ACN"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2028 (Sep 2027 to Aug 2028) diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD NYSE listing, no ADR conversion. Anchor: FY2026 adjusted diluted EPS $13.97 (+8%), FY2027 guidance $14.39-$14.81 (midpoint $14.60; 24.5-26.5% tax, 15.9-16.1% operating margin, 3-6% local-currency revenue growth, at least $9.5B capital return). FY2028 EPS is my assumption: about +5.5% on the FY2027 midpoint from mid-single-digit revenue growth, flat margin and buybacks of roughly 2%. Q4 FY26 weighted diluted shares 605.3M; about 596M outstanding at Aug 31, 2026.",
+  "bear": 193.05,
+  "base": 261.8,
+  "bull": 319.8,
+  "cases": {
+   "bear": {
+    "driver": "AI-driven pricing pressure and weaker discretionary consulting hold revenue growth near the 3% low end, margin slips and EPS stalls; the multiple de-rates toward the mid-2026 trough.",
+    "assumption": "FY2028 EPS $14.30 at 13.5x",
+    "target": 193.05
+   },
+   "base": {
+    "driver": "Revenue grows about 4.5% in local currency with the guided 16.0% operating margin, Managed Services bookings ($12.77B in Q4, book-to-bill 1.2 for the quarter) support growth, and buybacks add about 2% to EPS.",
+    "assumption": "FY2028 EPS $15.40 at 17x",
+    "target": 261.8
+   },
+   "bull": {
+    "driver": "GenAI work converts bookings into 6%+ revenue growth with margin expansion of 30-50bp and larger buybacks; the market re-rates toward its pre-2026 range.",
+    "assumption": "FY2028 EPS $16.40 at 19.5x",
+    "target": 319.8
+   }
+  },
+  "implied_by_close": "At base EPS the $250.49 close implies 16.3x FY2028 EPS (17.2x the FY2027 guidance midpoint of $14.60). The simple mean of the named post-earnings targets (about $239, none with a documented 12-month horizon, so not a weighted target) implies about 15.5x base EPS, or $14.10 of EPS at 17x.",
+  "sensitivity": "One turn of P/E moves the base target by $15.40 (about 6.1% of the close); $0.50 of FY2028 EPS moves it by about $8.50 at 17x.",
+  "watch_metric": "New bookings and Consulting bookings growth (Q4: $22.2B total, $9.40B Consulting) together with local-currency revenue growth against the 3-6% FY2027 range.",
+  "next_disclosure": "Q1 FY2027 results (quarter ending Nov 30, 2026), expected in December 2026; the exact date is not sourced here."
+ },
+ "dividend_per_share": 6.84,
+ "analyst_notes": "Since the Oct 1 FY2026 results and FY2027 guidance, named targets moved up sharply from the June to September lows: RBC 175 to 240, Goldman 230 to 260, Susquehanna 210 to 230, Wells Fargo 194 to 210 then 252, while Baird downgraded to Neutral on Oct 21 with a $252 target. Named targets span $200 to $278, a median near $240, mostly below the $261.80 base; the gap to the base is roughly 1 turn of P/E or about $1.30 of FY2028 EPS at 17x. No call documents a 12-month horizon so none enters a weighted target; the list is a subset from an aggregator and unnamed or ambiguous rows were left out.",
+ "sources": [
+  {
+   "label": "Accenture Q4 and FY2026 8-K earnings exhibit",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001467373/000146737326000037/q4fy26earnings8-kexhibit.htm",
+   "supports": "FY26 adjusted EPS $13.97, FY27 outlook, share counts, dividend $1.71 declared, bookings"
+  },
+  {
+   "label": "Accenture Q4 FY2026 results press release",
+   "url": "https://finviz.com/news/397511/accenture-reports-fourth-quarter-and-full-year-fiscal-2026-results",
+   "supports": "Release on Oct 1, 2026, revenue, EPS, FY27 guidance"
+  },
+  {
+   "label": "PriceTargets.com ACN analyst actions",
+   "url": "https://www.pricetargets.com/NYSE/ACN",
+   "supports": "Named analyst, firm, rating and prior/new targets Sep to Oct 2026"
+  },
+  {
+   "label": "MarketBeat Mizuho ACN target note",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-accenture-nyse-acn-price-target-raised-to-19500-2026-10-02/",
+   "supports": "Mizuho 226 to 241 Outperform, Oct 2026 target changes"
+  }
+ ]
+}

@@ -12375,9 +12375,37 @@
         "high": 162768195621
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "David Dai",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 26,
+          "source_prior": 23,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/bernstein-raises-sony-stock-price-target-to-26-on-yen-weakness-93CH-5004193"
+        },
+        {
+          "analyst": "David Dai",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Market Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.investing.com/news/analyst-ratings/bernstein-raises-sony-stock-price-target-to-26-on-yen-weakness-93CH-5004193"
+        }
+      ],
+      "earnings_at": null,
+      "valuation": {
+        "bear": 18.75,
+        "base": 29.93,
+        "bull": 39.19
+      },
+      "dividend_per_share": 0.22
     },
     {
       "issuer_id": "Sumitomo Mitsui Financial Group, Inc.",
@@ -12455,9 +12483,194 @@
         "high": 152437636373
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Argus analyst (unnamed)",
+          "firm": "Argus",
+          "field": "target",
+          "value": 30,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+        },
+        {
+          "analyst": "Argus analyst (unnamed)",
+          "firm": "Argus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+        },
+        {
+          "analyst": "KeyBanc analyst (unnamed)",
+          "firm": "KeyCorp",
+          "field": "target",
+          "value": 33,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+          "source_prior": 36
+        },
+        {
+          "analyst": "KeyBanc analyst (unnamed)",
+          "firm": "KeyCorp",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+        },
+        {
+          "analyst": "Goldman Sachs analyst (unnamed)",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 27,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+          "source_prior": 30
+        },
+        {
+          "analyst": "Scotiabank analyst (unnamed)",
+          "firm": "Scotiabank",
+          "field": "target",
+          "value": 26.5,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+          "source_prior": 27.5
+        },
+        {
+          "analyst": "Scotiabank analyst (unnamed)",
+          "firm": "Scotiabank",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 25,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+          "source_prior": 28
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+        },
+        {
+          "analyst": "RBC analyst (unnamed)",
+          "firm": "Royal Bank of Canada",
+          "field": "target",
+          "value": 27,
+          "issued_at": "2026-07-20",
+          "public_at": "2026-07-20T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/",
+          "source_prior": 31
+        },
+        {
+          "analyst": "RBC analyst (unnamed)",
+          "firm": "Royal Bank of Canada",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-20",
+          "public_at": "2026-07-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-argus-reaffirms-buy-rating-for-att-nyse-t-2026-10-22/"
+        },
+        {
+          "analyst": "Barclays analyst (unnamed)",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 21,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/",
+          "source_prior": 24
+        },
+        {
+          "analyst": "Barclays analyst (unnamed)",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/"
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 31,
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/",
+          "source_prior": 33
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-23",
+          "public_at": "2026-10-23T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/price-att-nyse-t-stock-falls-78-after-analyst-downgrade-2026-10-23/"
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 33,
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-att-nyse-t-given-hold-rating-at-td-cowen-2026-10-22/",
+          "source_prior": 33
+        },
+        {
+          "analyst": "TD Cowen analyst (unnamed)",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-22",
+          "public_at": "2026-10-22T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-att-nyse-t-given-hold-rating-at-td-cowen-2026-10-22/"
+        }
+      ],
+      "earnings_at": "2026-10-21T06:30:00-04:00",
+      "valuation": {
+        "bear": 19.98,
+        "base": 26.25,
+        "bull": 31.8
+      },
+      "dividend_per_share": 1.11
     },
     {
       "issuer_id": "Accenture plc",
@@ -12471,9 +12684,226 @@
         "high": 170988143714
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "James Schneider",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 260,
+          "source_prior": 230,
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "James Schneider",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-01",
+          "public_at": "2026-10-01T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Jason Kupferberg",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 210,
+          "source_prior": 194,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Jason Kupferberg",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 252,
+          "source_prior": 210,
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Jason Kupferberg",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-26",
+          "public_at": "2026-10-26T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "David Koning",
+          "firm": "Baird",
+          "field": "target",
+          "value": 252,
+          "source_prior": 245,
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "David Koning",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Kevin McVeigh",
+          "firm": "UBS",
+          "field": "target",
+          "value": 278,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Kevin McVeigh",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Bryan Bergin",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 201,
+          "source_prior": 193,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Bryan Bergin",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "James Friedman",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 230,
+          "source_prior": 210,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "James Friedman",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "David Grossman",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 242,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Dan Dolev",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 241,
+          "source_prior": 226,
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-accenture-nyse-acn-price-target-raised-to-19500-2026-10-02/"
+        },
+        {
+          "analyst": "Dan Dolev",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-06",
+          "public_at": "2026-10-06T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Keith Bachman",
+          "firm": "BMO Capital Markets",
+          "field": "target",
+          "value": 235,
+          "source_prior": 200,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "David Paige",
+          "firm": "RBC",
+          "field": "target",
+          "value": 240,
+          "source_prior": 195,
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "David Paige",
+          "firm": "RBC",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-10-02",
+          "public_at": "2026-10-02T23:59:59-04:00",
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        },
+        {
+          "analyst": "Tien-Tsin Huang",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 200,
+          "source_prior": 179,
+          "issued_at": "2026-09-25",
+          "public_at": "2026-09-25T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.pricetargets.com/NYSE/ACN"
+        }
+      ],
+      "earnings_at": "2026-10-01T06:45:00-04:00",
+      "valuation": {
+        "bear": 193.05,
+        "base": 261.8,
+        "bull": 319.8
+      },
+      "dividend_per_share": 6.84
     },
     {
       "issuer_id": "The TJX Companies, Inc.",
@@ -12487,9 +12917,149 @@
         "high": 150776414471
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "(unnamed) JPMorgan",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 171,
+          "source_prior": 168,
+          "horizon_months": null,
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) JPMorgan",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Evercore ISI",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 173,
+          "source_prior": 175,
+          "horizon_months": null,
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Evercore ISI",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 188,
+          "source_prior": 190,
+          "horizon_months": null,
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Barclays",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) BTIG",
+          "firm": "BTIG",
+          "field": "target",
+          "value": 190,
+          "horizon_months": null,
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) BTIG",
+          "firm": "BTIG",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 154,
+          "source_prior": 182,
+          "horizon_months": null,
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Citigroup",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 178,
+          "horizon_months": null,
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Morgan Stanley",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-20",
+          "public_at": "2026-08-20T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        },
+        {
+          "analyst": "(unnamed) Wolfe Research",
+          "firm": "Wolfe Research",
+          "field": "rating",
+          "value": "Peer Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-21",
+          "public_at": "2026-10-21T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-tjx-companies-nyse-tjx-stock-price-2026-11-16/"
+        }
+      ],
+      "earnings_at": "2026-08-19T06:30:00-04:00",
+      "valuation": {
+        "bear": 111.3,
+        "base": 140.0,
+        "bull": 163.8
+      }
     },
     {
       "issuer_id": "UBS Group AG",
@@ -12503,9 +13073,25 @@
         "high": 152957151549
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Joseph Dickerson",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-06-18",
+          "public_at": "2026-06-18T23:59:59+02:00",
+          "source": "https://www.swissinfo.ch/eng/ubss-big-stock-rally-has-much-further-to-run%2C-jefferies-says/91610067"
+        }
+      ],
+      "earnings_at": null,
+      "valuation": {
+        "bear": 36.3,
+        "base": 50.7,
+        "bull": 65.25
+      }
     },
     {
       "issuer_id": "Chubb Limited",

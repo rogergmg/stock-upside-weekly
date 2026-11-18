@@ -1,0 +1,39 @@
+{
+  "issuer_id": "Sony Group Corporation",
+  "symbol": "SONY",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 27.07, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": null,
+  "coverage": "partial",
+  "events": [
+    {"analyst": "David Dai", "firm": "Bernstein", "field": "target", "value": 26, "source_prior": 23,
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null,
+     "source": "https://www.investing.com/news/analyst-ratings/bernstein-raises-sony-stock-price-target-to-26-on-yen-weakness-93CH-5004193"},
+    {"analyst": "David Dai", "firm": "Bernstein", "field": "rating", "value": "Market Perform", "bucket": "Hold",
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00",
+     "source": "https://www.investing.com/news/analyst-ratings/bernstein-raises-sony-stock-price-target-to-26-on-yen-weakness-93CH-5004193"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E on the Tokyo ordinary share (ADR ratio 1 ADR = 1 ordinary share). FY2027 (year to Mar 2028) EPS viewed at the Nov 2027 target date, converted at 160 JPY/USD (USD/JPY about 160 on 13 Nov 2026 per MUFG Research). Shares about 5.84B (roic.ai, 30 Sep 2026); FY2026 guided net income JPY 1.33T gives EPS about JPY 228. Net income and share count for FY2027 are my assumptions, not company guidance.",
+    "bear": 18.75, "base": 29.93, "bull": 39.19,
+    "cases": {
+      "bear": {"driver": "Yen strengthens, gaming margin and sensor demand soften, net income about JPY 1.15T", "assumption": "EPS JPY 200 at 15x = JPY 3,000 at 160 JPY/USD", "target": 18.75},
+      "base": {"driver": "Gaming OI about JPY 700B and Pictures JPY 200B sustained, FY2026 net income guide JPY 1.33T grows to about JPY 1.45T with buybacks", "assumption": "EPS JPY 252 at 19x = JPY 4,788 at 160 JPY/USD", "target": 29.93},
+      "bull": {"driver": "Record sensor and gaming profit, weak yen, net income about JPY 1.65T", "assumption": "EPS JPY 285 at 22x = JPY 6,270 at 160 JPY/USD", "target": 39.19}
+    },
+    "implied_by_close": "At base EPS JPY 252 the close ($27.07 = JPY 4,331) implies 17.2x; the Bernstein target of $26 implies 16.5x or EPS about JPY 228 at 19x",
+    "sensitivity": "One turn of P/E moves the base target by $1.58 (5.8 pp); 10 JPY of USD/JPY moves it by about $1.8",
+    "watch_metric": "Game & Network Services and Imaging & Sensing operating income against the JPY 700B gaming full-year outlook, plus USD/JPY",
+    "next_disclosure": "Q3 FY2026 earnings, early February 2027"
+  },
+  "dividend_per_share": 0.22,
+  "analyst_notes": "Only one named analyst with a dated, sourced call was found (Bernstein, David Dai, Market Perform, target raised to $26 from $23 on 5 Nov 2026 after the profit forecast raise); the sample is not representative. Published consensus is Hold with about $26 per MarketBeat, below the base case mainly through a lower multiple (about 16.5x vs 19x) at similar EPS. Targets for other brokers were undated or unverifiable and were left out.",
+  "sources": [
+    {"label": "Bernstein target raise to $26", "url": "https://www.investing.com/news/analyst-ratings/bernstein-raises-sony-stock-price-target-to-26-on-yen-weakness-93CH-5004193", "supports": "Bernstein rating and target"},
+    {"label": "Sony Q2 FY2026 forecast raise", "url": "https://grafa.com/en/news/united-states/sony-q2-fy2026-earnings-profit-forecast-raised", "supports": "FY2026 sales, OI, net income guidance, dividend JPY 35"},
+    {"label": "Sony Q2 earnings call transcript", "url": "https://www.marketbeat.com/instant-alerts/transcript-what-sony-sony-said-on-its-q2-earnings-call-2026-11-08/", "supports": "Segment OI outlook"},
+    {"label": "MUFG JPY weekly 16 Nov 2026", "url": "https://www.mufgresearch.com/fx/jpy-weekly-16-november-2026/", "supports": "USD/JPY about 160"},
+    {"label": "Sony shares outstanding", "url": "https://roic.ai/quote/TSE-6758/statistics", "supports": "5.84B shares at 30 Sep 2026"}
+  ]
+}

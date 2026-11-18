@@ -1,0 +1,327 @@
+{
+ "issuer_id": "Chevron Corporation",
+ "symbol": "CVX",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 219.89,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-30T08:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Sam Margolin",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 268,
+   "source_prior": 230,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784505/chevron-analysts-raise-their-forecasts-after-better-than-expected-q3-earnings"
+  },
+  {
+   "analyst": "Sam Margolin",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784505/chevron-analysts-raise-their-forecasts-after-better-than-expected-q3-earnings"
+  },
+  {
+   "analyst": "Stephen Richardson",
+   "firm": "Evercore ISI",
+   "field": "target",
+   "value": 250,
+   "source_prior": 225,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784505/chevron-analysts-raise-their-forecasts-after-better-than-expected-q3-earnings"
+  },
+  {
+   "analyst": "Stephen Richardson",
+   "firm": "Evercore ISI",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784505/chevron-analysts-raise-their-forecasts-after-better-than-expected-q3-earnings"
+  },
+  {
+   "analyst": "UBS Group (analyst not named)",
+   "firm": "UBS",
+   "field": "target",
+   "value": 235,
+   "source_prior": 220,
+   "issued_at": "2026-10-08",
+   "public_at": "2026-10-08T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-24400-2026-11-02/"
+  },
+  {
+   "analyst": "UBS Group (analyst not named)",
+   "firm": "UBS",
+   "field": "target",
+   "value": 265,
+   "source_prior": 235,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-26500-2026-11-02/"
+  },
+  {
+   "analyst": "UBS Group (analyst not named)",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-26500-2026-11-02/"
+  },
+  {
+   "analyst": "Barclays (analyst not named)",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 244,
+   "source_prior": 208,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-24400-2026-11-02/"
+  },
+  {
+   "analyst": "Barclays (analyst not named)",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Equal weight",
+   "bucket": "Hold",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-05:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-24400-2026-11-02/"
+  },
+  {
+   "analyst": "Devin McDermott",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 226,
+   "source_prior": 218,
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62727754/chevron-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"
+  },
+  {
+   "analyst": "Devin McDermott",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-10-15",
+   "public_at": "2026-10-15T23:59:59-04:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62727754/chevron-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"
+  },
+  {
+   "analyst": "Jason Gabelman",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 225,
+   "source_prior": 215,
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62727754/chevron-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"
+  },
+  {
+   "analyst": "Jason Gabelman",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-12",
+   "public_at": "2026-10-12T23:59:59-04:00",
+   "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62727754/chevron-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts"
+  },
+  {
+   "analyst": "Goldman Sachs (analyst not named)",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 241,
+   "source_prior": 228,
+   "issued_at": "2026-10-20",
+   "public_at": "2026-10-20T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.investing.com/news/analyst-ratings/goldman-sachs-raises-chevron-stock-price-target-to-241-on-valuation-93CH-4959261"
+  },
+  {
+   "analyst": "Goldman Sachs (analyst not named)",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-20",
+   "public_at": "2026-10-20T23:59:59-04:00",
+   "source": "https://www.investing.com/news/analyst-ratings/goldman-sachs-raises-chevron-stock-price-target-to-241-on-valuation-93CH-4959261"
+  },
+  {
+   "analyst": "BMO (analyst not named)",
+   "firm": "BMO Capital Markets",
+   "field": "target",
+   "value": 235,
+   "source_prior": 210,
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-26500-2026-11-02/"
+  },
+  {
+   "analyst": "BMO (analyst not named)",
+   "firm": "BMO Capital Markets",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-09-03",
+   "public_at": "2026-09-03T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-26500-2026-11-02/"
+  },
+  {
+   "analyst": "RBC (analyst not named)",
+   "firm": "Royal Bank of Canada",
+   "field": "target",
+   "value": 230,
+   "source_prior": 220,
+   "issued_at": "2026-09-24",
+   "public_at": "2026-09-24T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-26500-2026-11-02/"
+  },
+  {
+   "analyst": "RBC (analyst not named)",
+   "firm": "Royal Bank of Canada",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-09-24",
+   "public_at": "2026-09-24T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-26500-2026-11-02/"
+  },
+  {
+   "analyst": "Jefferies (analyst not named)",
+   "firm": "Jefferies",
+   "field": "target",
+   "value": 233,
+   "source_prior": 216,
+   "issued_at": "2026-08-17",
+   "public_at": "2026-08-17T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-24400-2026-11-02/"
+  },
+  {
+   "analyst": "Jefferies (analyst not named)",
+   "firm": "Jefferies",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-17",
+   "public_at": "2026-08-17T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-24400-2026-11-02/"
+  },
+  {
+   "analyst": "Bank of America (analyst not named)",
+   "firm": "Bank of America",
+   "field": "target",
+   "value": 227,
+   "source_prior": 210,
+   "issued_at": "2026-07-28",
+   "public_at": "2026-07-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-24400-2026-11-02/"
+  },
+  {
+   "analyst": "Bank of America (analyst not named)",
+   "firm": "Bank of America",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-07-28",
+   "public_at": "2026-07-28T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-24400-2026-11-02/"
+  }
+ ],
+ "valuation": {
+  "method": "Cyclical integrated producer: FY2027 diluted EPS (the period an investor prices at the Nov 2027 target date) x mid-cycle P/E. Anchors from the Q3 2026 release: adjusted EPS $5.28 (GAAP $5.06), diluted shares 1,962.9M, Brent averaged $97 in Q3 (Q2 $104), net debt about $20.7B after a $7.8B quarterly cut, quarterly dividend $1.78. Street FY2026 EPS is about $18.15 (MarketBeat). The 2027 EPS levels are my assumptions: EIA projects Brent about $79 in 2027, versus a 2026 average well above $85, and I scale earnings down for lower crude and normalising refining margins; they are not company guidance and the per-dollar Brent sensitivity is my estimate, not sourced from the filing. Hess synergies ($1.5B) are already captured. Dividends of about $7.12 (4 x $1.78, not growth-adjusted) are excluded from price targets.",
+  "bear": 123.5,
+  "base": 210.0,
+  "bull": 279.0,
+  "cases": {
+   "bear": {
+    "driver": "Brent falls to about $62 on oversupply, refining cracks revert, Hess/Guyana volumes do not offset price",
+    "assumption": "EPS $9.50 at 13.0x",
+    "target": 123.5
+   },
+   "base": {
+    "driver": "Brent near the EIA path of about $79, refining margins normalise from 2026 highs, cost savings and buybacks hold volumes per share",
+    "assumption": "EPS $14.00 at 15.0x",
+    "target": 210.0
+   },
+   "bull": {
+    "driver": "Brent stays near $90-95 on supply risk, strong downstream margins, Venezuela and Tengiz volumes add",
+    "assumption": "EPS $18.00 at 15.5x",
+    "target": 279.0
+   }
+  },
+  "implied_by_close": "At base EPS $14.00 the $219.89 close implies 15.7x; the named-sample target (about $240-245 across the 11 firms, all horizons undocumented) implies about 17.2x at base EPS, or about $16.0 EPS at 15.0x (about 14% above base). The close is about 12.1x Street FY2026 EPS of $18.15.",
+  "sensitivity": "One turn of P/E moves the base target by $14.00 (6.4 pp of the close); $1.00 of EPS moves it by $15.00 (6.8 pp).",
+  "watch_metric": "Adjusted quarterly EPS and Brent realisation: the base case needs quarterly adjusted EPS to settle near $3.5, down from $5.28 in Q3, with US downstream earnings falling back from $3.58B.",
+  "next_disclosure": "Q4 and full-year 2026 results, expected around late January or early February 2027 (date not confirmed in sources)"
+ },
+ "dividend_per_share": 7.12,
+ "analyst_notes": "Post-Q3 (Oct 30 beat: adjusted EPS $5.28 vs about $4.87 consensus) the named views rose: Wells Fargo 268 (Margolin), Evercore 250 (Richardson), UBS 265, Barclays 244 (Equal weight), Morgan Stanley 226 in mid-October, with Goldman 241 and TD Cowen 225 (Hold) before the print. Targets sit at $225-268, about 2-22% above the close, versus my base at -4%: the gap is roughly 2 turns of P/E at base EPS or about $2 of 2027 EPS, implying the Street holds oil nearer $85-90 or a higher multiple; broker assumptions are not published in the sources. Only four named analysts appear; seven seats are firm-level, and every horizon is undocumented (null), so none enters the weighted target. MarketBeat/TipRanks aggregate targets ($217-243) differ by provider; some post-earnings revisions (Morgan Stanley to 230, Barclays to 248, Mizuho 234) were reported without usable dates and are excluded.",
+ "sources": [
+  {
+   "label": "Chevron Q3 2026 results (Finviz copy of release)",
+   "url": "https://finviz.com/news/412404/chevron-reports-third-quarter-2026-results",
+   "supports": "EPS, diluted shares, Brent, dividend, net debt change"
+  },
+  {
+   "label": "Chevron Q3 2026 results (BOE Report)",
+   "url": "https://boereport.com/2026/10/30/chevron-reports-third-quarter-2026-results/amp/",
+   "supports": "Earnings release date"
+  },
+  {
+   "label": "24/7 Wall St Nov 2 2026",
+   "url": "https://247wallst.com/investing/2026/11/02/chevron-is-up-59-this-year-and-trades-above-its-price-target-time-to-take-profits/",
+   "supports": "EIA Brent path, Hess synergies, downstream earnings"
+  },
+  {
+   "label": "Benzinga post-Q3 target changes",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/11/62784505/chevron-analysts-raise-their-forecasts-after-better-than-expected-q3-earnings",
+   "supports": "Wells Fargo, Evercore targets"
+  },
+  {
+   "label": "Benzinga pre-Q3 target changes",
+   "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/10/62727754/chevron-gears-up-for-q3-print-here-are-the-recent-forecast-changes-from-wall-streets-most-accurate-analysts",
+   "supports": "Morgan Stanley, TD Cowen"
+  },
+  {
+   "label": "MarketBeat Barclays Nov 2",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-24400-2026-11-02/",
+   "supports": "Barclays, UBS, Jefferies, BofA, consensus EPS"
+  },
+  {
+   "label": "MarketBeat UBS Nov 2",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-chevron-nyse-cvx-price-target-raised-to-26500-2026-11-02/",
+   "supports": "UBS, BMO, RBC, Goldman"
+  },
+  {
+   "label": "Investing.com Goldman target",
+   "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-raises-chevron-stock-price-target-to-241-on-valuation-93CH-4959261",
+   "supports": "Goldman 241 from 228"
+  }
+ ]
+}

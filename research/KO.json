@@ -1,0 +1,178 @@
+{
+ "issuer_id": "The Coca-Cola Company",
+ "symbol": "KO",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 99.25,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-27T07:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Peter Galbo",
+   "firm": "Bank of America Securities",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-13",
+   "public_at": "2026-11-13T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/ko/ratings/"
+  },
+  {
+   "analyst": "Alexia Burland Howard",
+   "firm": "Bernstein",
+   "field": "target",
+   "value": 95,
+   "issued_at": "2026-11-13",
+   "public_at": "2026-11-13T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ko/ratings/"
+  },
+  {
+   "analyst": "Alexia Burland Howard",
+   "firm": "Bernstein",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-11-13",
+   "public_at": "2026-11-13T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/ko/ratings/"
+  },
+  {
+   "analyst": "Zheng Feng Chee",
+   "firm": "DBS",
+   "field": "target",
+   "value": 106,
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ko/ratings/",
+   "source_prior": 98
+  },
+  {
+   "analyst": "Zheng Feng Chee",
+   "firm": "DBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-29",
+   "public_at": "2026-10-29T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ko/ratings/"
+  },
+  {
+   "analyst": "Georgy Vashchenko",
+   "firm": "Freedom Capital Markets",
+   "field": "target",
+   "value": 89,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ko/ratings/",
+   "source_prior": 85
+  },
+  {
+   "analyst": "Georgy Vashchenko",
+   "firm": "Freedom Capital Markets",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ko/ratings/"
+  },
+  {
+   "analyst": "Robert Ottenstein",
+   "firm": "Evercore ISI",
+   "field": "target",
+   "value": 100,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ko/ratings/"
+  },
+  {
+   "analyst": "Robert Ottenstein",
+   "firm": "Evercore ISI",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ko/ratings/"
+  },
+  {
+   "analyst": "Peter Grom",
+   "firm": "UBS",
+   "field": "target",
+   "value": 106,
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/ko/ratings/",
+   "source_prior": 104
+  },
+  {
+   "analyst": "Peter Grom",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-28",
+   "public_at": "2026-10-28T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/ko/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 comparable diluted EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing, no ADR conversion. Anchors: FY2025 comparable EPS $3.00 (Feb 10 2026 release); FY2026 comparable EPS growth guidance raised in the Q3 release of Oct 27 2026 to at least 11% per press reports (about $3.33; the guidance table was an image I could not read directly); Q3 comparable EPS $0.91 (+11%), comparable operating margin 32.9%, YTD FCF $11.4B. FY2027 EPS is my own assumption: roughly 6-7% growth, with a currency tailwind fading and the planned Coca-Cola Beverages Africa sale flagged by management as a 2027 headwind (press-reported).",
+  "bear": 78.2,
+  "base": 99.4,
+  "bull": 111.0,
+  "cases": {
+   "bear": {
+    "driver": "Currency tailwind reverses, volume slows from 5% growth, CCBA divestiture and higher input costs weigh; staples de-rate as rates stay high.",
+    "assumption": "FY2027 EPS $3.40 at 23x",
+    "target": 78.2
+   },
+   "base": {
+    "driver": "Organic revenue growth of about 5% and modest margin gains lift EPS about 6.5% from roughly $3.33 in FY2026, partly offset by CCBA sale dilution; multiple holds near the current premium.",
+    "assumption": "FY2027 EPS $3.55 at 28x",
+    "target": 99.4
+   },
+   "bull": {
+    "driver": "Sustained volume and pricing momentum with margin expansion beyond 33%, buybacks and favorable FX; defensive premium multiple persists.",
+    "assumption": "FY2027 EPS $3.70 at 30x",
+    "target": 111.0
+   }
+  },
+  "implied_by_close": "At base EPS of $3.55 the $99.25 close implies 28.0x; the equal-weight average of the pre-close named targets ($98.3) implies 27.7x, or about $3.51 EPS at 28x.",
+  "sensitivity": "One turn of P/E moves the base target by $3.55 (about 3.6 pp of the close).",
+  "watch_metric": "Global unit case volume growth (Q3 2026: 5%) and comparable operating margin (Q3 2026: 32.9%), plus 2027 comparable EPS guidance including the CCBA sale effect.",
+  "next_disclosure": "Q4 and FY2026 results with initial 2027 guidance, expected mid-February 2027 (date not confirmed)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Six named analysts through the Nov 13 close, all from one aggregator table: four Buys (BofA, DBS, Evercore ISI, UBS) and two Holds (Bernstein, Freedom Capital Markets). Five targets range from $89 to $106 (equal-weight average $98.8) with the close at $99.25, so the named group implies roughly flat price returns, close to my base case; the gap is about 0 pp, equal to 28x on $3.5 EPS. All calls came after the Oct 27 earnings release except the BofA rating, and four of five targets were raised or set after it; none has a documented 12-month horizon. Wolfe Research (initiation, Buy) and TD Cowen ($104 to $112) on Nov 17 are after the reference close and excluded.",
+ "sources": [
+  {
+   "label": "Q3 2026 earnings release",
+   "url": "https://www.coca-colacompany.com/media-center/coca-cola-reports-third-quarter-2026-results",
+   "supports": "Q3 comparable EPS, FCF, raised outlook"
+  },
+  {
+   "label": "Stockanalysis KO analyst ratings",
+   "url": "https://stockanalysis.com/stocks/ko/ratings/",
+   "supports": "Named analyst ratings and targets"
+  },
+  {
+   "label": "Q4 2025 earnings release",
+   "url": "https://www.coca-colacompany.com/media-center/coca-cola-reports-fourth-quarter-and-full-year-2025-results",
+   "supports": "FY2025 comparable EPS $3.00, 2026 guidance"
+  },
+  {
+   "label": "Coca-Cola raises FY2026 outlook (press)",
+   "url": "https://stocktwits.com/news-articles/markets/equity/coca-cola-raises-fy-2026-outlook-ceo-cites-sustained-momentum-after-q3-earnings-beat/cZUeJfIRBCO",
+   "supports": "Raised EPS growth outlook"
+  }
+ ]
+}

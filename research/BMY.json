@@ -1,0 +1,38 @@
+{
+ "issuer_id": "Bristol-Myers Squibb Company",
+ "symbol": "BMY",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 63.43, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-10-29T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {"analyst": "Morgan Stanley analyst (unnamed)", "firm": "Morgan Stanley", "field": "target", "value": 40, "source_prior": 41, "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null, "source": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html"},
+  {"analyst": "Morgan Stanley analyst (unnamed)", "firm": "Morgan Stanley", "field": "rating", "value": "Underweight", "bucket": "Sell", "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "source": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html"},
+  {"analyst": "Mohit Bansal", "firm": "Wells Fargo", "field": "target", "value": 60, "source_prior": 65, "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/bmy/"},
+  {"analyst": "Mohit Bansal", "firm": "Wells Fargo", "field": "rating", "value": "Equal Weight", "bucket": "Hold", "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/bmy/"},
+  {"analyst": "BofA analyst (unnamed)", "firm": "BofA", "field": "target", "value": 67, "source_prior": null, "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null, "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-bristolmyers-squibb-stock-price-target-to-67-93CH-4986570"}
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 non-GAAP EPS viewed at the 12-month target date (Nov 2027). USD primary listing, no ADR or FX conversion. FY2026 guidance $6.35-6.55 (midpoint $6.45) includes $0.60 of acquired IPRD charges; FY2027 consensus about $6.70 used as base.",
+  "bear": 45.0, "base": 63.7, "bull": 85.0,
+  "cases": {
+   "bear": {"driver": "Faster Eliquis/Opdivo loss of exclusivity erosion and pipeline setbacks (admilparant liver-safety questions)", "assumption": "EPS $6.00 at 7.5x", "target": 45.0},
+   "base": {"driver": "Growth portfolio offsets legacy erosion; FY2027 EPS near consensus", "assumption": "EPS $6.70 at 9.5x", "target": 63.7},
+   "bull": {"driver": "Pipeline wins (Cobenfy, milvexian, admilparant) and cost cuts lift EPS and the multiple", "assumption": "EPS $7.40 at 11.5x", "target": 85.0}
+  },
+  "implied_by_close": "At base EPS $6.70 the $63.43 close implies 9.5x; the analyst-weighted target is not computable because no 12-month-horizon targets were documented.",
+  "sensitivity": "One turn of P/E moves the base target by $6.70 (about 10.6 pp)",
+  "watch_metric": "Eliquis and Opdivo revenue erosion versus Cobenfy and Reblozyl growth, plus FY2027 EPS guidance",
+  "next_disclosure": "Q4/FY2026 earnings, expected early February 2027"
+ },
+ "dividend_per_share": 2.52,
+ "analyst_notes": "Only a small subset of named post-Q3 calls was found. Targets span $40 (Morgan Stanley, Underweight) to $67 (BofA), with Wells Fargo cutting to $60 on loss-of-exclusivity concerns. The base case sits at the high end of the Hold cluster; the bear view implies EPS near $6.00 or a multiple below 8x. All horizons are undocumented so none enter the weighted target.",
+ "sources": [
+  {"label": "8-K Q3 2026 earnings release", "url": "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000022/a2026q3ex991-filing.htm", "supports": "EPS, guidance"},
+  {"label": "Zacks Q3 recap", "url": "https://www.zacks.com/stock/news/3018802/bmy-q3-earnings-tops-estimates-higher-charges-weigh-on-outlook", "supports": "Q3 EPS, outlook"},
+  {"label": "Defense World Morgan Stanley", "url": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html", "supports": "MS target"},
+  {"label": "Investing.com BofA", "url": "https://www.investing.com/news/analyst-ratings/bofa-raises-bristolmyers-squibb-stock-price-target-to-67-93CH-4986570", "supports": "BofA target"},
+  {"label": "StockAnalysis BMY", "url": "https://stockanalysis.com/stocks/bmy/", "supports": "consensus, Wells Fargo"}
+ ]
+}

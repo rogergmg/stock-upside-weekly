@@ -1,0 +1,170 @@
+{
+ "issuer_id": "Lowe's Companies, Inc.",
+ "symbol": "LOW",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 227.73,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-08-19T06:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "David Bellinger",
+   "firm": "Mizuho",
+   "field": "target",
+   "value": 250,
+   "source_prior": 280,
+   "horizon_months": null,
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://www-web.itiger.com/news/2661523574"
+  },
+  {
+   "analyst": "David Bellinger",
+   "firm": "Mizuho",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://www-web.itiger.com/news/2661523574"
+  },
+  {
+   "analyst": "Bradley Thomas",
+   "firm": "KeyBanc",
+   "field": "target",
+   "value": 275,
+   "source_prior": 275,
+   "horizon_months": null,
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://www-web.itiger.com/news/2661523574"
+  },
+  {
+   "analyst": "Bradley Thomas",
+   "firm": "KeyBanc",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://www-web.itiger.com/news/2661523574"
+  },
+  {
+   "analyst": "Steven Shemesh",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 231,
+   "source_prior": 231,
+   "horizon_months": null,
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://www-web.itiger.com/news/2661523574"
+  },
+  {
+   "analyst": "Steven Shemesh",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Sector Perform",
+   "bucket": "Hold",
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://www-web.itiger.com/news/2661523574"
+  },
+  {
+   "analyst": "Max Rakhlenko",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 235,
+   "source_prior": 235,
+   "horizon_months": null,
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://www-web.itiger.com/news/2661523574"
+  },
+  {
+   "analyst": "Max Rakhlenko",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-08-21",
+   "public_at": "2026-08-21T23:59:59-04:00",
+   "source": "https://www-web.itiger.com/news/2661523574"
+  },
+  {
+   "analyst": "(unnamed) Stifel",
+   "firm": "Stifel",
+   "field": "target",
+   "value": 190,
+   "source_prior": 195,
+   "horizon_months": null,
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-04:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5"
+  },
+  {
+   "analyst": "(unnamed) Stifel",
+   "firm": "Stifel",
+   "field": "rating",
+   "value": "Sell",
+   "bucket": "Sell",
+   "issued_at": "2026-11-12",
+   "public_at": "2026-11-12T23:59:59-04:00",
+   "source": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS (fiscal year ending Jan 2028) viewed at the 12-month target date (Nov 2027), using only information public by the 2026-11-13 close. Anchored on FY2026 guidance (Q2 release 2026-08-19) of adjusted EPS about $12.25, sales about $92B, flat comps; Q2 adjusted EPS $4.40 incl. $0.11 tariff refund benefit, comps +0.2%. USD US listing, no ADR conversion. Q3 release after the close is excluded. Multiples are judgment-based, not sourced.",
+  "bear": 192.0,
+  "base": 264.0,
+  "bull": 314.6,
+  "cases": {
+   "bear": {
+    "driver": "Housing turnover stays frozen, comps negative, FBM/ADG integration and margin pressure; EPS roughly flat to below FY2026 guide",
+    "assumption": "EPS $12.00 at 16.0x",
+    "target": 192.0
+   },
+   "base": {
+    "driver": "Flat to low-single-digit comps, Pro/FBM contribution and buybacks give about 8% EPS growth off a tariff-refund-flattered base",
+    "assumption": "EPS $13.20 at 20.0x",
+    "target": 264.0
+   },
+   "bull": {
+    "driver": "Lower mortgage rates lift turnover and big-ticket demand, comps +3%, margin leverage",
+    "assumption": "EPS $14.30 at 22.0x",
+    "target": 314.6
+   }
+  },
+  "implied_by_close": "At base EPS $13.20 the close implies 17.3x; the average of the five named targets (about $236) implies 17.9x on base EPS, or about $11.8 EPS at 20x",
+  "sensitivity": "One turn of P/E moves the base target by $13.20 (5.8 pp of the close)",
+  "watch_metric": "Comparable sales and operating margin, with FY2026 guide of flat comps and adjusted EPS about $12.25",
+  "next_disclosure": "Q3 FY2026 results, 2026-11-19 (approx.); Q4 and fiscal 2026 results expected February 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Named calls are sparse and dated mostly to the Q2 release: Mizuho cut to $250 from $280 while KeyBanc ($275), RBC ($231) and TD Cowen ($235) held. Stifel downgraded to Sell at $190 ahead of Q3. The spread of $190-$275 is wide; the base case sits near the middle, requiring about 8% EPS growth at 20x. Targets have no documented 12-month horizon and the Stifel date is inferred from a Thursday reference, so none is weighted.",
+ "sources": [
+  {
+   "label": "Benzinga via Tiger: analyst revisions after Q2",
+   "url": "https://www-web.itiger.com/news/2661523574",
+   "supports": "Mizuho, KeyBanc, RBC, TD Cowen targets and ratings"
+  },
+  {
+   "label": "Stocktwits: Stifel downgrade",
+   "url": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5",
+   "supports": "Stifel Sell, $190 target"
+  },
+  {
+   "label": "Zacks: Lowe's Q2 results and FY26 outlook",
+   "url": "https://www.zacks.com/stock/news/2976954/lowes-q2-earnings-beat-on-tariff-refunds-fy26-outlook-moves-lower",
+   "supports": "EPS, comps, guidance"
+  },
+  {
+   "label": "Chain Store Age: Lowe's Q2",
+   "url": "https://chainstoreage.com/pro-online-sales-drive-lowes-q2-revenue-increase",
+   "supports": "Q2 sales and comps"
+  }
+ ]
+}

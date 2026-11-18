@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T15:53:44.149734+00:00",
+  "built_at": "2026-11-18T15:55:20.089070+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 117,
+    "rank_valued": 122,
     "rank_with_named_targets": 2,
-    "rank_matched": 117,
-    "researched": 117
+    "rank_matched": 122,
+    "researched": 122
   },
   "ranked": [
     {
@@ -353,6 +353,27 @@
         "bull": 43.372407574391346
       },
       "base_total_return_pct": 23.354373309287645,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "LOW",
+      "issuer_id": "Lowe's Companies, Inc.",
+      "close": 227.73,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 125213455112,
+        "high": 130404326896
+      },
+      "scenarios_pct": {
+        "bear": -15.689632459491504,
+        "base": 15.926755368199183,
+        "bull": 38.14605014710403
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1025,6 +1046,27 @@
         "bull": 29.067688378033207
       },
       "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "MDT",
+      "issuer_id": "Medtronic plc",
+      "close": 102.86,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 128940680898,
+        "high": 134229660245
+      },
+      "scenarios_pct": {
+        "bear": -13.280186661481626,
+        "base": 6.649815282908808,
+        "bull": 23.760451098580596
+      },
+      "base_total_return_pct": 8.73031304685981,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -1976,6 +2018,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "BMY",
+      "issuer_id": "Bristol-Myers Squibb Company",
+      "close": 63.43,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 127053220954,
+        "high": 132249491546
+      },
+      "scenarios_pct": {
+        "bear": -29.055651899731988,
+        "base": 0.4256660886016081,
+        "bull": 34.0059908560618
+      },
+      "base_total_return_pct": 4.398549582216617,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "BRK/B",
       "issuer_id": "Berkshire Hathaway Inc.",
       "close": 592.94,
@@ -2117,6 +2180,27 @@
         "bull": 17.947704018585338
       },
       "base_total_return_pct": 1.7349611981612383,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "MO",
+      "issuer_id": "Altria Group, Inc.",
+      "close": 78.64,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 128196425416,
+        "high": 133479833745
+      },
+      "scenarios_pct": {
+        "bear": -15.183112919633775,
+        "base": -0.8138351983723296,
+        "bull": 13.428280773143438
+      },
+      "base_total_return_pct": null,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -2354,6 +2438,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "MCK",
+      "issuer_id": "McKesson Corporation",
+      "close": 1102.8101,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 124770610813,
+        "high": 129873310675
+      },
+      "scenarios_pct": {
+        "bear": -24.46568996783762,
+        "base": -5.695459263566773,
+        "bull": 9.719706049119427
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "ADI",
       "issuer_id": "Analog Devices, Inc.",
       "close": 397.97,
@@ -2483,26 +2588,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MDT",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MO",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "BMY",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "LOW",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "MCK",
       "reason": "independent valuation unavailable"
     },
     {
@@ -50932,6 +51017,1215 @@
         }
       ]
     },
+    "MDT": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 102.86,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. Medtronic FY2027 (Apr 2026-Apr 2027) adjusted EPS guidance is $5.94-6.00 after the Q1 beat. An investor at the Nov 2027 target date prices FY2028 (ending Apr 2028) adjusted EPS, which I model from the FY27 midpoint. USD ordinary-share listing, no ADR conversion.",
+        "bear": 89.2,
+        "base": 109.7,
+        "bull": 127.3,
+        "cases": {
+          "bear": {
+            "driver": "Growth stalls near 3% EPS growth on Diabetes/MiniMed separation costs and pulsed-field ablation competition",
+            "assumption": "FY28 EPS $6.15 at 14.5x",
+            "target": 89.2
+          },
+          "base": {
+            "driver": "About 8% EPS growth from 6-7% organic sales growth and modest margin expansion, off the $5.97 guidance midpoint",
+            "assumption": "FY28 EPS $6.45 at 17.0x",
+            "target": 109.7
+          },
+          "bull": {
+            "driver": "Cardiac ablation and Hugo robot ramp drive 12% EPS growth and a re-rating",
+            "assumption": "FY28 EPS $6.70 at 19.0x",
+            "target": 127.3
+          }
+        },
+        "implied_by_close": "At base EPS $6.45 the close implies 15.9x; the analyst-weighted target (~$110) implies 17.1x or EPS about $6.96 at 15.8x",
+        "sensitivity": "One turn of P/E moves the base target by $6.45 (6.3 pp)",
+        "watch_metric": "Organic revenue growth against the 7.25-7.75% FY27 guide and adjusted EPS against the $5.94-6.00 range",
+        "next_disclosure": "Fiscal Q2 2027 earnings, expected around late November 2026 (company guided Q2 EPS $1.32-1.34)"
+      },
+      "dividend_per_share": 2.14,
+      "analyst_notes": "Targets I could verify were raised or reaffirmed after the Sept 1 Q1 beat, with BofA, Wells Fargo, Mizuho, RBC and TD Cowen at $104-118; Barclays moved to Hold in October. Their roughly $110 average is a bit above my $109.7 base, equal to a 17.1x P/E on my EPS or about 6% more EPS. Most analyst names and horizons were not given by the accessible sources, and MarketBeat pages could not be opened directly, so coverage is partial and the BofA prior target conflicts across sources. Dividend is an approximation of the annualized rate.",
+      "sources": [
+        {
+          "label": "MarketBeat TD Cowen reaffirmation (Sept 2026 analyst actions)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "supports": "Analyst targets and ratings"
+        },
+        {
+          "label": "MarketBeat Barclays upgrade to Hold",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-barclays-upgrades-medtronic-nyse-mdt-to-hold-2026-10-08/",
+          "supports": "Barclays rating"
+        },
+        {
+          "label": "Medtronic Q1 FY2027 guidance coverage",
+          "url": "https://www.thecerbatgem.com/2026/09/01/medtronic-nysemdt-releases-q2-2027-earnings-guidance.html",
+          "supports": "FY27 EPS guidance 5.94-6.00, Q2 EPS guide, Q1 EPS 1.45"
+        },
+        {
+          "label": "Medtronic FY2027 guidance coverage",
+          "url": "https://www.dailypolitical.com/2026/09/01/medtronic-nysemdt-issues-fy-2027-earnings-guidance.html",
+          "supports": "FY27 outlook"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-09-01T06:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 72,
+        "max_weight_pct": 23.731427839990225,
+        "contributors": [
+          {
+            "analyst": "Larry Biegelsen",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-09-02",
+            "age_days": 72,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+            "weight": 0.17985059162009628
+          },
+          {
+            "analyst": "Shagun Singh",
+            "firm": "RBC Capital",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-09-02",
+            "age_days": 72,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+            "weight": 0.17985059162009628
+          },
+          {
+            "analyst": "Unnamed Bank of America analyst",
+            "firm": "Bank of America",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-02",
+            "age_days": 72,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+            "weight": 0.17985059162009628
+          },
+          {
+            "analyst": "Unnamed Barclays analyst",
+            "firm": "Barclays",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-10-08",
+            "age_days": 36,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-barclays-upgrades-medtronic-nyse-mdt-to-hold-2026-10-08/",
+            "weight": 0.23731427839990227
+          },
+          {
+            "analyst": "Unnamed TD Cowen analyst",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-30",
+            "age_days": 44,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+            "weight": 0.22313394673980888
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 76.26857216000977,
+          "Hold": 23.731427839990225,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Larry Biegelsen",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Larry Biegelsen",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 104.0,
+          "source_prior": 102,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "revision_pct": 1.9607843137254832,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Shagun Singh",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Shagun Singh",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 118.0,
+          "source_prior": 111,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "revision_pct": 6.3063063063063085,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 110.0,
+          "source_prior": 95,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "revision_pct": 15.789473684210531,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed Barclays analyst",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-08",
+          "public_at": "2026-10-08T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-barclays-upgrades-medtronic-nyse-mdt-to-hold-2026-10-08/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed Mizuho analyst",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 115.0,
+          "source_prior": null,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Unnamed TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Unnamed TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 110.0,
+          "source_prior": null,
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "MO": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 78.64,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. FY2027 adjusted diluted EPS (the year priced at the Nov 2027 target date) times a P/E. Anchor: FY2025 adjusted EPS $5.42; FY2026 guidance raised on 2026-10-29 to $5.66-$5.74 (+4.5% to 6.0%); 9M 2026 adjusted EPS $4.33. FY2027 EPS is my assumption of about +5% on a $5.70 midpoint, from pricing, buybacks (program expanded by $1bn) and ABI income, offset by cigarette volume declines. US listing, USD, no ADR conversion. Targets are price only; dividends separate.",
+        "bear": 66.7,
+        "base": 78.0,
+        "bull": 89.2,
+        "cases": {
+          "bear": {
+            "driver": "Cigarette volumes decline faster, smoke-free losses widen, EPS growth stalls near +2%, multiple de-rates",
+            "assumption": "FY2027 EPS $5.80 at 11.5x",
+            "target": 66.7
+          },
+          "base": {
+            "driver": "FY2026 lands mid-guidance, FY2027 EPS grows about 5% on pricing and buybacks",
+            "assumption": "FY2027 EPS $6.00 at 13.0x",
+            "target": 78.0
+          },
+          "bull": {
+            "driver": "Smoke-free (on!, NJOY return) gains, resilient pricing, EPS growth near 8% and multiple holds",
+            "assumption": "FY2027 EPS $6.15 at 14.5x",
+            "target": 89.2
+          }
+        },
+        "implied_by_close": "At base EPS $6.00 the $78.64 close implies 13.1x; no 12-month-documented targets are weighted, but the sample mean of $74.80 implies 12.5x on base EPS, or EPS $5.75 at 13.0x.",
+        "sensitivity": "One turn of P/E moves the base target by $6.00 (7.6 pp of the close)",
+        "watch_metric": "Adjusted diluted EPS growth versus the raised $5.66-$5.74 FY2026 guidance, and domestic cigarette volume decline",
+        "next_disclosure": "Q4 and FY2026 results, expected late January 2027 (date not confirmed)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Five named calls were found, all after the 2026-10-29 earnings release: Barclays (Sell) raised to $60 from $58, Citi (Hold) to $72, Morgan Stanley (Hold) to $77, UBS (Buy) to $83 and Stifel (Buy) to $82. The spread of $60 to $83 reflects the Barclays bear view versus Buy-rated houses; Stifel and UBS imply about 13.7x to 13.8x on my base EPS. Horizons are undocumented so none are weighted, and older calls were not retrieved.",
+      "sources": [
+        {
+          "label": "StockAnalysis MO forecast",
+          "url": "https://stockanalysis.com/stocks/mo/forecast/",
+          "supports": "Named analyst calls"
+        },
+        {
+          "label": "Altria Q3 2026 earnings release (8-K ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000764180/000076418026000112/exhibit991erq32026.htm",
+          "supports": "Q3 EPS, 9M EPS $4.33, FY2026 guidance"
+        },
+        {
+          "label": "Quartr Altria Q3 2026",
+          "url": "https://quartr.com/events/altria-group-inc-mo-q3-2026_33fjoS2B",
+          "supports": "Guidance growth, buyback expansion"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T07:00:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 14,
+        "max_weight_pct": 20.372242122514734,
+        "contributors": [
+          {
+            "analyst": "Eric Serotta",
+            "firm": "Morgan Stanley",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mo/forecast/",
+            "weight": 0.19906939469371313
+          },
+          {
+            "analyst": "Faham Baig",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mo/forecast/",
+            "weight": 0.19906939469371313
+          },
+          {
+            "analyst": "Matthew Smith",
+            "firm": "Stifel Nicolaus",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mo/forecast/",
+            "weight": 0.19906939469371313
+          },
+          {
+            "analyst": "Pallav Mittal",
+            "firm": "Barclays",
+            "value": "Sell",
+            "bucket": "Sell",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mo/forecast/",
+            "weight": 0.20372242122514736
+          },
+          {
+            "analyst": "Simon Hales",
+            "firm": "Citi",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/mo/forecast/",
+            "weight": 0.19906939469371313
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 2,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 39.813878938742626,
+          "Hold": 39.813878938742626,
+          "Sell": 20.372242122514734
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Eric Serotta",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Eric Serotta",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 77.0,
+          "source_prior": 71,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "revision_pct": 8.450704225352123,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Faham Baig",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Faham Baig",
+          "firm": "UBS",
+          "field": "target",
+          "value": 83.0,
+          "source_prior": 79,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "revision_pct": 5.063291139240511,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Matthew Smith",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Matthew Smith",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 82.0,
+          "source_prior": 77,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "revision_pct": 6.493506493506485,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Pallav Mittal",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Pallav Mittal",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 60.0,
+          "source_prior": 58,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "revision_pct": 3.4482758620689724,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Simon Hales",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Simon Hales",
+          "firm": "Citi",
+          "field": "target",
+          "value": 72.0,
+          "source_prior": 70,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/",
+          "prior_observed": null,
+          "revision_pct": 2.857142857142847,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "BMY": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 63.43,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 non-GAAP EPS viewed at the 12-month target date (Nov 2027). USD primary listing, no ADR or FX conversion. FY2026 guidance $6.35-6.55 (midpoint $6.45) includes $0.60 of acquired IPRD charges; FY2027 consensus about $6.70 used as base.",
+        "bear": 45.0,
+        "base": 63.7,
+        "bull": 85.0,
+        "cases": {
+          "bear": {
+            "driver": "Faster Eliquis/Opdivo loss of exclusivity erosion and pipeline setbacks (admilparant liver-safety questions)",
+            "assumption": "EPS $6.00 at 7.5x",
+            "target": 45.0
+          },
+          "base": {
+            "driver": "Growth portfolio offsets legacy erosion; FY2027 EPS near consensus",
+            "assumption": "EPS $6.70 at 9.5x",
+            "target": 63.7
+          },
+          "bull": {
+            "driver": "Pipeline wins (Cobenfy, milvexian, admilparant) and cost cuts lift EPS and the multiple",
+            "assumption": "EPS $7.40 at 11.5x",
+            "target": 85.0
+          }
+        },
+        "implied_by_close": "At base EPS $6.70 the $63.43 close implies 9.5x; the analyst-weighted target is not computable because no 12-month-horizon targets were documented.",
+        "sensitivity": "One turn of P/E moves the base target by $6.70 (about 10.6 pp)",
+        "watch_metric": "Eliquis and Opdivo revenue erosion versus Cobenfy and Reblozyl growth, plus FY2027 EPS guidance",
+        "next_disclosure": "Q4/FY2026 earnings, expected early February 2027"
+      },
+      "dividend_per_share": 2.52,
+      "analyst_notes": "Only a small subset of named post-Q3 calls was found. Targets span $40 (Morgan Stanley, Underweight) to $67 (BofA), with Wells Fargo cutting to $60 on loss-of-exclusivity concerns. The base case sits at the high end of the Hold cluster; the bear view implies EPS near $6.00 or a multiple below 8x. All horizons are undocumented so none enter the weighted target.",
+      "sources": [
+        {
+          "label": "8-K Q3 2026 earnings release",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000014272/000001427226000022/a2026q3ex991-filing.htm",
+          "supports": "EPS, guidance"
+        },
+        {
+          "label": "Zacks Q3 recap",
+          "url": "https://www.zacks.com/stock/news/3018802/bmy-q3-earnings-tops-estimates-higher-charges-weigh-on-outlook",
+          "supports": "Q3 EPS, outlook"
+        },
+        {
+          "label": "Defense World Morgan Stanley",
+          "url": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html",
+          "supports": "MS target"
+        },
+        {
+          "label": "Investing.com BofA",
+          "url": "https://www.investing.com/news/analyst-ratings/bofa-raises-bristolmyers-squibb-stock-price-target-to-67-93CH-4986570",
+          "supports": "BofA target"
+        },
+        {
+          "label": "StockAnalysis BMY",
+          "url": "https://stockanalysis.com/stocks/bmy/",
+          "supports": "consensus, Wells Fargo"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 2,
+        "post_earnings": 2,
+        "earnings_order_unknown": 0,
+        "median_age_days": 14.0,
+        "max_weight_pct": 50.0,
+        "contributors": [
+          {
+            "analyst": "Mohit Bansal",
+            "firm": "Wells Fargo",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/bmy/",
+            "weight": 0.5
+          },
+          {
+            "analyst": "Morgan Stanley analyst (unnamed)",
+            "firm": "Morgan Stanley",
+            "value": "Underweight",
+            "bucket": "Sell",
+            "issued_at": "2026-10-30",
+            "age_days": 14,
+            "after_earnings": true,
+            "source": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html",
+            "weight": 0.5
+          }
+        ],
+        "counts": {
+          "Buy": 0,
+          "Hold": 1,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 0.0,
+          "Hold": 50.0,
+          "Sell": 50.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "BofA analyst (unnamed)",
+          "firm": "BofA",
+          "field": "target",
+          "value": 67.0,
+          "source_prior": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-bristolmyers-squibb-stock-price-target-to-67-93CH-4986570",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mohit Bansal",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bmy/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mohit Bansal",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 60.0,
+          "source_prior": 65,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bmy/",
+          "prior_observed": null,
+          "revision_pct": -7.692307692307687,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 40.0,
+          "source_prior": 41,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html",
+          "prior_observed": null,
+          "revision_pct": -2.4390243902439046,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "LOW": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 227.73,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS (fiscal year ending Jan 2028) viewed at the 12-month target date (Nov 2027), using only information public by the 2026-11-13 close. Anchored on FY2026 guidance (Q2 release 2026-08-19) of adjusted EPS about $12.25, sales about $92B, flat comps; Q2 adjusted EPS $4.40 incl. $0.11 tariff refund benefit, comps +0.2%. USD US listing, no ADR conversion. Q3 release after the close is excluded. Multiples are judgment-based, not sourced.",
+        "bear": 192.0,
+        "base": 264.0,
+        "bull": 314.6,
+        "cases": {
+          "bear": {
+            "driver": "Housing turnover stays frozen, comps negative, FBM/ADG integration and margin pressure; EPS roughly flat to below FY2026 guide",
+            "assumption": "EPS $12.00 at 16.0x",
+            "target": 192.0
+          },
+          "base": {
+            "driver": "Flat to low-single-digit comps, Pro/FBM contribution and buybacks give about 8% EPS growth off a tariff-refund-flattered base",
+            "assumption": "EPS $13.20 at 20.0x",
+            "target": 264.0
+          },
+          "bull": {
+            "driver": "Lower mortgage rates lift turnover and big-ticket demand, comps +3%, margin leverage",
+            "assumption": "EPS $14.30 at 22.0x",
+            "target": 314.6
+          }
+        },
+        "implied_by_close": "At base EPS $13.20 the close implies 17.3x; the average of the five named targets (about $236) implies 17.9x on base EPS, or about $11.8 EPS at 20x",
+        "sensitivity": "One turn of P/E moves the base target by $13.20 (5.8 pp of the close)",
+        "watch_metric": "Comparable sales and operating margin, with FY2026 guide of flat comps and adjusted EPS about $12.25",
+        "next_disclosure": "Q3 FY2026 results, 2026-11-19 (approx.); Q4 and fiscal 2026 results expected February 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Named calls are sparse and dated mostly to the Q2 release: Mizuho cut to $250 from $280 while KeyBanc ($275), RBC ($231) and TD Cowen ($235) held. Stifel downgraded to Sell at $190 ahead of Q3. The spread of $190-$275 is wide; the base case sits near the middle, requiring about 8% EPS growth at 20x. Targets have no documented 12-month horizon and the Stifel date is inferred from a Thursday reference, so none is weighted.",
+      "sources": [
+        {
+          "label": "Benzinga via Tiger: analyst revisions after Q2",
+          "url": "https://www-web.itiger.com/news/2661523574",
+          "supports": "Mizuho, KeyBanc, RBC, TD Cowen targets and ratings"
+        },
+        {
+          "label": "Stocktwits: Stifel downgrade",
+          "url": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5",
+          "supports": "Stifel Sell, $190 target"
+        },
+        {
+          "label": "Zacks: Lowe's Q2 results and FY26 outlook",
+          "url": "https://www.zacks.com/stock/news/2976954/lowes-q2-earnings-beat-on-tariff-refunds-fy26-outlook-moves-lower",
+          "supports": "EPS, comps, guidance"
+        },
+        {
+          "label": "Chain Store Age: Lowe's Q2",
+          "url": "https://chainstoreage.com/pro-online-sales-drive-lowes-q2-revenue-increase",
+          "supports": "Q2 sales and comps"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-19T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": 5,
+        "earnings_order_unknown": 0,
+        "median_age_days": 84,
+        "max_weight_pct": 32.14625485672209,
+        "contributors": [
+          {
+            "analyst": "(unnamed) Stifel",
+            "firm": "Stifel",
+            "value": "Sell",
+            "bucket": "Sell",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5",
+            "weight": 0.3214625485672209
+          },
+          {
+            "analyst": "Bradley Thomas",
+            "firm": "KeyBanc",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-08-21",
+            "age_days": 84,
+            "after_earnings": true,
+            "source": "https://www-web.itiger.com/news/2661523574",
+            "weight": 0.16963436285819478
+          },
+          {
+            "analyst": "David Bellinger",
+            "firm": "Mizuho",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-08-21",
+            "age_days": 84,
+            "after_earnings": true,
+            "source": "https://www-web.itiger.com/news/2661523574",
+            "weight": 0.16963436285819478
+          },
+          {
+            "analyst": "Max Rakhlenko",
+            "firm": "TD Cowen",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-08-21",
+            "age_days": 84,
+            "after_earnings": true,
+            "source": "https://www-web.itiger.com/news/2661523574",
+            "weight": 0.16963436285819478
+          },
+          {
+            "analyst": "Steven Shemesh",
+            "firm": "RBC Capital",
+            "value": "Sector Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-08-21",
+            "age_days": 84,
+            "after_earnings": true,
+            "source": "https://www-web.itiger.com/news/2661523574",
+            "weight": 0.16963436285819478
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 2,
+          "Sell": 1
+        },
+        "weighted_pct": {
+          "Buy": 33.92687257163895,
+          "Hold": 33.92687257163895,
+          "Sell": 32.14625485672209
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "(unnamed) Stifel",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "(unnamed) Stifel",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 190.0,
+          "source_prior": 195,
+          "horizon_months": null,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5",
+          "prior_observed": null,
+          "revision_pct": -2.564102564102566,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Bradley Thomas",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bradley Thomas",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 275.0,
+          "source_prior": 275,
+          "horizon_months": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "David Bellinger",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David Bellinger",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 280,
+          "horizon_months": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574",
+          "prior_observed": null,
+          "revision_pct": -10.71428571428571,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Max Rakhlenko",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Max Rakhlenko",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 235.0,
+          "source_prior": 235,
+          "horizon_months": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Steven Shemesh",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Steven Shemesh",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 231.0,
+          "source_prior": 231,
+          "horizon_months": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574",
+          "prior_observed": null,
+          "revision_pct": 0.0,
+          "direction": "unchanged",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "MCK": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 1102.8101,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2028 (year to Mar 2028) adjusted EPS viewed at the Nov 2027 target date, USD per share of the US common listing (no ADR conversion). FY2027 guide $45.60-$46.40 (midpoint $46.00) grown at an assumed 13% for FY2028 (buybacks of ~$5B/yr shrink the 116.7M diluted shares ~4-5%, plus operating profit growth); EPS x multiple.",
+        "bear": 833.0,
+        "base": 1040.0,
+        "bull": 1210.0,
+        "cases": {
+          "bear": {
+            "driver": "GLP-1 distribution margin compression, Med-Surg weakness, slower buybacks",
+            "assumption": "FY2028 EPS $49 at 17x",
+            "target": 833.0
+          },
+          "base": {
+            "driver": "Guide delivered, 13% EPS growth on specialty/oncology and buybacks",
+            "assumption": "FY2028 EPS $52 at 20x",
+            "target": 1040.0
+          },
+          "bull": {
+            "driver": "Oncology and Rx tech outperform, Precision Medicine and Option Care accretion",
+            "assumption": "FY2028 EPS $55 at 22x",
+            "target": 1210.0
+          }
+        },
+        "implied_by_close": "At base EPS $52 the close of $1,102.81 implies 21.2x FY2028 (24.0x FY2027 midpoint); no analyst-weighted target was sourced, so the close implies about 22x on bull-leaning EPS of $50 or 20x on EPS $55",
+        "sensitivity": "One turn of P/E moves the base target by $52 (4.7 pp of the close)",
+        "watch_metric": "Fiscal 2027 adjusted EPS vs the $45.60-$46.40 guide, with North American Pharmaceutical and Oncology operating profit growth",
+        "next_disclosure": "Fiscal Q3 2027 results, expected early February 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Dated, named analyst target and rating calls from the last 12 months could not be verified from accessible sources (MarketBeat blocked; secondary snippets lacked reliable dates), so no events are listed. Search snippets showed consensus targets around $1,040 (MarketBeat/Fox Business, 19-20 ratings) and a Barclays raise to $1,000 from $925 reported for Aug 2026, unverified here. The base case of $1,040 is in line with that consensus.",
+      "sources": [
+        {
+          "label": "Yahoo Finance: MCK Q2 FY2027 results",
+          "url": "https://finance.yahoo.com/healthcare/articles/mck-q2-earnings-beat-estimates-130000114.html",
+          "supports": "EPS, guidance, diluted share count, buybacks"
+        },
+        {
+          "label": "Yahoo Finance: Q2 2027 earnings call summary",
+          "url": "https://finance.yahoo.com/healthcare/articles/mckesson-corporation-q2-2027-earnings-133000851.html",
+          "supports": "Guidance raise, acquisitions"
+        },
+        {
+          "label": "GuruFocus: Q2 2027 call highlights",
+          "url": "https://www.gurufocus.com/news/9173845/mckesson-corp-mck-q2-2027-earnings-call-highlights-raised-guidance-glp1-momentum-and-strategic-acquisitions-fuel-growth",
+          "supports": "Guidance, GLP-1 momentum"
+        },
+        {
+          "label": "Fox Business MCK quote",
+          "url": "https://www.foxbusiness.com/quote?stockTicker=MCK",
+          "supports": "Consensus target"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": "2026-11-04T16:05:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -51585,6 +52879,11 @@
         "kind": "new"
       },
       {
+        "symbol": "BMY",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "BRK/B",
         "researched_at": "2026-11-16",
         "kind": "new"
@@ -51760,6 +53059,11 @@
         "kind": "new"
       },
       {
+        "symbol": "LOW",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "LRCX",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -51775,8 +53079,23 @@
         "kind": "new"
       },
       {
+        "symbol": "MCK",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "MDT",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "META",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "MO",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -52299,6 +53618,22 @@
         "prior_target": 675,
         "direction": "raise",
         "revision_pct": 18.518518518518512,
+        "horizon_months": null
+      },
+      {
+        "symbol": "LOW",
+        "firm": "Stifel",
+        "analyst": "(unnamed) Stifel",
+        "issued_at": "2026-11-12",
+        "source": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5",
+        "currency": null,
+        "rating": "Sell",
+        "bucket": "Sell",
+        "prior_rating": null,
+        "target": 190.0,
+        "prior_target": 195,
+        "direction": "cut",
+        "revision_pct": -2.564102564102566,
         "horizon_months": null
       },
       {

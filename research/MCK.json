@@ -1,0 +1,31 @@
+{
+  "issuer_id": "McKesson Corporation",
+  "symbol": "MCK",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 1102.8101, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-11-04T16:05:00-05:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2028 (year to Mar 2028) adjusted EPS viewed at the Nov 2027 target date, USD per share of the US common listing (no ADR conversion). FY2027 guide $45.60-$46.40 (midpoint $46.00) grown at an assumed 13% for FY2028 (buybacks of ~$5B/yr shrink the 116.7M diluted shares ~4-5%, plus operating profit growth); EPS x multiple.",
+    "bear": 833.0, "base": 1040.0, "bull": 1210.0,
+    "cases": {
+      "bear": {"driver": "GLP-1 distribution margin compression, Med-Surg weakness, slower buybacks", "assumption": "FY2028 EPS $49 at 17x", "target": 833.0},
+      "base": {"driver": "Guide delivered, 13% EPS growth on specialty/oncology and buybacks", "assumption": "FY2028 EPS $52 at 20x", "target": 1040.0},
+      "bull": {"driver": "Oncology and Rx tech outperform, Precision Medicine and Option Care accretion", "assumption": "FY2028 EPS $55 at 22x", "target": 1210.0}
+    },
+    "implied_by_close": "At base EPS $52 the close of $1,102.81 implies 21.2x FY2028 (24.0x FY2027 midpoint); no analyst-weighted target was sourced, so the close implies about 22x on bull-leaning EPS of $50 or 20x on EPS $55",
+    "sensitivity": "One turn of P/E moves the base target by $52 (4.7 pp of the close)",
+    "watch_metric": "Fiscal 2027 adjusted EPS vs the $45.60-$46.40 guide, with North American Pharmaceutical and Oncology operating profit growth",
+    "next_disclosure": "Fiscal Q3 2027 results, expected early February 2027"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Dated, named analyst target and rating calls from the last 12 months could not be verified from accessible sources (MarketBeat blocked; secondary snippets lacked reliable dates), so no events are listed. Search snippets showed consensus targets around $1,040 (MarketBeat/Fox Business, 19-20 ratings) and a Barclays raise to $1,000 from $925 reported for Aug 2026, unverified here. The base case of $1,040 is in line with that consensus.",
+  "sources": [
+    {"label": "Yahoo Finance: MCK Q2 FY2027 results", "url": "https://finance.yahoo.com/healthcare/articles/mck-q2-earnings-beat-estimates-130000114.html", "supports": "EPS, guidance, diluted share count, buybacks"},
+    {"label": "Yahoo Finance: Q2 2027 earnings call summary", "url": "https://finance.yahoo.com/healthcare/articles/mckesson-corporation-q2-2027-earnings-133000851.html", "supports": "Guidance raise, acquisitions"},
+    {"label": "GuruFocus: Q2 2027 call highlights", "url": "https://www.gurufocus.com/news/9173845/mckesson-corp-mck-q2-2027-earnings-call-highlights-raised-guidance-glp1-momentum-and-strategic-acquisitions-fuel-growth", "supports": "Guidance, GLP-1 momentum"},
+    {"label": "Fox Business MCK quote", "url": "https://www.foxbusiness.com/quote?stockTicker=MCK", "supports": "Consensus target"}
+  ]
+}

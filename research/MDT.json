@@ -1,0 +1,170 @@
+{
+ "issuer_id": "Medtronic plc",
+ "symbol": "MDT",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 102.86,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-09-01T06:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Unnamed Bank of America analyst",
+   "firm": "Bank of America",
+   "field": "target",
+   "value": 110,
+   "source_prior": 95,
+   "issued_at": "2026-09-02",
+   "public_at": "2026-09-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Unnamed Bank of America analyst",
+   "firm": "Bank of America",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-02",
+   "public_at": "2026-09-02T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Larry Biegelsen",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 104,
+   "source_prior": 102,
+   "issued_at": "2026-09-02",
+   "public_at": "2026-09-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Larry Biegelsen",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Overweight",
+   "bucket": "Buy",
+   "issued_at": "2026-09-02",
+   "public_at": "2026-09-02T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Shagun Singh",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 118,
+   "source_prior": 111,
+   "issued_at": "2026-09-02",
+   "public_at": "2026-09-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Shagun Singh",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Outperform",
+   "bucket": "Buy",
+   "issued_at": "2026-09-02",
+   "public_at": "2026-09-02T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Unnamed Mizuho analyst",
+   "firm": "Mizuho",
+   "field": "target",
+   "value": 115,
+   "source_prior": null,
+   "issued_at": "2026-09-02",
+   "public_at": "2026-09-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Unnamed TD Cowen analyst",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 110,
+   "source_prior": null,
+   "issued_at": "2026-09-30",
+   "public_at": "2026-09-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Unnamed TD Cowen analyst",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-30",
+   "public_at": "2026-09-30T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+  },
+  {
+   "analyst": "Unnamed Barclays analyst",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Equal Weight",
+   "bucket": "Hold",
+   "issued_at": "2026-10-08",
+   "public_at": "2026-10-08T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/instant-alerts/analyst-barclays-upgrades-medtronic-nyse-mdt-to-hold-2026-10-08/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. Medtronic FY2027 (Apr 2026-Apr 2027) adjusted EPS guidance is $5.94-6.00 after the Q1 beat. An investor at the Nov 2027 target date prices FY2028 (ending Apr 2028) adjusted EPS, which I model from the FY27 midpoint. USD ordinary-share listing, no ADR conversion.",
+  "bear": 89.2,
+  "base": 109.7,
+  "bull": 127.3,
+  "cases": {
+   "bear": {
+    "driver": "Growth stalls near 3% EPS growth on Diabetes/MiniMed separation costs and pulsed-field ablation competition",
+    "assumption": "FY28 EPS $6.15 at 14.5x",
+    "target": 89.2
+   },
+   "base": {
+    "driver": "About 8% EPS growth from 6-7% organic sales growth and modest margin expansion, off the $5.97 guidance midpoint",
+    "assumption": "FY28 EPS $6.45 at 17.0x",
+    "target": 109.7
+   },
+   "bull": {
+    "driver": "Cardiac ablation and Hugo robot ramp drive 12% EPS growth and a re-rating",
+    "assumption": "FY28 EPS $6.70 at 19.0x",
+    "target": 127.3
+   }
+  },
+  "implied_by_close": "At base EPS $6.45 the close implies 15.9x; the analyst-weighted target (~$110) implies 17.1x or EPS about $6.96 at 15.8x",
+  "sensitivity": "One turn of P/E moves the base target by $6.45 (6.3 pp)",
+  "watch_metric": "Organic revenue growth against the 7.25-7.75% FY27 guide and adjusted EPS against the $5.94-6.00 range",
+  "next_disclosure": "Fiscal Q2 2027 earnings, expected around late November 2026 (company guided Q2 EPS $1.32-1.34)"
+ },
+ "dividend_per_share": 2.14,
+ "analyst_notes": "Targets I could verify were raised or reaffirmed after the Sept 1 Q1 beat, with BofA, Wells Fargo, Mizuho, RBC and TD Cowen at $104-118; Barclays moved to Hold in October. Their roughly $110 average is a bit above my $109.7 base, equal to a 17.1x P/E on my EPS or about 6% more EPS. Most analyst names and horizons were not given by the accessible sources, and MarketBeat pages could not be opened directly, so coverage is partial and the BofA prior target conflicts across sources. Dividend is an approximation of the annualized rate.",
+ "sources": [
+  {
+   "label": "MarketBeat TD Cowen reaffirmation (Sept 2026 analyst actions)",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/",
+   "supports": "Analyst targets and ratings"
+  },
+  {
+   "label": "MarketBeat Barclays upgrade to Hold",
+   "url": "https://www.marketbeat.com/instant-alerts/analyst-barclays-upgrades-medtronic-nyse-mdt-to-hold-2026-10-08/",
+   "supports": "Barclays rating"
+  },
+  {
+   "label": "Medtronic Q1 FY2027 guidance coverage",
+   "url": "https://www.thecerbatgem.com/2026/09/01/medtronic-nysemdt-releases-q2-2027-earnings-guidance.html",
+   "supports": "FY27 EPS guidance 5.94-6.00, Q2 EPS guide, Q1 EPS 1.45"
+  },
+  {
+   "label": "Medtronic FY2027 guidance coverage",
+   "url": "https://www.dailypolitical.com/2026/09/01/medtronic-nysemdt-issues-fy-2027-earnings-guidance.html",
+   "supports": "FY27 outlook"
+  }
+ ]
+}

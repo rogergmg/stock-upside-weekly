@@ -1,0 +1,165 @@
+{
+ "issuer_id": "Altria Group, Inc.",
+ "symbol": "MO",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 78.64,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-10-29T07:00:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Pallav Mittal",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 60,
+   "source_prior": 58,
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Pallav Mittal",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Sell",
+   "bucket": "Sell",
+   "issued_at": "2026-11-02",
+   "public_at": "2026-11-02T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Simon Hales",
+   "firm": "Citi",
+   "field": "target",
+   "value": 72,
+   "source_prior": 70,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Simon Hales",
+   "firm": "Citi",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Eric Serotta",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 77,
+   "source_prior": 71,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Eric Serotta",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Hold",
+   "bucket": "Hold",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Faham Baig",
+   "firm": "UBS",
+   "field": "target",
+   "value": 83,
+   "source_prior": 79,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Faham Baig",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Matthew Smith",
+   "firm": "Stifel Nicolaus",
+   "field": "target",
+   "value": 82,
+   "source_prior": 77,
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  },
+  {
+   "analyst": "Matthew Smith",
+   "firm": "Stifel Nicolaus",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-30",
+   "public_at": "2026-10-30T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/mo/forecast/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. FY2027 adjusted diluted EPS (the year priced at the Nov 2027 target date) times a P/E. Anchor: FY2025 adjusted EPS $5.42; FY2026 guidance raised on 2026-10-29 to $5.66-$5.74 (+4.5% to 6.0%); 9M 2026 adjusted EPS $4.33. FY2027 EPS is my assumption of about +5% on a $5.70 midpoint, from pricing, buybacks (program expanded by $1bn) and ABI income, offset by cigarette volume declines. US listing, USD, no ADR conversion. Targets are price only; dividends separate.",
+  "bear": 66.7,
+  "base": 78.0,
+  "bull": 89.2,
+  "cases": {
+   "bear": {
+    "driver": "Cigarette volumes decline faster, smoke-free losses widen, EPS growth stalls near +2%, multiple de-rates",
+    "assumption": "FY2027 EPS $5.80 at 11.5x",
+    "target": 66.7
+   },
+   "base": {
+    "driver": "FY2026 lands mid-guidance, FY2027 EPS grows about 5% on pricing and buybacks",
+    "assumption": "FY2027 EPS $6.00 at 13.0x",
+    "target": 78.0
+   },
+   "bull": {
+    "driver": "Smoke-free (on!, NJOY return) gains, resilient pricing, EPS growth near 8% and multiple holds",
+    "assumption": "FY2027 EPS $6.15 at 14.5x",
+    "target": 89.2
+   }
+  },
+  "implied_by_close": "At base EPS $6.00 the $78.64 close implies 13.1x; no 12-month-documented targets are weighted, but the sample mean of $74.80 implies 12.5x on base EPS, or EPS $5.75 at 13.0x.",
+  "sensitivity": "One turn of P/E moves the base target by $6.00 (7.6 pp of the close)",
+  "watch_metric": "Adjusted diluted EPS growth versus the raised $5.66-$5.74 FY2026 guidance, and domestic cigarette volume decline",
+  "next_disclosure": "Q4 and FY2026 results, expected late January 2027 (date not confirmed)"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Five named calls were found, all after the 2026-10-29 earnings release: Barclays (Sell) raised to $60 from $58, Citi (Hold) to $72, Morgan Stanley (Hold) to $77, UBS (Buy) to $83 and Stifel (Buy) to $82. The spread of $60 to $83 reflects the Barclays bear view versus Buy-rated houses; Stifel and UBS imply about 13.7x to 13.8x on my base EPS. Horizons are undocumented so none are weighted, and older calls were not retrieved.",
+ "sources": [
+  {
+   "label": "StockAnalysis MO forecast",
+   "url": "https://stockanalysis.com/stocks/mo/forecast/",
+   "supports": "Named analyst calls"
+  },
+  {
+   "label": "Altria Q3 2026 earnings release (8-K ex. 99.1)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0000764180/000076418026000112/exhibit991erq32026.htm",
+   "supports": "Q3 EPS, 9M EPS $4.33, FY2026 guidance"
+  },
+  {
+   "label": "Quartr Altria Q3 2026",
+   "url": "https://quartr.com/events/altria-group-inc-mo-q3-2026_33fjoS2B",
+   "supports": "Guidance growth, buyback expansion"
+  }
+ ]
+}

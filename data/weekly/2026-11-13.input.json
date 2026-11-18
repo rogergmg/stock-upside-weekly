@@ -15341,9 +15341,121 @@
         "high": 134229660245
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Unnamed Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "target",
+          "value": 110,
+          "source_prior": 95,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Unnamed Bank of America analyst",
+          "firm": "Bank of America",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Larry Biegelsen",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 104,
+          "source_prior": 102,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Larry Biegelsen",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Shagun Singh",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 118,
+          "source_prior": 111,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Shagun Singh",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Unnamed Mizuho analyst",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 115,
+          "source_prior": null,
+          "issued_at": "2026-09-02",
+          "public_at": "2026-09-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Unnamed TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 110,
+          "source_prior": null,
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Unnamed TD Cowen analyst",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-30",
+          "public_at": "2026-09-30T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-medtronics-mdt-buy-rating-reaffirmed-at-td-cowen-2026-09-30/"
+        },
+        {
+          "analyst": "Unnamed Barclays analyst",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-08",
+          "public_at": "2026-10-08T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-barclays-upgrades-medtronic-nyse-mdt-to-hold-2026-10-08/"
+        }
+      ],
+      "earnings_at": "2026-09-01T06:00:00-04:00",
+      "valuation": {
+        "bear": 89.2,
+        "base": 109.7,
+        "bull": 127.3
+      },
+      "dividend_per_share": 2.14
     },
     {
       "issuer_id": "Altria Group, Inc.",
@@ -15357,9 +15469,120 @@
         "high": 133479833745
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Pallav Mittal",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 60,
+          "source_prior": 58,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Pallav Mittal",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Simon Hales",
+          "firm": "Citi",
+          "field": "target",
+          "value": 72,
+          "source_prior": 70,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Simon Hales",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Eric Serotta",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 77,
+          "source_prior": 71,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Eric Serotta",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Faham Baig",
+          "firm": "UBS",
+          "field": "target",
+          "value": 83,
+          "source_prior": 79,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Faham Baig",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Matthew Smith",
+          "firm": "Stifel Nicolaus",
+          "field": "target",
+          "value": 82,
+          "source_prior": 77,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        },
+        {
+          "analyst": "Matthew Smith",
+          "firm": "Stifel Nicolaus",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/mo/forecast/"
+        }
+      ],
+      "earnings_at": "2026-10-29T07:00:00-04:00",
+      "valuation": {
+        "bear": 66.7,
+        "base": 78.0,
+        "bull": 89.2
+      }
     },
     {
       "issuer_id": "Bristol-Myers Squibb Company",
@@ -15373,9 +15596,69 @@
         "high": 132249491546
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 40,
+          "source_prior": 41,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html"
+        },
+        {
+          "analyst": "Morgan Stanley analyst (unnamed)",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Underweight",
+          "bucket": "Sell",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://www.defenseworld.net/2026/10/31/bristol-myers-squibb-nysebmy-price-target-cut-to-40-00-by-analysts-at-morgan-stanley.html"
+        },
+        {
+          "analyst": "Mohit Bansal",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 60,
+          "source_prior": 65,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bmy/"
+        },
+        {
+          "analyst": "Mohit Bansal",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bmy/"
+        },
+        {
+          "analyst": "BofA analyst (unnamed)",
+          "firm": "BofA",
+          "field": "target",
+          "value": 67,
+          "source_prior": null,
+          "issued_at": "2026-10-30",
+          "public_at": "2026-10-30T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.investing.com/news/analyst-ratings/bofa-raises-bristolmyers-squibb-stock-price-target-to-67-93CH-4986570"
+        }
+      ],
+      "earnings_at": "2026-10-29T06:30:00-04:00",
+      "valuation": {
+        "bear": 45.0,
+        "base": 63.7,
+        "bull": 85.0
+      },
+      "dividend_per_share": 2.52
     },
     {
       "issuer_id": "Lowe's Companies, Inc.",
@@ -15389,9 +15672,120 @@
         "high": 130404326896
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "David Bellinger",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 250,
+          "source_prior": 280,
+          "horizon_months": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574"
+        },
+        {
+          "analyst": "David Bellinger",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574"
+        },
+        {
+          "analyst": "Bradley Thomas",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 275,
+          "source_prior": 275,
+          "horizon_months": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574"
+        },
+        {
+          "analyst": "Bradley Thomas",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574"
+        },
+        {
+          "analyst": "Steven Shemesh",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 231,
+          "source_prior": 231,
+          "horizon_months": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574"
+        },
+        {
+          "analyst": "Steven Shemesh",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574"
+        },
+        {
+          "analyst": "Max Rakhlenko",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 235,
+          "source_prior": 235,
+          "horizon_months": null,
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574"
+        },
+        {
+          "analyst": "Max Rakhlenko",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-21",
+          "public_at": "2026-08-21T23:59:59-04:00",
+          "source": "https://www-web.itiger.com/news/2661523574"
+        },
+        {
+          "analyst": "(unnamed) Stifel",
+          "firm": "Stifel",
+          "field": "target",
+          "value": 190,
+          "source_prior": 195,
+          "horizon_months": null,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5"
+        },
+        {
+          "analyst": "(unnamed) Stifel",
+          "firm": "Stifel",
+          "field": "rating",
+          "value": "Sell",
+          "bucket": "Sell",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-04:00",
+          "source": "https://stocktwits.com/news-articles/markets/equity/low-stock-gets-fresh-analyst-downgrade-ahead-of-q3-earnings-what-investors-need-to-know/cNbRGkGR9f5"
+        }
+      ],
+      "earnings_at": "2026-08-19T06:30:00-04:00",
+      "valuation": {
+        "bear": 192.0,
+        "base": 264.0,
+        "bull": 314.6
+      }
     },
     {
       "issuer_id": "McKesson Corporation",
@@ -15405,9 +15799,14 @@
         "high": 129873310675
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-11-04T16:05:00-05:00",
+      "valuation": {
+        "bear": 833.0,
+        "base": 1040.0,
+        "bull": 1210.0
+      }
     },
     {
       "issuer_id": "Sandisk Corporation",

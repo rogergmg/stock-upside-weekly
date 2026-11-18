@@ -1,0 +1,47 @@
+{
+ "issuer_id": "PepsiCo, Inc.",
+ "symbol": "PEP",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 145.44, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-10-08T08:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {"analyst": "Peter Galbo", "firm": "Bank of America Securities", "field": "target", "value": 145, "issued_at": "2026-10-16", "public_at": "2026-10-16T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pep/ratings/"},
+  {"analyst": "Peter Galbo", "firm": "Bank of America Securities", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-10-16", "public_at": "2026-10-16T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/pep/ratings/"},
+  {"analyst": "Lauren Lieberman", "firm": "Barclays", "field": "target", "value": 126, "issued_at": "2026-10-12", "public_at": "2026-10-12T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pep/ratings/", "source_prior": 133},
+  {"analyst": "Lauren Lieberman", "firm": "Barclays", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-10-12", "public_at": "2026-10-12T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/pep/ratings/"},
+  {"analyst": "Georgy Vashchenko", "firm": "Freedom Capital Markets", "field": "target", "value": 147, "issued_at": "2026-10-10", "public_at": "2026-10-10T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pep/ratings/", "source_prior": 162},
+  {"analyst": "Georgy Vashchenko", "firm": "Freedom Capital Markets", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-10-10", "public_at": "2026-10-10T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/pep/ratings/"},
+  {"analyst": "Andrea Faria Teixeira", "firm": "J.P. Morgan", "field": "target", "value": 137, "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pep/ratings/", "source_prior": 138},
+  {"analyst": "Andrea Faria Teixeira", "firm": "J.P. Morgan", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/pep/ratings/"},
+  {"analyst": "Filippo Falorni", "firm": "Citi", "field": "target", "value": 135, "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pep/ratings/", "source_prior": 142},
+  {"analyst": "Filippo Falorni", "firm": "Citi", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/pep/ratings/"},
+  {"analyst": "Dara Mohsenian", "firm": "Morgan Stanley", "field": "target", "value": 145, "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59-04:00", "horizon_months": null, "source": "https://stockanalysis.com/stocks/pep/ratings/", "source_prior": 160},
+  {"analyst": "Dara Mohsenian", "firm": "Morgan Stanley", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-10-09", "public_at": "2026-10-09T23:59:59-04:00", "source": "https://stockanalysis.com/stocks/pep/ratings/"}
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E: FY2027 core EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (NYSE/Nasdaq-listed common stock), no ADR conversion. Anchor: FY2025 core EPS $8.14 (36-week 2025 core $5.88 plus Q4 2025 core $2.26); FY2026 core EPS guidance +2.5% to +3.5% (cut Oct 8 2026 from low-end +5% to +7%), implying about $8.34-$8.42, with 36-week 2026 core EPS of $6.15 (+5%). FY2027 EPS is my own assumption: low-single-digit to mid-single-digit growth, with North American margin pressure and a non-recurring tariff refund benefit ($178M per CFO) not repeating, partly offset by international growth and buybacks (about $1.0B expected in FY2026). Figures are from the Q3 2026 8-K exhibit and secondary coverage of the FY2025 release; the FY2025 base should be checked against the 10-K.",
+  "bear": 123.0,
+  "base": 148.75,
+  "bull": 176.7,
+  "cases": {
+   "bear": {"driver": "North American margin pressure persists into 2027, volume stays soft, tariff and commodity costs absorb pricing; the defensive staples multiple compresses toward 15x as analysts keep cutting targets.", "assumption": "FY2027 core EPS $8.20 at 15x", "target": 123.0},
+   "base": {"driver": "Organic revenue growth about 3%, modest North American margin recovery and buybacks lift core EPS about 4-5% from the $8.38 FY2026 midpoint; the multiple holds near 17x, close to the current trailing level.", "assumption": "FY2027 core EPS $8.75 at 17x", "target": 148.75},
+   "bull": {"driver": "International strength and cost savings drive margin recovery in North America; organic growth reaches 4% and the market re-rates the shares toward a premium staples multiple.", "assumption": "FY2027 core EPS $9.30 at 19x", "target": 176.7}
+  },
+  "implied_by_close": "At base EPS $8.75 the $145.44 close implies 16.6x; at FY2026 guidance midpoint $8.38 it is 17.4x. The equal-weight average of the six named pre-close targets ($139.17) implies 15.9x on $8.75, or about $8.37 EPS at 16.6x.",
+  "sensitivity": "One turn of P/E moves the base target by $8.75 (about 6.0 pp of the close).",
+  "watch_metric": "North American operating margin and organic volume growth in Q4 2026 and the FY2027 core EPS guidance, which must show whether the North American margin pressure has bottomed and whether the $178M tariff refund benefit is excluded from the run-rate.",
+  "next_disclosure": "Q4 and FY2026 results with initial FY2027 guidance, expected around early February 2027 (date not confirmed)."
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Six named analysts through the Nov 13 close, all from one aggregator table: five Holds (BofA, Barclays, JPMorgan, Citi, Morgan Stanley) and one Buy (Freedom Capital Markets, upgraded). Six current targets range from $126 to $147 (equal-weight average $139.17), about 4% below the $145.44 close, i.e. -4.3% analyst-implied return against +2.3% base-case return, a gap of about -6.6 pp. The gap equals roughly 1.1 turns of P/E on $8.75 EPS (15.9x implied versus my 17x base). Five of six named targets were lowered from their prior levels by $1 to $15 after the Oct 8 earnings cut; the BofA prior target is not shown in the source. Wolfe Research (initiation, Hold) and Bernstein (downgrade to Sell at $128) are dated Nov 17, after the reference close, and are excluded; a Bernstein Sell call could not be confirmed in an independent news search. No documented 12-month horizon was found, so these targets sit outside the weighted target. Aggregate consensus on Investing.com and Bullstory is about $141.5 across 22 analysts, which includes older targets and is not used in the calculation."
+ ,
+ "sources": [
+  {"label": "Q3 2026 8-K Exhibit 99.1 (release Oct 8 2026)", "url": "https://www.sec.gov/Archives/edgar/data/0000077476/000007747626000050/q320268-kxexhibit991.htm", "supports": "Q3 core EPS $2.34, FY2026 core EPS guidance +2.5% to +3.5%, 36-week core EPS $6.15 vs $5.88, shares 1,367M"},
+  {"label": "Q4 2025 results summary (James Sharp, secondary)", "url": "https://www.jamessharp.co.uk/market-news/pepsico-reports-q4-full-year-2025-results", "supports": "FY2025 core EPS $8.14, GAAP EPS $6.00"},
+  {"label": "Stockanalysis PEP analyst ratings", "url": "https://stockanalysis.com/stocks/pep/ratings/", "supports": "Named analyst ratings and targets, prior targets and action dates"},
+  {"label": "Investing.com PepsiCo consensus", "url": "https://www.investing.com/equities/pepsico-consensus-estimates", "supports": "Aggregate average target about $141.45 across 22 analysts (context only)"}
+ ]
+}

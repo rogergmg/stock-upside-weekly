@@ -1,0 +1,31 @@
+{
+ "issuer_id": "KLA Corporation",
+ "symbol": "KLAC",
+ "researched_at": "2026-11-18",
+ "research_close": {"close": 152.32, "close_date": "2026-11-13"},
+ "currency": "USD",
+ "earnings_at": "2026-10-28T16:05:00-04:00",
+ "coverage": "unavailable",
+ "events": [],
+ "valuation": {
+  "method": "Forward EPS x P/E. KLA's fiscal year ends June, so at the Nov 2027 12-month target date an investor prices FY2028 (July 2027 to June 2028) non-GAAP diluted EPS, the same convention as LRCX. Anchored on the Q1 FY2027 print (reported Oct 28, 2026 after the close): revenue $4.136B, non-GAAP diluted EPS $1.22, non-GAAP net income $1.603B, diluted shares 1,311.1M. Q2 FY2027 guide (December quarter): revenue $4.7B +/- $0.2B, non-GAAP EPS $1.44 +/- $0.11, 1,306M shares, non-GAAP gross margin 62.5%. Model: FY2028 revenue x non-GAAP net margin / ~1.306B diluted shares. Non-GAAP net margin was 38.8% in Q1 and about 40% implied by Q2 guidance. Base case assumes FY2028 revenue about $21.0B (about +12% on an FY2027 run-rate of about $18.7B built from Q1, the Q2 guide, and assumed H2 revenue of $4.9B and $5.0B) at a 40% net margin. Interest, other income and the net-cash position are ignored; price-only targets with dividends shown separately. The FY2027 quarterly path beyond Q2 and the FY2028 figures are model assumptions, not company guidance; no sourced FY2028 consensus was found.",
+  "bear": 104, "base": 160, "bull": 211,
+  "cases": {
+   "bear": {"driver": "Wafer-fab-equipment down-cycle and China digestion: FY2028 revenue about $18.0B (flat on the FY2027 run-rate), net margin falling to 36%", "assumption": "EPS $4.95 at 21x (trough-cycle multiple for a company with a 40%+ margin history)", "target": 104},
+   "base": {"driver": "Guide-based growth continues: FY2028 revenue about $21.0B (+12%), net margin 40% in line with the Q2 guide, shares 1.306B", "assumption": "EPS $6.40 at 25x", "target": 160},
+   "bull": {"driver": "AI packaging and leading-edge logic capex upcycle: FY2028 revenue about $23.5B, net margin 42%", "assumption": "EPS $7.55 at 28x", "target": 211}
+  },
+  "implied_by_close": "At base EPS $6.40 the 152.32 close implies 23.8x. The MarketBeat consensus target of $220.35 (Oct-Nov 2026, not individually dated here) implies 34.4x at base EPS, or about $8.80 EPS at a constant 25x (about 37% above the model).",
+  "sensitivity": "One turn of P/E moves the base target by $6.40 (about 4.2 pp of return); $0.10 of FY2028 EPS moves it by $2.50 (about 1.6 pp).",
+  "watch_metric": "Quarterly revenue vs the $4.7B +/- $0.2B December-quarter guide, and the non-GAAP operating or net margin vs the 62.5% gross margin guide (net margin about 40%).",
+  "next_disclosure": "Fiscal Q2 2027 (December quarter) earnings, expected late January 2027 (date not confirmed in sources)"
+ },
+ "dividend_per_share": 0.92,
+ "analyst_notes": "No named analyst calls from the last 12 months could be verified from accessible sources, so the events list is empty and the coverage is labelled unavailable. Firm-level actions after the Oct 28 print, reported by MarketBeat on Oct 30, were: Morgan Stanley overweight reaffirmed at $220; Susquehanna cut $215 to $190 (neutral); Wells Fargo cut $245 to $210 (overweight); JPMorgan raised $238 to $240 (overweight); Stifel buy at $230; Citigroup trimmed to $275 (buy); Argus buy at $225. These have no named analyst and are not used in any weighted target. The MarketBeat consensus of about $220 sits roughly 37% above the $160 base case, which needs about $8.80 EPS at 25x or a multiple near 34x on base EPS. Prices and consensus in these sources were not all on one date or one basis, and some results carried pre-split (10-for-1, June 2026) targets, which were excluded.",
+ "sources": [
+  {"label": "KLA Q1 FY2027 results release (Oct 28, 2026)", "url": "https://finviz.com/news/410498/kla-corporation-reports-fiscal-2027-first-quarter-results", "supports": "Q1 revenue, GAAP and non-GAAP EPS, net income, diluted shares, Q2 guidance, balance sheet, release time"},
+  {"label": "MarketBeat, Morgan Stanley, Susquehanna, Wells Fargo, JPMorgan KLAC actions (Oct 30, 2026)", "url": "https://www.marketbeat.com/instant-alerts/analyst-klas-klac-buy-rating-reiterated-at-argus-2026-10-30/", "supports": "Post-earnings firm-level target changes and the $220.35 consensus (firm only, unnamed)"},
+  {"label": "KLA declares regular cash dividend (Aug 6, 2026)", "url": "https://www.placera.se/pressmeddelanden/kla-declares-regular-cash-dividend-20260806", "supports": "Quarterly dividend $0.23 per share (annual $0.92)"},
+  {"label": "KLA IR, regular cash dividend release", "url": "https://ir.kla.com/news-events/press-releases/detail/520/kla-declares-regular-cash-dividend", "supports": "Dividend declaration cross-check; $1.90 February 2026 figure conflicts and was not used"}
+ ]
+}

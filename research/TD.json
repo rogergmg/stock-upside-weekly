@@ -1,0 +1,34 @@
+{
+  "issuer_id": "The Toronto-Dominion Bank",
+  "symbol": "TD",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 123.76, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-08-27T06:30:00-04:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Bank: forward adjusted EPS in C$ (FY2027, viewed at the 12-month target date of Nov 2027) x P/E, then converted to USD. Q3 FY2026 (quarter to 31 Jul 2026) adjusted diluted EPS C$2.77 and nine-month adjusted EPS C$7.59 (reported 27 Aug 2026); FY2026 run-rate about C$10.2-10.3. Base FY2027 EPS C$11.0 (about 7% growth, driven by Canadian and Wholesale earnings and buybacks; US BSA/AML remediation costs of about US$550m pre-tax in FY2026 are treated as a drag that fades). P/E is a judgement against the close: 16.5x base, with the close itself at about 16.0x base EPS. ADR ratio: 1 NYSE share = 1 TD common share (ratio 1:1, no depositary receipt found; TD's own disclosures state the common shares are listed on the TSX and NYSE under TD, so the usual 2:1 ADR conversion does not apply; this differs from the premise that TD is an ADR and should be confirmed). FX: USD per CAD 0.7014 from the Bank of Canada daily rate of 1.4257 CAD per USD on 13 Nov 2026 (reference close date), held constant to the target date; CAD targets divided by 1.4257 to give USD targets. Dividend excluded from price targets.",
+    "bear": 100.16,
+    "base": 127.31,
+    "bull": 148.98,
+    "cases": {
+      "bear": {"driver": "Credit and trading cycle turns (provisions up from C$917m a quarter, Wholesale trading normalises, US BSA/AML costs run past the US$550m guide), so EPS stalls at about FY2026 levels while the market pays a lower multiple for the US franchise.", "assumption": "EPS C$10.2 at 14x P/E = C$142.8, / 1.4257 = US$100.16", "target": 100.16},
+      "base": {"driver": "Management path holds: Canadian Personal and Commercial and Wealth earnings grow high single digits, Wholesale stays strong, CET1 of 14.3% supports buybacks, and BSA/AML costs fade after the 2027 lookback completes.", "assumption": "EPS C$11.0 at 16.5x P/E = C$181.5, / 1.4257 = US$127.31", "target": 127.31},
+      "bull": {"driver": "Reported ROTCE (19% in Q3) is sustained as the US Banking drag is cleared, capital return accelerates, and the market re-rates TD toward its Canadian bank peers' upper multiple.", "assumption": "EPS C$11.8 at 18x P/E = C$212.4, / 1.4257 = US$148.98", "target": 148.98}
+    },
+    "implied_by_close": "The close of US$123.76 equals C$176.44 at 1.4257, which is 16.0x base FY2027 EPS of C$11.0 (about 17x FY2026 run-rate). The aggregator consensus of about C$171 (MarketBeat, Sep 2026, 11 analysts, undated within the month) implies about 15.5x base EPS, or about US$120 at the same FX rate. At a constant 16.5x, the close requires EPS of about C$10.7 (about 3% below base); a consensus-level target of US$133.53 (AlphaSpread, undated, 18 analysts) implies about C$190 or about 17.3x base EPS.",
+    "sensitivity": "One turn of P/E moves the base target by about C$11.0 or US$7.72 (6.2 pp of price return); a 0.1 move in USD/CAD (about 7% of the rate) moves all targets by about 6-7% in the opposite direction, so FX is a large swing factor for a USD listing.",
+    "watch_metric": "Adjusted EPS growth against the base case (about 7% in FY2027, roughly C$0.25-0.30 a quarter above the FY2026 run-rate), together with the US BSA/AML cost trajectory against the US$550m FY2026 guide and CET1 of 14.3%.",
+    "next_disclosure": "Q4 and full-year FY2026 results; a secondary calendar shows 26 Nov 2026 before the open, not verified against TD's investor relations calendar. FY2027 outlook would appear there."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "No dated named analyst call could be verified from the sources reached. The RBC (Darko Mihelic) upgrade to Outperform at C$120 from C$93, and the Desjardins, Canaccord and BMO targets, are undated or appear to date from late 2025, and conflict with 2026 figures in MarketBeat and MarketScreener, so coverage is labelled unavailable and no weighted target is computed. Aggregate consensus is C$171.08 average from 11 analysts (MarketBeat, Sep 2026; range C$126-196; Barclays underweight at C$167) and US$133.53 from 18 analysts (AlphaSpread, undated). The gap to the base case (US$127.31) is about 5% of price, equivalent to about 1.1x base EPS or a P/E near 17.3x, and suggests the Street expects faster FY2027 earnings growth or a higher multiple than this case uses. The aggregate figures mix dates and sources and should not be treated as a single consensus.",
+  "sources": [
+    {"label": "TD Bank Group Q3 2026 results (newswire.ca earnings release, 27 Aug 2026)", "url": "https://www.newswire.ca/news-releases/td-bank-group-reports-third-quarter-2026-results-878614719.html", "supports": "Q3 and nine-month adjusted and reported diluted EPS, release time 06:30 ET, 1,638.4m common shares at 31 Jul 2026, CET1 14.3%, ROTCE 19.0% (Q3), US BSA/AML guidance of about US$550m, lookback completion in 2027"},
+    {"label": "Bank of Canada daily exchange rates, 13 Nov 2026", "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/?date=2026-11-13", "supports": "USD/CAD 1.4257 on 13 Nov 2026 (FX conversion; inverse 0.7014 USD per CAD)"},
+    {"label": "TD Bank NYSE disclosure 2026", "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/nyse-disclosure-2026-en.pdf", "supports": "TD is a foreign private issuer listed on NYSE; common shares listed on the TSX and NYSE under TD (ratio 1:1, no ADR)"},
+    {"label": "TD share price tools (NYSE prices in USD)", "url": "https://www1.pat.td.com/investor-relations/ir-homepage/share-information/share-price-tools/stock.jsp", "supports": "NYSE listing quoted in US dollars, TSX in Canadian dollars"},
+    {"label": "TD price target consensus (MarketBeat, Sep 2026)", "url": "https://www.marketbeat.com/stocks/TSE/TD/price-target", "supports": "Average target C$171.08 from 11 analysts, range C$126-196, Barclays underweight C$167 (aggregate context only)"}
+  ]
+}

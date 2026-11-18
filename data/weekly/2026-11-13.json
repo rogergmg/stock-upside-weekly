@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T12:30:43.309000+00:00",
+  "built_at": "2026-11-18T12:36:18.272847+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 68,
+    "rank_valued": 73,
     "rank_with_named_targets": 2,
-    "rank_matched": 68,
-    "researched": 68
+    "rank_matched": 73,
+    "researched": 73
   },
   "ranked": [
     {
@@ -779,6 +779,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "KLAC",
+      "issuer_id": "KLA Corporation",
+      "close": 152.32,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 194497893337,
+        "high": 202436582861
+      },
+      "scenarios_pct": {
+        "bear": -31.722689075630253,
+        "base": 5.042016806722689,
+        "bull": 38.52415966386555
+      },
+      "base_total_return_pct": 5.6460084033613445,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "MUFG",
       "issuer_id": "Mitsubishi UFJ Financial Group, Inc.",
       "close": 21.83,
@@ -1031,6 +1052,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "TD",
+      "issuer_id": "The Toronto-Dominion Bank",
+      "close": 123.76,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 198060107010,
+        "high": 206258531423
+      },
+      "scenarios_pct": {
+        "bear": -19.069166127989657,
+        "base": 2.8684550743374273,
+        "bull": 20.3781512605042
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "unavailable",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "HSBC",
       "issuer_id": "HSBC Holdings plc",
       "close": 89.62,
@@ -1044,6 +1086,27 @@
         "bear": -25.016737335416202,
         "base": 2.68913189020308,
         "bull": 26.422673510377148
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "PEP",
+      "issuer_id": "PepsiCo, Inc.",
+      "close": 145.44,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 194233123132,
+        "high": 202161005709
+      },
+      "scenarios_pct": {
+        "bear": -15.429042904290428,
+        "base": 2.275852585258526,
+        "bull": 21.493399339933994
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -1325,6 +1388,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "ARM",
+      "issuer_id": "Arm Holdings plc",
+      "close": 190.53,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 198679758221,
+        "high": 207944442000
+      },
+      "scenarios_pct": {
+        "bear": -44.365716685036475,
+        "base": -3.0074004093843487,
+        "bull": 55.48732483073532
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "AMGN",
       "issuer_id": "Amgen Inc.",
       "close": 465.67,
@@ -1449,31 +1533,32 @@
       "target_count": 0,
       "coverage": "partial",
       "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "BHP",
+      "issuer_id": "BHP Group Limited",
+      "close": 79.49,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 197981558883,
+        "high": 206112246483
+      },
+      "scenarios_pct": {
+        "bear": -47.41476915335262,
+        "base": -9.422568876588251,
+        "bull": 19.76349226317776
+      },
+      "base_total_return_pct": -5.0949805006919116,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
     }
   ],
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "ARM",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "TD",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "BHP",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "KLAC",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PEP",
       "reason": "independent valuation unavailable"
     },
     {
@@ -36047,6 +36132,1185 @@
       },
       "history": []
     },
+    "ARM": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 190.53,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x justified P/E at the 12-month target date (Nov 2027), viewing FY2028 (year ending March 2028) non-GAAP diluted EPS, the fiscal year that is current at that date. Listing basis: ARM trades as an ADS in USD; the Citibank depositary notice (Sep 2025) and the 20-F deposit agreement set the ratio at 1 ADS = 1 ordinary share, so ordinary-share values need no conversion and the targets are per ADS. No FX conversion: the listing and reporting currency are both USD. Base EPS is the FY2028 consensus of $3.08 (Yahoo Finance EPS trend column for 7 days before 2026-11-17, about 2026-11-10, pre-cutoff; the 2026-11-17 snapshot shows $3.09). Bear and bull EPS are the low ($2.65) and high ($3.95) FY2028 estimates from the 2026-11-17 Yahoo snapshot, which post-dates the reference close and is used only for the range bounds. Consensus is a provider estimate, not company guidance. Q2 FY27 revenue was $1.44B (+27%); non-GAAP diluted EPS $0.52 is the actual shown on Yahoo Finance's earnings history, and the 44.2% operating margin comes from a secondary summary (Zacks); the company letter was not opened; Q3 FY27 guidance is revenue $1.54B +/- $50M and non-GAAP EPS $0.56 +/- $0.04 (secondary source, Zacks). Share count: about 1.07B shares (pipeline shares_used); Q2 non-GAAP net income of $566M at $0.52 implies about 1.09B diluted shares, a derived figure, not a reported one; the difference is inside the EPS consensus range and is not separately adjusted. Release time (16:05 ET) is approximated from the 17:00 ET webcast start and is not verified against the release timestamp.",
+        "bear": 106.0,
+        "base": 184.8,
+        "bull": 296.25,
+        "cases": {
+          "bear": {
+            "driver": "Royalty growth lags licensing (Q2 FY27 royalty revenue $670M, +8% y/y, against licensing +50%), the AGI CPU ramp slips past its FY27-FY28 $2B outlook, and investors stop paying a premium multiple for a stock trading near 84x FY2027 EPS.",
+            "assumption": "EPS $2.65 (low end of FY2028 estimates) at 40x",
+            "target": 106.0
+          },
+          "base": {
+            "driver": "Licensing and royalty growth track the Q3 FY27 guide (revenue $1.54B, non-GAAP EPS $0.56) and consensus FY2028 EPS; AGI CPU delivers a meaningful share of the up-to-$2B FY27-FY28 outlook. Today's close is about 84x FY2027 and 62x FY2028 EPS; the 60x base is about a 29% de-rating from the 84x current-fiscal-year multiple, as EPS growth slows from roughly 36%.",
+            "assumption": "EPS $3.08 at 60x",
+            "target": 184.8
+          },
+          "bull": {
+            "driver": "AGI CPU exceeds the $2B outlook and data center royalties keep compounding (doubling y/y in Q2), with Arm-based server share above 60% as guided; the market keeps a growth multiple on FY2028 EPS at the top of the estimate range.",
+            "assumption": "EPS $3.95 (high end of FY2028 estimates) at 75x",
+            "target": 296.25
+          }
+        },
+        "implied_by_close": "The close of $190.53 is 61.9x FY2028 consensus EPS of $3.08 and 83.9x FY2027 consensus of $2.27. The Yahoo aggregate mean target of $272.43 (40 analysts, provider-published) implies 88x FY2028 EPS, or about $4.54 of EPS at 60x (+47% above the base EPS). The nine named targets dated on or before the close (Barclays $325, KeyBanc $300, Piper $270, Evercore $326, Mizuho $330, UBS $270, TD Cowen $250, Susquehanna $320, RBC $300) average about $299, or about 97x FY2028 EPS at $3.08.",
+        "sensitivity": "One turn of P/E moves the base target by $3.08 (about 1.6 pp of price return). A $0.10 change in FY2028 EPS moves the base target by $6.00 (about 3.1 pp).",
+        "watch_metric": "Royalty revenue growth (Q2 FY27 +8% y/y, against licensing +50%) together with the AGI CPU revenue run-rate against the up-to-$2B FY27-FY28 outlook and the non-GAAP operating margin (44.2% in Q2). Base case needs royalty growth to hold while Q3 FY27 EPS lands near $0.56.",
+        "next_disclosure": "Q3 FY2027 results (quarter ending Dec 2026), expected early February 2027 (provider estimate of 2027-02-03; confirm on the company IR calendar)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Nine named brokers have dated calls on or before the reference close, and the named sample skews bullish: its mean target of about $299 sits above the Yahoo aggregate mean of $272.43 across 40 analysts. Seven brokers changed or reaffirmed targets on 2026-11-05 after the Q2 print (Mizuho $400 to $330, UBS $320 to $270, TD Cowen $350 to $250, RBC $340 to $300, Barclays $360 to $325; Evercore $326 and Susquehanna $320 with no prior shown), Piper reaffirmed $270 on 2026-11-12, and KeyBanc raised to $300 from $170 on 2026-05-07. No row documents a 12-month horizon, so no weighted analyst target can be formed; the named mean is unweighted, and the Morgan Stanley Hold dated 2026-11-17 is excluded as after the cutoff.",
+      "sources": [
+        {
+          "label": "Arm Q2 FY2027 results release (Nov 4 2026): revenue, licensing, royalty, AGI CPU outlook",
+          "url": "https://newsroom.arm.com/news/arm-q2-fye27-results",
+          "supports": "Q2 revenue $1.44B, royalty $670M, AGI CPU up-to-$2B FY27-FY28 outlook, operating margin context"
+        },
+        {
+          "label": "Arm Holdings plc Q2 FY2027 results announcement (Nov 4 2026): webcast 17:00 ET",
+          "url": "https://newsroom.arm.com/news/arm-holdings-plc-reports-results-for-the-second-quarter-of-the-fiscal-year-ending-2027",
+          "supports": "Results date 2026-11-04; release time inferred from the 17:00 ET webcast"
+        },
+        {
+          "label": "Arm Q2 FY2027 earnings summary (secondary): non-GAAP EPS $0.52, operating margin 44.2%, Q3 guidance $1.54B and $0.56",
+          "url": "https://www.zacks.com/stock/news/3024400/arm-holdings-q2-earnings-call-centers-on-agi-cpu-expansion",
+          "supports": "Non-GAAP EPS, margin and Q3 FY27 guidance (secondary; company letter not opened)"
+        },
+        {
+          "label": "Citibank ADS depositary notice (Sep 2025): ADS ratio 1 ordinary share to 1 ADS",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001973239/000197323925000027/ex993-depositarysnotice.htm",
+          "supports": "ADS to ordinary-share ratio 1:1, depositary Citibank N.A."
+        },
+        {
+          "label": "Barclays price target cut to $325 from $360 (O'Malley, Nov 5 2026)",
+          "url": "https://www.tikr.com/blog/with-a-325-target-barclays-says-arm-holdings-selloff-went-too-far",
+          "supports": "Barclays target, prior target, Overweight rating and date"
+        },
+        {
+          "label": "KeyBanc price target raised to $300 from $170 (Vinh, May 7 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-price-target-235809458.html",
+          "supports": "KeyBanc target, prior target, Overweight rating and date"
+        },
+        {
+          "label": "Yahoo Finance ARM analysis page: FY2027 and FY2028 EPS and revenue consensus, EPS trend and aggregate range (snapshot 2026-11-17)",
+          "url": "https://finance.yahoo.com/quote/ARM/analysis/",
+          "supports": "FY2028 EPS consensus $3.08 (EPS trend, 7-day-ago column, pre-cutoff); FY2028 range $2.65 to $3.95 and current $3.09 from the 2026-11-17 snapshot (post-cutoff, used for range bounds); FY2027 $2.27; FY2028 revenue $8.37B; Q2 FY27 non-GAAP EPS actual $0.52"
+        },
+        {
+          "label": "StockAnalysis ARM analyst ratings table (TipRanks data, updated 2026-11-17): dated Nov 5 and Nov 12 2026 calls with prior targets",
+          "url": "https://stockanalysis.com/stocks/arm/ratings/",
+          "supports": "Named analyst, firm, rating, target and prior target for the nine dated calls; rows dated 2026-11-17 excluded as after the reference close"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-04T16:05:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 9,
+        "post_earnings": 8,
+        "earnings_order_unknown": 0,
+        "median_age_days": 8,
+        "max_weight_pct": 12.713151393698602,
+        "contributors": [
+          {
+            "analyst": "David O'Connor",
+            "firm": "Piper Sandler",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/arm/ratings/",
+            "weight": 0.12713151393698602
+          },
+          {
+            "analyst": "John Vinh",
+            "firm": "KeyBanc",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-05-07",
+            "age_days": 190,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-price-target-235809458.html",
+            "weight": 0.02965447419180735
+          },
+          {
+            "analyst": "Krish Sankar",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/arm/ratings/",
+            "weight": 0.12045914455302952
+          },
+          {
+            "analyst": "Mark Lipacis",
+            "firm": "Evercore ISI",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/arm/ratings/",
+            "weight": 0.12045914455302952
+          },
+          {
+            "analyst": "Mehdi Hosseini",
+            "firm": "Susquehanna",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/arm/ratings/",
+            "weight": 0.12045914455302952
+          },
+          {
+            "analyst": "Srini Pajjuri",
+            "firm": "RBC Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/arm/ratings/",
+            "weight": 0.12045914455302952
+          },
+          {
+            "analyst": "Thomas O'Malley",
+            "firm": "Barclays",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://www.tikr.com/blog/with-a-325-target-barclays-says-arm-holdings-selloff-went-too-far",
+            "weight": 0.12045914455302952
+          },
+          {
+            "analyst": "Timothy Arcuri",
+            "firm": "UBS",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/arm/ratings/",
+            "weight": 0.12045914455302952
+          },
+          {
+            "analyst": "Vijay Rakesh",
+            "firm": "Mizuho Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-05",
+            "age_days": 8,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/arm/ratings/",
+            "weight": 0.12045914455302952
+          }
+        ],
+        "counts": {
+          "Buy": 9,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "David O'Connor",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "David O'Connor",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 270.0,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "John Vinh",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-05-07",
+          "public_at": "2026-05-12T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-price-target-235809458.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "John Vinh",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": 170,
+          "issued_at": "2026-05-07",
+          "public_at": "2026-05-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-price-target-235809458.html",
+          "prior_observed": null,
+          "revision_pct": 76.47058823529412,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Krish Sankar",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Krish Sankar",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 250.0,
+          "source_prior": 350,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "revision_pct": -28.57142857142857,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mark Lipacis",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mark Lipacis",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 326.0,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mehdi Hosseini",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mehdi Hosseini",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 320.0,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 300.0,
+          "source_prior": 340,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "revision_pct": -11.764705882352944,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/with-a-325-target-barclays-says-arm-holdings-selloff-went-too-far",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 325.0,
+          "source_prior": 360,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/with-a-325-target-barclays-says-arm-holdings-selloff-went-too-far",
+          "prior_observed": null,
+          "revision_pct": -9.722222222222221,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Timothy Arcuri",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Timothy Arcuri",
+          "firm": "UBS",
+          "field": "target",
+          "value": 270.0,
+          "source_prior": 320,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "revision_pct": -15.625,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho Securities",
+          "field": "target",
+          "value": 330.0,
+          "source_prior": 400,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/",
+          "prior_observed": null,
+          "revision_pct": -17.500000000000004,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "TD": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 123.76,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Bank: forward adjusted EPS in C$ (FY2027, viewed at the 12-month target date of Nov 2027) x P/E, then converted to USD. Q3 FY2026 (quarter to 31 Jul 2026) adjusted diluted EPS C$2.77 and nine-month adjusted EPS C$7.59 (reported 27 Aug 2026); FY2026 run-rate about C$10.2-10.3. Base FY2027 EPS C$11.0 (about 7% growth, driven by Canadian and Wholesale earnings and buybacks; US BSA/AML remediation costs of about US$550m pre-tax in FY2026 are treated as a drag that fades). P/E is a judgement against the close: 16.5x base, with the close itself at about 16.0x base EPS. ADR ratio: 1 NYSE share = 1 TD common share (ratio 1:1, no depositary receipt found; TD's own disclosures state the common shares are listed on the TSX and NYSE under TD, so the usual 2:1 ADR conversion does not apply; this differs from the premise that TD is an ADR and should be confirmed). FX: USD per CAD 0.7014 from the Bank of Canada daily rate of 1.4257 CAD per USD on 13 Nov 2026 (reference close date), held constant to the target date; CAD targets divided by 1.4257 to give USD targets. Dividend excluded from price targets.",
+        "bear": 100.16,
+        "base": 127.31,
+        "bull": 148.98,
+        "cases": {
+          "bear": {
+            "driver": "Credit and trading cycle turns (provisions up from C$917m a quarter, Wholesale trading normalises, US BSA/AML costs run past the US$550m guide), so EPS stalls at about FY2026 levels while the market pays a lower multiple for the US franchise.",
+            "assumption": "EPS C$10.2 at 14x P/E = C$142.8, / 1.4257 = US$100.16",
+            "target": 100.16
+          },
+          "base": {
+            "driver": "Management path holds: Canadian Personal and Commercial and Wealth earnings grow high single digits, Wholesale stays strong, CET1 of 14.3% supports buybacks, and BSA/AML costs fade after the 2027 lookback completes.",
+            "assumption": "EPS C$11.0 at 16.5x P/E = C$181.5, / 1.4257 = US$127.31",
+            "target": 127.31
+          },
+          "bull": {
+            "driver": "Reported ROTCE (19% in Q3) is sustained as the US Banking drag is cleared, capital return accelerates, and the market re-rates TD toward its Canadian bank peers' upper multiple.",
+            "assumption": "EPS C$11.8 at 18x P/E = C$212.4, / 1.4257 = US$148.98",
+            "target": 148.98
+          }
+        },
+        "implied_by_close": "The close of US$123.76 equals C$176.44 at 1.4257, which is 16.0x base FY2027 EPS of C$11.0 (about 17x FY2026 run-rate). The aggregator consensus of about C$171 (MarketBeat, Sep 2026, 11 analysts, undated within the month) implies about 15.5x base EPS, or about US$120 at the same FX rate. At a constant 16.5x, the close requires EPS of about C$10.7 (about 3% below base); a consensus-level target of US$133.53 (AlphaSpread, undated, 18 analysts) implies about C$190 or about 17.3x base EPS.",
+        "sensitivity": "One turn of P/E moves the base target by about C$11.0 or US$7.72 (6.2 pp of price return); a 0.1 move in USD/CAD (about 7% of the rate) moves all targets by about 6-7% in the opposite direction, so FX is a large swing factor for a USD listing.",
+        "watch_metric": "Adjusted EPS growth against the base case (about 7% in FY2027, roughly C$0.25-0.30 a quarter above the FY2026 run-rate), together with the US BSA/AML cost trajectory against the US$550m FY2026 guide and CET1 of 14.3%.",
+        "next_disclosure": "Q4 and full-year FY2026 results; a secondary calendar shows 26 Nov 2026 before the open, not verified against TD's investor relations calendar. FY2027 outlook would appear there."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "No dated named analyst call could be verified from the sources reached. The RBC (Darko Mihelic) upgrade to Outperform at C$120 from C$93, and the Desjardins, Canaccord and BMO targets, are undated or appear to date from late 2025, and conflict with 2026 figures in MarketBeat and MarketScreener, so coverage is labelled unavailable and no weighted target is computed. Aggregate consensus is C$171.08 average from 11 analysts (MarketBeat, Sep 2026; range C$126-196; Barclays underweight at C$167) and US$133.53 from 18 analysts (AlphaSpread, undated). The gap to the base case (US$127.31) is about 5% of price, equivalent to about 1.1x base EPS or a P/E near 17.3x, and suggests the Street expects faster FY2027 earnings growth or a higher multiple than this case uses. The aggregate figures mix dates and sources and should not be treated as a single consensus.",
+      "sources": [
+        {
+          "label": "TD Bank Group Q3 2026 results (newswire.ca earnings release, 27 Aug 2026)",
+          "url": "https://www.newswire.ca/news-releases/td-bank-group-reports-third-quarter-2026-results-878614719.html",
+          "supports": "Q3 and nine-month adjusted and reported diluted EPS, release time 06:30 ET, 1,638.4m common shares at 31 Jul 2026, CET1 14.3%, ROTCE 19.0% (Q3), US BSA/AML guidance of about US$550m, lookback completion in 2027"
+        },
+        {
+          "label": "Bank of Canada daily exchange rates, 13 Nov 2026",
+          "url": "https://www.bankofcanada.ca/rates/exchange/daily-exchange-rates/?date=2026-11-13",
+          "supports": "USD/CAD 1.4257 on 13 Nov 2026 (FX conversion; inverse 0.7014 USD per CAD)"
+        },
+        {
+          "label": "TD Bank NYSE disclosure 2026",
+          "url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/nyse-disclosure-2026-en.pdf",
+          "supports": "TD is a foreign private issuer listed on NYSE; common shares listed on the TSX and NYSE under TD (ratio 1:1, no ADR)"
+        },
+        {
+          "label": "TD share price tools (NYSE prices in USD)",
+          "url": "https://www1.pat.td.com/investor-relations/ir-homepage/share-information/share-price-tools/stock.jsp",
+          "supports": "NYSE listing quoted in US dollars, TSX in Canadian dollars"
+        },
+        {
+          "label": "TD price target consensus (MarketBeat, Sep 2026)",
+          "url": "https://www.marketbeat.com/stocks/TSE/TD/price-target",
+          "supports": "Average target C$171.08 from 11 analysts, range C$126-196, Barclays underweight C$167 (aggregate context only)"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": "2026-08-27T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
+    "BHP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 79.49,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E per ADR (NYSE: BHP, USD), with FY2027 (year to 30 June 2027) EPS viewed at the 12-month target date (Nov 2027). Share basis: 1 ADR = 2 ordinary shares, per the cover footnote of BHP's FY2025 Form 20-F (SEC, 'Each American Depositary Receipt represents two ordinary shares of BHP Group Limited'); the ADR ratio is therefore applied as x2 to ordinary-share EPS. FX: none applied. BHP reports its results and EPS in US dollars, so ordinary-share EPS is already USD and the ADR values are USD without conversion. A dated AUD/USD rate for 13 Nov 2026 could not be sourced (RBA F11.1 CSV fetch was truncated and a second download was not permitted), and the ASX ordinary price is not used, so no AUD conversion enters the targets. Base year: FY2026 underlying EPS of 260.0 US cents per ordinary share (RTTNews, 18 Aug 2026, secondary coverage of the release), i.e. US$5.20 per ADR. FY2027 is set as an operating assumption, not a sourced consensus: copper guidance for FY27 of 1.65-1.8 Mt is below FY26 output and capex is about US$11bn. Base: FY27 EPS US$2.40 per ordinary share (US$4.80 per ADR) at 15x = US$72.00. Bear: US$1.90 per ordinary share (US$3.80 per ADR) at 11x = US$41.80. Bull: US$2.80 per ordinary share (US$5.60 per ADR) at 17x = US$95.20. Dividends are excluded from the targets (price-only basis). Ordinary-share and ADR prices are not otherwise mixed.",
+        "bear": 41.8,
+        "base": 72.0,
+        "bull": 95.2,
+        "cases": {
+          "bear": {
+            "driver": "Copper volume step-down and weaker iron ore and copper prices cut FY27 earnings about 27% from FY26; the market refuses a premium multiple for a narrower copper growth path",
+            "assumption": "FY27 EPS US$1.90 per ordinary share (US$3.80 per ADR) at 11x",
+            "target": 41.8
+          },
+          "base": {
+            "driver": "FY27 copper guidance of 1.65-1.8 Mt sits below FY26 output, partly offset by record WAIO iron ore and the lower-cost structure; a multiple near the mid-teens for a diversified miner",
+            "assumption": "FY27 EPS US$2.40 per ordinary share (US$4.80 per ADR) at 15x",
+            "target": 72.0
+          },
+          "bull": {
+            "driver": "Copper price strength and the Jansen potash start (mid-CY27) support earnings; the market rewards copper-led growth with a higher multiple",
+            "assumption": "FY27 EPS US$2.80 per ordinary share (US$5.60 per ADR) at 17x",
+            "target": 95.2
+          }
+        },
+        "implied_by_close": "At base FY27 ADR EPS of US$4.80 the 79.49 close implies 16.6x (15.3x on FY26 ADR EPS of US$5.20). The MarketBeat consensus target of US$78.00 (10 analysts, as shown on 17 Nov 2026) implies 16.3x base EPS, about 8% above the base target; the gap is an EPS or multiple difference, and the analysts' assumptions are not sourced.",
+        "sensitivity": "One turn of P/E on base ADR EPS moves the base target by US$4.80 (about 6.0 pp of the close). A US$0.10 change in FY27 ordinary-share EPS moves the base target by US$7.20 at 15x (about 9.1 pp of the close).",
+        "watch_metric": "FY27 copper output and unit costs against the 1.65-1.8 Mt guide, and the realised copper and iron ore price. A copper run-rate below guidance or an iron ore price below the level implied by FY26 EBITDA of about US$33bn would weaken the base case; sustained copper output near FY26's ~2 Mt would support it.",
+        "next_disclosure": "BHP Operational review for the quarter ending 30 September 2026 (already published) and the Q3 FY27 operational review (quarter to 31 March 2027, typically April 2027); the next full-year result is in August 2027."
+      },
+      "dividend_per_share": 3.44,
+      "analyst_notes": "Only one named source with a verified date was found: Argus raised its ADR target to US$95 from US$90 on 28 Apr 2026 and kept a Buy, before the FY26 result, so it is pre-earnings. The MarketBeat consensus of US$78.00 (10 analysts, high US$95, low US$48, as of 17 Nov 2026) and the Yahoo aggregate mean of US$79.36 (7 analysts) are firm-level snapshots without dated named calls, and they disagree; both sit above the base case, implying a higher FY27 earnings or multiple view. Named ASX-listed targets from Motley Fool (Morgan Stanley A$67.50 Buy, Berenberg, UBS, JPMorgan, Morgans, Deutsche Bank) are denominated in AUD per ordinary share and were excluded because no dated AUD/USD rate was sourced, as were the undated Jefferies (Hold, A$68 from A$72) and Argus (A$60 from A$68) notes. The MarketBeat-cited BofA cut to US$91 from US$93 on 22 Jun 2026 was only seen in a search summary and is not entered.",
+      "sources": [
+        {
+          "label": "BHP Group Form 20-F FY2025, cover footnote on ADR ratio (2 ordinary shares per ADR)",
+          "url": "https://www.sec.gov/Archives/edgar/data/811809/000119312525185641/d941636d20f.htm",
+          "supports": "ADR ratio 1 ADR = 2 ordinary shares"
+        },
+        {
+          "label": "BHP results for the full year ended 30 June 2026 (release released 18 Aug 2026, 8.30am AEST)",
+          "url": "https://www.bhp.com/news/media-centre/releases/2026/08/bhp-results-for-the-full-year-ended-30-june-2026",
+          "supports": "Results release date and time; final dividend US 99 cents; net debt below US$9bn; copper share of EBITDA"
+        },
+        {
+          "label": "RTTNews, BHP Group FY26 profit up, lifts dividend (18 Aug 2026)",
+          "url": "https://www.rttnews.com/3681290/bhp-group-fy26-profit-up-lifts-dividend-sees-copper-production-growth-by-fy35-stock-up.aspx",
+          "supports": "FY26 underlying EPS 260.0 US cents per share; FY26 total dividend 172 US cents"
+        },
+        {
+          "label": "Motley Fool Australia, BHP record FY26 earnings and copper-led future (18 Aug 2026)",
+          "url": "https://www.fool.com.au/2026/08/18/bhp-group-posts-record-fy26-earnings-and-flags-copper-led-future/",
+          "supports": "Underlying EBITDA US$32.9bn; net debt US$8.7bn; underlying attributable profit US$13.2bn"
+        },
+        {
+          "label": "Yahoo Finance, Argus raises BHP price target to $95 from $90 (article 29 Apr 2026; action 28 Apr 2026)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html",
+          "supports": "Argus target US$95 from US$90, Buy maintained, 28 Apr 2026"
+        },
+        {
+          "label": "MarketBeat, BHP Group (NYSE:BHP) stock and analyst summary (last updated 17 Nov 2026)",
+          "url": "https://www.marketbeat.com/stocks/NYSE/BHP/",
+          "supports": "Consensus target US$78.00, 10 analysts, high US$95, low US$48; close US$73.98 on 17 Nov 2026"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-18T08:30:00+10:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 1,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 199,
+        "max_weight_pct": 100.0,
+        "contributors": [
+          {
+            "analyst": "Argus Research (analyst not named)",
+            "firm": "Argus Research",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-04-28",
+            "age_days": 199,
+            "after_earnings": false,
+            "source": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html",
+            "weight": 1.0
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Argus Research (analyst not named)",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-28",
+          "public_at": "2026-04-28T23:59:59+01:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Argus Research (analyst not named)",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 95.0,
+          "source_prior": 90,
+          "issued_at": "2026-04-28",
+          "public_at": "2026-04-28T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html",
+          "prior_observed": null,
+          "revision_pct": 5.555555555555558,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "KLAC": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 152.32,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. KLA's fiscal year ends June, so at the Nov 2027 12-month target date an investor prices FY2028 (July 2027 to June 2028) non-GAAP diluted EPS, the same convention as LRCX. Anchored on the Q1 FY2027 print (reported Oct 28, 2026 after the close): revenue $4.136B, non-GAAP diluted EPS $1.22, non-GAAP net income $1.603B, diluted shares 1,311.1M. Q2 FY2027 guide (December quarter): revenue $4.7B +/- $0.2B, non-GAAP EPS $1.44 +/- $0.11, 1,306M shares, non-GAAP gross margin 62.5%. Model: FY2028 revenue x non-GAAP net margin / ~1.306B diluted shares. Non-GAAP net margin was 38.8% in Q1 and about 40% implied by Q2 guidance. Base case assumes FY2028 revenue about $21.0B (about +12% on an FY2027 run-rate of about $18.7B built from Q1, the Q2 guide, and assumed H2 revenue of $4.9B and $5.0B) at a 40% net margin. Interest, other income and the net-cash position are ignored; price-only targets with dividends shown separately. The FY2027 quarterly path beyond Q2 and the FY2028 figures are model assumptions, not company guidance; no sourced FY2028 consensus was found.",
+        "bear": 104,
+        "base": 160,
+        "bull": 211,
+        "cases": {
+          "bear": {
+            "driver": "Wafer-fab-equipment down-cycle and China digestion: FY2028 revenue about $18.0B (flat on the FY2027 run-rate), net margin falling to 36%",
+            "assumption": "EPS $4.95 at 21x (trough-cycle multiple for a company with a 40%+ margin history)",
+            "target": 104
+          },
+          "base": {
+            "driver": "Guide-based growth continues: FY2028 revenue about $21.0B (+12%), net margin 40% in line with the Q2 guide, shares 1.306B",
+            "assumption": "EPS $6.40 at 25x",
+            "target": 160
+          },
+          "bull": {
+            "driver": "AI packaging and leading-edge logic capex upcycle: FY2028 revenue about $23.5B, net margin 42%",
+            "assumption": "EPS $7.55 at 28x",
+            "target": 211
+          }
+        },
+        "implied_by_close": "At base EPS $6.40 the 152.32 close implies 23.8x. The MarketBeat consensus target of $220.35 (Oct-Nov 2026, not individually dated here) implies 34.4x at base EPS, or about $8.80 EPS at a constant 25x (about 37% above the model).",
+        "sensitivity": "One turn of P/E moves the base target by $6.40 (about 4.2 pp of return); $0.10 of FY2028 EPS moves it by $2.50 (about 1.6 pp).",
+        "watch_metric": "Quarterly revenue vs the $4.7B +/- $0.2B December-quarter guide, and the non-GAAP operating or net margin vs the 62.5% gross margin guide (net margin about 40%).",
+        "next_disclosure": "Fiscal Q2 2027 (December quarter) earnings, expected late January 2027 (date not confirmed in sources)"
+      },
+      "dividend_per_share": 0.92,
+      "analyst_notes": "No named analyst calls from the last 12 months could be verified from accessible sources, so the events list is empty and the coverage is labelled unavailable. Firm-level actions after the Oct 28 print, reported by MarketBeat on Oct 30, were: Morgan Stanley overweight reaffirmed at $220; Susquehanna cut $215 to $190 (neutral); Wells Fargo cut $245 to $210 (overweight); JPMorgan raised $238 to $240 (overweight); Stifel buy at $230; Citigroup trimmed to $275 (buy); Argus buy at $225. These have no named analyst and are not used in any weighted target. The MarketBeat consensus of about $220 sits roughly 37% above the $160 base case, which needs about $8.80 EPS at 25x or a multiple near 34x on base EPS. Prices and consensus in these sources were not all on one date or one basis, and some results carried pre-split (10-for-1, June 2026) targets, which were excluded.",
+      "sources": [
+        {
+          "label": "KLA Q1 FY2027 results release (Oct 28, 2026)",
+          "url": "https://finviz.com/news/410498/kla-corporation-reports-fiscal-2027-first-quarter-results",
+          "supports": "Q1 revenue, GAAP and non-GAAP EPS, net income, diluted shares, Q2 guidance, balance sheet, release time"
+        },
+        {
+          "label": "MarketBeat, Morgan Stanley, Susquehanna, Wells Fargo, JPMorgan KLAC actions (Oct 30, 2026)",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-klas-klac-buy-rating-reiterated-at-argus-2026-10-30/",
+          "supports": "Post-earnings firm-level target changes and the $220.35 consensus (firm only, unnamed)"
+        },
+        {
+          "label": "KLA declares regular cash dividend (Aug 6, 2026)",
+          "url": "https://www.placera.se/pressmeddelanden/kla-declares-regular-cash-dividend-20260806",
+          "supports": "Quarterly dividend $0.23 per share (annual $0.92)"
+        },
+        {
+          "label": "KLA IR, regular cash dividend release",
+          "url": "https://ir.kla.com/news-events/press-releases/detail/520/kla-declares-regular-cash-dividend",
+          "supports": "Dividend declaration cross-check; $1.90 February 2026 figure conflicts and was not used"
+        }
+      ],
+      "coverage": "unavailable",
+      "earnings_at": "2026-10-28T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "counts": {
+          "Buy": 0,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": null
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": []
+    },
+    "PEP": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 145.44,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 core EPS viewed at the 12-month target date (Nov 2027), times a justified P/E. USD listing (NYSE/Nasdaq-listed common stock), no ADR conversion. Anchor: FY2025 core EPS $8.14 (36-week 2025 core $5.88 plus Q4 2025 core $2.26); FY2026 core EPS guidance +2.5% to +3.5% (cut Oct 8 2026 from low-end +5% to +7%), implying about $8.34-$8.42, with 36-week 2026 core EPS of $6.15 (+5%). FY2027 EPS is my own assumption: low-single-digit to mid-single-digit growth, with North American margin pressure and a non-recurring tariff refund benefit ($178M per CFO) not repeating, partly offset by international growth and buybacks (about $1.0B expected in FY2026). Figures are from the Q3 2026 8-K exhibit and secondary coverage of the FY2025 release; the FY2025 base should be checked against the 10-K.",
+        "bear": 123.0,
+        "base": 148.75,
+        "bull": 176.7,
+        "cases": {
+          "bear": {
+            "driver": "North American margin pressure persists into 2027, volume stays soft, tariff and commodity costs absorb pricing; the defensive staples multiple compresses toward 15x as analysts keep cutting targets.",
+            "assumption": "FY2027 core EPS $8.20 at 15x",
+            "target": 123.0
+          },
+          "base": {
+            "driver": "Organic revenue growth about 3%, modest North American margin recovery and buybacks lift core EPS about 4-5% from the $8.38 FY2026 midpoint; the multiple holds near 17x, close to the current trailing level.",
+            "assumption": "FY2027 core EPS $8.75 at 17x",
+            "target": 148.75
+          },
+          "bull": {
+            "driver": "International strength and cost savings drive margin recovery in North America; organic growth reaches 4% and the market re-rates the shares toward a premium staples multiple.",
+            "assumption": "FY2027 core EPS $9.30 at 19x",
+            "target": 176.7
+          }
+        },
+        "implied_by_close": "At base EPS $8.75 the $145.44 close implies 16.6x; at FY2026 guidance midpoint $8.38 it is 17.4x. The equal-weight average of the six named pre-close targets ($139.17) implies 15.9x on $8.75, or about $8.37 EPS at 16.6x.",
+        "sensitivity": "One turn of P/E moves the base target by $8.75 (about 6.0 pp of the close).",
+        "watch_metric": "North American operating margin and organic volume growth in Q4 2026 and the FY2027 core EPS guidance, which must show whether the North American margin pressure has bottomed and whether the $178M tariff refund benefit is excluded from the run-rate.",
+        "next_disclosure": "Q4 and FY2026 results with initial FY2027 guidance, expected around early February 2027 (date not confirmed)."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Six named analysts through the Nov 13 close, all from one aggregator table: five Holds (BofA, Barclays, JPMorgan, Citi, Morgan Stanley) and one Buy (Freedom Capital Markets, upgraded). Six current targets range from $126 to $147 (equal-weight average $139.17), about 4% below the $145.44 close, i.e. -4.3% analyst-implied return against +2.3% base-case return, a gap of about -6.6 pp. The gap equals roughly 1.1 turns of P/E on $8.75 EPS (15.9x implied versus my 17x base). Five of six named targets were lowered from their prior levels by $1 to $15 after the Oct 8 earnings cut; the BofA prior target is not shown in the source. Wolfe Research (initiation, Hold) and Bernstein (downgrade to Sell at $128) are dated Nov 17, after the reference close, and are excluded; a Bernstein Sell call could not be confirmed in an independent news search. No documented 12-month horizon was found, so these targets sit outside the weighted target. Aggregate consensus on Investing.com and Bullstory is about $141.5 across 22 analysts, which includes older targets and is not used in the calculation.",
+      "sources": [
+        {
+          "label": "Q3 2026 8-K Exhibit 99.1 (release Oct 8 2026)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000077476/000007747626000050/q320268-kxexhibit991.htm",
+          "supports": "Q3 core EPS $2.34, FY2026 core EPS guidance +2.5% to +3.5%, 36-week core EPS $6.15 vs $5.88, shares 1,367M"
+        },
+        {
+          "label": "Q4 2025 results summary (James Sharp, secondary)",
+          "url": "https://www.jamessharp.co.uk/market-news/pepsico-reports-q4-full-year-2025-results",
+          "supports": "FY2025 core EPS $8.14, GAAP EPS $6.00"
+        },
+        {
+          "label": "Stockanalysis PEP analyst ratings",
+          "url": "https://stockanalysis.com/stocks/pep/ratings/",
+          "supports": "Named analyst ratings and targets, prior targets and action dates"
+        },
+        {
+          "label": "Investing.com PepsiCo consensus",
+          "url": "https://www.investing.com/equities/pepsico-consensus-estimates",
+          "supports": "Aggregate average target about $141.45 across 22 analysts (context only)"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-08T08:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 6,
+        "earnings_order_unknown": 0,
+        "median_age_days": 34.5,
+        "max_weight_pct": 17.33987947630513,
+        "contributors": [
+          {
+            "analyst": "Andrea Faria Teixeira",
+            "firm": "J.P. Morgan",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-09",
+            "age_days": 35,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pep/ratings/",
+            "weight": 0.16429813377379088
+          },
+          {
+            "analyst": "Dara Mohsenian",
+            "firm": "Morgan Stanley",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-09",
+            "age_days": 35,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pep/ratings/",
+            "weight": 0.16429813377379088
+          },
+          {
+            "analyst": "Filippo Falorni",
+            "firm": "Citi",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-09",
+            "age_days": 35,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pep/ratings/",
+            "weight": 0.16429813377379088
+          },
+          {
+            "analyst": "Georgy Vashchenko",
+            "firm": "Freedom Capital Markets",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-10",
+            "age_days": 34,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pep/ratings/",
+            "weight": 0.165568383307685
+          },
+          {
+            "analyst": "Lauren Lieberman",
+            "firm": "Barclays",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-12",
+            "age_days": 32,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pep/ratings/",
+            "weight": 0.16813842060789116
+          },
+          {
+            "analyst": "Peter Galbo",
+            "firm": "Bank of America Securities",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/pep/ratings/",
+            "weight": 0.17339879476305128
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 5,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 16.5568383307685,
+          "Hold": 83.44316166923151,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Andrea Faria Teixeira",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Andrea Faria Teixeira",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 137.0,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 138,
+          "prior_observed": null,
+          "revision_pct": -0.7246376811594235,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Dara Mohsenian",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Dara Mohsenian",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 145.0,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 160,
+          "prior_observed": null,
+          "revision_pct": -9.375,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Filippo Falorni",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Filippo Falorni",
+          "firm": "Citi",
+          "field": "target",
+          "value": 135.0,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 142,
+          "prior_observed": null,
+          "revision_pct": -4.929577464788737,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Georgy Vashchenko",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-10",
+          "public_at": "2026-10-10T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Georgy Vashchenko",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 147.0,
+          "issued_at": "2026-10-10",
+          "public_at": "2026-10-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 162,
+          "prior_observed": null,
+          "revision_pct": -9.259259259259256,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Lauren Lieberman",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Lauren Lieberman",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 126.0,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 133,
+          "prior_observed": null,
+          "revision_pct": -5.263157894736848,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Peter Galbo",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Peter Galbo",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 145.0,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
@@ -36625,6 +37889,11 @@
         "kind": "new"
       },
       {
+        "symbol": "ARM",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "ASML",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -36646,6 +37915,11 @@
       },
       {
         "symbol": "BAC",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "BHP",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -36750,6 +38024,11 @@
         "kind": "new"
       },
       {
+        "symbol": "KLAC",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "KO",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -36830,6 +38109,11 @@
         "kind": "new"
       },
       {
+        "symbol": "PEP",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "PG",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -36877,6 +38161,11 @@
       {
         "symbol": "SPCX",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "TD",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -37214,6 +38503,22 @@
         "bucket": "Buy",
         "prior_rating": null,
         "target": 1350.0,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "ARM",
+        "firm": "Piper Sandler",
+        "analyst": "David O'Connor",
+        "issued_at": "2026-11-12",
+        "source": "https://stockanalysis.com/stocks/arm/ratings/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 270.0,
         "prior_target": null,
         "direction": null,
         "revision_pct": null,

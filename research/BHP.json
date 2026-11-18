@@ -1,0 +1,42 @@
+{
+  "issuer_id": "BHP Group Limited",
+  "symbol": "BHP",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 79.49, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-08-18T08:30:00+10:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Argus Research (analyst not named)", "firm": "Argus Research", "field": "target", "value": 95, "source_prior": 90,
+     "issued_at": "2026-04-28", "public_at": "2026-04-28T23:59:59+01:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html"},
+    {"analyst": "Argus Research (analyst not named)", "firm": "Argus Research", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-04-28", "public_at": "2026-04-28T23:59:59+01:00",
+     "source": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E per ADR (NYSE: BHP, USD), with FY2027 (year to 30 June 2027) EPS viewed at the 12-month target date (Nov 2027). Share basis: 1 ADR = 2 ordinary shares, per the cover footnote of BHP's FY2025 Form 20-F (SEC, 'Each American Depositary Receipt represents two ordinary shares of BHP Group Limited'); the ADR ratio is therefore applied as x2 to ordinary-share EPS. FX: none applied. BHP reports its results and EPS in US dollars, so ordinary-share EPS is already USD and the ADR values are USD without conversion. A dated AUD/USD rate for 13 Nov 2026 could not be sourced (RBA F11.1 CSV fetch was truncated and a second download was not permitted), and the ASX ordinary price is not used, so no AUD conversion enters the targets. Base year: FY2026 underlying EPS of 260.0 US cents per ordinary share (RTTNews, 18 Aug 2026, secondary coverage of the release), i.e. US$5.20 per ADR. FY2027 is set as an operating assumption, not a sourced consensus: copper guidance for FY27 of 1.65-1.8 Mt is below FY26 output and capex is about US$11bn. Base: FY27 EPS US$2.40 per ordinary share (US$4.80 per ADR) at 15x = US$72.00. Bear: US$1.90 per ordinary share (US$3.80 per ADR) at 11x = US$41.80. Bull: US$2.80 per ordinary share (US$5.60 per ADR) at 17x = US$95.20. Dividends are excluded from the targets (price-only basis). Ordinary-share and ADR prices are not otherwise mixed.",
+    "bear": 41.80,
+    "base": 72.00,
+    "bull": 95.20,
+    "cases": {
+      "bear": {"driver": "Copper volume step-down and weaker iron ore and copper prices cut FY27 earnings about 27% from FY26; the market refuses a premium multiple for a narrower copper growth path", "assumption": "FY27 EPS US$1.90 per ordinary share (US$3.80 per ADR) at 11x", "target": 41.80},
+      "base": {"driver": "FY27 copper guidance of 1.65-1.8 Mt sits below FY26 output, partly offset by record WAIO iron ore and the lower-cost structure; a multiple near the mid-teens for a diversified miner", "assumption": "FY27 EPS US$2.40 per ordinary share (US$4.80 per ADR) at 15x", "target": 72.00},
+      "bull": {"driver": "Copper price strength and the Jansen potash start (mid-CY27) support earnings; the market rewards copper-led growth with a higher multiple", "assumption": "FY27 EPS US$2.80 per ordinary share (US$5.60 per ADR) at 17x", "target": 95.20}
+    },
+    "implied_by_close": "At base FY27 ADR EPS of US$4.80 the 79.49 close implies 16.6x (15.3x on FY26 ADR EPS of US$5.20). The MarketBeat consensus target of US$78.00 (10 analysts, as shown on 17 Nov 2026) implies 16.3x base EPS, about 8% above the base target; the gap is an EPS or multiple difference, and the analysts' assumptions are not sourced.",
+    "sensitivity": "One turn of P/E on base ADR EPS moves the base target by US$4.80 (about 6.0 pp of the close). A US$0.10 change in FY27 ordinary-share EPS moves the base target by US$7.20 at 15x (about 9.1 pp of the close).",
+    "watch_metric": "FY27 copper output and unit costs against the 1.65-1.8 Mt guide, and the realised copper and iron ore price. A copper run-rate below guidance or an iron ore price below the level implied by FY26 EBITDA of about US$33bn would weaken the base case; sustained copper output near FY26's ~2 Mt would support it.",
+    "next_disclosure": "BHP Operational review for the quarter ending 30 September 2026 (already published) and the Q3 FY27 operational review (quarter to 31 March 2027, typically April 2027); the next full-year result is in August 2027."
+  },
+  "dividend_per_share": 3.44,
+  "analyst_notes": "Only one named source with a verified date was found: Argus raised its ADR target to US$95 from US$90 on 28 Apr 2026 and kept a Buy, before the FY26 result, so it is pre-earnings. The MarketBeat consensus of US$78.00 (10 analysts, high US$95, low US$48, as of 17 Nov 2026) and the Yahoo aggregate mean of US$79.36 (7 analysts) are firm-level snapshots without dated named calls, and they disagree; both sit above the base case, implying a higher FY27 earnings or multiple view. Named ASX-listed targets from Motley Fool (Morgan Stanley A$67.50 Buy, Berenberg, UBS, JPMorgan, Morgans, Deutsche Bank) are denominated in AUD per ordinary share and were excluded because no dated AUD/USD rate was sourced, as were the undated Jefferies (Hold, A$68 from A$72) and Argus (A$60 from A$68) notes. The MarketBeat-cited BofA cut to US$91 from US$93 on 22 Jun 2026 was only seen in a search summary and is not entered.",
+  "sources": [
+    {"label": "BHP Group Form 20-F FY2025, cover footnote on ADR ratio (2 ordinary shares per ADR)", "url": "https://www.sec.gov/Archives/edgar/data/811809/000119312525185641/d941636d20f.htm", "supports": "ADR ratio 1 ADR = 2 ordinary shares"},
+    {"label": "BHP results for the full year ended 30 June 2026 (release released 18 Aug 2026, 8.30am AEST)", "url": "https://www.bhp.com/news/media-centre/releases/2026/08/bhp-results-for-the-full-year-ended-30-june-2026", "supports": "Results release date and time; final dividend US 99 cents; net debt below US$9bn; copper share of EBITDA"},
+    {"label": "RTTNews, BHP Group FY26 profit up, lifts dividend (18 Aug 2026)", "url": "https://www.rttnews.com/3681290/bhp-group-fy26-profit-up-lifts-dividend-sees-copper-production-growth-by-fy35-stock-up.aspx", "supports": "FY26 underlying EPS 260.0 US cents per share; FY26 total dividend 172 US cents"},
+    {"label": "Motley Fool Australia, BHP record FY26 earnings and copper-led future (18 Aug 2026)", "url": "https://www.fool.com.au/2026/08/18/bhp-group-posts-record-fy26-earnings-and-flags-copper-led-future/", "supports": "Underlying EBITDA US$32.9bn; net debt US$8.7bn; underlying attributable profit US$13.2bn"},
+    {"label": "Yahoo Finance, Argus raises BHP price target to $95 from $90 (article 29 Apr 2026; action 28 Apr 2026)", "url": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html", "supports": "Argus target US$95 from US$90, Buy maintained, 28 Apr 2026"},
+    {"label": "MarketBeat, BHP Group (NYSE:BHP) stock and analyst summary (last updated 17 Nov 2026)", "url": "https://www.marketbeat.com/stocks/NYSE/BHP/", "supports": "Consensus target US$78.00, 10 analysts, high US$95, low US$48; close US$73.98 on 17 Nov 2026"}
+  ]
+}

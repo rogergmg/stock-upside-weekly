@@ -9554,9 +9554,201 @@
         "high": 207944442000
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 325,
+          "source_prior": 360,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.tikr.com/blog/with-a-325-target-barclays-says-arm-holdings-selloff-went-too-far"
+        },
+        {
+          "analyst": "Thomas O'Malley",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://www.tikr.com/blog/with-a-325-target-barclays-says-arm-holdings-selloff-went-too-far"
+        },
+        {
+          "analyst": "John Vinh",
+          "firm": "KeyBanc",
+          "field": "target",
+          "value": 300,
+          "source_prior": 170,
+          "issued_at": "2026-05-07",
+          "public_at": "2026-05-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-price-target-235809458.html"
+        },
+        {
+          "analyst": "John Vinh",
+          "firm": "KeyBanc",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-05-07",
+          "public_at": "2026-05-12T23:59:59-04:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/arm-holdings-arm-price-target-235809458.html"
+        },
+        {
+          "analyst": "David O'Connor",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 270,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "David O'Connor",
+          "firm": "Piper Sandler",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Mark Lipacis",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 326,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Mark Lipacis",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho Securities",
+          "field": "target",
+          "value": 330,
+          "source_prior": 400,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Timothy Arcuri",
+          "firm": "UBS",
+          "field": "target",
+          "value": 270,
+          "source_prior": 320,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Timothy Arcuri",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Krish Sankar",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 250,
+          "source_prior": 350,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Krish Sankar",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Mehdi Hosseini",
+          "firm": "Susquehanna",
+          "field": "target",
+          "value": 320,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Mehdi Hosseini",
+          "firm": "Susquehanna",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 300,
+          "source_prior": 340,
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        },
+        {
+          "analyst": "Srini Pajjuri",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-05",
+          "public_at": "2026-11-05T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/arm/ratings/"
+        }
+      ],
+      "earnings_at": "2026-11-04T16:05:00-05:00",
+      "valuation": {
+        "bear": 106.0,
+        "base": 184.8,
+        "bull": 296.25
+      }
     },
     {
       "issuer_id": "The Toronto-Dominion Bank",
@@ -9570,9 +9762,14 @@
         "high": 206258531423
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-08-27T06:30:00-04:00",
+      "valuation": {
+        "bear": 100.16,
+        "base": 127.31,
+        "bull": 148.98
+      }
     },
     {
       "issuer_id": "BHP Group Limited",
@@ -9586,9 +9783,37 @@
         "high": 206112246483
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Argus Research (analyst not named)",
+          "firm": "Argus Research",
+          "field": "target",
+          "value": 95,
+          "source_prior": 90,
+          "issued_at": "2026-04-28",
+          "public_at": "2026-04-28T23:59:59+01:00",
+          "horizon_months": null,
+          "source": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html"
+        },
+        {
+          "analyst": "Argus Research (analyst not named)",
+          "firm": "Argus Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-04-28",
+          "public_at": "2026-04-28T23:59:59+01:00",
+          "source": "https://finance.yahoo.com/markets/stocks/articles/argus-raises-price-target-bhp-173248156.html"
+        }
+      ],
+      "earnings_at": "2026-08-18T08:30:00+10:00",
+      "valuation": {
+        "bear": 41.8,
+        "base": 72.0,
+        "bull": 95.2
+      },
+      "dividend_per_share": 3.44
     },
     {
       "issuer_id": "KLA Corporation",
@@ -9602,9 +9827,15 @@
         "high": 202436582861
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
+      "coverage": "unavailable",
       "events": [],
-      "earnings_at": null
+      "earnings_at": "2026-10-28T16:05:00-04:00",
+      "valuation": {
+        "bear": 104,
+        "base": 160,
+        "bull": 211
+      },
+      "dividend_per_share": 0.92
     },
     {
       "issuer_id": "PepsiCo, Inc.",
@@ -9618,9 +9849,140 @@
         "high": 202161005709
       },
       "horizon_months": 12,
-      "coverage": "aggregate_only",
-      "events": [],
-      "earnings_at": null
+      "coverage": "partial",
+      "events": [
+        {
+          "analyst": "Peter Galbo",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 145,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/"
+        },
+        {
+          "analyst": "Peter Galbo",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/"
+        },
+        {
+          "analyst": "Lauren Lieberman",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 126,
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 133
+        },
+        {
+          "analyst": "Lauren Lieberman",
+          "firm": "Barclays",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-12",
+          "public_at": "2026-10-12T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/"
+        },
+        {
+          "analyst": "Georgy Vashchenko",
+          "firm": "Freedom Capital Markets",
+          "field": "target",
+          "value": 147,
+          "issued_at": "2026-10-10",
+          "public_at": "2026-10-10T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 162
+        },
+        {
+          "analyst": "Georgy Vashchenko",
+          "firm": "Freedom Capital Markets",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-10",
+          "public_at": "2026-10-10T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/"
+        },
+        {
+          "analyst": "Andrea Faria Teixeira",
+          "firm": "J.P. Morgan",
+          "field": "target",
+          "value": 137,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 138
+        },
+        {
+          "analyst": "Andrea Faria Teixeira",
+          "firm": "J.P. Morgan",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/"
+        },
+        {
+          "analyst": "Filippo Falorni",
+          "firm": "Citi",
+          "field": "target",
+          "value": 135,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 142
+        },
+        {
+          "analyst": "Filippo Falorni",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/"
+        },
+        {
+          "analyst": "Dara Mohsenian",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 145,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/pep/ratings/",
+          "source_prior": 160
+        },
+        {
+          "analyst": "Dara Mohsenian",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/pep/ratings/"
+        }
+      ],
+      "earnings_at": "2026-10-08T08:30:00-04:00",
+      "valuation": {
+        "bear": 123.0,
+        "base": 148.75,
+        "bull": 176.7
+      }
     },
     {
       "issuer_id": "TotalEnergies SE",

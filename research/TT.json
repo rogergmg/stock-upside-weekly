@@ -1,0 +1,46 @@
+{
+  "issuer_id": "Trane Technologies plc",
+  "symbol": "TT",
+  "researched_at": "2026-11-21",
+  "research_close": {"close": 386.29, "close_date": "2026-11-20"},
+  "currency": "USD",
+  "earnings_at": "2026-10-29T08:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Evercore ISI analyst (name not in source)", "firm": "Evercore ISI", "field": "target", "value": 560, "source_prior": 565, "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null, "source": "https://www.gurufocus.com/news/9158973/tt-maintained-by-evercore-isi-group-price-target-lowered-to-560"},
+    {"analyst": "Evercore ISI analyst (name not in source)", "firm": "Evercore ISI", "field": "rating", "value": "Outperform", "bucket": "Buy", "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "source": "https://www.gurufocus.com/news/9158973/tt-maintained-by-evercore-isi-group-price-target-lowered-to-560"},
+    {"analyst": "Oppenheimer analyst (name not in source)", "firm": "Oppenheimer", "field": "target", "value": 500, "source_prior": 530, "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null, "source": "https://www.investing.com/news/analyst-ratings/oppenheimer-cuts-trane-technologies-price-target-on-margin-pressures-93CH-4986903"},
+    {"analyst": "Oppenheimer analyst (name not in source)", "firm": "Oppenheimer", "field": "rating", "value": "Outperform", "bucket": "Buy", "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "source": "https://www.investing.com/news/analyst-ratings/oppenheimer-cuts-trane-technologies-price-target-on-margin-pressures-93CH-4986903"},
+    {"analyst": "RBC Capital analyst (name not in source)", "firm": "RBC Capital Markets", "field": "target", "value": 486, "source_prior": 496, "issued_at": "2026-10-30", "public_at": "2026-10-30T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-price-target-cut-to-48600-by-analysts-at-royal-bank-of-canada-2026-10-30/"},
+    {"analyst": "Citi analyst (name not in source)", "firm": "Citigroup", "field": "target", "value": 549, "source_prior": 566, "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/"},
+    {"analyst": "Citi analyst (name not in source)", "firm": "Citigroup", "field": "rating", "value": "Buy", "bucket": "Buy", "issued_at": "2026-11-02", "public_at": "2026-11-02T23:59:59-05:00", "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/"},
+    {"analyst": "JPMorgan analyst (name not in source)", "firm": "JPMorgan Chase", "field": "target", "value": 480, "source_prior": 550, "issued_at": "2026-11-11", "public_at": "2026-11-11T23:59:59-05:00", "horizon_months": null, "source": "https://www.gurufocus.com/news/9192986/tt-maintained-by-jp-morgan-price-target-lowered-to-480"},
+    {"analyst": "JPMorgan analyst (name not in source)", "firm": "JPMorgan Chase", "field": "rating", "value": "Overweight", "bucket": "Buy", "issued_at": "2026-11-11", "public_at": "2026-11-11T23:59:59-05:00", "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-target-lowered-at-jpmorgan-chase-co-2026-11-11/"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS (viewed at the 12-month target date, Nov 2026 to Nov 2027) times a justified P/E. Listing is the US common share, USD, no ADR conversion. FY2026 adjusted EPS guidance $15.20-$15.30 (Q3 reported $4.86; Q4 guide $3.40-$3.50, includes ~$0.10 tax headwind); FY2027 EPS is my own assumption from organic growth, margin and buybacks, not company guidance.",
+    "bear": 324.0,
+    "base": 415.0,
+    "bull": 509.6,
+    "cases": {
+      "bear": {"driver": "Data-center/commercial orders slow after record $12.5B backlog converts; margin pressure persists; EPS growth only ~6% off the FY2026 guide midpoint", "assumption": "FY2027 EPS $16.20 at 20x", "target": 324.0},
+      "base": {"driver": "Backlog (+73% y/y) converts, organic growth high single digit, modest margin expansion and buybacks give ~13% EPS growth over the FY2026 guide midpoint ($15.25)", "assumption": "FY2027 EPS $17.30 at 24x", "target": 415.0},
+      "bull": {"driver": "Data-center cooling demand sustains double-digit organic growth with margin gains; premium multiple holds", "assumption": "FY2027 EPS $18.20 at 28x", "target": 509.6}
+    },
+    "implied_by_close": "At base EPS $17.30 the close of $386.29 implies 22.3x; the equal-weighted named target of about $515 implies 29.8x, or EPS about $21.5 at the base 24x (about 24% above the model).",
+    "sensitivity": "One turn of P/E moves the base target by $17.30 (4.5 pp of the close).",
+    "watch_metric": "Organic orders and backlog conversion in Commercial HVAC (data-center share), and adjusted EPS vs the FY2026 $15.20-$15.30 guide and initial FY2027 guide",
+    "next_disclosure": "Q4/FY2026 earnings release, expected around late Jan to early Feb 2027 (date not confirmed)"
+  },
+  "dividend_per_share": 4.2,
+  "analyst_notes": "All sourced named calls since the Oct 29 release are target cuts with Buy-equivalent ratings kept (Evercore 565 to 560, Oppenheimer 530 to 500, RBC 496 to 486, Citi 566 to 549, JPMorgan 550 to 480), so cuts and bullish ratings coexist; the stock fell from about $418 to $386 in the week to the close, which raises implied upside beyond the revisions. The roughly $515 average of these five is about 24% above the base model, equivalent to ~30x FY2027 EPS or ~$21.5 EPS at 24x. Analyst names and exact dates for UBS, Baird, Mizuho, Argus, Bernstein and Goldman were not verifiable, so they are excluded; the sample is five firms, mostly one week old, and dividend of $4.20 uses Yahoo's indicated rate.",
+  "sources": [
+    {"label": "Q3 2026 earnings release (8-K Ex. 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0001466258/000146625826000001/exhibit991-q32026earningsr.htm", "supports": "Q3 EPS, revenue, backlog, FY2026 guidance"},
+    {"label": "Zacks Q3 call highlights", "url": "https://zacks.com/stock/news/3019884/tt-q3-earnings-call-highlights-strong-demand-margin-pressures", "supports": "Q4 EPS guide and tax headwind"},
+    {"label": "Evercore ISI target cut", "url": "https://www.gurufocus.com/news/9158973/tt-maintained-by-evercore-isi-group-price-target-lowered-to-560", "supports": "Evercore target and rating"},
+    {"label": "Oppenheimer target cut", "url": "https://www.investing.com/news/analyst-ratings/oppenheimer-cuts-trane-technologies-price-target-on-margin-pressures-93CH-4986903", "supports": "Oppenheimer target and rating"},
+    {"label": "RBC target cut", "url": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-price-target-cut-to-48600-by-analysts-at-royal-bank-of-canada-2026-10-30/", "supports": "RBC target"},
+    {"label": "Citi target", "url": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/", "supports": "Citi target and rating"},
+    {"label": "JPMorgan target cut", "url": "https://www.gurufocus.com/news/9192986/tt-maintained-by-jp-morgan-price-target-lowered-to-480", "supports": "JPMorgan target"}
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "issuer_id": "Brookfield Corporation",
+  "symbol": "BN",
+  "researched_at": "2026-11-21",
+  "research_close": {"close": 37.75, "close_date": "2026-11-20"},
+  "currency": "USD",
+  "earnings_at": "2026-11-12T08:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Mario Saric", "firm": "Scotiabank", "field": "target", "value": 54, "source_prior": 53,
+     "issued_at": "2026-08-14", "public_at": "2026-08-14T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.benzinga.com/quote/BN/price-targets"},
+    {"analyst": "Mario Saric", "firm": "Scotiabank", "field": "rating", "value": "Sector Outperform", "bucket": "Buy",
+     "issued_at": "2026-08-14", "public_at": "2026-08-14T23:59:59-04:00",
+     "source": "https://www.benzinga.com/quote/BN/price-targets"},
+    {"analyst": "Bart Dziarski", "firm": "RBC Capital", "field": "target", "value": 61, "source_prior": 63,
+     "issued_at": "2026-05-15", "public_at": "2026-05-15T23:59:59-04:00", "horizon_months": null,
+     "source": "https://kr.benzinga.com/quote/BN/analyst-ratings"},
+    {"analyst": "Bart Dziarski", "firm": "RBC Capital", "field": "rating", "value": "Outperform", "bucket": "Buy",
+     "issued_at": "2026-05-15", "public_at": "2026-05-15T23:59:59-04:00",
+     "source": "https://kr.benzinga.com/quote/BN/analyst-ratings"},
+    {"analyst": "Unnamed analyst (JPMorgan)", "firm": "JPMorgan", "field": "target", "value": 65, "source_prior": 56,
+     "issued_at": "2026-11-10", "public_at": "2026-11-10T23:59:59-05:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-brookfield-nyse-bn-stock-gets-price-target-increase-from-jpmorgan-chase-co-2026-11-10/"},
+    {"analyst": "Unnamed analyst (JPMorgan)", "firm": "JPMorgan", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-11-10", "public_at": "2026-11-10T23:59:59-05:00",
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-brookfield-nyse-bn-stock-gets-price-target-increase-from-jpmorgan-chase-co-2026-11-10/"},
+    {"analyst": "Unnamed analyst (Morgan Stanley)", "firm": "Morgan Stanley", "field": "target", "value": 52, "source_prior": 54,
+     "issued_at": "2026-11-18", "public_at": "2026-11-18T23:59:59-05:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-brookfield-nyse-bn-stock-price-2026-11-18/"},
+    {"analyst": "Unnamed analyst (Morgan Stanley)", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-11-18", "public_at": "2026-11-18T23:59:59-05:00",
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-brookfield-nyse-bn-stock-price-2026-11-18/"}
+  ],
+  "valuation": {
+    "method": "Forward distributable earnings (DE) per share x multiple, with FY2027 DE/share viewed at the 12-month target date (Nov 2027). Brookfield is a diversified asset manager/insurer/owner, so DE per share (the company's own earnings measure) is the earnings basis rather than GAAP EPS. Listing is the US BN line in USD, no ADR conversion. Inputs are my assumptions anchored to reported LTM DE of $2.72/share and Q3 2026 DE of $0.73/share (+16% y/y); no company forward DE guidance was found, and the full interim report could not be opened (sec.gov blocked), so share count and net debt were not independently reconciled.",
+    "bear": 31.9, "base": 44.1, "bull": 55.2,
+    "cases": {
+      "bear": {"driver": "Fundraising and carry slow, higher rates and energy prices compress realizations; DE/share grows only ~6% from LTM.", "assumption": "FY2027 DE $2.90/share at 11x (about the lowest published analyst target of $31)", "target": 31.9},
+      "base": {"driver": "Fee-related earnings keep growing mid-teens (Q3 +15%), wealth solutions grows ~20%, partly offset by higher corporate costs (Q3 +69%); DE/share growth ~8% a year on the LTM base.", "assumption": "FY2027 DE $3.15/share at 14x (roughly today's 13.9x LTM multiple)", "target": 44.1},
+      "bull": {"driver": "Fee-bearing capital ($682bn, +13%) compounds, carry and realizations recover, and simplification lifts the multiple.", "assumption": "FY2027 DE $3.45/share at 16x", "target": 55.2}
+    },
+    "implied_by_close": "At base DE of $3.15 the close implies 12.0x; the published mean target of $53.90 implies 17.1x, or DE of $3.85 at 14x (22% above the model). The named-analyst weighted target is lower than the published mean.",
+    "sensitivity": "One turn of multiple moves the base target by $3.15 (8.3 pp of the close); $0.10 of DE moves it by $1.40 (3.7 pp).",
+    "watch_metric": "Total DE per share (Q3 2026: $0.73; LTM $2.72) and fee-related earnings growth, needing about 8% y/y DE/share growth to support the base case.",
+    "next_disclosure": "Q4 and full-year 2026 results, expected February 2027; simplification closes on 2026-12-01 with the new Class A shares trading as BN from 2026-12-03."
+  },
+  "dividend_per_share": 0.28,
+  "analyst_notes": "Four named or firm-identified brokers were found. Since the Nov 12 results JPMorgan raised to $65 from $56 (Nov 10, just before the print per MarketBeat) while Morgan Stanley cut to $52 from $54 (Nov 18); the Scotiabank and RBC targets ($54, $61) predate earnings and are stale. JPMorgan and Morgan Stanley authors were not named in the sources. All four are Buy-equivalent; target horizons are not documented, so none enter the weighted target. The published aggregate (Yahoo Finance, 10 analysts, mean $53.90, range $31-$64) sits about 22% above the base case, which equals roughly 17x versus 14x on the same DE, or about $0.70 more DE/share at 14x; the analysts' assumptions are unknown. Some aggregator figures conflicted and the broker notes themselves could not be opened.",
+  "sources": [
+    {"label": "Brookfield Q3 2026 results coverage (DE $0.73/share, LTM $2.72)", "url": "https://www.bnnbloomberg.ca/business/company-news/2026/11/12/brookfield-reports-third-quarter-profit-up-from-year-ago/", "supports": "Q3 DE, earnings date, dividend, simplification timing"},
+    {"label": "Brookfield Q3 2026 Form 6-K exhibit 99.1", "url": "https://www.sec.gov/Archives/edgar/data/0001001085/000117184326007374/exh_991.htm", "supports": "Q3 2026 press release (DE per share, simplification)"},
+    {"label": "Brookfield Q3 2026 interim report", "url": "https://www.sec.gov/Archives/edgar/data/0001001085/000100108526000030/a2026-q3bninterimreport.htm", "supports": "Interim financials, DE, share count (not opened)"},
+    {"label": "Benzinga BN price targets", "url": "https://www.benzinga.com/quote/BN/price-targets", "supports": "Scotiabank target and rating"},
+    {"label": "Benzinga BN analyst ratings", "url": "https://kr.benzinga.com/quote/BN/analyst-ratings", "supports": "RBC target and rating"},
+    {"label": "MarketBeat JPMorgan BN", "url": "https://www.marketbeat.com/instant-alerts/analyst-brookfield-nyse-bn-stock-gets-price-target-increase-from-jpmorgan-chase-co-2026-11-10/", "supports": "JPMorgan target and rating"},
+    {"label": "MarketBeat Morgan Stanley BN", "url": "https://www.marketbeat.com/instant-alerts/analyst-morgan-stanley-issues-pessimistic-forecast-for-brookfield-nyse-bn-stock-price-2026-11-18/", "supports": "Morgan Stanley target and rating"},
+    {"label": "Stockanalysis BN forecast", "url": "https://stockanalysis.com/stocks/bn/", "supports": "Published consensus mean $53.90"}
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "issuer_id": "American Tower Corporation",
+  "symbol": "AMT",
+  "researched_at": "2026-11-21",
+  "research_close": {"close": 184.21, "close_date": "2026-11-20"},
+  "currency": "USD",
+  "earnings_at": "2026-10-27T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Michael Elias", "firm": "TD Cowen", "field": "target", "value": 227, "source_prior": 225,
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.wallstreetzen.com/how-to-buy-american-tower-stock"},
+    {"analyst": "Michael Elias", "firm": "TD Cowen", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00",
+     "source": "https://www.wallstreetzen.com/how-to-buy-american-tower-stock"},
+    {"analyst": "Ari Klein", "firm": "BMO Capital", "field": "target", "value": 195, "source_prior": 190,
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-american-tower-nyse-amt-stock-picked-up-by-analysts-at-deutsche-bank-2026-11-17/"},
+    {"analyst": "Ari Klein", "firm": "BMO Capital", "field": "rating", "value": "Market Perform", "bucket": "Hold",
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00",
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-american-tower-nyse-amt-stock-picked-up-by-analysts-at-deutsche-bank-2026-11-17/"},
+    {"analyst": "Brendan Lynch", "firm": "Barclays", "field": "target", "value": 199, "source_prior": 198,
+     "issued_at": "2026-09-30", "public_at": "2026-09-30T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.wallstreetzen.com/how-to-buy-american-tower-stock"},
+    {"analyst": "Vikram Malhotra", "firm": "Mizuho", "field": "target", "value": 220,
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00", "horizon_months": null,
+     "source": "https://www.investing.com/equities/amer-tower-corp-consensus-estimates"},
+    {"analyst": "Vikram Malhotra", "firm": "Mizuho", "field": "rating", "value": "Outperform", "bucket": "Buy",
+     "issued_at": "2026-07-29", "public_at": "2026-07-29T23:59:59-04:00",
+     "source": "https://www.investing.com/equities/amer-tower-corp-consensus-estimates"}
+  ],
+  "valuation": {
+    "method": "REIT AFFO per share x multiple: FY2027 AFFO/share (company calls 2026 the trough, with inflection in 2027) times a justified P/AFFO at the 12-month target date. FY2026 guidance midpoint $11.10 (range $11.04-$11.16) is the anchor; FY2027 is my assumption, not company guidance. No FX: USD-listed common shares.",
+    "bear": 168.0, "base": 205.0, "bull": 230.0,
+    "cases": {
+      "bear": {"driver": "No 2027 recovery: AFFO/share only +0.9% on 2026 midpoint as remaining DISH churn, higher interest cost and weak organic billings offset buybacks", "assumption": "AFFO $11.20 x 15.0x", "target": 168.0},
+      "base": {"driver": "2027 inflection as company indicates: AFFO/share +5.4% from 2026 midpoint on escalators, lower churn, data center growth and buybacks", "assumption": "AFFO $11.70 x 17.5x", "target": 205.0},
+      "bull": {"driver": "Stronger carrier amplification and data center growth plus rate relief: AFFO/share +9% on 2026 midpoint", "assumption": "AFFO $12.10 x 19.0x", "target": 230.0}
+    },
+    "implied_by_close": "At base AFFO $11.70 the close implies 15.7x; the equal-weight mean of the four named targets (about $210; not a weighted target because horizons are undocumented) implies roughly 17.9x base AFFO, or about $12.00 AFFO at 17.5x.",
+    "sensitivity": "One turn of P/AFFO moves the base target by $11.70 (6.4 pp of the close)",
+    "watch_metric": "Organic tenant billings growth ex-DISH and full-year 2027 AFFO per share guidance versus $11.70",
+    "next_disclosure": "Q4/FY2026 results and 2027 outlook, expected around late February 2027; date not yet confirmed"
+  },
+  "dividend_per_share": 7.16,
+  "analyst_notes": "Only a subset of named calls could be sourced (4 analysts, mostly late-July post-Q2 and one Sep 30), so none were updated after the Oct 27 Q3 release and all are stale relative to earnings; the newest named target is Barclays $199. Targets of $195-$227 imply roughly 17-19.4x my $11.70 AFFO, versus 17.5x in the base case; the gap to the base is a mix of higher AFFO or multiple and is not attributable to any broker without their models. Wolfe (Buy, $188, Jul 9), Bernstein (Outperform, $207, May 19) and Deutsche Bank (initiation, Buy, $222, Nov 2026) were found without a named analyst and are excluded; target horizons are undocumented so all targets are excluded from the weighted target. Dividend assumes four $1.79 payments held flat (company raises have occurred annually, so this is conservative).",
+  "sources": [
+    {"label": "American Tower Q3 2026 results coverage (AFFO $2.87, 2026 AFFO guide $11.04-$11.16)", "url": "https://www.zacks.com/stock/news/3016141/amt-q3-affo-revenues-rise-on-steady-demand-2026-outlook-raised", "supports": "Q3 AFFO, 2026 outlook, 2026 trough/2027 inflection"},
+    {"label": "American Tower raises 2026 outlook", "url": "https://www.kucoin.com/news/flash/american-tower-raises-2026-outlook-for-third-time", "supports": "Guidance raise, dividend $1.79, net leverage 4.9x"},
+    {"label": "American Tower Q3 2026 earnings release scheduling", "url": "https://www.nasdaq.com/press-release/american-tower-plans-third-quarter-2026-earnings-release-and-conference-call-2026-09", "supports": "Oct 27, 2026 7:00 a.m. ET release time"},
+    {"label": "WallStreetZen AMT analyst log", "url": "https://www.wallstreetzen.com/how-to-buy-american-tower-stock", "supports": "TD Cowen and Barclays targets and dates"},
+    {"label": "MarketBeat AMT analyst actions", "url": "https://www.marketbeat.com/instant-alerts/analyst-american-tower-nyse-amt-stock-picked-up-by-analysts-at-deutsche-bank-2026-11-17/", "supports": "BMO target and Market Perform rating"},
+    {"label": "Investing.com AMT consensus page", "url": "https://www.investing.com/equities/amer-tower-corp-consensus-estimates", "supports": "Mizuho Buy, $220 target, Jul 29"}
+  ]
+}

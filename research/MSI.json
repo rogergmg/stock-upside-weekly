@@ -1,0 +1,52 @@
+{
+  "issuer_id": "Motorola Solutions, Inc.",
+  "symbol": "MSI",
+  "researched_at": "2026-11-21",
+  "research_close": {"close": 520.21, "close_date": "2026-11-20"},
+  "currency": "USD",
+  "earnings_at": "2026-11-04T16:05:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Tim Long", "firm": "Barclays", "field": "target", "value": 598, "source_prior": 529,
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null,
+     "source": "https://www.gurufocus.com/news/9175830/msi-maintains-rating-by-barclays-price-target-raised-to-598"},
+    {"analyst": "Tim Long", "firm": "Barclays", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00",
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-motorola-solutions-nyse-msi-stock-gets-price-target-boost-from-barclays-2026-11-05/"},
+    {"analyst": "Amit Daryanani", "firm": "Evercore ISI", "field": "target", "value": 575, "source_prior": 550,
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null,
+     "source": "https://stockanalysis.com/stocks/msi/"},
+    {"analyst": "Amit Daryanani", "firm": "Evercore ISI", "field": "rating", "value": "Outperform", "bucket": "Buy",
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00",
+     "source": "https://stockanalysis.com/stocks/msi/"},
+    {"analyst": "Meta Marshall", "firm": "Morgan Stanley", "field": "target", "value": 476, "source_prior": 470,
+     "issued_at": "2026-08-06", "public_at": "2026-08-06T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finviz.com/news/260017/motorola-solutions-msi-upgrade-reflects-valuation-reset-says-morgan-stanley-analyst"},
+    {"analyst": "Meta Marshall", "firm": "Morgan Stanley", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-08-06", "public_at": "2026-08-06T23:59:59-04:00",
+     "source": "https://finviz.com/news/260017/motorola-solutions-msi-upgrade-reflects-valuation-reset-says-morgan-stanley-analyst"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 non-GAAP diluted EPS viewed at the 12-month target date (Nov 2027), USD per MSI common share. Anchor: FY2026 non-GAAP EPS guidance $17.94-$17.99 (Q4 guide $5.47-$5.52; ~168M diluted shares; non-GAAP tax 21.5-22%) per the Q3 release of 2026-11-04. FY2027 EPS is my assumption (revenue growth near 8-9% from record $16.6B backlog, modest margin expansion, buybacks offsetting D-Fend/Silvus dilution and higher interest). Multiples are my judgment, not sourced peer data. Non-GAAP EPS excludes the contingent Silvus earnout charge that cut GAAP EPS to $3.06 in Q3.",
+    "bear": 415.8, "base": 517.4, "bull": 600.3,
+    "cases": {
+      "bear": {"driver": "Government/public-safety budget slowdown and acquisition integration drag: FY2027 EPS growth only ~5% from the FY2026 guide midpoint ($17.97)", "assumption": "EPS $18.90 at 22x", "target": 415.8},
+      "base": {"driver": "Backlog conversion with ~10-11% EPS growth, in line with the raised FY2026 trajectory", "assumption": "EPS $19.90 at 26x", "target": 517.4},
+      "bull": {"driver": "Record orders convert faster, margin expansion and buybacks lift EPS growth to ~15%", "assumption": "EPS $20.70 at 29x", "target": 600.3}
+    },
+    "implied_by_close": "At base EPS $19.90 the close of $520.21 implies 26.1x; the simple average of the three named targets ($549.67) implies 27.6x on $19.90, or EPS $21.14 at a constant 26x. No horizon-documented targets exist, so no weighted analyst target is computed.",
+    "sensitivity": "One turn of P/E moves the base target by $19.90 (3.8 pp of the close); $1 of FY2027 EPS moves it by $26.",
+    "watch_metric": "Non-GAAP operating margin and backlog growth (record $16.6B, +14% in Q3), which drive FY2027 EPS vs the $19.90 base",
+    "next_disclosure": "Q4 and FY2026 earnings release (expected early Feb 2027) with FY2027 guidance"
+  },
+  "dividend_per_share": 5.36,
+  "analyst_notes": "Only three named analysts could be sourced, plus firm-only moves reported by MarketBeat on 2026-11-05 without verified analyst names (JPMorgan $570 from $545 Overweight, UBS $570 from $520 Buy, Truist $555 from $550 buy, Piper Sandler $533 from $531 Overweight); those are excluded from the individual calculation. After the Nov 4 earnings Barclays and Evercore raised targets to $598 and $575; Morgan Stanley's $476 dates from August and predates earnings. The Evercore date is inferred from a post-earnings listing without a dated article, and no 12-month horizon was documented for any broker, so all targets have null horizons. The $549.67 named average sits about 6% above the close; relative to the base case it implies roughly 1.6 turns of P/E or about $1.24 more FY2027 EPS.",
+  "sources": [
+    {"label": "Q3 2026 8-K press release (Exhibit 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000068505/000006850526000041/msiq32026pressrelease.htm", "supports": "Q3 results, FY2026 and Q4 guidance, share count assumption"},
+    {"label": "Q3 2026 results summary", "url": "https://investingnews.com/motorola-solutions-reports-third-quarter-2026-financial-results/", "supports": "Raised outlook, backlog, buyback"},
+    {"label": "Barclays target raise to $598", "url": "https://www.gurufocus.com/news/9175830/msi-maintains-rating-by-barclays-price-target-raised-to-598", "supports": "Barclays target and prior"},
+    {"label": "MarketBeat Barclays note", "url": "https://www.marketbeat.com/instant-alerts/analyst-motorola-solutions-nyse-msi-stock-gets-price-target-boost-from-barclays-2026-11-05/", "supports": "Barclays Overweight rating, other post-earnings target moves"},
+    {"label": "StockAnalysis MSI", "url": "https://stockanalysis.com/stocks/msi/", "supports": "Evercore ISI $575 from $550, Outperform"},
+    {"label": "Finviz Morgan Stanley note", "url": "https://finviz.com/news/260017/motorola-solutions-msi-upgrade-reflects-valuation-reset-says-morgan-stanley-analyst", "supports": "Morgan Stanley Overweight, target history"}
+  ]
+}

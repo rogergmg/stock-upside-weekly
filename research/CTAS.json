@@ -1,0 +1,224 @@
+{
+ "issuer_id": "Cintas Corporation",
+ "symbol": "CTAS",
+ "researched_at": "2026-11-21",
+ "research_close": {
+  "close": 220.01,
+  "close_date": "2026-11-20"
+ },
+ "currency": "USD",
+ "earnings_at": "2026-09-23T08:30:00-04:00",
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "UBS analyst (name not in source)",
+   "firm": "UBS",
+   "field": "target",
+   "value": 235,
+   "issued_at": "2026-09-24",
+   "public_at": "2026-09-24T23:59:59-04:00",
+   "source": "https://www.dailypolitical.com/2026/09/25/cintas-nasdaqctas-announces-fy-2027-earnings-guidance.html",
+   "horizon_months": null,
+   "source_prior": 230
+  },
+  {
+   "analyst": "UBS analyst (name not in source)",
+   "firm": "UBS",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-09-24",
+   "public_at": "2026-09-24T23:59:59-04:00",
+   "source": "https://www.dailypolitical.com/2026/09/25/cintas-nasdaqctas-announces-fy-2027-earnings-guidance.html",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "Baird analyst (name not in source)",
+   "firm": "Baird",
+   "field": "target",
+   "value": 222,
+   "issued_at": "2026-09-24",
+   "public_at": "2026-09-24T23:59:59-04:00",
+   "source": "https://www.dailypolitical.com/2026/09/25/cintas-nasdaqctas-announces-fy-2027-earnings-guidance.html",
+   "horizon_months": null
+  },
+  {
+   "analyst": "Baird analyst (name not in source)",
+   "firm": "Baird",
+   "field": "rating",
+   "value": "Outperform",
+   "issued_at": "2026-09-24",
+   "public_at": "2026-09-24T23:59:59-04:00",
+   "source": "https://www.dailypolitical.com/2026/09/25/cintas-nasdaqctas-announces-fy-2027-earnings-guidance.html",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "Bernstein analyst (name not in source)",
+   "firm": "Bernstein SocGen",
+   "field": "target",
+   "value": 200,
+   "issued_at": "2026-09-23",
+   "public_at": "2026-09-23T23:59:59-04:00",
+   "source": "https://www.investing.com/news/analyst-ratings/bernstein-socgen-reiterates-cintas-stock-rating-after-q1-beat-93CH-4915540",
+   "horizon_months": null
+  },
+  {
+   "analyst": "Bernstein analyst (name not in source)",
+   "firm": "Bernstein SocGen",
+   "field": "rating",
+   "value": "Market Perform",
+   "issued_at": "2026-09-23",
+   "public_at": "2026-09-23T23:59:59-04:00",
+   "source": "https://www.investing.com/news/analyst-ratings/bernstein-socgen-reiterates-cintas-stock-rating-after-q1-beat-93CH-4915540",
+   "bucket": "Hold"
+  },
+  {
+   "analyst": "Truist analyst (name not in source)",
+   "firm": "Truist Securities",
+   "field": "target",
+   "value": 230,
+   "issued_at": "2026-09-24",
+   "public_at": "2026-09-24T23:59:59-04:00",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cintas-raises-fiscal-2027-guidance-analyst-target-for-cintas-stock-is-usd-218-50/70419265",
+   "horizon_months": null,
+   "source_prior": 225
+  },
+  {
+   "analyst": "Truist analyst (name not in source)",
+   "firm": "Truist Securities",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-09-24",
+   "public_at": "2026-09-24T23:59:59-04:00",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cintas-raises-fiscal-2027-guidance-analyst-target-for-cintas-stock-is-usd-218-50/70419265",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "Wells Fargo analyst (name not in source)",
+   "firm": "Wells Fargo",
+   "field": "target",
+   "value": 250,
+   "issued_at": "2026-07-16",
+   "public_at": "2026-07-16T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CTAS/forecast/",
+   "horizon_months": null,
+   "source_prior": 245
+  },
+  {
+   "analyst": "Wells Fargo analyst (name not in source)",
+   "firm": "Wells Fargo",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-07-16",
+   "public_at": "2026-07-16T23:59:59-04:00",
+   "source": "https://www.marketbeat.com/stocks/NASDAQ/CTAS/forecast/",
+   "bucket": "Buy"
+  },
+  {
+   "analyst": "Leo Carrington",
+   "firm": "Citigroup",
+   "field": "target",
+   "value": 181,
+   "issued_at": "2026-09-30",
+   "public_at": "2026-09-30T23:59:59-04:00",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cintas-raises-fiscal-2027-guidance-analyst-target-for-cintas-stock-is-usd-218-50/70419265",
+   "horizon_months": null,
+   "source_prior": 180
+  },
+  {
+   "analyst": "Leo Carrington",
+   "firm": "Citigroup",
+   "field": "rating",
+   "value": "Sell",
+   "issued_at": "2026-09-30",
+   "public_at": "2026-09-30T23:59:59-04:00",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cintas-raises-fiscal-2027-guidance-analyst-target-for-cintas-stock-is-usd-218-50/70419265",
+   "bucket": "Sell"
+  },
+  {
+   "analyst": "Manav Patnaik",
+   "firm": "Barclays",
+   "field": "target",
+   "value": 245,
+   "issued_at": "2026-09-21",
+   "public_at": "2026-09-21T23:59:59-04:00",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cintas-raises-fiscal-2027-guidance-analyst-target-for-cintas-stock-is-usd-218-50/70419265",
+   "horizon_months": null
+  },
+  {
+   "analyst": "Manav Patnaik",
+   "firm": "Barclays",
+   "field": "rating",
+   "value": "Buy",
+   "issued_at": "2026-09-21",
+   "public_at": "2026-09-21T23:59:59-04:00",
+   "source": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cintas-raises-fiscal-2027-guidance-analyst-target-for-cintas-stock-is-usd-218-50/70419265",
+   "bucket": "Buy"
+  }
+ ],
+ "valuation": {
+  "method": "Forward EPS x P/E. At the 12-month target date (Nov 2027) an investor prices FY2028 (year to May 2028) diluted EPS. Anchored on FY2027 adjusted EPS guidance of $5.45-$5.54 (Sep 23, 2026 release; standalone, excludes the pending UniFirst acquisition and its transaction costs), grown at the operating assumptions below. UniFirst ($155 cash + 0.772 CTAS shares per UniFirst share, ~$5.5bn EV, expected close 2H calendar 2026) is excluded from all cases; financing and share issuance would shift EPS and are unquantified here. Price-only targets; USD per share of the US listing.",
+  "bear": 166.75,
+  "base": 216.0,
+  "bull": 248.0,
+  "cases": {
+   "bear": {
+    "driver": "Organic growth slows to ~5-6% and margin expansion stalls; FY2028 EPS grows only ~4% from the ~$5.50 FY2027 guide midpoint; multiple de-rates toward the stock's longer-run premium-industrial range.",
+    "assumption": "EPS $5.75 at 29x",
+    "target": 166.75
+   },
+   "base": {
+    "driver": "Revenue grows ~7-8% organically, modest operating-margin gains and buybacks (about $545m repurchased in Q1 FY27) deliver ~9% EPS growth from the ~$5.50 guide midpoint.",
+    "assumption": "EPS $6.00 at 36x",
+    "target": 216.0
+   },
+   "bull": {
+    "driver": "Growth of ~9-10% with continued margin expansion and buybacks gives ~13% EPS growth; premium multiple sustained.",
+    "assumption": "EPS $6.20 at 40x",
+    "target": 248.0
+   }
+  },
+  "implied_by_close": "At base EPS of $6.00 the $220.01 close implies 36.7x FY2028 EPS (40.0x the $5.50 FY2027 guide midpoint). The sample's equal-weight target is about $223, which implies about 37x base EPS, or about $6.20 EPS at a constant 36x (about 3% above the model).",
+  "sensitivity": "One turn of P/E moves the base target by $6.00 (2.7 pp of the close); a $0.10 change in FY2028 EPS moves it by $3.60.",
+  "watch_metric": "Organic revenue growth and operating margin in Uniform Rental and Facility Services against the FY2027 guide of $12.15-$12.27bn revenue and $5.45-$5.54 EPS; plus UniFirst closing terms and financing.",
+  "next_disclosure": "Fiscal 2027 second-quarter results, expected in December 2026 (date per company; confirm on the company's investor page)."
+ },
+ "dividend_per_share": 2.08,
+ "analyst_notes": "Named calls found cluster around the Sep 23-24, 2026 Q1 FY27 release: UBS raised to $235, Truist to $230, Baird set $222, Bernstein held $200 at Market Perform, Citigroup stays Sell at $181. Wells Fargo ($250, Jul 16) and Barclays ($245, Sep 21) predate or sit just before earnings, so are older. The sample of seven is concentrated in Buy ratings; its equal-weight target (~$223) is slightly above the $216 base, equal to roughly 37x versus 36x on the same EPS. Target horizons are not documented in the sources, so none is counted as 12-month. Many sources are aggregators and several analyst names were not stated.",
+ "sources": [
+  {
+   "label": "Cintas FY2027 Q1 results coverage (Sep 23, 2026)",
+   "url": "https://finviz.com/news/394699/cintas-corporation-announces-fiscal-2027-first-quarter-results",
+   "supports": "Q1 EPS, FY2027 guidance, buybacks, tax rate"
+  },
+  {
+   "label": "Cintas Q1 FY27 earnings summary (Quartr)",
+   "url": "https://quartr.com/events/cintas-corporation-ctas-q1-2027_3YnRdOtc",
+   "supports": "Q1 results and release timing"
+  },
+  {
+   "label": "Cintas to acquire UniFirst (Barchart/Business Wire)",
+   "url": "https://www.barchart.com/story/news/683727/cintas-to-acquire-unifirst-in-5-5-billion-transaction-that-expands-service-capabilities-enhances-workday-solutions-and-advances-industry-innovation",
+   "supports": "UniFirst deal terms, timing, financing"
+  },
+  {
+   "label": "Investing.com Bernstein SocGen on Cintas",
+   "url": "https://www.investing.com/news/analyst-ratings/bernstein-socgen-reiterates-cintas-stock-rating-after-q1-beat-93CH-4915540",
+   "supports": "Bernstein Market Perform, $200"
+  },
+  {
+   "label": "Ad-hoc-news Cintas analyst targets",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/cintas-raises-fiscal-2027-guidance-analyst-target-for-cintas-stock-is-usd-218-50/70419265",
+   "supports": "Truist, Citi, Barclays targets"
+  },
+  {
+   "label": "Daily Political Cintas FY2027 guidance",
+   "url": "https://www.dailypolitical.com/2026/09/25/cintas-nasdaqctas-announces-fy-2027-earnings-guidance.html",
+   "supports": "UBS and Baird targets"
+  },
+  {
+   "label": "MarketBeat CTAS forecast",
+   "url": "https://www.marketbeat.com/stocks/NASDAQ/CTAS/forecast/",
+   "supports": "Wells Fargo target"
+  }
+ ]
+}

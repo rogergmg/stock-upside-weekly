@@ -2,8 +2,8 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-20",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-23T14:00:43.737312+00:00",
-  "fetched_at": "2026-11-23T14:00:40.951521+00:00",
+  "built_at": "2026-11-23T14:14:17.763990+00:00",
+  "fetched_at": "2026-11-23T14:14:17.442939+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
     "listings_checked": 357,
@@ -33,9 +33,9 @@
         "high": 103504688751
       },
       "scenarios_pct": {
-        "bear": 594.0938919737506,
-        "base": 1338.6673397274103,
-        "bull": 2323.0186774356384
+        "bear": -13.238263503281171,
+        "base": 79.8334174659263,
+        "bull": 202.87733467945483
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -6227,7 +6227,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2020-08-31",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "MSFT",
@@ -6257,7 +6260,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2003-02-18",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "GOOGL",
@@ -6289,7 +6295,10 @@
         "GOOG"
       ],
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-07-18",
+        "factor": 20.0
+      }
     },
     {
       "symbol": "NVDA",
@@ -6319,7 +6328,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-06-10",
+        "factor": 10.0
+      }
     },
     {
       "symbol": "AMZN",
@@ -6349,7 +6361,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-06-06",
+        "factor": 20.0
+      }
     },
     {
       "symbol": "SPCX",
@@ -6409,7 +6424,10 @@
       },
       "other_classes": null,
       "financial_currency": "TWD",
-      "last_split": null
+      "last_split": {
+        "date": "2009-07-15",
+        "factor": 1.005
+      }
     },
     {
       "symbol": "AVGO",
@@ -6439,7 +6457,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-07-15",
+        "factor": 10.0
+      }
     },
     {
       "symbol": "META",
@@ -6499,7 +6520,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-08-25",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "BRK/B",
@@ -6531,7 +6555,10 @@
         "BRK/A"
       ],
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2010-01-21",
+        "factor": 50.0
+      }
     },
     {
       "symbol": "LLY",
@@ -6561,7 +6588,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1997-10-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ANT",
@@ -6621,7 +6651,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-02-26",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "JPM",
@@ -6651,7 +6684,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-06-12",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "SKHY",
@@ -6711,7 +6747,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-03-19",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "AMD",
@@ -6741,7 +6780,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-08-22",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "MU",
@@ -6771,7 +6813,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-05-02",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "XOM",
@@ -6801,7 +6846,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-07-19",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "JNJ",
@@ -6831,7 +6879,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-06-13",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "MA",
@@ -6861,7 +6912,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-01-22",
+        "factor": 10.0
+      }
     },
     {
       "symbol": "ABBV",
@@ -6921,7 +6975,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-01-14",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ASML",
@@ -6940,18 +6997,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 2099.5571,
-        "median": 2245.9324,
-        "high": 2778.6628,
-        "low": 845.878,
+        "mean": 2100.4758,
+        "median": 2246.915,
+        "high": 2779.8784,
+        "low": 846.2481,
         "analysts": 17,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.36585,
-        "upside_pct": 65.81297878725655
+        "upside_pct": 65.88553331964431
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "2007-10-01",
+        "factor": 0.8888888888888888
+      }
     },
     {
       "symbol": "KO",
@@ -6981,7 +7041,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2012-08-13",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CVX",
@@ -7011,7 +7074,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-09-13",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PG",
@@ -7041,7 +7107,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-06-21",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CSCO",
@@ -7071,7 +7140,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-03-23",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PLTR",
@@ -7131,7 +7203,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-12-31",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "MRK",
@@ -7161,7 +7236,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2021-06-03",
+        "factor": 1.048
+      }
     },
     {
       "symbol": "BAC",
@@ -7191,7 +7269,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-08-30",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "GE",
@@ -7221,7 +7302,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-04-02",
+        "factor": 1.253
+      }
     },
     {
       "symbol": "ORCL",
@@ -7251,7 +7335,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-10-13",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "UNH",
@@ -7281,7 +7368,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-05-31",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PM",
@@ -7341,7 +7431,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2019-04-09",
+        "factor": 1.116
+      }
     },
     {
       "symbol": "PANW",
@@ -7371,7 +7464,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-12-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "HSBC",
@@ -7431,7 +7527,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-07-31",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AZN",
@@ -7461,7 +7560,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-02-02",
+        "factor": 0.5
+      }
     },
     {
       "symbol": "MS",
@@ -7491,7 +7593,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-01-27",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SHEL",
@@ -7521,7 +7626,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1997-06-30",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "RTX",
@@ -7551,7 +7659,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2020-04-03",
+        "factor": 1.589
+      }
     },
     {
       "symbol": "RY",
@@ -7570,18 +7681,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 207.72519,
-        "median": 213.40434,
-        "high": 228.47021,
-        "low": 181.30107,
+        "mean": 207.72955,
+        "median": 213.40881,
+        "high": 228.47499,
+        "low": 181.30487,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.21429,
-        "upside_pct": 13.23259198691742
+        "upside_pct": 13.23496865630962
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-04-07",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "TMO",
@@ -7611,7 +7725,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1996-06-06",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "TM",
@@ -7641,7 +7758,10 @@
       },
       "other_classes": null,
       "financial_currency": "JPY",
-      "last_split": null
+      "last_split": {
+        "date": "1991-06-25",
+        "factor": 1.1
+      }
     },
     {
       "symbol": "TXN",
@@ -7671,7 +7791,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-05-23",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AMAT",
@@ -7701,7 +7824,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2002-04-17",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "WFC",
@@ -7731,7 +7857,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-08-14",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AMGN",
@@ -7761,7 +7890,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-11-22",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CRWD",
@@ -7791,7 +7923,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-07-02",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "CAT",
@@ -7821,7 +7956,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-07-14",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "NFLX",
@@ -7851,7 +7989,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2025-11-17",
+        "factor": 10.0
+      }
     },
     {
       "symbol": "LIN",
@@ -7881,7 +8022,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2003-12-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SAP",
@@ -7911,7 +8055,10 @@
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "1998-07-28",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "LRCX",
@@ -7941,7 +8088,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-10-03",
+        "factor": 10.0
+      }
     },
     {
       "symbol": "GS",
@@ -8031,7 +8181,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2021-11-04",
+        "factor": 1.046
+      }
     },
     {
       "symbol": "ANET",
@@ -8061,7 +8214,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-12-04",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "MUFG",
@@ -8121,7 +8277,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2013-01-28",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AXP",
@@ -8151,7 +8310,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-10-03",
+        "factor": 1.1424654404204273
+      }
     },
     {
       "symbol": "DIS",
@@ -8181,7 +8343,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2007-06-13",
+        "factor": 1.0136847440446022
+      }
     },
     {
       "symbol": "MCD",
@@ -8211,7 +8376,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-03-08",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "VZ",
@@ -8241,7 +8409,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2010-07-02",
+        "factor": 1.0662242546825904
+      }
     },
     {
       "symbol": "PEP",
@@ -8271,7 +8442,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1996-05-29",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "TTE",
@@ -8301,7 +8475,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-05-23",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "GEV",
@@ -8350,18 +8527,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 118.59795,
-        "median": 126.91852,
-        "high": 134.23523,
-        "low": 94.64012,
+        "mean": 118.5963,
+        "median": 126.91675,
+        "high": 134.23337,
+        "low": 94.6388,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.30769,
-        "upside_pct": 5.074820590059348
+        "upside_pct": 5.073358731283784
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-02-03",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "C",
@@ -8391,7 +8571,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2011-05-09",
+        "factor": 0.1
+      }
     },
     {
       "symbol": "ABT",
@@ -8421,7 +8604,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2013-01-02",
+        "factor": 2.084201750729471
+      }
     },
     {
       "symbol": "DELL",
@@ -8451,7 +8637,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2021-11-02",
+        "factor": 1.973
+      }
     },
     {
       "symbol": "WELL",
@@ -8481,7 +8670,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1985-09-04",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "TMUS",
@@ -8511,7 +8703,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2013-05-01",
+        "factor": 0.5
+      }
     },
     {
       "symbol": "NEE",
@@ -8541,7 +8736,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2020-10-27",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "APH",
@@ -8571,7 +8769,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-09-03",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "BHP",
@@ -8601,7 +8802,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-06-02",
+        "factor": 1.121
+      }
     },
     {
       "symbol": "UNP",
@@ -8631,7 +8835,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-06-09",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "BLK",
@@ -8691,7 +8898,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-03-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "NVO",
@@ -8710,18 +8920,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 45.537724,
-        "median": 43.515102,
-        "high": 63.751186,
-        "low": 39.231476,
+        "mean": 45.55865,
+        "median": 43.5351,
+        "high": 63.78048,
+        "low": 39.249504,
         "analysts": 12,
         "recommendation": "hold",
         "recommendation_mean": 2.84615,
-        "upside_pct": 20.406462189317807
+        "upside_pct": 20.46179270227393
       },
       "other_classes": null,
       "financial_currency": "DKK",
-      "last_split": null
+      "last_split": {
+        "date": "2023-09-20",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "KLAC",
@@ -8751,7 +8964,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-06-12",
+        "factor": 10.0
+      }
     },
     {
       "symbol": "DE",
@@ -8781,7 +8997,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2007-12-04",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ARM",
@@ -8841,7 +9060,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2012-05-01",
+        "factor": 1.311791
+      }
     },
     {
       "symbol": "QCOM",
@@ -8871,7 +9093,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-08-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SAN",
@@ -8901,7 +9126,10 @@
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "1999-06-21",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SHOP",
@@ -8931,7 +9159,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-06-29",
+        "factor": 10.0
+      }
     },
     {
       "symbol": "SONY",
@@ -8961,7 +9192,10 @@
       },
       "other_classes": null,
       "financial_currency": "JPY",
-      "last_split": null
+      "last_split": {
+        "date": "2024-10-09",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "PFE",
@@ -8991,7 +9225,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2020-11-17",
+        "factor": 1.054
+      }
     },
     {
       "symbol": "BUD",
@@ -9051,7 +9288,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-05-31",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "DHR",
@@ -9081,7 +9321,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2023-10-02",
+        "factor": 1.128
+      }
     },
     {
       "symbol": "TJX",
@@ -9111,7 +9354,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2018-11-07",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "T",
@@ -9141,7 +9387,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-04-11",
+        "factor": 1.324
+      }
     },
     {
       "symbol": "CRM",
@@ -9171,7 +9420,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2013-04-18",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "CB",
@@ -9201,7 +9453,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-03-03",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "HDB",
@@ -9231,7 +9486,10 @@
       },
       "other_classes": null,
       "financial_currency": "INR",
-      "last_split": null
+      "last_split": {
+        "date": "2025-09-08",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ISRG",
@@ -9261,7 +9519,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2021-10-05",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "UL",
@@ -9280,18 +9541,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.32162,
-        "median": 71.02066,
-        "high": 74.5539,
-        "low": 68.69123,
+        "mean": 71.35282,
+        "median": 71.051735,
+        "high": 74.58652,
+        "low": 68.72128,
         "analysts": 4,
         "recommendation": "none",
         "recommendation_mean": null,
-        "upside_pct": 11.754340332184254
+        "upside_pct": 11.803227828266994
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "2025-12-09",
+        "factor": 0.888
+      }
     },
     {
       "symbol": "SMFG",
@@ -9321,7 +9585,10 @@
       },
       "other_classes": null,
       "financial_currency": "JPY",
-      "last_split": null
+      "last_split": {
+        "date": "2010-11-01",
+        "factor": 0.5
+      }
     },
     {
       "symbol": "PGR",
@@ -9351,7 +9618,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-05-19",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "UBS",
@@ -9381,7 +9651,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-07-10",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ACN",
@@ -9441,7 +9714,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-01-04",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "VRTX",
@@ -9471,7 +9747,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-08-24",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "UBER",
@@ -9531,7 +9810,10 @@
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "2011-03-29",
+        "factor": 1.0169491525423728
+      }
     },
     {
       "symbol": "MDT",
@@ -9561,7 +9843,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-09-27",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SPGI",
@@ -9591,7 +9876,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-07-01",
+        "factor": 1.057
+      }
     },
     {
       "symbol": "IBN",
@@ -9621,7 +9909,10 @@
       },
       "other_classes": null,
       "financial_currency": "INR",
-      "last_split": null
+      "last_split": {
+        "date": "2017-06-19",
+        "factor": 1.1
+      }
     },
     {
       "symbol": "MO",
@@ -9651,7 +9942,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1997-04-11",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "LOW",
@@ -9681,7 +9975,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-07-03",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "BA",
@@ -9711,7 +10008,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1997-06-09",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "MCK",
@@ -9741,7 +10041,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-01-05",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "BTI",
@@ -9771,7 +10074,10 @@
       },
       "other_classes": null,
       "financial_currency": "GBP",
-      "last_split": null
+      "last_split": {
+        "date": "2017-02-14",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ETN",
@@ -9801,7 +10107,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2011-03-01",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "BMY",
@@ -9831,7 +10140,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-08-07",
+        "factor": 1.0506662800214757
+      }
     },
     {
       "symbol": "PDD",
@@ -9891,7 +10203,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-10-01",
+        "factor": 1.139
+      }
     },
     {
       "symbol": "SPOT",
@@ -9910,14 +10225,14 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 632.77216,
-        "median": 641.6843,
-        "high": 731.95935,
-        "low": 448.18063,
+        "mean": 633.049,
+        "median": 641.9651,
+        "high": 732.2796,
+        "low": 448.3767,
         "analysts": 38,
         "recommendation": "buy",
         "recommendation_mean": 1.70732,
-        "upside_pct": 9.660184045890174
+        "upside_pct": 9.708160754206885
       },
       "other_classes": null,
       "financial_currency": "EUR",
@@ -9951,7 +10266,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-05-17",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SBUX",
@@ -9981,7 +10299,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-04-09",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PLD",
@@ -10071,7 +10392,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-11-03",
+        "factor": 1.01
+      }
     },
     {
       "symbol": "SNY",
@@ -10131,7 +10455,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-10-04",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CME",
@@ -10161,7 +10488,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2012-07-23",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "PH",
@@ -10191,7 +10521,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2007-10-02",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "BMO",
@@ -10210,18 +10543,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 164.37013,
-        "median": 169.7943,
-        "high": 180.39067,
-        "low": 142.92542,
+        "mean": 164.3438,
+        "median": 169.76709,
+        "high": 180.36179,
+        "low": 142.90253,
         "analysts": 3,
         "recommendation": "hold",
         "recommendation_mean": 2.85714,
-        "upside_pct": 5.169959690319281
+        "upside_pct": 5.153112803122406
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-03-15",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SO",
@@ -10251,7 +10587,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-04-03",
+        "factor": 1.636929120969062
+      }
     },
     {
       "symbol": "BKNG",
@@ -10281,7 +10620,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-04-06",
+        "factor": 25.0
+      }
     },
     {
       "symbol": "MFG",
@@ -10341,7 +10683,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-06-02",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "MRVL",
@@ -10371,7 +10716,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-07-25",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "STX",
@@ -10431,7 +10779,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2011-11-22",
+        "factor": 1.061
+      }
     },
     {
       "symbol": "CVS",
@@ -10461,7 +10812,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-06-07",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PBR",
@@ -10491,7 +10845,10 @@
       },
       "other_classes": null,
       "financial_currency": "BRL",
-      "last_split": null
+      "last_split": {
+        "date": "2008-05-08",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ENB",
@@ -10510,18 +10867,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 50.521282,
-        "median": 49.640892,
-        "high": 58.509636,
-        "low": 44.44754,
+        "mean": 50.51319,
+        "median": 49.632942,
+        "high": 58.500267,
+        "low": 44.440422,
         "analysts": 5,
         "recommendation": "buy",
         "recommendation_mean": 2.20833,
-        "upside_pct": 10.574046837382367
+        "upside_pct": 10.556336178594883
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2011-06-01",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "BNS",
@@ -10540,18 +10900,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 89.80766,
-        "median": 95.9338,
-        "high": 98.16369,
-        "low": 75.3255,
+        "mean": 89.793274,
+        "median": 95.918434,
+        "high": 98.147964,
+        "low": 75.31343,
         "analysts": 3,
         "recommendation": "hold",
         "recommendation_mean": 2.53846,
-        "upside_pct": 7.386894655028109
+        "upside_pct": 7.369692694009333
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-04-29",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "DUK",
@@ -10581,7 +10944,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2012-07-03",
+        "factor": 0.3333333333333333
+      }
     },
     {
       "symbol": "ABNB",
@@ -10641,7 +11007,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-06-11",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "HCA",
@@ -10701,7 +11070,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1994-04-22",
+        "factor": 1.25
+      }
     },
     {
       "symbol": "NET",
@@ -10761,7 +11133,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2002-07-01",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "WDC",
@@ -10791,7 +11166,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2025-02-24",
+        "factor": 1.323
+      }
     },
     {
       "symbol": "EQIX",
@@ -10821,7 +11199,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2002-12-31",
+        "factor": 0.03125
+      }
     },
     {
       "symbol": "GSK",
@@ -10851,7 +11232,10 @@
       },
       "other_classes": null,
       "financial_currency": "GBP",
-      "last_split": null
+      "last_split": {
+        "date": "2022-07-22",
+        "factor": 1.226
+      }
     },
     {
       "symbol": "WM",
@@ -10941,7 +11325,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2007-07-02",
+        "factor": 0.9434
+      }
     },
     {
       "symbol": "ICE",
@@ -10971,7 +11358,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2016-11-04",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "CM",
@@ -10990,18 +11380,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 118.91419,
-        "median": 125.52211,
-        "high": 125.54162,
-        "low": 105.67885,
+        "mean": 118.92248,
+        "median": 125.53086,
+        "high": 125.55037,
+        "low": 105.68622,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.42857,
-        "upside_pct": 15.630289770517303
+        "upside_pct": 15.63835083625047
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-05-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PSX",
@@ -11061,7 +11454,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2013-05-02",
+        "factor": 1.094
+      }
     },
     {
       "symbol": "EQNR",
@@ -11121,7 +11517,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-03-27",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "MMM",
@@ -11151,7 +11550,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-04-01",
+        "factor": 1.196
+      }
     },
     {
       "symbol": "FTNT",
@@ -11181,7 +11583,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-06-23",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "RIO",
@@ -11211,7 +11616,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2010-04-30",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "NOW",
@@ -11241,7 +11649,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2025-12-18",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "CSX",
@@ -11271,7 +11682,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2021-06-29",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "UPS",
@@ -11320,18 +11734,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 48.40909,
-        "median": 47.287354,
-        "high": 55.871124,
-        "low": 43.190525,
+        "mean": 48.415836,
+        "median": 47.29394,
+        "high": 55.878914,
+        "low": 43.196545,
         "analysts": 4,
         "recommendation": "buy",
         "recommendation_mean": 2.21739,
-        "upside_pct": 9.078616493916169
+        "upside_pct": 9.093817034700313
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-06-11",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SNDK",
@@ -11361,7 +11778,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-11-20",
+        "factor": 8.0
+      }
     },
     {
       "symbol": "SNOW",
@@ -11421,7 +11841,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-01-05",
+        "factor": 1.067
+      }
     },
     {
       "symbol": "CTAS",
@@ -11451,7 +11874,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-09-12",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "USB",
@@ -11481,7 +11907,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-04-16",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "MSI",
@@ -11511,7 +11940,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2011-01-04",
+        "factor": 0.24737167594310452
+      }
     },
     {
       "symbol": "MNST",
@@ -11541,7 +11973,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-08-11",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AMT",
@@ -11601,7 +12036,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-06-01",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ADBE",
@@ -11631,7 +12069,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-05-24",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PNC",
@@ -11661,7 +12102,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1992-11-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "TT",
@@ -11691,7 +12135,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2020-03-02",
+        "factor": 1.289
+      }
     },
     {
       "symbol": "PWR",
@@ -11721,7 +12168,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-04-10",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "BN",
@@ -11751,7 +12201,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2025-10-10",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "MDLZ",
@@ -11811,7 +12264,10 @@
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "2001-07-13",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CEG",
@@ -11931,7 +12387,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-12-12",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ECL",
@@ -11961,7 +12420,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2003-06-09",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SHW",
@@ -11991,7 +12453,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2021-04-01",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "GLW",
@@ -12021,7 +12486,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-10-04",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "TRV",
@@ -12051,7 +12519,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-05-12",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "MCO",
@@ -12081,7 +12552,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-05-19",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "WMB",
@@ -12111,7 +12585,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2012-01-03",
+        "factor": 1.2266928361138372
+      }
     },
     {
       "symbol": "NGG",
@@ -12141,7 +12618,10 @@
       },
       "other_classes": null,
       "financial_currency": "GBP",
-      "last_split": null
+      "last_split": {
+        "date": "2017-05-22",
+        "factor": 0.916
+      }
     },
     {
       "symbol": "RCL",
@@ -12171,7 +12651,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-08-03",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "HLT",
@@ -12201,7 +12684,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2017-01-04",
+        "factor": 0.4873294346978557
+      }
     },
     {
       "symbol": "KKR",
@@ -12291,7 +12777,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2013-05-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "BAM",
@@ -12351,7 +12840,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2016-09-06",
+        "factor": 0.955
+      }
     },
     {
       "symbol": "CP",
@@ -12370,18 +12862,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 96.34528,
-        "median": 97.89062,
-        "high": 103.63988,
-        "low": 73.05728,
+        "mean": 96.331184,
+        "median": 97.87629,
+        "high": 103.62471,
+        "low": 73.04659,
         "analysts": 13,
         "recommendation": "buy",
         "recommendation_mean": 1.80645,
-        "upside_pct": 7.264840792696514
+        "upside_pct": 7.2491471832554
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2021-05-14",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "ITW",
@@ -12411,7 +12906,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-05-26",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "EPD",
@@ -12441,7 +12939,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-08-22",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CDNS",
@@ -12471,7 +12972,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1997-11-17",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "EOG",
@@ -12501,7 +13005,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-04-01",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AEM",
@@ -12561,7 +13068,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2003-09-24",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "NOC",
@@ -12591,7 +13101,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2011-03-31",
+        "factor": 1.1068068622025458
+      }
     },
     {
       "symbol": "RSG",
@@ -12621,7 +13134,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2007-03-19",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "TGT",
@@ -12651,7 +13167,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-07-20",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "E",
@@ -12681,7 +13200,10 @@
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "2006-01-10",
+        "factor": 2.5
+      }
     },
     {
       "symbol": "ORLY",
@@ -12711,7 +13233,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2025-06-10",
+        "factor": 15.0
+      }
     },
     {
       "symbol": "SU",
@@ -12730,18 +13255,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.9029,
-        "median": 69.8379,
-        "high": 77.58288,
-        "low": 68.287926,
+        "mean": 71.91342,
+        "median": 69.848114,
+        "high": 77.59423,
+        "low": 68.29792,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.0,
-        "upside_pct": 12.6651519899718
+        "upside_pct": 12.681635850830464
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2008-05-27",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CNI",
@@ -12760,18 +13288,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 134.29555,
-        "median": 135.10648,
-        "high": 145.79831,
-        "low": 113.920685,
+        "mean": 134.31332,
+        "median": 135.12436,
+        "high": 145.8176,
+        "low": 113.93576,
         "analysts": 13,
         "recommendation": "buy",
         "recommendation_mean": 2.26667,
-        "upside_pct": 9.718586601307177
+        "upside_pct": 9.733104575163388
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2013-12-02",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SPG",
@@ -12801,7 +13332,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-05-29",
+        "factor": 1.063
+      }
     },
     {
       "symbol": "AJG",
@@ -12831,7 +13365,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-01-19",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "INTU",
@@ -12861,7 +13398,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-07-07",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CI",
@@ -12891,7 +13431,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2007-06-05",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "FDX",
@@ -12921,7 +13464,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-06-01",
+        "factor": 1.241
+      }
     },
     {
       "symbol": "AON",
@@ -12951,7 +13497,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1999-05-18",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "CVNA",
@@ -12981,7 +13530,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-05-08",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "NSC",
@@ -13011,7 +13563,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1997-10-10",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "TAK",
@@ -13030,14 +13585,14 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 24.571953,
-        "median": 26.100069,
-        "high": 26.802763,
-        "low": 20.813028,
+        "mean": 24.553455,
+        "median": 26.080421,
+        "high": 26.782583,
+        "low": 20.79736,
         "analysts": 3,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.0,
-        "upside_pct": 12.870707395498403
+        "upside_pct": 12.785737253100592
       },
       "other_classes": null,
       "financial_currency": "JPY",
@@ -13090,14 +13645,14 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 457.1697,
-        "median": 456.47223,
-        "high": 508.41898,
-        "low": 406.35687,
+        "mean": 457.36972,
+        "median": 456.67194,
+        "high": 508.64142,
+        "low": 406.53467,
         "analysts": 12,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.5,
-        "upside_pct": 16.485260019874115
+        "upside_pct": 16.536224424796785
       },
       "other_classes": null,
       "financial_currency": "EUR",
@@ -13161,7 +13716,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-06-12",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AEP",
@@ -13191,7 +13749,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1962-10-31",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "BCS",
@@ -13221,7 +13782,10 @@
       },
       "other_classes": null,
       "financial_currency": "GBP",
-      "last_split": null
+      "last_split": {
+        "date": "2013-09-19",
+        "factor": 1.085
+      }
     },
     {
       "symbol": "SLB",
@@ -13251,7 +13815,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-04-10",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "KMI",
@@ -13300,18 +13867,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 34.40752,
-        "median": 34.40752,
-        "high": 34.40752,
-        "low": 34.40752,
+        "mean": 34.412315,
+        "median": 34.412315,
+        "high": 34.412315,
+        "low": 34.412315,
         "analysts": 1,
         "recommendation": "buy",
         "recommendation_mean": 2.13333,
-        "upside_pct": -15.85346050379066
+        "upside_pct": -15.841733920273903
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-06-05",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "HON",
@@ -13341,7 +13911,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-06-29",
+        "factor": 0.9535
+      }
     },
     {
       "symbol": "RELX",
@@ -13371,7 +13944,10 @@
       },
       "other_classes": null,
       "financial_currency": "GBP",
-      "last_split": null
+      "last_split": {
+        "date": "2015-07-01",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "DASH",
@@ -13461,7 +14037,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2016-10-03",
+        "factor": 1.081
+      }
     },
     {
       "symbol": "ALL",
@@ -13491,7 +14070,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-07-02",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "FCX",
@@ -13521,7 +14103,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2011-02-02",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "APO",
@@ -13581,7 +14166,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-11-03",
+        "factor": 1.043
+      }
     },
     {
       "symbol": "COR",
@@ -13611,7 +14199,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2009-06-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "VRT",
@@ -13671,7 +14262,10 @@
       },
       "other_classes": null,
       "financial_currency": "CNY",
-      "last_split": null
+      "last_split": {
+        "date": "2020-10-02",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "GWW",
@@ -13701,7 +14295,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-06-15",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "CAH",
@@ -13731,7 +14328,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-04-23",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "TRP",
@@ -13750,18 +14350,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 67.155464,
-        "median": 71.049805,
-        "high": 72.474396,
-        "low": 57.94218,
+        "mean": 67.164825,
+        "median": 71.05971,
+        "high": 72.4845,
+        "low": 57.950256,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 1.83333,
-        "upside_pct": 8.088627072267807
+        "upside_pct": 8.103693867696759
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "1984-02-13",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AFL",
@@ -13791,7 +14394,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2018-03-19",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "DLR",
@@ -13881,7 +14487,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2003-11-06",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PSA",
@@ -13971,7 +14580,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-04-25",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "MET",
@@ -14001,7 +14613,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2017-08-07",
+        "factor": 1.122
+      }
     },
     {
       "symbol": "TRGP",
@@ -14091,7 +14706,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-08-24",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "EW",
@@ -14121,7 +14739,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2020-06-01",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "NWG",
@@ -14151,7 +14772,10 @@
       },
       "other_classes": null,
       "financial_currency": "GBP",
-      "last_split": null
+      "last_split": {
+        "date": "2022-08-30",
+        "factor": 0.928
+      }
     },
     {
       "symbol": "D",
@@ -14181,7 +14805,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2007-11-20",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "DB",
@@ -14211,7 +14838,10 @@
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "2014-06-06",
+        "factor": 1.048
+      }
     },
     {
       "symbol": "FAST",
@@ -14241,7 +14871,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2025-05-22",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "ASX",
@@ -14271,7 +14904,10 @@
       },
       "other_classes": null,
       "financial_currency": "TWD",
-      "last_split": null
+      "last_split": {
+        "date": "2008-08-13",
+        "factor": 1.029
+      }
     },
     {
       "symbol": "BDX",
@@ -14301,7 +14937,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2026-02-10",
+        "factor": 1.272
+      }
     },
     {
       "symbol": "ARGX",
@@ -14391,7 +15030,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-08-29",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "DDOG",
@@ -14511,7 +15153,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2008-01-03",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "O",
@@ -14541,7 +15186,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2021-11-15",
+        "factor": 1.032
+      }
     },
     {
       "symbol": "TFC",
@@ -14571,7 +15219,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-08-04",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "IMO",
@@ -14590,18 +15241,21 @@
       "status": "eligible",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 110.78091,
-        "median": 110.78091,
-        "high": 110.78091,
-        "low": 110.78091,
+        "mean": 110.79635,
+        "median": 110.79635,
+        "high": 110.79635,
+        "low": 110.79635,
         "analysts": 1,
         "recommendation": "underperform",
         "recommendation_mean": 3.72222,
-        "upside_pct": -4.77012808389925
+        "upside_pct": -4.756855497292179
       },
       "other_classes": null,
       "financial_currency": "CAD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-05-30",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "NU",
@@ -14661,7 +15315,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2017-09-01",
+        "factor": 1.289
+      }
     },
     {
       "symbol": "DEO",
@@ -14721,7 +15378,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-06-01",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "OXY",
@@ -14751,7 +15411,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2016-02-25",
+        "factor": 1.0017028949213662
+      }
     },
     {
       "symbol": "PCAR",
@@ -14781,7 +15444,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2023-02-08",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "IDXX",
@@ -14811,7 +15477,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-06-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "OKE",
@@ -14841,7 +15510,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-02-03",
+        "factor": 1.1422
+      }
     },
     {
       "symbol": "DAL",
@@ -14901,7 +15573,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1994-04-21",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "GRMN",
@@ -14931,7 +15606,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2006-08-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "B",
@@ -14961,7 +15639,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1993-03-02",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "AME",
@@ -14991,7 +15672,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2012-07-02",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "ADSK",
@@ -15021,7 +15705,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-12-21",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "XEL",
@@ -15051,7 +15738,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1998-06-02",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "EBAY",
@@ -15081,7 +15771,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-07-20",
+        "factor": 2.376
+      }
     },
     {
       "symbol": "CCEP",
@@ -15100,18 +15793,21 @@
       "status": "unverified",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 113.13042,
-        "median": 116.58047,
-        "high": 129.03345,
-        "low": 89.63591,
+        "mean": 113.17991,
+        "median": 116.63148,
+        "high": 129.0899,
+        "low": 89.675125,
         "analysts": 12,
         "recommendation": "buy",
         "recommendation_mean": 2.0,
-        "upside_pct": -2.077018956115295
+        "upside_pct": -2.0341815978533684
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "1997-05-13",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "WPM",
@@ -15171,7 +15867,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-12-13",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "SRE",
@@ -15201,7 +15900,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2023-08-22",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "KDP",
@@ -15321,7 +16023,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-12-24",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "VMRK",
@@ -15351,7 +16056,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-10-12",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "INFY",
@@ -15381,7 +16089,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2018-09-12",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "MDLN",
@@ -15441,7 +16152,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2014-11-03",
+        "factor": 1.398
+      }
     },
     {
       "symbol": "HONA",
@@ -15501,7 +16215,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-11-16",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "EXC",
@@ -15531,7 +16248,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2022-02-02",
+        "factor": 1.402
+      }
     },
     {
       "symbol": "HUM",
@@ -15561,7 +16281,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1991-08-01",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "FERG",
@@ -15591,7 +16314,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2018-06-11",
+        "factor": 0.947
+      }
     },
     {
       "symbol": "LHX",
@@ -15621,7 +16347,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2009-05-11",
+        "factor": 1.058425063505504
+      }
     },
     {
       "symbol": "TEVA",
@@ -15651,7 +16380,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2004-07-01",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "VTR",
@@ -15681,7 +16413,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-08-18",
+        "factor": 0.8757
+      }
     },
     {
       "symbol": "ROP",
@@ -15711,7 +16446,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2005-08-29",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "VYLR",
@@ -15771,7 +16509,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2013-06-12",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "HEI",
@@ -15801,7 +16542,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2018-06-28",
+        "factor": 1.25
+      }
     },
     {
       "symbol": "CMG",
@@ -15831,7 +16575,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2024-06-26",
+        "factor": 50.0
+      }
     },
     {
       "symbol": "WCN",
@@ -15861,7 +16608,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2017-06-19",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "ONC",
@@ -15921,7 +16671,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-07-17",
+        "factor": 1.5
+      }
     },
     {
       "symbol": "F",
@@ -15951,7 +16704,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-08-03",
+        "factor": 1.748175
+      }
     },
     {
       "symbol": "KEYS",
@@ -16041,7 +16797,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "1989-07-03",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PYPL",
@@ -16101,7 +16860,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2023-06-23",
+        "factor": 0.963
+      }
     },
     {
       "symbol": "MSCI",
@@ -16161,7 +16923,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-08-28",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "YUM",
@@ -16191,7 +16956,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2016-11-01",
+        "factor": 1.391
+      }
     },
     {
       "symbol": "VEEV",
@@ -16281,7 +17049,10 @@
       },
       "other_classes": null,
       "financial_currency": "MXN",
-      "last_split": null
+      "last_split": {
+        "date": "2007-05-31",
+        "factor": 3.0
+      }
     },
     {
       "symbol": "HMC",
@@ -16311,7 +17082,10 @@
       },
       "other_classes": null,
       "financial_currency": "JPY",
-      "last_split": null
+      "last_split": {
+        "date": "2002-01-10",
+        "factor": 4.0
+      }
     },
     {
       "symbol": "STT",
@@ -16341,7 +17115,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2001-05-31",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "XYZ",
@@ -16491,7 +17268,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2017-05-22",
+        "factor": 0.3333333333333333
+      }
     },
     {
       "symbol": "AMP",
@@ -16581,7 +17361,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2009-07-01",
+        "factor": 0.05
+      }
     },
     {
       "symbol": "LYV",
@@ -16630,18 +17413,21 @@
       "status": "below_cutoff",
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.61199,
-        "median": 68.377426,
-        "high": 87.307014,
-        "low": 59.15154,
+        "mean": 71.643326,
+        "median": 68.40735,
+        "high": 87.345215,
+        "low": 59.177418,
         "analysts": 3,
         "recommendation": "none",
         "recommendation_mean": null,
-        "upside_pct": 24.89011161492849
+        "upside_pct": 24.944761074293687
       },
       "other_classes": null,
       "financial_currency": "EUR",
-      "last_split": null
+      "last_split": {
+        "date": "2014-11-04",
+        "factor": 1.024
+      }
     },
     {
       "symbol": "CARR",
@@ -16761,7 +17547,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2015-07-14",
+        "factor": 2.0
+      }
     },
     {
       "symbol": "PRU",
@@ -16821,7 +17610,10 @@
       },
       "other_classes": null,
       "financial_currency": "BRL",
-      "last_split": null
+      "last_split": {
+        "date": "2013-11-11",
+        "factor": 5.0
+      }
     },
     {
       "symbol": "PAYX",
@@ -16851,7 +17643,10 @@
       },
       "other_classes": null,
       "financial_currency": "USD",
-      "last_split": null
+      "last_split": {
+        "date": "2000-05-23",
+        "factor": 1.5
+      }
     }
   ],
   "details": {
@@ -70174,29 +70969,29 @@
     "SNDK": {
       "researched_at": "2026-11-17",
       "research_close": {
-        "close": 885.01,
+        "close": 110.62625,
         "close_date": "2026-11-13"
       },
       "valuation": {
         "method": "Forward EPS x P/E on next-twelve-month non-GAAP EPS viewed at the 12-month target date (Nov 2027), pre-split basis (8-for-1 split trades adjusted from 2026-11-20; divide all figures by 8 after that). Run-rate anchor: FQ2 FY27 guide of $55-57 non-GAAP EPS on ~151M diluted shares (~$224 annualised). Cyclical memory multiple applied to near-peak earnings.",
-        "bear": 550.0,
-        "base": 1140.0,
-        "bull": 1920.0,
+        "bear": 68.75,
+        "base": 142.5,
+        "bull": 240.0,
         "cases": {
           "bear": {
             "driver": "NAND pricing rolls over in 2027 as Kioxia flagged slowing price gains; non-contract bits reprice down and gross margin falls toward the ~80% floor management cites only for contracted volume, then below",
             "assumption": "NTM EPS $110 at 5.0x",
-            "target": 550.0
+            "target": 68.75
           },
           "base": {
             "driver": "Pricing plateaus; ~2/3 of FY28 bits committed under long-term agreements keep earnings near but below the FQ2 run-rate; market keeps a peak-cycle multiple",
             "assumption": "NTM EPS $190 at 6.0x",
-            "target": 1140.0
+            "target": 142.5
           },
           "bull": {
             "driver": "AI datacenter SSD demand keeps supply tight through FY28; datacenter revenue (up 61% q/q in FQ1) keeps compounding and margins hold ~85%",
             "assumption": "NTM EPS $240 at 8.0x",
-            "target": 1920.0
+            "target": 240.0
           }
         },
         "implied_by_close": "At the $885 close the stock trades at ~4.0x the ~$224 annualised FQ2 guide and ~4.7x base NTM EPS; the Street mean (~$2,047) implies ~9x the run-rate or ~$340 EPS at the base 6x.",
@@ -70235,7 +71030,11 @@
       ],
       "coverage": "partial",
       "earnings_at": "2026-10-29T16:05:00-04:00",
-      "split_adjusted": null,
+      "split_adjusted": {
+        "factor": 8.0,
+        "date": "2026-11-20",
+        "note": "Per-share figures divided by 8 for the 8-for-1 split on 2026-11-20; valuation text above is on the pre-split basis."
+      },
       "ratings": {
         "count": 12,
         "post_earnings": 10,
@@ -70434,7 +71233,7 @@
           "analyst": "Amit Daryanani",
           "firm": "Evercore ISI",
           "field": "target",
-          "value": 2500.0,
+          "value": 312.5,
           "source_prior": null,
           "issued_at": "2026-11-11",
           "public_at": "2026-11-11T23:59:59-05:00",
@@ -70459,8 +71258,8 @@
           "analyst": "C J Muse",
           "firm": "Cantor Fitzgerald",
           "field": "target",
-          "value": 2200.0,
-          "source_prior": 2900,
+          "value": 275.0,
+          "source_prior": 362.5,
           "issued_at": "2026-10-29",
           "public_at": "2026-10-29T23:59:59-05:00",
           "horizon_months": null,
@@ -70486,8 +71285,8 @@
           "analyst": "Chad Dillard",
           "firm": "Bernstein",
           "field": "target",
-          "value": 3000.0,
-          "source_prior": 1700,
+          "value": 375.0,
+          "source_prior": 212.5,
           "issued_at": "2026-11-05",
           "public_at": "2026-11-05T23:59:59-05:00",
           "horizon_months": null,
@@ -70513,7 +71312,7 @@
           "analyst": "Joseph Moore",
           "firm": "Morgan Stanley",
           "field": "target",
-          "value": 1750.0,
+          "value": 218.75,
           "source_prior": null,
           "issued_at": "2026-10-30",
           "public_at": "2026-10-30T23:59:59-05:00",
@@ -70538,8 +71337,8 @@
           "analyst": "Joseph Quatrochi",
           "firm": "Wells Fargo",
           "field": "target",
-          "value": 1300.0,
-          "source_prior": 1550,
+          "value": 162.5,
+          "source_prior": 193.75,
           "issued_at": "2026-10-30",
           "public_at": "2026-10-30T23:59:59-05:00",
           "horizon_months": null,
@@ -70565,7 +71364,7 @@
           "analyst": "Matt Bryson",
           "firm": "Wedbush",
           "field": "target",
-          "value": 2000.0,
+          "value": 250.0,
           "source_prior": null,
           "issued_at": "2026-10-30",
           "public_at": "2026-10-30T23:59:59-05:00",
@@ -70590,8 +71389,8 @@
           "analyst": "Mehdi Hosseini",
           "firm": "Susquehanna",
           "field": "target",
-          "value": 2720.0,
-          "source_prior": 2745,
+          "value": 340.0,
+          "source_prior": 343.125,
           "issued_at": "2026-10-29",
           "public_at": "2026-10-29T23:59:59-05:00",
           "horizon_months": null,
@@ -70617,8 +71416,8 @@
           "analyst": "Srini Pajjuri",
           "firm": "RBC Capital",
           "field": "target",
-          "value": 1400.0,
-          "source_prior": 1600,
+          "value": 175.0,
+          "source_prior": 200.0,
           "issued_at": "2026-10-30",
           "public_at": "2026-10-30T23:59:59-05:00",
           "horizon_months": null,
@@ -70656,7 +71455,7 @@
           "analyst": "Thomas O'Malley",
           "firm": "Barclays",
           "field": "target",
-          "value": 2300.0,
+          "value": 287.5,
           "source_prior": null,
           "issued_at": "2026-10-30",
           "public_at": "2026-10-30T23:59:59-05:00",
@@ -70681,8 +71480,8 @@
           "analyst": "Vijay Rakesh",
           "firm": "Mizuho Securities",
           "field": "target",
-          "value": 1900.0,
-          "source_prior": 2050,
+          "value": 237.5,
+          "source_prior": 256.25,
           "issued_at": "2026-10-30",
           "public_at": "2026-10-30T23:59:59-05:00",
           "horizon_months": null,
@@ -110759,11 +111558,11 @@
     "base_moves": [
       {
         "symbol": "SNDK",
-        "base": 1338.6673397274103,
+        "base": 79.8334174659263,
         "prev_base": 28.812103818035954,
-        "delta_pp": 1309.8552359093744,
+        "delta_pp": 51.02131364789035,
         "re_researched": false,
-        "price_change_pct": -91.04642885391125
+        "price_change_pct": -28.371430831290045
       },
       {
         "symbol": "MU",
@@ -112216,17 +113015,6 @@
     ],
     "street_moves": [
       {
-        "symbol": "SNDK",
-        "mean": 248.1823,
-        "prev_mean": 2047.375,
-        "target_change_pct": -87.87802429940777,
-        "recommendation": "strong_buy",
-        "prev_recommendation": "strong_buy",
-        "upside": 213.20330641090362,
-        "prev_upside": 131.33919390741346,
-        "currency": "USD"
-      },
-      {
         "symbol": "NVDA",
         "mean": 244.18286,
         "prev_mean": 268.75742,
@@ -112239,12 +113027,12 @@
       },
       {
         "symbol": "TAK",
-        "mean": 24.571953,
+        "mean": 24.553455,
         "prev_mean": 22.890358,
-        "target_change_pct": 7.346302753325218,
+        "target_change_pct": 7.265491435302152,
         "recommendation": "strong_buy",
         "prev_recommendation": "strong_buy",
-        "upside": 12.870707395498403,
+        "upside": 12.785737253100592,
         "prev_upside": 6.814549696686889,
         "currency": "USD"
       },
@@ -112327,12 +113115,12 @@
       },
       {
         "symbol": "SU",
-        "mean": 71.9029,
+        "mean": 71.91342,
         "prev_mean": 74.28078,
-        "target_change_pct": -3.201204941574376,
+        "target_change_pct": -3.1870424623973936,
         "recommendation": "buy",
         "prev_recommendation": "buy",
-        "upside": 12.6651519899718,
+        "upside": 12.681635850830464,
         "prev_upside": 6.236813501144156,
         "currency": "USD"
       },
@@ -112356,6 +113144,17 @@
         "prev_recommendation": "buy",
         "upside": 24.194350229551187,
         "prev_upside": 18.06211153314916,
+        "currency": "USD"
+      },
+      {
+        "symbol": "SNDK",
+        "mean": 248.1823,
+        "prev_mean": 255.921875,
+        "target_change_pct": -3.024194395262225,
+        "recommendation": "strong_buy",
+        "prev_recommendation": "strong_buy",
+        "upside": 213.20330641090362,
+        "prev_upside": 131.33919390741346,
         "currency": "USD"
       },
       {
@@ -112404,12 +113203,12 @@
       },
       {
         "symbol": "UL",
-        "mean": 71.32162,
+        "mean": 71.35282,
         "prev_mean": 71.82421,
-        "target_change_pct": -0.699750126036891,
+        "target_change_pct": -0.6563107342217878,
         "recommendation": "none",
         "prev_recommendation": "buy",
-        "upside": 11.754340332184254,
+        "upside": 11.803227828266994,
         "prev_upside": 8.479398882344057,
         "currency": "USD"
       },

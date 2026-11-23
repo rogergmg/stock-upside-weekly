@@ -2,7 +2,7 @@
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "universe_retrieved_at": "2026-11-23T14:00:03.661024+00:00",
   "reference_session": "2026-11-20",
-  "fetched_at": "2026-11-23T14:00:40.951521+00:00",
+  "fetched_at": "2026-11-23T14:14:17.442939+00:00",
   "cutoff_usd": 50000000000,
   "counts": {
     "listings_checked": 357,
@@ -37,7 +37,10 @@
       "avg_volume": 42969748,
       "dividend_rate": 1.08,
       "earnings_ts": 1793653200,
-      "last_split": null,
+      "last_split": {
+        "date": "2020-08-31",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 345.6313,
@@ -74,7 +77,10 @@
       "avg_volume": 23851139,
       "dividend_rate": 3.92,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2003-02-18",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 636.12427,
@@ -111,7 +117,10 @@
       "avg_volume": 31364231,
       "dividend_rate": 0.88,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-07-18",
+        "factor": 20.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 397.1283,
@@ -151,7 +160,10 @@
       "avg_volume": 170462129,
       "dividend_rate": 1.0,
       "earnings_ts": 1794949200,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-06-10",
+        "factor": 10.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 244.18286,
@@ -188,7 +200,10 @@
       "avg_volume": 40526385,
       "dividend_rate": null,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-06-06",
+        "factor": 20.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 326.507,
@@ -262,7 +277,10 @@
       "avg_volume": 12522364,
       "dividend_rate": 3.77,
       "earnings_ts": 1792067400,
-      "last_split": null,
+      "last_split": {
+        "date": "2009-07-15",
+        "factor": 1.005
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 586.693,
@@ -299,7 +317,10 @@
       "avg_volume": 26036645,
       "dividend_rate": 2.6,
       "earnings_ts": 1796850000,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-07-15",
+        "factor": 10.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 526.4721,
@@ -373,7 +394,10 @@
       "avg_volume": 37194828,
       "dividend_rate": null,
       "earnings_ts": 1792612800,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-08-25",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 417.52625,
@@ -410,7 +434,10 @@
       "avg_volume": 4740179,
       "dividend_rate": null,
       "earnings_ts": 1794085200,
-      "last_split": null,
+      "last_split": {
+        "date": "2010-01-21",
+        "factor": 50.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 564.6667,
@@ -450,7 +477,10 @@
       "avg_volume": 2595540,
       "dividend_rate": 6.92,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "1997-10-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 1470.0565,
@@ -524,7 +554,10 @@
       "avg_volume": 23031557,
       "dividend_rate": 0.99,
       "earnings_ts": 1802957400,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-02-26",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 135.90244,
@@ -561,7 +594,10 @@
       "avg_volume": 7253784,
       "dividend_rate": 6.6,
       "earnings_ts": 1799933400,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-06-12",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 373.47827,
@@ -635,7 +671,10 @@
       "avg_volume": 6470126,
       "dividend_rate": 3.12,
       "earnings_ts": 1793131200,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-03-19",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 450.9562,
@@ -672,7 +711,10 @@
       "avg_volume": 27110325,
       "dividend_rate": null,
       "earnings_ts": 1793739600,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-08-22",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 657.74286,
@@ -709,7 +751,10 @@
       "avg_volume": 28285271,
       "dividend_rate": 0.6,
       "earnings_ts": 1797541200,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-05-02",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 1561.9111,
@@ -746,7 +791,10 @@
       "avg_volume": 13684757,
       "dividend_rate": 4.28,
       "earnings_ts": 1793363400,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-07-19",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 184.18182,
@@ -783,7 +831,10 @@
       "avg_volume": 7293379,
       "dividend_rate": 5.36,
       "earnings_ts": 1800970200,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-06-13",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 279.84726,
@@ -820,7 +871,10 @@
       "avg_volume": 2991478,
       "dividend_rate": 3.48,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-01-22",
+        "factor": 10.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 720.68677,
@@ -894,7 +948,10 @@
       "avg_volume": 2302035,
       "dividend_rate": 5.88,
       "earnings_ts": 1796936400,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-01-14",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 1085.3513,
@@ -931,17 +988,20 @@
       "avg_volume": 1527318,
       "dividend_rate": 9.31,
       "earnings_ts": 1801056600,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-10-01",
+        "factor": 0.8888888888888888
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 2099.5571,
-        "median": 2245.9324,
-        "high": 2778.6628,
-        "low": 845.878,
+        "mean": 2100.4758,
+        "median": 2246.915,
+        "high": 2779.8784,
+        "low": 846.2481,
         "analysts": 17,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.36585,
-        "upside_pct": 65.81297878725655
+        "upside_pct": 65.88553331964431
       }
     },
     {
@@ -968,7 +1028,10 @@
       "avg_volume": 16997837,
       "dividend_rate": 2.12,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2012-08-13",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 99.64,
@@ -1005,7 +1068,10 @@
       "avg_volume": 8583609,
       "dividend_rate": 7.12,
       "earnings_ts": 1793363400,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-09-13",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 242.54167,
@@ -1042,7 +1108,10 @@
       "avg_volume": 9185345,
       "dividend_rate": 4.35,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-06-21",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 176.13043,
@@ -1079,7 +1148,10 @@
       "avg_volume": 18202653,
       "dividend_rate": 1.68,
       "earnings_ts": 1802293200,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-03-23",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 130.5,
@@ -1153,7 +1225,10 @@
       "avg_volume": 4830093,
       "dividend_rate": 9.32,
       "earnings_ts": 1794922200,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-12-31",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 375.59375,
@@ -1190,7 +1265,10 @@
       "avg_volume": 9811989,
       "dividend_rate": 3.52,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2021-06-03",
+        "factor": 1.048
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 161.525,
@@ -1227,7 +1305,10 @@
       "avg_volume": 38001864,
       "dividend_rate": 1.28,
       "earnings_ts": 1800019800,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-08-30",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 62.47727,
@@ -1264,7 +1345,10 @@
       "avg_volume": 4561620,
       "dividend_rate": 1.88,
       "earnings_ts": 1792499400,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-04-02",
+        "factor": 1.253
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 378.42856,
@@ -1301,7 +1385,10 @@
       "avg_volume": 33951982,
       "dividend_rate": 2.0,
       "earnings_ts": 1797282000,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-10-13",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 236.184,
@@ -1338,7 +1425,10 @@
       "avg_volume": 5840509,
       "dividend_rate": 9.28,
       "earnings_ts": 1791894600,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-05-31",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 478.48,
@@ -1412,7 +1502,10 @@
       "avg_volume": 2183384,
       "dividend_rate": 4.74,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2019-04-09",
+        "factor": 1.116
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 157.1,
@@ -1449,7 +1542,10 @@
       "avg_volume": 6665817,
       "dividend_rate": null,
       "earnings_ts": 1795035600,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-12-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 411.13666,
@@ -1523,7 +1619,10 @@
       "avg_volume": 117250864,
       "dividend_rate": null,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-07-31",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 90.65116,
@@ -1560,7 +1659,10 @@
       "avg_volume": 2933014,
       "dividend_rate": 3.2,
       "earnings_ts": 1793390400,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-02-02",
+        "factor": 0.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 209.90833,
@@ -1597,7 +1699,10 @@
       "avg_volume": 5746368,
       "dividend_rate": 4.6,
       "earnings_ts": 1791981000,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-01-27",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 211.5,
@@ -1634,7 +1739,10 @@
       "avg_volume": 6089821,
       "dividend_rate": 3.12,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "1997-06-30",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 110.80667,
@@ -1671,7 +1779,10 @@
       "avg_volume": 4653751,
       "dividend_rate": 2.92,
       "earnings_ts": 1792499400,
-      "last_split": null,
+      "last_split": {
+        "date": "2020-04-03",
+        "factor": 1.589
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 228.13043,
@@ -1708,17 +1819,20 @@
       "avg_volume": 1214934,
       "dividend_rate": 4.91,
       "earnings_ts": 1796304600,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-04-07",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 207.72519,
-        "median": 213.40434,
-        "high": 228.47021,
-        "low": 181.30107,
+        "mean": 207.72955,
+        "median": 213.40881,
+        "high": 228.47499,
+        "low": 181.30487,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.21429,
-        "upside_pct": 13.23259198691742
+        "upside_pct": 13.23496865630962
       }
     },
     {
@@ -1745,7 +1859,10 @@
       "avg_volume": 2151393,
       "dividend_rate": 1.88,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "1996-06-06",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 756.52,
@@ -1782,7 +1899,10 @@
       "avg_volume": 334832,
       "dividend_rate": 6.27,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "1991-06-25",
+        "factor": 1.1
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 238.07802,
@@ -1819,7 +1939,10 @@
       "avg_volume": 6952173,
       "dividend_rate": 6.08,
       "earnings_ts": 1792612800,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-05-23",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 338.7931,
@@ -1856,7 +1979,10 @@
       "avg_volume": 7234401,
       "dividend_rate": 2.12,
       "earnings_ts": 1794517200,
-      "last_split": null,
+      "last_split": {
+        "date": "2002-04-17",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 557.8611,
@@ -1893,7 +2019,10 @@
       "avg_volume": 14033382,
       "dividend_rate": 2.0,
       "earnings_ts": 1799933400,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-08-14",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 97.375,
@@ -1930,7 +2059,10 @@
       "avg_volume": 2816757,
       "dividend_rate": 10.08,
       "earnings_ts": 1793739600,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-11-22",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 440.779,
@@ -1967,7 +2099,10 @@
       "avg_volume": 10219385,
       "dividend_rate": null,
       "earnings_ts": 1795440600,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-07-02",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 251.9834,
@@ -2004,7 +2139,10 @@
       "avg_volume": 2983953,
       "dividend_rate": 6.52,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-07-14",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 807.2604,
@@ -2041,7 +2179,10 @@
       "avg_volume": 37773598,
       "dividend_rate": null,
       "earnings_ts": 1792526400,
-      "last_split": null,
+      "last_split": {
+        "date": "2025-11-17",
+        "factor": 10.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 84.54884,
@@ -2078,7 +2219,10 @@
       "avg_volume": 2071367,
       "dividend_rate": 6.4,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2003-12-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 555.14813,
@@ -2115,7 +2259,10 @@
       "avg_volume": 2270351,
       "dividend_rate": 2.93,
       "earnings_ts": 1801143000,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-07-28",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 284.5,
@@ -2152,7 +2299,10 @@
       "avg_volume": 10592906,
       "dividend_rate": 1.32,
       "earnings_ts": 1792612800,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-10-03",
+        "factor": 10.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 362.1,
@@ -2263,7 +2413,10 @@
       "avg_volume": 5189171,
       "dividend_rate": 6.76,
       "earnings_ts": 1792612800,
-      "last_split": null,
+      "last_split": {
+        "date": "2021-11-04",
+        "factor": 1.046
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 259.84738,
@@ -2300,7 +2453,10 @@
       "avg_volume": 6446718,
       "dividend_rate": null,
       "earnings_ts": 1793739600,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-12-04",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 249.64662,
@@ -2374,7 +2530,10 @@
       "avg_volume": 5978185,
       "dividend_rate": 3.28,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-01-28",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 175.92308,
@@ -2411,7 +2570,10 @@
       "avg_volume": 2988864,
       "dividend_rate": 3.8,
       "earnings_ts": 1792758600,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-10-03",
+        "factor": 1.1424654404204273
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 364.78708,
@@ -2448,7 +2610,10 @@
       "avg_volume": 8827823,
       "dividend_rate": 2.0,
       "earnings_ts": 1794922200,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-06-13",
+        "factor": 1.0136847440446022
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 131.34355,
@@ -2485,7 +2650,10 @@
       "avg_volume": 5633392,
       "dividend_rate": 7.72,
       "earnings_ts": 1793799000,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-03-08",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 299.0,
@@ -2522,7 +2690,10 @@
       "avg_volume": 24039423,
       "dividend_rate": 2.83,
       "earnings_ts": 1793017800,
-      "last_split": null,
+      "last_split": {
+        "date": "2010-07-02",
+        "factor": 1.0662242546825904
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 50.65,
@@ -2559,7 +2730,10 @@
       "avg_volume": 9548485,
       "dividend_rate": 5.92,
       "earnings_ts": 1791462600,
-      "last_split": null,
+      "last_split": {
+        "date": "1996-05-29",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 141.13635,
@@ -2596,7 +2770,10 @@
       "avg_volume": 1795053,
       "dividend_rate": 3.95,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-05-23",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 100.85,
@@ -2670,17 +2847,20 @@
       "avg_volume": 1738568,
       "dividend_rate": 3.21,
       "earnings_ts": 1796304600,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-02-03",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 118.59795,
-        "median": 126.91852,
-        "high": 134.23523,
-        "low": 94.64012,
+        "mean": 118.5963,
+        "median": 126.91675,
+        "high": 134.23337,
+        "low": 94.6388,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.30769,
-        "upside_pct": 5.074820590059348
+        "upside_pct": 5.073358731283784
       }
     },
     {
@@ -2707,7 +2887,10 @@
       "avg_volume": 9629273,
       "dividend_rate": 2.68,
       "earnings_ts": 1799933400,
-      "last_split": null,
+      "last_split": {
+        "date": "2011-05-09",
+        "factor": 0.1
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 150.59525,
@@ -2744,7 +2927,10 @@
       "avg_volume": 8890076,
       "dividend_rate": 2.52,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-01-02",
+        "factor": 2.084201750729471
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 119.59962,
@@ -2781,7 +2967,10 @@
       "avg_volume": 8308146,
       "dividend_rate": 2.52,
       "earnings_ts": 1795554000,
-      "last_split": null,
+      "last_split": {
+        "date": "2021-11-02",
+        "factor": 1.973
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 578.88,
@@ -2818,7 +3007,10 @@
       "avg_volume": 2799007,
       "dividend_rate": 3.4,
       "earnings_ts": 1793044800,
-      "last_split": null,
+      "last_split": {
+        "date": "1985-09-04",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 265.45456,
@@ -2855,7 +3047,10 @@
       "avg_volume": 5640062,
       "dividend_rate": 4.68,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-05-01",
+        "factor": 0.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 226.24,
@@ -2892,7 +3087,10 @@
       "avg_volume": 12187732,
       "dividend_rate": 2.49,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "2020-10-27",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 94.47368,
@@ -2929,7 +3127,10 @@
       "avg_volume": 12981337,
       "dividend_rate": 0.6,
       "earnings_ts": 1801056600,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-09-03",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 106.97368,
@@ -2966,7 +3167,10 @@
       "avg_volume": 2997762,
       "dividend_rate": 3.96,
       "earnings_ts": null,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-06-02",
+        "factor": 1.121
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 79.35714,
@@ -3003,7 +3207,10 @@
       "avg_volume": 2599631,
       "dividend_rate": 5.68,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-06-09",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 329.95834,
@@ -3077,7 +3284,10 @@
       "avg_volume": 3923473,
       "dividend_rate": 4.4,
       "earnings_ts": 1795527000,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-03-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 474.46875,
@@ -3114,17 +3324,20 @@
       "avg_volume": 12594815,
       "dividend_rate": 1.8,
       "earnings_ts": 1801661400,
-      "last_split": null,
+      "last_split": {
+        "date": "2023-09-20",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 45.537724,
-        "median": 43.515102,
-        "high": 63.751186,
-        "low": 39.231476,
+        "mean": 45.55865,
+        "median": 43.5351,
+        "high": 63.78048,
+        "low": 39.249504,
         "analysts": 12,
         "recommendation": "hold",
         "recommendation_mean": 2.84615,
-        "upside_pct": 20.406462189317807
+        "upside_pct": 20.46179270227393
       }
     },
     {
@@ -3151,7 +3364,10 @@
       "avg_volume": 11370404,
       "dividend_rate": 0.92,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-06-12",
+        "factor": 10.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 219.61539,
@@ -3188,7 +3404,10 @@
       "avg_volume": 1227012,
       "dividend_rate": 6.48,
       "earnings_ts": 1795613400,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-12-04",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 694.0078,
@@ -3262,7 +3481,10 @@
       "avg_volume": 6717628,
       "dividend_rate": 3.72,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2012-05-01",
+        "factor": 1.311791
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 153.55556,
@@ -3299,7 +3521,10 @@
       "avg_volume": 13078339,
       "dividend_rate": 3.68,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-08-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 185.25,
@@ -3336,7 +3561,10 @@
       "avg_volume": 8831428,
       "dividend_rate": 0.29,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-06-21",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 14.55667,
@@ -3373,7 +3601,10 @@
       "avg_volume": 8796598,
       "dividend_rate": null,
       "earnings_ts": 1793712600,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-06-29",
+        "factor": 10.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 177.18408,
@@ -3410,7 +3641,10 @@
       "avg_volume": 4312079,
       "dividend_rate": 0.19,
       "earnings_ts": 1801747800,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-10-09",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 31.75,
@@ -3447,7 +3681,10 @@
       "avg_volume": 33516157,
       "dividend_rate": 1.72,
       "earnings_ts": 1793712600,
-      "last_split": null,
+      "last_split": {
+        "date": "2020-11-17",
+        "factor": 1.054
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 30.22115,
@@ -3521,7 +3758,10 @@
       "avg_volume": 8890289,
       "dividend_rate": 1.28,
       "earnings_ts": 1792067400,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-05-31",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 116.63636,
@@ -3558,7 +3798,10 @@
       "avg_volume": 3986179,
       "dividend_rate": 1.6,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "2023-10-02",
+        "factor": 1.128
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 259.85715,
@@ -3595,7 +3838,10 @@
       "avg_volume": 8040640,
       "dividend_rate": 1.92,
       "earnings_ts": 1795008600,
-      "last_split": null,
+      "last_split": {
+        "date": "2018-11-07",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 165.55,
@@ -3632,7 +3878,10 @@
       "avg_volume": 44050018,
       "dividend_rate": 1.11,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-04-11",
+        "factor": 1.324
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 27.58696,
@@ -3669,7 +3918,10 @@
       "avg_volume": 10745953,
       "dividend_rate": 1.76,
       "earnings_ts": 1796245200,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-04-18",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 286.1402,
@@ -3706,7 +3958,10 @@
       "avg_volume": 1597451,
       "dividend_rate": 4.08,
       "earnings_ts": 1792526400,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-03-03",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 375.6087,
@@ -3743,7 +3998,10 @@
       "avg_volume": 10206650,
       "dividend_rate": 0.41,
       "earnings_ts": 1792267200,
-      "last_split": null,
+      "last_split": {
+        "date": "2025-09-08",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 30.3,
@@ -3780,7 +4038,10 @@
       "avg_volume": 2342840,
       "dividend_rate": null,
       "earnings_ts": 1792526400,
-      "last_split": null,
+      "last_split": {
+        "date": "2021-10-05",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 488.53333,
@@ -3817,17 +4078,20 @@
       "avg_volume": 3665275,
       "dividend_rate": 2.09,
       "earnings_ts": null,
-      "last_split": null,
+      "last_split": {
+        "date": "2025-12-09",
+        "factor": 0.888
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.32162,
-        "median": 71.02066,
-        "high": 74.5539,
-        "low": 68.69123,
+        "mean": 71.35282,
+        "median": 71.051735,
+        "high": 74.58652,
+        "low": 68.72128,
         "analysts": 4,
         "recommendation": "none",
         "recommendation_mean": null,
-        "upside_pct": 11.754340332184254
+        "upside_pct": 11.803227828266994
       }
     },
     {
@@ -3854,7 +4118,10 @@
       "avg_volume": 1476204,
       "dividend_rate": 0.29,
       "earnings_ts": 1794603600,
-      "last_split": null,
+      "last_split": {
+        "date": "2010-11-01",
+        "factor": 0.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 15.755,
@@ -3891,7 +4158,10 @@
       "avg_volume": 2532335,
       "dividend_rate": 0.4,
       "earnings_ts": 1791981000,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-05-19",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 234.2381,
@@ -3928,7 +4198,10 @@
       "avg_volume": 1982115,
       "dividend_rate": 1.1,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-07-10",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 55.2,
@@ -4002,7 +4275,10 @@
       "avg_volume": 1299934,
       "dividend_rate": 14.4,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-01-04",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 660.86365,
@@ -4039,7 +4315,10 @@
       "avg_volume": 1251084,
       "dividend_rate": null,
       "earnings_ts": 1793653200,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-08-24",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 595.3571,
@@ -4113,7 +4392,10 @@
       "avg_volume": 1547078,
       "dividend_rate": 1.13,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2011-03-29",
+        "factor": 1.0169491525423728
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 28.03,
@@ -4150,7 +4432,10 @@
       "avg_volume": 16556218,
       "dividend_rate": 2.88,
       "earnings_ts": 1795527000,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-09-27",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 106.96154,
@@ -4187,7 +4472,10 @@
       "avg_volume": 1793346,
       "dividend_rate": 3.88,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-07-01",
+        "factor": 1.057
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 529.35,
@@ -4224,7 +4512,10 @@
       "avg_volume": 6052295,
       "dividend_rate": 0.25,
       "earnings_ts": 1792267200,
-      "last_split": null,
+      "last_split": {
+        "date": "2017-06-19",
+        "factor": 1.1
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 37.75,
@@ -4261,7 +4552,10 @@
       "avg_volume": 8049873,
       "dividend_rate": 4.44,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "1997-04-11",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 73.45455,
@@ -4298,7 +4592,10 @@
       "avg_volume": 3370709,
       "dividend_rate": 5.0,
       "earnings_ts": 1795008600,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-07-03",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 248.75758,
@@ -4335,7 +4632,10 @@
       "avg_volume": 8280395,
       "dividend_rate": null,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "1997-06-09",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 233.34615,
@@ -4372,7 +4672,10 @@
       "avg_volume": 790587,
       "dividend_rate": 3.76,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-01-05",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 1161.0714,
@@ -4409,7 +4712,10 @@
       "avg_volume": 5118228,
       "dividend_rate": 3.34,
       "earnings_ts": null,
-      "last_split": null,
+      "last_split": {
+        "date": "2017-02-14",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 70.36667,
@@ -4446,7 +4752,10 @@
       "avg_volume": 2532039,
       "dividend_rate": 4.4,
       "earnings_ts": 1793712600,
-      "last_split": null,
+      "last_split": {
+        "date": "2011-03-01",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 469.74075,
@@ -4483,7 +4792,10 @@
       "avg_volume": 11154631,
       "dividend_rate": 2.52,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-08-07",
+        "factor": 1.0506662800214757
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 65.25,
@@ -4557,7 +4869,10 @@
       "avg_volume": 2161990,
       "dividend_rate": 7.6,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-10-01",
+        "factor": 1.139
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 301.1875,
@@ -4597,14 +4912,14 @@
       "last_split": null,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 632.77216,
-        "median": 641.6843,
-        "high": 731.95935,
-        "low": 448.18063,
+        "mean": 633.049,
+        "median": 641.9651,
+        "high": 732.2796,
+        "low": 448.3767,
         "analysts": 38,
         "recommendation": "buy",
         "recommendation_mean": 1.70732,
-        "upside_pct": 9.660184045890174
+        "upside_pct": 9.708160754206885
       }
     },
     {
@@ -4631,7 +4946,10 @@
       "avg_volume": 2925892,
       "dividend_rate": 3.52,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-05-17",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 341.48407,
@@ -4668,7 +4986,10 @@
       "avg_volume": 8054951,
       "dividend_rate": 2.52,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-04-09",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 111.06667,
@@ -4779,7 +5100,10 @@
       "avg_volume": 1175094,
       "dividend_rate": 5.2,
       "earnings_ts": null,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-11-03",
+        "factor": 1.01
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 177.77461,
@@ -4853,7 +5177,10 @@
       "avg_volume": 9137617,
       "dividend_rate": 2.08,
       "earnings_ts": 1793363400,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-10-04",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 55.89211,
@@ -4890,7 +5217,10 @@
       "avg_volume": 1962768,
       "dividend_rate": 5.2,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "2012-07-23",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 318.125,
@@ -4927,7 +5257,10 @@
       "avg_volume": 650948,
       "dividend_rate": 8.0,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-10-02",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 1141.7621,
@@ -4964,17 +5297,20 @@
       "avg_volume": 717743,
       "dividend_rate": 4.77,
       "earnings_ts": 1796218200,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-03-15",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 164.37013,
-        "median": 169.7943,
-        "high": 180.39067,
-        "low": 142.92542,
+        "mean": 164.3438,
+        "median": 169.76709,
+        "high": 180.36179,
+        "low": 142.90253,
         "analysts": 3,
         "recommendation": "hold",
         "recommendation_mean": 2.85714,
-        "upside_pct": 5.169959690319281
+        "upside_pct": 5.153112803122406
       }
     },
     {
@@ -5001,7 +5337,10 @@
       "avg_volume": 7011620,
       "dividend_rate": 3.04,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-04-03",
+        "factor": 1.636929120969062
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 96.925,
@@ -5038,7 +5377,10 @@
       "avg_volume": 7479915,
       "dividend_rate": 1.68,
       "earnings_ts": 1793739600,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-04-06",
+        "factor": 25.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 215.05882,
@@ -5112,7 +5454,10 @@
       "avg_volume": 4018628,
       "dividend_rate": 3.2,
       "earnings_ts": 1792526400,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-06-02",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 254.4762,
@@ -5149,7 +5494,10 @@
       "avg_volume": 24482440,
       "dividend_rate": 0.24,
       "earnings_ts": 1796158800,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-07-25",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 309.14325,
@@ -5223,7 +5571,10 @@
       "avg_volume": 1548768,
       "dividend_rate": 2.92,
       "earnings_ts": 1793626200,
-      "last_split": null,
+      "last_split": {
+        "date": "2011-11-22",
+        "factor": 1.061
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 422.80768,
@@ -5260,7 +5611,10 @@
       "avg_volume": 9529725,
       "dividend_rate": 2.66,
       "earnings_ts": 1793799000,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-06-07",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 109.30615,
@@ -5297,7 +5651,10 @@
       "avg_volume": 24884675,
       "dividend_rate": 1.43,
       "earnings_ts": 1794344400,
-      "last_split": null,
+      "last_split": {
+        "date": "2008-05-08",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 22.825,
@@ -5334,17 +5691,20 @@
       "avg_volume": 5051620,
       "dividend_rate": 2.7,
       "earnings_ts": 1793971800,
-      "last_split": null,
+      "last_split": {
+        "date": "2011-06-01",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 50.521282,
-        "median": 49.640892,
-        "high": 58.509636,
-        "low": 44.44754,
+        "mean": 50.51319,
+        "median": 49.632942,
+        "high": 58.500267,
+        "low": 44.440422,
         "analysts": 5,
         "recommendation": "buy",
         "recommendation_mean": 2.20833,
-        "upside_pct": 10.574046837382367
+        "upside_pct": 10.556336178594883
       }
     },
     {
@@ -5371,17 +5731,20 @@
       "avg_volume": 1687428,
       "dividend_rate": 3.24,
       "earnings_ts": 1796218200,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-04-29",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 89.80766,
-        "median": 95.9338,
-        "high": 98.16369,
-        "low": 75.3255,
+        "mean": 89.793274,
+        "median": 95.918434,
+        "high": 98.147964,
+        "low": 75.31343,
         "analysts": 3,
         "recommendation": "hold",
         "recommendation_mean": 2.53846,
-        "upside_pct": 7.386894655028109
+        "upside_pct": 7.369692694009333
       }
     },
     {
@@ -5408,7 +5771,10 @@
       "avg_volume": 4277259,
       "dividend_rate": 4.34,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2012-07-03",
+        "factor": 0.3333333333333333
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 133.92105,
@@ -5482,7 +5848,10 @@
       "avg_volume": 2537220,
       "dividend_rate": 4.4,
       "earnings_ts": 1793712600,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-06-11",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 452.17648,
@@ -5556,7 +5925,10 @@
       "avg_volume": 6989034,
       "dividend_rate": 1.04,
       "earnings_ts": 1792699200,
-      "last_split": null,
+      "last_split": {
+        "date": "1994-04-22",
+        "factor": 1.25
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 134.56842,
@@ -5630,7 +6002,10 @@
       "avg_volume": 2488873,
       "dividend_rate": 3.96,
       "earnings_ts": 1792067400,
-      "last_split": null,
+      "last_split": {
+        "date": "2002-07-01",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 210.4762,
@@ -5667,7 +6042,10 @@
       "avg_volume": 8020704,
       "dividend_rate": 0.7,
       "earnings_ts": 1792699200,
-      "last_split": null,
+      "last_split": {
+        "date": "2025-02-24",
+        "factor": 1.323
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 613.375,
@@ -5704,7 +6082,10 @@
       "avg_volume": 591287,
       "dividend_rate": 20.64,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2002-12-31",
+        "factor": 0.03125
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 1234.875,
@@ -5741,7 +6122,10 @@
       "avg_volume": 4032153,
       "dividend_rate": 1.83,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-07-22",
+        "factor": 1.226
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 59.12444,
@@ -5852,7 +6236,10 @@
       "avg_volume": 3555151,
       "dividend_rate": 2.32,
       "earnings_ts": 1800019800,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-07-02",
+        "factor": 0.9434
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 163.7,
@@ -5889,7 +6276,10 @@
       "avg_volume": 3134118,
       "dividend_rate": 2.08,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2016-11-04",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 193.53333,
@@ -5926,17 +6316,20 @@
       "avg_volume": 1024565,
       "dividend_rate": 3.05,
       "earnings_ts": 1796304600,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-05-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 118.91419,
-        "median": 125.52211,
-        "high": 125.54162,
-        "low": 105.67885,
+        "mean": 118.92248,
+        "median": 125.53086,
+        "high": 125.55037,
+        "low": 105.68622,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.42857,
-        "upside_pct": 15.630289770517303
+        "upside_pct": 15.63835083625047
       }
     },
     {
@@ -6000,7 +6393,10 @@
       "avg_volume": 3142164,
       "dividend_rate": 4.8,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-05-02",
+        "factor": 1.094
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 421.3158,
@@ -6074,7 +6470,10 @@
       "avg_volume": 1244379,
       "dividend_rate": 6.36,
       "earnings_ts": 1793363400,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-03-27",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 419.29428,
@@ -6111,7 +6510,10 @@
       "avg_volume": 3283964,
       "dividend_rate": 3.12,
       "earnings_ts": 1792499400,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-04-01",
+        "factor": 1.196
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 194.01411,
@@ -6148,7 +6550,10 @@
       "avg_volume": 4864376,
       "dividend_rate": null,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-06-23",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 144.68297,
@@ -6185,7 +6590,10 @@
       "avg_volume": 2400950,
       "dividend_rate": 4.65,
       "earnings_ts": null,
-      "last_split": null,
+      "last_split": {
+        "date": "2010-04-30",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 105.29375,
@@ -6222,7 +6630,10 @@
       "avg_volume": 15777528,
       "dividend_rate": null,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2025-12-18",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 155.75348,
@@ -6259,7 +6670,10 @@
       "avg_volume": 10772110,
       "dividend_rate": 0.56,
       "earnings_ts": 1792612800,
-      "last_split": null,
+      "last_split": {
+        "date": "2021-06-29",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 53.80739,
@@ -6333,17 +6747,20 @@
       "avg_volume": 6576662,
       "dividend_rate": 1.74,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-06-11",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 48.40909,
-        "median": 47.287354,
-        "high": 55.871124,
-        "low": 43.190525,
+        "mean": 48.415836,
+        "median": 47.29394,
+        "high": 55.878914,
+        "low": 43.196545,
         "analysts": 4,
         "recommendation": "buy",
         "recommendation_mean": 2.21739,
-        "upside_pct": 9.078616493916169
+        "upside_pct": 9.093817034700313
       }
     },
     {
@@ -6370,7 +6787,10 @@
       "avg_volume": 85620481,
       "dividend_rate": null,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-11-20",
+        "factor": 8.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 248.1823,
@@ -6444,7 +6864,10 @@
       "avg_volume": 29495601,
       "dividend_rate": 1.32,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-01-05",
+        "factor": 1.067
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 27.97727,
@@ -6481,7 +6904,10 @@
       "avg_volume": 1927431,
       "dividend_rate": 2.08,
       "earnings_ts": 1790166600,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-09-12",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 218.4375,
@@ -6518,7 +6944,10 @@
       "avg_volume": 7402701,
       "dividend_rate": 2.16,
       "earnings_ts": 1800365400,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-04-16",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 68.79545,
@@ -6555,7 +6984,10 @@
       "avg_volume": 986320,
       "dividend_rate": 5.36,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "2011-01-04",
+        "factor": 0.24737167594310452
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 548.0909,
@@ -6592,7 +7024,10 @@
       "avg_volume": 9842440,
       "dividend_rate": null,
       "earnings_ts": 1793912400,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-08-11",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 50.25,
@@ -6666,7 +7101,10 @@
       "avg_volume": 1306809,
       "dividend_rate": 6.88,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-06-01",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 482.38095,
@@ -6703,7 +7141,10 @@
       "avg_volume": 4604790,
       "dividend_rate": null,
       "earnings_ts": 1796850000,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-05-24",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 266.9097,
@@ -6740,7 +7181,10 @@
       "avg_volume": 1835154,
       "dividend_rate": 8.0,
       "earnings_ts": 1800019800,
-      "last_split": null,
+      "last_split": {
+        "date": "1992-11-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 263.57144,
@@ -6777,7 +7221,10 @@
       "avg_volume": 1357815,
       "dividend_rate": 4.2,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2020-03-02",
+        "factor": 1.289
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 516.5139,
@@ -6814,7 +7261,10 @@
       "avg_volume": 1220059,
       "dividend_rate": 0.52,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-04-10",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 769.7837,
@@ -6851,7 +7301,10 @@
       "avg_volume": 4985956,
       "dividend_rate": 0.28,
       "earnings_ts": 1794490200,
-      "last_split": null,
+      "last_split": {
+        "date": "2025-10-10",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 53.9,
@@ -6925,7 +7378,10 @@
       "avg_volume": 2384460,
       "dividend_rate": 1.32,
       "earnings_ts": 1801143000,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-07-13",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 36.66667,
@@ -7073,7 +7529,10 @@
       "avg_volume": 2661304,
       "dividend_rate": 2.38,
       "earnings_ts": 1793799000,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-12-12",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 183.1068,
@@ -7110,7 +7569,10 @@
       "avg_volume": 1413356,
       "dividend_rate": 2.92,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2003-06-09",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 342.9524,
@@ -7147,7 +7609,10 @@
       "avg_volume": 1824096,
       "dividend_rate": 3.2,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2021-04-01",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 373.83334,
@@ -7184,7 +7649,10 @@
       "avg_volume": 9136076,
       "dividend_rate": 1.12,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-10-04",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 171.88889,
@@ -7221,7 +7689,10 @@
       "avg_volume": 1446268,
       "dividend_rate": 5.0,
       "earnings_ts": 1792153800,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-05-12",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 376.625,
@@ -7258,7 +7729,10 @@
       "avg_volume": 839431,
       "dividend_rate": 4.12,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-05-19",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 553.6667,
@@ -7295,7 +7769,10 @@
       "avg_volume": 8198867,
       "dividend_rate": 2.1,
       "earnings_ts": 1793653200,
-      "last_split": null,
+      "last_split": {
+        "date": "2012-01-03",
+        "factor": 1.2266928361138372
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 85.41667,
@@ -7332,7 +7809,10 @@
       "avg_volume": 909785,
       "dividend_rate": 3.32,
       "earnings_ts": 1793912400,
-      "last_split": null,
+      "last_split": {
+        "date": "2017-05-22",
+        "factor": 0.916
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 91.77,
@@ -7369,7 +7849,10 @@
       "avg_volume": 2403275,
       "dividend_rate": 6.0,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-08-03",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 357.7037,
@@ -7406,7 +7889,10 @@
       "avg_volume": 1735203,
       "dividend_rate": 0.6,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2017-01-04",
+        "factor": 0.4873294346978557
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 374.18518,
@@ -7517,7 +8003,10 @@
       "avg_volume": 5116582,
       "dividend_rate": 2.12,
       "earnings_ts": 1793363400,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-05-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 101.7,
@@ -7591,7 +8080,10 @@
       "avg_volume": 3865292,
       "dividend_rate": 1.6,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2016-09-06",
+        "factor": 0.955
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 174.90475,
@@ -7628,17 +8120,20 @@
       "avg_volume": 2212018,
       "dividend_rate": 0.75,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2021-05-14",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 96.34528,
-        "median": 97.89062,
-        "high": 103.63988,
-        "low": 73.05728,
+        "mean": 96.331184,
+        "median": 97.87629,
+        "high": 103.62471,
+        "low": 73.04659,
         "analysts": 13,
         "recommendation": "buy",
         "recommendation_mean": 1.80645,
-        "upside_pct": 7.264840792696514
+        "upside_pct": 7.2491471832554
       }
     },
     {
@@ -7665,7 +8160,10 @@
       "avg_volume": 1285145,
       "dividend_rate": 6.88,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-05-26",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 294.47787,
@@ -7702,7 +8200,10 @@
       "avg_volume": 3389137,
       "dividend_rate": 2.24,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-08-22",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 41.66667,
@@ -7739,7 +8240,10 @@
       "avg_volume": 2402489,
       "dividend_rate": null,
       "earnings_ts": 1793044800,
-      "last_split": null,
+      "last_split": {
+        "date": "1997-11-17",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 411.7604,
@@ -7776,7 +8280,10 @@
       "avg_volume": 3166470,
       "dividend_rate": 4.4,
       "earnings_ts": 1793912400,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-04-01",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 168.75862,
@@ -7850,7 +8357,10 @@
       "avg_volume": 2179100,
       "dividend_rate": null,
       "earnings_ts": 1796763600,
-      "last_split": null,
+      "last_split": {
+        "date": "2003-09-24",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 591.4865,
@@ -7887,7 +8397,10 @@
       "avg_volume": 923375,
       "dividend_rate": 9.88,
       "earnings_ts": 1792499400,
-      "last_split": null,
+      "last_split": {
+        "date": "2011-03-31",
+        "factor": 1.1068068622025458
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 636.5,
@@ -7924,7 +8437,10 @@
       "avg_volume": 1478567,
       "dividend_rate": 2.68,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-03-19",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 257.41666,
@@ -7961,7 +8477,10 @@
       "avg_volume": 4081932,
       "dividend_rate": 4.64,
       "earnings_ts": 1795008600,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-07-20",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 172.34286,
@@ -7998,7 +8517,10 @@
       "avg_volume": 372851,
       "dividend_rate": 2.44,
       "earnings_ts": 1792785600,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-01-10",
+        "factor": 2.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 57.016,
@@ -8035,7 +8557,10 @@
       "avg_volume": 6084089,
       "dividend_rate": null,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2025-06-10",
+        "factor": 15.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 106.40741,
@@ -8072,17 +8597,20 @@
       "avg_volume": 4056509,
       "dividend_rate": 1.84,
       "earnings_ts": 1793739600,
-      "last_split": null,
+      "last_split": {
+        "date": "2008-05-27",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.9029,
-        "median": 69.8379,
-        "high": 77.58288,
-        "low": 68.287926,
+        "mean": 71.91342,
+        "median": 69.848114,
+        "high": 77.59423,
+        "low": 68.29792,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.0,
-        "upside_pct": 12.6651519899718
+        "upside_pct": 12.681635850830464
       }
     },
     {
@@ -8109,17 +8637,20 @@
       "avg_volume": 1223404,
       "dividend_rate": 2.55,
       "earnings_ts": 1801229400,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-12-02",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 134.29555,
-        "median": 135.10648,
-        "high": 145.79831,
-        "low": 113.920685,
+        "mean": 134.31332,
+        "median": 135.12436,
+        "high": 145.8176,
+        "low": 113.93576,
         "analysts": 13,
         "recommendation": "buy",
         "recommendation_mean": 2.26667,
-        "upside_pct": 9.718586601307177
+        "upside_pct": 9.733104575163388
       }
     },
     {
@@ -8146,7 +8677,10 @@
       "avg_volume": 1299690,
       "dividend_rate": 9.2,
       "earnings_ts": 1793912400,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-05-29",
+        "factor": 1.063
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 235.23685,
@@ -8183,7 +8717,10 @@
       "avg_volume": 1561435,
       "dividend_rate": 2.8,
       "earnings_ts": 1793304000,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-01-19",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 301.5,
@@ -8220,7 +8757,10 @@
       "avg_volume": 3623323,
       "dividend_rate": 5.52,
       "earnings_ts": 1795122000,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-07-07",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 391.04968,
@@ -8257,7 +8797,10 @@
       "avg_volume": 1659993,
       "dividend_rate": 6.24,
       "earnings_ts": 1801747800,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-06-05",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 344.4016,
@@ -8294,7 +8837,10 @@
       "avg_volume": 1455781,
       "dividend_rate": 4.88,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-06-01",
+        "factor": 1.241
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 356.80768,
@@ -8331,7 +8877,10 @@
       "avg_volume": 1687428,
       "dividend_rate": 3.28,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "1999-05-18",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 367.3684,
@@ -8368,7 +8917,10 @@
       "avg_volume": 8727900,
       "dividend_rate": null,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-05-08",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 82.33333,
@@ -8405,7 +8957,10 @@
       "avg_volume": 1035918,
       "dividend_rate": 5.4,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "1997-10-10",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 357.44443,
@@ -8445,14 +9000,14 @@
       "last_split": null,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 24.571953,
-        "median": 26.100069,
-        "high": 26.802763,
-        "low": 20.813028,
+        "mean": 24.553455,
+        "median": 26.080421,
+        "high": 26.782583,
+        "low": 20.79736,
         "analysts": 3,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.0,
-        "upside_pct": 12.870707395498403
+        "upside_pct": 12.785737253100592
       }
     },
     {
@@ -8519,14 +9074,14 @@
       "last_split": null,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 457.1697,
-        "median": 456.47223,
-        "high": 508.41898,
-        "low": 406.35687,
+        "mean": 457.36972,
+        "median": 456.67194,
+        "high": 508.64142,
+        "low": 406.53467,
         "analysts": 12,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.5,
-        "upside_pct": 16.485260019874115
+        "upside_pct": 16.536224424796785
       }
     },
     {
@@ -8590,7 +9145,10 @@
       "avg_volume": 2190548,
       "dividend_rate": 1.78,
       "earnings_ts": 1795122000,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-06-12",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 265.10526,
@@ -8627,7 +9185,10 @@
       "avg_volume": 3824371,
       "dividend_rate": 3.88,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "1962-10-31",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 142.02274,
@@ -8664,7 +9225,10 @@
       "avg_volume": 5239320,
       "dividend_rate": 0.62,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-09-19",
+        "factor": 1.085
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 28.94,
@@ -8701,7 +9265,10 @@
       "avg_volume": 12895081,
       "dividend_rate": 1.18,
       "earnings_ts": 1792758600,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-04-10",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 62.2069,
@@ -8775,17 +9342,20 @@
       "avg_volume": 1785559,
       "dividend_rate": 1.35,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-06-05",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 34.40752,
-        "median": 34.40752,
-        "high": 34.40752,
-        "low": 34.40752,
+        "mean": 34.412315,
+        "median": 34.412315,
+        "high": 34.412315,
+        "low": 34.412315,
         "analysts": 1,
         "recommendation": "buy",
         "recommendation_mean": 2.13333,
-        "upside_pct": -15.85346050379066
+        "upside_pct": -15.841733920273903
       }
     },
     {
@@ -8812,7 +9382,10 @@
       "avg_volume": 2796856,
       "dividend_rate": 2.8,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-06-29",
+        "factor": 0.9535
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 253.86957,
@@ -8849,7 +9422,10 @@
       "avg_volume": 2173314,
       "dividend_rate": 0.91,
       "earnings_ts": null,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-07-01",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 53.35,
@@ -8960,7 +9536,10 @@
       "avg_volume": 1068631,
       "dividend_rate": 7.24,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2016-10-03",
+        "factor": 1.081
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 344.57144,
@@ -8997,7 +9576,10 @@
       "avg_volume": 1878951,
       "dividend_rate": 4.32,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-07-02",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 277.9091,
@@ -9034,7 +9616,10 @@
       "avg_volume": 13115273,
       "dividend_rate": 0.6,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2011-02-02",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 78.22273,
@@ -9108,7 +9693,10 @@
       "avg_volume": 5533300,
       "dividend_rate": 5.12,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-11-03",
+        "factor": 1.043
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 118.3125,
@@ -9145,7 +9733,10 @@
       "avg_volume": 1290457,
       "dividend_rate": 2.64,
       "earnings_ts": 1793799000,
-      "last_split": null,
+      "last_split": {
+        "date": "2009-06-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 388.25,
@@ -9219,7 +9810,10 @@
       "avg_volume": 777717,
       "dividend_rate": 2.93,
       "earnings_ts": 1795095000,
-      "last_split": null,
+      "last_split": {
+        "date": "2020-10-02",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 154.70663,
@@ -9256,7 +9850,10 @@
       "avg_volume": 274429,
       "dividend_rate": 9.96,
       "earnings_ts": 1801575000,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-06-15",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 1452.0,
@@ -9293,7 +9890,10 @@
       "avg_volume": 1722310,
       "dividend_rate": 2.06,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-04-23",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 300.8,
@@ -9330,17 +9930,20 @@
       "avg_volume": 2547653,
       "dividend_rate": 2.45,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "1984-02-13",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 67.155464,
-        "median": 71.049805,
-        "high": 72.474396,
-        "low": 57.94218,
+        "mean": 67.164825,
+        "median": 71.05971,
+        "high": 72.4845,
+        "low": 57.950256,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 1.83333,
-        "upside_pct": 8.088627072267807
+        "upside_pct": 8.103693867696759
       }
     },
     {
@@ -9367,7 +9970,10 @@
       "avg_volume": 1921385,
       "dividend_rate": 2.56,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "2018-03-19",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 119.86667,
@@ -9478,7 +10084,10 @@
       "avg_volume": 19190485,
       "dividend_rate": null,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "2003-11-06",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 49.59857,
@@ -9589,7 +10198,10 @@
       "avg_volume": 2057868,
       "dividend_rate": 2.5,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-04-25",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 340.8,
@@ -9626,7 +10238,10 @@
       "avg_volume": 3162312,
       "dividend_rate": 2.37,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "2017-08-07",
+        "factor": 1.122
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 111.125,
@@ -9737,7 +10352,10 @@
       "avg_volume": 5243815,
       "dividend_rate": 1.56,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-08-24",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 120.79167,
@@ -9774,7 +10392,10 @@
       "avg_volume": 3919079,
       "dividend_rate": null,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "2020-06-01",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 113.83,
@@ -9811,7 +10432,10 @@
       "avg_volume": 4232004,
       "dividend_rate": 0.94,
       "earnings_ts": 1793363400,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-08-30",
+        "factor": 0.928
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 21.15,
@@ -9848,7 +10472,10 @@
       "avg_volume": 4814376,
       "dividend_rate": 2.67,
       "earnings_ts": 1793363400,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-11-20",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 70.41667,
@@ -9885,7 +10512,10 @@
       "avg_volume": 2395539,
       "dividend_rate": 1.16,
       "earnings_ts": 1801143000,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-06-06",
+        "factor": 1.048
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 40.0,
@@ -9922,7 +10552,10 @@
       "avg_volume": 7274810,
       "dividend_rate": 1.04,
       "earnings_ts": 1800365400,
-      "last_split": null,
+      "last_split": {
+        "date": "2025-05-22",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 50.76154,
@@ -9959,7 +10592,10 @@
       "avg_volume": 8597264,
       "dividend_rate": 0.42,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2008-08-13",
+        "factor": 1.029
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 54.9375,
@@ -9996,7 +10632,10 @@
       "avg_volume": 1804635,
       "dividend_rate": 4.24,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2026-02-10",
+        "factor": 1.272
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 226.14285,
@@ -10107,7 +10746,10 @@
       "avg_volume": 3294281,
       "dividend_rate": 1.16,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-08-29",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 115.375,
@@ -10255,7 +10897,10 @@
       "avg_volume": 1309023,
       "dividend_rate": 8.8,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2008-01-03",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 620.16315,
@@ -10292,7 +10937,10 @@
       "avg_volume": 7486537,
       "dividend_rate": 3.29,
       "earnings_ts": 1793653200,
-      "last_split": null,
+      "last_split": {
+        "date": "2021-11-15",
+        "factor": 1.032
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 63.77381,
@@ -10329,7 +10977,10 @@
       "avg_volume": 7645867,
       "dividend_rate": 2.08,
       "earnings_ts": 1800451800,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-08-04",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 53.29737,
@@ -10366,17 +11017,20 @@
       "avg_volume": 588135,
       "dividend_rate": 2.43,
       "earnings_ts": 1801229400,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-05-30",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 110.78091,
-        "median": 110.78091,
-        "high": 110.78091,
-        "low": 110.78091,
+        "mean": 110.79635,
+        "median": 110.79635,
+        "high": 110.79635,
+        "low": 110.79635,
         "analysts": 1,
         "recommendation": "underperform",
         "recommendation_mean": 3.72222,
-        "upside_pct": -4.77012808389925
+        "upside_pct": -4.756855497292179
       }
     },
     {
@@ -10440,7 +11094,10 @@
       "avg_volume": 20480629,
       "dividend_rate": 0.57,
       "earnings_ts": 1795467600,
-      "last_split": null,
+      "last_split": {
+        "date": "2017-09-01",
+        "factor": 1.289
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 70.58286,
@@ -10514,7 +11171,10 @@
       "avg_volume": 1349281,
       "dividend_rate": 2.24,
       "earnings_ts": 1793044800,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-06-01",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 304.5625,
@@ -10551,7 +11211,10 @@
       "avg_volume": 9313587,
       "dividend_rate": 1.12,
       "earnings_ts": 1794258000,
-      "last_split": null,
+      "last_split": {
+        "date": "2016-02-25",
+        "factor": 1.0017028949213662
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 71.11111,
@@ -10588,7 +11251,10 @@
       "avg_volume": 3490412,
       "dividend_rate": 1.4,
       "earnings_ts": 1793104200,
-      "last_split": null,
+      "last_split": {
+        "date": "2023-02-08",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 125.10125,
@@ -10625,7 +11291,10 @@
       "avg_volume": 559432,
       "dividend_rate": null,
       "earnings_ts": 1793626200,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-06-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 717.1667,
@@ -10662,7 +11331,10 @@
       "avg_volume": 3349545,
       "dividend_rate": 4.28,
       "earnings_ts": 1793131200,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-02-03",
+        "factor": 1.1422
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 102.42857,
@@ -10736,7 +11408,10 @@
       "avg_volume": 261737,
       "dividend_rate": null,
       "earnings_ts": 1796736600,
-      "last_split": null,
+      "last_split": {
+        "date": "1994-04-21",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 3656.625,
@@ -10773,7 +11448,10 @@
       "avg_volume": 848651,
       "dividend_rate": 4.2,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "2006-08-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 299.0,
@@ -10810,7 +11488,10 @@
       "avg_volume": 8706748,
       "dividend_rate": 0.7,
       "earnings_ts": 1794231000,
-      "last_split": null,
+      "last_split": {
+        "date": "1993-03-02",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 49.66867,
@@ -10847,7 +11528,10 @@
       "avg_volume": 1474260,
       "dividend_rate": 1.36,
       "earnings_ts": 1793712600,
-      "last_split": null,
+      "last_split": {
+        "date": "2012-07-02",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 288.83334,
@@ -10884,7 +11568,10 @@
       "avg_volume": 2071785,
       "dividend_rate": null,
       "earnings_ts": 1795554000,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-12-21",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 309.60028,
@@ -10921,7 +11608,10 @@
       "avg_volume": 6820900,
       "dividend_rate": 2.37,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "1998-06-02",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 90.65789,
@@ -10958,7 +11648,10 @@
       "avg_volume": 4360218,
       "dividend_rate": 1.24,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-07-20",
+        "factor": 2.376
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 127.11111,
@@ -10995,17 +11688,20 @@
       "avg_volume": 1753687,
       "dividend_rate": 2.51,
       "earnings_ts": null,
-      "last_split": null,
+      "last_split": {
+        "date": "1997-05-13",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 113.13042,
-        "median": 116.58047,
-        "high": 129.03345,
-        "low": 89.63591,
+        "mean": 113.17991,
+        "median": 116.63148,
+        "high": 129.0899,
+        "low": 89.675125,
         "analysts": 12,
         "recommendation": "buy",
         "recommendation_mean": 2.0,
-        "upside_pct": -2.077018956115295
+        "upside_pct": -2.0341815978533684
       }
     },
     {
@@ -11069,7 +11765,10 @@
       "avg_volume": 3045359,
       "dividend_rate": 2.72,
       "earnings_ts": 1793626200,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-12-13",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 121.09524,
@@ -11106,7 +11805,10 @@
       "avg_volume": 3977901,
       "dividend_rate": 2.63,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2023-08-22",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 96.80737,
@@ -11254,7 +11956,10 @@
       "avg_volume": 33168389,
       "dividend_rate": 1.64,
       "earnings_ts": 1797541200,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-12-24",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 36.56579,
@@ -11291,7 +11996,10 @@
       "avg_volume": 5458581,
       "dividend_rate": 2.81,
       "earnings_ts": 1793826000,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-10-12",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 71.77,
@@ -11328,7 +12036,10 @@
       "avg_volume": 17706504,
       "dividend_rate": 0.55,
       "earnings_ts": 1792758600,
-      "last_split": null,
+      "last_split": {
+        "date": "2018-09-12",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 12.0667,
@@ -11402,7 +12113,10 @@
       "avg_volume": 2317245,
       "dividend_rate": 1.05,
       "earnings_ts": 1795467600,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-11-03",
+        "factor": 1.398
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 183.137,
@@ -11476,7 +12190,10 @@
       "avg_volume": 11178607,
       "dividend_rate": 1.28,
       "earnings_ts": 1793912400,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-11-16",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 59.81481,
@@ -11513,7 +12230,10 @@
       "avg_volume": 8011850,
       "dividend_rate": 1.68,
       "earnings_ts": 1793363400,
-      "last_split": null,
+      "last_split": {
+        "date": "2022-02-02",
+        "factor": 1.402
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 48.0,
@@ -11550,7 +12270,10 @@
       "avg_volume": 1455384,
       "dividend_rate": 3.54,
       "earnings_ts": 1793971800,
-      "last_split": null,
+      "last_split": {
+        "date": "1991-08-01",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 510.83334,
@@ -11587,7 +12310,10 @@
       "avg_volume": 1450090,
       "dividend_rate": 3.56,
       "earnings_ts": 1794231000,
-      "last_split": null,
+      "last_split": {
+        "date": "2018-06-11",
+        "factor": 0.947
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 292.0,
@@ -11624,7 +12350,10 @@
       "avg_volume": 1713445,
       "dividend_rate": 5.0,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2009-05-11",
+        "factor": 1.058425063505504
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 333.9524,
@@ -11661,7 +12390,10 @@
       "avg_volume": 6307289,
       "dividend_rate": null,
       "earnings_ts": 1793739600,
-      "last_split": null,
+      "last_split": {
+        "date": "2004-07-01",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 50.50857,
@@ -11698,7 +12430,10 @@
       "avg_volume": 3589579,
       "dividend_rate": 2.08,
       "earnings_ts": 1793131200,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-08-18",
+        "factor": 0.8757
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 99.81818,
@@ -11735,7 +12470,10 @@
       "avg_volume": 896100,
       "dividend_rate": 4.0,
       "earnings_ts": 1792672200,
-      "last_split": null,
+      "last_split": {
+        "date": "2005-08-29",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 469.17786,
@@ -11809,7 +12547,10 @@
       "avg_volume": 907639,
       "dividend_rate": 1.24,
       "earnings_ts": 1792585800,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-06-12",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 334.41666,
@@ -11846,7 +12587,10 @@
       "avg_volume": 476429,
       "dividend_rate": 0.25,
       "earnings_ts": 1787688000,
-      "last_split": null,
+      "last_split": {
+        "date": "2018-06-28",
+        "factor": 1.25
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 390.7,
@@ -11883,7 +12627,10 @@
       "avg_volume": 17733914,
       "dividend_rate": null,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2024-06-26",
+        "factor": 50.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 40.64516,
@@ -11920,7 +12667,10 @@
       "avg_volume": 1774335,
       "dividend_rate": 1.54,
       "earnings_ts": 1792612800,
-      "last_split": null,
+      "last_split": {
+        "date": "2017-06-19",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 206.56,
@@ -11994,7 +12744,10 @@
       "avg_volume": 6300942,
       "dividend_rate": 1.68,
       "earnings_ts": 1800365400,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-07-17",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 61.53571,
@@ -12031,7 +12784,10 @@
       "avg_volume": 44145381,
       "dividend_rate": 0.6,
       "earnings_ts": 1793217600,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-08-03",
+        "factor": 1.748175
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 15.01722,
@@ -12142,7 +12898,10 @@
       "avg_volume": 2407617,
       "dividend_rate": 3.55,
       "earnings_ts": 1793912400,
-      "last_split": null,
+      "last_split": {
+        "date": "1989-07-03",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 112.79412,
@@ -12216,7 +12975,10 @@
       "avg_volume": 1676950,
       "dividend_rate": 2.62,
       "earnings_ts": 1793712600,
-      "last_split": null,
+      "last_split": {
+        "date": "2023-06-23",
+        "factor": 0.963
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 128.42308,
@@ -12290,7 +13052,10 @@
       "avg_volume": 826617,
       "dividend_rate": null,
       "earnings_ts": 1793712600,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-08-28",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 503.28912,
@@ -12327,7 +13092,10 @@
       "avg_volume": 2325956,
       "dividend_rate": 3.0,
       "earnings_ts": 1801661400,
-      "last_split": null,
+      "last_split": {
+        "date": "2016-11-01",
+        "factor": 1.391
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 175.32272,
@@ -12438,7 +13206,10 @@
       "avg_volume": 573418,
       "dividend_rate": 4.57,
       "earnings_ts": 1793190600,
-      "last_split": null,
+      "last_split": {
+        "date": "2007-05-31",
+        "factor": 3.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 137.4,
@@ -12475,7 +13246,10 @@
       "avg_volume": 862959,
       "dividend_rate": 0.65,
       "earnings_ts": 1794317400,
-      "last_split": null,
+      "last_split": {
+        "date": "2002-01-10",
+        "factor": 4.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 34.75203,
@@ -12512,7 +13286,10 @@
       "avg_volume": 1898234,
       "dividend_rate": 3.68,
       "earnings_ts": 1800019800,
-      "last_split": null,
+      "last_split": {
+        "date": "2001-05-31",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 192.63333,
@@ -12697,7 +13474,10 @@
       "avg_volume": 1330400,
       "dividend_rate": 0.6,
       "earnings_ts": 1793885400,
-      "last_split": null,
+      "last_split": {
+        "date": "2017-05-22",
+        "factor": 0.3333333333333333
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 77.32857,
@@ -12808,7 +13588,10 @@
       "avg_volume": 4279153,
       "dividend_rate": 2.0,
       "earnings_ts": 1793739600,
-      "last_split": null,
+      "last_split": {
+        "date": "2009-07-01",
+        "factor": 0.05
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 88.95,
@@ -12882,17 +13665,20 @@
       "avg_volume": 2256753,
       "dividend_rate": 2.2,
       "earnings_ts": 1793131200,
-      "last_split": null,
+      "last_split": {
+        "date": "2014-11-04",
+        "factor": 1.024
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.61199,
-        "median": 68.377426,
-        "high": 87.307014,
-        "low": 59.15154,
+        "mean": 71.643326,
+        "median": 68.40735,
+        "high": 87.345215,
+        "low": 59.177418,
         "analysts": 3,
         "recommendation": "none",
         "recommendation_mean": null,
-        "upside_pct": 24.89011161492849
+        "upside_pct": 24.944761074293687
       }
     },
     {
@@ -13030,7 +13816,10 @@
       "avg_volume": 6863046,
       "dividend_rate": 1.56,
       "earnings_ts": 1796304600,
-      "last_split": null,
+      "last_split": {
+        "date": "2015-07-14",
+        "factor": 2.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 69.95652,
@@ -13104,7 +13893,10 @@
       "avg_volume": 24030626,
       "dividend_rate": 0.14,
       "earnings_ts": 1793277000,
-      "last_split": null,
+      "last_split": {
+        "date": "2013-11-11",
+        "factor": 5.0
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 3.186,
@@ -13141,7 +13933,10 @@
       "avg_volume": 2946312,
       "dividend_rate": 4.76,
       "earnings_ts": 1790166600,
-      "last_split": null,
+      "last_split": {
+        "date": "2000-05-23",
+        "factor": 1.5
+      },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
         "mean": 114.93333,

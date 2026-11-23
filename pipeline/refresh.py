@@ -13,7 +13,7 @@ INFO_KEYS = ("longName", "currency", "financialCurrency", "sharesOutstanding", "
              "marketCap", "targetMeanPrice", "targetMedianPrice", "targetHighPrice", "targetLowPrice",
              "numberOfAnalystOpinions", "recommendationKey", "recommendationMean", "sector", "industry",
              "averageVolume", "quoteType", "exchange", "exchangeTimezoneName", "dividendRate",
-             "earningsTimestamp", "website")
+             "earningsTimestamp", "website", "lastSplitFactor", "lastSplitDate")
 
 
 def info(symbol):

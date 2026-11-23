@@ -2,7 +2,7 @@
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "universe_retrieved_at": "2026-11-23T14:00:03.661024+00:00",
   "reference_session": "2026-11-23",
-  "fetched_at": "2026-11-23T21:59:02.271355+00:00",
+  "fetched_at": "2026-11-23T22:24:24.569852+00:00",
   "cutoff_usd": 50000000000,
   "counts": {
     "listings_checked": 357,
@@ -954,14 +954,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 2094.7476,
-        "median": 2240.7876,
-        "high": 2772.2974,
-        "low": 843.94025,
+        "mean": 2093.834,
+        "median": 2239.8103,
+        "high": 2771.0884,
+        "low": 843.57214,
         "analysts": 17,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.36585,
-        "upside_pct": 51.37865845726923
+        "upside_pct": 51.31263640174015
       }
     },
     {
@@ -1825,14 +1825,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 207.6254,
-        "median": 213.30182,
-        "high": 228.36044,
-        "low": 181.21396,
+        "mean": 207.60806,
+        "median": 213.284,
+        "high": 228.34137,
+        "low": 181.19882,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.21429,
-        "upside_pct": 10.327541314628853
+        "upside_pct": 10.31832722248791
       }
     },
     {
@@ -2853,14 +2853,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 118.53932,
-        "median": 126.855774,
-        "high": 134.16887,
-        "low": 94.59333,
+        "mean": 118.5352,
+        "median": 126.851364,
+        "high": 134.16422,
+        "low": 94.59004,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.30769,
-        "upside_pct": 2.4717496542185247
+        "upside_pct": 2.4681881051175525
       }
     },
     {
@@ -3330,14 +3330,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 45.417946,
-        "median": 43.400642,
-        "high": 63.5835,
-        "low": 39.128284,
+        "mean": 45.418537,
+        "median": 43.40121,
+        "high": 63.584328,
+        "low": 39.128796,
         "analysts": 12,
         "recommendation": "hold",
         "recommendation_mean": 2.84615,
-        "upside_pct": 16.039718957588157
+        "upside_pct": 16.04122892181912
       }
     },
     {
@@ -4084,14 +4084,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.15823,
-        "median": 70.85796,
-        "high": 74.38311,
-        "low": 68.533875,
+        "mean": 71.1272,
+        "median": 70.827065,
+        "high": 74.35067,
+        "low": 68.50398,
         "analysts": 4,
         "recommendation": "none",
         "recommendation_mean": null,
-        "upside_pct": 11.585745648424028
+        "upside_pct": 11.537086404265317
       }
     },
     {
@@ -4835,14 +4835,14 @@
       "last_split": null,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 631.3226,
-        "median": 640.21436,
-        "high": 730.28253,
-        "low": 447.15393,
+        "mean": 631.04724,
+        "median": 639.9352,
+        "high": 729.96405,
+        "low": 446.95892,
         "analysts": 38,
         "recommendation": "buy",
         "recommendation_mean": 1.70732,
-        "upside_pct": 7.782053470823214
+        "upside_pct": 7.735042851777241
       }
     },
     {
@@ -6830,14 +6830,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 48.38583,
-        "median": 47.264633,
-        "high": 55.844284,
-        "low": 43.169773,
+        "mean": 48.384148,
+        "median": 47.262993,
+        "high": 55.842342,
+        "low": 43.168274,
         "analysts": 4,
         "recommendation": "buy",
         "recommendation_mean": 2.21739,
-        "upside_pct": 10.621467764060345
+        "upside_pct": 10.617622313671692
       }
     },
     {
@@ -8086,14 +8086,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 96.29832,
-        "median": 97.842896,
-        "high": 103.589355,
-        "low": 73.021675,
+        "mean": 96.27755,
+        "median": 97.82179,
+        "high": 103.56701,
+        "low": 73.00592,
         "analysts": 13,
         "recommendation": "buy",
         "recommendation_mean": 1.80645,
-        "upside_pct": 6.254352863290302
+        "upside_pct": 6.231435507006511
       }
     },
     {
@@ -8603,14 +8603,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 134.23009,
-        "median": 135.04062,
-        "high": 145.72723,
-        "low": 113.86515,
+        "mean": 134.20114,
+        "median": 135.01149,
+        "high": 145.6958,
+        "low": 113.84059,
         "analysts": 13,
         "recommendation": "buy",
         "recommendation_mean": 2.26667,
-        "upside_pct": 8.337441485068586
+        "upside_pct": 8.314075867635196
       }
     },
     {
@@ -8643,14 +8643,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.86885,
-        "median": 69.804825,
-        "high": 77.54614,
-        "low": 68.25559,
+        "mean": 71.85335,
+        "median": 69.78977,
+        "high": 77.52942,
+        "low": 68.24087,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 2.0,
-        "upside_pct": 14.131888200730502
+        "upside_pct": 14.107273304748302
       }
     },
     {
@@ -8997,14 +8997,14 @@
       "last_split": null,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 456.1224,
-        "median": 455.42654,
-        "high": 507.25427,
-        "low": 405.42596,
+        "mean": 455.9235,
+        "median": 455.2279,
+        "high": 507.03305,
+        "low": 405.24915,
         "analysts": 12,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.5,
-        "upside_pct": 14.2448090169067
+        "upside_pct": 14.194990607388846
       }
     },
     {
@@ -9114,14 +9114,14 @@
       "last_split": null,
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 24.618174,
-        "median": 26.149164,
-        "high": 26.853178,
-        "low": 20.852179,
+        "mean": 24.620031,
+        "median": 26.151136,
+        "high": 26.855204,
+        "low": 20.853752,
         "analysts": 3,
         "recommendation": "strong_buy",
         "recommendation_mean": 1.0,
-        "upside_pct": 11.545872224739462
+        "upside_pct": 11.554286361576803
       }
     },
     {
@@ -9348,14 +9348,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 34.39099,
-        "median": 34.39099,
-        "high": 34.39099,
-        "low": 34.39099,
+        "mean": 34.38357,
+        "median": 34.38357,
+        "high": 34.38357,
+        "low": 34.38357,
         "analysts": 1,
         "recommendation": "buy",
         "recommendation_mean": 2.13333,
-        "upside_pct": -17.62637125748503
+        "upside_pct": -17.644143712574856
       }
     },
     {
@@ -9936,14 +9936,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 67.1232,
-        "median": 71.01567,
-        "high": 72.439575,
-        "low": 57.91434,
+        "mean": 67.10872,
+        "median": 71.00035,
+        "high": 72.42395,
+        "low": 57.901848,
         "analysts": 3,
         "recommendation": "buy",
         "recommendation_mean": 1.83333,
-        "upside_pct": 8.666342884895561
+        "upside_pct": 8.642901084668942
       }
     },
     {
@@ -11100,14 +11100,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 110.727684,
-        "median": 110.727684,
-        "high": 110.727684,
-        "low": 110.727684,
+        "mean": 110.7038,
+        "median": 110.7038,
+        "high": 110.7038,
+        "low": 110.7038,
         "analysts": 1,
         "recommendation": "underperform",
         "recommendation_mean": 3.72222,
-        "upside_pct": -3.4884650919550286
+        "upside_pct": -3.509282663645086
       }
     },
     {
@@ -11694,14 +11694,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 112.871254,
-        "median": 116.3134,
-        "high": 128.73787,
-        "low": 89.43057,
+        "mean": 112.82203,
+        "median": 116.26267,
+        "high": 128.68172,
+        "low": 89.39156,
         "analysts": 12,
         "recommendation": "buy",
         "recommendation_mean": 2.0,
-        "upside_pct": -2.352059866770495
+        "upside_pct": -2.3946448654727948
       }
     },
     {
@@ -13634,14 +13634,14 @@
       },
       "aggregate": {
         "provider": "Yahoo Finance (via yfinance)",
-        "mean": 71.447945,
-        "median": 68.22079,
-        "high": 87.10701,
-        "low": 59.016033,
+        "mean": 71.41679,
+        "median": 68.19104,
+        "high": 87.06902,
+        "low": 58.990295,
         "analysts": 3,
         "recommendation": "none",
         "recommendation_mean": null,
-        "upside_pct": 19.858991779902713
+        "upside_pct": 19.806727059218264
       }
     },
     {

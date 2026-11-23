@@ -38,7 +38,7 @@ def split_adjust(research, row):
                 if e.get(k) is not None:
                     e[k] = e[k] / f
     r["split_adjusted"] = dict(factor=f, date=d, note=f"Per-share figures divided by {f:g} for the {f:g}-for-1 split on {d}; "
-                               "valuation text above is on the pre-split basis.")
+                               "the case and valuation text is on the pre-split basis.")
     return r
 
 

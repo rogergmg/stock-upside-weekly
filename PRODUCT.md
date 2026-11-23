@@ -40,13 +40,13 @@ Named-analyst targets are weighted by recency with a 90-day half-life, and only 
 ## Capabilities and Constraints
 Binding rules:
 - **Scope:** US-listed issuers whose verified market cap is strictly above $50B. That is a stricter filter than the skill's $20B floor. Each issuer gets one row; extra share classes fold into it. Names whose cap interval straddles $50B are shown as unverified, never guessed.
-- **Rankings:** the independent ranking sorts by unrounded base-case 12-month price return. Provider aggregate upside has its own ranking. The two are never merged into one unlabelled sort. Negative returns stay visible, and unresearched names stay listed as pending.
+- **Rankings:** one list of every eligible issuer, ranked by default by unrounded base-case 12-month price return. Provider aggregate upside sits in its own labelled column and can be sorted on its own. The two are never combined into one number or one unlabelled sort, and the rank column always shows the base-case rank. Negative returns stay visible, and unresearched names stay listed as pending.
 - **Refresh:** weekly, on Saturday after Friday's close. There is one information cutoff per run (the reference session), and research dates are shown.
 - **Disclaimer:** the page always says it is research output, not investment advice.
 - **Sources:** source links sit next to the numbers they support.
 
 Known gaps:
-- **Week-over-week view is new.** `pipeline/changes.py` compares each snapshot with the previous one in `data/weekly/` and the page leads with a "Since last week" section (base-case moves, named-analyst calls, Street target changes, $50B crossings, research added). The first real comparison arrives with the 2026-11-20 run; until then only analyst calls and research are shown.
+- **Week-over-week view.** `pipeline/changes.py` compares each snapshot with the previous one in `data/weekly/`. The page shows a "This week" panel beside the list: base-case moves, named-analyst calls, Street target changes, $50B crossings and research added. On a first snapshot, only analyst calls and research are shown.
 - **Thin named-analyst coverage.** Few calls have a documented 12-month horizon, so the analyst-weighted column is mostly empty.
 
 ## Evidence on Hand
@@ -55,8 +55,13 @@ Known gaps:
 - The skill's own two-case backtest is a calculator check, not evidence of accuracy.
 
 ## Product Principles
-- Change first. A weekly visit leads with what moved since last week.
+- Opportunities first, then change. The first screen ranks the best opportunities now; what moved since last week sits beside the full list.
 - Show the basis of every number: label every figure with where it came from (our model, named analysts, or the provider aggregate).
 - Show negatives, gaps and stale research plainly rather than hiding them.
 - Every number links to its scenario maths, analyst timeline and dated sources.
-- Readable at a glance on a phone and scannable as a dense table on desktop.
+- Desktop first: a scannable table on desktop, still comfortable on a phone.
+
+## Brand Commitments
+- **Look:** the category standard for research dashboards, executed at the craft level of Linear and Stripe Dashboard. Roger chose this on 2026-11-23 over more expressive directions.
+- **Never trading-app hype:** no neon, no casino energy, no loud green and red fills. It should feel calm and trustworthy.
+- **Better, not barer:** when the page needs to be easier to read, improve hierarchy and disclosure rather than deleting content.

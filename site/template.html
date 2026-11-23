@@ -1,10 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Stock Upside Weekly</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@500;700;800&family=Inter:wght@400;500;600&display=swap">
 <style>
-/* Layout: an analyst tear sheet. Funnel summary on top, then a ruled ledger of names with scenario bars drawn to one shared scale. */
 :root {
   --bg: #f4f6f9; --surface: #ffffff; --sunk: #eaeef3; --fg: #13202c; --muted: #5a6a7b; --line: #d9e0e8;
   --accent: #1d5bbf; --accent-soft: #e3ecfa; --up: #11805b; --down: #c0392b; --warn: #9a6300; --warn-soft: #fbf0d9;
@@ -17,62 +21,82 @@
 :root[data-theme="dark"] {
   --bg: #0d131a; --surface: #141c25; --sunk: #1a2430; --fg: #e5ecf3; --muted: #93a3b4; --line: #26323f;
   --accent: #74a6ff; --accent-soft: #1b2a42; --up: #3fcf8e; --down: #ff7b6c; --warn: #e2a63c; --warn-soft: #2e2512; color-scheme: dark }
-body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 14px; line-height: 1.5; }
-.wrap { max-width: 1240px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 28px 56px; display: grid; gap: 22px; }
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; background: var(--surface); color: var(--fg); font-family: var(--body); font-size: 14px; line-height: 1.5; }
+.wrap {
+  max-width: 1320px; margin: 0 auto; padding-block: 42px 56px;
+  padding-inline: max(32px, env(safe-area-inset-left, 0px)) max(32px, env(safe-area-inset-right, 0px));
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px;
+}
 h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
-h1 { font-size: clamp(26px, 4vw, 36px); font-weight: 800; letter-spacing: -0.02em; }
-h2 { font-size: 18px; font-weight: 700; }
+h1 { font-size: 38px; line-height: 1.1; font-weight: 800; letter-spacing: -0.035em; }
+h2 { font-size: 20px; font-weight: 700; letter-spacing: -0.02em; }
 h3 { font-size: 14px; font-weight: 700; }
 .eyebrow { font-size: 11px; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
 .num { font-variant-numeric: tabular-nums; }
-a { color: var(--accent); }
+a { color: var(--accent); text-underline-offset: .18em; }
 html { accent-color: var(--accent); scrollbar-color: var(--line) transparent; }
 ::selection { background: var(--accent-soft); color: var(--fg); }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
-.wrap { grid-template-columns: minmax(0, 1fr); }
 .wrap > *, .panel > * { min-width: 0; }
-.panel { grid-template-columns: minmax(0, 1fr); }
-header { display: grid; gap: 10px; }
-.titlerow { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 16px; }
-.asof { font-size: 12.5px; font-weight: 600; color: var(--accent); background: var(--accent-soft); padding: 3px 9px; border-radius: 99px; white-space: nowrap; }
-.meta { color: var(--muted); max-width: 72ch; margin: 0; }
+.masthead { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px 24px; }
+.asof { font-size: 13px; font-weight: 500; color: var(--muted); background: var(--bg); padding: 7px 12px; border-radius: 8px; white-space: nowrap; }
+.meta { color: var(--muted); max-width: 72ch; margin: 8px 0 0; }
 .note { font-size: 12.5px; color: var(--muted); }
-.disclaimer { font-size: 12.5px; color: var(--warn); margin: 0; display: flex; gap: 6px; align-items: flex-start; }
-.disclaimer svg { margin-top: 2px; }
-.disclaimer svg { flex: none; }
-.pipe { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 4px; font-size: 13px; color: var(--muted); padding-block: 10px; border-block: 1px solid var(--line); }
+.disclaimer { color: var(--warn); margin: 0; }
+.pipe { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 4px; padding-block: 8px; }
 .pipe b { color: var(--fg); font-weight: 600; font-variant-numeric: tabular-nums; }
-.pipe .side { color: var(--muted); }
-.pipe svg { color: var(--line); flex: none; }
-.hl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; }
-.hl button { all: unset; box-sizing: border-box; cursor: pointer; display: grid; gap: 4px; align-content: start; padding: 12px 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; min-width: 0; transition: border-color .15s, box-shadow .15s; }
-.hl button:hover { border-color: var(--accent); box-shadow: 0 2px 10px -4px color-mix(in srgb, var(--accent) 35%, transparent); }
-.hl button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.pipe svg { flex: none; }
+.hl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-block: 1px solid var(--line); }
+.hl button { font: inherit; text-align: left; color: inherit; background: none; border: 0; cursor: pointer; display: grid; gap: 4px; padding: 12px 16px; min-width: 0; }
+.hl button + button { border-inline-start: 1px solid var(--line); }
+.hl button:hover { background: var(--bg); }
+.hl button:focus-visible { outline-offset: -2px; }
 .hl .k { font-size: 12px; color: var(--muted); }
-.hl .v { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
-.hl .v b { font-family: var(--display); font-size: 20px; font-weight: 700; }
+.hl .v { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; }
+.hl .v b { font-family: var(--display); font-size: 22px; line-height: 1.2; }
 .hl .n { font-size: 12px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.hl .basis-tag { font-size: 11px; color: var(--muted); }
-@media (max-width: 900px) { .hl { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); flex-wrap: wrap; }
-.tabs button { font: 600 13.5px var(--body); background: none; border: 0; border-bottom: 2px solid transparent; color: var(--muted); padding: 10px 12px; cursor: pointer; }
-.tabs button[aria-selected="true"] { color: var(--fg); border-color: var(--accent); }
-.tabs button:focus-visible, .controls :focus-visible, tr.row:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; }
-.controls label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
-.controls input, .controls select { font: 14px var(--body); color: var(--fg); background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; min-width: 0; }
-#q { width: 220px; max-width: 70vw; } #minret { width: 90px; }
-.panel { display: grid; gap: 12px; }
-.basis { font-size: 13px; color: var(--muted); max-width: 90ch; }
+.rankings { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; scroll-margin-top: 16px; }
+.rank-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; }
+.tabs, .change-tabs { display: flex; gap: 4px; flex-wrap: wrap; }
+.tabs button, .change-tabs button {
+  font: 600 13px var(--body); background: none; border: 0; border-radius: 8px; color: var(--muted);
+  min-height: 36px; padding: 8px 12px; cursor: pointer;
+}
+.tabs button:hover, .change-tabs button:hover { background: var(--bg); color: var(--fg); }
+.tabs button[aria-pressed="true"], .change-tabs button[aria-pressed="true"] { color: var(--accent); background: var(--accent-soft); }
+.controls { display: flex; flex-wrap: wrap; gap: 8px; }
+.search { position: relative; min-width: 0; }
+.controls input, .controls select {
+  font: 13px var(--body); color: var(--fg); background: var(--surface); border: 1px solid var(--line);
+  border-radius: 8px; min-height: 38px; padding: 8px 10px; max-width: 100%;
+}
+.controls :is(input, select):hover { background: var(--bg); }
+.controls input::placeholder { color: var(--muted); }
+.search svg { position: absolute; inset: 50% auto auto 11px; translate: 0 -50%; color: var(--muted); pointer-events: none; }
+#q { width: 190px; padding-left: 34px; }
+#sector { width: 145px; }
+#minret { width: 126px; }
+.panel { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.method { color: var(--muted); font-size: 12.5px; }
+.method summary { cursor: pointer; width: fit-content; padding: 4px 2px; }
+.method summary:hover { color: var(--accent); }
+.basis { color: var(--muted); max-width: 80ch; margin: 4px 0 8px; }
 .basis strong { color: var(--fg); }
-.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.sort-note { font-size: 12.5px; margin: 0; color: var(--muted); }
+.tablebox { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; }
 table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
-th, td { padding: 8px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
-th { font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; background: var(--sunk); position: sticky; top: 0; }
+th, td { padding: 10px 12px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+th { font-size: 12px; color: var(--muted); font-weight: 600; background: var(--bg); position: sticky; top: 0; }
+tbody tr:last-child td { border-bottom: 0; }
+thead th:first-child { padding-left: 16px; }
+tr > :last-child { padding-right: 16px; }
 th.l, td.l { text-align: left; }
 tr.row { cursor: pointer; }
-tr.row:hover td { background: var(--sunk); }
-tr.open td { background: var(--accent-soft); }
+tr.row:hover td { background: var(--bg); }
+tr.row:focus-visible { outline-offset: -2px; }
+tr.open td, tr.open:hover td { background: var(--accent-soft); }
 .co { display: grid; line-height: 1.25; min-width: 20ch; }
 .co b { font-weight: 600; }
 .co small { color: var(--muted); font-size: 12px; max-width: 26ch; overflow: hidden; text-overflow: ellipsis; }
@@ -97,9 +121,7 @@ tr.open td { background: var(--accent-soft); }
 .mix .lbl b { font-weight: 600; }
 .segs { display: flex; gap: 2px; }
 .segs i { flex: 1; height: 8px; border-radius: 2px; background: var(--sunk); }
-.pill { display: inline-block; white-space: nowrap; padding: 2px 7px; border-radius: 5px; font-weight: 600; }
-.pill.pos { background: color-mix(in srgb, var(--up) 14%, transparent); }
-.pill.neg { background: color-mix(in srgb, var(--down) 14%, transparent); }
+.pill { display: inline-block; white-space: nowrap; font-weight: 600; font-variant-numeric: tabular-nums; }
 th.sort { cursor: pointer; user-select: none; }
 th.sort:hover { color: var(--fg); }
 th.sort[aria-sort] { color: var(--accent); }
@@ -110,13 +132,14 @@ th.sort:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; 
 .act i { font-style: normal; width: 20px; height: 20px; border-radius: 5px; display: inline-grid; place-items: center; background: var(--sunk); color: var(--muted); }
 .act i.up { color: var(--up); background: color-mix(in srgb, var(--up) 12%, transparent); }
 .act i.dn { color: var(--down); background: color-mix(in srgb, var(--down) 12%, transparent); }
-.mlist { display: none; list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+.mlist { display: none; list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
 .mlist > li + li { border-top: 1px solid var(--line); }
 .mrow { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 22px minmax(0, 1fr) auto; gap: 2px 10px; align-items: center; padding: 12px 14px; }
 .mrow:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .mrow[aria-expanded="true"] { background: var(--accent-soft); }
 .mrow .rk { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
 .mrow .sub { grid-column: 2 / 4; display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--muted); }
+.mrow .co { min-width: 0; }
 .mrow .co small { max-width: none; }
 .mrow .sub > span:last-child { white-space: nowrap; }
 .mrow .sub .strip { width: 110px; }
@@ -127,73 +150,110 @@ th.sort:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; 
 .dgrid > *, .two > *, .mlist > li { min-width: 0; }
 .mdetail .two .kv { grid-template-columns: minmax(0, 1fr); }
 .mdetail .kv dt { margin-top: 6px; font-size: 12px; }
-@media (max-width: 720px) {
-  .tablebox.desk { display: none; }
-  .mlist { display: block; }
-  .controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-  .controls label:first-child { grid-column: 1 / -1; }
-  #q { width: 100%; max-width: none; } #minret { width: 100%; }
-}
 tr.divider td { background: var(--sunk); font-size: 11px; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); font-weight: 600; text-align: left; }
 details.wait { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
 details.wait summary { cursor: pointer; font-weight: 600; }
 .symlist { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
-.chg { display: grid; gap: 12px; }
+.chg { display: grid; gap: 8px; }
 .chg-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
-.chg-head p { margin: 0; color: var(--muted); font-size: 13px; }
-.chg-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 10px; align-items: start; }
-.blk { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; min-width: 0; }
-.blk h3 { display: flex; align-items: center; gap: 8px; padding: 10px 14px; border-bottom: 1px solid var(--line); }
-.blk h3 .chip { font-family: var(--body); }
+.chg-head p { margin: 0; color: var(--muted); font-size: 12.5px; }
+.change-tabs { gap: 2px; }
+.change-tabs span { margin-left: 4px; font-weight: 400; font-variant-numeric: tabular-nums; }
+.blk { background: var(--bg); border-radius: 14px; min-width: 0; overflow: hidden; }
 .blk ul { list-style: none; margin: 0; padding: 0; }
-.blk li + li { border-top: 1px solid var(--line); }
-.crow { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 52px minmax(0, 1fr) auto; gap: 2px 10px; align-items: center; padding: 8px 14px; font-size: 13px; }
+.blk li + li, .blk details { border-top: 1px solid var(--line); }
+.crow { all: unset; box-sizing: border-box; cursor: pointer; width: 100%; display: grid; grid-template-columns: 60px minmax(0, 1fr) auto; gap: 2px 12px; align-items: center; padding: 7px 16px; font-size: 13px; min-height: 34px; }
 .crow:hover { background: var(--sunk); }
 .crow:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
 .crow > b { font-weight: 600; }
 .crow .d { min-width: 0; color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .crow .d strong { color: var(--fg); font-weight: 500; }
 .crow .val { font-variant-numeric: tabular-nums; white-space: nowrap; }
-.blk details > summary { cursor: pointer; padding: 8px 14px; font-size: 12.5px; color: var(--accent); border-top: 1px solid var(--line); list-style: none; }
-.blk details > summary::-webkit-details-marker { display: none; }
-.blk details[open] > summary { display: none; }
+.blk details > summary { cursor: pointer; padding: 7px 16px; font-size: 12.5px; color: var(--accent); }
+.blk details > summary:focus-visible { outline-offset: -2px; }
+.blk details > summary:hover { background: var(--sunk); }
+.blk details[open] > summary { border-bottom: 1px solid var(--line); }
 .blk .none { padding: 10px 14px; font-size: 13px; color: var(--muted); margin: 0; }
-@media (max-width: 720px) { .crow .d { white-space: normal; } }
-footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; max-width: 95ch; }
+.foot { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+.foot summary { color: var(--fg); font-weight: 600; }
+#footer p, #snapshot-meta { margin: 0 0 8px; max-width: 80ch; }
 .empty { padding: 28px; text-align: center; color: var(--muted); }
-@media (max-width: 760px) { .cases, .two { grid-template-columns: minmax(0, 1fr); } .bar { width: 120px; } }
+@media (max-width: 900px) {
+  .wrap { padding-inline: max(20px, env(safe-area-inset-left, 0px)) max(20px, env(safe-area-inset-right, 0px)); }
+  .hl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hl button:nth-child(odd) { border-inline-start: 0; }
+  .hl button:nth-child(n+3) { border-top: 1px solid var(--line); }
+}
+@media (max-width: 720px) {
+  .wrap { padding-block: 26px 36px; gap: 22px; }
+  h1 { font-size: 30px; }
+  .asof { padding: 4px 8px; }
+  .hl button { padding: 9px 12px; gap: 2px; }
+  .hl .v b { font-size: 19px; }
+  .tablebox.desk { display: none; }
+  .mlist { display: block; }
+  .controls { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); width: 100%; }
+  .controls .search { grid-column: 1 / -1; }
+  #q, #sector, #minret { width: 100%; }
+  .controls input, .controls select { font-size: 16px; min-height: 44px; }
+  .tabs button, .change-tabs button, .crow, .blk summary { min-height: 44px; }
+  .tabs button, .change-tabs button { padding-inline: 8px; }
+  .change-tabs { flex-wrap: nowrap; overflow-x: auto; padding: 2px 2px 4px; }
+  .change-tabs button { flex: none; white-space: nowrap; }
+  .chg-head { display: grid; }
+  .crow { grid-template-columns: 52px minmax(0, 1fr) auto; padding-inline: 12px; gap: 2px 8px; }
+  .crow .d { white-space: normal; }
+  .cases, .two { grid-template-columns: minmax(0, 1fr); }
+  .bar { width: 120px; }
+}
+@media (max-width: 360px) {
+  .hl button { padding-inline: 10px; }
+  .mrow .sub { flex-wrap: wrap; }
+}
 @media (prefers-reduced-motion: no-preference) { tr.row td { transition: background .12s; } }
 </style>
+</head>
+<body>
 
-<div class="wrap">
-  <header>
-    <div class="titlerow"><h1>Stock Upside Weekly</h1><span class="asof" id="asof"></span></div>
-    <p class="meta" id="meta"></p>
-    <p class="disclaimer"><svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M8 4.5v4.2M8 10.8v.7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Research output, not investment advice. Figures come from public sources and model assumptions that can be wrong.</p>
+<main class="wrap">
+  <header class="masthead">
+    <div><h1>Stock Upside Weekly</h1><p class="meta" id="meta"></p></div>
+    <time class="asof" id="asof"></time>
   </header>
-
-  <section class="pipe" id="funnel" aria-label="Screen counts"></section>
 
   <section class="chg" id="changes" aria-labelledby="chg-title"></section>
 
   <section class="hl" id="highlights" aria-label="This week's highlights"></section>
 
-  <nav class="tabs" role="tablist">
-    <button role="tab" id="tab-valuation" data-view="valuation">Independent valuation</button>
-    <button role="tab" id="tab-consensus" data-view="consensus">Street consensus</button>
-    <button role="tab" id="tab-excluded" data-view="excluded">Below cutoff or unverified</button>
-  </nav>
+  <section class="rankings" aria-label="Stock rankings">
+    <div class="rank-toolbar">
+      <div class="tabs" role="group" aria-label="Ranking views">
+        <button type="button" data-view="valuation" aria-controls="view">Valuation</button>
+        <button type="button" data-view="consensus" aria-controls="view">Street consensus</button>
+        <button type="button" data-view="excluded" aria-controls="view">Excluded</button>
+      </div>
+      <div class="controls" role="group" aria-label="Ranking filters">
+        <div class="search">
+          <svg width="15" height="15" viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="m10.3 10.3 3.1 3.1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <input id="q" type="search" aria-label="Search stocks" placeholder="Ticker or company">
+        </div>
+        <select id="sector" aria-label="Sector"><option value="">All sectors</option></select>
+        <input id="minret" type="number" step="1" aria-label="Minimum return percent" placeholder="Min. return %">
+      </div>
+    </div>
+    <section class="panel" id="view" aria-label="Ranking results"></section>
+  </section>
 
-  <div class="controls">
-    <label for="q">Search<input id="q" type="search" placeholder="Ticker or company"></label>
-    <label for="sector">Sector<select id="sector"><option value="">All sectors</option></select></label>
-    <label for="minret" id="minret-label">Min. return %<input id="minret" type="number" step="1" placeholder="any"></label>
-  </div>
-
-  <section class="panel" id="view"></section>
-
-  <footer id="footer"></footer>
-</div>
+  <footer class="foot">
+    <details class="method">
+      <summary>Screen coverage and sources</summary>
+      <div class="pipe" id="funnel" aria-label="Screen counts"></div>
+      <p id="snapshot-meta"></p>
+      <div id="footer"></div>
+    </details>
+    <p class="disclaimer">Research output, not investment advice. Figures come from public sources and model assumptions that can be wrong.</p>
+  </footer>
+</main>
 
 <script id="data" type="application/json">__DATA__</script>
 <script>
@@ -202,8 +262,8 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   const D = JSON.parse(document.getElementById("data").textContent);
   const $ = (s, el) => (el || document).querySelector(s);
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const researchText = s => esc(s).replace(/(\d\+?)\s+pp\b/g, "$1%");
   const pct = (v, d = 1) => v == null ? '<span class="na">n/a</span>' : `<span class="${v >= 0 ? "pos" : "neg"}">${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(d)}%</span>`;
-  const pp = v => v == null ? '<span class="na">n/a</span>' : `${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(1)} pp`;
   const money = (v, cur) => v == null ? "n/a" : (cur && cur !== "USD" ? cur + " " : "$") + Number(v).toLocaleString("en-US", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
   const cap = c => { if (!c) return "n/a"; const m = (+c.low + +c.high) / 2; return m >= 1e12 ? "$" + (m / 1e12).toFixed(2) + "T" : "$" + (m / 1e9).toFixed(0) + "B"; };
   const capRange = c => c ? `$${(c.low / 1e9).toFixed(1)}B – $${(c.high / 1e9).toFixed(1)}B` : "n/a";
@@ -211,9 +271,10 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   const iss = Object.fromEntries(D.issuers.map(r => [r.symbol, r]));
   const C = D.counts;
 
-  $("#asof").textContent = "Closes of " + day(D.reference_session);
-  $("#meta").innerHTML = `12-month price upside for ${esc(D.universe.replace(/^US-listed equities \(NYSE, Nasdaq, NYSE American\)/, "US-listed stocks"))}. ` +
-    `Market data fetched ${day(D.fetched_at)}, page built ${day(D.built_at)}. Updated every Saturday.`;
+  $("#asof").dateTime = D.reference_session;
+  $("#asof").textContent = "Market close · " + day(D.reference_session);
+  $("#meta").textContent = "12-month price upside for US-listed stocks above $" + D.cutoff_usd / 1e9 + "B.";
+  $("#snapshot-meta").textContent = `${D.universe}. Market data fetched ${day(D.fetched_at)}, page built ${day(D.built_at)}. Updated every Saturday.`;
 
   const ICON = {
     up: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 10V2.5M2.5 6 6 2.5 9.5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
@@ -224,50 +285,48 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   };
   const step = (n, label) => `<span><b>${n}</b> ${label}</span>`;
   $("#funnel").innerHTML = [step(C.listings_checked, "listings screened"), ICON.chev, step(C.issuers, "issuers"), ICON.chev,
-    step(C.eligible, "above $50B") + ` <span class="side">(${C.below_cutoff} below, ${C.unverified} unverified)</span>`, ICON.chev,
+    step(C.eligible, "above $50B") + ` <span>(${C.below_cutoff} below, ${C.unverified} unverified)</span>`, ICON.chev,
     step(C.rank_valued, "valued in depth"), ICON.chev, step(C.rank_with_named_targets, "with named-analyst targets")].join("");
 
-  // Highlights: each card names its basis, so the two rankings never blur together.
+  // Each highlight label names the basis for its return.
   function highlights() {
     const R = D.ranked, elig = D.issuers.filter(r => r.status === "eligible" && r.aggregate.upside_pct != null);
     const cards = [];
     if (R.length) {
       const top = R[0], low = R[R.length - 1];
-      cards.push({ k: "Highest base case", sym: top.symbol, v: top.scenarios_pct.base, tag: "Our valuation", view: "valuation" });
-      cards.push({ k: "Weakest base case", sym: low.symbol, v: low.scenarios_pct.base, tag: "Our valuation", view: "valuation" });
+      cards.push({ k: "Highest base case", sym: top.symbol, v: top.scenarios_pct.base, view: "valuation" });
+      cards.push({ k: "Lowest base case", sym: low.symbol, v: low.scenarios_pct.base, view: "valuation" });
       const gaps = R.map(r => ({ r, g: (iss[r.symbol].aggregate.upside_pct ?? null) })).filter(x => x.g != null)
         .map(x => ({ sym: x.r.symbol, gap: x.g - x.r.scenarios_pct.base })).sort((a, b) => b.gap - a.gap);
-      if (gaps.length) cards.push({ k: "Street most above our base", sym: gaps[0].sym, v: gaps[0].gap, pp: true, tag: "Aggregate minus base", view: "valuation" });
+      if (gaps.length) cards.push({ k: "Largest Street premium to base", sym: gaps[0].sym, v: gaps[0].gap, view: "valuation" });
     }
     if (elig.length) {
       const fav = elig.slice().sort((a, b) => b.aggregate.upside_pct - a.aggregate.upside_pct)[0];
-      cards.push({ k: "Street's highest upside", sym: fav.symbol, v: fav.aggregate.upside_pct, tag: "Provider aggregate", view: "consensus" });
+      cards.push({ k: "Highest Street upside", sym: fav.symbol, v: fav.aggregate.upside_pct, view: "consensus" });
     }
     $("#highlights").innerHTML = cards.map((c, i) => `<button type="button" data-i="${i}">
-      <span class="k">${c.k}</span><span class="v"><b>${esc(c.sym)}</b>${c.pp ? `<span class="pill ${c.v >= 0 ? "pos" : "neg"}">${c.v >= 0 ? "+" : "−"}${Math.abs(c.v).toFixed(1)} pp</span>` : pill(c.v)}</span>
-      <span class="n">${esc((iss[c.sym] || {}).name)}</span><span class="basis-tag">${c.tag}</span></button>`).join("");
+      <span class="k">${c.k}</span><span class="v"><b>${esc(c.sym)}</b>${pill(c.v)}</span>
+      <span class="n">${esc((iss[c.sym] || {}).name)}</span></button>`).join("");
     $("#highlights").hidden = !cards.length;
-    $("#highlights").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; const c = cards[+b.dataset.i];
-      view = c.view; open = c.view === "valuation" ? c.sym : null; $("#q").value = c.view === "consensus" ? c.sym : "";
-      history.replaceState(null, "", "#" + view); render(); const t = document.querySelector(".tabs"); if (t) t.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); });
+    $("#highlights").addEventListener("click", e => {
+      const button = e.target.closest("button");
+      if (!button) return;
+      const card = cards[+button.dataset.i];
+      showStock(card.sym, card.view);
+    });
   }
 
   // What changed: the weekly visit leads with movement since the previous snapshot.
   function whatChanged() {
     const X = D.changes; if (!X) { $("#changes").hidden = true; return; }
-    const first = !X.previous_session, rows = [];
+    const first = !X.previous_session, blocks = [];
     const go = (sym, tab) => `data-sym="${esc(sym)}" data-tab="${tab}"`;
     const st = v => esc(String(v).replace("below_cutoff", "below $50B").replace("eligible", "above $50B"));
     const rec = v => esc(String(v || "n/a").replace(/_/g, " "));
     const inRank = s => D.ranked.some(r => r.symbol === s);
     const tgt = (v, s) => v == null ? "" : money(v >= 100 ? Math.round(v) : v, (iss[s] || {}).currency).replace(/\.00$/, "");
-    const block = (title, items, line, empty) => {
-      const n = items.length, head = `<h3>${title}<span class="chip">${n}</span></h3>`;
-      if (!n) return `<div class="blk">${head}<p class="none">${empty}</p></div>`;
-      const li = items.map(line).map(h => `<li>${h}</li>`);
-      const more = li.length > 6 ? `<details><summary>Show ${li.length - 6} more</summary><ul>${li.slice(6).join("")}</ul></details>` : "";
-      return `<div class="blk">${head}<ul>${li.slice(0, 6).join("")}</ul>${more}</div>`;
-    };
+    const block = (title, items, line, empty) => blocks.push({ title, items, line, empty });
+    const previewSize = 3;
     const call = c => {
       const parts = [];
       if (c.target != null) {
@@ -280,25 +339,46 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
       return `<button type="button" class="crow" ${go(c.symbol, "valuation")} title="${esc(c.firm)} · ${esc(c.analyst)} · ${day(c.issued_at)}${c.horizon_months === 12 ? " · 12-month horizon, counts in the weighted target" : " · horizon not documented, excluded from the weighted target"}">
         <b>${esc(c.symbol)}</b><span class="d">${esc(c.firm)}: ${parts.join(", ")}</span><span class="val">${v}</span></button>`;
     };
-    const blocks = [];
-    if (!first) blocks.push(block("Base-case moves", X.base_moves, m => `<button type="button" class="crow" ${go(m.symbol, "valuation")}>
+    if (!first) block("Base-case moves", X.base_moves, m => `<button type="button" class="crow" ${go(m.symbol, "valuation")}>
         <b>${esc(m.symbol)}</b><span class="d">${pct(m.prev_base)} &rarr; <strong>${pct(m.base)}</strong> &middot; ${m.re_researched ? "re-researched" : "price " + (m.price_change_pct >= 0 ? "+" : "−") + Math.abs(m.price_change_pct).toFixed(1) + "%"}</span>
-        <span class="val"><span class="pill ${m.delta_pp >= 0 ? "pos" : "neg"}">${pp(m.delta_pp)}</span></span></button>`, "No base case moved."));
-    blocks.push(block("Analyst calls", X.analyst_calls, call, "No named-analyst actions on researched names this week."));
-    if (!first) blocks.push(block("Street target changes", X.street_moves, m => `<button type="button" class="crow" ${go(m.symbol, "consensus")}>
+        <span class="val">${pill(m.delta_pp)}</span></button>`, "No base case moved.");
+    block("Analyst calls", X.analyst_calls, call, "No named-analyst actions on researched names this week.");
+    if (!first) block("Street targets", X.street_moves, m => `<button type="button" class="crow" ${go(m.symbol, "consensus")}>
         <b>${esc(m.symbol)}</b><span class="d">mean ${tgt(m.prev_mean, m.symbol)} &rarr; <strong>${tgt(m.mean, m.symbol)}</strong>${m.recommendation !== m.prev_recommendation ? " &middot; " + rec(m.prev_recommendation) + " &rarr; <strong>" + rec(m.recommendation) + "</strong>" : ""}</span>
-        <span class="val">${pill(m.target_change_pct)}</span></button>`, "No provider mean target moved 2% or more."));
-    if (!first) blocks.push(block("Crossed the $50B line", X.crossings, m => `<button type="button" class="crow" ${go(m.symbol, m.status === "eligible" ? "consensus" : "excluded")} title="${esc(m.name || "")}">
+        <span class="val">${pill(m.target_change_pct)}</span></button>`, "No provider mean target moved 2% or more.");
+    if (!first) block("$50B crossings", X.crossings, m => `<button type="button" class="crow" ${go(m.symbol, m.status === "eligible" ? "consensus" : "excluded")} title="${esc(m.name || "")}">
         <b>${esc(m.symbol)}</b><span class="d">${st(m.prev_status)} &rarr; <strong>${st(m.status)}</strong></span>
-        <span class="val num">${cap(m.market_cap_usd)}</span></button>`, "No name entered or left the universe."));
-    blocks.push(block(first ? "Researched this run" : "Research added", X.research, r => `<button type="button" class="crow" ${go(r.symbol, inRank(r.symbol) ? "valuation" : "consensus")}>
-        <b>${esc(r.symbol)}</b><span class="d">${esc((iss[r.symbol] || {}).name || "")}</span><span class="val"><span class="chip ${r.kind === "new" ? "acc" : ""}">${r.kind}</span></span></button>`, "No new research this week."));
+        <span class="val num">${cap(m.market_cap_usd)}</span></button>`, "No name entered or left the universe.");
+    block(first ? "Researched this run" : "Research added", X.research, r => `<button type="button" class="crow" ${go(r.symbol, inRank(r.symbol) ? "valuation" : "consensus")}>
+        <b>${esc(r.symbol)}</b><span class="d">${esc((iss[r.symbol] || {}).name || "")}</span><span class="val"><span class="chip ${r.kind === "new" ? "acc" : ""}">${r.kind}</span></span></button>`, "No new research this week.");
+    const active = Math.max(0, blocks.findIndex(group => group.items.length));
+    const tabs = blocks.map(({ title, items }, i) => `<button type="button" data-change="${i}" aria-controls="change-${i}" aria-pressed="${i === active}">${title} <span>${items.length}</span></button>`);
+    const panels = blocks.map(({ items, line, empty }, i) => {
+      const entries = items.map(item => `<li>${line(item)}</li>`);
+      const more = entries.length > previewSize
+        ? `<details><summary>Show ${entries.length - previewSize} more</summary><ul>${entries.slice(previewSize).join("")}</ul></details>`
+        : "";
+      const content = entries.length ? `<ul>${entries.slice(0, previewSize).join("")}</ul>${more}` : `<p class="none">${empty}</p>`;
+      return `<div class="blk" id="change-${i}" ${i !== active ? "hidden" : ""}>${content}</div>`;
+    });
     $("#changes").innerHTML = `<div class="chg-head"><h2 id="chg-title">Since last week</h2><p>${first
       ? `First snapshot. Week-over-week moves start with next Saturday's run; analyst calls since ${day(X.window_start)} are shown now.`
-      : `Closes of ${day(X.previous_session)} &rarr; ${day(D.reference_session)}.`}</p></div><div class="chg-grid">${blocks.join("")}</div>`;
-    $("#changes").addEventListener("click", e => { const b = e.target.closest(".crow"); if (!b) return;
-      view = b.dataset.tab; open = view === "valuation" && inRank(b.dataset.sym) ? b.dataset.sym : null; $("#q").value = open ? "" : b.dataset.sym;
-      history.replaceState(null, "", "#" + view); render(); const t = document.querySelector(".tabs"); if (t) t.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); });
+      : `${day(X.previous_session)} &rarr; ${day(D.reference_session)}`}</p></div>
+      <div class="change-tabs" role="group" aria-label="Weekly update categories">${tabs.join("")}</div>${panels.join("")}`;
+
+    $("#changes").addEventListener("click", e => {
+      const button = e.target.closest("button");
+      if (!button) return;
+      if (button.dataset.change == null) {
+        showStock(button.dataset.sym, button.dataset.tab);
+        return;
+      }
+      $("#changes").querySelectorAll("[data-change]").forEach(tab => {
+        const selected = tab === button;
+        tab.setAttribute("aria-pressed", String(selected));
+        $("#" + tab.getAttribute("aria-controls")).hidden = !selected;
+      });
+    });
   }
 
   const sectors = [...new Set(D.issuers.map(r => r.sector).filter(Boolean))].sort();
@@ -316,6 +396,21 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
     return true;
   }
 
+  function showStock(sym, nextView) {
+    view = nextView;
+    const ranked = D.ranked.find(r => r.symbol === sym);
+    open = view === "valuation" && ranked ? sym : null;
+    $("#q").value = sym;
+    const issuer = iss[sym];
+    if ($("#sector").value !== issuer?.sector) $("#sector").value = "";
+    const ret = view === "valuation" ? ranked?.scenarios_pct.base : issuer?.aggregate.upside_pct;
+    if (view !== "excluded" && $("#minret").value !== "" && (ret == null || ret < +$("#minret").value)) $("#minret").value = "";
+    history.replaceState(null, "", "#" + view);
+    render();
+    $(".tabs [aria-pressed='true']").focus({ preventScroll: true });
+    $(".rankings").scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth" });
+  }
+
   // Scenario bar: one shared scale for every row, so bars compare across names.
   const LO = -60, HI = 100;
   function bar(s) {
@@ -328,6 +423,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   }
 
   const pill = v => v == null ? '<span class="na">n/a</span>' : `<span class="pill ${v >= 0 ? "pos" : "neg"}">${v >= 0 ? "+" : "−"}${Math.abs(v).toFixed(1)}%</span>`;
+  const basis = content => `<details class="method"><summary>How to read this ranking</summary><p class="basis">${content}</p></details>`;
 
   // Price-target strip: low–high range, average target and today's close on one line.
   function strip(lo, hi, avg, close, wide) {
@@ -405,11 +501,11 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
       bear: r => r.scenarios_pct.bear, bull: r => r.scenarios_pct.bull, an: r => r.analyst_upside_pct, gap: r => r.analyst_minus_base_pp,
       date: r => (D.details[r.symbol] || {}).researched_at });
     const waiting = D.omitted.filter(o => o.reason === "independent valuation unavailable");
-    let h = `<p class="basis"><strong>Sorted by independent base-case 12-month price return</strong>, built from filings and stated operating assumptions. ` +
-      `Analyst column is the 90-day half-life weighted target of the named analysts found (a sample, not full Street consensus). Gap = analyst upside minus base case. ` +
-      `Returns are measured from this week's close; each name's research date is shown. About 15 names are researched in depth each week.</p>`;
-    if (sorts.valuation.key !== "base") h += `<p class="basis">Re-sorted by the column you picked. # still shows the rank by base-case return.</p>`;
-    h += `<div class="tablebox desk"><table><thead><tr>${th("valuation", "rank", "#")}${th("valuation", "co", "Company", "l")}<th>Close</th>${th("valuation", "cap", "Mkt cap")}<th class="l">Bear · base · bull (−60% to +100%)</th>` +
+    let h = basis(`<strong>Default order is independent base-case 12-month price return.</strong> Cases use filings and stated operating assumptions. ` +
+      `The analyst column uses a 90-day half-life to weight documented 12-month targets from the named sample. Gap is analyst upside minus base case. ` +
+      `Returns use this week's close. The scenario chart spans −60% to +100%. Each row shows its research date.`);
+    if (sorts.valuation.key !== "base") h += `<p class="sort-note"># shows the original rank by base-case return.</p>`;
+    h += `<div class="tablebox desk"><table><thead><tr>${th("valuation", "rank", "#")}${th("valuation", "co", "Company", "l")}<th>Close</th>${th("valuation", "cap", "Mkt cap")}<th class="l">Scenario range</th>` +
       `${th("valuation", "base", "Base")}${th("valuation", "bear", "Bear")}${th("valuation", "bull", "Bull")}${th("valuation", "an", "Analyst wtd")}${th("valuation", "gap", "Gap")}${th("valuation", "date", "Researched", "l")}</tr></thead><tbody>`;
     if (!rows.length) h += `<tr><td colspan="11" class="empty">${D.ranked.length ? "No researched names match these filters." : "No names have deep research yet. The first batch arrives with the next weekly run."}</td></tr>`;
     rows.forEach(r => {
@@ -417,7 +513,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
       h += `<tr class="row${isOpen ? " open" : ""}" tabindex="0" data-sym="${esc(r.symbol)}" aria-expanded="${isOpen}">
         <td>${rankOf[r.symbol]}</td><td class="l">${name(r.symbol)}</td><td>${money(r.close)}</td><td>${cap(r.market_cap_usd)}</td>
         <td class="l">${bar(r.scenarios_pct)}</td><td>${pill(r.scenarios_pct.base)}</td><td>${pct(r.scenarios_pct.bear)}</td><td>${pct(r.scenarios_pct.bull)}</td>
-        <td>${pct(r.analyst_upside_pct)} <span class="chip">${r.target_count} named</span></td><td>${pp(r.analyst_minus_base_pp)}</td>
+        <td>${pct(r.analyst_upside_pct)} <span class="chip">${r.target_count} named</span></td><td>${pct(r.analyst_minus_base_pp)}</td>
         <td class="l">${day(d.researched_at)}${stale(d.researched_at) ? ' <span class="chip warn">stale</span>' : ""}</td></tr>`;
       if (isOpen) h += `<tr class="detail"><td colspan="11">${detail(r, d)}</td></tr>`;
     });
@@ -448,7 +544,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
       <div class="cases">${caseCard("bear")}${caseCard("base")}${caseCard("bull")}</div>
       <div class="two">
         <dl class="kv">${d.split_adjusted ? `<dt>Split</dt><dd><span class="chip warn">adjusted</span> ${esc(d.split_adjusted.note)}</dd>` : ""}<dt>Method</dt><dd>${esc(v.method)}</dd><dt>Close implies</dt><dd>${esc(v.implied_by_close)}</dd>
-          <dt>Sensitivity</dt><dd>${esc(v.sensitivity)}</dd><dt>Watch</dt><dd>${esc(v.watch_metric)}</dd><dt>Next disclosure</dt><dd>${esc(v.next_disclosure)}</dd>
+          <dt>Sensitivity</dt><dd>${researchText(v.sensitivity)}</dd><dt>Watch</dt><dd>${researchText(v.watch_metric)}</dd><dt>Next disclosure</dt><dd>${esc(v.next_disclosure)}</dd>
           ${d.dividend_per_share != null ? `<dt>Dividends</dt><dd>${money(d.dividend_per_share)} expected; base total return ${pct(r.base_total_return_pct)}</dd>` : ""}
           <dt>Research close</dt><dd>${d.research_close ? money(d.research_close.close) + " on " + day(d.research_close.close_date) : "n/a"}</dd></dl>
         <dl class="kv"><dt>Coverage</dt><dd><span class="chip acc">${esc(d.coverage)}</span> named analysts found, not full Street</dd>
@@ -459,7 +555,7 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
           <dt>Since earnings</dt><dd>${t.post_earnings != null ? t.post_earnings + " of " + t.count + " targets updated after " + day(d.earnings_at) : "earnings date not recorded"}</dd>
           <dt>Half-life check</dt><dd>45d ${pct(se["45"] && se["45"].upside_pct)} · 90d ${pct(se["90"] && se["90"].upside_pct)} · 180d ${pct(se["180"] && se["180"].upside_pct)}</dd></dl>
       </div>
-      ${d.analyst_notes ? `<p style="margin:0;max-width:80ch">${esc(d.analyst_notes)}</p>` : ""}
+      ${d.analyst_notes ? `<p style="margin:0;max-width:80ch">${researchText(d.analyst_notes)}</p>` : ""}
       <div><h3 style="margin-bottom:8px">Analyst timeline</h3><div class="hist">${timeline(d)}</div></div>
       <div><h3 style="margin-bottom:6px">Sources</h3><ol class="srcs">${(d.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || s.url)}</a>${s.supports ? ` <span class="note">· ${esc(s.supports)}</span>` : ""}</li>`).join("")}</ol></div>
     </div>`;
@@ -471,9 +567,9 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
     const rows = order(elig.filter(r => match(r.symbol, r.aggregate.upside_pct)), "consensus", {
       rank: r => -aggRank[r.symbol], co: r => r.symbol, sector: r => r.sector || "", cap: r => +r.market_cap_usd.low,
       agg: r => r.aggregate.upside_pct, n: r => r.aggregate.analysts });
-    let h = `<p class="basis"><strong>Sorted by provider aggregate upside</strong>: the mean analyst target published by Yahoo Finance, measured against the ${day(D.reference_session)} close and fetched ${day(D.fetched_at)}. ` +
-      `This is a separate ranking from the independent valuation and is never merged with it. Provider counts, collection windows and target dates are not disclosed per analyst.</p>`;
-    if (sorts.consensus.key !== "agg") h += `<p class="basis">Re-sorted by the column you picked. # still shows the rank by aggregate upside.</p>`;
+    let h = basis(`<strong>Default order is provider aggregate upside.</strong> Upside compares the mean analyst target published by Yahoo Finance with the ${day(D.reference_session)} close. ` +
+      `Targets were fetched ${day(D.fetched_at)}. Yahoo Finance does not disclose individual analyst contributions, collection windows or target dates.`);
+    if (sorts.consensus.key !== "agg") h += `<p class="sort-note"># shows the original rank by aggregate upside.</p>`;
     h += `<div class="tablebox desk"><table><thead><tr>${th("consensus", "rank", "#")}${th("consensus", "co", "Company", "l")}${th("consensus", "sector", "Sector", "l")}<th>Close</th>${th("consensus", "cap", "Mkt cap")}<th>Mean target</th>${th("consensus", "agg", "Aggregate upside")}<th class="l">Low · mean ○ · close | · high</th>${th("consensus", "n", "Analysts")}<th class="l">Rating</th><th class="l">Deep research</th></tr></thead><tbody>`;
     if (!rows.length) h += `<tr><td colspan="11" class="empty">No names match these filters.</td></tr>`;
     rows.forEach(r => {
@@ -491,9 +587,9 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   function excluded() {
     const rows = D.issuers.filter(r => r.status !== "eligible").filter(r => match(r.symbol, null))
       .sort((a, b) => (a.status > b.status ? -1 : a.status < b.status ? 1 : b.market_cap_usd.high - a.market_cap_usd.high));
-    let h = `<p class="basis">Issuers whose market cap is not verifiably <strong>above $50B</strong> at the reference close. The cap interval is close × shares outstanding, widened to include the screener's figure, ±2% for share-count lag. ` +
-      `If the interval straddles $50B the name is marked unverified rather than guessed.</p>`;
-    h += `<div class="tablebox"><table><thead><tr><th class="l">Company</th><th class="l">Status</th><th>Close</th><th>Cap interval</th><th class="l">Sector</th></tr></thead><tbody>`;
+    let h = `<details class="method"><summary>How exclusions work</summary><p class="basis">Eligible issuers need verified market caps above $50B at the reference close. ` +
+      `The cap interval is close × shares outstanding, widened to include the screener's figure, ±2% for share-count lag. An interval that straddles $50B is marked unverified.</p></details>`;
+    h += `<div class="tablebox" tabindex="0" role="region" aria-label="Excluded stocks table"><table><thead><tr><th class="l">Company</th><th class="l">Status</th><th>Close</th><th>Cap interval</th><th class="l">Sector</th></tr></thead><tbody>`;
     if (!rows.length) h += `<tr><td colspan="5" class="empty">No names match these filters.</td></tr>`;
     rows.forEach(r => { h += `<tr><td class="l">${name(r.symbol)}</td><td class="l"><span class="chip ${r.status === "unverified" ? "warn" : ""}">${r.status === "unverified" ? "unverified" : "below $50B"}</span></td>
       <td>${money(r.close)}</td><td>${capRange(r.market_cap_usd)}</td><td class="l">${esc(r.sector)}</td></tr>`; });
@@ -501,12 +597,13 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   }
 
   function render() {
-    document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.view === view)));
-    $("#tab-valuation").textContent = `Independent valuation (${D.ranked.length})`;
-    $("#tab-consensus").textContent = `Street consensus (${C.eligible})`;
-    $("#tab-excluded").textContent = `Below cutoff or unverified (${C.below_cutoff + C.unverified})`;
-    $("#minret-label").hidden = view === "excluded";
-    $("#view").innerHTML = view === "valuation" ? valuation() : view === "consensus" ? consensus() : excluded();
+    document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.view === view)));
+    $("#minret").hidden = view === "excluded";
+    const panel = $("#view");
+    const methodOpen = panel.dataset.view === view && $(".method", panel)?.open;
+    panel.dataset.view = view;
+    panel.innerHTML = view === "valuation" ? valuation() : view === "consensus" ? consensus() : excluded();
+    if (methodOpen) $(".method", panel).open = true;
     fitDetail();
   }
 
@@ -526,7 +623,15 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   const resort = e => { const h = e.target.closest("th.sort"); if (!h) return false;
     const s = sorts[h.dataset.tab]; if (s.key === h.dataset.key) s.dir *= -1; else { s.key = h.dataset.key; s.dir = ["co", "sector"].includes(s.key) ? 1 : -1; }
     render(); const again = document.querySelector(`th.sort[data-key="${h.dataset.key}"]`); if (again) again.focus(); return true; };
-  const toggle = e => { if (resort(e)) return; const tr = e.target.closest("tr.row, button.mrow"); if (!tr || e.target.closest("a")) return; open = open === tr.dataset.sym ? null : tr.dataset.sym; render(); };
+  const toggle = e => {
+    if (resort(e)) return;
+    const row = e.target.closest("tr.row, button.mrow");
+    if (!row || e.target.closest("a")) return;
+    open = open === row.dataset.sym ? null : row.dataset.sym;
+    render();
+    const selector = row.matches(".mrow") ? "button.mrow" : "tr.row";
+    $(`${selector}[data-sym="${CSS.escape(row.dataset.sym)}"]`)?.focus({ preventScroll: true });
+  };
   $("#view").addEventListener("click", toggle);
   $("#view").addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { if (e.target.closest("tr.row, th.sort")) { e.preventDefault(); toggle(e); } /* buttons get Enter/Space natively */ } });
   ["q", "sector", "minret"].forEach(id => $("#" + id).addEventListener("input", render));
@@ -543,3 +648,5 @@ footer { display: grid; gap: 8px; font-size: 12.5px; color: var(--muted); border
   render();
 })();
 </script>
+</body>
+</html>

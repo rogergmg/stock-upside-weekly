@@ -1,0 +1,14 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-11-23T16:25:50.849Z",
+        "reason": "Codex: DESIGN.md specifies Inter as the dashboard body font, and the committed template used it before the redesign."
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "issuer_id": "MetLife, Inc.",
+  "symbol": "MET",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 102.65,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-04T16:15:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Yaron Kinar",
+      "firm": "Mizuho Securities",
+      "field": "target",
+      "value": 117,
+      "source_prior": 112,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tradingview.com/symbols/NYSE-MET/forecast/"
+    },
+    {
+      "analyst": "Yaron Kinar",
+      "firm": "Mizuho Securities",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.tradingview.com/symbols/NYSE-MET/forecast/"
+    },
+    {
+      "analyst": "Ryan Krueger",
+      "firm": "KBW",
+      "field": "target",
+      "value": 111,
+      "source_prior": 108,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/met/forecast/"
+    },
+    {
+      "analyst": "Paul Newsome",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 115,
+      "source_prior": 110,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/MET/forecast/"
+    },
+    {
+      "analyst": "Paul Newsome",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/MET/forecast/"
+    },
+    {
+      "analyst": "Andrew Kligerman",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 114,
+      "source_prior": 110,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/met/forecast/"
+    },
+    {
+      "analyst": "Andrew Kligerman",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/met/forecast/"
+    },
+    {
+      "analyst": "Alex Scott",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 111,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/MET/forecast/"
+    },
+    {
+      "analyst": "Alex Scott",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/MET/forecast/"
+    },
+    {
+      "analyst": "Thomas Gallagher",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 96,
+      "source_prior": 95,
+      "issued_at": "2026-04-15",
+      "public_at": "2026-04-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/news/metlife-met-analyst-updates"
+    },
+    {
+      "analyst": "Thomas Gallagher",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "In-Line",
+      "bucket": "Hold",
+      "issued_at": "2026-04-15",
+      "public_at": "2026-04-15T23:59:59-04:00",
+      "source": "https://www.gurufocus.com/news/metlife-met-analyst-updates"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date, cross-checked against Adjusted BVPS of $59.41 and Q3 2026 adjusted ROE of 19.2%)",
+    "bear": 87.13,
+    "base": 111.80,
+    "bull": 129.80,
+    "cases": {
+      "bear": {
+        "driver": "Higher credit losses or spread compression in the General Account and slower pension risk transfer (PRT) volume",
+        "assumption": "FY2027 adjusted EPS $10.25 at 8.5x P/E",
+        "target": 87.13
+      },
+      "base": {
+        "driver": "Steady ~9% adjusted EPS growth driven by U.S. group benefits, PRT tailwinds, and ongoing share repurchases",
+        "assumption": "FY2027 adjusted EPS $11.18 at 10.0x P/E",
+        "target": 111.80
+      },
+      "bull": {
+        "driver": "Stronger-than-expected variable investment income, accelerating capital-light fee growth, and multiple expansion",
+        "assumption": "FY2027 adjusted EPS $11.80 at 11.0x P/E",
+        "target": 129.80
+      }
+    },
+    "implied_by_close": "At base FY2027 adjusted EPS of $11.18, the $102.65 close implies 9.18x; the ~$113.53 consensus target implies 10.15x (or $11.35 EPS at 10.0x).",
+    "sensitivity": "One turn of P/E moves the base target by $11.18 (10.9 pp).",
+    "watch_metric": "Adjusted ROE (19.2% in Q3 2026) and U.S. Group Benefits / Retirement & Income Solutions adjusted earnings",
+    "next_disclosure": "Q4 2026 earnings release (expected early February 2027)"
+  },
+  "dividend_per_share": 2.37,
+  "analyst_notes": "Following MetLife's record Q3 2026 adjusted EPS ($2.78 reported, $2.85 ex-notables) on November 4, 2026, Mizuho, KBW, and Piper Sandler all raised price targets into the $111-$117 range. The base case ($111.80, +8.9% upside) sits close to the $111-$117 post-earnings target cluster, while Evercore ISI's older $96 In-Line target from April 2026 remains the lone Hold/cautious outlier.",
+  "sources": [
+    {
+      "label": "MetLife Q3 2026 Earnings Release",
+      "url": "https://www.businesswire.com/news/home/20261104000001/en/MetLife-Announces-Third-Quarter-2026-Results",
+      "supports": "Q3 2026 adjusted EPS ($2.78 / $2.85 ex-notables), BVPS ($30.73), adjusted BVPS ($59.41), adjusted ROE (19.2%)"
+    },
+    {
+      "label": "MetLife Investor Relations - Dividend History",
+      "url": "https://investor.metlife.com/stock-information/dividend-history/default.aspx",
+      "supports": "Quarterly common dividend of $0.5925 per share ($2.37 annualized)"
+    },
+    {
+      "label": "StockAnalysis MET Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/met/forecast/",
+      "supports": "KBW ($111) and TD Cowen ($114) dated analyst price targets and ratings"
+    },
+    {
+      "label": "MarketBeat MET Analyst Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/MET/forecast/",
+      "supports": "Piper Sandler ($115) and Barclays ($111) analyst price targets and ratings"
+    }
+  ]
+}

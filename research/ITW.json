@@ -1,0 +1,196 @@
+{
+  "issuer_id": "Illinois Tool Works Inc.",
+  "symbol": "ITW",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 287.52,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-27T08:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "David Raso",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 317,
+      "source_prior": 309,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/itw/forecast/"
+    },
+    {
+      "analyst": "David Raso",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Underperform",
+      "bucket": "Sell",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/itw/forecast/"
+    },
+    {
+      "analyst": "Andrew Kaplowitz",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 310,
+      "source_prior": 317,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/ITW/analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Kaplowitz",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/ITW/analyst-ratings"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 293,
+      "source_prior": 297,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/ITW/analyst-ratings"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/ITW/analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Obin",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 300,
+      "source_prior": null,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/itw/forecast/"
+    },
+    {
+      "analyst": "Andrew Obin",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/itw/forecast/"
+    },
+    {
+      "analyst": "Joe Ritchie",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 270,
+      "source_prior": 267,
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/itw/forecast/"
+    },
+    {
+      "analyst": "Joe Ritchie",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Sell",
+      "bucket": "Sell",
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/itw/forecast/"
+    },
+    {
+      "analyst": "Julian Mitchell",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 277,
+      "source_prior": 350,
+      "issued_at": "2026-10-09",
+      "public_at": "2026-10-09T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/ITW/analyst-ratings"
+    },
+    {
+      "analyst": "Julian Mitchell",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-09",
+      "public_at": "2026-10-09T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/ITW/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E GAAP EPS viewed at the 12-month target date of November 2027, anchored to FY2026E guidance midpoint of $11.50)",
+    "bear": 253.0,
+    "base": 300.0,
+    "bull": 351.0,
+    "cases": {
+      "bear": {
+        "driver": "Flat industrial demand and margin compression offset enterprise initiatives",
+        "assumption": "FY2027E EPS $11.50 (flat vs FY2026E midpoint) at 22.0x P/E",
+        "target": 253.0
+      },
+      "base": {
+        "driver": "3%-4% organic growth, 27%+ operating margin, and ongoing share buybacks",
+        "assumption": "FY2027E EPS $12.50 (+8.7% YoY) at 24.0x P/E",
+        "target": 300.0
+      },
+      "bull": {
+        "driver": "Capex-driven acceleration in Test & Measurement and Welding with 28%+ operating margin",
+        "assumption": "FY2027E EPS $13.50 (+17.4% YoY) at 26.0x P/E",
+        "target": 351.0
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $12.50, the $287.52 close implies 23.0x forward P/E; at 24.0x, the close implies $11.98 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $12.50 (4.3 pp of price return).",
+    "watch_metric": "Organic revenue growth (3%-4% FY2026 guidance) and operating margin (26.5%-27.5% FY2026 guidance)",
+    "next_disclosure": "Q4 2026 earnings release (estimated February 2, 2027)"
+  },
+  "dividend_per_share": 6.88,
+  "analyst_notes": "Five of the six named analysts updated their targets after ITW's October 27, 2026 Q3 earnings release, with modest raises from Evercore ISI ($317) and Goldman Sachs ($270) alongside slight trims from Citigroup ($310) and Truist ($293). Sentiment remains cautious with four Hold/Neutral and two Sell/Underperform ratings, as analysts balance ITW's raised FY2026 GAAP EPS guidance ($11.45-$11.55) and 27.8% Q3 operating margin against macro industrial headwinds and a ~23x forward multiple.",
+  "sources": [
+    {
+      "label": "ITW Q3 2026 Earnings Release",
+      "url": "https://investor.itw.com/news-releases/news-release-details/itw-reports-third-quarter-2026-results",
+      "supports": "Q3 2026 revenue ($4.24B), GAAP EPS ($3.00), operating margin (27.8%), and raised FY2026 GAAP EPS guidance ($11.45-$11.55)"
+    },
+    {
+      "label": "ITW Q3 2026 Form 10-Q & Dividend Announcements",
+      "url": "https://investor.itw.com/financial-information/sec-filings",
+      "supports": "284.2M shares outstanding as of Q3 2026 and $1.72 quarterly dividend ($6.88 annualized)"
+    },
+    {
+      "label": "StockAnalysis ITW Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/itw/forecast/",
+      "supports": "Named analyst ratings and targets for Evercore ISI, Bank of America, and Goldman Sachs"
+    },
+    {
+      "label": "Benzinga ITW Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/ITW/analyst-ratings",
+      "supports": "Named analyst ratings and targets for Citigroup, Truist Securities, and JPMorgan"
+    },
+    {
+      "label": "MarketBeat ITW Earnings Calendar",
+      "url": "https://www.marketbeat.com/stocks/NYSE/ITW/earnings/",
+      "supports": "Estimated Q4 2026 earnings date (February 2, 2027)"
+    }
+  ]
+}

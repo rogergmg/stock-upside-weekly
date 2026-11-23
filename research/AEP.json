@@ -1,0 +1,59 @@
+{
+  "issuer_id": "American Electric Power Company, Inc.",
+  "symbol": "AEP",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 129.18,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T07:01:00-04:00",
+  "coverage": "aggregate_only",
+  "events": [],
+  "valuation": {
+    "method": "Forward Operating EPS x Justified P/E (FY2027 operating EPS viewed at the 12-month target date)",
+    "bear": 118.13,
+    "base": 134.55,
+    "bull": 151.58,
+    "cases": {
+      "bear": {
+        "driver": "Regulatory lag or slower data-center load ramp compresses valuation multiple and keeps earnings at the low end of guidance",
+        "assumption": "FY2027 operating EPS $6.75 at 17.5x P/E",
+        "target": 118.13
+      },
+      "base": {
+        "driver": "Midpoint FY2027 operating EPS execution supported by 9%-11% long-term growth outlook (2027-2031) and transmission/data-center capex",
+        "assumption": "FY2027 operating EPS $6.90 at 19.5x P/E",
+        "target": 134.55
+      },
+      "bull": {
+        "driver": "Accelerated hyperscaler load commitments and constructive rate-case outcomes support top-end earnings and a premium regulated-utility multiple",
+        "assumption": "FY2027 operating EPS $7.05 at 21.5x P/E",
+        "target": 151.58
+      }
+    },
+    "implied_by_close": "At base FY2027 operating EPS of $6.90, the $129.18 close implies 18.7x P/E; the published consensus average target of $139.83 implies 20.3x base EPS (or $7.17 EPS at 19.5x).",
+    "sensitivity": "One turn of P/E moves the base target by $6.90 (5.3 pp of price return).",
+    "watch_metric": "Data-center and commercial load commitments (GW pipeline) and regulatory rate-case / capital-plan execution",
+    "next_disclosure": "Q4 / FY2026 earnings release and FY2026 Form 10-K (expected February 2027)"
+  },
+  "dividend_per_share": 3.88,
+  "analyst_notes": "Published consensus (MarketBeat / Investing.com) shows a Moderate Buy rating (roughly 16 Buy/Strong Buy, 8 Hold) with an average price target of ~$139.83 (+8.2% vs. $129.18 close, +4.0 pp above the $134.55 base case). Named 2026 broker targets span $130 to $154, including Evercore ISI (Nicholas Amicucci, Outperform, $154), Jefferies (Julien Dumoulin-Smith, Buy, $153), Wells Fargo (Shahriar Pourreza, Overweight, $149), BofA Securities (Ross Fowler, $135), BMO Capital (James Thalacker, Market Perform, $135), Barclays (Nicholas Campanella, Equal-Weight, $132), and Morgan Stanley (David Arcaro, Overweight, $130). Individual events are omitted (aggregate_only) because exact issue timestamps for each note were not verified from primary broker filings.",
+  "sources": [
+    {
+      "label": "AEP Q3 2026 Earnings Release (Oct 28, 2026)",
+      "url": "https://www.aep.com/news/releases/read/11270",
+      "supports": "Q3 2026 operating EPS ($2.23), FY2026 ($6.25-$6.55) and FY2027 ($6.75-$7.05) operating EPS guidance, 9%-11% long-term growth rate"
+    },
+    {
+      "label": "AEP Q4 2026 Dividend Declaration (Oct 20, 2026)",
+      "url": "https://www.aep.com/news/releases/read/11260",
+      "supports": "Quarterly dividend increase to $0.97/share ($3.88 annualized)"
+    },
+    {
+      "label": "MarketBeat AEP Analyst Consensus & Price Targets",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/AEP/forecast/",
+      "supports": "Consensus Moderate Buy rating, ~$139.83 average price target, and broker target range"
+    }
+  ]
+}

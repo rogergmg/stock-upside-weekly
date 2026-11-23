@@ -1,0 +1,184 @@
+{
+  "issuer_id": "Agnico Eagle Mines Limited",
+  "symbol": "AEM",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 178.45,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T17:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Richard Garchitorena",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 215,
+      "source_prior": 218,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/aem/forecast/"
+    },
+    {
+      "analyst": "Richard Garchitorena",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/aem/forecast/"
+    },
+    {
+      "analyst": "Bennett Moore",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 193,
+      "source_prior": 190,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Bennett Moore",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Anita Soni",
+      "firm": "CIBC World Markets",
+      "field": "target",
+      "value": 237,
+      "source_prior": 239,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/aem/forecast/"
+    },
+    {
+      "analyst": "Anita Soni",
+      "firm": "CIBC World Markets",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.stockanalysis.com/stocks/aem/forecast/"
+    },
+    {
+      "analyst": "Josh Wolfson",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 225,
+      "issued_at": "2026-10-13",
+      "public_at": "2026-10-13T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.moomoo.com/"
+    },
+    {
+      "analyst": "Josh Wolfson",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-13",
+      "public_at": "2026-10-13T23:59:59-04:00",
+      "source": "https://www.moomoo.com/"
+    },
+    {
+      "analyst": "Lawson Winder",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 233,
+      "source_prior": 240,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.canadianminingreport.com/"
+    },
+    {
+      "analyst": "Lawson Winder",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.canadianminingreport.com/"
+    },
+    {
+      "analyst": "Tanya Jakusconek",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 260,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.streetwisereports.com/"
+    },
+    {
+      "analyst": "Tanya Jakusconek",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.streetwisereports.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E EPS viewed at the 12-month target date), cross-checked against net cash of $3,416M ($3,613M cash less $197M debt as of Q3 2026)",
+    "bear": 152.0,
+    "base": 216.0,
+    "bull": 270.0,
+    "cases": {
+      "bear": {
+        "driver": "Gold price pullback and persistent consumables/diesel cost inflation compressing margins",
+        "assumption": "FY2027E EPS $9.50 at 16.0x P/E",
+        "target": 152.0
+      },
+      "base": {
+        "driver": "Sustained elevated gold prices (~$4,000-$4,250/oz), steady Detour Lake/Fosterville/Kittila output, and disciplined AISC (~$1,650/oz)",
+        "assumption": "FY2027E EPS $12.00 at 18.0x P/E",
+        "target": 216.0
+      },
+      "bull": {
+        "driver": "Higher realized gold prices, Odyssey/pipeline execution, and operating leverage on flat unit costs",
+        "assumption": "FY2027E EPS $13.50 at 20.0x P/E",
+        "target": 270.0
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $12.00, the $178.45 close implies 14.9x P/E; the ~$227 equal-weight named-analyst target implies 18.9x P/E or $12.61 EPS at 18.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $12.00 (6.7 pp of return at the $178.45 close).",
+    "watch_metric": "Quarterly payable gold production (oz) and all-in sustaining costs (AISC $/oz) relative to full-year guidance, alongside realized gold price.",
+    "next_disclosure": "Q4 2026 / Full-Year 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 1.8,
+  "analyst_notes": "Following Q3 2026 results on October 28, 2026 (adjusted EPS $2.62, 814,012 oz gold, $1,648/oz AISC), named analysts largely maintained constructive ratings with minor target fine-tuning: Barclays trimmed to $215, CIBC trimmed to $237, and JPMorgan nudged up to $193 (Neutral). The ~$227 equal-weight named-analyst target sits ~6.2 pp above the $216.00 base case (+27.3% vs +21.0% upside), reflecting higher assumed multiples (18.9x vs 18.0x) or slightly higher gold-price/EPS assumptions. Target horizons were not explicitly documented in the secondary summaries, so horizon_months is left null.",
+  "sources": [
+    {
+      "label": "Agnico Eagle Q3 2026 Results (Oct 28, 2026)",
+      "url": "https://www.agnicoeagle.com/",
+      "supports": "Q3 2026 EPS, adjusted EPS, production (814,012 oz), AISC ($1,648/oz), cash ($3,613M), debt ($197M)"
+    },
+    {
+      "label": "StockAnalysis AEM Analyst Forecast",
+      "url": "https://www.stockanalysis.com/stocks/aem/forecast/",
+      "supports": "Barclays (Richard Garchitorena) and CIBC (Anita Soni) ratings and price targets"
+    },
+    {
+      "label": "StreetInsider / Moomoo / Canadian Mining Report / Streetwise Reports",
+      "url": "https://www.streetwisereports.com/",
+      "supports": "JPMorgan (Bennett Moore), RBC (Josh Wolfson), BofA (Lawson Winder), and Scotiabank (Tanya Jakusconek) ratings and targets"
+    }
+  ]
+}

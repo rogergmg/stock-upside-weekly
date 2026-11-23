@@ -1,0 +1,165 @@
+{
+  "issuer_id": "Simon Property Group, Inc.",
+  "symbol": "SPG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 232.97,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T16:15:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Caitlin Burrows",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 260,
+      "source_prior": 228,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Caitlin Burrows",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Michael Goldsmith",
+      "firm": "UBS",
+      "field": "target",
+      "value": 235,
+      "source_prior": 205,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Michael Goldsmith",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Steve Sakwa",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 227,
+      "source_prior": 225,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Steve Sakwa",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Samir Khanal",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 260,
+      "source_prior": 264,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Samir Khanal",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Richard Hightower",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 208,
+      "source_prior": 215,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    },
+    {
+      "analyst": "Richard Hightower",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/spg/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Real Estate FFO per diluted share x P/FFO multiple (FY2027E Real Estate FFO viewed at the 12-month target date)",
+    "bear": 202.50,
+    "base": 244.13,
+    "bull": 279.83,
+    "cases": {
+      "bear": {
+        "driver": "Slower ~1% FFO growth on higher refinancing costs and macro retail softness",
+        "assumption": "FY2027E Real Estate FFO $13.50/sh at 15.0x P/FFO",
+        "target": 202.50
+      },
+      "base": {
+        "driver": "Steady ~4.5% FFO growth supported by 96.5% occupancy, +6.1% base minimum rent growth, and +6.7% portfolio NOI growth",
+        "assumption": "FY2027E Real Estate FFO $13.95/sh at 17.5x P/FFO",
+        "target": 244.13
+      },
+      "bull": {
+        "driver": "Accelerated ~7.5% FFO growth from strong leasing spreads, outlet/mall traffic, and accretive redevelopment",
+        "assumption": "FY2027E Real Estate FFO $14.35/sh at 19.5x P/FFO",
+        "target": 279.83
+      }
+    },
+    "implied_by_close": "At base FY2027E Real Estate FFO of $13.95/sh, the $232.97 close implies 16.7x P/FFO; the Street consensus average target (~$235.00) implies 16.8x P/FFO or $13.43/sh at 17.5x.",
+    "sensitivity": "One turn of P/FFO moves the base target by $13.95 (6.0 pp).",
+    "watch_metric": "U.S. Malls and Premium Outlets occupancy (96.5% in Q3 2026), base minimum rent per sq ft ($62.75), and constant-currency portfolio NOI growth (+6.7% YoY).",
+    "next_disclosure": "Q4 2026 / FY2026 earnings release (expected early February 2027)"
+  },
+  "dividend_per_share": 9.20,
+  "analyst_notes": "Following SPG's Q3 2026 earnings release on November 5, 2026 (which raised FY2026 Real Estate FFO guidance to $13.30-$13.40/sh and lifted the quarterly dividend to $2.30/sh), Goldman Sachs raised its target to $260, UBS raised to $235, and Evercore ISI raised to $227, while Bank of America trimmed its target slightly to $260 (Buy). Street consensus (~$235) sits near the $232.97 close and ~4 pp below our $244.13 base case, reflecting Hold-rated caution after SPG's rally near 52-week highs.",
+  "sources": [
+    {
+      "label": "Simon Property Group Q3 2026 Earnings Release",
+      "url": "https://investors.simon.com/news-releases/news-release-details/simon-property-group-reports-third-quarter-2026-results-and",
+      "supports": "Q3 2026 Real Estate FFO ($3.37/sh), FY2026 Real Estate FFO guidance ($13.30-$13.40/sh), occupancy (96.5%), NOI growth (+6.7%)"
+    },
+    {
+      "label": "StockAnalysis SPG Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/spg/forecast/",
+      "supports": "Named analyst ratings, price targets, and consensus target range"
+    },
+    {
+      "label": "Simon Property Group Dividend History",
+      "url": "https://investors.simon.com/stock-information/dividend-history",
+      "supports": "2026 quarterly dividends ($2.20 Q1, $2.25 Q2, $2.25 Q3, $2.30 Q4; $9.20 annualized run-rate)"
+    }
+  ]
+}

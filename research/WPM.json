@@ -1,0 +1,158 @@
+{
+  "issuer_id": "Wheaton Precious Metals Corp.",
+  "symbol": "WPM",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 131.45,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T17:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Daniel Major",
+      "firm": "UBS",
+      "field": "target",
+      "value": 155,
+      "source_prior": 160,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/wpm/forecast/"
+    },
+    {
+      "analyst": "Daniel Major",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/wpm/forecast/"
+    },
+    {
+      "analyst": "Tanya Jakusconek",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 175,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/wpm/forecast"
+    },
+    {
+      "analyst": "Tanya Jakusconek",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "source": "https://www.tipranks.com/stocks/wpm/forecast"
+    },
+    {
+      "analyst": "Josh Wolfson",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 165,
+      "source_prior": 160,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/WPM/forecast/"
+    },
+    {
+      "analyst": "Josh Wolfson",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T17:00:00-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/WPM/forecast/"
+    },
+    {
+      "analyst": "Lawson Winder",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 145,
+      "source_prior": 163,
+      "issued_at": "2026-08-10",
+      "public_at": "2026-08-10T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/WPM/forecast/"
+    },
+    {
+      "analyst": "Lawson Winder",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-10",
+      "public_at": "2026-08-10T17:00:00-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/WPM/forecast/"
+    },
+    {
+      "analyst": "Cosmos Chiu",
+      "firm": "CIBC",
+      "field": "rating",
+      "value": "Outperformer",
+      "bucket": "Buy",
+      "issued_at": "2026-08-10",
+      "public_at": "2026-08-10T17:00:00-04:00",
+      "source": "https://www.gurufocus.com/news/wpm"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E EPS viewed at the 12-month target date)",
+    "bear": 96.0,
+    "base": 134.4,
+    "bull": 172.8,
+    "cases": {
+      "bear": {
+        "driver": "Precious metals pullback and slower stream ramp",
+        "assumption": "FY2027E EPS $4.00 at 24x P/E",
+        "target": 96.0
+      },
+      "base": {
+        "driver": "Steady 860k-940k GEO production and sustained gold/silver prices",
+        "assumption": "FY2027E EPS $4.80 at 28x P/E",
+        "target": 134.4
+      },
+      "bull": {
+        "driver": "Higher realized metal prices and accelerated Antamina/Salobo stream volumes",
+        "assumption": "FY2027E EPS $5.40 at 32x P/E",
+        "target": 172.8
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $4.80, the $131.45 close implies 27.4x forward P/E; at 28x P/E, the ~$160-$172 Street consensus target implies $5.71-$6.14 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $4.80 (3.7 pp).",
+    "watch_metric": "Attributable Gold Equivalent Ounces (GEO) production vs. 2026 guidance of 860,000-940,000 GEOs and realized gold/silver prices",
+    "next_disclosure": "Q4 & Full-Year 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 0.78,
+  "analyst_notes": "Following Q3 2026 results on Nov 5, 2026 ($0.90 adjusted EPS, $771.7M revenue, $645M operating cash flow), UBS trimmed its target from $160 to $155 while Scotiabank maintained $175, both keeping Buy/Outperform ratings. Named targets cluster between $145 and $175 (+10% to +33% above the $131.45 close), above our $134.40 base case (+2.2%) because Street models price higher realized metal prices or richer streaming multiples. Target horizons are set to null where 12-month horizons were not explicitly documented in accessible summaries.",
+  "sources": [
+    {
+      "label": "Wheaton Precious Metals Q3 2026 Results & Dividend",
+      "url": "https://www.wheatonpm.com/news/press-releases/",
+      "supports": "Q3 2026 EPS, revenue, operating cash flow, net debt, and $0.195 quarterly dividend"
+    },
+    {
+      "label": "StockAnalysis WPM Forecast",
+      "url": "https://stockanalysis.com/stocks/wpm/forecast/",
+      "supports": "FY2027 consensus EPS ($4.52-$4.91), UBS and Scotiabank targets"
+    },
+    {
+      "label": "MarketBeat WPM Analyst Ratings",
+      "url": "https://www.marketbeat.com/stocks/NYSE/WPM/forecast/",
+      "supports": "RBC Capital and BofA Securities ratings and price targets"
+    },
+    {
+      "label": "TipRanks WPM Forecast",
+      "url": "https://www.tipranks.com/stocks/wpm/forecast",
+      "supports": "Scotiabank and consensus price target range"
+    }
+  ]
+}

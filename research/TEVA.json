@@ -1,0 +1,191 @@
+{
+  "issuer_id": "Teva Pharmaceutical Industries Limited",
+  "symbol": "TEVA",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 44.5,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-03T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "David Amsellem",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 56.0,
+      "source_prior": 44.0,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings"
+    },
+    {
+      "analyst": "David Amsellem",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings"
+    },
+    {
+      "analyst": "Raghuram Selvaraju",
+      "firm": "H.C. Wainwright",
+      "field": "target",
+      "value": 54.0,
+      "source_prior": 52.0,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings"
+    },
+    {
+      "analyst": "Raghuram Selvaraju",
+      "firm": "H.C. Wainwright",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.benzinga.com/analyst-ratings"
+    },
+    {
+      "analyst": "Jason Gerberry",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 48.0,
+      "source_prior": 43.0,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/teva/forecast/"
+    },
+    {
+      "analyst": "Jason Gerberry",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.stockanalysis.com/stocks/teva/forecast/"
+    },
+    {
+      "analyst": "Glen Santangelo",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 47.0,
+      "source_prior": 42.0,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings"
+    },
+    {
+      "analyst": "Glen Santangelo",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings"
+    },
+    {
+      "analyst": "Chris Schott",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 50.0,
+      "source_prior": 40.0,
+      "issued_at": "2026-10-12",
+      "public_at": "2026-10-12T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings"
+    },
+    {
+      "analyst": "Chris Schott",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-12",
+      "public_at": "2026-10-12T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings"
+    },
+    {
+      "analyst": "Ashwani Verma",
+      "firm": "UBS",
+      "field": "target",
+      "value": 48.0,
+      "source_prior": 42.0,
+      "issued_at": "2026-09-30",
+      "public_at": "2026-09-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings"
+    },
+    {
+      "analyst": "Ashwani Verma",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-30",
+      "public_at": "2026-09-30T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Non-GAAP Diluted EPS x P/E (FY2027E EPS viewed at the 12-month target date)",
+    "bear": 36.0,
+    "base": 48.45,
+    "bull": 59.85,
+    "cases": {
+      "bear": {
+        "driver": "Steeper IRA Medicare price-setting pressure on Austedo in Jan 2027, generic Revlimid erosion, and slower margin expansion",
+        "assumption": "FY2027E non-GAAP diluted EPS $2.25 at 16.0x P/E",
+        "target": 36.0
+      },
+      "base": {
+        "driver": "Continued Austedo, Ajovy, and Uzedy growth, ~26%-27% non-GAAP operating margin, and deleveraging toward 2.0x net debt/EBITDA",
+        "assumption": "FY2027E non-GAAP diluted EPS $2.55 at 19.0x P/E",
+        "target": 48.45
+      },
+      "bull": {
+        "driver": "Achieving 30% non-GAAP operating margin target in 2027, pipeline/biosimilar catalysts, and biotech-like multiple re-rating",
+        "assumption": "FY2027E non-GAAP diluted EPS $2.85 at 21.0x P/E",
+        "target": 59.85
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $2.55, the $44.50 close implies 17.5x P/E; the 6-analyst equal-weight target of $50.50 implies 19.8x P/E or $2.66 EPS at 19.0x",
+    "sensitivity": "One turn of P/E moves the base target by $2.55 (+5.7 pp at the $44.50 close)",
+    "watch_metric": "Austedo, Ajovy, and Uzedy net sales growth vs. IRA Medicare price-setting impact and non-GAAP operating margin progression toward 30%",
+    "next_disclosure": "Q4 / Full-Year 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 0.0,
+  "analyst_notes": "Following Teva's Q3 2026 earnings beat on November 3, 2026 ($0.86 non-GAAP EPS) and raised FY2026 guidance ($1.92-$2.11 non-GAAP EPS), Piper Sandler, H.C. Wainwright, and BofA Securities all raised their targets, leaving all six tracked analysts at Buy/Overweight with targets from $47 to $56. The $50.50 equal-weight analyst target (+13.5% upside) sits 4.6 pp above our $48.45 base case (+8.9% upside), equivalent to either ~0.8x higher P/E or ~$0.11 higher FY2027E EPS. All six targets are recent (September-November 2026) and heavily concentrated in Buy/Overweight ratings.",
+  "sources": [
+    {
+      "label": "Teva Q3 2026 Financial Results Press Release",
+      "url": "https://www.tevapharm.com/news-and-media/latest-news/",
+      "supports": "Q3 2026 non-GAAP EPS ($0.86), GAAP EPS ($0.20), diluted share count (~1,195M), FY2026 guidance, and 2027 targets"
+    },
+    {
+      "label": "Investing.com Analyst Ratings & Piper Sandler / BofA Coverage",
+      "url": "https://www.investing.com/news/analyst-ratings",
+      "supports": "Piper Sandler (David Amsellem) and BofA Securities (Jason Gerberry) ratings and price targets"
+    },
+    {
+      "label": "Benzinga Analyst Ratings",
+      "url": "https://www.benzinga.com/analyst-ratings",
+      "supports": "H.C. Wainwright, Barclays, JPMorgan, and UBS ratings and price targets"
+    },
+    {
+      "label": "StockAnalysis TEVA Forecast",
+      "url": "https://www.stockanalysis.com/stocks/teva/forecast/",
+      "supports": "BofA Securities (Jason Gerberry) and JPMorgan (Chris Schott) target updates"
+    }
+  ]
+}

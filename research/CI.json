@@ -1,0 +1,186 @@
+{
+  "issuer_id": "The Cigna Group",
+  "symbol": "CI",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 297.0,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T06:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Ben Hendrix",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 346,
+      "source_prior": 337,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Ben Hendrix",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Jessica Tassan",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 360,
+      "source_prior": 370,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Jessica Tassan",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Andrew Mok",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 320,
+      "source_prior": 310,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Andrew Mok",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Elizabeth Anderson",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 320,
+      "source_prior": 290,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Elizabeth Anderson",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "In-Line",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Jason Cassorla",
+      "firm": "Guggenheim",
+      "field": "target",
+      "value": 347,
+      "source_prior": 361,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Jason Cassorla",
+      "firm": "Guggenheim",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "A.J. Rice",
+      "firm": "UBS",
+      "field": "target",
+      "value": 400,
+      "source_prior": 375,
+      "issued_at": "2026-05-22",
+      "public_at": "2026-05-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/"
+    },
+    {
+      "analyst": "A.J. Rice",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-05-22",
+      "public_at": "2026-05-22T23:59:59-04:00",
+      "source": "https://www.gurufocus.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2027E adjusted EPS viewed at the 12-month target date)",
+    "bear": 288.0,
+    "base": 351.75,
+    "bull": 420.0,
+    "cases": {
+      "bear": {
+        "driver": "Pharmacy benefit rebate compression and higher medical cost trends limit 2027 EPS growth below management's 10% target",
+        "assumption": "FY2027E adjusted EPS $32.00 at 9.0x P/E",
+        "target": 288.0
+      },
+      "base": {
+        "driver": "Management delivers at least 10% adjusted EPS growth in 2027 off the ~$30/share 2026 run-rate (factoring in ~$200M ACA exchange exit headwind)",
+        "assumption": "FY2027E adjusted EPS $33.50 at 10.5x P/E",
+        "target": 351.75
+      },
+      "bull": {
+        "driver": "Stronger Evernorth specialty pharmacy growth and commercial margin expansion drive upside to 2027 EPS and multiple re-rating",
+        "assumption": "FY2027E adjusted EPS $35.00 at 12.0x P/E",
+        "target": 420.0
+      }
+    },
+    "implied_by_close": "At base FY2027E adjusted EPS of $33.50, the $297.00 close implies 8.87x P/E; named analyst targets ($320-$400) imply 9.55x-11.94x at base EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $33.50 (11.3 pp).",
+    "watch_metric": "Evernorth pharmacy benefit services margin and consolidated medical care ratio (MCR) against FY2027 >=10% adjusted EPS growth guidance",
+    "next_disclosure": "Q4 2026 / Full-Year 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 6.24,
+  "analyst_notes": "Following Cigna's Q3 2026 earnings beat ($7.98 adjusted EPS) and raised FY2026 guidance (>= $30.60) on November 5, 2026, five named analysts updated targets: RBC Capital ($346 from $337), Barclays ($320 from $310), and Evercore ISI ($320 from $290) raised targets, while Piper Sandler ($360 from $370) and Guggenheim ($347 from $361) trimmed targets citing pharmacy benefit rebate compression. UBS ($400, May 2026) remains the high outlier. Targets cluster between $320 and $360, bracketed around our $351.75 base case.",
+  "sources": [
+    {
+      "label": "The Cigna Group Q3 2026 Earnings Release (Nov 5, 2026)",
+      "url": "https://www.thecignagroup.com/",
+      "supports": "Q3 2026 adjusted EPS ($7.98), FY2026 guidance (>= $30.60), 2027 >=10% EPS growth outlook, earnings_at timestamp"
+    },
+    {
+      "label": "The Cigna Group Q4 2026 Dividend Declaration (Oct 28, 2026)",
+      "url": "https://www.thecignagroup.com/",
+      "supports": "Quarterly dividend of $1.56/share ($6.24/share annualized)"
+    },
+    {
+      "label": "Benzinga / StreetInsider / Investing.com / GuruFocus Analyst Coverage",
+      "url": "https://www.benzinga.com/",
+      "supports": "Named analyst ratings, price targets, and prior targets for CI"
+    }
+  ]
+}

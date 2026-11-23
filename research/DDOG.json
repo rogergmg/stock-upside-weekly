@@ -1,0 +1,196 @@
+{
+  "issuer_id": "Datadog, Inc.",
+  "symbol": "DDOG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 184.16,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-04T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Fatima Boolani",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 290,
+      "source_prior": 305,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://www.benzinga.com/quote/DDOG/analyst-ratings"
+    },
+    {
+      "analyst": "Fatima Boolani",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/DDOG/analyst-ratings"
+    },
+    {
+      "analyst": "Matthew Hedberg",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 270,
+      "source_prior": 320,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://www.tipranks.com/stocks/ddog/forecast"
+    },
+    {
+      "analyst": "Matthew Hedberg",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/ddog/forecast"
+    },
+    {
+      "analyst": "Raimo Lenschow",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 262,
+      "source_prior": 300,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://www.benzinga.com/quote/DDOG/analyst-ratings"
+    },
+    {
+      "analyst": "Raimo Lenschow",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/DDOG/analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Sherman",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 275,
+      "source_prior": 300,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://www.investing.com/equities/datadog-inc-consensus-estimates"
+    },
+    {
+      "analyst": "Andrew Sherman",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.investing.com/equities/datadog-inc-consensus-estimates"
+    },
+    {
+      "analyst": "Ryan MacWilliams",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 300,
+      "source_prior": 325,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://www.tradingview.com/symbols/NASDAQ-DDOG/forecast/"
+    },
+    {
+      "analyst": "Ryan MacWilliams",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.tradingview.com/symbols/NASDAQ-DDOG/forecast/"
+    },
+    {
+      "analyst": "Kirk Materne",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 260,
+      "source_prior": 300,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://www.tipranks.com/stocks/ddog/forecast"
+    },
+    {
+      "analyst": "Kirk Materne",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/ddog/forecast"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Non-GAAP EPS x justified P/E (FY2027 Non-GAAP diluted EPS viewed at the 12-month target date)",
+    "bear": 136.8,
+    "base": 196.54,
+    "bull": 248.4,
+    "cases": {
+      "bear": {
+        "driver": "AI-native customer usage contraction persists and broader cloud optimization slows FY2027 revenue growth to ~16% with ~23% non-GAAP operating margin",
+        "assumption": "FY2027 Non-GAAP EPS $2.85 at 48x P/E",
+        "target": 136.8
+      },
+      "base": {
+        "driver": "Core observability and cloud security sustain ~22% FY2027 revenue growth (~$5.49B) with ~26% non-GAAP operating margin",
+        "assumption": "FY2027 Non-GAAP EPS $3.17 at 62x P/E",
+        "target": 196.54
+      },
+      "bull": {
+        "driver": "AI-native and enterprise workloads re-accelerate FY2027 revenue growth to ~26% with operating leverage lifting non-GAAP operating margin to ~28%",
+        "assumption": "FY2027 Non-GAAP EPS $3.45 at 72x P/E",
+        "target": 248.4
+      }
+    },
+    "implied_by_close": "At base FY2027 Non-GAAP EPS of $3.17, the $184.16 close implies 58.1x; the post-Q3 analyst-weighted target (~$276) implies 87.1x base EPS or $4.45 EPS at 62x.",
+    "sensitivity": "One turn of P/E moves the base target by $3.17 (1.7 pp).",
+    "watch_metric": "Q4 2026 revenue growth, AI-native customer usage stabilization, and initial FY2027 revenue and non-GAAP operating margin guidance.",
+    "next_disclosure": "Q4 2026 earnings release and FY2027 outlook (expected February 2027)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Datadog's Q3 2026 beat ($1.197B revenue, $0.81 non-GAAP EPS) and softer Q4 2026 guidance ($1.19B-$1.20B revenue, $0.69-$0.71 non-GAAP EPS) tied to its largest AI-native customer cutting usage to contract minimums, all six sampled analysts trimmed their 12-month price targets on November 5, 2026 while maintaining Buy/Outperform/Overweight ratings. The sampled post-earnings targets ($260-$300, average ~$276) imply ~50% upside vs. +6.7% in the independent base case, a ~43 pp gap driven by Street willingness to underwrite a higher forward multiple (~87x FY2027 base EPS) or faster multi-year AI/observability compounding.",
+  "sources": [
+    {
+      "label": "Datadog Q3 2026 Earnings Release & Q4/FY2026 Guidance",
+      "url": "https://investors.datadoghq.com/",
+      "supports": "Q3 2026 revenue, non-GAAP EPS, operating income, FCF, Q4 2026 and FY2026 guidance"
+    },
+    {
+      "label": "Benzinga DDOG Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/DDOG/analyst-ratings",
+      "supports": "Citigroup, Barclays, and broader post-Q3 2026 analyst target revisions"
+    },
+    {
+      "label": "TipRanks DDOG Forecast",
+      "url": "https://www.tipranks.com/stocks/ddog/forecast",
+      "supports": "RBC Capital and Evercore ISI post-Q3 2026 ratings and targets"
+    },
+    {
+      "label": "Investing.com DDOG Consensus Estimates",
+      "url": "https://www.investing.com/equities/datadog-inc-consensus-estimates",
+      "supports": "FY2027 revenue/EPS consensus and TD Cowen target revision"
+    },
+    {
+      "label": "TradingView DDOG Forecast",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-DDOG/forecast/",
+      "supports": "Wells Fargo target revision and consensus target range"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "issuer_id": "Cardinal Health, Inc.",
+  "symbol": "CAH",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 281.1,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Charles Rhyee",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 304,
+      "source_prior": 280,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CAH/analyst-ratings"
+    },
+    {
+      "analyst": "Charles Rhyee",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/CAH/analyst-ratings"
+    },
+    {
+      "analyst": "Elizabeth Anderson",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 320,
+      "source_prior": 270,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CAH/analyst-ratings"
+    },
+    {
+      "analyst": "Elizabeth Anderson",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/CAH/analyst-ratings"
+    },
+    {
+      "analyst": "Lisa Gill",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 286,
+      "source_prior": 260,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CAH/analyst-ratings"
+    },
+    {
+      "analyst": "Lisa Gill",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/CAH/analyst-ratings"
+    },
+    {
+      "analyst": "Erin Wright",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 286,
+      "source_prior": 265,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CAH/analyst-ratings"
+    },
+    {
+      "analyst": "Erin Wright",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/CAH/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward non-GAAP EPS x P/E (FY2028E non-GAAP diluted EPS viewed at the 12-month target date in November 2027)",
+    "bear": 247.0,
+    "base": 301.0,
+    "bull": 345.0,
+    "cases": {
+      "bear": {
+        "driver": "Pharmaceutical distribution margin compression and slower specialty growth",
+        "assumption": "FY2028E non-GAAP EPS $13.00 at 19.0x",
+        "target": 247.0
+      },
+      "base": {
+        "driver": "Steady Pharmaceutical and Specialty Solutions growth plus ASR share count reduction",
+        "assumption": "FY2028E non-GAAP EPS $14.34 at 21.0x",
+        "target": 301.0
+      },
+      "bull": {
+        "driver": "Outperformance in specialty pharma, GLP-1/biopharma volume, and accelerated buybacks",
+        "assumption": "FY2028E non-GAAP EPS $15.00 at 23.0x",
+        "target": 345.0
+      }
+    },
+    "implied_by_close": "At base FY2028E EPS of $14.34, the $281.10 close implies 19.6x; at 21.0x, the close implies $13.39 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $14.34 (5.1 pp of return).",
+    "watch_metric": "Pharmaceutical and Specialty Solutions segment profit growth and FY2027 non-GAAP diluted EPS ($12.80-$13.00 guidance)",
+    "next_disclosure": "Q2 FY2027 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 2.06,
+  "analyst_notes": "Following Q1 FY2027 results on November 5, 2026 (non-GAAP EPS $3.26, +28% YoY, and FY2027 guidance raised to $12.80-$13.00), TD Cowen, Evercore ISI, and JPMorgan raised targets into a $286-$320 range. Post-cutoff raises (e.g., Barclays to $320 on November 18) are excluded. Our $301.00 base case (+7.1% upside) sits near the $300-$304 Street consensus, reflecting ~11% FY2028E EPS growth at 21.0x.",
+  "sources": [
+    {
+      "label": "SEC EDGAR - Cardinal Health Form 10-Q (Q1 FY2027)",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0000721371",
+      "supports": "Q1 FY2027 GAAP/non-GAAP EPS, revenue, share count"
+    },
+    {
+      "label": "Cardinal Health Investor Relations",
+      "url": "https://ir.cardinalhealth.com",
+      "supports": "Q1 FY2027 earnings release, FY2027 EPS guidance ($12.80-$13.00), dividend ($0.5158/qtr)"
+    },
+    {
+      "label": "Benzinga CAH Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/CAH/analyst-ratings",
+      "supports": "TD Cowen, Evercore ISI, JPMorgan, Morgan Stanley ratings and price targets"
+    }
+  ]
+}

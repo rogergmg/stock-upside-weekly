@@ -1,0 +1,191 @@
+{
+  "issuer_id": "Cencora, Inc.",
+  "symbol": "COR",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 359.03,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-04T06:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Eric Coldwell",
+      "firm": "Baird",
+      "field": "target",
+      "value": 405,
+      "source_prior": 375,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "Eric Coldwell",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "Michael Cherny",
+      "firm": "Leerink Partners",
+      "field": "target",
+      "value": 405,
+      "source_prior": 388,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "Michael Cherny",
+      "firm": "Leerink Partners",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "Erin Wright",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 377,
+      "source_prior": 346,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "Erin Wright",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "David Toung",
+      "firm": "Argus Research",
+      "field": "target",
+      "value": 380,
+      "source_prior": 340,
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/cor/forecast"
+    },
+    {
+      "analyst": "David Toung",
+      "firm": "Argus Research",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/cor/forecast"
+    },
+    {
+      "analyst": "Kevin Caliendo",
+      "firm": "UBS",
+      "field": "target",
+      "value": 400,
+      "source_prior": 430,
+      "issued_at": "2026-10-16",
+      "public_at": "2026-10-16T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "Kevin Caliendo",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-16",
+      "public_at": "2026-10-16T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "Stephen Baxter",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 395,
+      "source_prior": 331,
+      "issued_at": "2026-08-11",
+      "public_at": "2026-08-11T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    },
+    {
+      "analyst": "Stephen Baxter",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-08-11",
+      "public_at": "2026-08-11T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/COR/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted Diluted EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 323.0,
+    "base": 382.2,
+    "bull": 435.38,
+    "cases": {
+      "bear": {
+        "driver": "Specialty pharmaceutical volume growth moderates and MWI Animal Health / Covetrus integration headwinds weigh on margins",
+        "assumption": "FY2027 adjusted diluted EPS $19.00 at 17.0x P/E",
+        "target": 323.0
+      },
+      "base": {
+        "driver": "FY2027 adjusted diluted EPS lands near the midpoint of management's $19.40-$19.75 guidance (+8% to +10% YoY) on steady specialty distribution demand",
+        "assumption": "FY2027 adjusted diluted EPS $19.60 at 19.5x P/E",
+        "target": 382.2
+      },
+      "bull": {
+        "driver": "Stronger biosimilar and oncology specialty mix plus faster-than-guided MWI/Covetrus accretion drive upside to FY2027 EPS",
+        "assumption": "FY2027 adjusted diluted EPS $20.25 at 21.5x P/E",
+        "target": 435.38
+      }
+    },
+    "implied_by_close": "At base FY2027 adjusted diluted EPS of $19.60, the $359.03 close implies 18.3x forward P/E.",
+    "sensitivity": "One turn of P/E moves the base target by $19.60 (5.5 pp of price return).",
+    "watch_metric": "Specialty pharmaceutical volume growth, operating margin expansion, and FY2027 adjusted diluted EPS guidance execution ($19.40-$19.75)",
+    "next_disclosure": "Q1 FY2027 earnings release (expected February 3, 2027)"
+  },
+  "dividend_per_share": 2.64,
+  "analyst_notes": "Following Cencora's Q4 FY2026 earnings release on November 4, 2026, Baird (Eric Coldwell) and Leerink Partners (Michael Cherny) both raised their price targets to $405 while maintaining Outperform ratings. All six tracked analysts maintain Buy-equivalent ratings, with targets ranging from $377 to $405 as of the November 13, 2026 cutoff (note: Wells Fargo's subsequent raise to $400 on November 17, 2026 falls after the cutoff). Street targets cluster slightly above our $382.20 base case, reflecting higher assumed forward P/E multiples (roughly 20.0x-20.7x on $19.60 base EPS).",
+  "sources": [
+    {
+      "label": "Cencora Q4 FY2026 and Full-Year Earnings Release (Nov 4, 2026)",
+      "url": "https://www.cencora.com/newsroom/press-releases",
+      "supports": "Q4 FY2026 and FY2026 revenue ($88.4B / $337.4B), adjusted diluted EPS ($4.66 / $17.97), FY2027 adjusted EPS guidance ($19.40-$19.75), and 10% dividend increase"
+    },
+    {
+      "label": "Benzinga COR Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/COR/analyst-ratings",
+      "supports": "Dated analyst ratings and price targets for Baird, Leerink Partners, Morgan Stanley, UBS, and Wells Fargo"
+    },
+    {
+      "label": "TipRanks COR Forecast",
+      "url": "https://www.tipranks.com/stocks/cor/forecast",
+      "supports": "Argus Research (David Toung) rating and price target update"
+    },
+    {
+      "label": "MarketBeat COR Forecast & Earnings Calendar",
+      "url": "https://www.marketbeat.com/stocks/NYSE/COR/forecast/",
+      "supports": "Consensus context and expected Q1 FY2027 earnings date (Feb 3, 2027)"
+    }
+  ]
+}

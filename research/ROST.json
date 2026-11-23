@@ -1,0 +1,107 @@
+{
+  "issuer_id": "Ross Stores, Inc.",
+  "symbol": "ROST",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 231.68,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-08-20T16:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Michael Binetti",
+      "firm": "Evercore ISI Group",
+      "field": "target",
+      "value": 276,
+      "source_prior": 265,
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/ross-stores-q2-earnings-analysts"
+    },
+    {
+      "analyst": "Michael Binetti",
+      "firm": "Evercore ISI Group",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/ross-stores-q2-earnings-analysts"
+    },
+    {
+      "analyst": "Dana Telsey",
+      "firm": "Telsey Advisory Group",
+      "field": "target",
+      "value": 280,
+      "source_prior": 265,
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/ross-stores-q2-earnings-analysts"
+    },
+    {
+      "analyst": "Dana Telsey",
+      "firm": "Telsey Advisory Group",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/ross-stores-q2-earnings-analysts"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date)",
+    "bear": 190.8,
+    "base": 245.0,
+    "bull": 285.18,
+    "cases": {
+      "bear": {
+        "driver": "Macro slowdown, softer comp store sales, and freight/tariff cost pressure",
+        "assumption": "FY2027E EPS $7.95 at 24.0x P/E",
+        "target": 190.8
+      },
+      "base": {
+        "driver": "Steady mid-single-digit comp growth, stable merchandise margins, and ongoing share repurchases (~319.5M diluted shares)",
+        "assumption": "FY2027E EPS $8.75 at 28.0x P/E",
+        "target": 245.0
+      },
+      "bull": {
+        "driver": "Sustained high-single-digit comps, operating leverage, and off-price market share gains",
+        "assumption": "FY2027E EPS $9.35 at 30.5x P/E",
+        "target": 285.18
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $8.75, the $231.68 close implies 26.5x P/E; the $278.00 equal-weight post-Q2 named target implies 31.8x P/E or $9.93 EPS at 28.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $8.75 (3.8 pp of price return).",
+    "watch_metric": "Comparable store sales growth and merchandise margin ex-tariff-refunds",
+    "next_disclosure": "Q3 FY2026 earnings release (scheduled November 19, 2026)"
+  },
+  "dividend_per_share": 1.78,
+  "analyst_notes": "Following Ross Stores' Q2 FY2026 earnings beat on August 20, 2026 (EPS $2.66 including ~$0.60/sh one-time IEEPA tariff refund; FY2026 guidance raised to $8.61-$8.77), Evercore ISI (Michael Binetti) raised its target to $276 from $265 and Telsey Advisory Group (Dana Telsey) raised its target to $280 from $265, both maintaining Outperform. Broad Street consensus prior to Q3 sat around $270-$279, above our $245.00 base case, reflecting higher assumed FY2027E earnings or a ~31-32x multiple versus our 28.0x base multiple.",
+  "sources": [
+    {
+      "label": "Ross Stores Q2 FY2026 Earnings Release (Aug 20, 2026)",
+      "url": "https://investors.rossstores.com/news-releases",
+      "supports": "Q2 FY2026 EPS $2.66, ~$0.60 IEEPA tariff refund benefit, FY2026 EPS guidance $8.61-$8.77"
+    },
+    {
+      "label": "Ross Stores Q2 FY2026 Form 10-Q",
+      "url": "https://investors.rossstores.com/financial-information/sec-filings",
+      "supports": "Weighted-average diluted shares outstanding (~319.45M)"
+    },
+    {
+      "label": "Benzinga Analyst Ratings Recap (Aug 2026)",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/ross-stores-q2-earnings-analysts",
+      "supports": "Evercore ISI and Telsey Advisory Group post-Q2 price target raises and ratings"
+    },
+    {
+      "label": "Ross Stores Dividend History",
+      "url": "https://investors.rossstores.com/stock-information/dividend-history",
+      "supports": "Quarterly dividend of $0.445/share ($1.78 annualized)"
+    }
+  ]
+}

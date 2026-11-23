@@ -1,0 +1,275 @@
+{
+  "issuer_id": "Colgate-Palmolive Company",
+  "symbol": "CL",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 99.67,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-30T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Peter Grom",
+      "firm": "UBS",
+      "field": "target",
+      "value": 112.0,
+      "source_prior": 106.0,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Peter Grom",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Dara Mohsenian",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 111.0,
+      "source_prior": 104.0,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Dara Mohsenian",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "BNP Paribas Exane",
+      "firm": "BNP Paribas Exane",
+      "field": "target",
+      "value": 108.0,
+      "source_prior": 97.0,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "BNP Paribas Exane",
+      "firm": "BNP Paribas Exane",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "RBC Capital",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 105.0,
+      "source_prior": 104.0,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "RBC Capital",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Bryan Spillane",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 105.0,
+      "source_prior": 100.0,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Bryan Spillane",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Andrea Teixeira",
+      "firm": "JPMorgan Chase",
+      "field": "target",
+      "value": 102.0,
+      "source_prior": 103.5,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Andrea Teixeira",
+      "firm": "JPMorgan Chase",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Robert Moskow",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 97.0,
+      "source_prior": 90.0,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Robert Moskow",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Lauren Lieberman",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 95.0,
+      "source_prior": 87.0,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Lauren Lieberman",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Chris Carey",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 95.0,
+      "source_prior": 90.0,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Chris Carey",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.aries.com/stocks/CL"
+    },
+    {
+      "analyst": "Kaumil Gajrawala",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 92.0,
+      "source_prior": null,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/colgate-palmolive-consensus-estimates"
+    },
+    {
+      "analyst": "Kaumil Gajrawala",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/colgate-palmolive-consensus-estimates"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Base Business EPS x P/E (FY2027E Base Business EPS viewed at the 12-month target date in November 2027, anchored on FY2025 Base Business EPS of $3.69 and raised FY2026 guidance of 5%-7% growth)",
+    "bear": 84.0,
+    "base": 105.5,
+    "bull": 118.8,
+    "cases": {
+      "bear": {
+        "driver": "North America volume softness and raw material/packaging inflation compress gross margin expansion",
+        "assumption": "FY2027E Base Business EPS $4.00 at 21.0x P/E",
+        "target": 84.0
+      },
+      "base": {
+        "driver": "5%-7% FY2026 Base Business EPS growth (~$3.91 midpoint) followed by ~8% FY2027 EPS growth on emerging-market resilience and productivity",
+        "assumption": "FY2027E Base Business EPS $4.22 at 25.0x P/E",
+        "target": 105.5
+      },
+      "bull": {
+        "driver": "Stronger organic volume/mix and Hill's Pet Nutrition margin expansion",
+        "assumption": "FY2027E Base Business EPS $4.40 at 27.0x P/E",
+        "target": 118.8
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $4.22, the $99.67 close implies 23.6x; the ~$101-$103 Street consensus target implies ~23.9x-24.4x or EPS $4.04-$4.12 at 25.0x",
+    "sensitivity": "One turn of P/E moves the base target by $4.22 (4.2 pp)",
+    "watch_metric": "Organic net sales growth (volume/mix vs. pricing) and Base Business gross profit margin expansion",
+    "next_disclosure": "Q4 2026 earnings release and FY2026 Form 10-K (expected late January / February 2027)"
+  },
+  "dividend_per_share": 2.12,
+  "analyst_notes": "Following Q3 2026 earnings on October 30, 2026 (Base Business EPS $0.97, up 7% YoY, and raised FY2026 EPS growth guidance of 5%-7%), 9 of 10 tracked analysts raised price targets while maintaining existing Buy/Overweight (6) or Hold/Equal-Weight (4) ratings. Published Street consensus ($101-$103) sits ~2.5-4.5 pp below our $105.50 base case (+5.8%), reflecting a ~0.6-1.1x lower implied multiple on FY2027E EPS of $4.22 amid caution on North America competition and input costs.",
+  "sources": [
+    {
+      "label": "Colgate-Palmolive Q3 2026 Earnings Release (Oct 30, 2026)",
+      "url": "https://investor.colgatepalmolive.com/",
+      "supports": "Q3 2026 Base Business EPS ($0.97), GAAP EPS ($0.94), FY2026 guidance (5%-7% Base Business EPS growth), earnings_at timestamp"
+    },
+    {
+      "label": "Colgate-Palmolive FY2025 Results",
+      "url": "https://investor.colgatepalmolive.com/",
+      "supports": "FY2025 Base Business EPS ($3.69)"
+    },
+    {
+      "label": "Aries / Street Analyst Price Target Revisions (Nov 2026)",
+      "url": "https://www.aries.com/stocks/CL",
+      "supports": "Named analyst target revisions and ratings (UBS, Morgan Stanley, BNP Paribas, RBC, BofA, JPMorgan, TD Cowen, Barclays, Wells Fargo)"
+    },
+    {
+      "label": "Investing.com CL Consensus & Dividend History",
+      "url": "https://www.investing.com/equities/colgate-palmolive-consensus-estimates",
+      "supports": "Jefferies target ($92), 2026 quarterly dividend payments ($0.52/$0.53/$0.53/$0.53 = $2.11 paid; $2.12 annualized run-rate)"
+    }
+  ]
+}

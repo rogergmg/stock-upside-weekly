@@ -1,0 +1,190 @@
+{
+  "issuer_id": "Truist Financial Corporation",
+  "symbol": "TFC",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 49.97,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-16T06:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "David George",
+      "firm": "Baird",
+      "field": "target",
+      "value": 56.0,
+      "issued_at": "2026-07-20",
+      "public_at": "2026-07-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/tfc/forecast/"
+    },
+    {
+      "analyst": "David George",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-07-20",
+      "public_at": "2026-07-20T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/tfc/forecast/"
+    },
+    {
+      "analyst": "Gerard Cassidy",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 51.0,
+      "source_prior": 53.0,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TFC/forecast/"
+    },
+    {
+      "analyst": "Gerard Cassidy",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/TFC/forecast/"
+    },
+    {
+      "analyst": "John Pancari",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 55.0,
+      "source_prior": 54.0,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/tfc/forecast/"
+    },
+    {
+      "analyst": "John Pancari",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/tfc/forecast/"
+    },
+    {
+      "analyst": "Vivek Juneja",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 51.5,
+      "source_prior": 50.5,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/tfc/forecast/"
+    },
+    {
+      "analyst": "Vivek Juneja",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Underweight",
+      "bucket": "Sell",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/tfc/forecast/"
+    },
+    {
+      "analyst": "Erika Najarian",
+      "firm": "UBS",
+      "field": "target",
+      "value": 50.0,
+      "source_prior": 55.0,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/TFC/analyst-ratings"
+    },
+    {
+      "analyst": "Erika Najarian",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/TFC/analyst-ratings"
+    },
+    {
+      "analyst": "Benjamin Gerlinger",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 50.0,
+      "source_prior": 54.0,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/tfc/forecast/"
+    },
+    {
+      "analyst": "Benjamin Gerlinger",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/tfc/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Tangible Book Value per share (TBVPS) x justified P/TBV at the 12-month target date, anchored to Q3 2026 TBVPS of $31.90, 14.6% adjusted ROTCE, and management's 15% 2027 ROTCE target.",
+    "bear": 41.25,
+    "base": 53.48,
+    "bull": 62.13,
+    "cases": {
+      "bear": {
+        "driver": "NIM compression or higher credit losses keep ROTCE near 11-12% and slow TBV accretion",
+        "assumption": "Forward TBVPS $33.00 at 1.25x P/TBV",
+        "target": 41.25
+      },
+      "base": {
+        "driver": "Balance-sheet repositioning and LightStream sale support 15% ROTCE in 2027 with steady capital return",
+        "assumption": "Forward TBVPS $34.50 at 1.55x P/TBV (~10.9x FY2027E EPS of $4.92)",
+        "target": 53.48
+      },
+      "bull": {
+        "driver": "Stronger fee income, buybacks, and faster path toward 16%+ ROTCE",
+        "assumption": "Forward TBVPS $35.50 at 1.75x P/TBV",
+        "target": 62.13
+      }
+    },
+    "implied_by_close": "At the $49.97 close, the market prices TFC at 1.57x Q3 2026 TBVPS ($31.90) and 1.45x base forward TBVPS ($34.50); the named-analyst sample ($50.00-$56.00) implies 1.45x-1.62x base forward TBVPS.",
+    "sensitivity": "Each 0.10x change in P/TBV on $34.50 forward TBVPS moves the base target by $3.45 (6.9 pp).",
+    "watch_metric": "Adjusted ROTCE progression toward 15% and net interest margin (NIM) following the AFS securities repositioning and LightStream sale",
+    "next_disclosure": "Q4 2026 earnings release and early-2027 strategic and financial outlook"
+  },
+  "dividend_per_share": 2.08,
+  "analyst_notes": "Following Q3 2026 earnings on October 16, 2026 (adjusted EPS $1.16 vs. $0.56 GAAP due to the $1.45B AFS securities repositioning loss), several covering analysts trimmed targets into the $50-$55 range (UBS and Citigroup to $50, RBC to $51), while Evercore ISI edged up to $55 and J.P. Morgan to $51.50. The named-analyst targets cluster tightly around our $53.48 base case (+7.0% upside). Note: Baird's David George upgraded TFC to Outperform on November 23, 2026, which is after the November 13, 2026 reference close and excluded from the snapshot.",
+  "sources": [
+    {
+      "label": "Truist Q3 2026 Earnings Release",
+      "url": "https://ir.truist.com/earnings",
+      "supports": "Q3 2026 GAAP EPS ($0.56), adjusted EPS ($1.16), TBVPS ($31.90), adjusted ROTCE (14.6%), and 2027 ROTCE target (15%)"
+    },
+    {
+      "label": "StockAnalysis TFC Analyst Forecasts",
+      "url": "https://www.stockanalysis.com/stocks/tfc/forecast/",
+      "supports": "Named analyst ratings, price targets, and consensus estimates"
+    },
+    {
+      "label": "Benzinga TFC Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/TFC/analyst-ratings",
+      "supports": "Named analyst actions and price target revisions"
+    },
+    {
+      "label": "MarketBeat TFC Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/TFC/forecast/",
+      "supports": "Consensus price target range and RBC Capital target revision"
+    }
+  ]
+}

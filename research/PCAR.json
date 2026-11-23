@@ -1,0 +1,128 @@
+{
+  "issuer_id": "PACCAR Inc",
+  "symbol": "PCAR",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 106.66,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-27T08:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "David Raso",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 134,
+      "source_prior": 162,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/pcar/forecast/"
+    },
+    {
+      "analyst": "David Raso",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/pcar/forecast/"
+    },
+    {
+      "analyst": "Tami Zakaria",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 132,
+      "source_prior": 142,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/pcar/forecast/"
+    },
+    {
+      "analyst": "Tami Zakaria",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/pcar/forecast/"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Financial",
+      "field": "target",
+      "value": 124,
+      "source_prior": 125,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/pcar/forecast/"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Financial",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/pcar/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 diluted EPS viewed at the 12-month target date)",
+    "bear": 89.13,
+    "base": 118.13,
+    "bull": 144.3,
+    "cases": {
+      "bear": {
+        "driver": "Class 8 truck cycle softening, supplier/component constraints, and margin compression",
+        "assumption": "FY2027E EPS $5.75 at 15.5x P/E",
+        "target": 89.13
+      },
+      "base": {
+        "driver": "Normalized 2027 truck build rates, resilient PACCAR Parts growth (3-5%), and stable Financial Services pretax income",
+        "assumption": "FY2027E EPS $6.75 at 17.5x P/E",
+        "target": 118.13
+      },
+      "bull": {
+        "driver": "Emissions-standard pre-buy tailwinds, stronger Class 8 demand, and operating leverage",
+        "assumption": "FY2027E EPS $7.40 at 19.5x P/E",
+        "target": 144.3
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $6.75, the $106.66 close implies 15.8x P/E; the Street consensus target range ($125.10-$131.96) implies 18.5x-19.5x base EPS or $7.15-$7.54 EPS at 17.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $6.75 (6.3 pp).",
+    "watch_metric": "Quarterly Class 8 truck deliveries (Q4 2026 guidance: 41,000-43,000 units) and PACCAR Parts revenue growth.",
+    "next_disclosure": "Q4 2026 / FY2026 earnings release (expected late January 2027)"
+  },
+  "dividend_per_share": 1.4,
+  "analyst_notes": "Following Q3 2026 earnings on October 27, 2026 ($1.61 diluted EPS, record $1.78B Parts revenue, 40,100 truck deliveries), named analysts trimmed price targets to reflect near-term supply constraints and cyclical moderation while largely maintaining constructive ratings for 2027 (Evercore ISI cut from $162 to $134, JPMorgan from $142 to $132, Truist from $125 to $124). Street targets ($124-$134 among these named calls) sit above our $118.13 base case (+10.8% vs. $106.66 close), implying either a higher 18.5x-19.5x multiple on $6.75 EPS or stronger FY2027 EPS.",
+  "sources": [
+    {
+      "label": "PACCAR Q3 2026 Earnings Release",
+      "url": "https://www.paccar.com/news/current-news/",
+      "supports": "Q3 2026 diluted EPS ($1.61), revenue ($7.94B), net income ($847.5M), Parts revenue ($1.78B), truck deliveries (40,100), Q4 delivery guidance (41,000-43,000)"
+    },
+    {
+      "label": "StockAnalysis PCAR Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/pcar/forecast/",
+      "supports": "Named analyst ratings, price targets, and prior targets (David Raso, Tami Zakaria, Jamie Cook)"
+    },
+    {
+      "label": "MarketBeat PCAR Forecast & Consensus",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/PCAR/forecast/",
+      "supports": "FY2026/FY2027 consensus EPS estimates and Street price target range"
+    },
+    {
+      "label": "PACCAR Dividend Information",
+      "url": "https://www.paccar.com/investors/stock-information/",
+      "supports": "Regular quarterly dividend of $0.35/share ($1.40 annualized)"
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "issuer_id": "Carvana Co.",
+  "symbol": "CVNA",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 72.37,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Mike McGovern",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 81,
+      "source_prior": 72,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "horizon_months": 12,
+      "source": "https://www.barchart.com/story/news/29629568/carvana-cvna-stock-price-target-raised-at-bofa"
+    },
+    {
+      "analyst": "Mike McGovern",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "source": "https://www.barchart.com/story/news/29629568/carvana-cvna-stock-price-target-raised-at-bofa"
+    },
+    {
+      "analyst": "John Babcock",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 82,
+      "source_prior": 80,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "John Babcock",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Boone",
+      "firm": "Citizens JMP",
+      "field": "target",
+      "value": 85,
+      "source_prior": 83,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Boone",
+      "firm": "Citizens JMP",
+      "field": "rating",
+      "value": "Market Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Joseph Spak",
+      "firm": "UBS",
+      "field": "target",
+      "value": 84,
+      "source_prior": 83,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Joseph Spak",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Chris Pierce",
+      "firm": "Needham",
+      "field": "target",
+      "value": 100,
+      "source_prior": 120,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Chris Pierce",
+      "firm": "Needham",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Marvin Fong",
+      "firm": "BTIG",
+      "field": "target",
+      "value": 82,
+      "source_prior": 87,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Marvin Fong",
+      "firm": "BTIG",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Michael Baker",
+      "firm": "DA Davidson",
+      "field": "target",
+      "value": 67,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Michael Baker",
+      "firm": "DA Davidson",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "David Lantz",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 75,
+      "source_prior": 80,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "David Lantz",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Daniela Haigian",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 88,
+      "source_prior": 90,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    },
+    {
+      "analyst": "Daniela Haigian",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 Non-GAAP diluted EPS viewed at the 12-month target date)",
+    "bear": 57.6,
+    "base": 77.76,
+    "bull": 100.0,
+    "cases": {
+      "bear": {
+        "driver": "Slower retail unit growth and auto-financing headwinds compress GPU toward ~$6,500",
+        "assumption": "FY2027 EPS $1.80 at 32x",
+        "target": 57.6
+      },
+      "base": {
+        "driver": "~1.05M retail units, ~10% Adjusted EBITDA margin, and $45M annual interest savings from Q3 2026 debt refinancing",
+        "assumption": "FY2027 EPS $2.16 at 36x",
+        "target": 77.76
+      },
+      "bull": {
+        "driver": "Accelerated market-share gains and operating leverage lifting Adjusted EBITDA margin above 10.5%",
+        "assumption": "FY2027 EPS $2.50 at 40x",
+        "target": 100.0
+      }
+    },
+    "implied_by_close": "At the $2.16 base FY2027 EPS, the $72.37 close implies 33.5x; the ~$82.33 analyst-weighted target (across 12-month documented targets) implies 38.1x or $2.29 EPS at 36x.",
+    "sensitivity": "One turn of P/E moves the base target by $2.16 (3.0 pp).",
+    "watch_metric": "Quarterly retail units sold and non-GAAP total gross profit per unit (GPU)",
+    "next_disclosure": "Q4 2026 earnings release and FY2026 Form 10-K (expected February 2027)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Carvana's Q3 2026 beat on October 28, 2026 (217,385 retail units, $800M Adjusted EBITDA), BofA, Barclays, Citizens JMP, and UBS raised targets into the $81-$85 range, while Needham ($120 to $100) and BTIG ($87 to $82) trimmed targets on macro and interest-rate caution. The ~6.3 pp gap between the Street's ~13.8% implied upside and our +7.4% base case reflects a ~2.1x higher implied P/E (38.1x vs. 36x) or ~6% higher FY2027 EPS ($2.29 vs. $2.16). Stifel's November 17, 2026 initiation ($85, Buy) occurred after the November 13 reference close and is excluded.",
+  "sources": [
+    {
+      "label": "Carvana Q3 2026 Earnings Release & Shareholder Letter",
+      "url": "https://investors.carvana.com/news-releases/2026/10-28-2026",
+      "supports": "Q3 2026 revenue, retail units, Adjusted EBITDA, GAAP diluted EPS, GPU, and FY2026 outlook"
+    },
+    {
+      "label": "Carvana Q3 2026 Form 10-Q (SEC)",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0001690820",
+      "supports": "Weighted-average diluted Class A shares (739.91M), cash ($3.049B), and Q3 2026 debt refinancing"
+    },
+    {
+      "label": "BofA Global Research Policies & Disclosures",
+      "url": "https://www.bofa.com/en-us/content/research-disclosures.html",
+      "supports": "Bank of America Securities 12-month target horizon"
+    },
+    {
+      "label": "Barclays Research Important Disclosures",
+      "url": "https://www.barclays.com/important-disclosures.html",
+      "supports": "Barclays 12-month target horizon"
+    },
+    {
+      "label": "UBS Investment Bank Research Disclosures",
+      "url": "https://www.ubs.com/global/en/investment-bank/research-disclosures.html",
+      "supports": "UBS 12-month target horizon"
+    },
+    {
+      "label": "Benzinga / Barchart CVNA Analyst Ratings",
+      "url": "https://www.benzinga.com/analyst-ratings/analyst-color/26/10/carvana-q3-2026-analyst-ratings",
+      "supports": "Dated analyst ratings, price targets, and prior targets"
+    }
+  ]
+}

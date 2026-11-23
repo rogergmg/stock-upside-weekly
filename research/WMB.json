@@ -1,0 +1,208 @@
+{
+  "issuer_id": "The Williams Companies, Inc.",
+  "symbol": "WMB",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 69.09,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-02T16:15:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "John Mackay",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 82,
+      "source_prior": 84,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "John Mackay",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Theresa Chen",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 82,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Theresa Chen",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T17:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Robert Kad",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 103,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Robert Kad",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T17:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Praneeth Satish",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 90,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Praneeth Satish",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Ameet Thakkar",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 86,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Ameet Thakkar",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/wmb/forecast/"
+    },
+    {
+      "analyst": "Robert Catellier",
+      "firm": "CIBC",
+      "field": "target",
+      "value": 82,
+      "source_prior": 85,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://lighthorse.io/stocks/wmb/analyst-ratings/"
+    },
+    {
+      "analyst": "Robert Catellier",
+      "firm": "CIBC",
+      "field": "rating",
+      "value": "Outperformer",
+      "bucket": "Buy",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T17:00:00-04:00",
+      "source": "https://lighthorse.io/stocks/wmb/analyst-ratings/"
+    },
+    {
+      "analyst": "Julien Dumoulin-Smith",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 83,
+      "source_prior": 85,
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://lighthorse.io/stocks/wmb/analyst-ratings/"
+    },
+    {
+      "analyst": "Julien Dumoulin-Smith",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T17:00:00-04:00",
+      "source": "https://lighthorse.io/stocks/wmb/analyst-ratings/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EV / Adjusted EBITDA (FY2027E Adjusted EBITDA viewed at the 12-month target date, less projected net debt, divided by projected diluted shares)",
+    "bear": 63.05,
+    "base": 76.8,
+    "bull": 92.45,
+    "cases": {
+      "bear": {
+        "driver": "Slower LNG and power-demand project ramp with elevated growth capex ($7.3B-$7.9B in 2026) weighing on leverage",
+        "assumption": "FY2027E Adjusted EBITDA $8.80B at 12.5x EV/EBITDA ($110.00B EV), less $31.50B net debt / 1,245M shares",
+        "target": 63.05
+      },
+      "base": {
+        "driver": "Steady execution toward management's 11%+ long-term Adjusted EBITDA CAGR from the $8.3B-$8.5B FY2026 guidance base",
+        "assumption": "FY2027E Adjusted EBITDA $9.35B at 13.5x EV/EBITDA ($126.23B EV), less $31.00B net debt / 1,240M shares",
+        "target": 76.8
+      },
+      "bull": {
+        "driver": "Accelerated Transco expansions, Haynesville gathering volumes, and behind-the-meter AI data center power contracts",
+        "assumption": "FY2027E Adjusted EBITDA $9.80B at 14.8x EV/EBITDA ($145.04B EV), less $30.50B net debt / 1,239M shares",
+        "target": 92.45
+      }
+    },
+    "implied_by_close": "At base FY2027E Adjusted EBITDA ($9.35B) and $31.00B projected net debt, the $69.09 close implies 12.5x EV/EBITDA; named-analyst targets ($82-$103, clustering around $85-$86) imply ~14.7x-14.8x base FY2027E EBITDA or ~$10.2B FY2027E EBITDA at 13.5x.",
+    "sensitivity": "One turn of EV/EBITDA moves the base target by $7.54 (10.9 pp).",
+    "watch_metric": "Full-year 2026 Adjusted EBITDA vs. $8.3B-$8.5B guidance, 2027 Adjusted EBITDA guidance, and year-end net debt-to-Adjusted EBITDA (~3.75x target)",
+    "next_disclosure": "Q4 2026 / Full-Year 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 2.1,
+  "analyst_notes": "Following WMB's Q3 2026 earnings release on November 2, 2026, covering analysts overwhelmingly reiterated Buy/Overweight ratings with targets ranging from $82 to $103 (averaging ~$85-$86), though Goldman Sachs trimmed its target from $84 to $82 on November 13. The ~13-14 pp gap between Street targets and our $76.80 base case (+11.2% upside) reflects higher assumed EV/EBITDA multiples (~14.7x vs. 13.5x) or faster 2027 EBITDA realization from data-center power and Transco projects.",
+  "sources": [
+    {
+      "label": "Williams Q3 2026 Earnings Release (Nov 2, 2026)",
+      "url": "https://www.williams.com/2026/11/02/williams-reports-third-quarter-2026-results/",
+      "supports": "Q3 2026 Adjusted EBITDA, Adjusted EPS, AFFO, and FY2026 guidance"
+    },
+    {
+      "label": "Williams Q3 2026 Form 10-Q (SEC)",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0000107263",
+      "supports": "Balance sheet cash ($1,756M), long-term debt ($31,732M), and diluted shares (1,239M)"
+    },
+    {
+      "label": "StockAnalysis WMB Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/wmb/forecast/",
+      "supports": "Named analyst ratings and price targets (Goldman Sachs, Barclays, Morgan Stanley, Wells Fargo, BMO Capital)"
+    },
+    {
+      "label": "Lighthorse WMB Analyst Ratings",
+      "url": "https://lighthorse.io/stocks/wmb/analyst-ratings/",
+      "supports": "Named analyst ratings and price targets (CIBC, Jefferies)"
+    }
+  ]
+}

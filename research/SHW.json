@@ -1,0 +1,149 @@
+{
+  "issuer_id": "The Sherwin-Williams Company",
+  "symbol": "SHW",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 349.89,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-27T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Patrick Cunningham",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 370,
+      "source_prior": 400,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/shw/forecast/"
+    },
+    {
+      "analyst": "Patrick Cunningham",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/shw/forecast/"
+    },
+    {
+      "analyst": "Arun Viswanathan",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 383,
+      "source_prior": 392,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/shw/forecast/"
+    },
+    {
+      "analyst": "Arun Viswanathan",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/shw/forecast/"
+    },
+    {
+      "analyst": "Jeffrey Zekauskas",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 375,
+      "source_prior": 380,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/shw/forecast/"
+    },
+    {
+      "analyst": "Jeffrey Zekauskas",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/shw/forecast/"
+    },
+    {
+      "analyst": "Joshua Spector",
+      "firm": "UBS",
+      "field": "target",
+      "value": 370,
+      "source_prior": 363,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/shw/forecast/"
+    },
+    {
+      "analyst": "Joshua Spector",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/shw/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 300.0,
+    "base": 353.78,
+    "bull": 411.8,
+    "cases": {
+      "bear": {
+        "driver": "Prolonged housing/DIY softness and raw material cost pressure compress Paint Stores Group margins",
+        "assumption": "FY2027 adjusted EPS $12.50 at 24.0x",
+        "target": 300.0
+      },
+      "base": {
+        "driver": "Steady Paint Stores Group same-store sales (~4%) and gradual margin recovery off FY2026E $12.00 midpoint",
+        "assumption": "FY2027 adjusted EPS $13.35 at 26.5x",
+        "target": 353.78
+      },
+      "bull": {
+        "driver": "Stronger commercial/residential repainting volume and operating leverage",
+        "assumption": "FY2027 adjusted EPS $14.20 at 29.0x",
+        "target": 411.8
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $13.35, the $349.89 close implies 26.2x; at 26.5x, the close implies $13.20 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $13.35 (3.8 pp).",
+    "watch_metric": "Paint Stores Group same-store sales growth (3.9% YoY in Q3 2026) and segment profit margin (24.3% in Q3 2026).",
+    "next_disclosure": "Q4 2026 earnings release (projected late January 2027)."
+  },
+  "dividend_per_share": 3.2,
+  "analyst_notes": "Following Q3 2026 earnings on October 27, 2026, named analysts largely trimmed price targets (Citi to $370 from $400, RBC to $383 from $392, JPMorgan to $375 from $380) while maintaining Buy/Outperform/Overweight ratings, whereas UBS raised its target to $370 from $363 with a Neutral rating. Other firms without attributed analyst names in our sources (DA Davidson $390, Guggenheim $375, Barclays $329) also cut targets post-earnings. The ~$374.50 average of the four named targets sits ~6 pp above our $353.78 base case, which would require ~28.1x our $13.35 base EPS or ~$14.13 EPS at 26.5x.",
+  "sources": [
+    {
+      "label": "Sherwin-Williams Q3 2026 Earnings Release",
+      "url": "https://investors.sherwin-williams.com/press-releases/",
+      "supports": "Q3 2026 EPS ($3.38 GAAP / $3.63 adj), net sales ($6.86B), FY2026 EPS guidance ($11.85-$12.15 adj)"
+    },
+    {
+      "label": "StockAnalysis SHW Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/shw/forecast/",
+      "supports": "Post-Q3 2026 analyst rating and price target updates (Citigroup, RBC Capital, JPMorgan, UBS)"
+    },
+    {
+      "label": "Seeking Alpha SHW Earnings Estimates",
+      "url": "https://seekingalpha.com/symbol/SHW/earnings/estimates",
+      "supports": "FY2027 consensus EPS estimates ($13.18-$13.50)"
+    },
+    {
+      "label": "Morningstar SHW Dividends",
+      "url": "https://www.morningstar.com/stocks/xnys/shw/dividends",
+      "supports": "2026 quarterly dividend of $0.80/share ($3.20 annualized)"
+    }
+  ]
+}

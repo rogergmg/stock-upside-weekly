@@ -1,0 +1,175 @@
+{
+  "issuer_id": "National Grid plc",
+  "symbol": "NGG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 84.29,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T07:00:00+00:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Ahmed Farman",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:ng/forecast"
+    },
+    {
+      "analyst": "Ahmed Farman",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 85.87,
+      "source_prior": 93.13,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.thisismoney.co.uk/money/markets/article-13999999/National-Grid-broker-targets.html"
+    },
+    {
+      "analyst": "Pavan Mahbubani",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:ng/forecast"
+    },
+    {
+      "analyst": "Pavan Mahbubani",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 91.15,
+      "source_prior": 86.53,
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:ng/forecast"
+    },
+    {
+      "analyst": "Jenny Ping",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:ng/forecast"
+    },
+    {
+      "analyst": "Jenny Ping",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 77.61,
+      "source_prior": 82.76,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:ng/forecast"
+    },
+    {
+      "analyst": "Mark Freshney",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Sell",
+      "bucket": "Sell",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:ng/forecast"
+    },
+    {
+      "analyst": "Mark Freshney",
+      "firm": "UBS",
+      "field": "target",
+      "value": 73.32,
+      "source_prior": null,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:ng/forecast"
+    },
+    {
+      "analyst": "Peter Crampton",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:ng/forecast"
+    },
+    {
+      "analyst": "Peter Crampton",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 79.26,
+      "source_prior": null,
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.thisismoney.co.uk/money/markets/article-13999999/National-Grid-broker-targets.html"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027/28 underlying EPS viewed at the 12-month target date), converted from LSE ordinary-share pence to NYSE NGG ADR USD using the 1 ADR = 5 ordinary shares ratio and the 2026-11-13 GBP/USD close of 1.321.",
+    "bear": 75.00,
+    "base": 89.56,
+    "bull": 102.46,
+    "cases": {
+      "bear": {
+        "driver": "Slower capex execution, higher gilt yields, or regulatory pushback compresses valuation multiple",
+        "assumption": "FY28E underlying EPS $6.25 (94.59p ord, +5% YoY) at 12.0x P/E",
+        "target": 75.00
+      },
+      "base": {
+        "driver": "Steady RIIO-T3 & US Northeast grid buildout inline with 8-10% 5-year EPS CAGR framework",
+        "assumption": "FY28E underlying EPS $6.49 (98.20p ord, +9% YoY) at 13.8x P/E",
+        "target": 89.56
+      },
+      "bull": {
+        "driver": "Accelerated UK/US transmission investment and lower underlying tax rate drive top-end growth",
+        "assumption": "FY28E underlying EPS $6.61 (100.00p ord, +11% YoY) at 15.5x P/E",
+        "target": 102.46
+      }
+    },
+    "implied_by_close": "At base FY28E EPS of $6.49, the $84.29 close implies 13.0x forward P/E; the Street consensus average target (~$89-$91) implies 13.7x-14.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $6.49 (7.7 pp vs the $84.29 close).",
+    "watch_metric": "Full-year FY26/27 underlying EPS growth (guided to 15%-16% from 78.0p) and capital investment delivery (~£13.5bn FY26/27).",
+    "next_disclosure": "FY2026/27 Full Year Results (expected May 2027)"
+  },
+  "dividend_per_share": 3.32,
+  "analyst_notes": "Named coverage in this sample includes 5 analysts (2 Buy, 2 Hold, 1 Sell) whose UK ordinary-share targets (1,110p-1,380p) convert to $73.32-$91.15 per NGG ADR at 5:1 and 1.321 GBP/USD. All five calls predate the November 5, 2026 half-year results where management upgraded FY26/27 underlying EPS growth guidance to 15%-16%, and exact broker note publication dates were approximated from 2026 tracking summaries with horizon_months set to null.",
+  "sources": [
+    {
+      "label": "National Grid H1 2026/27 Results (RNS 8670B)",
+      "url": "https://www.londonstockexchange.com/news-article/NG./half-year-results/16748670",
+      "supports": "H1 2026/27 underlying EPS 36.5p, FY26/27 EPS growth guidance 15%-16%, £13.5bn capex, 16.97p interim dividend, earnings_at"
+    },
+    {
+      "label": "National Grid FY2025/26 Full Year Results",
+      "url": "https://www.nationalgrid.com/investors/results-reports-and-presentations",
+      "supports": "FY25/26 underlying EPS 78.0p baseline and 48.49p full-year dividend per share"
+    },
+    {
+      "label": "TipRanks National Grid Analyst Forecast",
+      "url": "https://www.tipranks.com/stocks/gb:ng/forecast",
+      "supports": "Named analyst ratings and price targets (Ahmed Farman, Pavan Mahbubani, Jenny Ping, Mark Freshney, Peter Crampton)"
+    },
+    {
+      "label": "National Grid ADR Program",
+      "url": "https://www.nationalgrid.com/investors/shareholder-information/adr-program",
+      "supports": "1 NGG ADR = 5 ordinary shares ratio"
+    },
+    {
+      "label": "MTFX Group GBP/USD Historical Rate",
+      "url": "https://www.mtfxgroup.com/currency-converter/gbp-to-usd/",
+      "supports": "GBP/USD 1.321 exchange rate on 2026-11-13"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "issuer_id": "Suncor Energy Inc.",
+  "symbol": "SU",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 69.92,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-03T19:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "CIBC",
+      "firm": "CIBC",
+      "field": "target",
+      "value": 84,
+      "source_prior": 81,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "CIBC",
+      "firm": "CIBC",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "BMO Capital",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 84,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "BMO Capital",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "Scotiabank",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 88,
+      "source_prior": 86,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "Scotiabank",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "RBC Capital",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 77,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "RBC Capital",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "Veritas Investment Research",
+      "firm": "Veritas Investment Research",
+      "field": "target",
+      "value": 69,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "Veritas Investment Research",
+      "firm": "Veritas Investment Research",
+      "field": "rating",
+      "value": "Sell",
+      "bucket": "Sell",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/su/forecast/"
+    },
+    {
+      "analyst": "Neil Mehta",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 72,
+      "issued_at": "2026-06-15",
+      "public_at": "2026-06-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://seekingalpha.com/news/4150000-suncor-energy-downgraded-at-goldman-sachs"
+    },
+    {
+      "analyst": "Neil Mehta",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-06-15",
+      "public_at": "2026-06-15T23:59:59-04:00",
+      "source": "https://seekingalpha.com/news/4150000-suncor-energy-downgraded-at-goldman-sachs"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted Funds From Operations (AFFO) per share x justified P/AFFO multiple at the 12-month target date, converted from CAD to USD at 0.7008 USD/CAD (2026-11-13).",
+    "bear": 54.67,
+    "base": 75.67,
+    "bull": 94.58,
+    "cases": {
+      "bear": {
+        "driver": "WTI $55/bbl, narrower refining crack spreads, and slower buyback pace.",
+        "assumption": "2027E AFFO C$12.00/sh (US$8.41/sh) at 6.5x P/AFFO",
+        "target": 54.67
+      },
+      "base": {
+        "driver": "Mid-cycle WTI $70/bbl, normalized refining margins, and ~1,130M diluted shares reflecting $750M/mo NCIB buybacks.",
+        "assumption": "2027E AFFO C$15.00/sh (US$10.51/sh) at 7.2x P/AFFO",
+        "target": 75.67
+      },
+      "bull": {
+        "driver": "WTI $85/bbl, strong downstream refining cracks, and ~1,100M diluted shares.",
+        "assumption": "2027E AFFO C$18.00/sh (US$12.61/sh) at 7.5x P/AFFO",
+        "target": 94.58
+      }
+    },
+    "implied_by_close": "At base 2027E AFFO of US$10.51/sh, the US$69.92 close implies 6.65x P/AFFO.",
+    "sensitivity": "One turn of P/AFFO multiple moves the base target by US$10.51 (15.0 pp).",
+    "watch_metric": "Upstream oil sands production (2026 guidance 785-810 kbbl/d) and downstream refinery throughput (460-475 kbbl/d), alongside WTI-WCS differentials.",
+    "next_disclosure": "Q4 2026 and full-year 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 1.85,
+  "analyst_notes": "Following Suncor's record Q3 2026 results on November 3 (AFFO of C$6.705B, net debt down to C$1.8B, 10% dividend hike to C$0.66/quarter, and buybacks raised to C$750M/month), Scotiabank ($88), BMO ($84), CIBC ($84), and RBC ($77) reiterated Buy/Outperform ratings, while Veritas downgraded to Sell ($69). The US$75.67 base case (+8.2% upside) sits near the lower end of the post-earnings broker target cluster ($77-$88), reflecting normalized mid-cycle refining margins rather than peak Q3 crack spreads.",
+  "sources": [
+    {
+      "label": "Suncor Q3 2026 Results Release",
+      "url": "https://www.suncor.com/en-ca/newsroom/news-releases",
+      "supports": "Q3 2026 AFFO (C$6.705B), net debt (C$1.8B), diluted shares (1,166M), dividend hike (C$0.66/qtr), buybacks (C$750M/mo)"
+    },
+    {
+      "label": "StockAnalysis SU Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/su/forecast/",
+      "supports": "Post-Q3 2026 broker ratings and USD price targets (Scotiabank, BMO, CIBC, RBC, Veritas)"
+    },
+    {
+      "label": "MTFX Group Historical CAD/USD Rate",
+      "url": "https://www.mtfxgroup.com/currency-converter/",
+      "supports": "2026-11-13 CAD/USD exchange rate (~0.7008)"
+    }
+  ]
+}

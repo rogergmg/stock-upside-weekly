@@ -1,0 +1,188 @@
+{
+  "issuer_id": "Autodesk, Inc.",
+  "symbol": "ADSK",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 264.42,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-08-27T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Brent Thill",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 325,
+      "source_prior": 300,
+      "issued_at": "2026-11-08",
+      "public_at": "2026-11-08T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/adsk/forecast/"
+    },
+    {
+      "analyst": "Brent Thill",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-08",
+      "public_at": "2026-11-08T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/adsk/forecast/"
+    },
+    {
+      "analyst": "Tomer Zilberman",
+      "firm": "Bank of America",
+      "field": "target",
+      "value": 300,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/adsk/forecast/"
+    },
+    {
+      "analyst": "Tomer Zilberman",
+      "firm": "Bank of America",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/adsk/forecast/"
+    },
+    {
+      "analyst": "Tyler Radke",
+      "firm": "Citi",
+      "field": "target",
+      "value": 276,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/adsk/forecast/"
+    },
+    {
+      "analyst": "Tyler Radke",
+      "firm": "Citi",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/adsk/forecast/"
+    },
+    {
+      "analyst": "Billy Fitzsimmons",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 300,
+      "source_prior": 338,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/adsk/forecast/"
+    },
+    {
+      "analyst": "Billy Fitzsimmons",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/adsk/forecast/"
+    },
+    {
+      "analyst": "Mason Marion",
+      "firm": "Cantor Fitzgerald",
+      "field": "target",
+      "value": 215,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/news/adsk-cantor-fitzgerald-neutral"
+    },
+    {
+      "analyst": "Mason Marion",
+      "firm": "Cantor Fitzgerald",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "source": "https://www.gurufocus.com/news/adsk-cantor-fitzgerald-neutral"
+    },
+    {
+      "analyst": "Taylor McGinnis",
+      "firm": "UBS",
+      "field": "target",
+      "value": 325,
+      "source_prior": 290,
+      "issued_at": "2026-08-28",
+      "public_at": "2026-08-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/ADSK/forecast/"
+    },
+    {
+      "analyst": "Taylor McGinnis",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-28",
+      "public_at": "2026-08-28T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/ADSK/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward non-GAAP EPS x justified P/E (FY2028 EPS viewed at the 12-month target date)",
+    "bear": 229.50,
+    "base": 289.40,
+    "bull": 341.00,
+    "cases": {
+      "bear": {
+        "driver": "Macro slowdown in AEC/manufacturing, MaintainX integration drag, or billings transition headwinds",
+        "assumption": "FY2028 non-GAAP EPS $13.50 at 17x P/E",
+        "target": 229.50
+      },
+      "base": {
+        "driver": "Steady ~15% EPS growth over FY2027 guidance midpoint ($12.56) with ~39%+ non-GAAP operating margin",
+        "assumption": "FY2028 non-GAAP EPS $14.47 at 20x P/E",
+        "target": 289.40
+      },
+      "bull": {
+        "driver": "Accelerated construction cloud and AI monetization with stronger operating leverage",
+        "assumption": "FY2028 non-GAAP EPS $15.50 at 22x P/E",
+        "target": 341.00
+      }
+    },
+    "implied_by_close": "At base FY2028 EPS of $14.47, the $264.42 close implies 18.3x P/E; the published consensus target (~$308-$320) implies 21.3x-22.1x base EPS, or $15.40-$16.00 EPS at 20x.",
+    "sensitivity": "One turn of P/E moves the base target by $14.47 (5.5 pp of price return).",
+    "watch_metric": "Constant-currency billings growth and non-GAAP operating margin (~39% FY2027 target)",
+    "next_disclosure": "Q3 FY2027 earnings release on 2026-11-24 after market close"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q2 FY2027 earnings on August 27, 2026, UBS raised its target to $325 and Jefferies raised to $325 in November, while Piper Sandler trimmed its target to $300 upon assuming coverage and Cantor Fitzgerald initiated at Neutral with a $215 target. Published Street consensus targets (~$308-$320) sit ~7-12 pp above our $289.40 base case (+9.4% upside), reflecting higher assumed multiples (21x-22x) or stronger FY2028 EPS than our 20x base case.",
+  "sources": [
+    {
+      "label": "Autodesk Q2 FY2027 Earnings Release (Aug 27, 2026)",
+      "url": "https://investors.autodesk.com/news-releases",
+      "supports": "Q2 FY2027 actuals, FY2027 non-GAAP EPS guidance ($12.52-$12.60), FCF guidance ($2.725B-$2.750B)"
+    },
+    {
+      "label": "StockAnalysis ADSK Forecast",
+      "url": "https://stockanalysis.com/stocks/adsk/forecast/",
+      "supports": "Named analyst targets and ratings (Jefferies, BofA, Citi, Piper Sandler)"
+    },
+    {
+      "label": "MarketBeat ADSK Forecast",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ADSK/forecast/",
+      "supports": "UBS target revision and consensus price target range"
+    },
+    {
+      "label": "WallStreetZen ADSK FY2028 Consensus",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/adsk/earnings-forecast",
+      "supports": "FY2028 consensus EPS estimate (~$14.47)"
+    }
+  ]
+}

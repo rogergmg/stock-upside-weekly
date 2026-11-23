@@ -1,0 +1,191 @@
+{
+  "issuer_id": "Johnson Controls International plc",
+  "symbol": "JCI",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 139.33,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-27T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Stephen Tusa",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 200,
+      "source_prior": 186,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/"
+    },
+    {
+      "analyst": "Stephen Tusa",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.investing.com/news/analyst-ratings/"
+    },
+    {
+      "analyst": "Andrew Kaplowitz",
+      "firm": "Citi",
+      "field": "target",
+      "value": 172,
+      "source_prior": 170,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/jci/forecast"
+    },
+    {
+      "analyst": "Andrew Kaplowitz",
+      "firm": "Citi",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/jci/forecast"
+    },
+    {
+      "analyst": "Varun Govindaraj",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 194,
+      "source_prior": 190,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/jci/forecast/"
+    },
+    {
+      "analyst": "Varun Govindaraj",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/jci/forecast/"
+    },
+    {
+      "analyst": "Joe Ritchie",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 191,
+      "source_prior": null,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/JCI/forecast/"
+    },
+    {
+      "analyst": "Joe Ritchie",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/JCI/forecast/"
+    },
+    {
+      "analyst": "Amit Mehrotra",
+      "firm": "UBS",
+      "field": "target",
+      "value": 180,
+      "source_prior": 170,
+      "issued_at": "2026-07-30",
+      "public_at": "2026-07-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/JCI/analyst-ratings"
+    },
+    {
+      "analyst": "Amit Mehrotra",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-07-30",
+      "public_at": "2026-07-30T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/JCI/analyst-ratings"
+    },
+    {
+      "analyst": "Toby Okwara",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 180,
+      "source_prior": 175,
+      "issued_at": "2026-08-01",
+      "public_at": "2026-08-01T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/JCI/forecast/"
+    },
+    {
+      "analyst": "Toby Okwara",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-08-01",
+      "public_at": "2026-08-01T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/JCI/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2027E Adjusted EPS viewed at the 12-month target date)",
+    "bear": 124.95,
+    "base": 155.75,
+    "bull": 182.0,
+    "cases": {
+      "bear": {
+        "driver": "Slower data center backlog conversion or macro industrial softness",
+        "assumption": "FY2027E Adjusted EPS $5.95 at 21.0x P/E",
+        "target": 124.95
+      },
+      "base": {
+        "driver": "Execution on FY2027 guidance (11%-12% organic growth, >30% operating leverage)",
+        "assumption": "FY2027E Adjusted EPS $6.23 (guidance midpoint) at 25.0x P/E",
+        "target": 155.75
+      },
+      "bull": {
+        "driver": "Accelerated $23.0B backlog conversion and margin upside",
+        "assumption": "FY2027E Adjusted EPS $6.50 at 28.0x P/E",
+        "target": 182.0
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS ($6.23), the $139.33 close implies 22.4x forward P/E; the $175-$180 consensus target range implies 28.1x-28.9x P/E or $7.00-$7.20 EPS at 25.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $6.23 (4.5 pp).",
+    "watch_metric": "Organic revenue growth (guided 11%-12% for FY2027) and $23.0B backlog conversion",
+    "next_disclosure": "Q1 FY2027 earnings release (expected late January / early February 2027)"
+  },
+  "dividend_per_share": 1.6,
+  "analyst_notes": "Following Q4 FY2026 earnings on October 27, 2026, Wells Fargo (Stephen Tusa) raised its target to $200, Bernstein (Varun Govindaraj) raised to $194, and Citi (Andrew Kaplowitz) nudged to $172 while remaining Neutral. Street targets cluster in the $172-$200 range, sitting ~10-28 pp above our $155.75 base case because brokers are willing to underwrite 28x+ multiples or above-guidance FY2028 earnings on data center thermal demand.",
+  "sources": [
+    {
+      "label": "JCI Q4 FY2026 Earnings Release (Oct 27, 2026)",
+      "url": "https://investors.johnsoncontrols.com/",
+      "supports": "Q4 FY2026 EPS, FY2027 guidance, $23.0B backlog"
+    },
+    {
+      "label": "JCI FY2026 Form 10-K Share Count",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0000833444",
+      "supports": "600,199,736 ordinary shares outstanding as of Oct 31, 2026"
+    },
+    {
+      "label": "TipRanks JCI Analyst Forecast",
+      "url": "https://www.tipranks.com/stocks/jci/forecast",
+      "supports": "Analyst ratings and price targets"
+    },
+    {
+      "label": "StockAnalysis JCI Forecast",
+      "url": "https://stockanalysis.com/stocks/jci/forecast/",
+      "supports": "Analyst ratings and price targets"
+    }
+  ]
+}

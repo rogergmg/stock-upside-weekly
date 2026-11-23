@@ -1,0 +1,190 @@
+{
+  "issuer_id": "The Allstate Corporation",
+  "symbol": "ALL",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 267.64,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-04T16:15:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Yaron Kinar",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 311,
+      "source_prior": 295,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com"
+    },
+    {
+      "analyst": "Yaron Kinar",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.gurufocus.com"
+    },
+    {
+      "analyst": "Michael Zaremski",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 304,
+      "source_prior": 284,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com"
+    },
+    {
+      "analyst": "Michael Zaremski",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com"
+    },
+    {
+      "analyst": "Paul Newsome",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 294,
+      "source_prior": 300,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com"
+    },
+    {
+      "analyst": "Paul Newsome",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.investing.com"
+    },
+    {
+      "analyst": "Meyer Shields",
+      "firm": "KBW",
+      "field": "target",
+      "value": 241,
+      "source_prior": 232,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com"
+    },
+    {
+      "analyst": "Meyer Shields",
+      "firm": "KBW",
+      "field": "rating",
+      "value": "Underperform",
+      "bucket": "Sell",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.marketbeat.com"
+    },
+    {
+      "analyst": "Jimmy Bhullar",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 291,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tradingview.com"
+    },
+    {
+      "analyst": "Jimmy Bhullar",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.tradingview.com"
+    },
+    {
+      "analyst": "Bob Huang",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 275,
+      "source_prior": 260,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com"
+    },
+    {
+      "analyst": "Bob Huang",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.marketbeat.com"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 237.5,
+    "base": 285.0,
+    "bull": 336.0,
+    "cases": {
+      "bear": {
+        "driver": "Auto pricing competition, higher catastrophe losses, and faster underwriting margin normalization",
+        "assumption": "FY2027 EPS $25.00 at 9.5x P/E",
+        "target": 237.5
+      },
+      "base": {
+        "driver": "Gradual underwriting margin normalization from peak 2026 levels, steady policy-in-force growth, and ongoing share repurchases",
+        "assumption": "FY2027 EPS $28.50 at 10.0x P/E",
+        "target": 285.0
+      },
+      "bull": {
+        "driver": "Sustained favorable combined ratios, benign catastrophe losses, and continued investment income strength",
+        "assumption": "FY2027 EPS $32.00 at 10.5x P/E",
+        "target": 336.0
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $28.50, the $267.64 close implies 9.39x forward P/E; the Street consensus target (~$273.06) implies 9.58x at base EPS (or $27.31 EPS at 10.0x).",
+    "sensitivity": "One turn of P/E moves the base target by $28.50 (10.6 pp of price return).",
+    "watch_metric": "Property-Liability recorded combined ratio (86.6% in Q3 2026) and auto underlying combined ratio (91.4% in Q3 2026)",
+    "next_disclosure": "Q4 2026 earnings release (estimated February 3, 2027)"
+  },
+  "dividend_per_share": 4.32,
+  "analyst_notes": "Following Allstate's Q3 2026 earnings beat ($9.76 adjusted EPS vs. $8.03 GAAP EPS) on November 4, 2026, most covering analysts raised targets (Mizuho to $311, BMO to $304, Morgan Stanley to $275, KBW to $241), while Piper Sandler trimmed its target to $294 on auto pricing adjustments. The Street consensus target (~$273.06) sits 4.5 pp below our $285.00 base case (+2.0% vs. +6.5% upside), reflecting a ~0.4x lower implied multiple (9.58x vs. 10.0x) on $28.50 base EPS due to caution around catastrophe loss volatility and auto margin normalization.",
+  "sources": [
+    {
+      "label": "Allstate Q3 2026 Earnings Release (Nov 4, 2026)",
+      "url": "https://www.allstateinvestors.com",
+      "supports": "Q3 2026 EPS ($9.76 adj / $8.03 GAAP), combined ratio (86.6%), book value ($120.23), share count (248.8M)"
+    },
+    {
+      "label": "Allstate 2026 Quarterly Dividend History",
+      "url": "https://www.morningstar.com",
+      "supports": "Quarterly dividend $1.08/share ($4.32 annualized)"
+    },
+    {
+      "label": "Allstate FY2027 Consensus EPS & Analyst Targets",
+      "url": "https://www.marketbeat.com",
+      "supports": "FY2027 EPS estimates and November 2026 analyst target revisions"
+    },
+    {
+      "label": "Allstate Analyst Ratings & Consensus",
+      "url": "https://www.tipranks.com",
+      "supports": "Consensus price target (~$273.06) and rating distribution"
+    }
+  ]
+}

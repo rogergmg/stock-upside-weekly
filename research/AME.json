@@ -1,0 +1,159 @@
+{
+  "issuer_id": "AMETEK, Inc.",
+  "symbol": "AME",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 242.11,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-03T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Financial",
+      "field": "target",
+      "value": 329,
+      "source_prior": 316,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/ame/forecast/"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Financial",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/ame/forecast/"
+    },
+    {
+      "analyst": "Quinn Fredrickson",
+      "firm": "Robert W. Baird",
+      "field": "target",
+      "value": 272,
+      "source_prior": 280,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/ame/forecast/"
+    },
+    {
+      "analyst": "Quinn Fredrickson",
+      "firm": "Robert W. Baird",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/ame/forecast/"
+    },
+    {
+      "analyst": "Jeff Reive",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 308,
+      "source_prior": 291,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/ame/forecast/"
+    },
+    {
+      "analyst": "Jeff Reive",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/ame/forecast/"
+    },
+    {
+      "analyst": "Daniel DiCicco",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 302,
+      "source_prior": 282,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/ame/forecast/"
+    },
+    {
+      "analyst": "Daniel DiCicco",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/ame/forecast/"
+    },
+    {
+      "analyst": "Christopher Glynn",
+      "firm": "Oppenheimer",
+      "field": "rating",
+      "value": "Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-01-27",
+      "public_at": "2026-01-27T23:59:59-05:00",
+      "source": "https://www.gurufocus.com/news/2670671/ametek-ame-downgraded-by-oppenheimer"
+    }
+  ],
+  "valuation": {
+    "method": "Forward adjusted diluted EPS x P/E (FY2027 EPS viewed at the 12-month target date)",
+    "bear": 211.2,
+    "base": 266.0,
+    "bull": 313.1,
+    "cases": {
+      "bear": {
+        "driver": "Industrial demand slowdown and slower Indicor integration limit FY2027 EPS growth to ~3% over FY2026 guidance ($8.55 midpoint).",
+        "assumption": "FY2027 adjusted EPS $8.80 at 24.0x P/E",
+        "target": 211.2
+      },
+      "base": {
+        "driver": "Steady organic growth in EIG and EMG with core operating margins sustained near 26-27%, tracking FY2027 consensus.",
+        "assumption": "FY2027 adjusted EPS $9.50 at 28.0x P/E",
+        "target": 266.0
+      },
+      "bull": {
+        "driver": "Stronger Aerospace & Defense and niche instrumentation demand plus M&A synergies drive double-digit EPS upside.",
+        "assumption": "FY2027 adjusted EPS $10.10 at 31.0x P/E",
+        "target": 313.1
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $9.50, the $242.11 close implies 25.5x forward P/E.",
+    "sensitivity": "One turn of P/E moves the base target by $9.50 (3.9 pp of price return).",
+    "watch_metric": "Organic order growth and core operating margin in Electronic Instruments Group (EIG) and Electromechanical Group (EMG)",
+    "next_disclosure": "Q4 2026 earnings release (expected early February 2027)"
+  },
+  "dividend_per_share": 1.36,
+  "analyst_notes": "Following Q3 2026 earnings on November 3, 2026 (record $2.22B sales, $2.21 adjusted EPS, and raised FY2026 guidance of $8.53-$8.57), Truist ($329), RBC ($308), and BMO ($302) raised targets while Baird trimmed to $272 (Hold). Street targets cluster around $285-$289, above the $266.00 base case (+9.9% vs. +18% to +20% Street implied upside), reflecting higher assumed multiples (30x+ vs. 28.0x base) on FY2027 consensus EPS of ~$9.52.",
+  "sources": [
+    {
+      "label": "AMETEK Q3 2026 Earnings Release",
+      "url": "https://www.ametek.com/pressreleases/2026/november/ametek-announces-record-third-quarter-2026-results",
+      "supports": "Q3 2026 revenue ($2.22B), GAAP EPS ($1.85), adjusted EPS ($2.21), FY2026 guidance ($8.53-$8.57)"
+    },
+    {
+      "label": "StockAnalysis AME Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/ame/forecast/",
+      "supports": "Named analyst targets and ratings for Truist, RBC, BMO, and Baird"
+    },
+    {
+      "label": "MarketBeat AME Consensus & FY2027 Estimates",
+      "url": "https://www.marketbeat.com/stocks/NYSE/AME/forecast/",
+      "supports": "FY2027 consensus EPS (~$9.52) and dividend history ($0.34/quarter)"
+    },
+    {
+      "label": "GuruFocus Oppenheimer Downgrade",
+      "url": "https://www.gurufocus.com/news/2670671/ametek-ame-downgraded-by-oppenheimer",
+      "supports": "Oppenheimer downgrade to Perform on 2026-01-27"
+    }
+  ]
+}

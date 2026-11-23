@@ -1,0 +1,64 @@
+{
+  "issuer_id": "RELX PLC",
+  "symbol": "RELX",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 40.51,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-22T07:00:00+01:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2027E EPS viewed at the 12-month target date). RELX PLC NYSE ADR ratio is 1:1 with LSE ordinary shares; GBP figures converted to USD at the 2026-11-13 GBP/USD close of 1.3217.",
+    "bear": 33.32,
+    "base": 45.10,
+    "bull": 53.50,
+    "cases": {
+      "bear": {
+        "driver": "Slower Legal/Risk AI monetization and macro headwinds compress growth to ~5% and multiple to 17.0x.",
+        "assumption": "FY2027E Adjusted EPS £1.48 ($1.96 at 1.3217 GBP/USD) at 17.0x P/E",
+        "target": 33.32
+      },
+      "base": {
+        "driver": "Sustained ~7% underlying revenue growth, 35.5%+ operating margin, and £2.25B share buyback execution.",
+        "assumption": "FY2027E Adjusted EPS £1.55 ($2.05 at 1.3217 GBP/USD) at 22.0x P/E",
+        "target": 45.10
+      },
+      "bull": {
+        "driver": "Accelerated Lexis+ AI adoption in Legal (+10% H1 2026) and Risk (+8%) drives operating leverage and re-rating.",
+        "assumption": "FY2027E Adjusted EPS £1.62 ($2.14 at 1.3217 GBP/USD) at 25.0x P/E",
+        "target": 53.50
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $2.05 (£1.55 at 1.3217 GBP/USD), the $40.51 close implies 19.8x forward P/E.",
+    "sensitivity": "One turn of P/E moves the base target by $2.05 (5.1 pp of price return).",
+    "watch_metric": "Underlying revenue growth in Legal (+10% in H1 2026) and Risk (+8% in H1 2026), plus adjusted operating margin (35.5% in H1 2026).",
+    "next_disclosure": "FY 2026 full-year results expected on February 18, 2027."
+  },
+  "dividend_per_share": 0.91,
+  "analyst_notes": "Individual named analyst records with dated US-listing targets were unavailable; firm-level coverage on LSE: REL (converted at 1.3217 GBP/USD) shows Buy/Overweight ratings from JPMorgan (5,070p), UBS (3,780p), Barclays (3,400p), and Goldman Sachs (3,100p), alongside Hold/Neutral ratings from Citigroup (3,125p) and Morgan Stanley (2,990p) reiterated in Oct-Nov 2026. Because named analyst histories could not be verified, events are left empty and coverage is marked unavailable.",
+  "sources": [
+    {
+      "label": "RELX H1 2026 Interim Results",
+      "url": "https://www.relx.com/investors/results-and-presentations",
+      "supports": "H1 2026 revenue £4,871m, adjusted operating profit £1,727m, 35.5% margin, adjusted EPS 68.6p, interim dividend 20.9p, £2,250m buyback"
+    },
+    {
+      "label": "RELX FY 2025 Full Year Results",
+      "url": "https://www.investegate.co.uk/",
+      "supports": "FY 2025 adjusted EPS 128.5p (+10% constant currency)"
+    },
+    {
+      "label": "Investing.com GBP/USD Historical Data",
+      "url": "https://www.investing.com/currencies/gbp-usd-historical-data",
+      "supports": "GBP/USD exchange rate of 1.3217 on 2026-11-13"
+    },
+    {
+      "label": "TipRanks RELX Analyst Consensus",
+      "url": "https://www.tipranks.com/stocks/gb:rel/forecast",
+      "supports": "Firm-level ratings and LSE price targets for JPMorgan, UBS, Barclays, Citigroup, Morgan Stanley, and Goldman Sachs"
+    }
+  ]
+}

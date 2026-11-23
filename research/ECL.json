@@ -1,0 +1,148 @@
+{
+  "issuer_id": "Ecolab Inc.",
+  "symbol": "ECL",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 309.27,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-27T08:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Joshua Spector",
+      "firm": "UBS",
+      "field": "target",
+      "value": 357,
+      "source_prior": 344,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.moomoo.com/news/post/45000000"
+    },
+    {
+      "analyst": "Joshua Spector",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.moomoo.com/news/post/45000000"
+    },
+    {
+      "analyst": "Jason Haas",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 315,
+      "source_prior": 295,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/ECL/forecast/"
+    },
+    {
+      "analyst": "Jason Haas",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/ECL/forecast/"
+    },
+    {
+      "analyst": "Jeffrey Zekauskas",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 310,
+      "source_prior": 305,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/ECL/forecast/"
+    },
+    {
+      "analyst": "Jeffrey Zekauskas",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/ECL/forecast/"
+    },
+    {
+      "analyst": "Patrick Cunningham",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 345,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://fintel.io/s/us/ecl"
+    },
+    {
+      "analyst": "Patrick Cunningham",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://fintel.io/s/us/ecl"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 256.65,
+    "base": 321.30,
+    "bull": 375.00,
+    "cases": {
+      "bear": {
+        "driver": "Slower industrial/institutional volume, raw-material inflation, or CoolIT/Ovivo integration drag",
+        "assumption": "FY2027E adjusted EPS $8.85 at 29.0x P/E",
+        "target": 256.65
+      },
+      "base": {
+        "driver": "5-7% organic sales growth, ~20% adjusted operating margin, and steady pricing",
+        "assumption": "FY2027E adjusted EPS $9.45 at 34.0x P/E",
+        "target": 321.30
+      },
+      "bull": {
+        "driver": "Upper-end 6-8% organic growth led by AI data-center cooling (CoolIT) and semiconductor ultrapure water (Ovivo)",
+        "assumption": "FY2027E adjusted EPS $10.00 at 37.5x P/E",
+        "target": 375.00
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $9.45, the $309.27 close implies 32.7x; the pre-cutoff analyst sample (~$332 average) implies 35.1x at $9.45 EPS or $9.76 EPS at 34.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $9.45 (3.1 pp of upside at the $309.27 close).",
+    "watch_metric": "Organic sales growth (5-7% target) and adjusted operating income margin progression toward 20%",
+    "next_disclosure": "Q4 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 2.92,
+  "analyst_notes": "Following Q3 2026 earnings on 2026-10-27 ($2.18 adjusted EPS, FY2026 guidance $8.10-$8.20), UBS ($357), Wells Fargo ($315), and JPMorgan ($310) raised targets while Citigroup reiterated Buy ($345) prior to the 2026-11-13 cutoff. Subsequent post-cutoff target raises in mid-November 2026 following Investor Day (e.g., Stifel to $356, Mizuho to $350, Citigroup to $365, Wells Fargo to $380) are excluded from the pre-cutoff event timeline.",
+  "sources": [
+    {
+      "label": "Ecolab Q3 2026 Earnings Release",
+      "url": "https://www.ecolab.com/news/2026/10/ecolab-reports-third-quarter-2026-results",
+      "supports": "Q3 2026 adjusted diluted EPS ($2.18), FY2026 guidance ($8.10-$8.20), organic growth, and margin expansion"
+    },
+    {
+      "label": "Ecolab 2026 Dividend Declarations",
+      "url": "https://www.ecolab.com/news/2026/02/ecolab-declares-quarterly-dividend",
+      "supports": "Quarterly cash dividend of $0.73 per share ($2.92 annualized)"
+    },
+    {
+      "label": "MarketBeat ECL Analyst Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/ECL/forecast/",
+      "supports": "Dated October 2026 analyst targets and ratings for Wells Fargo and JPMorgan"
+    },
+    {
+      "label": "WallStreetZen ECL 2027 EPS Consensus",
+      "url": "https://www.wallstreetzen.com/stocks/us/nyse/ecl/earnings",
+      "supports": "FY2027 consensus EPS range ($8.77-$10.45, ~$9.43-$9.50 average)"
+    }
+  ]
+}

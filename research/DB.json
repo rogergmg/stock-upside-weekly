@@ -1,0 +1,168 @@
+{
+  "issuer_id": "Deutsche Bank Aktiengesellschaft",
+  "symbol": "DB",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 36.62,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T07:00:00+01:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Chris Hallam",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 52.63,
+      "source_prior": 48.78,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Chris Hallam",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59+01:00",
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Kian Abouhossein",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 45.19,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.finanznachrichten.de/"
+    },
+    {
+      "analyst": "Kian Abouhossein",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59+01:00",
+      "source": "https://www.finanznachrichten.de/"
+    },
+    {
+      "analyst": "Mate Nemes",
+      "firm": "UBS",
+      "field": "target",
+      "value": 41.89,
+      "source_prior": 40.79,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.aktiencheck.de/"
+    },
+    {
+      "analyst": "Mate Nemes",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59+01:00",
+      "source": "https://www.aktiencheck.de/"
+    },
+    {
+      "analyst": "Giulia Aurora Miotto",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 42.44,
+      "source_prior": 40.79,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Giulia Aurora Miotto",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59+01:00",
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Andrew Coombs",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 36.16,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.aktiencheck.de/"
+    },
+    {
+      "analyst": "Andrew Coombs",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59+01:00",
+      "source": "https://www.aktiencheck.de/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Tangible Book Value per share (TBV/share) x justified P/TBV at the 12-month horizon (Nov 2027). NYSE: DB trades as Global Registered Shares (1:1 with Frankfurt ordinary shares). Q3 2026 TBV/share of EUR 31.87 and forward EUR TBV/share estimates are converted to USD at the 2026-11-13 EUR/USD rate of 1.1023.",
+    "bear": 31.11,
+    "base": 41.83,
+    "bull": 48.91,
+    "cases": {
+      "bear": {
+        "driver": "Macro slowdown, higher credit provisions, and RoTE slipping to ~9.0%",
+        "assumption": "Forward TBV/share EUR 33.20 ($36.60) at 0.85x P/TBV",
+        "target": 31.11
+      },
+      "base": {
+        "driver": "Steady execution toward >13% 2028 RoTE target (11.5%-12.0% RoTE) with 60% total payout",
+        "assumption": "Forward TBV/share EUR 34.50 ($38.03) at 1.10x P/TBV",
+        "target": 41.83
+      },
+      "bull": {
+        "driver": "Accelerated RoTE expansion to ~13.0%+ with strong IB/corporate banking and buybacks",
+        "assumption": "Forward TBV/share EUR 35.50 ($39.13) at 1.25x P/TBV",
+        "target": 48.91
+      }
+    },
+    "implied_by_close": "At Q3 2026 TBV/share of $35.13 (EUR 31.87), the $36.62 close implies 1.04x trailing P/TBV (or 0.96x base forward TBV/share of $38.03); the $43.00 consensus USD target implies 1.13x base forward TBV/share.",
+    "sensitivity": "A 0.10x change in P/TBV on base forward TBV/share ($38.03) moves the base target by $3.80 (10.4 pp).",
+    "watch_metric": "Post-tax RoTE (10.6% in Q3 2026; 11.5% in 9M 2026) and CET1 ratio (14.0% in Q3 2026 vs. 13.5%-14.0% target range)",
+    "next_disclosure": "FY 2026 preliminary/annual results (expected late January / early February 2027)"
+  },
+  "dividend_per_share": 1.10,
+  "analyst_notes": "Following Q3 2026 results on Oct 28, 2026 (10.6% post-tax RoTE, EUR 31.87 TBV/share, 14.0% CET1), Goldman Sachs, UBS, and Morgan Stanley raised their EUR targets (converted at 1.1023 EUR/USD) on stronger operating leverage and capital return visibility, while JPMorgan maintained Overweight and Citigroup stayed at Hold. Most named targets cluster in the $41.89-$45.19 range, closely aligned with our $41.83 base case (+14.2%), though Goldman Sachs sits higher at $52.63 (implying ~1.38x base forward TBV/share). Note: EUR targets were converted at the 2026-11-13 FX rate of 1.1023, and horizon_months is left null where the broker's 12-month horizon was not directly verified.",
+  "sources": [
+    {
+      "label": "Deutsche Bank Q3 2026 Results",
+      "url": "https://www.db.com/",
+      "supports": "Q3 2026 RoTE (10.6%), 9M 2026 RoTE (11.5%), CET1 ratio (14.0%), 2028 >13% RoTE target, 60% payout policy"
+    },
+    {
+      "label": "Deutsche Bank Q3 2026 TBV/Share & Earnings Date",
+      "url": "https://www.investing.com/",
+      "supports": "Q3 2026 earnings release date (2026-10-28) and TBV/share (EUR 31.87)"
+    },
+    {
+      "label": "Deutsche Bank Global Registered Shares (1:1 NYSE:DB)",
+      "url": "https://www.db.com/ir/en/share-information.htm",
+      "supports": "1:1 ordinary share ratio for NYSE: DB Global Registered Shares and EUR 1.00 FY2025 dividend"
+    },
+    {
+      "label": "IMF / Market FX Rate (2026-11-13)",
+      "url": "https://www.imf.org/",
+      "supports": "EUR/USD exchange rate (~1.1023-1.1052) on 2026-11-13"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "issuer_id": "Ferrari N.V.",
+  "symbol": "RACE",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 411.13,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-03T12:00:00+01:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Edouard Aubin",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 456,
+      "source_prior": 460,
+      "issued_at": "2026-09-30",
+      "public_at": "2026-09-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/ferrari-stock-price-target-lowered-to-456-at-morgan-stanley-on-fx-headwinds-93CH-4265123"
+    },
+    {
+      "analyst": "Edouard Aubin",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-09-30",
+      "public_at": "2026-09-30T23:59:59-04:00",
+      "source": "https://www.investing.com/news/analyst-ratings/ferrari-stock-price-target-lowered-to-456-at-morgan-stanley-on-fx-headwinds-93CH-4265123"
+    },
+    {
+      "analyst": "Zuzanna Pusz",
+      "firm": "UBS",
+      "field": "target",
+      "value": 450,
+      "source_prior": 490,
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/ubs-lowers-ferrari-stock-price-target-to-450-on-valuation-concerns-93CH-4271890"
+    },
+    {
+      "analyst": "Zuzanna Pusz",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "source": "https://www.investing.com/news/analyst-ratings/ubs-lowers-ferrari-stock-price-target-to-450-on-valuation-concerns-93CH-4271890"
+    },
+    {
+      "analyst": "Stephen Reitman",
+      "firm": "Bernstein SocGen Group",
+      "field": "target",
+      "value": 460,
+      "source_prior": 402,
+      "issued_at": "2026-07-31",
+      "public_at": "2026-07-31T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/bernstein-raises-ferrari-stock-price-target-to-460-on-strong-q2-results-93CH-4158210"
+    },
+    {
+      "analyst": "Stephen Reitman",
+      "firm": "Bernstein SocGen Group",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-07-31",
+      "public_at": "2026-07-31T23:59:59-04:00",
+      "source": "https://www.investing.com/news/analyst-ratings/bernstein-raises-ferrari-stock-price-target-to-460-on-strong-q2-results-93CH-4158210"
+    },
+    {
+      "analyst": "Jose Asumendi",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 447,
+      "source_prior": 407,
+      "issued_at": "2026-03-01",
+      "public_at": "2026-03-01T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/news/4123456/jpmorgan-maintains-overweight-on-ferrari-race-raises-pt-to-447"
+    },
+    {
+      "analyst": "Jose Asumendi",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-03-01",
+      "public_at": "2026-03-01T23:59:59-05:00",
+      "source": "https://www.gurufocus.com/news/4123456/jpmorgan-maintains-overweight-on-ferrari-race-raises-pt-to-447"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date, converted from EUR to USD at 1.1023 EUR/USD as of 2026-11-13; NYSE RACE is a direct ordinary share listing, 1:1)",
+    "bear": 363.20,
+    "base": 448.81,
+    "bull": 511.60,
+    "cases": {
+      "bear": {
+        "driver": "Macro luxury slowdown, USD/EUR FX headwinds, and EV ramp-up D&A drag compressing multiples",
+        "assumption": "FY2027E EPS EUR 10.30 ($11.35 at 1.1023 EUR/USD) at 32.0x P/E",
+        "target": 363.20
+      },
+      "base": {
+        "driver": "F80 supercar ramp, >21% personalization mix, and order book visibility into 2028",
+        "assumption": "FY2027E EPS EUR 11.00 ($12.13 at 1.1023 EUR/USD) at 37.0x P/E",
+        "target": 448.81
+      },
+      "bull": {
+        "driver": "Accelerated F80/Special Series deliveries, >30% EBIT margin, and favorable FX",
+        "assumption": "FY2027E EPS EUR 11.60 ($12.79 at 1.1023 EUR/USD) at 40.0x P/E",
+        "target": 511.60
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $12.13 (EUR 11.00), the $411.13 close implies 33.9x forward P/E; the Street consensus target range ($447-$460) implies 36.9x-37.9x.",
+    "sensitivity": "One turn of P/E moves the base target by $12.13 (3.0 pp of price return).",
+    "watch_metric": "Personalization share of cars and spare parts revenue (>21% in Q3 2026) and F80/Special Series delivery cadence",
+    "next_disclosure": "Q4 & FY2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 3.98,
+  "analyst_notes": "All four named analyst targets in this partial sample ($447 to $460, all Buy/Overweight) predate the November 3, 2026 Q3 earnings release, though Bank of America (Horst Schneider) also raised its target to $450 in November 2026. The Street sample clusters tightly around our $448.81 base case (+9.2% upside), reflecting shared confidence in Ferrari's order book into 2028 and pricing power, with minor differences driven by EUR/USD assumptions and luxury-peer multiple compression.",
+  "sources": [
+    {
+      "label": "Ferrari Q3 2026 Preliminary Results",
+      "url": "https://www.ferrari.com/en-EN/corporate/articles/ferrari-q3-2026-results",
+      "supports": "Q3 2026 EPS EUR 2.44, FY2026E adjusted diluted EPS guidance >= EUR 9.85, personalization >21%"
+    },
+    {
+      "label": "Ferrari 2026 Dividend Distribution",
+      "url": "https://www.ferrari.com/en-EN/corporate/articles/ferrari-2026-dividend",
+      "supports": "2026 annual dividend EUR 3.615 per common share ($3.98 at 1.1023 EUR/USD)"
+    },
+    {
+      "label": "MTFX Group EUR/USD Historical Rate (2026-11-13)",
+      "url": "https://www.mtfxgroup.com/en-ca/currency-converter/eur-to-usd/2026-11-13/",
+      "supports": "EUR/USD 1.1023 on 2026-11-13"
+    },
+    {
+      "label": "Investing.com - Morgan Stanley RACE note (2026-09-30)",
+      "url": "https://www.investing.com/news/analyst-ratings/ferrari-stock-price-target-lowered-to-456-at-morgan-stanley-on-fx-headwinds-93CH-4265123",
+      "supports": "Edouard Aubin Overweight, $456 target"
+    },
+    {
+      "label": "Investing.com - UBS RACE note (2026-10-05)",
+      "url": "https://www.investing.com/news/analyst-ratings/ubs-lowers-ferrari-stock-price-target-to-450-on-valuation-concerns-93CH-4271890",
+      "supports": "Zuzanna Pusz Buy, $450 target"
+    }
+  ]
+}

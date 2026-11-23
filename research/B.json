@@ -1,0 +1,210 @@
+{
+  "issuer_id": "Barrick Mining Corporation",
+  "symbol": "B",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 37.59,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-09T06:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Bennett Moore",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 53,
+      "source_prior": 55,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.quiverquant.com/news/Barrick+Mining+Corporation+%28B%29+Price+Target+Cut+to+%2453.00+by+J.P.+Morgan"
+    },
+    {
+      "analyst": "Bennett Moore",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.quiverquant.com/news/Barrick+Mining+Corporation+%28B%29+Price+Target+Cut+to+%2453.00+by+J.P.+Morgan"
+    },
+    {
+      "analyst": "Anita Soni",
+      "firm": "CIBC World Markets",
+      "field": "target",
+      "value": 49,
+      "issued_at": "2026-10-16",
+      "public_at": "2026-10-16T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/B/analyst-ratings"
+    },
+    {
+      "analyst": "Anita Soni",
+      "firm": "CIBC World Markets",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-16",
+      "public_at": "2026-10-16T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/B/analyst-ratings"
+    },
+    {
+      "analyst": "Josh Wolfson",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 53,
+      "source_prior": 49,
+      "issued_at": "2026-09-16",
+      "public_at": "2026-09-16T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/B/analyst-ratings"
+    },
+    {
+      "analyst": "Josh Wolfson",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-09-16",
+      "public_at": "2026-09-16T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/B/analyst-ratings"
+    },
+    {
+      "analyst": "Alexander Hacking",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 45,
+      "issued_at": "2026-09-03",
+      "public_at": "2026-09-03T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.quiverquant.com/stock/B/"
+    },
+    {
+      "analyst": "Alexander Hacking",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-09-03",
+      "public_at": "2026-09-03T23:59:59-04:00",
+      "source": "https://www.quiverquant.com/stock/B/"
+    },
+    {
+      "analyst": "Richard Garchitorena",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 42,
+      "source_prior": 39,
+      "issued_at": "2026-08-13",
+      "public_at": "2026-08-13T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/b/forecast/"
+    },
+    {
+      "analyst": "Richard Garchitorena",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-08-13",
+      "public_at": "2026-08-13T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/b/forecast/"
+    },
+    {
+      "analyst": "Tanya Jakusconek",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 55,
+      "source_prior": 57,
+      "issued_at": "2026-08-12",
+      "public_at": "2026-08-12T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.quiverquant.com/stock/B/"
+    },
+    {
+      "analyst": "Tanya Jakusconek",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-08-12",
+      "public_at": "2026-08-12T23:59:59-04:00",
+      "source": "https://www.quiverquant.com/stock/B/"
+    },
+    {
+      "analyst": "Lawson Winder",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 54,
+      "source_prior": 56,
+      "issued_at": "2026-08-11",
+      "public_at": "2026-08-11T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/B/analyst-ratings"
+    },
+    {
+      "analyst": "Lawson Winder",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-11",
+      "public_at": "2026-08-11T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/B/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 EPS viewed at the 12-month target date), cross-checked against gold/copper production guidance and AISC sensitivity",
+    "bear": 29.45,
+    "base": 44.0,
+    "bull": 57.0,
+    "cases": {
+      "bear": {
+        "driver": "Gold price pullback and persistent AISC inflation ($1,911/oz in Q3 2026) compress margins",
+        "assumption": "FY2027 EPS $3.10 at 9.5x P/E",
+        "target": 29.45
+      },
+      "base": {
+        "driver": "Steady execution on 2.90-3.25 Moz gold and 190-220 kt copper guidance with normalized AISC and ongoing buybacks",
+        "assumption": "FY2027 EPS $4.00 at 11.0x P/E",
+        "target": 44.0
+      },
+      "bull": {
+        "driver": "Sustained elevated gold/copper prices, strong FCF conversion, and North American asset IPO catalyst",
+        "assumption": "FY2027 EPS $4.75 at 12.0x P/E",
+        "target": 57.0
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $4.00, the $37.59 close implies 9.4x forward P/E; at 11.0x, it implies $3.42 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $4.00 (10.6 pp), and every $100/oz change in gold price shifts annual attributable EBITDA by ~$270M.",
+    "watch_metric": "Quarterly gold AISC ($1,911/oz in Q3 2026) and attributable free cash flow",
+    "next_disclosure": "Q4 & FY2026 earnings release (estimated February 4, 2027)"
+  },
+  "dividend_per_share": 0.7,
+  "analyst_notes": "Following Q3 2026 earnings on Nov 9, 2026 (adjusted EPS $0.82 beat, AISC $1,911/oz), J.P. Morgan's Bennett Moore trimmed his target from $55 to $53 while maintaining Overweight. Most other named targets in this sample ($42-$55) predate Q3 earnings, leaving a 4-Buy / 3-Hold mix. Street targets generally sit above our $44.00 base case (+17.1% upside), reflecting higher gold-price decks or ~12x-13.5x P/E on $4.00 FY2027 EPS.",
+  "sources": [
+    {
+      "label": "Barrick Q3 2026 Results Release",
+      "url": "https://www.barrick.com/English/news/news-details/2026/barrick-reports-q3-2026-results/default.aspx",
+      "supports": "Q3 2026 EPS, production, AISC, net cash, dividend, and FY2026 guidance"
+    },
+    {
+      "label": "Benzinga Analyst Ratings (B)",
+      "url": "https://www.benzinga.com/quote/B/analyst-ratings",
+      "supports": "Named analyst ratings and price targets (CIBC, RBC, BofA)"
+    },
+    {
+      "label": "QuiverQuant Analyst Coverage (B)",
+      "url": "https://www.quiverquant.com/stock/B/",
+      "supports": "Named analyst target revisions and dates (J.P. Morgan, Citigroup, Scotiabank)"
+    },
+    {
+      "label": "StockAnalysis Forecast (B)",
+      "url": "https://stockanalysis.com/stocks/b/forecast/",
+      "supports": "Barclays rating/target and consensus range"
+    }
+  ]
+}

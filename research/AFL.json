@@ -1,0 +1,59 @@
+{
+  "issuer_id": "Aflac Incorporated",
+  "symbol": "AFL",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 127.61,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-04T16:15:00-05:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date), cross-checked against Adjusted Book Value ($54.21/share at Q3 2026)",
+    "bear": 100.1,
+    "base": 124.0,
+    "bull": 147.0,
+    "cases": {
+      "bear": {
+        "driver": "Japan yen weakness and higher U.S. benefit ratios compress margins",
+        "assumption": "FY2027 adj. EPS $7.15 at 14.0x P/E",
+        "target": 100.1
+      },
+      "base": {
+        "driver": "Steady U.S. profitability and ongoing share repurchases offset modest Japan top-line and FX headwinds",
+        "assumption": "FY2027 adj. EPS $7.75 at 16.0x P/E",
+        "target": 124.0
+      },
+      "bull": {
+        "driver": "Favorable JPY/USD FX, disciplined benefit ratios, and accelerated buybacks",
+        "assumption": "FY2027 adj. EPS $8.40 at 17.5x P/E",
+        "target": 147.0
+      }
+    },
+    "implied_by_close": "At base FY2027 adj. EPS of $7.75, the $127.61 close implies 16.5x forward P/E (and 2.35x Q3 2026 adjusted book value of $54.21/sh); at 16.0x, the close implies $7.98 EPS.",
+    "sensitivity": "One turn of P/E on $7.75 base EPS moves the base target by $7.75 (6.1 pp of price return).",
+    "watch_metric": "Aflac Japan net earned premiums (ex-FX) and U.S. benefit ratio",
+    "next_disclosure": "Q4 2026 / FY2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 2.56,
+  "analyst_notes": "Published Street consensus sits around Hold with an average 12-month target near $117.50-$120.60 (range ~$101-$143), slightly below our $124.00 base case (-2.8% vs. $127.61 close). Individual dated calls with verified pre-cutoff timestamps were not available for the event table (Morgan Stanley's Nigel Dally raised his target to $136 on 2026-11-23, after the 2026-11-13 cutoff, and other broker targets such as UBS $125, Wells Fargo $124, KBW $123, Raymond James $123, Mizuho $118, Evercore ISI $116, and Barclays $101 lacked verified issue timestamps).",
+  "sources": [
+    {
+      "label": "Aflac Q3 2026 Earnings Release (Nov 4, 2026)",
+      "url": "https://www.aflac.com/",
+      "supports": "Q3 2026 adjusted EPS $2.43, net EPS $0.61, adjusted book value $54.21/share, share repurchases, and Q4 dividend"
+    },
+    {
+      "label": "Aflac 2027 Dividend Increase Announcement (Nov 2026)",
+      "url": "https://www.sec.gov/",
+      "supports": "Early 2027 quarterly dividend increase to $0.64/share ($2.56 annualized)"
+    },
+    {
+      "label": "TradingView AFL Analyst Consensus & Price Targets",
+      "url": "https://www.tradingview.com/symbols/NYSE-AFL/forecast/",
+      "supports": "Street consensus Hold rating, average price target ~$117.50-$120.60, and FY2026-FY2027 EPS estimates"
+    }
+  ]
+}

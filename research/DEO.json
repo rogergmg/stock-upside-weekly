@@ -1,0 +1,148 @@
+{
+  "issuer_id": "Diageo plc",
+  "symbol": "DEO",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 101.59,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T07:00:00+00:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Laurence Whyatt",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 121.10,
+      "source_prior": 117.93,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00+00:00",
+      "horizon_months": null,
+      "source": "https://www.finanznachrichten.de/"
+    },
+    {
+      "analyst": "Laurence Whyatt",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00+00:00",
+      "source": "https://www.finanznachrichten.de/"
+    },
+    {
+      "analyst": "Ed Mundy",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 117.0,
+      "source_prior": 131.0,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.futunn.com/"
+    },
+    {
+      "analyst": "Ed Mundy",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T16:00:00-04:00",
+      "source": "https://www.futunn.com/"
+    },
+    {
+      "analyst": "Olivier Nicolai",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 105.77,
+      "issued_at": "2026-08-10",
+      "public_at": "2026-08-10T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Olivier Nicolai",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-08-10",
+      "public_at": "2026-08-10T17:00:00+01:00",
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Sarah Simon",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 83.0,
+      "source_prior": 76.0,
+      "issued_at": "2026-02-15",
+      "public_at": "2026-02-15T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Sarah Simon",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Underweight",
+      "bucket": "Sell",
+      "issued_at": "2026-02-15",
+      "public_at": "2026-02-15T16:00:00-05:00",
+      "source": "https://www.benzinga.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E pre-exceptional ADR EPS viewed at the 12-month target date; 1 DEO ADR = 4 ordinary shares; GBP/USD = 1.3221 on 2026-11-13)",
+    "bear": 86.4,
+    "base": 108.8,
+    "bull": 130.5,
+    "cases": {
+      "bear": {
+        "driver": "Prolonged North America spirits weakness (-3.6% in Q1 FY27) and margin pressure",
+        "assumption": "FY27E ADR EPS $6.40 at 13.5x",
+        "target": 86.4
+      },
+      "base": {
+        "driver": "Flat organic net sales and low-to-mid single-digit organic operating profit growth per FY27 guidance",
+        "assumption": "FY27E ADR EPS $6.80 at 16.0x",
+        "target": 108.8
+      },
+      "bull": {
+        "driver": "US spirits recovery plus accelerated productivity cost savings",
+        "assumption": "FY27E ADR EPS $7.25 at 18.0x",
+        "target": 130.5
+      }
+    },
+    "implied_by_close": "At base FY27E ADR EPS of $6.80, the $101.59 close implies 14.9x; the Street consensus target of ~$110.71 implies 16.3x or $6.92 EPS at 16.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $6.80 (6.7 pp).",
+    "watch_metric": "North America organic net sales growth and organic operating profit margin",
+    "next_disclosure": "H1 FY2027 interim results (expected February 2027)"
+  },
+  "dividend_per_share": 2.0,
+  "analyst_notes": "Following the Q1 FY27 trading update on 2026-11-05 (organic net sales +1.4%, North America -3.6%), Barclays' Laurence Whyatt raised his target to 2,290p ($121.10 ADR equivalent) and kept Overweight. Earlier in 2026, Jefferies' Ed Mundy (Buy, $117) and Goldman Sachs' Olivier Nicolai (Neutral, 2,000p / $105.77) trimmed or held targets, while Morgan Stanley's Sarah Simon stayed Underweight at $83. Note: TD Cowen's Seamus Cassidy reiterated Buy ($120) on 2026-11-17, after the 2026-11-13 cutoff, so it is excluded.",
+  "sources": [
+    {
+      "label": "Diageo FY2026 Preliminary Results",
+      "url": "https://www.diageo.com/",
+      "supports": "FY26 pre-exceptional EPS (165.3c), reported EPS (78.1c), dividend (50c), net sales ($19.6B)"
+    },
+    {
+      "label": "Diageo Q1 FY2027 Trading Statement (2026-11-05)",
+      "url": "https://www.diageo.com/",
+      "supports": "Q1 FY27 organic net sales (+1.4%), North America (-3.6%), FY27 guidance"
+    },
+    {
+      "label": "Diageo ADR Program Ratio (1 ADR = 4 Ordinary Shares)",
+      "url": "https://www.diageo.com/",
+      "supports": "ADR conversion ratio"
+    },
+    {
+      "label": "GBP/USD Exchange Rate (2026-11-13)",
+      "url": "https://www.exchangerates.org.uk/",
+      "supports": "GBP/USD 1.3221 on 2026-11-13"
+    }
+  ]
+}

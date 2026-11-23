@@ -1,0 +1,296 @@
+{
+  "issuer_id": "Eni S.p.A.",
+  "symbol": "E",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 57.58,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-23T12:00:00+02:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Mark Wilson",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 70.73,
+      "source_prior": null,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Mark Wilson",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "BUY",
+      "bucket": "Buy",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59+01:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Francesco Sala",
+      "firm": "Banca Akros",
+      "field": "target",
+      "value": 66.31,
+      "source_prior": null,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Francesco Sala",
+      "firm": "Banca Akros",
+      "field": "rating",
+      "value": "BUY",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59+01:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Paul Redman",
+      "firm": "Exane BNP Paribas",
+      "field": "target",
+      "value": 57.47,
+      "source_prior": null,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Paul Redman",
+      "firm": "Exane BNP Paribas",
+      "field": "rating",
+      "value": "HOLD",
+      "bucket": "Hold",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59+01:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Sadnan Ali",
+      "firm": "HSBC",
+      "field": "target",
+      "value": 59.68,
+      "source_prior": null,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Sadnan Ali",
+      "firm": "HSBC",
+      "field": "rating",
+      "value": "HOLD",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59+01:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Michele Della Vigna",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 64.1,
+      "source_prior": null,
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Michele Della Vigna",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "BUY",
+      "bucket": "Buy",
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T23:59:59+01:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Massimo Bonisoli",
+      "firm": "Equita",
+      "field": "target",
+      "value": 68.52,
+      "source_prior": null,
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Massimo Bonisoli",
+      "firm": "Equita",
+      "field": "rating",
+      "value": "BUY",
+      "bucket": "Buy",
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T23:59:59+01:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Christopher Kuplent",
+      "firm": "Bank of America",
+      "field": "target",
+      "value": 58.58,
+      "source_prior": null,
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Christopher Kuplent",
+      "firm": "Bank of America",
+      "field": "rating",
+      "value": "HOLD",
+      "bucket": "Hold",
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T23:59:59+01:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Marco Cristofori",
+      "firm": "Intesa Sanpaolo",
+      "field": "target",
+      "value": 66.98,
+      "source_prior": null,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59+02:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Marco Cristofori",
+      "firm": "Intesa Sanpaolo",
+      "field": "rating",
+      "value": "BUY",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59+02:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Matthew Lofting",
+      "firm": "JP Morgan",
+      "field": "target",
+      "value": 61.89,
+      "source_prior": null,
+      "issued_at": "2026-10-08",
+      "public_at": "2026-10-08T23:59:59+02:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Matthew Lofting",
+      "firm": "JP Morgan",
+      "field": "rating",
+      "value": "BUY",
+      "bucket": "Buy",
+      "issued_at": "2026-10-08",
+      "public_at": "2026-10-08T23:59:59+02:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Lydia Rainforth",
+      "firm": "Barclays Capital",
+      "field": "target",
+      "value": 70.73,
+      "source_prior": null,
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59+02:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Lydia Rainforth",
+      "firm": "Barclays Capital",
+      "field": "rating",
+      "value": "BUY",
+      "bucket": "Buy",
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59+02:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Alvaro Del Pozo Maroto",
+      "firm": "Banco Sabadell",
+      "field": "target",
+      "value": 53.05,
+      "source_prior": null,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59+02:00",
+      "horizon_months": null,
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    },
+    {
+      "analyst": "Alvaro Del Pozo Maroto",
+      "firm": "Banco Sabadell",
+      "field": "rating",
+      "value": "SELL",
+      "bucket": "Sell",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59+02:00",
+      "source": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E EPS viewed at the 12-month target date). Ordinary-share EUR figures converted to NYSE ADR (1 ADR = 2 ordinary shares) at the 2026-11-13 ECB EUR/USD rate of 1.1052.",
+    "bear": 47.5,
+    "base": 63.25,
+    "bull": 80.88,
+    "cases": {
+      "bear": {
+        "driver": "Softer Brent/gas realizations and refining margins compress upstream/G&P earnings despite 6-7% FY2026 production growth and €3.8B buyback",
+        "assumption": "FY2027E EPS $4.75/ADR (€2.15/ord) at 10.0x P/E",
+        "target": 47.5
+      },
+      "base": {
+        "driver": "Steady upstream volume growth (1.83 mboe/d in Q3 2026), €16.5B FY2026 CFFO, and 9% pro-forma gearing support sustained buybacks and transition-business monetization",
+        "assumption": "FY2027E EPS $5.75/ADR (€2.60/ord) at 11.0x P/E",
+        "target": 63.25
+      },
+      "bull": {
+        "driver": "Stronger LNG/upstream realizations and faster Plenitude/Enilive value crystallization drive multiple re-rating",
+        "assumption": "FY2027E EPS $6.74/ADR (€3.05/ord) at 12.0x P/E",
+        "target": 80.88
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $5.75/ADR, the $57.58 close implies 10.0x P/E; the €28.50-€29.13 ($63.00-$64.39/ADR) Street consensus implies ~11.0x-11.2x base EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $5.75 (+10.0 pp).",
+    "watch_metric": "Quarterly adjusted net profit, CFFO vs €16.5B FY2026 guidance, and upstream production growth vs 6-7% target",
+    "next_disclosure": "Q4 & Full-Year 2026 results (expected February 2027)"
+  },
+  "dividend_per_share": 2.32,
+  "analyst_notes": "Following Eni's Q3 2026 results on Oct 23 (adjusted net profit €1.3B, CFFO guidance raised to €16.5B, buyback expanded to €3.8B, plus €0.46/ord extraordinary dividend), 7 of the 11 named analysts in this panel updated their calls between Oct 26 and Nov 11, with Buy-rated brokers (Jefferies, Equita, Goldman Sachs, Banca Akros) clustering at €29-€32/ord ($64.10-$70.73/ADR) while Hold-rated brokers (HSBC, BofA, Exane BNP Paribas) sit near €26-€27/ord ($57.47-$59.68/ADR). All 11 EUR ordinary-share targets are converted to USD ADRs at 2 ordinary shares per ADR and 1.1052 EUR/USD; horizon_months is left null because Eni's analyst coverage table does not state individual broker target horizons.",
+  "sources": [
+    {
+      "label": "Eni Q3 2026 Results Press Release",
+      "url": "https://www.eni.com/en-IT/media/press-release/2026/10/eni-third-quarter-2026-results.html",
+      "supports": "Q3 2026 adjusted net profit, pro-forma EBIT, CFFO guidance (€16.5B), gearing (9% pro-forma), share count (~2,934.6M basic / ~2,952.2M diluted), buyback (€3.8B), extraordinary dividend (€0.46/share)"
+    },
+    {
+      "label": "Eni Analyst Coverage Table",
+      "url": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/analyst-coverage.html",
+      "supports": "Named analyst ratings, EUR ordinary-share price targets, and issue dates"
+    },
+    {
+      "label": "ECB EUR/USD Reference Rate (2026-11-13)",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-usd.en.html",
+      "supports": "EUR/USD 1.1052 on 2026-11-13"
+    },
+    {
+      "label": "Eni ADR Program Information (1 ADR = 2 ordinary shares)",
+      "url": "https://www.eni.com/en-IT/investors/stock-shareholder-remuneration-policy/adr-program.html",
+      "supports": "1:2 ADR-to-ordinary-share ratio"
+    }
+  ]
+}

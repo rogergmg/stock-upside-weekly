@@ -1,0 +1,59 @@
+{
+  "issuer_id": "Comcast Holdings ZONES",
+  "symbol": "CCZ",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 62.32,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-22T08:30:00-04:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Fixed-income / exchangeable debenture valuation (12-month horizon): pull-to-par and credit-spread sensitivity on Comcast Holdings Corp. 2.0% Exchangeable Subordinated Debentures due 2029 (guaranteed by Comcast Corporation), plus embedded reference-equity exchange option value.",
+    "bear": 56.0,
+    "base": 66.0,
+    "bull": 72.0,
+    "cases": {
+      "bear": {
+        "driver": "Benchmark rate rise or subordinated credit spread widening",
+        "assumption": "Discounted price reflects ~10% downside on wider subordinated spreads and minimal exchange-option value",
+        "target": 56.0
+      },
+      "base": {
+        "driver": "Gradual pull-to-par toward 2029 maturity with stable Comcast credit spreads",
+        "assumption": "12 months of carry/pull-to-par accretion at stable subordinated debt yields",
+        "target": 66.0
+      },
+      "bull": {
+        "driver": "Rate cuts / spread compression and/or reference-equity appreciation",
+        "assumption": "Tighter credit spreads and higher embedded exchange-option value lift price toward $72.00",
+        "target": 72.0
+      }
+    },
+    "implied_by_close": "At $62.32, the 2.0% debenture trades at a discount to par, pricing in subordinated duration/credit risk and limited near-term exchange-option value; no named equity analyst targets exist for comparison.",
+    "sensitivity": "A 100 bps parallel shift in subordinated discount yield over a ~2-year remaining effective duration moves the 12-month target by roughly $1.25-$1.50 (~2.0-2.4 pp).",
+    "watch_metric": "Comcast Corporation consolidated net leverage, free cash flow, and 10-Q/10-K Long-Term Debt / ZONES carrying value disclosures",
+    "next_disclosure": "Comcast Corporation Q4 / FY2026 Form 10-K (expected February 2027)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "CCZ (Comcast Holdings Corp. 2.0% Exchangeable Subordinated Debentures due 2029, ZONES) is a listed debt/exchangeable security rather than common equity, so Wall Street equity analysts do not publish stock ratings or 12-month price targets for it. Coverage is marked unavailable with an empty events list.",
+  "sources": [
+    {
+      "label": "Comcast Corporation SEC EDGAR 10-Q Filings (CIK 0001166691)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001166691&type=10-Q&dateb=&owner=include&count=10",
+      "supports": "Q3 2026 Form 10-Q (filed Oct 22, 2026) and ZONES debt/guarantee disclosures"
+    },
+    {
+      "label": "Comcast Corporation SEC EDGAR 10-K Filings (CIK 0001166691)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001166691&type=10-K&dateb=&owner=include&count=10",
+      "supports": "FY2025 Form 10-K Long-Term Debt and Comcast Holdings ZONES terms"
+    },
+    {
+      "label": "Comcast Investor Relations",
+      "url": "https://www.cmcsa.com/",
+      "supports": "Q3 2026 earnings release date (Oct 22, 2026, 8:30 a.m. ET) and parent guarantor disclosures"
+    }
+  ]
+}

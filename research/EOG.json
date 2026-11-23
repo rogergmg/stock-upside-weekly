@@ -1,0 +1,191 @@
+{
+  "issuer_id": "EOG Resources, Inc.",
+  "symbol": "EOG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 158.32,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T16:15:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Josh Silverstein",
+      "firm": "UBS",
+      "field": "target",
+      "value": 190,
+      "source_prior": 186,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/eog/forecast"
+    },
+    {
+      "analyst": "Josh Silverstein",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/eog/forecast"
+    },
+    {
+      "analyst": "Biju Perincheril",
+      "firm": "Susquehanna",
+      "field": "target",
+      "value": 187,
+      "source_prior": 170,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/news/eog-resources-susquehanna"
+    },
+    {
+      "analyst": "Biju Perincheril",
+      "firm": "Susquehanna",
+      "field": "rating",
+      "value": "Positive",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.gurufocus.com/news/eog-resources-susquehanna"
+    },
+    {
+      "analyst": "Arun Jayaram",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 170,
+      "source_prior": 164,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/eog/forecast/"
+    },
+    {
+      "analyst": "Arun Jayaram",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.stockanalysis.com/stocks/eog/forecast/"
+    },
+    {
+      "analyst": "Betty Jiang",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 168,
+      "source_prior": 155,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/eog/forecast"
+    },
+    {
+      "analyst": "Betty Jiang",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/eog/forecast"
+    },
+    {
+      "analyst": "Devin McDermott",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 167,
+      "source_prior": 163,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/Analyst+Comments/EOG+Resources"
+    },
+    {
+      "analyst": "Devin McDermott",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/Analyst+Comments/EOG+Resources"
+    },
+    {
+      "analyst": "Scott Hanold",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 175,
+      "source_prior": null,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/eog/forecast"
+    },
+    {
+      "analyst": "Scott Hanold",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/eog/forecast"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date)",
+    "bear": 128.25,
+    "base": 170.63,
+    "bull": 212.75,
+    "cases": {
+      "bear": {
+        "driver": "Softer WTI/Henry Hub realizations compressing upstream margins and cash returns",
+        "assumption": "FY2027E EPS $13.50 at 9.5x P/E",
+        "target": 128.25
+      },
+      "base": {
+        "driver": "Mid-cycle commodity pricing with ~5% oil / ~14% total volume growth, $6.5B CapEx discipline, and ongoing buybacks (~519M shares)",
+        "assumption": "FY2027E EPS $16.25 at 10.5x P/E",
+        "target": 170.63
+      },
+      "bull": {
+        "driver": "Tighter crude/LNG realizations (JKM-linked gas) and multiple expansion toward historical mid-cycle peers",
+        "assumption": "FY2027E EPS $18.50 at 11.5x P/E",
+        "target": 212.75
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $16.25, the $158.32 close implies 9.74x P/E; the $175.00 equal-weight sample target implies 10.77x P/E or $16.67 EPS at 10.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $16.25 (10.3 pp).",
+    "watch_metric": "Crude oil & condensate production (550.4 Mbopd in Q3 2026) and per-unit cash operating costs ($10.49/Boe in Q3 2026) vs. $6.5B FY2026 CapEx.",
+    "next_disclosure": "Q4 / FY2026 earnings release and 2027 capital/production guidance (expected late February 2027)."
+  },
+  "dividend_per_share": 4.4,
+  "analyst_notes": "Following EOG's Q3 2026 beat on November 5, 2026 ($4.87 adj. EPS, $2.2B FCF, and an 8% dividend hike to $4.40/yr annualized), several covering analysts raised targets in early November (UBS to $190, Susquehanna to $187, J.P. Morgan to $170, Barclays to $168, Morgan Stanley to $167). The 6-analyst sample averages ~$175.00 (+10.5% vs. $158.32), roughly 2.7 pp above the $170.63 (+7.8%) base case, reflecting slightly more constructive commodity/multiple assumptions (10.77x implied vs. 10.5x base) alongside a balanced Buy/Hold split.",
+  "sources": [
+    {
+      "label": "EOG Resources Q3 2026 Earnings Release (Nov 5, 2026)",
+      "url": "https://www.eogresources.com/",
+      "supports": "Q3 2026 GAAP/adjusted EPS, FCF, production volumes, $4.40 annualized dividend, $6.5B CapEx guidance"
+    },
+    {
+      "label": "StockAnalysis EOG Forecast & Financials",
+      "url": "https://www.stockanalysis.com/stocks/eog/forecast/",
+      "supports": "FY2027E EPS consensus, share count (~519M), J.P. Morgan target"
+    },
+    {
+      "label": "TipRanks EOG Analyst Forecasts",
+      "url": "https://www.tipranks.com/stocks/eog/forecast",
+      "supports": "Named analyst ratings and price target revisions (UBS, Barclays, RBC Capital)"
+    },
+    {
+      "label": "Trading Economics EOG Balance Sheet",
+      "url": "https://tradingeconomics.com/",
+      "supports": "Q3 2026 total debt (~$7.92B) and cash (~$5.75B)"
+    }
+  ]
+}

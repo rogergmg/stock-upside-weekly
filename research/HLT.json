@@ -1,0 +1,148 @@
+{
+  "issuer_id": "Hilton Worldwide Holdings Inc.",
+  "symbol": "HLT",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 373.09,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-27T06:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Ben Chaiken",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/HLT/forecast/"
+    },
+    {
+      "analyst": "Ben Chaiken",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 421,
+      "source_prior": 329,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/HLT/forecast/"
+    },
+    {
+      "analyst": "Brandt Montour",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/HLT/forecast/"
+    },
+    {
+      "analyst": "Brandt Montour",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 375,
+      "source_prior": 384,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/HLT/forecast/"
+    },
+    {
+      "analyst": "Stephen Grambling",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/hlt/forecast/"
+    },
+    {
+      "analyst": "Stephen Grambling",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 362,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/hlt/forecast/"
+    },
+    {
+      "analyst": "Richard Clarke",
+      "firm": "Sanford C. Bernstein",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/HLT/forecast/"
+    },
+    {
+      "analyst": "Richard Clarke",
+      "firm": "Sanford C. Bernstein",
+      "field": "target",
+      "value": 380,
+      "source_prior": 320,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/HLT/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 Adjusted Diluted EPS viewed at the 12-month target date)",
+    "bear": 294.0,
+    "base": 358.7,
+    "bull": 414.4,
+    "cases": {
+      "bear": {
+        "driver": "Macro softening slows system-wide RevPAR growth to ~2% and compresses the multiple",
+        "assumption": "FY2027E Adjusted EPS $9.80 at 30.0x",
+        "target": 294.0
+      },
+      "base": {
+        "driver": "Steady ~4% RevPAR growth, 6-7% net unit growth from the 543,100-room pipeline, and ongoing buybacks",
+        "assumption": "FY2027E Adjusted EPS $10.55 at 34.0x",
+        "target": 358.7
+      },
+      "bull": {
+        "driver": "Stronger business/group travel and faster pipeline conversions lift fee-based earnings",
+        "assumption": "FY2027E Adjusted EPS $11.20 at 37.0x",
+        "target": 414.4
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $10.55, the $373.09 close implies 35.4x forward P/E; the ~$374.19 Street consensus target implies 35.5x at base EPS or $11.01 EPS at 34.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $10.55 (2.8 pp).",
+    "watch_metric": "System-wide comparable RevPAR growth (currency-neutral) and net unit growth / pipeline openings",
+    "next_disclosure": "Q4 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 0.6,
+  "analyst_notes": "Following Hilton's Q3 2026 beat ($2.45 adjusted EPS, +5.8% RevPAR) and raised FY2026 adjusted EPS guidance ($9.07-$9.13), several named analysts raised targets, including Mizuho's Ben Chaiken ($329 to $421, upgraded to Outperform) and Bernstein's Richard Clarke ($320 to $380, Market Perform). Street consensus (~$374.19) sits roughly 4.3 pp above the $358.70 base case, reflecting a ~35.5x multiple on base FY2027E EPS versus our 34.0x assumption. Target horizons are marked null where the 12-month horizon was not explicitly documented in the secondary source.",
+  "sources": [
+    {
+      "label": "Hilton Q3 2026 Earnings Release",
+      "url": "https://stories.hilton.com/",
+      "supports": "Q3 2026 EPS, RevPAR, pipeline, and FY2026 guidance"
+    },
+    {
+      "label": "MarketBeat HLT Analyst Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/HLT/forecast/",
+      "supports": "Named analyst ratings, price targets, and consensus"
+    },
+    {
+      "label": "StockAnalysis HLT Forecast",
+      "url": "https://stockanalysis.com/stocks/hlt/forecast/",
+      "supports": "Analyst targets, consensus range, and dividend data"
+    },
+    {
+      "label": "WallStreetZen HLT Earnings Estimates",
+      "url": "https://www.wallstreetzen.com/stocks/us/nyse/hlt/earnings",
+      "supports": "FY2027 consensus EPS estimates"
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "issuer_id": "Targa Resources Corp.",
+  "symbol": "TRGP",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 297.33,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Robert Kad",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 362,
+      "source_prior": 359,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tradingview.com/news/mtnewswires.com:20261109:A3604521:0/"
+    },
+    {
+      "analyst": "Robert Kad",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.tradingview.com/news/mtnewswires.com:20261109:A3604521:0/"
+    },
+    {
+      "analyst": "Praneeth Satish",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 330,
+      "source_prior": 324,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TRGP/forecast/"
+    },
+    {
+      "analyst": "Praneeth Satish",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/TRGP/forecast/"
+    },
+    {
+      "analyst": "Elvira Scotto",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 338,
+      "source_prior": 312,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/trgp/forecast"
+    },
+    {
+      "analyst": "Elvira Scotto",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/trgp/forecast"
+    },
+    {
+      "analyst": "Brandon Bingham",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 325,
+      "source_prior": 319,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/trgp/forecast"
+    },
+    {
+      "analyst": "Brandon Bingham",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/trgp/forecast"
+    },
+    {
+      "analyst": "Jean Ann Salisbury",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 330,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/trgp/forecast"
+    },
+    {
+      "analyst": "Jean Ann Salisbury",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/trgp/forecast"
+    },
+    {
+      "analyst": "Manav Gupta",
+      "firm": "UBS",
+      "field": "target",
+      "value": 325,
+      "source_prior": 318,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/trgp/forecast"
+    },
+    {
+      "analyst": "Manav Gupta",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/trgp/forecast"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EV/EBITDA (FY2027E Adjusted EBITDA, less $19.2B net debt, divided by 215.2M diluted shares from Q3 2026 10-Q)",
+    "bear": 253.49,
+    "base": 318.54,
+    "bull": 382.43,
+    "cases": {
+      "bear": {
+        "driver": "Slower Permian volume growth and compressed NGL/LPG export spreads",
+        "assumption": "FY2027E Adjusted EBITDA $5.90B at 12.5x EV/EBITDA",
+        "target": 253.49
+      },
+      "base": {
+        "driver": "Sustained Permian inlet growth and new processing/fractionation capacity off >$6.0B FY2026 EBITDA base",
+        "assumption": "FY2027E Adjusted EBITDA $6.50B at 13.5x EV/EBITDA",
+        "target": 318.54
+      },
+      "bull": {
+        "driver": "Accelerated Permian volume ramp and mid-2027 LPG export expansion",
+        "assumption": "FY2027E Adjusted EBITDA $7.00B at 14.5x EV/EBITDA",
+        "target": 382.43
+      }
+    },
+    "implied_by_close": "At base FY2027E Adjusted EBITDA of $6.50B and $19.2B net debt, the $297.33 close ($83.19B EV) implies 12.8x EV/EBITDA; at 13.5x EV/EBITDA, the close implies $6.16B EBITDA.",
+    "sensitivity": "One turn of EV/EBITDA at base $6.50B EBITDA moves the target by $30.20 (+10.2 pp vs close).",
+    "watch_metric": "Permian natural gas inlet volumes (Bcf/d) and FY2027 Adjusted EBITDA guidance",
+    "next_disclosure": "Q4 2026 earnings release and FY2027 guidance (February 2027)"
+  },
+  "dividend_per_share": 6.0,
+  "analyst_notes": "All six named analysts in the sample reiterated Buy/Outperform/Overweight ratings and raised targets following Q3 2026 earnings on Nov 5, 2026, clustering between $325 and $362. The equal-weight sample average ($335.00, +12.7% upside) sits +5.5 pp above the base case ($318.54, +7.1% upside), reflecting either ~0.35x higher EV/EBITDA (13.85x vs 13.5x) or ~$170M higher FY2027E EBITDA.",
+  "sources": [
+    {
+      "label": "Targa Resources Q3 2026 Earnings Release",
+      "url": "https://www.targaresources.com/news-releases",
+      "supports": "Q3 2026 Adjusted EBITDA ($1.504B), FY2026 guidance (>= $6.0B), 2027 dividend target ($6.00/sh)"
+    },
+    {
+      "label": "Targa Resources Q3 2026 Form 10-Q",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0001389170",
+      "supports": "Diluted share count (215.2M), long-term debt ($19.28B)"
+    },
+    {
+      "label": "TipRanks TRGP Analyst Forecast",
+      "url": "https://www.tipranks.com/stocks/trgp/forecast",
+      "supports": "Named analyst ratings and price targets (RBC, Scotiabank, BofA, UBS)"
+    },
+    {
+      "label": "MarketBeat TRGP Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/TRGP/forecast/",
+      "supports": "Wells Fargo and Morgan Stanley price target updates"
+    }
+  ]
+}

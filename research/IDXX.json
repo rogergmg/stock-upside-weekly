@@ -1,0 +1,128 @@
+{
+  "issuer_id": "IDEXX Laboratories, Inc.",
+  "symbol": "IDXX",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 704.23,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-02T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Erin Wright",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 810,
+      "source_prior": 805,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/idxx/forecast/"
+    },
+    {
+      "analyst": "Erin Wright",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/idxx/forecast/"
+    },
+    {
+      "analyst": "Jonathan Block",
+      "firm": "Stifel Nicolaus",
+      "field": "target",
+      "value": 700,
+      "source_prior": 675,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/idxx/forecast/"
+    },
+    {
+      "analyst": "Jonathan Block",
+      "firm": "Stifel Nicolaus",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/idxx/forecast/"
+    },
+    {
+      "analyst": "Chris Schott",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 750,
+      "source_prior": 775,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/idxx/forecast/"
+    },
+    {
+      "analyst": "Chris Schott",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/idxx/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date)",
+    "bear": 576.0,
+    "base": 709.8,
+    "bull": 805.0,
+    "cases": {
+      "bear": {
+        "driver": "Prolonged U.S. veterinary visit softness and slower diagnostic utilization",
+        "assumption": "FY2027E EPS $16.00 at 36.0x P/E",
+        "target": 576.0
+      },
+      "base": {
+        "driver": "Mid-teens comparable EPS growth supported by CAG Diagnostics recurring revenue and 50-70 bps margin expansion",
+        "assumption": "FY2027E EPS $16.90 at 42.0x P/E",
+        "target": 709.8
+      },
+      "bull": {
+        "driver": "Re-accelerating U.S. vet visits, strong international expansion, and operating leverage",
+        "assumption": "FY2027E EPS $17.50 at 46.0x P/E",
+        "target": 805.0
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $16.90, the $704.23 close implies 41.67x forward P/E; the Street consensus target (~$718) implies 42.49x forward P/E or $17.10 EPS at 42.0x.",
+    "sensitivity": "One turn of forward P/E moves the base target by $16.90 (2.4 pp of price return).",
+    "watch_metric": "U.S. and international Companion Animal Group (CAG) Diagnostics recurring organic revenue growth and comparable operating margin expansion.",
+    "next_disclosure": "Q4 2026 / Full-Year 2026 earnings release and initial FY2027 guidance (expected early February 2027)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following IDEXX's Q3 2026 beat-and-raise on November 2, 2026 (EPS $4.01, FY2026 EPS guidance raised to $14.96-$15.16), named analysts including Erin Wright (Morgan Stanley, $810) and Jonathan Block (Stifel, $700) nudged targets higher, while Chris Schott (JPMorgan, $750) trimmed slightly in October ahead of the print. The +0.8% base-case upside ($709.80 vs. $704.23) is close to Street consensus (~$718, +2.0%), as the stock's ~41.7x FY2027E P/E already prices in steady double-digit recurring diagnostic growth.",
+  "sources": [
+    {
+      "label": "IDEXX Q3 2026 Earnings Release (Business Wire)",
+      "url": "https://www.businesswire.com/",
+      "supports": "Q3 2026 revenue, diluted EPS ($4.01), and raised FY2026 EPS guidance ($14.96-$15.16)"
+    },
+    {
+      "label": "StockAnalysis IDXX Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/idxx/forecast/",
+      "supports": "Named analyst ratings, price targets, and prior targets for Erin Wright, Jonathan Block, and Chris Schott"
+    },
+    {
+      "label": "Seeking Alpha IDXX Earnings Estimates",
+      "url": "https://seekingalpha.com/symbol/IDXX/earnings/estimates",
+      "supports": "FY2027 consensus EPS estimate (~$16.89) and forward P/E"
+    },
+    {
+      "label": "ChartsView IDXX Dividend History",
+      "url": "https://chartsview.co.uk/",
+      "supports": "Confirmation that IDEXX Laboratories does not pay a cash dividend"
+    }
+  ]
+}

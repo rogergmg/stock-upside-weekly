@@ -1,0 +1,196 @@
+{
+  "issuer_id": "Canadian Pacific Kansas City Limited",
+  "symbol": "CP",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 94.15,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Brandon Oglenski",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 104,
+      "source_prior": 102,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/cp/forecast/"
+    },
+    {
+      "analyst": "Brandon Oglenski",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/cp/forecast/"
+    },
+    {
+      "analyst": "Ariel Rosa",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 106,
+      "source_prior": 102,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/cp/forecast/"
+    },
+    {
+      "analyst": "Ariel Rosa",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/cp/forecast/"
+    },
+    {
+      "analyst": "Stephanie Moore",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 105,
+      "source_prior": null,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/canadian-pacific-railway-consensus-estimates"
+    },
+    {
+      "analyst": "Stephanie Moore",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/canadian-pacific-railway-consensus-estimates"
+    },
+    {
+      "analyst": "National Bank Analyst",
+      "firm": "National Bank",
+      "field": "target",
+      "value": 100,
+      "source_prior": 99,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/cp/forecast/"
+    },
+    {
+      "analyst": "National Bank Analyst",
+      "firm": "National Bank",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/cp/forecast/"
+    },
+    {
+      "analyst": "Desjardins Analyst",
+      "firm": "Desjardins",
+      "field": "target",
+      "value": 99,
+      "source_prior": 101,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/cp/forecast/"
+    },
+    {
+      "analyst": "Desjardins Analyst",
+      "firm": "Desjardins",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/cp/forecast/"
+    },
+    {
+      "analyst": "Bascome Majors",
+      "firm": "Susquehanna",
+      "field": "target",
+      "value": 105,
+      "source_prior": 98,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/CP/forecast/"
+    },
+    {
+      "analyst": "Bascome Majors",
+      "firm": "Susquehanna",
+      "field": "rating",
+      "value": "Positive",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/CP/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS in USD viewed at the 12-month target date; CAD results converted at 0.7008 USD/CAD as of 2026-11-13)",
+    "bear": 80.0,
+    "base": 99.0,
+    "bull": 116.38,
+    "cases": {
+      "bear": {
+        "driver": "North American freight volume softness, tariff/trade headwinds, or slower KCS synergy realization",
+        "assumption": "FY2027 adjusted diluted EPS $4.00 at 20.0x P/E",
+        "target": 80.0
+      },
+      "base": {
+        "driver": "Steady grain and intermodal volume growth, ~61-62% core operating ratio, and ~4% annual share count reduction",
+        "assumption": "FY2027 adjusted diluted EPS $4.40 at 22.5x P/E",
+        "target": 99.0
+      },
+      "bull": {
+        "driver": "Accelerated cross-border Mexico-US-Canada nearshoring volumes and core operating ratio improving below 60%",
+        "assumption": "FY2027 adjusted diluted EPS $4.75 at 24.5x P/E",
+        "target": 116.38
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $4.40, the $94.15 close implies 21.4x; recent post-Q3 broker targets ($99-$106) imply 22.5x-24.1x (or $4.40-$4.71 EPS at 22.5x).",
+    "sensitivity": "One turn of P/E moves the base target by $4.40 (4.7 pp).",
+    "watch_metric": "Core adjusted operating ratio (61.9% in Q3 2026) and cross-border intermodal/grain revenue ton-miles",
+    "next_disclosure": "Q4 2026 / FY2026 earnings release (expected late January 2027)"
+  },
+  "dividend_per_share": 0.75,
+  "analyst_notes": "Following Q3 2026 results on October 28, 2026 (core adjusted EPS C$1.28, +16% YoY; revenue C$4.2B, +15% YoY; 877.6M diluted shares), several brokers nudged targets higher (Barclays to $104, Citi to $106, Susquehanna to $105, National Bank to $100) while Jefferies held at $105 (Hold) and Desjardins trimmed to $99 (Buy). The post-Q3 target cluster ($99-$106) sits modestly above our $99.00 base case (+5.2% upside), reflecting slightly higher assumed multiples (22.5x-24.1x) or stronger FY2027 EPS growth.",
+  "sources": [
+    {
+      "label": "CPKC Q3 2026 Earnings Release",
+      "url": "https://www.cpkcr.com/en/news/cpkc-reports-third-quarter-2026-results",
+      "supports": "Q3 2026 EPS, revenue, operating ratio, diluted share count, and release timing"
+    },
+    {
+      "label": "StockAnalysis CP Forecast",
+      "url": "https://stockanalysis.com/stocks/cp/forecast/",
+      "supports": "Post-Q3 2026 analyst target revisions (Barclays, Citi, National Bank, Desjardins)"
+    },
+    {
+      "label": "MarketBeat CP Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CP/forecast/",
+      "supports": "Susquehanna target revision and FY2026 USD consensus EPS"
+    },
+    {
+      "label": "Investing.com CP Consensus",
+      "url": "https://www.investing.com/equities/canadian-pacific-railway-consensus-estimates",
+      "supports": "Jefferies Hold rating and $105 target"
+    },
+    {
+      "label": "Morningstar CP Dividend History",
+      "url": "https://www.morningstar.com/stocks/xnys/cp/dividends",
+      "supports": "2026 quarterly dividend declarations (C$0.268/quarter in Q2-Q4 2026)"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "issuer_id": "TC Energy Corporation",
+  "symbol": "TRP",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 64.78,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T08:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Maurice Choy",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 74.28,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/trp/forecast"
+    },
+    {
+      "analyst": "Maurice Choy",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "source": "https://www.tipranks.com/stocks/trp/forecast"
+    },
+    {
+      "analyst": "Robert Hope",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 73.58,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TRP/forecast/"
+    },
+    {
+      "analyst": "Robert Hope",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/TRP/forecast/"
+    },
+    {
+      "analyst": "Benjamin Pham",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 71.48,
+      "source_prior": 69.38,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/trp/forecast"
+    },
+    {
+      "analyst": "Benjamin Pham",
+      "firm": "BMO Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "source": "https://www.tipranks.com/stocks/trp/forecast"
+    },
+    {
+      "analyst": "Aaron MacNeil",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 73.58,
+      "source_prior": 72.18,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/trp/forecast"
+    },
+    {
+      "analyst": "Aaron MacNeil",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "source": "https://www.tipranks.com/stocks/trp/forecast"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Enterprise Value from 2027E Comparable EBITDA x EV/EBITDA less net debt (~C$54.5B base) divided by 1.042B common shares, converted from CAD to USD at 0.7008 CAD/USD (2026-11-13).",
+    "bear": 51.79,
+    "base": 67.59,
+    "bull": 79.9,
+    "cases": {
+      "bear": {
+        "driver": "Slower project ramp, rate-settlement headwinds, or higher leverage",
+        "assumption": "2027E Comparable EBITDA C$12.0B at 11.0x EV/EBITDA less C$55.0B net debt",
+        "target": 51.79
+      },
+      "base": {
+        "driver": "Execution on C$12.3B-C$12.5B 2027E Comparable EBITDA guidance and deleveraging toward 4.55x-4.6x",
+        "assumption": "2027E Comparable EBITDA C$12.4B at 12.5x EV/EBITDA less C$54.5B net debt",
+        "target": 67.59
+      },
+      "bull": {
+        "driver": "Stronger North American natural gas / LNG demand and under-budget project deliveries",
+        "assumption": "2027E Comparable EBITDA C$12.8B at 13.5x EV/EBITDA less C$54.0B net debt",
+        "target": 79.9
+      }
+    },
+    "implied_by_close": "At base 2027E Comparable EBITDA of C$12.4B and C$54.5B net debt, the US$64.78 close (C$92.45) implies 12.2x EV/EBITDA; published Street consensus (~US$67.66-71.45) implies ~12.5x-13.0x EV/EBITDA.",
+    "sensitivity": "One turn of EV/EBITDA moves the base target by US$8.34 (12.9 pp).",
+    "watch_metric": "Full-year 2026 Comparable EBITDA (C$11.8B-C$12.0B guidance) and exit Adjusted Debt-to-Adjusted Comparable EBITDA (4.55x-4.6x target).",
+    "next_disclosure": "Q4 2026 earnings release (expected February 2027)."
+  },
+  "dividend_per_share": 2.46,
+  "analyst_notes": "Following Q3 2026 results on Nov 5, 2026 (Comparable EBITDA C$3.004B, +13% YoY; 2026 guidance raised to C$11.8B-C$12.0B), BMO Capital Markets and TD Cowen raised their CAD targets while RBC Capital and Scotiabank maintained Outperform/Buy ratings with targets of C$102-C$106 (US$71.48-74.28 at 0.7008 CAD/USD). Published Street consensus sits near US$67.66-71.45 (+4.4% to +10.3% upside), slightly above our US$67.59 base case (+4.3%), reflecting ~0.0x-0.5x higher EV/EBITDA multiple assumptions.",
+  "sources": [
+    {
+      "label": "TC Energy Q3 2026 Results & 2026/2027 Outlook",
+      "url": "https://www.tcenergy.com/announcements/2026-11-05-tc-energy-reports-strong-third-quarter-2026-results/",
+      "supports": "Q3 2026 Comparable EBITDA (C$3.004B), Comparable EPS (C$0.94), 2026 EBITDA guidance (C$11.8B-C$12.0B), 2027 EBITDA outlook (C$12.3B-C$12.5B), quarterly dividend (C$0.8775)"
+    },
+    {
+      "label": "TipRanks TRP Analyst Forecast",
+      "url": "https://www.tipranks.com/stocks/trp/forecast",
+      "supports": "Named analyst ratings and price targets (RBC Capital, BMO Capital Markets, TD Cowen)"
+    },
+    {
+      "label": "MarketBeat TRP Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/TRP/forecast/",
+      "supports": "Scotiabank rating and price target, Street consensus"
+    },
+    {
+      "label": "Macrotrends TRP Shares Outstanding & Debt",
+      "url": "https://www.macrotrends.net/stocks/charts/TRP/tc-energy/shares-outstanding",
+      "supports": "Common shares outstanding (~1.042B) and long-term debt"
+    }
+  ]
+}

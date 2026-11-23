@@ -1,0 +1,144 @@
+{
+  "issuer_id": "Humana Inc.",
+  "symbol": "HUM",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 450.0,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-06T06:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Stephen Baxter",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 602.0,
+      "source_prior": 502.0,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HUM/analyst-ratings"
+    },
+    {
+      "analyst": "Stephen Baxter",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/HUM/analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Mok",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 587.0,
+      "source_prior": 582.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HUM/analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Mok",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/HUM/analyst-ratings"
+    },
+    {
+      "analyst": "Jessica Tassan",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 526.0,
+      "source_prior": 463.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HUM/analyst-ratings"
+    },
+    {
+      "analyst": "Jessica Tassan",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/HUM/analyst-ratings"
+    },
+    {
+      "analyst": "Jason Cassorla",
+      "firm": "Guggenheim",
+      "field": "target",
+      "value": 521.0,
+      "source_prior": 471.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HUM/analyst-ratings"
+    },
+    {
+      "analyst": "Jason Cassorla",
+      "firm": "Guggenheim",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/HUM/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date)",
+    "bear": 310.0,
+    "base": 420.0,
+    "bull": 513.0,
+    "cases": {
+      "bear": {
+        "driver": "CMS retroactive audit ('CRUSH' rule) headwinds and slower Medicare Advantage margin recovery",
+        "assumption": "FY2027 adjusted EPS $15.50 at 20.0x P/E",
+        "target": 310.0
+      },
+      "base": {
+        "driver": "Gradual Medicare Advantage margin and Star Ratings recovery off the FY2026 ($9.50+ EPS) reset",
+        "assumption": "FY2027 adjusted EPS $17.50 at 24.0x P/E",
+        "target": 420.0
+      },
+      "bull": {
+        "driver": "Stronger-than-expected MA pricing discipline, utilization stability, and Star Ratings rebound",
+        "assumption": "FY2027 adjusted EPS $19.00 at 27.0x P/E",
+        "target": 513.0
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $17.50, the $450.00 close implies 25.7x; the ~$515 consensus analyst target implies 29.4x (or $21.46 EPS at 24.0x).",
+    "sensitivity": "One turn of P/E moves the base target by $17.50 (3.9 pp of price return).",
+    "watch_metric": "Medicare Advantage medical cost ratio (MCR) and CMS Star Ratings / retroactive audit ('CRUSH' rule) impact",
+    "next_disclosure": "Q4 2026 earnings release and FY2027 guidance (expected February 2027)"
+  },
+  "dividend_per_share": 3.54,
+  "analyst_notes": "Following Humana's Q3 2026 earnings beat and FY2026 adjusted EPS guidance raise (to at least $9.50) on Nov 6, 2026, Wells Fargo ($602), Barclays ($587), Piper Sandler ($526), and Guggenheim ($521) all raised their targets and reiterated Buy/Overweight ratings. Street targets sit ~21 pp above our $420.00 base case (-6.7% vs. close), implying either ~29.4x FY2027E EPS or faster multi-year margin recovery than our 24.0x base multiple.",
+  "sources": [
+    {
+      "label": "Humana Q3 2026 Earnings Release",
+      "url": "https://www.humana.com/about/investor-relations",
+      "supports": "Q3 2026 EPS, revenue, FY2026 adjusted EPS guidance ($9.50+), and release timestamp"
+    },
+    {
+      "label": "Humana 2026 Dividend Schedule",
+      "url": "https://www.humana.com/about/investor-relations",
+      "supports": "Quarterly dividend of $0.885/share ($3.54 annualized)"
+    },
+    {
+      "label": "Benzinga HUM Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/HUM/analyst-ratings",
+      "supports": "Wells Fargo, Barclays, Piper Sandler, and Guggenheim post-Q3 2026 target raises and ratings"
+    }
+  ]
+}

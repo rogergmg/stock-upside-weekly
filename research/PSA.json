@@ -1,0 +1,230 @@
+{
+  "issuer_id": "Public Storage",
+  "symbol": "PSA",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 332.59,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-26T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Ki Bin Kim",
+      "firm": "Truist Financial",
+      "field": "target",
+      "value": 365,
+      "source_prior": 317,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Ki Bin Kim",
+      "firm": "Truist Financial",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Samir Khanal",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 348,
+      "source_prior": 341,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Samir Khanal",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Michael Goldsmith",
+      "firm": "UBS",
+      "field": "target",
+      "value": 334,
+      "source_prior": 294,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Michael Goldsmith",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Brad Heffern",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 323,
+      "source_prior": 318,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Brad Heffern",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Sector Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Brendan Lynch",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 351,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/PSA/forecast/"
+    },
+    {
+      "analyst": "Brendan Lynch",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/PSA/forecast/"
+    },
+    {
+      "analyst": "Eric Luebchow",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 311,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/PSA/forecast/"
+    },
+    {
+      "analyst": "Eric Luebchow",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Equal Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/PSA/forecast/"
+    },
+    {
+      "analyst": "Steve Sakwa",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 308,
+      "source_prior": 320,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Steve Sakwa",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "In-Line",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/psa/forecast/"
+    },
+    {
+      "analyst": "Ron Kamdem",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 290,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/PSA/forecast/"
+    },
+    {
+      "analyst": "Ron Kamdem",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/PSA/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Core FFO per share x P/Core FFO multiple (FY2027E Core FFO viewed at the 12-month target date)",
+    "bear": 301.0,
+    "base": 346.13,
+    "bull": 386.4,
+    "cases": {
+      "bear": {
+        "driver": "Integration drag from NSA and PS Canada, softer move-in rents, and higher cap rates",
+        "assumption": "FY2027E Core FFO $17.20 at 17.5x",
+        "target": 301.0
+      },
+      "base": {
+        "driver": "Modest same-store NOI recovery (~1-2%), 9% move-in rent momentum moderating, and steady NSA/PS Canada synergies off FY2026 guidance midpoint ($17.00)",
+        "assumption": "FY2027E Core FFO $17.75 at 19.5x",
+        "target": 346.13
+      },
+      "bull": {
+        "driver": "Faster-than-expected NSA/PS Canada cost synergies and sustained move-in rent growth driving multiple expansion",
+        "assumption": "FY2027E Core FFO $18.40 at 21.0x",
+        "target": 386.4
+      }
+    },
+    "implied_by_close": "At base FY2027E Core FFO of $17.75, the $332.59 close implies 18.7x; the ~$343.39 published consensus target implies 19.3x (or $17.61 Core FFO at 19.5x).",
+    "sensitivity": "One turn of P/Core FFO multiple moves the base target by $17.75 (5.3 pp).",
+    "watch_metric": "Same-store revenue/NOI growth and NSA/PS Canada integration synergies",
+    "next_disclosure": "Q4 2026 earnings release and FY2027 Core FFO guidance (expected February 2027)"
+  },
+  "dividend_per_share": 12.0,
+  "analyst_notes": "Following Q3 2026 earnings on October 26, 2026 (Core FFO $4.34, FY2026 Core FFO guidance raised to $16.90-$17.10), several brokers raised targets—including Truist ($317 to $365, Buy), BofA ($341 to $348, Neutral), UBS ($294 to $334, Neutral), and RBC ($318 to $323, Sector Perform)—while Evercore ISI trimmed to $308 (In-Line). Most named coverage sits at Hold/Neutral, with targets tightly clustered around the $346.13 base case (+4.1% upside), reflecting balanced views on move-in rent strength versus acquisition integration and macro rate sensitivity.",
+  "sources": [
+    {
+      "label": "Public Storage Q3 2026 Earnings Release & Guidance",
+      "url": "https://www.businesswire.com/news/home/20261026000000/en/",
+      "supports": "Q3 2026 Core FFO ($4.34), FY2026 Core FFO guidance ($16.90-$17.10), earnings_at"
+    },
+    {
+      "label": "Public Storage 2026 Dividend History",
+      "url": "https://www.publicstorage.com/investor-relations",
+      "supports": "Regular quarterly common dividend of $3.00/share ($12.00 annualized)"
+    },
+    {
+      "label": "StockAnalysis PSA Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/psa/forecast/",
+      "supports": "Truist, BofA, UBS, RBC, Evercore ISI analyst targets and ratings"
+    },
+    {
+      "label": "MarketBeat PSA Analyst Forecasts",
+      "url": "https://www.marketbeat.com/stocks/NYSE/PSA/forecast/",
+      "supports": "Barclays, Wells Fargo, Morgan Stanley analyst targets and ratings"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "issuer_id": "Bloom Energy Corporation",
+  "symbol": "BE",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 191.99,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-22T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Christopher Dendrinos",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 335,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/BE/analyst-ratings"
+    },
+    {
+      "analyst": "Christopher Dendrinos",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/BE/analyst-ratings"
+    },
+    {
+      "analyst": "Christine Cho",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 289,
+      "source_prior": 316,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/BE/analyst-ratings"
+    },
+    {
+      "analyst": "Christine Cho",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/BE/analyst-ratings"
+    },
+    {
+      "analyst": "Mark Strouse",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 292,
+      "source_prior": 314,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/BE/analyst-ratings"
+    },
+    {
+      "analyst": "Mark Strouse",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/BE/analyst-ratings"
+    },
+    {
+      "analyst": "Stephen Byrd",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 335,
+      "source_prior": 310,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/BE/analyst-ratings"
+    },
+    {
+      "analyst": "Stephen Byrd",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/BE/analyst-ratings"
+    },
+    {
+      "analyst": "Ameet Thakkar",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 230,
+      "source_prior": 260,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.bloomenergy.com/investors/analyst-coverage/"
+    },
+    {
+      "analyst": "Ameet Thakkar",
+      "firm": "BMO Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.bloomenergy.com/investors/analyst-coverage/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Non-GAAP EPS x P/E (FY2027 Non-GAAP diluted EPS viewed at the 12-month target date)",
+    "bear": 128.0,
+    "base": 220.5,
+    "bull": 325.0,
+    "cases": {
+      "bear": {
+        "driver": "AI data center power deployment delays or grid-interconnection normalization compress revenue growth and gross margin expansion",
+        "assumption": "FY2027 Non-GAAP EPS $4.00 at 32.0x P/E",
+        "target": 128.0
+      },
+      "base": {
+        "driver": "Continued hyperscaler and commercial on-site fuel cell scaling toward ~$7.0B FY2027 revenue with sustained ~34% gross margins",
+        "assumption": "FY2027 Non-GAAP EPS $5.25 at 42.0x P/E",
+        "target": 220.5
+      },
+      "bull": {
+        "driver": "Accelerated multi-gigawatt framework conversions (Oracle, NTT DATA, Brookfield) drive operating leverage above consensus",
+        "assumption": "FY2027 Non-GAAP EPS $6.50 at 50.0x P/E",
+        "target": 325.0
+      }
+    },
+    "implied_by_close": "At base FY2027 Non-GAAP EPS of $5.25, the $191.99 close implies 36.6x forward P/E; at 42.0x, the close implies $4.57 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $5.25 (+2.7 pp at the $191.99 close).",
+    "watch_metric": "Product revenue growth, Non-GAAP gross margin (~34.5% in Q3 2026), and multi-gigawatt data center backlog conversions",
+    "next_disclosure": "Q4 2026 earnings release (expected early February 2027)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Bloom Energy's Q3 2026 beat and third full-year guidance raise on October 22, 2026 (FY2026 revenue raised to $4.4B-$4.6B, Non-GAAP EPS to $3.10-$3.40), named analysts largely maintained or upgraded to Buy/Overweight/Outperform ratings while recalibrating targets amid November AI-infrastructure volatility. Barclays and BMO Capital Markets upgraded to Overweight and Outperform in November even while trimming targets to $289 and $230, respectively, whereas Morgan Stanley ($335) and RBC Capital ($335) sit well above our $220.50 base case. The Street's higher targets reflect willingness to underwrite ~55x-64x our $5.25 base FY2027 EPS or higher 2027 earnings power.",
+  "sources": [
+    {
+      "label": "Bloom Energy Q3 2026 Financial Results",
+      "url": "https://www.bloomenergy.com/news/",
+      "supports": "Q3 2026 revenue ($1,235.8M), GAAP EPS ($0.78), Non-GAAP EPS ($0.94), gross margin (33.8% GAAP / 34.5% Non-GAAP), FY2026 guidance"
+    },
+    {
+      "label": "Benzinga BE Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/BE/analyst-ratings",
+      "supports": "Named analyst ratings, price targets, prior targets, and dates for RBC Capital, Barclays, JPMorgan, and Morgan Stanley"
+    },
+    {
+      "label": "Bloom Energy Investor Relations Analyst Coverage",
+      "url": "https://www.bloomenergy.com/investors/analyst-coverage/",
+      "supports": "Analyst roster and firm coverage verification"
+    }
+  ]
+}

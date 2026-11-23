@@ -1,0 +1,249 @@
+{
+  "issuer_id": "Devon Energy Corporation",
+  "symbol": "DVN",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 46.58,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T16:11:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Betty Jiang",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 59,
+      "source_prior": 57,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Betty Jiang",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Bob Brackett",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 44,
+      "source_prior": 49,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Bob Brackett",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T16:00:00-05:00",
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Devin McDermott",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 65,
+      "source_prior": 64,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/"
+    },
+    {
+      "analyst": "Devin McDermott",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T16:00:00-05:00",
+      "source": "https://www.stockanalysis.com/"
+    },
+    {
+      "analyst": "Scott Gruber",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 60,
+      "source_prior": 67,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/"
+    },
+    {
+      "analyst": "Scott Gruber",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T16:00:00-05:00",
+      "source": "https://www.gurufocus.com/"
+    },
+    {
+      "analyst": "Neil Mehta",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 59,
+      "source_prior": null,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Neil Mehta",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T16:00:00-05:00",
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Arun Jayaram",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 68,
+      "source_prior": 65,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Arun Jayaram",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T16:00:00-04:00",
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Josh Silverstein",
+      "firm": "UBS",
+      "field": "target",
+      "value": 62,
+      "source_prior": 65,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/"
+    },
+    {
+      "analyst": "Josh Silverstein",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T16:00:00-04:00",
+      "source": "https://www.gurufocus.com/"
+    },
+    {
+      "analyst": "Lloyd Byrne",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 62,
+      "source_prior": null,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://seekingalpha.com/"
+    },
+    {
+      "analyst": "Lloyd Byrne",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T16:00:00-04:00",
+      "source": "https://seekingalpha.com/"
+    },
+    {
+      "analyst": "Paul Cheng",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 41,
+      "source_prior": 47,
+      "issued_at": "2026-06-15",
+      "public_at": "2026-06-15T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.moomoo.com/"
+    },
+    {
+      "analyst": "Paul Cheng",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-06-15",
+      "public_at": "2026-06-15T16:00:00-04:00",
+      "source": "https://www.moomoo.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EV/EBITDAX (FY2027E EBITDAX viewed at the 12-month target date, less projected net debt of $6.5B post-Eagle Ford divestiture, divided by 1,080M projected diluted shares)",
+    "bear": 41.9,
+    "base": 56.2,
+    "bull": 73.4,
+    "cases": {
+      "bear": {
+        "driver": "WTI ~$55/bbl, slower Coterra synergy capture, 1,600 Mboe/d pro-forma volume",
+        "assumption": "FY2027E EBITDAX $11.5B at 4.5x EV/EBITDAX less $6.5B net debt / 1,080M shares",
+        "target": 41.9
+      },
+      "base": {
+        "driver": "WTI ~$68/bbl, $5.3B 2027 capex, ~$1.6M Boe/d pro-forma, >$1B Q4 buybacks + $4.2B Eagle Ford proceeds",
+        "assumption": "FY2027E EBITDAX $14.0B at 4.8x EV/EBITDAX less $6.5B net debt / 1,080M shares",
+        "target": 56.2
+      },
+      "bull": {
+        "driver": "WTI ~$80/bbl, accelerated Permian capital efficiency and share retirement",
+        "assumption": "FY2027E EBITDAX $16.5B at 5.2x EV/EBITDAX less $6.5B net debt / 1,080M shares",
+        "target": 73.4
+      }
+    },
+    "implied_by_close": "At base FY2027E EBITDAX ($14.0B) and $6.5B net debt, the $46.58 close implies 4.1x EV/EBITDAX; published Street consensus (~$57-$60) implies 4.9x-5.1x.",
+    "sensitivity": "Each 0.5x turn of EV/EBITDAX moves the base target by $6.48/share (13.9 pp of return).",
+    "watch_metric": "Realized oil/gas prices, Permian Basin capital efficiency, Eagle Ford divestiture closing ($4.2B), and Q4 2026 / FY2027 share repurchase pace.",
+    "next_disclosure": "Q4 2026 earnings release and FY2026 Form 10-K (expected February 2027)."
+  },
+  "dividend_per_share": 1.28,
+  "analyst_notes": "Following Q3 2026 earnings on Nov 5, 2026 (first full quarter post-Coterra merger; $1.42 adj. EPS, $2.0B adj. FCF), Barclays raised its target to $59 (Overweight) and Morgan Stanley to $65 (Overweight), while Citigroup trimmed to $60 (Buy) and Bernstein downgraded to Market Perform at $44. Street consensus (~$57-$60) is slightly above our $56.20 base case (+20.7% upside), reflecting optimism on >$1B Q4 buybacks and $4.2B Eagle Ford sale proceeds. Horizon_months is set to null where broker 12-month target disclosures were not directly verified.",
+  "sources": [
+    {
+      "label": "Devon Energy Q3 2026 Earnings Release & 10-Q (Nov 5-6, 2026)",
+      "url": "https://www.devonenergy.com/",
+      "supports": "Q3 2026 EPS ($0.88 GAAP / $1.42 adj.), $2.0B adj. FCF, 1,668 Mboe/d production, 1,146M diluted shares, $10.223B net debt, $0.32/sh quarterly dividend, 2027 outlook"
+    },
+    {
+      "label": "Benzinga / MarketBeat DVN Analyst Ratings (Nov 2026)",
+      "url": "https://www.benzinga.com/",
+      "supports": "Barclays ($59), Morgan Stanley ($65), Citigroup ($60), Goldman Sachs ($59), Bernstein ($44) ratings and targets"
+    },
+    {
+      "label": "TipRanks / Investing.com / GuruFocus DVN Coverage",
+      "url": "https://www.tipranks.com/",
+      "supports": "JPMorgan ($68), UBS ($62), Jefferies ($62), Scotiabank ($41) analyst coverage and consensus range"
+    }
+  ]
+}

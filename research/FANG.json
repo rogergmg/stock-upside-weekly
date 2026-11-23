@@ -1,0 +1,196 @@
+{
+  "issuer_id": "Diamondback Energy, Inc.",
+  "symbol": "FANG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 184.93,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-02T16:05:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Bob Brackett",
+      "firm": "Bernstein SocGen Group",
+      "field": "target",
+      "value": 192,
+      "source_prior": 221,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Bob Brackett",
+      "firm": "Bernstein SocGen Group",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "John Freeman",
+      "firm": "Raymond James",
+      "field": "target",
+      "value": 246,
+      "source_prior": 256,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "John Freeman",
+      "firm": "Raymond James",
+      "field": "rating",
+      "value": "Strong Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Nitin Kumar",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 248,
+      "source_prior": 254,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Nitin Kumar",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Sam Margolin",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 250,
+      "source_prior": 244,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/"
+    },
+    {
+      "analyst": "Sam Margolin",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/"
+    },
+    {
+      "analyst": "Josh Silverstein",
+      "firm": "UBS",
+      "field": "target",
+      "value": 263,
+      "source_prior": 260,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/"
+    },
+    {
+      "analyst": "Josh Silverstein",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://stockanalysis.com/"
+    },
+    {
+      "analyst": "Neil Mehta",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 235,
+      "source_prior": 215,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.moomoo.com/"
+    },
+    {
+      "analyst": "Neil Mehta",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.moomoo.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date, 2027-11-13)",
+    "bear": 152.0,
+    "base": 210.0,
+    "bull": 258.5,
+    "cases": {
+      "bear": {
+        "driver": "Softer WTI crude strip, higher gas-oil ratio, and elevated capex",
+        "assumption": "FY2027E EPS $16.00 at 9.5x P/E",
+        "target": 152.0
+      },
+      "base": {
+        "driver": "Mid-cycle WTI pricing, ~525+ MBO/d oil production, and disciplined capex",
+        "assumption": "FY2027E EPS $20.00 at 10.5x P/E",
+        "target": 210.0
+      },
+      "bull": {
+        "driver": "Tighter crude supply, Double Eagle integration synergies, and lower unit costs",
+        "assumption": "FY2027E EPS $23.50 at 11.0x P/E",
+        "target": 258.5
+      }
+    },
+    "implied_by_close": "At $20.00 base FY2027E EPS, the $184.93 close implies 9.25x P/E; at 10.5x base P/E, the close implies $17.61 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $20.00 (10.8 pp of price return).",
+    "watch_metric": "Realized WTI crude oil price, oil production (MBO/d), and cash capex / free cash flow conversion",
+    "next_disclosure": "Q4 2026 earnings release (expected late February 2027)"
+  },
+  "dividend_per_share": 4.72,
+  "analyst_notes": "Following Q3 2026 earnings on November 2, 2026 (Adjusted EPS $5.86, FCF $2.1B, base dividend raised 7.3% to $4.72/share), named analysts mostly maintained Buy/Outperform ratings with mixed target revisions: Wells Fargo ($250), UBS ($263), and Goldman Sachs ($235) raised targets, while Raymond James ($246) and Mizuho ($248) trimmed slightly and Bernstein downgraded to Market Perform ($192) on macro oil normalization. The unweighted sample mean ($239.00) sits above our $210.00 base case (+29.2% vs. +13.6%), reflecting higher assumed mid-cycle oil realizations or multiple expansion (12.0x on $20.00 EPS).",
+  "sources": [
+    {
+      "label": "Diamondback Energy Q3 2026 Earnings Release",
+      "url": "https://www.diamondbackenergy.com/",
+      "supports": "Q3 2026 Adjusted EPS ($5.86), GAAP EPS ($5.69), FCF ($2.1B), FY2026 guidance, and $4.72 annualized base dividend"
+    },
+    {
+      "label": "MarketBeat FANG Analyst Consensus & Wells Fargo",
+      "url": "https://www.marketbeat.com/",
+      "supports": "Wells Fargo (Sam Margolin) $250 target and consensus overview"
+    },
+    {
+      "label": "StockAnalysis FANG Analyst Targets",
+      "url": "https://stockanalysis.com/",
+      "supports": "UBS (Josh Silverstein) $263 target"
+    },
+    {
+      "label": "StreetInsider FANG Analyst Actions",
+      "url": "https://www.streetinsider.com/",
+      "supports": "Bernstein (Bob Brackett) $192 downgrade and Mizuho (Nitin Kumar) $248 target"
+    },
+    {
+      "label": "TipRanks FANG Analyst Ratings",
+      "url": "https://www.tipranks.com/",
+      "supports": "Raymond James (John Freeman) $246 Strong Buy"
+    }
+  ]
+}

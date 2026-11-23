@@ -1,0 +1,206 @@
+{
+  "issuer_id": "NIKE, Inc.",
+  "symbol": "NKE",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 37.99,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-01T16:15:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Piral Dadhania",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 39,
+      "source_prior": 40,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com"
+    },
+    {
+      "analyst": "Piral Dadhania",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Sector Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com"
+    },
+    {
+      "analyst": "Joseph Civello",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 29,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com"
+    },
+    {
+      "analyst": "Joseph Civello",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Sell",
+      "bucket": "Sell",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.streetinsider.com"
+    },
+    {
+      "analyst": "Alex Straton",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 27,
+      "source_prior": 31,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com"
+    },
+    {
+      "analyst": "Alex Straton",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Underweight",
+      "bucket": "Sell",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "source": "https://www.benzinga.com"
+    },
+    {
+      "analyst": "Lorraine Hutchinson",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 24,
+      "source_prior": 30,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com"
+    },
+    {
+      "analyst": "Lorraine Hutchinson",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Underperform",
+      "bucket": "Sell",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "source": "https://www.benzinga.com"
+    },
+    {
+      "analyst": "Brooke Roach",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 30,
+      "source_prior": 38,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com"
+    },
+    {
+      "analyst": "Brooke Roach",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "source": "https://www.streetinsider.com"
+    },
+    {
+      "analyst": "Paul Lejuez",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 32,
+      "source_prior": 39,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com"
+    },
+    {
+      "analyst": "Paul Lejuez",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "source": "https://www.tipranks.com"
+    },
+    {
+      "analyst": "Jay Sole",
+      "firm": "UBS",
+      "field": "target",
+      "value": 34,
+      "source_prior": 42,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com"
+    },
+    {
+      "analyst": "Jay Sole",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "source": "https://www.benzinga.com"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2028E diluted EPS viewed at the 12-month target date in November 2027, anchored to FY2026 actual diluted EPS of $2.10 and FY2027 adjusted diluted EPS guidance of $1.15-$1.35)",
+    "bear": 24.3,
+    "base": 34.65,
+    "bull": 48.0,
+    "cases": {
+      "bear": {
+        "driver": "Prolonged Greater China (-26% ex-FX in Q1 FY27) and Sportswear/Jordan resets with slower Pace cost-savings realization",
+        "assumption": "FY2028E EPS $1.35 at 18x P/E",
+        "target": 24.3
+      },
+      "base": {
+        "driver": "High-single-digit FY27 revenue decline stabilizes in FY28 as North America performance growth offsets China/classic resets and Pace savings lift margins",
+        "assumption": "FY2028E EPS $1.65 at 21x P/E",
+        "target": 34.65
+      },
+      "bull": {
+        "driver": "Faster North America and global performance running/football momentum, cleaner wholesale/digital inventory, and Pace savings ahead of plan",
+        "assumption": "FY2028E EPS $2.00 at 24x P/E",
+        "target": 48.0
+      }
+    },
+    "implied_by_close": "At base FY2028E EPS of $1.65, the $37.99 close implies 23.0x (above the 21x base multiple, or $1.81 EPS at 21x); the $30.71 simple-average named-analyst target implies 18.6x base EPS or $1.46 EPS at 21x.",
+    "sensitivity": "One turn of P/E moves the base target by $1.65 (4.3 pp of price return).",
+    "watch_metric": "Greater China currency-neutral revenue growth and NIKE Brand gross margin progression (42.8% in Q1 FY27)",
+    "next_disclosure": "Q2 FY2027 earnings release on 2026-12-17"
+  },
+  "dividend_per_share": 1.64,
+  "analyst_notes": "Following NIKE's Q1 FY2027 earnings release and FY2027 guidance reset on October 1, 2026, all seven named analysts cut targets or downgraded, with targets clustered between $24 and $39 (simple average $30.71, -19.2% vs. the $37.99 close, compared with -8.8% for the $34.65 base case). The ~10.4 pp gap reflects Street skepticism on the pace of Greater China and Sportswear recovery—Truist downgraded to Sell at $29 on November 5, and BofA ($24) and Morgan Stanley ($27) sit near our bear case. Note that post-cutoff Investor Day updates (November 16-17, 2026) are excluded per the November 13, 2026 cutoff.",
+  "sources": [
+    {
+      "label": "NIKE Q1 FY2027 Form 10-Q & Earnings Release (Oct 1-2, 2026)",
+      "url": "https://investors.nike.com",
+      "supports": "Q1 FY27 diluted EPS ($0.48), revenue ($11.2B), gross margin (42.8%), FY27 guidance ($1.15-$1.35 adj. EPS), and Q2 FY27 earnings date (Dec 17, 2026)"
+    },
+    {
+      "label": "NIKE FY2026 Form 10-K (Jul 15, 2026)",
+      "url": "https://www.sec.gov",
+      "supports": "FY26 diluted EPS ($2.10), dividends declared ($1.63/share), and 1,483,498,703 common shares outstanding"
+    },
+    {
+      "label": "Benzinga / StreetInsider / TipRanks Analyst Coverage (Oct-Nov 2026)",
+      "url": "https://www.benzinga.com",
+      "supports": "Named analyst ratings, price targets, and prior targets for RBC Capital, Truist, Morgan Stanley, BofA, Goldman Sachs, Citigroup, and UBS"
+    }
+  ]
+}

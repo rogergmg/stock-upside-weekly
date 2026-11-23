@@ -1,0 +1,192 @@
+{
+  "issuer_id": "CRH plc",
+  "symbol": "CRH",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 93.16,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Garik Shmois",
+      "firm": "DA Davidson",
+      "field": "target",
+      "value": 114,
+      "source_prior": 117,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/da-davidson-lowers-crh-stock-price-target-on-cost-headwinds-maintains-buy-93CH-4326939"
+    },
+    {
+      "analyst": "Garik Shmois",
+      "firm": "DA Davidson",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/da-davidson-lowers-crh-stock-price-target-on-cost-headwinds-maintains-buy-93CH-4326939"
+    },
+    {
+      "analyst": "Keith Hughes",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 105,
+      "source_prior": 130,
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CRH/analyst-ratings"
+    },
+    {
+      "analyst": "Keith Hughes",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 120,
+      "source_prior": 105,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/crh/forecast"
+    },
+    {
+      "analyst": "Keith Hughes",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/crh/forecast"
+    },
+    {
+      "analyst": "Anthony Pettinari",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 106,
+      "source_prior": 122,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CRH/analyst-ratings"
+    },
+    {
+      "analyst": "Anthony Pettinari",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 108,
+      "source_prior": 106,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/crh/forecast"
+    },
+    {
+      "analyst": "Anthony Pettinari",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/crh/forecast"
+    },
+    {
+      "analyst": "Adrian Huerta",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 115,
+      "source_prior": 140,
+      "issued_at": "2026-10-13",
+      "public_at": "2026-10-13T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CRH/analyst-ratings"
+    },
+    {
+      "analyst": "Adrian Huerta",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-13",
+      "public_at": "2026-10-13T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/CRH/analyst-ratings"
+    },
+    {
+      "analyst": "Anthony Codling",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 135,
+      "source_prior": 165,
+      "issued_at": "2026-10-09",
+      "public_at": "2026-10-09T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CRH/analyst-ratings"
+    },
+    {
+      "analyst": "Anthony Codling",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-09",
+      "public_at": "2026-10-09T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/CRH/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date of November 2027, anchored to FY2026 guidance of $5.37-$5.59 and ~670.5M diluted shares)",
+    "bear": 84.0,
+    "base": 111.6,
+    "bull": 137.35,
+    "cases": {
+      "bear": {
+        "driver": "Persistent energy and haulage cost inflation, sluggish residential construction, and slower Arcosa integration",
+        "assumption": "FY2027 adjusted diluted EPS $5.60 at 15.0x P/E",
+        "target": 84.0
+      },
+      "base": {
+        "driver": "High-single-digit aggregates pricing, partial margin recovery, full-year Arcosa contribution, and buyback accretion",
+        "assumption": "FY2027 adjusted diluted EPS $6.20 at 18.0x P/E",
+        "target": 111.6
+      },
+      "bull": {
+        "driver": "Stronger North American infrastructure and residential volume recovery, faster Velocity cost savings, and multiple expansion",
+        "assumption": "FY2027 adjusted diluted EPS $6.70 at 20.5x P/E",
+        "target": 137.35
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $6.20, the $93.16 close implies 15.0x forward P/E.",
+    "sensitivity": "One turn of P/E moves the base target by $6.20 (6.7 pp of price return).",
+    "watch_metric": "North American aggregates pricing and Adjusted EBITDA margin (23.5% in Q3 2026) alongside Arcosa integration contribution",
+    "next_disclosure": "Q4 and FY2026 earnings release (expected February 17, 2027)"
+  },
+  "dividend_per_share": 1.56,
+  "analyst_notes": "Following CRH's Q3 2026 release on October 29, 2026 (which trimmed FY2026 Adjusted EBITDA guidance to $7.8B-$8.0B on cost inflation and soft residential demand), Truist ($120) and Citigroup ($108) nudged targets higher on November 2 while DA Davidson trimmed to $114. All five tracked analysts maintain Buy-equivalent ratings with targets ranging from $108 to $135, broadly aligned with our $111.60 base case (+19.8% upside) as the market looks past near-term cost headwinds toward 2027 margin recovery and the $8.5B Arcosa acquisition.",
+  "sources": [
+    {
+      "label": "CRH Q3 2026 Financial Results",
+      "url": "https://www.crh.com/investors/results-and-presentations/",
+      "supports": "Q3 2026 revenue ($11.4B), Adjusted EBITDA ($2.682B), diluted EPS ($1.86 / $2.09 pre-impairment), FY2026 guidance"
+    },
+    {
+      "label": "Benzinga CRH Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/CRH/analyst-ratings",
+      "supports": "October 2026 analyst target revisions for J.P. Morgan, RBC Capital, Truist Securities, and Citigroup"
+    },
+    {
+      "label": "TipRanks CRH Stock Forecast",
+      "url": "https://www.tipranks.com/stocks/crh/forecast",
+      "supports": "November 2, 2026 analyst target updates for Truist Securities and Citigroup"
+    },
+    {
+      "label": "Investing.com DA Davidson CRH Note",
+      "url": "https://www.investing.com/news/analyst-ratings/da-davidson-lowers-crh-stock-price-target-on-cost-headwinds-maintains-buy-93CH-4326939",
+      "supports": "DA Davidson November 2, 2026 target cut to $114"
+    }
+  ]
+}

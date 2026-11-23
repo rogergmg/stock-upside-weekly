@@ -1,0 +1,195 @@
+{
+  "issuer_id": "TE Connectivity plc",
+  "symbol": "TEL",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 216.34,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T06:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Guy Hardwick",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 304,
+      "source_prior": 300,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/TEL/analyst-ratings"
+    },
+    {
+      "analyst": "Guy Hardwick",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/TEL/analyst-ratings"
+    },
+    {
+      "analyst": "Joseph Spak",
+      "firm": "UBS",
+      "field": "target",
+      "value": 263,
+      "source_prior": 253,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/te-connectivity-analyst-ratings"
+    },
+    {
+      "analyst": "Joseph Spak",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/te-connectivity-analyst-ratings"
+    },
+    {
+      "analyst": "Asiya Merchant",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 260,
+      "source_prior": 230,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/te-connectivity-analyst-ratings"
+    },
+    {
+      "analyst": "Asiya Merchant",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/te-connectivity-analyst-ratings"
+    },
+    {
+      "analyst": "William Stein",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 235,
+      "source_prior": 215,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/tel/forecast/"
+    },
+    {
+      "analyst": "William Stein",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/tel/forecast/"
+    },
+    {
+      "analyst": "Mark Delaney",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 288,
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/TEL/analyst-ratings"
+    },
+    {
+      "analyst": "Mark Delaney",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/TEL/analyst-ratings"
+    },
+    {
+      "analyst": "Colin Langan",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 220,
+      "source_prior": 209,
+      "issued_at": "2026-09-11",
+      "public_at": "2026-09-11T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/te-connectivity-analyst-ratings"
+    },
+    {
+      "analyst": "Colin Langan",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-09-11",
+      "public_at": "2026-09-11T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/te-connectivity-analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2028E Adjusted EPS viewed at the 12-month target date of November 2027, anchored by FY2026 Adjusted EPS of $11.52 and Q1 FY2027 guidance of ~$3.30)",
+    "bear": 188.5,
+    "base": 258.13,
+    "bull": 312.0,
+    "cases": {
+      "bear": {
+        "driver": "Cyclical industrial and automotive demand slowdown with margin compression",
+        "assumption": "FY2028E Adjusted EPS $13.00 at 14.5x P/E",
+        "target": 188.5
+      },
+      "base": {
+        "driver": "Steady AI/data-center connectivity growth and 22% adjusted operating margin durability",
+        "assumption": "FY2028E Adjusted EPS $14.75 at 17.5x P/E",
+        "target": 258.13
+      },
+      "bull": {
+        "driver": "Accelerated AI/data-center order conversion ($22.2B FY2026 orders) and operating leverage",
+        "assumption": "FY2028E Adjusted EPS $16.00 at 19.5x P/E",
+        "target": 312.0
+      }
+    },
+    "implied_by_close": "At base FY2028E Adjusted EPS of $14.75, the $216.34 close implies 14.7x; the equal-weight 6-analyst target of $261.67 implies 17.7x or $14.95 EPS at 17.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $14.75 (6.8 pp).",
+    "watch_metric": "Q1 FY2027 organic net sales growth (~15.3% guided) and adjusted operating margin sustainability around 22%",
+    "next_disclosure": "Q1 FY2027 earnings release (expected late January 2027 for quarter ending December 25, 2026)"
+  },
+  "dividend_per_share": 3.12,
+  "analyst_notes": "Following TE Connectivity's Q4 FY2026 earnings beat on October 28, 2026 ($3.14 adjusted EPS vs. $3.07 consensus), Barclays (Guy Hardwick, $304), UBS (Joseph Spak, $263), Citigroup (Asiya Merchant, $260), and Truist (William Stein, $235) all raised their price targets. The 6-analyst sample (4 Buy, 2 Hold) averages $261.67 (+21.0% vs. $216.34 close), closely aligned with our $258.13 base case (+19.3%, a +1.7 pp gap). Note that horizon_months is left null because broker-specific 12-month horizon disclosures were not independently verified.",
+  "sources": [
+    {
+      "label": "TE Connectivity Q4 & Full Year FY2026 Earnings Release",
+      "url": "https://www.te.com/en/about-te/news-center/2026/te-connectivity-announces-fourth-quarter-and-full-year-results-for-fiscal-year-2026.html",
+      "supports": "FY2026 GAAP/Adjusted EPS ($11.07/$11.52), Q4 FY2026 EPS ($3.14), Q1 FY2027 guidance (~$3.30), orders ($22.2B), FCF ($3.4B)"
+    },
+    {
+      "label": "StockAnalysis TEL Forecast & Analyst Ratings",
+      "url": "https://stockanalysis.com/stocks/tel/forecast/",
+      "supports": "William Stein (Truist) $235 Hold, consensus target range"
+    },
+    {
+      "label": "Benzinga TEL Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/TEL/analyst-ratings",
+      "supports": "Guy Hardwick (Barclays) $304 Overweight, Mark Delaney (Goldman Sachs) $288 Buy"
+    },
+    {
+      "label": "Investing.com TEL Analyst Ratings",
+      "url": "https://www.investing.com/equities/te-connectivity-analyst-ratings",
+      "supports": "Joseph Spak (UBS) $263 Buy, Asiya Merchant (Citigroup) $260 Buy, Colin Langan (Wells Fargo) $220 Equal-Weight"
+    },
+    {
+      "label": "StockAnalysis TEL Dividend History",
+      "url": "https://stockanalysis.com/stocks/tel/dividend/",
+      "supports": "Quarterly dividend rate of $0.78/share ($3.12 annualized)"
+    }
+  ]
+}

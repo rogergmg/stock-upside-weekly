@@ -1,0 +1,180 @@
+{
+  "issuer_id": "Fastenal Company",
+  "symbol": "FAST",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 55.19,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-14T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "David Manthey",
+      "firm": "Robert W. Baird",
+      "field": "target",
+      "value": 61,
+      "source_prior": 60,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/fast/forecast/"
+    },
+    {
+      "analyst": "David Manthey",
+      "firm": "Robert W. Baird",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/fast/forecast/"
+    },
+    {
+      "analyst": "Chad Dillard",
+      "firm": "Bernstein SocGen Group",
+      "field": "target",
+      "value": 47,
+      "source_prior": 42,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/fast/forecast/"
+    },
+    {
+      "analyst": "Chad Dillard",
+      "firm": "Bernstein SocGen Group",
+      "field": "rating",
+      "value": "Underperform",
+      "bucket": "Sell",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/fast/forecast/"
+    },
+    {
+      "analyst": "Sabrina Abrams",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-07",
+      "public_at": "2026-11-07T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/fast/forecast/"
+    },
+    {
+      "analyst": "Christopher Snyder",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 52,
+      "source_prior": 48,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/fast/forecast/"
+    },
+    {
+      "analyst": "Christopher Snyder",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/fast/forecast/"
+    },
+    {
+      "analyst": "John Eade",
+      "firm": "Argus Research",
+      "field": "target",
+      "value": 59,
+      "source_prior": 55,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/FAST/forecast/"
+    },
+    {
+      "analyst": "John Eade",
+      "firm": "Argus Research",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/FAST/forecast/"
+    },
+    {
+      "analyst": "Michael Shlisky",
+      "firm": "D.A. Davidson",
+      "field": "target",
+      "value": 51,
+      "source_prior": 46,
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/fastenal-co-consensus-estimates"
+    },
+    {
+      "analyst": "Michael Shlisky",
+      "firm": "D.A. Davidson",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/fastenal-co-consensus-estimates"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 diluted EPS viewed at the 12-month target date)",
+    "bear": 42.24,
+    "base": 54.99,
+    "bull": 63.0,
+    "cases": {
+      "bear": {
+        "driver": "Industrial demand slowdown and operating margin compression toward 20%",
+        "assumption": "FY2027 EPS $1.28 at 33x P/E",
+        "target": 42.24
+      },
+      "base": {
+        "driver": "Steady ~10% YoY EPS growth with ~21.5% operating margin",
+        "assumption": "FY2027 EPS $1.41 at 39x P/E",
+        "target": 54.99
+      },
+      "bull": {
+        "driver": "Double-digit daily sales growth and operating margin expansion above 22%",
+        "assumption": "FY2027 EPS $1.50 at 42x P/E",
+        "target": 63.0
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $1.41, the $55.19 close implies 39.1x forward P/E; at 39x, the close implies $1.42 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $1.41 (2.6 pp of upside).",
+    "watch_metric": "Daily sales growth rate and operating margin (21.5% in Q3 2026)",
+    "next_disclosure": "Q4 2026 earnings release on 2027-01-19"
+  },
+  "dividend_per_share": 1.04,
+  "analyst_notes": "Following Q3 2026 earnings on October 14, 2026 ($0.35 diluted EPS, +19.8% YoY; 21.5% operating margin), covering analysts raised targets across the board (Baird to $61, Argus to $59, Morgan Stanley to $52, D.A. Davidson to $51, Bernstein to $47). Street consensus (~$51.15) sits roughly 7% below the $55.19 close and our $54.99 base case, reflecting caution on Fastenal's ~39x forward P/E multiple rather than operational deterioration. Note: Baird's subsequent November 20, 2026 downgrade to Neutral ($56 target) occurred after the 2026-11-13 reference close and is excluded from the snapshot.",
+  "sources": [
+    {
+      "label": "Fastenal Q3 2026 Earnings Release",
+      "url": "https://investor.fastenal.com/",
+      "supports": "Q3 2026 net sales ($2.46B), operating income ($530.8M), operating margin (21.5%), diluted EPS ($0.35), release timestamp (2026-10-14 6:00 AM CT), and Q4 2026 earnings date (2027-01-19)"
+    },
+    {
+      "label": "StockAnalysis FAST Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/fast/forecast/",
+      "supports": "Named analyst targets and ratings for Baird, Bernstein, Bank of America, and Morgan Stanley"
+    },
+    {
+      "label": "Investing.com FAST Consensus Estimates",
+      "url": "https://www.investing.com/equities/fastenal-co-consensus-estimates",
+      "supports": "FY2027 EPS consensus ($1.41) and D.A. Davidson target/rating"
+    },
+    {
+      "label": "MarketBeat FAST Forecast",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/FAST/forecast/",
+      "supports": "Argus Research target/rating and consensus range"
+    }
+  ]
+}

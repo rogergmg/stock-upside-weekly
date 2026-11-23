@@ -1,0 +1,64 @@
+{
+  "issuer_id": "Takeda Pharmaceutical Company Limited",
+  "symbol": "TAK",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 21.43,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T15:00:00+09:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward Core EPS x P/E (FY2027E Core EPS viewed at the 12-month target date). Ordinary-share JPY figures are converted to TAK ADR (USD) using the 1 ADR = 0.5 ordinary share ratio (2 ADRs = 1 ordinary share) and the 2026-11-13 USD/JPY close of 159.90.",
+    "bear": 18.2,
+    "base": 23.2,
+    "bull": 28.8,
+    "cases": {
+      "bear": {
+        "driver": "Generic erosion (e.g., Vyvanse) and slower new-launch ramp weigh on CER revenue and margins",
+        "assumption": "Core EPS $1.40 per ADR at 13.0x P/E",
+        "target": 18.2
+      },
+      "base": {
+        "driver": "FY2026 Core EPS guidance (JPY 482/share = $1.51/ADR) grows ~6% in FY2027 on Orzeyful/Mimrylo launches and cost discipline",
+        "assumption": "Core EPS $1.60 per ADR at 14.5x P/E",
+        "target": 23.2
+      },
+      "bull": {
+        "driver": "Faster commercial uptake of Orzeyful and Mimrylo plus operating leverage from restructuring",
+        "assumption": "Core EPS $1.80 per ADR at 16.0x P/E",
+        "target": 28.8
+      }
+    },
+    "implied_by_close": "At base FY2027E Core EPS ($1.60/ADR), the $21.43 close implies 13.4x forward P/E (and 14.2x FY2026 guidance of $1.51/ADR).",
+    "sensitivity": "One turn of P/E moves the base target by $1.60 (7.5 pp).",
+    "watch_metric": "Constant-exchange-rate (CER) revenue growth and commercial ramp of Orzeyful and Mimrylo",
+    "next_disclosure": "Q3 FY2026 earnings release scheduled for 2027-01-28"
+  },
+  "dividend_per_share": 0.64,
+  "analyst_notes": "Individual dated analyst calls with verifiable issue timestamps were not captured in this run, so coverage is marked unavailable for weighted calculation. Broad Street consensus leans Buy/Moderate Buy with average 12-month ADR targets clustered around $21.86-$24.65 (roughly +2% to +15% above the $21.43 close), broadly aligned with our $23.20 (+8.3%) base case.",
+  "sources": [
+    {
+      "label": "Takeda Q2/H1 FY2026 Financial Results & Guidance",
+      "url": "https://www.takeda.com/investors/financial-results/",
+      "supports": "Q2 FY2026 release date (2026-10-29), H1 Core EPS (JPY 308), FY2026 Core EPS guidance (JPY 482)"
+    },
+    {
+      "label": "Takeda ADR & Dividend Information",
+      "url": "https://www.takeda.com/investors/stock-information/adr-information/",
+      "supports": "1 ADR = 0.5 ordinary share ratio and FY2026 planned annual dividend of JPY 204 per ordinary share"
+    },
+    {
+      "label": "Takeda Investor Calendar",
+      "url": "https://www.takeda.com/investors/ir-calendar/",
+      "supports": "Q3 FY2026 earnings release date (2027-01-28)"
+    },
+    {
+      "label": "USD/JPY Historical Exchange Rate (2026-11-13)",
+      "url": "https://www.investing.com/currencies/usd-jpy-historical-data",
+      "supports": "2026-11-13 USD/JPY close (~159.90)"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "issuer_id": "Cheniere Energy, Inc.",
+  "symbol": "LNG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 308.75,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T07:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Spiro M. Dounis",
+      "firm": "Citi",
+      "field": "target",
+      "value": 377,
+      "source_prior": 330,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/lng/forecast"
+    },
+    {
+      "analyst": "Spiro M. Dounis",
+      "firm": "Citi",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/lng/forecast"
+    },
+    {
+      "analyst": "Jason Gabelman",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 352,
+      "source_prior": 325,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/Analyst+Comments/Cheniere+Energy+%28LNG%29+PT+Raised+to+%24352+at+TD+Cowen/23912345.html"
+    },
+    {
+      "analyst": "Jason Gabelman",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/Analyst+Comments/Cheniere+Energy+%28LNG%29+PT+Raised+to+%24352+at+TD+Cowen/23912345.html"
+    },
+    {
+      "analyst": "Brandon Bingham",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 327,
+      "source_prior": 311,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/11/cheniere-energy-lng-price-targets"
+    },
+    {
+      "analyst": "Brandon Bingham",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/11/cheniere-energy-lng-price-targets"
+    },
+    {
+      "analyst": "Praneeth Satish",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 374,
+      "source_prior": 335,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/lng/forecast"
+    },
+    {
+      "analyst": "Praneeth Satish",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/lng/forecast"
+    },
+    {
+      "analyst": "Theresa Chen",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 328,
+      "source_prior": 287,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/11/cheniere-energy-lng-price-targets"
+    },
+    {
+      "analyst": "Theresa Chen",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/11/cheniere-energy-lng-price-targets"
+    },
+    {
+      "analyst": "Jeremy Tonet",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 344,
+      "source_prior": 334,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/11/cheniere-energy-lng-price-targets"
+    },
+    {
+      "analyst": "Jeremy Tonet",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-ratings/analyst-color/26/11/cheniere-energy-lng-price-targets"
+    }
+  ],
+  "valuation": {
+    "method": "EV / Forward Consolidated Adjusted EBITDA (FY2027E Adjusted EBITDA viewed at the 12-month target date), less projected net debt and non-controlling interests (CQP), divided by projected diluted common shares",
+    "bear": 283.5,
+    "base": 358.6,
+    "bull": 434.4,
+    "cases": {
+      "bear": {
+        "driver": "Spot LNG margin compression offsets Corpus Christi Stage 3 volume ramp",
+        "assumption": "FY2027E Adjusted EBITDA $8.60B at 9.5x EV/EBITDA ($81.70B EV), less $25.0B net debt and NCI, / 200M shares",
+        "target": 283.5
+      },
+      "base": {
+        "driver": "Full-year Corpus Christi Stage 3 contribution (~57 mtpa production) with normalized spot margins",
+        "assumption": "FY2027E Adjusted EBITDA $9.60B at 10.0x EV/EBITDA ($96.00B EV), less $25.0B net debt and NCI, / 198M shares",
+        "target": 358.6
+      },
+      "bull": {
+        "driver": "58 mtpa production with tight global LNG supply and strong spot optimization",
+        "assumption": "FY2027E Adjusted EBITDA $10.40B at 10.5x EV/EBITDA ($109.20B EV), less $24.5B net debt and NCI, / 195M shares",
+        "target": 434.4
+      }
+    },
+    "implied_by_close": "At $9.60B FY2027E base Adjusted EBITDA, ~$25.0B net debt/NCI, and ~204M current shares, the $308.75 close implies 9.2x EV/EBITDA; the analyst target range ($327-$377) implies ~9.5x-10.6x.",
+    "sensitivity": "One turn of EV/EBITDA on $9.60B base EBITDA moves the base target by $48.48 (+15.7 pp at $308.75).",
+    "watch_metric": "Official FY2027 Consolidated Adjusted EBITDA guidance and LNG production volume (56-58 mtpa target)",
+    "next_disclosure": "Q4 & Full-Year 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 2.5,
+  "analyst_notes": "Following Cheniere's Q3 2026 beat-and-raise on Oct 29, 2026 (FY2026 Adjusted EBITDA guidance raised to $8.75B-$9.25B), five of the six tracked analysts raised targets between Oct 30 and Nov 3, 2026, while JPMorgan raised ahead of earnings on Oct 23. All six maintain Buy-equivalent ratings with targets spanning $327-$377, clustering around our $358.60 base case; horizon_months is null because broker 12-month target disclosures were not verified in the secondary summaries.",
+  "sources": [
+    {
+      "label": "Cheniere Q3 2026 Earnings Release (Oct 29, 2026)",
+      "url": "https://www.cheniere.com/news-events/press-releases",
+      "supports": "Q3 2026 EBITDA, DCF, FY2026 guidance raise, $0.625 quarterly dividend"
+    },
+    {
+      "label": "Cheniere Q3 2026 Form 10-Q",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0000003570",
+      "supports": "Total consolidated debt (~$24.1B), cash (~$2.1B), share count (~204M-207M)"
+    },
+    {
+      "label": "TipRanks LNG Analyst Forecast",
+      "url": "https://www.tipranks.com/stocks/lng/forecast",
+      "supports": "Citi (Spiro Dounis) and Wells Fargo (Praneeth Satish) targets and ratings"
+    },
+    {
+      "label": "Benzinga LNG Analyst Ratings",
+      "url": "https://www.benzinga.com/analyst-ratings/analyst-color/26/11/cheniere-energy-lng-price-targets",
+      "supports": "Barclays (Theresa Chen), JPMorgan (Jeremy Tonet), Scotiabank (Brandon Bingham) targets and ratings"
+    }
+  ]
+}

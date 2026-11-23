@@ -1,0 +1,123 @@
+{
+  "issuer_id": "Entergy Corporation",
+  "symbol": "ETR",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 111.15,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-02T07:00:00-06:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Jeremy Tonet",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 130,
+      "source_prior": 137,
+      "issued_at": "2026-10-13",
+      "public_at": "2026-10-13T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/news/the-fly/entergy-price-target-lowered-to-130-from-137-at-jpmorgan"
+    },
+    {
+      "analyst": "Jeremy Tonet",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-13",
+      "public_at": "2026-10-13T23:59:59-04:00",
+      "source": "https://www.tipranks.com/news/the-fly/entergy-price-target-lowered-to-130-from-137-at-jpmorgan"
+    },
+    {
+      "analyst": "Anthony Crowdell",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 122,
+      "source_prior": 121,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/etr/forecast/"
+    },
+    {
+      "analyst": "Anthony Crowdell",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/etr/forecast/"
+    },
+    {
+      "analyst": "Andrew Weisel",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 121,
+      "source_prior": 129,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/etr/forecast/"
+    },
+    {
+      "analyst": "Andrew Weisel",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/etr/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date)",
+    "bear": 93.1,
+    "base": 117.3,
+    "bull": 131.25,
+    "cases": {
+      "bear": {
+        "driver": "Slower data-center load ramp, higher interest rates, and equity dilution",
+        "assumption": "FY2027 adjusted EPS $4.90 (low end of guidance) at 19.0x P/E",
+        "target": 93.1
+      },
+      "base": {
+        "driver": "Execution toward upper half of 2027 guidance on industrial and data-center demand",
+        "assumption": "FY2027 adjusted EPS $5.10 (upper half of $4.90-$5.20 guidance) at 23.0x P/E",
+        "target": 117.3
+      },
+      "bull": {
+        "driver": "Accelerated large-load signings and rate-base expansion above >8% CAGR",
+        "assumption": "FY2027 adjusted EPS $5.25 at 25.0x P/E",
+        "target": 131.25
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $5.10, the $111.15 close implies 21.8x; the 3-analyst equal-weight target of $124.33 implies 24.4x (or $5.41 EPS at 23.0x).",
+    "sensitivity": "One turn of P/E moves the base target by $5.10 (4.6 pp).",
+    "watch_metric": "Large-load industrial and data-center signings and FY2027 adjusted EPS trajectory toward the upper half of $4.90-$5.20",
+    "next_disclosure": "Q4 2026 / FY2026 earnings release and Form 10-K (expected February 2027)"
+  },
+  "dividend_per_share": 2.72,
+  "analyst_notes": "Following Q3 2026 earnings on November 2, 2026, Mizuho's Anthony Crowdell nudged his target up to $122 (from $121) while Scotiabank's Andrew Weisel trimmed his to $121 (from $129), both maintaining Buy-equivalent ratings. Earlier in October, JPMorgan's Jeremy Tonet lowered his target to $130 (from $137) with an Overweight rating. All three targets sit above our $117.30 base case (+5.5% upside), reflecting a ~1.4x higher implied P/E multiple (24.4x vs. 23.0x) on $5.10 FY2027 EPS.",
+  "sources": [
+    {
+      "label": "Entergy Q3 2026 Earnings Release & 10-Q",
+      "url": "https://www.entergy.com/",
+      "supports": "Q3 2026 EPS ($1.98), 474M diluted shares, FY2026 guidance ($4.35-$4.45), and Q4 2026 dividend ($0.68/quarter)"
+    },
+    {
+      "label": "StockAnalysis ETR Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/etr/forecast/",
+      "supports": "Named analyst ratings and targets (Mizuho, Scotiabank)"
+    },
+    {
+      "label": "TipRanks ETR JPMorgan Note",
+      "url": "https://www.tipranks.com/news/the-fly/entergy-price-target-lowered-to-130-from-137-at-jpmorgan",
+      "supports": "JPMorgan (Jeremy Tonet) October 13, 2026 target and rating"
+    }
+  ]
+}

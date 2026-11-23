@@ -1,0 +1,194 @@
+{
+  "issuer_id": "Robinhood Markets, Inc.",
+  "symbol": "HOOD",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 77.86,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-27T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Barclays Research",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/hood/forecast/"
+    },
+    {
+      "analyst": "Barclays Research",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 115,
+      "source_prior": 115,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/hood/forecast/"
+    },
+    {
+      "analyst": "Ramsey El-Assal",
+      "firm": "Cantor Fitzgerald",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/hood/forecast/"
+    },
+    {
+      "analyst": "Ramsey El-Assal",
+      "firm": "Cantor Fitzgerald",
+      "field": "target",
+      "value": 120,
+      "source_prior": 150,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/hood/forecast/"
+    },
+    {
+      "analyst": "David Smith",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 123,
+      "source_prior": 125,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HOOD/analyst-ratings"
+    },
+    {
+      "analyst": "James Yaro",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 128,
+      "source_prior": 145,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HOOD/analyst-ratings"
+    },
+    {
+      "analyst": "Wells Fargo Research",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/HOOD/analyst-ratings"
+    },
+    {
+      "analyst": "Wells Fargo Research",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 100,
+      "source_prior": 120,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HOOD/analyst-ratings"
+    },
+    {
+      "analyst": "Needham Research",
+      "firm": "Needham",
+      "field": "target",
+      "value": 116,
+      "source_prior": 126,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HOOD/analyst-ratings"
+    },
+    {
+      "analyst": "KeyBanc Research",
+      "firm": "KeyBanc",
+      "field": "target",
+      "value": 135,
+      "source_prior": 140,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HOOD/analyst-ratings"
+    },
+    {
+      "analyst": "Scotiabank Research",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 124,
+      "source_prior": 136,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HOOD/analyst-ratings"
+    },
+    {
+      "analyst": "J.P. Morgan Research",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 114,
+      "source_prior": 115,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HOOD/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 diluted EPS viewed at the 12-month target date)",
+    "bear": 56.4,
+    "base": 90.0,
+    "bull": 122.4,
+    "cases": {
+      "bear": {
+        "driver": "Crypto trading volumes remain depressed and net interest revenue compresses on lower rates",
+        "assumption": "FY2027 EPS $2.35 at 24.0x P/E",
+        "target": 56.4
+      },
+      "base": {
+        "driver": "Steady net deposit inflows, Robinhood Gold subscription growth, and options/prediction markets offset softer crypto",
+        "assumption": "FY2027 EPS $3.00 at 30.0x P/E",
+        "target": 90.0
+      },
+      "bull": {
+        "driver": "Crypto and equity retail volumes rebound strongly alongside operating leverage",
+        "assumption": "FY2027 EPS $3.60 at 34.0x P/E",
+        "target": 122.4
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $3.00, the $77.86 close implies 26.0x; the ~$120-$130 Street target range implies 40.0x-43.3x or EPS of $4.00-$4.33 at 30x",
+    "sensitivity": "One turn of P/E moves the base target by $3.00 (3.9 pp of return)",
+    "watch_metric": "Monthly net deposits, Robinhood Gold subscriber count, and crypto/options transaction-based revenue",
+    "next_disclosure": "Q4 2026 earnings release (expected February 2027) and monthly operating metrics"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q3 2026 earnings on October 27, 2026 ($1.42B revenue, $0.51 GAAP EPS / $0.60 adjusted EPS), multiple brokers including Goldman Sachs, Cantor Fitzgerald, Barclays, Wells Fargo, Needham, KeyBanc, Scotiabank, Truist, and J.P. Morgan trimmed price targets on softer crypto trading volumes and competitive headlines. Despite the cuts, ratings remain predominantly Buy/Overweight with targets clustering around $114-$135, well above the $90.00 base case because Street models assume higher normalized multiples (40x+) or stronger FY2027 earnings recovery.",
+  "sources": [
+    {
+      "label": "Robinhood Q3 2026 Earnings Release",
+      "url": "https://investors.robinhood.com/news-releases/news-release-details/robinhood-reports-third-quarter-2026-results",
+      "supports": "Q3 2026 revenue, GAAP and adjusted EPS, diluted share count, and earnings release date"
+    },
+    {
+      "label": "Benzinga HOOD Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/HOOD/analyst-ratings",
+      "supports": "October 2026 analyst target revisions and ratings"
+    },
+    {
+      "label": "StockAnalysis HOOD Forecast",
+      "url": "https://stockanalysis.com/stocks/hood/forecast/",
+      "supports": "November 2026 analyst target and rating updates (Barclays, Cantor Fitzgerald)"
+    },
+    {
+      "label": "WallStreetZen HOOD Forecast",
+      "url": "https://www.wallstreetzen.com/stocks/us/nasdaq/hood/stock-forecast",
+      "supports": "FY2027 consensus EPS estimate range ($2.98-$3.05)"
+    }
+  ]
+}

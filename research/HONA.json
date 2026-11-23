@@ -1,0 +1,148 @@
+{
+  "issuer_id": "Honeywell Aerospace Inc.",
+  "symbol": "HONA",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 165.01,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Sheila Kahyaoglu",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 170,
+      "source_prior": 175,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/jefferies-lowers-honeywell-aerospace-stock-price-target-to-170-on-margin-concerns-93CH-4326174"
+    },
+    {
+      "analyst": "Sheila Kahyaoglu",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/jefferies-lowers-honeywell-aerospace-stock-price-target-to-170-on-margin-concerns-93CH-4326174"
+    },
+    {
+      "analyst": "Noah Poponak",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 180,
+      "source_prior": 190,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/hona/forecast/"
+    },
+    {
+      "analyst": "Noah Poponak",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/hona/forecast/"
+    },
+    {
+      "analyst": "Daniel DiCicco",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 181,
+      "source_prior": 209,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/hona/forecast/"
+    },
+    {
+      "analyst": "Daniel DiCicco",
+      "firm": "BMO Capital Markets",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/hona/forecast/"
+    },
+    {
+      "analyst": "Kristine Liwag",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 205,
+      "issued_at": "2026-08-19",
+      "public_at": "2026-08-19T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://seekingalpha.com/news/4487231-honeywell-aerospace-upgraded-to-overweight-at-morgan-stanley-on-post-spin-selloff"
+    },
+    {
+      "analyst": "Kristine Liwag",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-08-19",
+      "public_at": "2026-08-19T23:59:59-04:00",
+      "source": "https://seekingalpha.com/news/4487231-honeywell-aerospace-upgraded-to-overweight-at-morgan-stanley-on-post-spin-selloff"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 141.75,
+    "base": 180.4,
+    "bull": 216.2,
+    "cases": {
+      "bear": {
+        "driver": "Persistent Engines & Power Systems supply-chain bottlenecks force OE prioritization over higher-margin aftermarket, while standalone corporate costs weigh on margins.",
+        "assumption": "FY2027E EPS $8.10 at 17.5x P/E",
+        "target": 141.75
+      },
+      "base": {
+        "driver": "Gradual supplier recovery and 5%-7% organic growth on the $19.3B backlog drive modest operating leverage off the FY2026E pro forma adjusted EPS midpoint of $7.93.",
+        "assumption": "FY2027E EPS $8.80 at 20.5x P/E",
+        "target": 180.4
+      },
+      "bull": {
+        "driver": "Faster multisourcing integration unlocks commercial aftermarket mix and stronger free cash flow conversion.",
+        "assumption": "FY2027E EPS $9.40 at 23.0x P/E",
+        "target": 216.2
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $8.80, the $165.01 close implies 18.8x P/E; at 20.5x P/E, the close implies $8.05 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $8.80 (5.3 pp).",
+    "watch_metric": "Commercial aftermarket vs. OE revenue mix and Engines & Power Systems operating margin as supply-chain constraints ease.",
+    "next_disclosure": "Q4 2026 earnings release and FY2027 initial guidance (expected late January / early February 2027)"
+  },
+  "dividend_per_share": 1.6,
+  "analyst_notes": "Following HONA's June 29, 2026 spin-off and October 28, 2026 Q3 earnings release, Street sentiment shifted cautious: BMO downgraded to Market Perform (PT cut from $209 to $181) on October 29, and both Goldman Sachs ($190 to $180) and Jefferies ($175 to $170) trimmed targets on November 2, citing supply-chain constraints and margin headwinds. Morgan Stanley remains constructive (Overweight, $205 PT from August 19), viewing post-spin valuation as discounted. The three post-earnings Hold-rated targets ($170-$181) cluster tightly around our $180.40 base case (+9.3% vs. $165.01 close).",
+  "sources": [
+    {
+      "label": "Honeywell Aerospace Q3 2026 Earnings Release",
+      "url": "https://www.honeywellaerospace.com/us/en/news/2026/10/honeywell-aerospace-reports-third-quarter-2026-results",
+      "supports": "Q3 2026 revenue ($4.64B), adjusted EPS ($2.21), diluted shares (317.7M), backlog ($19.3B), FY2026 guidance ($7.85-$8.00), inaugural $0.40 quarterly dividend"
+    },
+    {
+      "label": "Jefferies HONA Note (Nov 2, 2026)",
+      "url": "https://www.investing.com/news/analyst-ratings/jefferies-lowers-honeywell-aerospace-stock-price-target-to-170-on-margin-concerns-93CH-4326174",
+      "supports": "Sheila Kahyaoglu Hold rating and $170 target (from $175)"
+    },
+    {
+      "label": "Stock Analysis HONA Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/hona/forecast/",
+      "supports": "Goldman Sachs ($180 from $190) and BMO Capital Markets ($181 from $209) ratings and targets"
+    },
+    {
+      "label": "Seeking Alpha Morgan Stanley HONA Upgrade",
+      "url": "https://seekingalpha.com/news/4487231-honeywell-aerospace-upgraded-to-overweight-at-morgan-stanley-on-post-spin-selloff",
+      "supports": "Kristine Liwag Overweight upgrade and $205 target on August 19, 2026"
+    }
+  ]
+}

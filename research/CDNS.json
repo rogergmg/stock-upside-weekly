@@ -1,0 +1,170 @@
+{
+  "issuer_id": "Cadence Design Systems, Inc.",
+  "symbol": "CDNS",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 323.01,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-26T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Charles Shi",
+      "firm": "Needham",
+      "field": "target",
+      "value": 430,
+      "source_prior": 400,
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CDNS/analyst-ratings"
+    },
+    {
+      "analyst": "Charles Shi",
+      "firm": "Needham",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/CDNS/analyst-ratings"
+    },
+    {
+      "analyst": "Joe Vruwink",
+      "firm": "Baird",
+      "field": "target",
+      "value": 440,
+      "source_prior": 420,
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CDNS/analyst-ratings"
+    },
+    {
+      "analyst": "Joe Vruwink",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/CDNS/analyst-ratings"
+    },
+    {
+      "analyst": "Harlan Sur",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 420,
+      "source_prior": 405,
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/CDNS/forecast/"
+    },
+    {
+      "analyst": "Harlan Sur",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NASDAQ/CDNS/forecast/"
+    },
+    {
+      "analyst": "Blair Abernethy",
+      "firm": "Rosenblatt",
+      "field": "target",
+      "value": 425,
+      "source_prior": 420,
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CDNS/analyst-ratings"
+    },
+    {
+      "analyst": "Blair Abernethy",
+      "firm": "Rosenblatt",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/CDNS/analyst-ratings"
+    },
+    {
+      "analyst": "James Schneider",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 470,
+      "source_prior": 410,
+      "issued_at": "2026-07-27",
+      "public_at": "2026-07-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.barchart.com/stocks/quotes/CDNS/analyst-ratings"
+    },
+    {
+      "analyst": "James Schneider",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-07-27",
+      "public_at": "2026-07-27T23:59:59-04:00",
+      "source": "https://www.barchart.com/stocks/quotes/CDNS/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Non-GAAP Diluted EPS x P/E (FY2027E EPS viewed at the 12-month target date)",
+    "bear": 286.08,
+    "base": 354.6,
+    "bull": 416.8,
+    "cases": {
+      "bear": {
+        "driver": "Slower EDA/IP renewal and AI hardware capex moderation",
+        "assumption": "FY2027E Non-GAAP EPS $8.94 at 32.0x P/E",
+        "target": 286.08
+      },
+      "base": {
+        "driver": "Continued 17% Non-GAAP EPS growth backed by $8.2B backlog and Core EDA/IP demand",
+        "assumption": "FY2027E Non-GAAP EPS $9.85 at 36.0x P/E",
+        "target": 354.6
+      },
+      "bull": {
+        "driver": "Accelerated agentic AI design tool adoption and IP/System Design & Analysis outperformance",
+        "assumption": "FY2027E Non-GAAP EPS $10.42 at 40.0x P/E",
+        "target": 416.8
+      }
+    },
+    "implied_by_close": "At base FY2027E Non-GAAP EPS of $9.85, the $323.01 close implies 32.8x; the ~$415 consensus analyst target implies 42.1x or $11.53 EPS at 36.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $9.85 (3.0 pp of upside at the $323.01 close)",
+    "watch_metric": "Quarterly Non-GAAP operating margin, Core EDA/IP revenue growth, and $8.2B backlog conversion",
+    "next_disclosure": "Q4 and FY2026 earnings release (expected late February 2027)"
+  },
+  "dividend_per_share": 0.0,
+  "analyst_notes": "Following Q3 2026 earnings on October 26, 2026, Needham ($430), Baird ($440), JPMorgan ($420), and Rosenblatt ($425) all raised their price targets while reiterating Buy/Outperform/Overweight ratings. Street targets cluster around $410-$415, implying ~28.5% upside versus our +9.8% base-case upside (+18.7 pp gap), reflecting a higher assumed forward P/E (~42.1x vs. 36.0x) or stronger FY2027E EPS. Coverage in this sample is concentrated in Buy-equivalent ratings, and Goldman Sachs's $470 target predates Q3 earnings.",
+  "sources": [
+    {
+      "label": "SEC EDGAR - Cadence Design Systems Q3 2026 Form 10-Q",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0000813672",
+      "supports": "Q3 2026 GAAP/Non-GAAP EPS, 274.4M common shares outstanding"
+    },
+    {
+      "label": "Cadence Design Systems Investor Relations",
+      "url": "https://investor.cadence.com/",
+      "supports": "Q3 2026 earnings release, FY2026 Non-GAAP EPS guidance ($8.37-$8.43), analyst coverage roster"
+    },
+    {
+      "label": "Benzinga CDNS Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/CDNS/analyst-ratings",
+      "supports": "Needham, Baird, and Rosenblatt post-Q3 2026 price target raises"
+    },
+    {
+      "label": "MarketBeat CDNS Forecast",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/CDNS/forecast/",
+      "supports": "JPMorgan target raise and consensus target range"
+    }
+  ]
+}

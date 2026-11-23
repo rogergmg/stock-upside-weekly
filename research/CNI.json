@@ -1,0 +1,196 @@
+{
+  "issuer_id": "Canadian National Railway Company",
+  "symbol": "CNI",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 127.18,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-30T08:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Ariel Rosa",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 145,
+      "source_prior": 143,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/cni/forecast/"
+    },
+    {
+      "analyst": "Ariel Rosa",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.stockanalysis.com/stocks/cni/forecast/"
+    },
+    {
+      "analyst": "Bascome Majors",
+      "firm": "Stephens",
+      "field": "target",
+      "value": 140,
+      "source_prior": 130,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/CNI/forecast/"
+    },
+    {
+      "analyst": "Bascome Majors",
+      "firm": "Stephens",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/CNI/forecast/"
+    },
+    {
+      "analyst": "Brandon Oglenski",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 132,
+      "source_prior": 130,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/CNI/analyst-ratings"
+    },
+    {
+      "analyst": "Brandon Oglenski",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/CNI/analyst-ratings"
+    },
+    {
+      "analyst": "Ken Hoexter",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 143,
+      "source_prior": 146,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/canadian-natl-ry-consensus-estimates"
+    },
+    {
+      "analyst": "Ken Hoexter",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/canadian-natl-ry-consensus-estimates"
+    },
+    {
+      "analyst": "Christian Wetherbee",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 145,
+      "source_prior": 135,
+      "issued_at": "2026-07-24",
+      "public_at": "2026-07-24T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.benzinga.com/quote/CNI/analyst-ratings"
+    },
+    {
+      "analyst": "Christian Wetherbee",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-07-24",
+      "public_at": "2026-07-24T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/CNI/analyst-ratings"
+    },
+    {
+      "analyst": "Jonathan Chappell",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 139,
+      "source_prior": 124,
+      "issued_at": "2026-07-24",
+      "public_at": "2026-07-24T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/canadian-natl-ry-consensus-estimates"
+    },
+    {
+      "analyst": "Jonathan Chappell",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-07-24",
+      "public_at": "2026-07-24T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/canadian-natl-ry-consensus-estimates"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS in USD viewed at the 12-month target date)",
+    "bear": 106.2,
+    "base": 131.2,
+    "bull": 151.8,
+    "cases": {
+      "bear": {
+        "driver": "Industrial freight slowdown and fuel/labor cost inflation push operating ratio higher",
+        "assumption": "FY2027E EPS $5.90 at 18.0x P/E",
+        "target": 106.2
+      },
+      "base": {
+        "driver": "Low-to-mid single-digit RTM growth and Fast Track cost savings sustain ~61% operating ratio",
+        "assumption": "FY2027E EPS $6.40 at 20.5x P/E",
+        "target": 131.2
+      },
+      "bull": {
+        "driver": "Stronger North American grain/intermodal volumes and sub-60% operating ratio drive operating leverage",
+        "assumption": "FY2027E EPS $6.90 at 22.0x P/E",
+        "target": 151.8
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $6.40, the $127.18 close implies 19.9x forward P/E; at 20.5x, it implies $6.20 EPS. The $145.00 12-month target implies 22.7x base EPS or $7.07 EPS at 20.5x.",
+    "sensitivity": "One turn of P/E on base FY2027E EPS ($6.40) moves the base target by $6.40 (5.0 pp).",
+    "watch_metric": "Revenue Ton-Miles (RTM) growth and adjusted operating ratio",
+    "next_disclosure": "Q4 2026 earnings release (expected late January 2027)"
+  },
+  "dividend_per_share": 2.65,
+  "analyst_notes": "Following Q3 2026 earnings on October 30, 2026, Citigroup, Stephens, and Barclays raised their targets to $145, $140, and $132 respectively, while BofA, Wells Fargo, and Evercore ISI issued prior updates between $139 and $145. The 12-month weighted target ($145.00, Wells Fargo) implies +14.0% upside versus +3.2% in our base case (+10.8 pp gap), reflecting either a 2.2x higher multiple (22.7x vs 20.5x) or ~10.5% higher FY2027E EPS ($7.07 vs $6.40). Note that only Wells Fargo's target has a documented 12-month horizon in the retrieved sources, concentrating the weighted-target sample.",
+  "sources": [
+    {
+      "label": "CN Q3 2026 Financial Results",
+      "url": "https://www.cn.ca/en/news/2026/10/cn-reports-third-quarter-2026-financial-and-operating-results/",
+      "supports": "Q3 2026 EPS, revenue, RTMs, operating ratio, FY2026 guidance"
+    },
+    {
+      "label": "MarketBeat CNI Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/CNI/forecast/",
+      "supports": "FY2027E consensus EPS, Stephens target/rating"
+    },
+    {
+      "label": "StockAnalysis CNI Forecast",
+      "url": "https://www.stockanalysis.com/stocks/cni/forecast/",
+      "supports": "Citigroup target/rating, consensus range"
+    },
+    {
+      "label": "Benzinga CNI Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/CNI/analyst-ratings",
+      "supports": "Barclays and Wells Fargo targets/ratings"
+    },
+    {
+      "label": "Investing.com CNI Consensus",
+      "url": "https://www.investing.com/equities/canadian-natl-ry-consensus-estimates",
+      "supports": "BofA Securities and Evercore ISI targets/ratings, USD dividends"
+    }
+  ]
+}

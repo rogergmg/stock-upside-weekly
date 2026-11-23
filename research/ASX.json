@@ -1,0 +1,69 @@
+{
+  "issuer_id": "ASE Technology Holding Co., Ltd.",
+  "symbol": "ASX",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 35.55,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T15:00:00+08:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 diluted EPS per ADS viewed at the 12-month target date; 1 ADS = 2 ordinary shares; USD/TWD 32.838 on 2026-11-13)",
+    "bear": 28.8,
+    "base": 44.4,
+    "bull": 57.2,
+    "cases": {
+      "bear": {
+        "driver": "AI/LEAP advanced packaging ramp slows or elevated CapEx ($11.5B in FY26) weighs on depreciation and ATM gross margin slips below 28%",
+        "assumption": "FY2027 EPS $1.80 at 16.0x",
+        "target": 28.8
+      },
+      "base": {
+        "driver": "LEAP revenue roughly doubles in FY27 from >$4B in FY26, supporting consolidated gross margin near 23%-24% and operating margin ~15%",
+        "assumption": "FY2027 EPS $2.22 at 20.0x",
+        "target": 44.4
+      },
+      "bull": {
+        "driver": "Tight advanced-packaging capacity drives stronger pricing power, ATM gross margin sustains >30%, and LEAP exceeds expectations",
+        "assumption": "FY2027 EPS $2.60 at 22.0x",
+        "target": 57.2
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $2.22, the $35.55 close implies 16.0x P/E; the published consensus target of ~$55.00 implies 24.8x P/E (or $2.75 EPS at 20.0x).",
+    "sensitivity": "One turn of P/E moves the base target by $2.22 (+6.2 percentage points of price return).",
+    "watch_metric": "ATM segment gross margin (30.6% in Q3 2026) and full-year LEAP advanced packaging revenue trajectory",
+    "next_disclosure": "Q4 2026 earnings release (estimated early February 2027)"
+  },
+  "dividend_per_share": 0.42,
+  "analyst_notes": "Individual named analyst calls with exact issue dates could not be verified, so named-analyst coverage is marked unavailable. Published Street consensus rates ASX a Strong Buy with an average target around $54.94-$55.00 (range $51.88-$58.00, including Bank of America Securities raising its target to $58.00 from $51.00 in October 2026), which sits ~24 percentage points above our $44.40 base case and implies ~24.8x base FY2027 EPS.",
+  "sources": [
+    {
+      "label": "Q3 2026 Earnings Release (Nasdaq)",
+      "url": "https://www.nasdaq.com",
+      "supports": "Q3 2026 diluted EPS of NT$5.84 (US$0.365 per ADS), ADR ratio 1:2"
+    },
+    {
+      "label": "Q3 2026 Results & Guidance (Investing.com)",
+      "url": "https://www.investing.com",
+      "supports": "Q3 2026 revenue NT$244.16B, ATM gross margin 30.6%, FY26 LEAP >$4B, FY26 CapEx $11.5B, Bank of America $58 target"
+    },
+    {
+      "label": "FY2026-FY2027 EPS Consensus (Zacks)",
+      "url": "https://www.zacks.com",
+      "supports": "FY2026 EPS consensus $1.31 and FY2027 EPS consensus $2.22"
+    },
+    {
+      "label": "USD/TWD Closing Rate 2026-11-13 (CBC Taiwan)",
+      "url": "https://www.cbc.gov.tw",
+      "supports": "USD/TWD closing rate 32.838 on 2026-11-13"
+    },
+    {
+      "label": "2026 Cash Dividend Distribution (ASE Global)",
+      "url": "https://www.aseglobal.com",
+      "supports": "2026 cash dividend NT$6.58483862 per common share (~$0.42 per ADS)"
+    }
+  ]
+}

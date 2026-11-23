@@ -1,0 +1,189 @@
+{
+  "issuer_id": "Brookfield Asset Management Ltd.",
+  "symbol": "BAM",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 51.53,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-06T07:04:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Kenneth Worthington",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 58.0,
+      "source_prior": 55.0,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/BAM/forecast/"
+    },
+    {
+      "analyst": "Kenneth Worthington",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/BAM/forecast/"
+    },
+    {
+      "analyst": "Crispin Love",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 52.0,
+      "source_prior": 49.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/BAM/forecast/"
+    },
+    {
+      "analyst": "Crispin Love",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/BAM/forecast/"
+    },
+    {
+      "analyst": "Alex Blostein",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 59.0,
+      "source_prior": 52.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/bam/forecast/"
+    },
+    {
+      "analyst": "Alex Blostein",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/bam/forecast/"
+    },
+    {
+      "analyst": "Mario Saric",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 60.5,
+      "source_prior": 59.0,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/brookfield-asset-management-ltd"
+    },
+    {
+      "analyst": "Mario Saric",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.investing.com/equities/brookfield-asset-management-ltd"
+    },
+    {
+      "analyst": "Bart Dziarski",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 65.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/bam/forecast/"
+    },
+    {
+      "analyst": "Bart Dziarski",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/bam/forecast/"
+    },
+    {
+      "analyst": "Étienne Ricard",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 58.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://finviz.com/quote.ashx?t=BAM"
+    },
+    {
+      "analyst": "Étienne Ricard",
+      "firm": "BMO Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://finviz.com/quote.ashx?t=BAM"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Distributable Earnings (DE) per share x P/DE multiple (FY2027E DE viewed at the 12-month target date)",
+    "bear": 42.9,
+    "base": 55.0,
+    "bull": 64.8,
+    "cases": {
+      "bear": {
+        "driver": "Slower fundraising and fee-bearing capital deployment, muted carried interest, and multiple compression",
+        "assumption": "FY2027E DE $1.95/sh at 22.0x P/DE",
+        "target": 42.9
+      },
+      "base": {
+        "driver": "Mid-teens FRE/DE growth supported by $682B fee-bearing capital (+13% YoY) and $68B uncalled commitments",
+        "assumption": "FY2027E DE $2.20/sh at 25.0x P/DE",
+        "target": 55.0
+      },
+      "bull": {
+        "driver": "Accelerated infrastructure/AI and private credit fundraising with operating leverage and Oaktree integration upside",
+        "assumption": "FY2027E DE $2.40/sh at 27.0x P/DE",
+        "target": 64.8
+      }
+    },
+    "implied_by_close": "At base FY2027E DE of $2.20/sh, the $51.53 close implies 23.4x P/DE; published Street consensus (~$57-$58.50) implies 25.9x-26.6x P/DE or ~$2.28-$2.34/sh DE at 25.0x.",
+    "sensitivity": "One turn of P/DE moves the base target by $2.20 (4.3 pp).",
+    "watch_metric": "Fee-Bearing Capital growth and Fee-Related Earnings (FRE) margin / quarterly Distributable Earnings per share",
+    "next_disclosure": "Q4 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 2.01,
+  "analyst_notes": "Following Q3 2026 earnings on 2026-11-06 (FRE $864M +15% YoY, DE $763M or $0.47/sh +15% YoY), Street targets clustered between $52 and $65, with Piper Sandler ($52), Goldman Sachs ($59), and Scotiabank ($60.50) raising targets post-release. Note that Morgan Stanley's $57 target on 2026-11-18 is excluded as it falls after the 2026-11-13 reference close. Horizon_months is set to null where broker 12-month disclosure pages were not directly cited.",
+  "sources": [
+    {
+      "label": "Brookfield Asset Management Q3 2026 Results Press Release",
+      "url": "https://www.brookfield.com/news-releases",
+      "supports": "Q3 2026 FRE ($864M), DE ($763M / $0.47/sh), Fee-Bearing Capital ($682B), fundraising ($25B Q3 / $123B YTD), earnings_at"
+    },
+    {
+      "label": "Brookfield Asset Management Dividend History",
+      "url": "https://bam.brookfield.com/stock-distributions/dividends",
+      "supports": "2026 quarterly dividend of $0.5025/sh ($2.01 annualized)"
+    },
+    {
+      "label": "MarketBeat BAM Analyst Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/BAM/forecast/",
+      "supports": "JPMorgan and Piper Sandler analyst ratings and price targets"
+    },
+    {
+      "label": "StockAnalysis BAM Forecast",
+      "url": "https://stockanalysis.com/stocks/bam/forecast/",
+      "supports": "Goldman Sachs and RBC Capital Markets ratings and price targets"
+    }
+  ]
+}

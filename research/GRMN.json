@@ -1,0 +1,175 @@
+{
+  "issuer_id": "Garmin Ltd.",
+  "symbol": "GRMN",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 283.03,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-28T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Ronald Epstein",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 230,
+      "source_prior": 220,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/garmin-stock-price-target-raised-to-230-from-220-at-bofa-securities-93CH-4325000"
+    },
+    {
+      "analyst": "Ronald Epstein",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Underperform",
+      "bucket": "Sell",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/garmin-stock-price-target-raised-to-230-from-220-at-bofa-securities-93CH-4325000"
+    },
+    {
+      "analyst": "Joseph Cardoso",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 310,
+      "source_prior": 295,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/grmn/forecast/"
+    },
+    {
+      "analyst": "Joseph Cardoso",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/grmn/forecast/"
+    },
+    {
+      "analyst": "Erik Woodring",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 295,
+      "source_prior": 289,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/grmn/forecast/"
+    },
+    {
+      "analyst": "Erik Woodring",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/grmn/forecast/"
+    },
+    {
+      "analyst": "Tim Long",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 277,
+      "source_prior": 297,
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/grmn/forecast/"
+    },
+    {
+      "analyst": "Tim Long",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-29",
+      "public_at": "2026-10-29T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/grmn/forecast/"
+    },
+    {
+      "analyst": "Ivan Feinseth",
+      "firm": "Tigress Financial",
+      "field": "target",
+      "value": 370,
+      "source_prior": 325,
+      "issued_at": "2026-08-06",
+      "public_at": "2026-08-06T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.barchart.com/story/news/garmin-grmn-tigress-financial-raises-price-target"
+    },
+    {
+      "analyst": "Ivan Feinseth",
+      "firm": "Tigress Financial",
+      "field": "rating",
+      "value": "Strong Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-06",
+      "public_at": "2026-08-06T23:59:59-04:00",
+      "source": "https://www.barchart.com/story/news/garmin-grmn-tigress-financial-raises-price-target"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 pro forma EPS viewed at the 12-month target date, November 2027)",
+    "bear": 231.0,
+    "base": 293.25,
+    "bull": 350.0,
+    "cases": {
+      "bear": {
+        "driver": "Memory component cost inflation and supply headwinds compress gross margin back toward 58%, while consumer wearable demand moderates.",
+        "assumption": "FY2027E pro forma EPS $10.50 at 22.0x P/E",
+        "target": 231.0
+      },
+      "base": {
+        "driver": "Outdoor (fenix 9) and Fitness momentum sustains ~6.5% EPS growth off FY2026 guidance ($10.80), partially offset by gross margin normalization from 61.0% toward 58%-59%.",
+        "assumption": "FY2027E pro forma EPS $11.50 at 25.5x P/E",
+        "target": 293.25
+      },
+      "bull": {
+        "driver": "Continued double-digit wearable and marine growth plus operating leverage offset component cost headwinds and support multiple expansion.",
+        "assumption": "FY2027E pro forma EPS $12.50 at 28.0x P/E",
+        "target": 350.0
+      }
+    },
+    "implied_by_close": "At $11.50 base FY2027E EPS, the $283.03 close implies 24.6x; the 5-analyst average target (~$296.40) implies 25.8x or $11.62 EPS at 25.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $11.50 (4.1 pp).",
+    "watch_metric": "Gross margin trajectory (management guided normalization toward 58%-59% in 2027 from 63.3% in Q3 2026 due to memory component costs) and Outdoor/Fitness revenue growth.",
+    "next_disclosure": "Q4 2026 earnings release and FY2027 guidance (expected February 2027)."
+  },
+  "dividend_per_share": 4.2,
+  "analyst_notes": "Following Garmin's Q3 2026 beat ($2.76 pro forma EPS vs. ~$2.39 consensus) and raised FY2026 EPS guidance ($10.80), four of five tracked analysts updated targets between Oct 29 and Nov 2, 2026: J.P. Morgan ($310), Morgan Stanley ($295), and BofA ($230) raised targets, while Barclays trimmed to $277. Ratings remain clustered at Hold/Neutral (3 Hold, 1 Buy, 1 Sell), with BofA flagging lowered FY2026 FCF guidance ($1.1B) from inventory and memory prepayments. The ~$296.40 equal-weight target is ~1.1 pp above our $293.25 base case, equivalent to ~$0.12 in FY2027E EPS or ~0.3x P/E.",
+  "sources": [
+    {
+      "label": "Garmin Q3 2026 Financial Results",
+      "url": "https://www.garmin.com/en-US/newsroom/press-release/corporate/garmin-announces-third-quarter-2026-results/",
+      "supports": "Q3 2026 revenue ($1.99B), GAAP EPS ($2.80), pro forma EPS ($2.76), margins, FY2026 guidance ($8.15B revenue, $10.80 pro forma EPS), cash ($4.1B), FCF"
+    },
+    {
+      "label": "Garmin 2026 Cash Dividend",
+      "url": "https://www.garmin.com/en-US/newsroom/press-release/corporate/garmin-announces-dividend/",
+      "supports": "Annualized cash dividend of $4.20 per share ($1.05 quarterly)"
+    },
+    {
+      "label": "StockAnalysis GRMN Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/grmn/forecast/",
+      "supports": "J.P. Morgan, Morgan Stanley, Barclays, and BofA post-Q3 2026 target and rating updates"
+    },
+    {
+      "label": "Investing.com BofA Securities Note",
+      "url": "https://www.investing.com/news/analyst-ratings/garmin-stock-price-target-raised-to-230-from-220-at-bofa-securities-93CH-4325000",
+      "supports": "Ronald Epstein (BofA) $230 target, Underperform rating, FCF headwind rationale"
+    },
+    {
+      "label": "Barchart Tigress Financial Note",
+      "url": "https://www.barchart.com/story/news/garmin-grmn-tigress-financial-raises-price-target",
+      "supports": "Ivan Feinseth (Tigress Financial) $370 target and Strong Buy rating on 2026-08-06"
+    }
+  ]
+}

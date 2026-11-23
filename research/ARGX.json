@@ -1,0 +1,175 @@
+{
+  "issuer_id": "argenx SE",
+  "symbol": "ARGX",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 960.04,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-22T07:00:00+02:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Sean Laaman",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 1130,
+      "source_prior": 1190,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/argx/forecast/"
+    },
+    {
+      "analyst": "Sean Laaman",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/argx/forecast/"
+    },
+    {
+      "analyst": "Colleen Kusy",
+      "firm": "Baird",
+      "field": "target",
+      "value": 861,
+      "source_prior": 823,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/argx/forecast/"
+    },
+    {
+      "analyst": "Colleen Kusy",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T16:00:00-04:00",
+      "source": "https://stockanalysis.com/stocks/argx/forecast/"
+    },
+    {
+      "analyst": "Derek Archila",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 1336,
+      "source_prior": 1415,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/argx/forecast"
+    },
+    {
+      "analyst": "Derek Archila",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T16:00:00-04:00",
+      "source": "https://www.tipranks.com/stocks/argx/forecast"
+    },
+    {
+      "analyst": "Xian Deng",
+      "firm": "UBS",
+      "field": "target",
+      "value": 1400,
+      "source_prior": 960,
+      "issued_at": "2026-08-26",
+      "public_at": "2026-08-26T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/argen-x-nv-consensus-estimates"
+    },
+    {
+      "analyst": "Xian Deng",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-26",
+      "public_at": "2026-08-26T16:00:00-04:00",
+      "source": "https://www.investing.com/equities/argen-x-nv-consensus-estimates"
+    },
+    {
+      "analyst": "Yaron Werber",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 1353,
+      "source_prior": 1146,
+      "issued_at": "2026-08-17",
+      "public_at": "2026-08-17T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/argen-x-nv-consensus-estimates"
+    },
+    {
+      "analyst": "Yaron Werber",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-17",
+      "public_at": "2026-08-17T16:00:00-04:00",
+      "source": "https://www.investing.com/equities/argen-x-nv-consensus-estimates"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 diluted EPS viewed at the 12-month target date of Nov 2027, in USD per ADS/share). At Q3 2026, diluted share count was 64.89M, cash and current financial assets were $3.7B, and Q3 2026 diluted EPS was $7.80 on $1.721B product net sales (+54% YoY).",
+    "bear": 812.0,
+    "base": 1068.8,
+    "bull": 1347.5,
+    "cases": {
+      "bear": {
+        "driver": "Slower Vyvgart CIDP/gMG penetration, competitive FcRn pressure, and elevated R&D/SG&A spend above $4B",
+        "assumption": "FY2027 diluted EPS $29.00 at 28x",
+        "target": 812.0
+      },
+      "base": {
+        "driver": "Continued Vyvgart growth in gMG and CIDP, pediatric gMG approval (Feb 2027 PDUFA), and H2 2027 autoinjector launch",
+        "assumption": "FY2027 diluted EPS $33.40 at 32x",
+        "target": 1068.8
+      },
+      "bull": {
+        "driver": "Stronger-than-expected Vyvgart label expansion (oMG, IMNM) plus positive empasiprubart MMN Phase 3 data",
+        "assumption": "FY2027 diluted EPS $38.50 at 35x",
+        "target": 1347.5
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $33.40, the $960.04 close implies 28.7x; at 32x, the close implies $30.00 FY2027 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $33.40 (3.5 pp).",
+    "watch_metric": "Vyvgart global quarterly net sales growth and Phase 3 empasiprubart MMN (EMPASSION) topline readout",
+    "next_disclosure": "Phase 3 empasiprubart MMN (EMPASSION) topline data expected December 2026; Q4/FY2026 earnings in February 2027"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q3 2026 earnings on October 22, 2026 ($1.721B product net sales, +54% YoY; $7.80 diluted EPS), named analyst updates were mixed: Baird raised its target to $861 (Neutral), Wells Fargo adjusted to $1,336 (Overweight), and Morgan Stanley trimmed to $1,130 (Overweight) on November 13. Bullish targets ($1,336-$1,400) sit 25-31 pp above our $1,068.80 base case, reflecting higher FY2027 non-GAAP EPS assumptions (e.g., TD Cowen at $38.65) and 35x+ multiples.",
+  "sources": [
+    {
+      "label": "argenx Q3 2026 Financial Results Press Release",
+      "url": "https://www.argenx.com/news/argenx-reports-third-quarter-2026-financial-results",
+      "supports": "Q3 2026 product net sales ($1.721B), operating profit ($486M), cash ($3.7B), and pipeline milestones"
+    },
+    {
+      "label": "argenx Q3 2026 SEC Form 6-K",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0001697862",
+      "supports": "Q3 2026 diluted EPS ($7.80) and diluted share count (64,886,406)"
+    },
+    {
+      "label": "StockAnalysis ARGX Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/argx/forecast/",
+      "supports": "Named analyst ratings and price targets (Morgan Stanley, Baird)"
+    },
+    {
+      "label": "Investing.com ARGX Consensus Estimates",
+      "url": "https://www.investing.com/equities/argen-x-nv-consensus-estimates",
+      "supports": "Named analyst ratings and price targets (UBS, TD Cowen) and FY2026/FY2027 EPS consensus"
+    },
+    {
+      "label": "TipRanks ARGX Analyst Forecast",
+      "url": "https://www.tipranks.com/stocks/argx/forecast",
+      "supports": "Wells Fargo (Derek Archila) rating and price target"
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "issuer_id": "Moderna, Inc.",
+  "symbol": "MRNA",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 223.37,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-06T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Salveen Richter",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 195.0,
+      "source_prior": 137.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Salveen Richter",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Edward Tenthoff",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 305.0,
+      "source_prior": 230.0,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Edward Tenthoff",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Myles Minter",
+      "firm": "William Blair",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Tyler Van Buren",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 90.0,
+      "source_prior": 40.0,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Tyler Van Buren",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Terence Flynn",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 95.0,
+      "source_prior": 89.0,
+      "issued_at": "2026-10-07",
+      "public_at": "2026-10-07T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Terence Flynn",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-07",
+      "public_at": "2026-10-07T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Jessica Fye",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 77.0,
+      "source_prior": 40.0,
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    },
+    {
+      "analyst": "Jessica Fye",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Underweight",
+      "bucket": "Sell",
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MRNA/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EV/Revenue + Net Cash (FY2027E revenue viewed at the 12-month target date, 404.6M common shares outstanding as of Oct 30, 2026, ~$5.0B net cash from $8.0B cash/investments less $3.0B 0% convertible notes due 2032)",
+    "bear": 120.0,
+    "base": 215.0,
+    "bull": 300.0,
+    "cases": {
+      "bear": {
+        "driver": "Respiratory franchise stagnates and intismeran autogene (mRNA-4157) faces FDA review delay, keeping cash burn elevated against ~$4.0B 2027 cash cost guidance.",
+        "assumption": "FY2027E revenue $2.0B at 22.0x EV/Revenue + $4.5B net cash ($48.5B equity / 404.6M shares)",
+        "target": 120.0
+      },
+      "base": {
+        "driver": "Intismeran autogene files with the FDA in late 2026 for a 2027 adjuvant melanoma launch alongside mFLUSIVA and international COVID-19/respiratory sales.",
+        "assumption": "FY2027E revenue $2.6B at 31.5x EV/Revenue + $5.0B net cash ($86.9B equity / 404.6M shares)",
+        "target": 215.0
+      },
+      "bull": {
+        "driver": "Rapid intismeran autogene commercial uptake in melanoma and broader respiratory/mCOMBRIAX rollout accelerate path to sustained operating leverage.",
+        "assumption": "FY2027E revenue $3.2B at 36.0x EV/Revenue + $6.0B net cash ($121.2B equity / 404.6M shares)",
+        "target": 300.0
+      }
+    },
+    "implied_by_close": "At $2.6B base FY2027E revenue and $5.0B net cash, the $223.37 close implies ~32.8x EV/Revenue (~$85.4B EV); the wide analyst target range ($77-$305) reflects dispersion from ~10x to ~46x EV/Revenue.",
+    "sensitivity": "One turn of FY2027E EV/Revenue multiple moves the base target by ~$6.43 (3.0 pp).",
+    "watch_metric": "FDA submission and acceptance of intismeran autogene (mRNA-4157) in resected high-risk melanoma, plus FY2027 revenue vs. $4.0B cash cost guidance.",
+    "next_disclosure": "Q4 2026 / FY2026 earnings release and year-end 2026 FDA filing update for intismeran autogene."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q3 2026 earnings on Nov 6, 2026 ($1.31B revenue, $0.38 GAAP EPS) and positive Phase 3 INTerpath-001 melanoma data, Goldman Sachs raised its target to $195 (Neutral) and Piper Sandler raised to $305 (Overweight) on Nov 9, 2026. Street targets remain highly dispersed ($77-$305) because bears (e.g., J.P. Morgan at $77, TD Cowen at $90) focus on ~$4.0B/year cash costs through 2030, whereas bulls price in blockbuster oncology commercialization.",
+  "sources": [
+    {
+      "label": "SEC Form 10-Q Q3 2026",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0001682852",
+      "supports": "Cash and investments ($8.0B), $3.0B 0% convertible notes due 2032, 404,620,975 common shares outstanding as of Oct 30, 2026"
+    },
+    {
+      "label": "Moderna Q3 2026 Earnings Release (Nov 6, 2026)",
+      "url": "https://investors.modernatx.com/news",
+      "supports": "Q3 2026 revenue ($1.31B), GAAP net income ($162M / $0.38 diluted EPS), FY2026 revenue growth guidance (15%-25%), mFLUSIVA approval"
+    },
+    {
+      "label": "Benzinga MRNA Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/MRNA/analyst-ratings",
+      "supports": "Named analyst ratings, price targets, prior targets, and publication dates"
+    }
+  ]
+}

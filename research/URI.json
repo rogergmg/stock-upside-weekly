@@ -1,0 +1,211 @@
+{
+  "issuer_id": "United Rentals, Inc.",
+  "symbol": "URI",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 1124.5601,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-21T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Sabahat Khan",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 1392,
+      "source_prior": 1323,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/URI"
+    },
+    {
+      "analyst": "Sabahat Khan",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/URI"
+    },
+    {
+      "analyst": "Angel Castillo",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 1350,
+      "source_prior": 1335,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/uri/forecast/"
+    },
+    {
+      "analyst": "Angel Castillo",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/uri/forecast/"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 1450,
+      "source_prior": 1395,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/united-rentals-inc"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/united-rentals-inc"
+    },
+    {
+      "analyst": "David Raso",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 1317,
+      "source_prior": 1262,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.cnn.com/markets/stocks/URI"
+    },
+    {
+      "analyst": "David Raso",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://www.cnn.com/markets/stocks/URI"
+    },
+    {
+      "analyst": "Tim Thein",
+      "firm": "Raymond James",
+      "field": "target",
+      "value": 1350,
+      "source_prior": 1325,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/united-rentals-inc"
+    },
+    {
+      "analyst": "Tim Thein",
+      "firm": "Raymond James",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/united-rentals-inc"
+    },
+    {
+      "analyst": "Chad Dillard",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 1258,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/united-rentals-inc"
+    },
+    {
+      "analyst": "Chad Dillard",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/united-rentals-inc"
+    },
+    {
+      "analyst": "Tami Zakaria",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 1170,
+      "source_prior": 1235,
+      "issued_at": "2026-09-10",
+      "public_at": "2026-09-10T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://seekingalpha.com/symbol/URI/ratings/wall-street-analysts"
+    },
+    {
+      "analyst": "Tami Zakaria",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-09-10",
+      "public_at": "2026-09-10T23:59:59-04:00",
+      "source": "https://seekingalpha.com/symbol/URI/ratings/wall-street-analysts"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2027E Adjusted EPS viewed at the 12-month target date)",
+    "bear": 918.0,
+    "base": 1240.0,
+    "bull": 1474.0,
+    "cases": {
+      "bear": {
+        "driver": "Local construction slowdown, higher interest rates, and fleet utilization/margin compression",
+        "assumption": "FY2027E Adjusted EPS $54.00 at 17.0x P/E",
+        "target": 918.0
+      },
+      "base": {
+        "driver": "Steady mega-project and specialty rental growth (~46.5% EBITDA margin) plus $1.5B annual buybacks",
+        "assumption": "FY2027E Adjusted EPS $62.00 at 20.0x P/E",
+        "target": 1240.0
+      },
+      "bull": {
+        "driver": "Accelerated data center, power, and infrastructure mega-project demand with specialty margin expansion",
+        "assumption": "FY2027E Adjusted EPS $67.00 at 22.0x P/E",
+        "target": 1474.0
+      }
+    },
+    "implied_by_close": "At base FY2027E Adjusted EPS of $62.00, the $1,124.5601 close implies 18.1x; the Street consensus target (~$1,305) implies 21.0x or $65.25 EPS at 20.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $62.00 (5.5 pp).",
+    "watch_metric": "Fleet productivity growth, specialty rental revenue growth, and FY2027 initial revenue/EBITDA guidance",
+    "next_disclosure": "Q4 2026 earnings release scheduled for January 27, 2027"
+  },
+  "dividend_per_share": 7.88,
+  "analyst_notes": "Following United Rentals' Q3 2026 beat-and-raise on October 21, 2026 (Adjusted EPS $15.55, FY26 revenue guidance raised to $18.0B-$18.2B), six of the seven tracked analysts raised targets into a $1,258-$1,450 range, while J.P. Morgan had downgraded to Neutral ($1,170) on September 10, 2026 over M&A scarcity and local construction rate sensitivity. Street consensus targets (~$1,305) sit roughly 5.8 pp above our $1,240 base case (+10.3%), reflecting ~1 turn higher multiple (21.0x vs. 20.0x) or ~5% higher FY2027E EPS.",
+  "sources": [
+    {
+      "label": "United Rentals Q3 2026 Earnings Release (Oct 21, 2026)",
+      "url": "https://www.unitedrentals.com/our-company/press-room",
+      "supports": "Q3 2026 revenue, Adjusted EPS, Adjusted EBITDA, FY2026 guidance, dividend"
+    },
+    {
+      "label": "United Rentals Q3 2026 Form 10-Q",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0001067701",
+      "supports": "61,916,588 common shares outstanding as of October 19, 2026; net leverage 1.8x"
+    },
+    {
+      "label": "Investing.com URI Analyst Ratings & Targets",
+      "url": "https://www.investing.com/equities/united-rentals-inc",
+      "supports": "Truist, Raymond James, Bernstein, RBC Capital post-Q3 target updates"
+    },
+    {
+      "label": "StockAnalysis URI Forecast",
+      "url": "https://stockanalysis.com/stocks/uri/forecast/",
+      "supports": "Morgan Stanley target and rating"
+    }
+  ]
+}

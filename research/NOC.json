@@ -1,0 +1,212 @@
+{
+  "issuer_id": "Northrop Grumman Corporation",
+  "symbol": "NOC",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 550.43,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-20T06:06:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Ken Herbert",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Sector Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "source": "https://www.barchart.com/story/news/noc-rbc-downgrade-oct-2026"
+    },
+    {
+      "analyst": "Ken Herbert",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 525,
+      "source_prior": null,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.barchart.com/story/news/noc-rbc-downgrade-oct-2026"
+    },
+    {
+      "analyst": "Peter Arment",
+      "firm": "Robert W. Baird",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "source": "https://quantisnow.com/insight/noc-baird-upgrade-oct-2026"
+    },
+    {
+      "analyst": "Peter Arment",
+      "firm": "Robert W. Baird",
+      "field": "target",
+      "value": 675,
+      "source_prior": null,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://quantisnow.com/insight/noc-baird-upgrade-oct-2026"
+    },
+    {
+      "analyst": "Noah Poponak",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Noah Poponak",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 525,
+      "source_prior": 518,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Sheila Kahyaoglu",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-25",
+      "public_at": "2026-10-25T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Sheila Kahyaoglu",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 585,
+      "source_prior": 580,
+      "issued_at": "2026-10-25",
+      "public_at": "2026-10-25T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Douglas Harned",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Douglas Harned",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 590,
+      "source_prior": 556,
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Ronald Epstein",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Ronald Epstein",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 750,
+      "source_prior": null,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Seth Seifman",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    },
+    {
+      "analyst": "Seth Seifman",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 605,
+      "source_prior": 600,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/noc/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 MTM-adjusted EPS viewed at the 12-month target date)",
+    "bear": 470.25,
+    "base": 600.0,
+    "bull": 693.0,
+    "cases": {
+      "bear": {
+        "driver": "Fixed-price development program charges (B-21/Sentinel) and tighter U.S. defense budget",
+        "assumption": "FY2027 EPS $28.50 at 16.5x P/E",
+        "target": 470.25
+      },
+      "base": {
+        "driver": "5%-7% organic sales growth, modest margin expansion, and ~142.4M diluted shares",
+        "assumption": "FY2027 EPS $30.00 at 20.0x P/E",
+        "target": 600.0
+      },
+      "bull": {
+        "driver": "Accelerated B-21 and Space Systems margin expansion with strong munitions demand",
+        "assumption": "FY2027 EPS $31.50 at 22.0x P/E",
+        "target": 693.0
+      }
+    },
+    "implied_by_close": "At $30.00 base FY2027 EPS, the $550.43 close implies 18.3x; at 20.0x, the close implies $27.52 EPS. The ~$635-$643 Street consensus target implies 21.2x-21.4x base EPS or ~$31.75-$32.15 EPS at 20.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $30.00 (5.4 percentage points of upside).",
+    "watch_metric": "Segment operating margin (FY2026 guidance $4.94B-$5.04B) and B-21 / Space Systems fixed-price program EAC adjustments.",
+    "next_disclosure": "Q4 2026 and full-year 2026 earnings release (expected late January 2027)."
+  },
+  "dividend_per_share": 9.88,
+  "analyst_notes": "Following Q3 2026 earnings on October 20, 2026 (EPS beat and FY2026 MTM-adjusted EPS guidance raised to $29.35-$29.75), six of the seven named analysts updated or reiterated views: Baird upgraded to Outperform ($675), BofA reiterated Buy ($750), and Bernstein ($590), Jefferies ($585), Goldman Sachs ($525), and J.P. Morgan ($605) nudged targets up while holding Neutral/Hold ratings. Street targets cluster around $585-$605 (in line with our $600.00 base case, +9.0% upside), while dispersion between BofA ($750) and RBC ($525) reflects differing views on U.S. defense budget constraints and fixed-price margin risk.",
+  "sources": [
+    {
+      "label": "Northrop Grumman Q3 2026 Earnings Release & Form 10-Q",
+      "url": "https://investor.northropgrumman.com/",
+      "supports": "Q3 2026 release timestamp, FY2026 MTM-adjusted EPS guidance ($29.35-$29.75), segment operating income guidance, 142.4M diluted shares"
+    },
+    {
+      "label": "StockAnalysis NOC Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/noc/forecast/",
+      "supports": "Post-Q3 2026 analyst ratings and price targets (BofA, Bernstein, Jefferies, Goldman Sachs, J.P. Morgan)"
+    },
+    {
+      "label": "Barchart & QuantiSnow NOC Analyst Actions",
+      "url": "https://www.barchart.com/quotes/NOC/analyst-ratings",
+      "supports": "RBC Capital downgrade to Sector Perform ($525) and Baird upgrade to Outperform ($675)"
+    },
+    {
+      "label": "Northrop Grumman Dividend History",
+      "url": "https://investor.northropgrumman.com/stock-information/dividend-history",
+      "supports": "2026 quarterly dividends ($2.31 Q1, $2.47 Q2-Q4; $9.88 annualized forward run-rate)"
+    }
+  ]
+}

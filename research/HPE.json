@@ -1,0 +1,228 @@
+{
+  "issuer_id": "Hewlett Packard Enterprise Company",
+  "symbol": "HPE",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 48.29,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-09-02T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Wamsi Mohan",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 82,
+      "source_prior": 80,
+      "issued_at": "2026-08-31",
+      "public_at": "2026-08-31T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Wamsi Mohan",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-31",
+      "public_at": "2026-08-31T23:59:59-04:00",
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Asiya Merchant",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 92,
+      "source_prior": 76,
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Asiya Merchant",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Erik Woodring",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 72,
+      "source_prior": 67,
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Erik Woodring",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "David Vogt",
+      "firm": "UBS",
+      "field": "target",
+      "value": 66,
+      "source_prior": 59,
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "David Vogt",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Matthew Niknam",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 75,
+      "source_prior": 70,
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Matthew Niknam",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Louis Miscioscia",
+      "firm": "Daiwa Capital",
+      "field": "target",
+      "value": 75,
+      "source_prior": 65,
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Louis Miscioscia",
+      "firm": "Daiwa Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Aaron Rakers",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 63,
+      "source_prior": 54,
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Aaron Rakers",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-01",
+      "public_at": "2026-10-01T23:59:59-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Tim Long",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 77,
+      "source_prior": 83,
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Tim Long",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T23:59:59-04:00",
+      "source": "https://www.benzinga.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Non-GAAP Diluted EPS x P/E (FY2027E EPS viewed at the 12-month target date)",
+    "bear": 42.0,
+    "base": 56.25,
+    "bull": 70.33,
+    "cases": {
+      "bear": {
+        "driver": "AI server margin compression and slower Juniper Networks synergy realization (~10.5% EPS growth off $3.80 FY2026E midpoint)",
+        "assumption": "FY2027E Non-GAAP EPS $4.20 at 10.0x P/E",
+        "target": 42.0
+      },
+      "base": {
+        "driver": "In-line execution on management's FY2027 outlook (13%-17% revenue growth, 16%-20% non-GAAP EPS growth off $3.80 FY2026E midpoint)",
+        "assumption": "FY2027E Non-GAAP EPS $4.50 at 12.5x P/E",
+        "target": 56.25
+      },
+      "bull": {
+        "driver": "Accelerated AI server backlog conversion and stronger-than-guided networking operating leverage",
+        "assumption": "FY2027E Non-GAAP EPS $4.85 at 14.5x P/E",
+        "target": 70.33
+      }
+    },
+    "implied_by_close": "At Base FY2027E EPS of $4.50, the $48.29 close implies 10.7x forward P/E; at 12.5x, $48.29 implies $3.86 EPS.",
+    "sensitivity": "One turn of P/E on Base FY2027E EPS ($4.50) moves the base target by $4.50 (9.3 pp of price return).",
+    "watch_metric": "AI server backlog conversion, networking segment operating margin, and FY2027 non-GAAP EPS & free cash flow guidance",
+    "next_disclosure": "Q4 FY2026 earnings release scheduled for November 23, 2026 (after market close)"
+  },
+  "dividend_per_share": 0.57,
+  "analyst_notes": "Following HPE's Q3 FY2026 earnings release on September 2, 2026 and its Networking Investor Day, seven of eight tracked analysts raised price targets on October 1, 2026 (ranging from $63 at Wells Fargo to $92 at Citigroup), while Barclays downgraded to Equal-Weight and trimmed its target to $77 on October 14, 2026. Street targets ($63-$92) sit above our $56.25 base case (+16.5%), reflecting higher FY2027 EPS expectations (~$4.76 consensus vs. $4.50 base) and richer AI/networking multiples. Subsequent target cuts by Citigroup, Morgan Stanley, and UBS occurred after the November 13, 2026 reference close and are excluded from this snapshot.",
+  "sources": [
+    {
+      "label": "HPE Q3 FY2026 Earnings Release (Sep 2, 2026)",
+      "url": "https://www.hpe.com/",
+      "supports": "Q3 FY2026 non-GAAP EPS ($1.11), FY2026 non-GAAP EPS guidance ($3.75-$3.85), dividend ($0.1425/qtr)"
+    },
+    {
+      "label": "SEC Form 10-Q for Q3 FY2026 (ended July 31, 2026)",
+      "url": "https://www.sec.gov/",
+      "supports": "Common shares outstanding (1,328,115,106) and diluted weighted-average shares (1,449M)"
+    },
+    {
+      "label": "Benzinga / TipRanks / Investing.com Analyst Coverage",
+      "url": "https://www.benzinga.com/",
+      "supports": "Dated analyst ratings and price target revisions through 2026-11-13"
+    }
+  ]
+}

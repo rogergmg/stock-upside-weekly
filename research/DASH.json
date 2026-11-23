@@ -1,0 +1,217 @@
+{
+  "issuer_id": "DoorDash, Inc.",
+  "symbol": "DASH",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 171.51,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T08:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Scott Devitt",
+      "firm": "Rosenblatt",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-01",
+      "public_at": "2026-09-01T17:00:00-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Scott Devitt",
+      "firm": "Rosenblatt",
+      "field": "target",
+      "value": 270,
+      "issued_at": "2026-09-01",
+      "public_at": "2026-09-01T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Scott Devitt",
+      "firm": "Rosenblatt",
+      "field": "target",
+      "value": 225,
+      "source_prior": 270,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Scott Devitt",
+      "firm": "Rosenblatt",
+      "field": "target",
+      "value": 210,
+      "source_prior": 225,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T15:59:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Scott Devitt",
+      "firm": "Rosenblatt",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T15:59:00-05:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Ygal Arounian",
+      "firm": "Wedbush",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T17:00:00-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Ygal Arounian",
+      "firm": "Wedbush",
+      "field": "target",
+      "value": 220,
+      "source_prior": 205,
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Ygal Arounian",
+      "firm": "Wedbush",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T17:00:00-05:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Ygal Arounian",
+      "firm": "Wedbush",
+      "field": "target",
+      "value": 230,
+      "source_prior": 220,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Youssef Squali",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Youssef Squali",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 340,
+      "source_prior": 336,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Bernie McTernan",
+      "firm": "Needham",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Bernie McTernan",
+      "firm": "Needham",
+      "field": "target",
+      "value": 235,
+      "source_prior": 265,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Ross Sandler",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Ross Sandler",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 205,
+      "source_prior": 230,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 diluted GAAP EPS viewed at the 12-month target date)",
+    "bear": 144.5,
+    "base": 200.0,
+    "bull": 258.75,
+    "cases": {
+      "bear": {
+        "driver": "Instacart integration friction, DOJ regulatory overhang, and Amazon/Uber Eats competitive pressure compress margins",
+        "assumption": "FY2027 diluted EPS $4.25 at 34x P/E",
+        "target": 144.5
+      },
+      "base": {
+        "driver": "Sustained ~25%+ GOV growth and operating leverage off Q3 2026 $1.06 diluted EPS and $1.06B Adjusted EBITDA",
+        "assumption": "FY2027 diluted EPS $5.00 at 40x P/E",
+        "target": 200.0
+      },
+      "bull": {
+        "driver": "Faster international/grocery margin accretion and smooth closing of the $17B Instacart acquisition",
+        "assumption": "FY2027 diluted EPS $5.75 at 45x P/E",
+        "target": 258.75
+      }
+    },
+    "implied_by_close": "At $5.00 base FY2027 EPS, the $171.51 close implies 34.3x; Street targets around $230-$240 imply 46x-48x at base EPS or $5.75-$6.00 EPS at 40x.",
+    "sensitivity": "One turn of P/E moves the base target by $5.00 (2.9 pp).",
+    "watch_metric": "Marketplace Gross Order Value (GOV) growth, Adjusted EBITDA margin, and DOJ/closing progress on the $17B Instacart acquisition.",
+    "next_disclosure": "Q4 2026 earnings release and FY2026 Form 10-K (expected February 2027)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q3 2026 earnings on October 29, 2026 (revenue $4.62B, diluted EPS $1.06) and the $17B Instacart acquisition announcement, most named analysts trimmed price targets (Rosenblatt to $210, Needham to $235, Barclays to $205) on deal/regulatory and competitive risks, while Wedbush upgraded to Outperform ($230) and Truist nudged its Street-high target to $340. Named targets remain above our $200 base case, reflecting higher assumed FY2027 earnings or multiples than our 40x on $5.00 EPS.",
+  "sources": [
+    {
+      "label": "DoorDash Q3 2026 Form 10-Q",
+      "url": "https://www.sec.gov/",
+      "supports": "Q3 2026 diluted shares (~442M), cash & investments ($6.8B), and total debt ($3.30B)"
+    },
+    {
+      "label": "DoorDash Q3 2026 Earnings Release (Oct 29, 2026)",
+      "url": "https://ir.doordash.com/",
+      "supports": "Q3 2026 revenue ($4.62B), diluted EPS ($1.06), Adjusted EBITDA ($1.06B), Q4 2026 GOV & Adjusted EBITDA guidance, and Instacart acquisition announcement"
+    },
+    {
+      "label": "Benzinga Analyst Ratings & Price Targets",
+      "url": "https://www.benzinga.com/",
+      "supports": "Dated analyst ratings, price targets, and prior targets for Rosenblatt, Wedbush, Truist Securities, Needham, and Barclays"
+    }
+  ]
+}

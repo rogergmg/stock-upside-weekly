@@ -1,32 +1,47 @@
 {
- "issuer_id":"Emerson Electric Co.","symbol":"EMR","researched_at":"2026-11-18",
- "research_close":{"close":166.38,"close_date":"2026-11-13"},"currency":"USD",
- "earnings_at":"2026-11-04T06:53:00-05:00","coverage":"partial",
- "events":[
- {"analyst":"Chris Dankert","firm":"D.A. Davidson","field":"target","value":160,"source_prior":155,"issued_at":"2026-11-12","public_at":"2026-11-12T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/emr/forecast/"},
- {"analyst":"Chris Dankert","firm":"D.A. Davidson","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-11-12","public_at":"2026-11-12T23:59:59-05:00","source":"https://stockanalysis.com/stocks/emr/forecast/"},
- {"analyst":"Varun Govindaraj","firm":"Bernstein","field":"target","value":196,"source_prior":null,"issued_at":"2026-11-11","public_at":"2026-11-11T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/emr/forecast/"},
- {"analyst":"Varun Govindaraj","firm":"Bernstein","field":"rating","value":"Buy","bucket":"Buy","issued_at":"2026-11-11","public_at":"2026-11-11T23:59:59-05:00","source":"https://stockanalysis.com/stocks/emr/forecast/"},
- {"analyst":"Brett Linzey","firm":"Mizuho Securities","field":"target","value":190,"source_prior":180,"issued_at":"2026-11-06","public_at":"2026-11-06T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/emr/forecast/"},
- {"analyst":"Brett Linzey","firm":"Mizuho Securities","field":"rating","value":"Buy","bucket":"Buy","issued_at":"2026-11-06","public_at":"2026-11-06T23:59:59-05:00","source":"https://stockanalysis.com/stocks/emr/forecast/"},
- {"analyst":"Daniel DiCicco","firm":"BMO Capital","field":"target","value":181,"source_prior":175,"issued_at":"2026-11-06","public_at":"2026-11-06T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/emr/forecast/"},
- {"analyst":"Daniel DiCicco","firm":"BMO Capital","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-11-06","public_at":"2026-11-06T23:59:59-05:00","source":"https://stockanalysis.com/stocks/emr/forecast/"}
- ],
- "valuation":{
- "method":"Forward EPS x P/E. Company FY2027 (Sep-2027) adjusted EPS guide about $7.25 on about 5% sales growth; at the Nov-2027 target date the market looks at FY2028 EPS, modelled at about +9% on the guide. Share count, net debt and FY2026 totals were not sourced in detail; the model uses EPS only. Native USD listing, no ADR conversion.",
- "bear":124.2,"base":173.8,"bull":212.5,
- "cases":{
- "bear":{"driver":"Project orders fade, margins flat, multiple de-rates","assumption":"FY2028 EPS $6.90 at 18x","target":124.2},
- "base":{"driver":"Long-cycle orders (+14% underlying in Q4) convert, mid-single-digit sales growth, margin gains","assumption":"FY2028 EPS $7.90 at 22x","target":173.8},
- "bull":{"driver":"LNG and data-centre automation demand, buybacks, higher margin","assumption":"FY2028 EPS $8.50 at 25x","target":212.5}},
- "implied_by_close":"At FY2027 guide EPS $7.25 the close implies 22.9x; the named-analyst average target (about $182) implies about 23x on $7.90 or EPS near $8.3 at 22x",
- "sensitivity":"One turn of P/E moves the base target by $7.90 (about 4.7 pp)",
- "watch_metric":"Underlying orders growth and segment EBITDA margin versus the FY2027 EPS guide of about $7.25",
- "next_disclosure":"Fiscal Q1 2027 earnings, expected early February 2027"},
- "dividend_per_share":2.11,
- "analyst_notes":"Four named analysts were verified with dated calls after the Nov 4 earnings; all raised targets (+$5 to +$10) and ratings are two Buy, two Hold. Their targets ($160-$196) bracket the base case; the Hold-rated names sit near the close. A Morgan Stanley Nov 17 note is after the reference close and excluded. Sample is small and horizons are undocumented, so targets stay out of the weighted figure.",
- "sources":[
- {"label":"StockAnalysis EMR analyst actions","url":"https://stockanalysis.com/stocks/emr/forecast/","supports":"Named analyst ratings and targets"},
- {"label":"247WallSt Emerson Q4 2026 earnings","url":"https://247wallst.com/cards/emerson-electric-q4-2026-earnings-emr-01m6k6sewjjxsehx6z2esnsnff","supports":"Q4 EPS, FY2027 EPS guide $7.25, release date"},
- {"label":"MarketBeat EMR price target","url":"https://www.marketbeat.com/stocks/NYSE/EMR/price-target/","supports":"Consensus target about $163, close $166.26 reference"}
- ]}
+  "issuer_id": "Emerson Electric Co.",
+  "symbol": "EMR",
+  "researched_at": "2026-11-21",
+  "research_close": {"close": 150.93, "close_date": "2026-11-20"},
+  "currency": "USD",
+  "earnings_at": "2026-11-04T08:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Ken Newman", "firm": "KeyBanc", "field": "target", "value": 200, "source_prior": 170,
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-emerson-electric-nyse-emr-given-new-20000-price-target-at-keycorp-2026-11-05/"},
+    {"analyst": "Ken Newman", "firm": "KeyBanc", "field": "rating", "value": "Overweight", "bucket": "Buy",
+     "issued_at": "2026-11-05", "public_at": "2026-11-05T23:59:59-05:00",
+     "source": "https://www.gurufocus.com/news/9175283/emr-maintained-by-keybanc-price-target-raised-to-200"},
+    {"analyst": "Chris Snyder", "firm": "Morgan Stanley", "field": "target", "value": 175, "source_prior": 140,
+     "issued_at": "2026-11-17", "public_at": "2026-11-17T23:59:59-05:00", "horizon_months": null,
+     "source": "https://www.marketbeat.com/instant-alerts/analyst-emerson-electric-nyse-emr-given-new-17500-price-target-at-morgan-stanley-2026-11-17/"},
+    {"analyst": "Chris Snyder", "firm": "Morgan Stanley", "field": "rating", "value": "Underweight", "bucket": "Sell",
+     "issued_at": "2026-11-17", "public_at": "2026-11-17T23:59:59-05:00",
+     "source": "https://www.gurufocus.com/news/9204818/emr-maintained-by-morgan-stanley-price-target-raised-to-175"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E. Target date Nov 2027, so an investor prices FY2028 (Sep 2028) adjusted EPS. FY2027 adjusted EPS guidance is about $7.25 (+10%); base assumes roughly 10% further growth to $7.95. Native USD listing, no FX or ADR conversion. Adjusted EPS basis, GAAP guidance is about $5.70.",
+    "bear": 123.25, "base": 166.95, "bull": 190.9,
+    "cases": {
+      "bear": {"driver": "Europe and China weakness persists, FY2028 growth stalls and EPS stays at the FY2027 guide", "assumption": "EPS $7.25 at 17x", "target": 123.25},
+      "base": {"driver": "About 5% underlying sales growth, segment EBITA margin near 29%, buybacks of about $2.5B a year, giving about 10% EPS growth again", "assumption": "EPS $7.95 at 21x", "target": 166.95},
+      "bull": {"driver": "Orders (up 14%, backlog $8.2B) convert to faster growth and margin expansion", "assumption": "EPS $8.30 at 23x", "target": 190.9}
+    },
+    "implied_by_close": "At base EPS $7.95 the close implies 19.0x (20.8x FY2027 guided EPS). The published Yahoo mean target of $183.11 (28 analysts, aggregate only) implies 23.0x at base EPS, or EPS $8.72 at 21x. The named-analyst weighted target is unavailable because no call has a documented 12-month horizon.",
+    "sensitivity": "One turn of P/E moves the base target by $7.95 (5.3% of close).",
+    "watch_metric": "Underlying orders growth and adjusted segment EBITA margin against the 29% FY2027 guide",
+    "next_disclosure": "Fiscal Q1 2027 earnings (expected early Feb 2027), Q1 adjusted EPS guide $1.58-$1.62"
+  },
+  "dividend_per_share": 2.38,
+  "analyst_notes": "Only two named analysts with dated calls were verifiable: KeyBanc's Ken Newman raised to $200 from $170 (Overweight) the day after the Nov 4 earnings, while Morgan Stanley's Chris Snyder raised to $175 from $140 but stays Underweight. Other post-earnings raises (Citi to $198, BNP Paribas Exane $200, Bernstein $196, RBC $196, Wells Fargo $180, DA Davidson $160) were reported without a verifiable analyst name or documented horizon and are excluded. The sample is too small and has no documented horizon, so the Yahoo aggregate mean of $183.11 (+21%) is the only broad reference; versus the $167 base the gap is about 10.7 pp of upside (21.3% vs 10.6%), equal to about 2 turns of P/E or about $0.77 of EPS at 21x.",
+  "sources": [
+    {"label": "Emerson Q4 and full-year FY2026 earnings release (8-K Ex. 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0000032604/000003260426000049/a2026q4release_ex991.htm", "supports": "FY2026 adjusted EPS $6.59, FY2027 guidance EPS about $7.25, margin, FCF, buybacks"},
+    {"label": "Emerson FY2027 guidance summary", "url": "https://mlq.ai/news/emerson-fiscal-q4-sales-rise-7-to-52-billion-as-underlying-orders-jump-14-fiscal-2027-adjusted-eps-guided-to-about-725/", "supports": "Q4 orders +14%, backlog, Q1 guide"},
+    {"label": "Emerson dividend raise to 59.5 cents", "url": "https://www.stocktitan.net/news/EMR/emerson-reports-fourth-quarter-and-full-year-2026-results-provides-7hwmecysgipz.html", "supports": "dividend per share $2.38 annualized"},
+    {"label": "MarketBeat KeyCorp target", "url": "https://www.marketbeat.com/instant-alerts/analyst-emerson-electric-nyse-emr-given-new-20000-price-target-at-keycorp-2026-11-05/", "supports": "KeyBanc $200 from $170"},
+    {"label": "MarketBeat Morgan Stanley target", "url": "https://www.marketbeat.com/instant-alerts/analyst-emerson-electric-nyse-emr-given-new-17500-price-target-at-morgan-stanley-2026-11-17/", "supports": "Morgan Stanley $175 from $140, Underweight"},
+    {"label": "GuruFocus KeyBanc", "url": "https://www.gurufocus.com/news/9175283/emr-maintained-by-keybanc-price-target-raised-to-200", "supports": "KeyBanc Overweight, analyst Ken Newman"},
+    {"label": "GuruFocus Morgan Stanley", "url": "https://www.gurufocus.com/news/9204818/emr-maintained-by-morgan-stanley-price-target-raised-to-175", "supports": "Morgan Stanley Underweight, analyst Chris Snyder"}
+  ]
+}

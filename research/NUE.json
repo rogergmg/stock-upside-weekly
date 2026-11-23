@@ -1,0 +1,186 @@
+{
+  "issuer_id": "Nucor Corporation",
+  "symbol": "NUE",
+  "researched_at": "2026-11-23",
+  "research_close": {"close": 251.73, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-10-26T16:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Bill Peterson",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 304,
+      "source_prior": 296,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/nue/forecast/"
+    },
+    {
+      "analyst": "Bill Peterson",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/nue/forecast/"
+    },
+    {
+      "analyst": "Lawson Winder",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 300,
+      "source_prior": 280,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/nue/forecast"
+    },
+    {
+      "analyst": "Lawson Winder",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/nue/forecast"
+    },
+    {
+      "analyst": "Richard Garchitorena",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 320,
+      "source_prior": 306,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/news/latest/nue"
+    },
+    {
+      "analyst": "Richard Garchitorena",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.gurufocus.com/news/latest/nue"
+    },
+    {
+      "analyst": "Timna Tanners",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 305,
+      "source_prior": 280,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/NUE/analyst-ratings"
+    },
+    {
+      "analyst": "Timna Tanners",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/NUE/analyst-ratings"
+    },
+    {
+      "analyst": "Katja Jancic",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 295,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/nue/forecast/"
+    },
+    {
+      "analyst": "Katja Jancic",
+      "firm": "BMO Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/nue/forecast/"
+    },
+    {
+      "analyst": "Alexander Hacking",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 300,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/nue/forecast"
+    },
+    {
+      "analyst": "Alexander Hacking",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/nue/forecast"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 diluted EPS viewed at the 12-month target date)",
+    "bear": 201.25,
+    "base": 279.5,
+    "bull": 336.0,
+    "cases": {
+      "bear": {
+        "driver": "Steel mill margin compression and lower HRC pricing",
+        "assumption": "FY2027 EPS $17.50 at 11.5x P/E",
+        "target": 201.25
+      },
+      "base": {
+        "driver": "Resilient HRC pricing, record mill shipments (7.2M tons/qtr), and capex moderation",
+        "assumption": "FY2027 EPS $21.50 at 13.0x P/E",
+        "target": 279.5
+      },
+      "bull": {
+        "driver": "Sustained steel spread expansion and West Virginia sheet mill ramp",
+        "assumption": "FY2027 EPS $24.00 at 14.0x P/E",
+        "target": 336.0
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $21.50, the $251.73 close implies 11.7x P/E; the $304.00 equal-weight analyst target implies 14.1x P/E or $23.38 EPS at 13.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $21.50 (8.5 pp).",
+    "watch_metric": "Quarterly steel mill shipments (net tons) and average selling price per ton",
+    "next_disclosure": "Q4 2026 earnings release (expected late January 2027)"
+  },
+  "dividend_per_share": 2.24,
+  "analyst_notes": "Following Nucor's Q3 2026 earnings release on October 26, 2026 ($5.80 diluted EPS, $11.25B net sales, and guidance for Q4 2026 earnings in-line with or modestly higher than Q3), named analysts broadly raised price targets into the $295-$320 range while maintaining Buy/Overweight ratings. The ~$304 equal-weight analyst target implies +20.8% upside versus our +11.0% base case (+9.8 pp gap), reflecting either a ~1.1x higher P/E multiple (14.1x vs 13.0x) or ~$1.88/share higher FY2027 EPS. Note: Timna Tanners' subsequent raise to $308 on November 18, 2026 occurred after the November 13, 2026 reference close and is excluded.",
+  "sources": [
+    {
+      "label": "Nucor Q3 2026 Earnings Release",
+      "url": "https://www.nucor.com/news-release/",
+      "supports": "Q3 2026 diluted EPS ($5.80), net sales ($11.25B), Q4 2026 outlook, and dividend ($0.56/qtr)"
+    },
+    {
+      "label": "StockAnalysis NUE Forecast",
+      "url": "https://stockanalysis.com/stocks/nue/forecast/",
+      "supports": "J.P. Morgan (Bill Peterson) and BMO Capital Markets (Katja Jancic) ratings and targets"
+    },
+    {
+      "label": "TipRanks NUE Forecast",
+      "url": "https://www.tipranks.com/stocks/nue/forecast",
+      "supports": "Bank of America (Lawson Winder) and Citigroup (Alexander Hacking) ratings and targets"
+    },
+    {
+      "label": "MarketBeat NUE Consensus & FY2027 EPS",
+      "url": "https://www.marketbeat.com/stocks/NYSE/NUE/forecast/",
+      "supports": "FY2027 consensus EPS ($21.46) and analyst target range"
+    }
+  ]
+}

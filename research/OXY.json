@@ -1,0 +1,168 @@
+{
+  "issuer_id": "Occidental Petroleum Corporation",
+  "symbol": "OXY",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 58.75,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-09T16:05:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Betty Jiang",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 73,
+      "source_prior": 71,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Betty Jiang",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Sam Margolin",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 76,
+      "source_prior": 82,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Sam Margolin",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Neil Mehta",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 76,
+      "source_prior": 69,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Neil Mehta",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Biju Perincheril",
+      "firm": "Susquehanna",
+      "field": "target",
+      "value": 77,
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Biju Perincheril",
+      "firm": "Susquehanna",
+      "field": "rating",
+      "value": "Positive",
+      "bucket": "Buy",
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Mike Scialla",
+      "firm": "Stephens & Co.",
+      "field": "target",
+      "value": 80,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    },
+    {
+      "analyst": "Mike Scialla",
+      "firm": "Stephens & Co.",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/OXY/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date)",
+    "bear": 48.4,
+    "base": 64.8,
+    "bull": 84.5,
+    "cases": {
+      "bear": {
+        "driver": "Softer crude oil realizations (~$60/bbl WTI) compressing upstream margins and cash flow, partially offset by lower interest expense",
+        "assumption": "FY2027E EPS $4.40 at 11.0x",
+        "target": 48.4
+      },
+      "base": {
+        "driver": "Mid-cycle crude realizations (~$70/bbl WTI), flat ~1.43-1.47 MMboed production on ~$5.9B 2027 capex, ~$2B midstream pre-tax income, and ~$655M annualized interest expense after reaching the $10.0B principal debt milestone",
+        "assumption": "FY2027E EPS $5.40 at 12.0x",
+        "target": 64.8
+      },
+      "bull": {
+        "driver": "Stronger crude realizations ($80+/bbl WTI), Permian/Powder River operational outperformance, and accelerated capital returns post-debt-milestone",
+        "assumption": "FY2027E EPS $6.50 at 13.0x",
+        "target": 84.5
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $5.40, the $58.75 close implies 10.9x; the 5-analyst average target (~$76.40) implies 14.1x at $5.40 EPS, or $6.37 EPS at 12.0x.",
+    "sensitivity": "One turn of P/E on base FY2027E EPS ($5.40) moves the base target by $5.40 (+9.2 pp).",
+    "watch_metric": "Q4 2026 production (1.43-1.47 MMboed guidance), capex (~$1.3B), and 2027 capital/production outlook (~$5.9B capex).",
+    "next_disclosure": "Q4 2026 earnings release (expected February 2027) and FY2026 Form 10-K."
+  },
+  "dividend_per_share": 1.12,
+  "analyst_notes": "Following Q3 2026 earnings on November 9, 2026 (adjusted EPS $1.91 vs. ~$1.43-$1.47 consensus, $10.0B principal debt milestone), Barclays raised its target from $71 to $73 (Overweight) while Wells Fargo trimmed its target from $82 to $76 (Overweight). The 5 named Buy-rated analysts average ~$76.40 (+30.0% vs. $58.75 close), ~19.7 pp above the $64.80 base case (+10.3%), reflecting higher assumed crude realizations or a ~14.1x multiple vs. 12.0x in the base model; Seaport Global's Nov 16 downgrade to Neutral occurred after the Nov 13 cutoff and is excluded.",
+  "sources": [
+    {
+      "label": "OXY Q3 2026 Earnings Release",
+      "url": "https://www.oxy.com/news/news-releases/occidental-announces-3rd-quarter-2026-results/",
+      "supports": "Q3 2026 GAAP/adjusted EPS, production, FCF, $10.0B principal debt milestone, Q4 2026 and 2027 guidance"
+    },
+    {
+      "label": "OXY Q2 2026 Form 10-Q",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0000797468",
+      "supports": "Common shares outstanding (~999.6M), Berkshire preferred/warrant structure, $0.28/quarter ($1.12 annualized) dividend"
+    },
+    {
+      "label": "Benzinga OXY Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/OXY/analyst-ratings",
+      "supports": "Named analyst ratings, price targets, prior targets, and issue dates"
+    },
+    {
+      "label": "Investing.com OXY Earnings & Consensus Estimates",
+      "url": "https://www.investing.com/equities/occidental-petro-earnings",
+      "supports": "FY2026 and FY2027 consensus EPS estimates"
+    }
+  ]
+}

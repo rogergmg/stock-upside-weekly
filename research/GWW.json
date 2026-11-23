@@ -1,0 +1,150 @@
+{
+  "issuer_id": "W.W. Grainger, Inc.",
+  "symbol": "GWW",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 1489.3,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-04T08:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Christopher Glynn",
+      "firm": "Oppenheimer",
+      "field": "target",
+      "value": 1645,
+      "source_prior": 1375,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/GWW/forecast/"
+    },
+    {
+      "analyst": "Christopher Glynn",
+      "firm": "Oppenheimer",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/GWW/forecast/"
+    },
+    {
+      "analyst": "Tommy Moll",
+      "firm": "Stephens",
+      "field": "target",
+      "value": 1380,
+      "source_prior": 1355,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/gww/forecast/"
+    },
+    {
+      "analyst": "Tommy Moll",
+      "firm": "Stephens",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/gww/forecast/"
+    },
+    {
+      "analyst": "Jeffrey Reive",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 1582,
+      "source_prior": 1427,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tradingview.com/news/benzinga:gww-rbc-capital-target/"
+    },
+    {
+      "analyst": "Jeffrey Reive",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Sector Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/GWW/analyst-ratings"
+    },
+    {
+      "analyst": "Stephen Volkmann",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 1500,
+      "source_prior": 1300,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.moomoo.com/news/post/gww-jefferies-target"
+    },
+    {
+      "analyst": "David Manthey",
+      "firm": "Robert W. Baird",
+      "field": "target",
+      "value": 1500,
+      "source_prior": 1400,
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.moomoo.com/news/post/gww-baird-target"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date)",
+    "bear": 1200.0,
+    "base": 1453.5,
+    "bull": 1658.5,
+    "cases": {
+      "bear": {
+        "driver": "Industrial MRO demand slowdown and operating margin compression below 15.5%",
+        "assumption": "FY2027E EPS $48.00 at 25.0x P/E",
+        "target": 1200.0
+      },
+      "base": {
+        "driver": "Steady High-Touch Solutions and Endless Assortment growth with ~16.1% operating margin",
+        "assumption": "FY2027E EPS $51.00 at 28.5x P/E",
+        "target": 1453.5
+      },
+      "bull": {
+        "driver": "Sustained double-digit organic sales growth and digital fulfillment operating leverage",
+        "assumption": "FY2027E EPS $53.50 at 31.0x P/E",
+        "target": 1658.5
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $51.00, the $1,489.30 close implies 29.2x P/E; the post-Q3 named analyst targets ($1,380-$1,645) imply 27.1x-32.3x on base EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $51.00 (3.4 pp).",
+    "watch_metric": "Daily organic constant-currency sales growth and adjusted operating margin (16.0%-16.2% FY2026 guidance)",
+    "next_disclosure": "Q4 2026 earnings release on February 2, 2027 (7:00 AM CT)"
+  },
+  "dividend_per_share": 9.96,
+  "analyst_notes": "Following Grainger's Q3 2026 beat and FY2026 guidance raise on November 4, 2026, Oppenheimer ($1,645), RBC Capital ($1,582), Jefferies ($1,500), and Stephens ($1,380) all raised their price targets. While Oppenheimer maintains Outperform, most tracked brokers remain at Hold/Equal-Weight/Sector Perform because the $1,489.30 close already prices in ~29.2x FY2027E EPS, leaving limited upside to our $1,453.50 base case. Note that Morgan Stanley ($1,590 on Nov 16), Barclays ($1,355 on Nov 16), and Baird's downgrade ($1,500 on Nov 20) occurred after the 2026-11-13 cutoff and are excluded.",
+  "sources": [
+    {
+      "label": "W.W. Grainger Q3 2026 Earnings Release (Nov 4, 2026)",
+      "url": "https://invest.grainger.com/",
+      "supports": "Q3 2026 EPS, sales, operating margin, FY2026 guidance, earnings timestamp"
+    },
+    {
+      "label": "W.W. Grainger Dividend History",
+      "url": "https://invest.grainger.com/dividend-history",
+      "supports": "Quarterly dividend of $2.49 per share ($9.96 annualized)"
+    },
+    {
+      "label": "MarketBeat GWW Forecast & Analyst Ratings",
+      "url": "https://www.marketbeat.com/stocks/NYSE/GWW/forecast/",
+      "supports": "FY2027 EPS consensus and Oppenheimer target update"
+    },
+    {
+      "label": "StockAnalysis GWW Forecast",
+      "url": "https://stockanalysis.com/stocks/gww/forecast/",
+      "supports": "Stephens target update and Street consensus context"
+    }
+  ]
+}

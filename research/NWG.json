@@ -1,0 +1,152 @@
+{
+  "issuer_id": "NatWest Group plc",
+  "symbol": "NWG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 15.83,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-30T07:00:00+00:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Aman Rakkar",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 21.14,
+      "source_prior": 22.46,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59+00:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/nwg/forecast/"
+    },
+    {
+      "analyst": "Aman Rakkar",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59+00:00",
+      "source": "https://stockanalysis.com/stocks/nwg/forecast/"
+    },
+    {
+      "analyst": "Alvaro Serrano",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 19.82,
+      "source_prior": 22.46,
+      "issued_at": "2026-09-02",
+      "public_at": "2026-09-02T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:nwg/forecast"
+    },
+    {
+      "analyst": "Alvaro Serrano",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-09-02",
+      "public_at": "2026-09-02T23:59:59+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:nwg/forecast"
+    },
+    {
+      "analyst": "Edward Firth",
+      "firm": "Keefe, Bruyette & Woods",
+      "field": "target",
+      "value": 19.42,
+      "issued_at": "2026-08-01",
+      "public_at": "2026-08-01T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:nwg/forecast"
+    },
+    {
+      "analyst": "Edward Firth",
+      "firm": "Keefe, Bruyette & Woods",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-01",
+      "public_at": "2026-08-01T23:59:59+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:nwg/forecast"
+    },
+    {
+      "analyst": "Michael Christodoulou",
+      "firm": "Berenberg Bank",
+      "field": "target",
+      "value": 22.72,
+      "issued_at": "2026-06-24",
+      "public_at": "2026-06-24T23:59:59+01:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/natwest-group-plc-consensus-estimates"
+    },
+    {
+      "analyst": "Michael Christodoulou",
+      "firm": "Berenberg Bank",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-06-24",
+      "public_at": "2026-06-24T23:59:59+01:00",
+      "source": "https://www.investing.com/equities/natwest-group-plc-consensus-estimates"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Tangible Net Asset Value (TNAV) per ADR x P/TBV (12-month horizon). Q3 2026 TNAV of 359p per ordinary share converted at 1 ADR = 2 ordinary shares and GBP/USD 1.3212 (2026-11-13 close) equals $9.49 per ADR.",
+    "bear": 13.26,
+    "base": 18.55,
+    "bull": 21.80,
+    "cases": {
+      "bear": {
+        "driver": "NIM compression from deposit competition and loan impairment rate rising above 25 bps",
+        "assumption": "Forward TNAV $10.20 at 1.30x P/TBV (RoTE compressing toward 14-15%)",
+        "target": 13.26
+      },
+      "base": {
+        "driver": "Sustained ~19% RoTE per FY2026 guidance (£17.9bn income, £8.5bn costs, >240 bps capital generation)",
+        "assumption": "Forward TNAV $10.60 at 1.75x P/TBV",
+        "target": 18.55
+      },
+      "bull": {
+        "driver": "Resilient >20% RoTE into 2027 with continued share buybacks and Evelyn Partners accretion",
+        "assumption": "Forward TNAV $10.90 at 2.00x P/TBV",
+        "target": 21.80
+      }
+    },
+    "implied_by_close": "At Q3 2026 TNAV of $9.49 per ADR, the $15.83 close implies 1.67x trailing P/TBV (1.49x base forward TNAV of $10.60). The $21.15 USD consensus target implies 2.00x base forward TNAV.",
+    "sensitivity": "A 0.25x turn in P/TBV moves the base target by $2.65 (16.7 pp).",
+    "watch_metric": "Full-year 2026 RoTE (guidance >19%), NIM trajectory into 2027, and loan impairment rate (<25 bps)",
+    "next_disclosure": "FY2026 Annual Results on 2027-02-12"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "All four named analysts hold Buy/Overweight ratings with targets ranging from $19.42 to $22.72 (735p-860p converted at 2x ordinary shares and 1.3212 GBP/USD). Post-Q3 2026 updates (such as Barclays trimming from 850p to 800p) reflect slight adjustments for 2027 NIM expectations and UK bank surcharge discussions, though targets remain above our $18.55 base case.",
+  "sources": [
+    {
+      "label": "NatWest Group Q3 2026 Results",
+      "url": "https://www.natwestgroup.com/news-and-insights/news-room/press-releases/financial-results/2026/oct/q3-2026-results.html",
+      "supports": "Q3 2026 RoTE (21.6%), 9M RoTE (20.2%), TNAV (359p), FY2026 guidance, FY2026 results date (2027-02-12)"
+    },
+    {
+      "label": "NatWest Group ADR Information",
+      "url": "https://www.natwestgroup.com/investors/shareholder-centre/american-depositary-receipts.html",
+      "supports": "ADR ratio (1 ADR = 2 ordinary shares)"
+    },
+    {
+      "label": "TwelveData GBP/USD Historical Rate",
+      "url": "https://twelvedata.com/markets/gbp-usd",
+      "supports": "GBP/USD closing rate of 1.3212 on 2026-11-13"
+    },
+    {
+      "label": "TipRanks NWG.L Analyst Forecasts",
+      "url": "https://www.tipranks.com/stocks/gb:nwg/forecast",
+      "supports": "Named analyst ratings and price targets (Morgan Stanley, KBW, Berenberg)"
+    },
+    {
+      "label": "StockAnalysis NWG Forecast",
+      "url": "https://stockanalysis.com/stocks/nwg/forecast/",
+      "supports": "Barclays (Aman Rakkar) November 2026 target revision and USD ADR consensus"
+    }
+  ]
+}

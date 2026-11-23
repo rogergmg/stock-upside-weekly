@@ -1,0 +1,164 @@
+{
+  "issuer_id": "General Motors Company",
+  "symbol": "GM",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 86.0,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-20T06:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Joseph Spak",
+      "firm": "UBS",
+      "field": "target",
+      "value": 109,
+      "source_prior": 112,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Joseph Spak",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Itay Michaeli",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 132,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Itay Michaeli",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Dan Levy",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 105,
+      "source_prior": 110,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Dan Levy",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Mark Delaney",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 96,
+      "source_prior": 112,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Mark Delaney",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Tom Narayan",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 98,
+      "source_prior": 102,
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    },
+    {
+      "analyst": "Tom Narayan",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-21",
+      "public_at": "2026-10-21T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/GM/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 66.0,
+    "base": 94.25,
+    "bull": 116.25,
+    "cases": {
+      "bear": {
+        "driver": "Tariff/macro headwinds, EV margin drag, and cyclical multiple compression",
+        "assumption": "EPS $12.00 at 5.5x",
+        "target": 66.0
+      },
+      "base": {
+        "driver": "Steady North America truck/SUV pricing, $20B buyback reducing share count (849M shares as of 2026-09-30), and modest multiple expansion",
+        "assumption": "EPS $14.50 at 6.5x",
+        "target": 94.25
+      },
+      "bull": {
+        "driver": "Stronger margin resilience, faster OnStar/software and GM Defense scaling, and index/listing re-rating",
+        "assumption": "EPS $15.50 at 7.5x",
+        "target": 116.25
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $14.50, the $86.00 close implies 5.93x forward P/E; the $96-$132 named analyst target range implies 6.62x to 9.10x (or $14.77 to $20.31 EPS at 6.5x).",
+    "sensitivity": "One turn of P/E moves the base target by $14.50 (16.9 pp of return).",
+    "watch_metric": "FY2027 EBIT-adjusted, North America net pricing and incentive trends, and share repurchase pace.",
+    "next_disclosure": "Q4 2026 and full-year 2026 earnings release (expected January 27, 2027)."
+  },
+  "dividend_per_share": 0.72,
+  "analyst_notes": "Following GM's Q3 2026 earnings release on October 20, 2026 (adjusted EPS $3.70, narrowed FY2026 EPS guidance $12.75-$13.75), several analysts trimmed targets (UBS to $109, Barclays to $105, Goldman Sachs to $96, RBC to $98) while maintaining Buy/Overweight/Outperform ratings. Named targets ($96-$132) sit above the $94.25 base case (+9.6% upside), reflecting higher assumed multiples (6.6x-9.1x vs. 6.5x) or faster ancillary growth in OnStar and GM Defense.",
+  "sources": [
+    {
+      "label": "GM Q3 2026 Earnings Release & Guidance",
+      "url": "https://investor.gm.com/news-releases",
+      "supports": "Q3 2026 adjusted EPS ($3.70), FY2026 guidance ($12.75-$13.75), dividend ($0.18/quarter), shares outstanding (849M)"
+    },
+    {
+      "label": "Benzinga GM Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/GM/analyst-ratings",
+      "supports": "October 2026 analyst target revisions and ratings for UBS, TD Cowen, Barclays, Goldman Sachs, and RBC Capital Markets"
+    },
+    {
+      "label": "MarketBeat GM Consensus & 2027 Estimates",
+      "url": "https://www.marketbeat.com/stocks/NYSE/GM/forecast/",
+      "supports": "FY2027 consensus EPS estimates and forward P/E context"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "issuer_id": "Moody's Corporation",
+  "symbol": "MCO",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 508.2,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-21T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Heather Balsky",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 575,
+      "source_prior": 580,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Heather Balsky",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Jason Haas",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 595,
+      "source_prior": 597,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Jason Haas",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Shlomo Rosenbaum",
+      "firm": "Stifel",
+      "field": "target",
+      "value": 537,
+      "source_prior": 550,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Shlomo Rosenbaum",
+      "firm": "Stifel",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Jeffrey Silber",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 511,
+      "source_prior": 490,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Jeffrey Silber",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Toni Kaplan",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 480,
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/mco/forecast/"
+    },
+    {
+      "analyst": "Toni Kaplan",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-22",
+      "public_at": "2026-10-22T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/mco/forecast/"
+    },
+    {
+      "analyst": "Ashish Sabadra",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 575,
+      "source_prior": 610,
+      "issued_at": "2026-10-16",
+      "public_at": "2026-10-16T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Ashish Sabadra",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-16",
+      "public_at": "2026-10-16T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Steinerman",
+      "firm": "JP Morgan",
+      "field": "target",
+      "value": 555,
+      "source_prior": 570,
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Steinerman",
+      "firm": "JP Morgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-14",
+      "public_at": "2026-10-14T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/MCO/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted Diluted EPS x Justified P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 437.5,
+    "base": 542.3,
+    "bull": 613.8,
+    "cases": {
+      "bear": {
+        "driver": "Debt issuance slows amid higher-for-longer rates and wider credit spreads; MA ARR growth decelerates",
+        "assumption": "FY2027 adjusted diluted EPS $17.50 at 25.0x P/E",
+        "target": 437.5
+      },
+      "base": {
+        "driver": "MA ARR grows ~8% organic constant currency while MIS transactional issuance stabilizes with steady refinancing",
+        "assumption": "FY2027 adjusted diluted EPS $18.70 at 29.0x P/E",
+        "target": 542.3
+      },
+      "bull": {
+        "driver": "Strong corporate and structured debt issuance rebound with operating leverage in MA",
+        "assumption": "FY2027 adjusted diluted EPS $19.80 at 31.0x P/E",
+        "target": 613.8
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $18.70, the $508.20 close implies 27.2x; the published analyst average target of ~$553 implies 29.6x or $19.07 EPS at 29.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $18.70 (3.7 pp).",
+    "watch_metric": "Moody's Investors Service (MIS) transactional issuance revenue growth and Moody's Analytics (MA) organic constant-currency ARR growth",
+    "next_disclosure": "Q4 2026 earnings release and FY2027 guidance (expected February 2027)"
+  },
+  "dividend_per_share": 4.12,
+  "analyst_notes": "Following Q3 2026 earnings on October 21, 2026, most covering analysts trimmed price targets slightly (e.g., BofA $580 to $575, Stifel $550 to $537, Wells Fargo $597 to $595) while BMO raised its target from $490 to $511, leaving ratings largely unchanged. Published consensus (~$553) sits ~2.0 pp above the $542.30 base case, reflecting slightly higher assumed multiple or FY2027 EPS (~$19.07 at 29.0x). Note that horizon_months is set to null on individual events because broker-specific 12-month horizon disclosures were not directly verified in the secondary aggregators.",
+  "sources": [
+    {
+      "label": "Moody's Q3 2026 Earnings Release (Oct 21, 2026)",
+      "url": "https://ir.moodys.com",
+      "supports": "Q3 2026 revenue, adjusted diluted EPS, FY2026 guidance ($16.50-$17.00), share count, and earnings timestamp"
+    },
+    {
+      "label": "Benzinga MCO Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/MCO/analyst-ratings",
+      "supports": "Named analyst price targets, prior targets, ratings, and dates"
+    },
+    {
+      "label": "StockAnalysis MCO Forecast",
+      "url": "https://stockanalysis.com/stocks/mco/forecast/",
+      "supports": "Consensus price target (~$553), FY2027 EPS estimates, and Morgan Stanley target"
+    }
+  ]
+}

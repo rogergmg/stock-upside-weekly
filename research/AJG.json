@@ -1,0 +1,175 @@
+{
+  "issuer_id": "Arthur J. Gallagher & Co.",
+  "symbol": "AJG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 282.94,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T16:15:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Yaron Kinar",
+      "firm": "Mizuho Securities",
+      "field": "target",
+      "value": 307,
+      "source_prior": 302,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T15:59:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/ajg/forecast/"
+    },
+    {
+      "analyst": "Yaron Kinar",
+      "firm": "Mizuho Securities",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T15:59:00-05:00",
+      "source": "https://stockanalysis.com/stocks/ajg/forecast/"
+    },
+    {
+      "analyst": "Andrew Andersen",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 319,
+      "source_prior": 295,
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T17:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/ajg/forecast/"
+    },
+    {
+      "analyst": "Andrew Andersen",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-03",
+      "public_at": "2026-11-03T17:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/ajg/forecast/"
+    },
+    {
+      "analyst": "Mark Hughes",
+      "firm": "Truist Financial",
+      "field": "target",
+      "value": 275,
+      "source_prior": 265,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/ajg/forecast"
+    },
+    {
+      "analyst": "Mark Hughes",
+      "firm": "Truist Financial",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.tipranks.com/stocks/ajg/forecast"
+    },
+    {
+      "analyst": "Rowland Mayor",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 315,
+      "source_prior": 290,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/AJG/forecast/"
+    },
+    {
+      "analyst": "Rowland Mayor",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/AJG/forecast/"
+    },
+    {
+      "analyst": "Meyer Shields",
+      "firm": "KBW",
+      "field": "target",
+      "value": 275,
+      "source_prior": 242,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/ajg/forecast"
+    },
+    {
+      "analyst": "Meyer Shields",
+      "firm": "KBW",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.tipranks.com/stocks/ajg/forecast"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 241.5,
+    "base": 303.4,
+    "bull": 353.25,
+    "cases": {
+      "bear": {
+        "driver": "P&C rate softening slows organic growth to ~3% and AssuredPartners integration weighs on margins",
+        "assumption": "FY2027E EPS $13.80 at 17.5x",
+        "target": 241.5
+      },
+      "base": {
+        "driver": "5% combined organic growth, steady tuck-in M&A, and continued EBITDAC margin expansion",
+        "assumption": "FY2027E EPS $14.80 at 20.5x",
+        "target": 303.4
+      },
+      "bull": {
+        "driver": "6-7% organic growth, faster AssuredPartners synergies, and multiple expansion toward peer highs",
+        "assumption": "FY2027E EPS $15.70 at 22.5x",
+        "target": 353.25
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $14.80, the $282.94 close implies 19.1x; the ~$301-$304 Street consensus target implies ~20.4x or $14.73 EPS at 20.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $14.80 (5.2 pp of price return at the $282.94 close).",
+    "watch_metric": "Combined Brokerage & Risk Management organic revenue growth and adjusted EBITDAC margin",
+    "next_disclosure": "Q4 2026 earnings release (expected January 28, 2027)"
+  },
+  "dividend_per_share": 2.8,
+  "analyst_notes": "Following Q3 2026 earnings on October 29, 2026 (adjusted EPS $3.00, 5% organic growth, $1.25B adjusted EBITDAC), named analysts including Yaron Kinar (Mizuho, $307), Andrew Andersen (Jefferies, $319), Rowland Mayor (RBC, $315), Mark Hughes (Truist, $275), and Meyer Shields (KBW, $275) raised targets into the $275-$319 range before the November 13 cutoff. The average of these post-earnings targets (~$298.20) sits slightly below our $303.40 base case (-1.8 pp gap, or ~$0.25 of EPS at 20.5x), reflecting caution on sequential EBITDAC margin trends from Truist and KBW. Additional updates from Morgan Stanley ($325), Argus ($317), and Wells Fargo ($294) occurred after the November 13 reference close and are excluded.",
+  "sources": [
+    {
+      "label": "AJG Q3 2026 Earnings Release (Oct 29, 2026)",
+      "url": "https://investor.ajg.com/news-releases/",
+      "supports": "Q3 2026 adjusted EPS ($3.00), organic growth (5%), adjusted EBITDAC ($1.25B), and earnings_at timestamp"
+    },
+    {
+      "label": "AJG Dividend History (2026 quarterly $0.70/share)",
+      "url": "https://investor.ajg.com/stock-information/dividend-history/",
+      "supports": "Annualized dividend_per_share of $2.80 ($0.70 quarterly)"
+    },
+    {
+      "label": "StockAnalysis AJG Analyst Forecast & FY2027 EPS",
+      "url": "https://stockanalysis.com/stocks/ajg/forecast/",
+      "supports": "FY2027E EPS consensus (~$14.80), Mizuho and Jefferies analyst targets and ratings"
+    },
+    {
+      "label": "TipRanks AJG Analyst Forecast",
+      "url": "https://www.tipranks.com/stocks/ajg/forecast",
+      "supports": "Truist Financial and KBW analyst targets and ratings"
+    },
+    {
+      "label": "MarketBeat AJG Analyst Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/AJG/forecast/",
+      "supports": "RBC Capital analyst target and rating"
+    }
+  ]
+}

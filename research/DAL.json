@@ -1,0 +1,180 @@
+{
+  "issuer_id": "Delta Air Lines, Inc.",
+  "symbol": "DAL",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 86.25,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-09T06:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Tom Fitzgerald",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 101,
+      "source_prior": 105,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/news/the-fly/delta-air-lines-price-target-lowered-to-101-from-105-at-td-cowen-thefly"
+    },
+    {
+      "analyst": "Tom Fitzgerald",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "source": "https://www.tipranks.com/news/the-fly/delta-air-lines-price-target-lowered-to-101-from-105-at-td-cowen-thefly"
+    },
+    {
+      "analyst": "Ravi Shanker",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 125,
+      "source_prior": 115,
+      "issued_at": "2026-07-13",
+      "public_at": "2026-07-13T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/delta-air-lines-analyst-ratings"
+    },
+    {
+      "analyst": "Ravi Shanker",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-07-13",
+      "public_at": "2026-07-13T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/delta-air-lines-analyst-ratings"
+    },
+    {
+      "analyst": "Jamie Baker",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 114,
+      "source_prior": 85,
+      "issued_at": "2026-07-13",
+      "public_at": "2026-07-13T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/Analyst+PT+Change/JPMorgan+Raises+Price+Target+on+Delta+Air+Lines+%28DAL%29+to+%24114/20260713"
+    },
+    {
+      "analyst": "Jamie Baker",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-07-13",
+      "public_at": "2026-07-13T23:59:59-04:00",
+      "source": "https://www.streetinsider.com/Analyst+PT+Change/JPMorgan+Raises+Price+Target+on+Delta+Air+Lines+%28DAL%29+to+%24114/20260713"
+    },
+    {
+      "analyst": "Michael Linenberg",
+      "firm": "Deutsche Bank",
+      "field": "target",
+      "value": 105,
+      "source_prior": 90,
+      "issued_at": "2026-07-13",
+      "public_at": "2026-07-13T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/dal/forecast/"
+    },
+    {
+      "analyst": "Michael Linenberg",
+      "firm": "Deutsche Bank",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-07-13",
+      "public_at": "2026-07-13T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/dal/forecast/"
+    },
+    {
+      "analyst": "Andrew Didora",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 100,
+      "source_prior": 93,
+      "issued_at": "2026-07-01",
+      "public_at": "2026-07-01T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/delta-air-lines-analyst-ratings"
+    },
+    {
+      "analyst": "Andrew Didora",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-07-01",
+      "public_at": "2026-07-01T23:59:59-04:00",
+      "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/delta-air-lines-analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 63.0,
+    "base": 92.5,
+    "bull": 114.8,
+    "cases": {
+      "bear": {
+        "driver": "Elevated jet fuel costs and non-fuel unit cost inflation compress margins while premium travel demand softens.",
+        "assumption": "FY2027 EPS $6.00 at 10.5x P/E",
+        "target": 63.0
+      },
+      "base": {
+        "driver": "Jet fuel volatility moderates, premium/loyalty revenue growth continues, and ongoing debt reduction supports multiple stability.",
+        "assumption": "FY2027 EPS $7.40 at 12.5x P/E",
+        "target": 92.5
+      },
+      "bull": {
+        "driver": "Strong corporate and international premium demand drives margin expansion above 2026 levels, with lower leverage supporting a re-rating.",
+        "assumption": "FY2027 EPS $8.20 at 14.0x P/E",
+        "target": 114.8
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $7.40, the $86.25 close implies 11.7x; the equal-weight 5-analyst target of $109.00 implies 14.7x at base EPS or $8.72 EPS at the base 12.5x multiple.",
+    "sensitivity": "One turn of P/E moves the base target by $7.40 (8.6 pp).",
+    "watch_metric": "Q4 2026 / FY2027 jet fuel cost per gallon and TRASM (total revenue per available seat mile) growth",
+    "next_disclosure": "Q4 2026 earnings release (expected mid-January 2027)"
+  },
+  "dividend_per_share": 0.86,
+  "analyst_notes": "All five named analyst calls in this panel predate the October 9, 2026 Q3 earnings release (where management trimmed FY2026 EPS guidance to $5.10-$5.60 due to jet fuel headwinds), though TD Cowen's Tom Fitzgerald trimmed his target from $105 to $101 on October 2 ahead of the print. The panel is uniformly Buy/Overweight with an equal-weight target of $109.00 (+26.4% vs. $86.25 close), sitting 19.2 pp above the independent base case (+7.2%) as brokers price in a sharper FY2027 earnings recovery or higher multiple than 12.5x.",
+  "sources": [
+    {
+      "label": "Delta Air Lines Q3 2026 Financial Results",
+      "url": "https://news.delta.com/delta-air-lines-announces-september-quarter-2026-financial-results",
+      "supports": "Q3 2026 actual EPS ($1.72), Q4 2026 EPS guidance ($1.15-$1.65), FY2026 EPS guidance ($5.10-$5.60), earnings release timestamp"
+    },
+    {
+      "label": "Delta Air Lines Dividend History",
+      "url": "https://ir.delta.com/stock-information/dividend-history/default.aspx",
+      "supports": "Quarterly dividend of $0.2150 per share in Q3 and Q4 2026 ($0.86 annualized)"
+    },
+    {
+      "label": "StockAnalysis DAL Forecast & Consensus",
+      "url": "https://stockanalysis.com/stocks/dal/forecast/",
+      "supports": "FY2026/FY2027 consensus EPS estimates and Deutsche Bank (Michael Linenberg) rating/target"
+    },
+    {
+      "label": "TipRanks TD Cowen DAL Note",
+      "url": "https://www.tipranks.com/news/the-fly/delta-air-lines-price-target-lowered-to-101-from-105-at-td-cowen-thefly",
+      "supports": "Tom Fitzgerald (TD Cowen) $101 target and Buy rating on 2026-10-02"
+    },
+    {
+      "label": "Benzinga DAL Analyst Ratings",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/delta-air-lines-analyst-ratings",
+      "supports": "Ravi Shanker (Morgan Stanley) $125 target and Andrew Didora (BofA) $100 target"
+    },
+    {
+      "label": "StreetInsider J.P. Morgan DAL Note",
+      "url": "https://www.streetinsider.com/Analyst+PT+Change/JPMorgan+Raises+Price+Target+on+Delta+Air+Lines+%28DAL%29+to+%24114/20260713",
+      "supports": "Jamie Baker (J.P. Morgan) $114 target and Overweight rating on 2026-07-13"
+    }
+  ]
+}

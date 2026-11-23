@@ -1,0 +1,149 @@
+{
+  "issuer_id": "Coca-Cola Europacific Partners PLC",
+  "symbol": "CCEP",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 118.57,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-03T07:00:00+00:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Lauren Lieberman",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 130.0,
+      "source_prior": 124.0,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "horizon_months": 12,
+      "source": "https://www.gurufocus.com/news/ccep-barclays-raises-price-target"
+    },
+    {
+      "analyst": "Lauren Lieberman",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "source": "https://www.gurufocus.com/news/ccep-barclays-raises-price-target"
+    },
+    {
+      "analyst": "Chris Carey",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 120.0,
+      "source_prior": null,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "horizon_months": 12,
+      "source": "https://www.tipranks.com/stocks/ccep/forecast"
+    },
+    {
+      "analyst": "Chris Carey",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "source": "https://www.tipranks.com/stocks/ccep/forecast"
+    },
+    {
+      "analyst": "Mitch Collett",
+      "firm": "Deutsche Bank",
+      "field": "target",
+      "value": 116.0,
+      "source_prior": null,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/ccep/forecast/"
+    },
+    {
+      "analyst": "Mitch Collett",
+      "firm": "Deutsche Bank",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T17:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/ccep/forecast/"
+    },
+    {
+      "analyst": "Celine Pannuti",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 92.0,
+      "source_prior": null,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T17:00:00-04:00",
+      "horizon_months": 12,
+      "source": "https://www.benzinga.com/quote/CCEP/analyst-ratings"
+    },
+    {
+      "analyst": "Celine Pannuti",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Underweight",
+      "bucket": "Sell",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T17:00:00-04:00",
+      "source": "https://www.benzinga.com/quote/CCEP/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E comparable diluted EPS viewed at the 12-month target date, converted from EUR to USD at the 2026-11-13 ECB reference rate of 1.1052 EUR/USD).",
+    "bear": 98.09,
+    "base": 117.92,
+    "bull": 133.72,
+    "cases": {
+      "bear": {
+        "driver": "European volume softness, input cost inflation, and multiple compression",
+        "assumption": "FY2027E EPS €4.55 ($5.03) at 19.5x P/E",
+        "target": 98.09
+      },
+      "base": {
+        "driver": "3-4% FX-neutral revenue growth, ~7% operating profit growth, and ongoing buybacks",
+        "assumption": "FY2027E EPS €4.85 ($5.36) at 22.0x P/E",
+        "target": 117.92
+      },
+      "bull": {
+        "driver": "Stronger APS/energy drink mix, margin expansion, and multiple re-rating",
+        "assumption": "FY2027E EPS €5.15 ($5.69) at 23.5x P/E",
+        "target": 133.72
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $5.36 (€4.85), the $118.57 close implies 22.1x P/E; the Street consensus target range ($111-$114) implies 20.7x-21.3x P/E.",
+    "sensitivity": "One turn of P/E moves the base target by $5.36 (4.5 pp).",
+    "watch_metric": "Comparable FX-neutral revenue growth (3-4% FY2026 guidance) and operating profit growth (~7% FY2026 guidance)",
+    "next_disclosure": "FY2026 Full-Year Results (February 2027)"
+  },
+  "dividend_per_share": 2.48,
+  "analyst_notes": "Following CCEP's Q3 2026 trading update on November 3, 2026 (revenue +5.8% comparable FX-neutral, full-year guidance reaffirmed), Barclays raised its target from $124 to $130 (Overweight) and Wells Fargo ($120, Overweight) and Deutsche Bank ($116, Buy) maintained constructive stances, while JPMorgan remains Underweight at $92. Overall Street targets cluster around $111-$114, slightly below the $118.57 close, indicating limited near-term multiple expansion unless FY2027 earnings growth exceeds the ~7% operating profit trajectory.",
+  "sources": [
+    {
+      "label": "CCEP Q3 2026 Trading Update (Nov 3, 2026)",
+      "url": "https://www.cocacolaep.com/investors/results-reports-and-presentations/",
+      "supports": "Q3 2026 revenue, volume, FY2026 guidance, H2 interim dividend €1.42 (full-year €2.24)"
+    },
+    {
+      "label": "CCEP H1 2026 & FY2025 Results",
+      "url": "https://www.cocacolaep.com/investors/",
+      "supports": "FY2025 comparable diluted EPS €4.11, H1 2026 comparable diluted EPS €2.20 (+10.6%)"
+    },
+    {
+      "label": "ECB / Banco de España EUR/USD Reference Rate (2026-11-13)",
+      "url": "https://www.bde.es/wbe/en/estadisticas/temas/tipos-interes-tipos-cambio/",
+      "supports": "1 EUR = 1.1052 USD on 2026-11-13"
+    },
+    {
+      "label": "StockAnalysis CCEP Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/ccep/forecast/",
+      "supports": "Named analyst targets and ratings for CCEP"
+    }
+  ]
+}

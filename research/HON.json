@@ -1,0 +1,191 @@
+{
+  "issuer_id": "Honeywell International Inc.",
+  "symbol": "HON",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 222.46,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-22T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Varun Govindaraj",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 256,
+      "source_prior": 254,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.stockanalysis.com/stocks/hon/forecast/"
+    },
+    {
+      "analyst": "Varun Govindaraj",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://www.stockanalysis.com/stocks/hon/forecast/"
+    },
+    {
+      "analyst": "Jeffrey Reive",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 269,
+      "source_prior": 270,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Jeffrey Reive",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Andy Kaplowitz",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 271,
+      "source_prior": 270,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Andy Kaplowitz",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Julian Mitchell",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 241,
+      "source_prior": 240,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Julian Mitchell",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Alexander Virgo",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 270,
+      "source_prior": 265,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Alexander Virgo",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Brett Linzey",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 255,
+      "source_prior": 265,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    },
+    {
+      "analyst": "Brett Linzey",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/HON/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted EPS viewed at the 12-month target date, 2027-11-13)",
+    "bear": 186.0,
+    "base": 237.6,
+    "bull": 284.88,
+    "cases": {
+      "bear": {
+        "driver": "Industrial automation demand slowdown and margin compression below the 20.5% FY2026 segment margin guide, driving a multiple de-rating",
+        "assumption": "FY2027 EPS $9.30 at 20.0x P/E",
+        "target": 186.0
+      },
+      "base": {
+        "driver": "Mid-single-digit organic sales growth and ~17.5% EPS growth over the $8.425 FY2026 guidance midpoint on backlog conversion and margin expansion",
+        "assumption": "FY2027 EPS $9.90 at 24.0x P/E",
+        "target": 237.6
+      },
+      "bull": {
+        "driver": "Stronger-than-guided organic growth (>5%) with operating leverage lifting segment margins above 21% and multiple expansion",
+        "assumption": "FY2027 EPS $10.75 at 26.5x P/E",
+        "target": 284.88
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $9.90, the $222.46 close implies 22.47x; the 6-analyst sample (targets $241-$271, equal-weight $260.33) implies 26.30x at $9.90 EPS or $10.85 EPS at 24.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $9.90 (4.45 pp at the $222.46 close).",
+    "watch_metric": "FY2027 organic sales growth and segment margin vs. the ~20.5% FY2026 exit rate",
+    "next_disclosure": "Q4 2026 earnings release and initial FY2027 guidance (expected late January / early February 2027)"
+  },
+  "dividend_per_share": 2.8,
+  "analyst_notes": "Following Honeywell's Q3 2026 earnings beat ($2.27 adjusted EPS) and raised FY2026 guidance ($8.40-$8.45) on October 22, 2026, five of the six tracked analysts updated targets between October 23 and November 11, with four nudging targets higher by $1-$5 and RBC trimming by $1. The 6-analyst equal-weight target ($260.33, +17.0% upside) sits 10.2 pp above the independent base case ($237.60, +6.8% upside), reflecting either a 26.3x multiple on $9.90 EPS or ~$10.85 EPS at 24.0x. Note that horizon_months is null because broker-specific 12-month target disclosures were not separately verified.",
+  "sources": [
+    {
+      "label": "Honeywell Q3 2026 Earnings Release (Oct 22, 2026)",
+      "url": "https://www.honeywell.com/us/en/press",
+      "supports": "Q3 2026 adjusted EPS ($2.27), FY2026 guidance ($8.40-$8.45 EPS, $20.0B-$20.1B sales, ~20.5% segment margin, ~$2.1B FCF)"
+    },
+    {
+      "label": "Benzinga HON Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/HON/analyst-ratings",
+      "supports": "Named analyst targets and ratings for RBC Capital, Citigroup, JPMorgan, Evercore ISI, and Mizuho"
+    },
+    {
+      "label": "Stock Analysis HON Forecast",
+      "url": "https://www.stockanalysis.com/stocks/hon/forecast/",
+      "supports": "Bernstein (Varun Govindaraj) Nov 11, 2026 Hold/$256 target update and consensus range"
+    },
+    {
+      "label": "Seeking Alpha HON Earnings Estimates",
+      "url": "https://seekingalpha.com/symbol/HON/earnings/estimates",
+      "supports": "FY2027 consensus EPS estimates (~$9.85-$9.99)"
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "issuer_id": "Block, Inc.",
+  "symbol": "XYZ",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 84.58,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-03T16:05:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Jason Kupferberg",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 110,
+      "source_prior": 97,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/XYZ/analyst-ratings"
+    },
+    {
+      "analyst": "Jason Kupferberg",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/XYZ/analyst-ratings"
+    },
+    {
+      "analyst": "Harshita Rawat",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 110,
+      "source_prior": 95,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/xyz/forecast"
+    },
+    {
+      "analyst": "Harshita Rawat",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/xyz/forecast"
+    },
+    {
+      "analyst": "Bryan C. Bergin",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 109,
+      "source_prior": 105,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/square-inc-consensus-estimates"
+    },
+    {
+      "analyst": "Bryan C. Bergin",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.investing.com/equities/square-inc-consensus-estimates"
+    },
+    {
+      "analyst": "Matthew O'Neill",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 117,
+      "source_prior": 115,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/XYZ/analyst-ratings"
+    },
+    {
+      "analyst": "Matthew O'Neill",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/XYZ/analyst-ratings"
+    },
+    {
+      "analyst": "James Faucette",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 82,
+      "source_prior": 80,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/square-inc-consensus-estimates"
+    },
+    {
+      "analyst": "James Faucette",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.investing.com/equities/square-inc-consensus-estimates"
+    },
+    {
+      "analyst": "Andrew Bauch",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 102,
+      "source_prior": 101,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/XYZ/forecast/"
+    },
+    {
+      "analyst": "Andrew Bauch",
+      "firm": "BMO Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/XYZ/forecast/"
+    },
+    {
+      "analyst": "David Koning",
+      "firm": "Baird",
+      "field": "target",
+      "value": 106,
+      "source_prior": 105,
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/square-inc-consensus-estimates"
+    },
+    {
+      "analyst": "David Koning",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/square-inc-consensus-estimates"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted Diluted EPS x P/E (FY2027E Adjusted Diluted EPS viewed at the 12-month target date)",
+    "bear": 66.0,
+    "base": 101.65,
+    "bull": 126.0,
+    "cases": {
+      "bear": {
+        "driver": "Gross profit growth slows to ~10% on Cash App Borrow credit losses and macro headwinds; AOI margin stalls at 28%",
+        "assumption": "FY2027E Adjusted Diluted EPS $4.40 at 15.0x",
+        "target": 66.0
+      },
+      "base": {
+        "driver": "Management preliminary 2027 outlook: >=15% gross profit growth (~$14.52B) and 32% AOI margin (~$4.65B)",
+        "assumption": "FY2027E Adjusted Diluted EPS $5.35 at 19.0x",
+        "target": 101.65
+      },
+      "bull": {
+        "driver": "Gross profit growth accelerates to ~18% with 34% AOI margin and buyback accretion",
+        "assumption": "FY2027E Adjusted Diluted EPS $6.00 at 21.0x",
+        "target": 126.0
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $5.35, the $84.58 close implies 15.8x; an analyst target near $104 implies 19.4x at $5.35 EPS or $5.47 EPS at 19.0x.",
+    "sensitivity": "One turn of P/E on base FY2027E EPS ($5.35) moves the base target by $5.35 (6.3 pp).",
+    "watch_metric": "Square GPV growth, Cash App Borrow credit loss provisions, and consolidated Adjusted Operating Income margin.",
+    "next_disclosure": "Q4 2026 / FY2026 earnings release and Form 10-K (expected late February 2027)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Block's Q3 2026 beat ($3.24B gross profit, $1.13 adjusted EPS) and raised FY2026 guidance ($12.626B gross profit, $4.15 adjusted EPS) on November 3, 2026, six of the seven tracked analysts raised targets on November 4, led by Wells Fargo ($97 to $110), Bernstein ($95 to $110), TD Cowen ($105 to $109), and BofA ($115 to $117), while Morgan Stanley nudged its Equal-Weight target from $80 to $82. The ~23% implied upside of the ~104-105 average target is ~3 pp above our $101.65 (+20.2%) base case, equivalent to ~0.4x higher P/E or ~$0.12 higher FY2027E EPS.",
+  "sources": [
+    {
+      "label": "Block, Inc. Q3 2026 Shareholder Letter & Earnings Release (Nov 3, 2026)",
+      "url": "https://investors.block.xyz",
+      "supports": "Q3 2026 gross profit, adjusted operating income, adjusted diluted EPS, FY2026 guidance, and preliminary FY2027 outlook"
+    },
+    {
+      "label": "Block, Inc. Q3 2026 Form 10-Q (filed Nov 3, 2026)",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0001512673",
+      "supports": "GAAP net income, regulatory disclosures, and Q3 2026 financial statements"
+    },
+    {
+      "label": "Benzinga / Investing.com / MarketBeat Analyst Ratings for XYZ",
+      "url": "https://www.benzinga.com/quote/XYZ/analyst-ratings",
+      "supports": "Named analyst ratings, price targets, prior targets, and dates"
+    }
+  ]
+}

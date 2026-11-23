@@ -1,0 +1,214 @@
+{
+  "issuer_id": "Target Corporation",
+  "symbol": "TGT",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 161.45,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-08-19T06:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Michael Lasser",
+      "firm": "UBS",
+      "field": "target",
+      "value": 205,
+      "source_prior": 185,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.moomoo.com/news/post/61500000"
+    },
+    {
+      "analyst": "Michael Lasser",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.moomoo.com/news/post/61500000"
+    },
+    {
+      "analyst": "Joe Thomas",
+      "firm": "HSBC",
+      "field": "target",
+      "value": 190,
+      "source_prior": 125,
+      "issued_at": "2026-09-30",
+      "public_at": "2026-09-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/stock-market-news/target-stock-rises-after-hsbc-upgrades-to-buy-on-turnaround-momentum-4260000"
+    },
+    {
+      "analyst": "Joe Thomas",
+      "firm": "HSBC",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-30",
+      "public_at": "2026-09-30T23:59:59-04:00",
+      "source": "https://www.investing.com/news/stock-market-news/target-stock-rises-after-hsbc-upgrades-to-buy-on-turnaround-momentum-4260000"
+    },
+    {
+      "analyst": "Edward Kelly",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 185,
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Edward Kelly",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Michael Baker",
+      "firm": "D.A. Davidson",
+      "field": "target",
+      "value": 185,
+      "source_prior": 170,
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Michael Baker",
+      "firm": "D.A. Davidson",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Steven Shemesh",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 178,
+      "source_prior": 166,
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Steven Shemesh",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Scot Ciccarelli",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 167,
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Scot Ciccarelli",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Seth Sigman",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 140,
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    },
+    {
+      "analyst": "Seth Sigman",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Underweight",
+      "bucket": "Sell",
+      "issued_at": "2026-08-20",
+      "public_at": "2026-08-20T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/TGT/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 diluted EPS viewed at the 12-month target date, excluding one-time IEEPA tariff refunds)",
+    "bear": 127.5,
+    "base": 174.25,
+    "bull": 212.75,
+    "cases": {
+      "bear": {
+        "driver": "Comp sales stall at 0-1% as discretionary demand softens and Walmart/Amazon competition pressures traffic and gross margins",
+        "assumption": "FY2027 EPS $8.50 at 15.0x",
+        "target": 127.5
+      },
+      "base": {
+        "driver": "3-4% comp sales growth, continued digital/same-day delivery and Roundel ad-margin expansion, normalized operating margin ex-tariff refunds",
+        "assumption": "FY2027 EPS $10.25 at 17.0x",
+        "target": 174.25
+      },
+      "bull": {
+        "driver": ">5% comp sales growth led by traffic and discretionary category recovery (Apparel/Home/Fun 101), operating leverage, and buybacks",
+        "assumption": "FY2027 EPS $11.50 at 18.5x",
+        "target": 212.75
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $10.25, the $161.45 close implies 15.8x; the $168-$172 Street consensus target implies 16.4x-16.8x at base EPS or $9.88-$10.12 EPS at 17.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $10.25 (6.3 pp)",
+    "watch_metric": "Comparable sales growth, store/digital traffic, and underlying operating margin excluding one-time IEEPA tariff refunds",
+    "next_disclosure": "Q3 FY2026 earnings release (scheduled November 18, 2026, after the 2026-11-13 reference close)"
+  },
+  "dividend_per_share": 4.64,
+  "analyst_notes": "Following Q2 FY2026 earnings on August 19, 2026, several brokers raised targets (Wells Fargo to $185, D.A. Davidson to $185, RBC to $178), and HSBC upgraded TGT from Hold to Buy with a $190 target on September 30, 2026, while UBS raised its target to $205 on November 12, 2026. All 7 named calls in this sample were issued after Q2 earnings and before the 2026-11-13 cutoff. The base case ($174.25, +7.9%) is broadly in line with the $168-$172 Street consensus, with bull/bear dispersion driven by whether traffic-led comp growth can offset discretionary/competitive pressures once one-time tariff refunds roll off.",
+  "sources": [
+    {
+      "label": "Target Q2 FY2026 Earnings Release",
+      "url": "https://corporate.target.com/news-features/article/2026/08/q2-2026-earnings",
+      "supports": "Q2 FY2026 EPS ($4.11 GAAP, $1.65/sh tariff refund), comp sales (+3.8%), FY2026 guidance ($9.90-$10.90)"
+    },
+    {
+      "label": "Target Q2 FY2026 Form 10-Q",
+      "url": "https://www.sec.gov/edgar/browse/?CIK=0000027419",
+      "supports": "Diluted EPS ($4.11 Q2, $5.83 YTD), diluted share count (456.6M Q2)"
+    },
+    {
+      "label": "Target Dividend Announcement (Sept 2026)",
+      "url": "https://corporate.target.com/investors",
+      "supports": "Quarterly dividend raised to $1.16/share ($4.64 annualized)"
+    },
+    {
+      "label": "Benzinga TGT Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/TGT/analyst-ratings",
+      "supports": "Wells Fargo, D.A. Davidson, RBC Capital, Truist, Barclays analyst ratings and price targets"
+    },
+    {
+      "label": "Investing.com HSBC Upgrade",
+      "url": "https://www.investing.com/news/stock-market-news/target-stock-rises-after-hsbc-upgrades-to-buy-on-turnaround-momentum-4260000",
+      "supports": "HSBC Joe Thomas upgrade to Buy and $190 price target (Sept 30, 2026)"
+    }
+  ]
+}

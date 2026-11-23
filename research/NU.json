@@ -1,0 +1,191 @@
+{
+  "issuer_id": "Nu Holdings Ltd.",
+  "symbol": "NU",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 13.22,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-12T16:05:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Tito Labarta",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 21.0,
+      "source_prior": 22.0,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/nu/forecast/"
+    },
+    {
+      "analyst": "Tito Labarta",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/nu/forecast/"
+    },
+    {
+      "analyst": "Thiago Batista",
+      "firm": "UBS",
+      "field": "target",
+      "value": 17.8,
+      "source_prior": 20.5,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "horizon_months": 12,
+      "source": "https://www.benzinga.com/quote/NU/analyst-ratings"
+    },
+    {
+      "analyst": "Thiago Batista",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "source": "https://www.benzinga.com/quote/NU/analyst-ratings"
+    },
+    {
+      "analyst": "Gustavo Schroden",
+      "firm": "Citi",
+      "field": "target",
+      "value": 13.0,
+      "source_prior": 15.0,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/nu/forecast/"
+    },
+    {
+      "analyst": "Gustavo Schroden",
+      "firm": "Citi",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T16:00:00-05:00",
+      "source": "https://stockanalysis.com/stocks/nu/forecast/"
+    },
+    {
+      "analyst": "Yuri Fernandes",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 23.0,
+      "source_prior": 20.0,
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/nu/forecast/"
+    },
+    {
+      "analyst": "Yuri Fernandes",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-26",
+      "public_at": "2026-10-26T16:00:00-04:00",
+      "source": "https://stockanalysis.com/stocks/nu/forecast/"
+    },
+    {
+      "analyst": "Mario Pierry",
+      "firm": "Bank of America",
+      "field": "target",
+      "value": 10.0,
+      "source_prior": 16.0,
+      "issued_at": "2026-06-15",
+      "public_at": "2026-06-15T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/nu-holdings-ltd-consensus-estimates"
+    },
+    {
+      "analyst": "Mario Pierry",
+      "firm": "Bank of America",
+      "field": "rating",
+      "value": "Underperform",
+      "bucket": "Sell",
+      "issued_at": "2026-06-15",
+      "public_at": "2026-06-15T16:00:00-04:00",
+      "source": "https://www.investing.com/equities/nu-holdings-ltd-consensus-estimates"
+    },
+    {
+      "analyst": "Jorge Kuri",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 21.0,
+      "source_prior": 18.0,
+      "issued_at": "2026-03-15",
+      "public_at": "2026-03-15T16:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/nu/forecast/"
+    },
+    {
+      "analyst": "Jorge Kuri",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-03-15",
+      "public_at": "2026-03-15T16:00:00-04:00",
+      "source": "https://stockanalysis.com/stocks/nu/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date of Nov 2027), cross-checked against 32% Q3 2026 ROE.",
+    "bear": 11.05,
+    "base": 16.05,
+    "bull": 21.25,
+    "cases": {
+      "bear": {
+        "driver": "Brazilian credit-cycle deterioration, higher delinquencies, and slower Mexico/Colombia monetization",
+        "assumption": "FY2027E diluted EPS $0.85 at 13.0x P/E",
+        "target": 11.05
+      },
+      "base": {
+        "driver": "Sustained ~30% ROE, 31% FX-neutral net income growth (Q3 2026 $1.09B), and steady LatAm scaling",
+        "assumption": "FY2027E diluted EPS $1.07 at 15.0x P/E",
+        "target": 16.05
+      },
+      "bull": {
+        "driver": "Faster Brazil ARPAC expansion, Mexico profitability inflection, and benign credit costs",
+        "assumption": "FY2027E diluted EPS $1.25 at 17.0x P/E",
+        "target": 21.25
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $1.07, the $13.22 close implies 12.4x forward P/E; at 15.0x P/E, $13.22 implies $0.88 EPS (18% below base).",
+    "sensitivity": "One turn of P/E moves the base target by $1.07 (8.1 pp of price return at the $13.22 close).",
+    "watch_metric": "Brazil 90+ day NPL ratio and net interest margin (NIM) in Mexico and Colombia.",
+    "next_disclosure": "Q4 2026 earnings release (expected February 2027)."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q3 2026 earnings on Nov 12, 2026 ($1.09B net income, $0.22 diluted EPS, 32% ROE), Goldman Sachs ($21), UBS ($17.80), and Citi ($13) trimmed targets amid LatAm macro/credit caution, while JPMorgan ($23) and Morgan Stanley ($21) remain at the high end and BofA ($10) is the sole Sell-rated bear following the June 2026 CFO departure. Consensus targets cluster around $17.00-$17.80 (+29% to +35% vs. $13.22), above our $16.05 (+21.4%) base case, reflecting higher assumed multiples (~16x-17x vs. our 15x).",
+  "sources": [
+    {
+      "label": "Nu Holdings Q3 2026 Financial Results",
+      "url": "https://www.morningstar.com/news/business-wire/20261112000000/nu-holdings-reports-third-quarter-2026-financial-results",
+      "supports": "Q3 2026 net income ($1.09B), diluted EPS ($0.22), ROE (32%), and Nov 12, 2026 release date"
+    },
+    {
+      "label": "StockAnalysis NU Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/nu/forecast/",
+      "supports": "FY2027E consensus EPS (~$1.07-$1.08) and named analyst targets (Goldman Sachs, Citi, JPMorgan, Morgan Stanley)"
+    },
+    {
+      "label": "Benzinga NU Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/NU/analyst-ratings",
+      "supports": "UBS 12-month target revision to $17.80 and broader target range"
+    },
+    {
+      "label": "Investing.com NU Consensus Estimates",
+      "url": "https://www.investing.com/equities/nu-holdings-ltd-consensus-estimates",
+      "supports": "Bank of America Underperform rating and $10.00 target"
+    }
+  ]
+}

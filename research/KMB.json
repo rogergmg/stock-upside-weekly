@@ -1,0 +1,123 @@
+{
+  "issuer_id": "Kimberly-Clark Corporation",
+  "symbol": "KMB",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 109.43,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T08:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Peter Grom",
+      "firm": "UBS",
+      "field": "target",
+      "value": 113,
+      "source_prior": 106,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Peter Grom",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Lauren Lieberman",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 112,
+      "source_prior": 106,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Lauren Lieberman",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Nik Modi",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 162,
+      "source_prior": null,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.barchart.com/"
+    },
+    {
+      "analyst": "Nik Modi",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.barchart.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2027 combined-company adjusted EPS viewed at the 12-month target date, incorporating Q3 2026 results and the November 2, 2026 Kenvue acquisition close)",
+    "bear": 94.25,
+    "base": 115.5,
+    "bull": 137.83,
+    "cases": {
+      "bear": {
+        "driver": "Deeper Kenvue integration dilution, China social media disruption, and North American volume softness",
+        "assumption": "FY2027 Adjusted EPS $6.50 at 14.5x P/E",
+        "target": 94.25
+      },
+      "base": {
+        "driver": "Steady Kenvue integration with no more than mid-single-digit 2027 EPS dilution vs. 2026 standalone",
+        "assumption": "FY2027 Adjusted EPS $7.00 at 16.5x P/E",
+        "target": 115.5
+      },
+      "bull": {
+        "driver": "Faster Kenvue cost/revenue synergy capture and organic sales growth recovery",
+        "assumption": "FY2027 Adjusted EPS $7.45 at 18.5x P/E",
+        "target": 137.83
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $7.00, the $109.43 close implies 15.6x forward P/E; at 16.5x P/E, the close implies $6.63 EPS.",
+    "sensitivity": "One turn of P/E moves the base target by $7.00 (6.4 pp).",
+    "watch_metric": "Combined-company organic sales growth and Kenvue integration synergy/amortization run-rate",
+    "next_disclosure": "Q4 2026 / FY2026 earnings release (expected late January / early February 2027)"
+  },
+  "dividend_per_share": 5.12,
+  "analyst_notes": "Following Q3 2026 earnings (Nov 5, 2026) and the Nov 2, 2026 Kenvue acquisition close, UBS (Peter Grom) and Barclays (Lauren Lieberman) nudged targets up to $113 and $112 while staying Neutral/Equal-Weight, closely aligned with our $115.50 base case (+5.5%). Street views remain polarized between RBC Capital's $162 Buy and Citigroup's $90 Sell, reflecting divergent expectations on Kenvue integration execution and 2027 EPS dilution. Note: JPMorgan's Nov 17, 2026 resumption ($113 Neutral) is excluded as it occurred after the Nov 13, 2026 reference close.",
+  "sources": [
+    {
+      "label": "Kimberly-Clark Q3 2026 Earnings Release & 2026/2027 Outlook",
+      "url": "https://www.kimberly-clark.com/",
+      "supports": "Q3 2026 adjusted EPS ($1.70), FY2026 standalone guidance, Kenvue close (Nov 2, 2026), 2027-2028 outlook, $1.28 quarterly dividend"
+    },
+    {
+      "label": "Kimberly-Clark SEC Filings (FY2025 10-K, Q1 2026 10-Q)",
+      "url": "https://www.sec.gov/",
+      "supports": "Diluted EPS, weighted-average and ending common share counts"
+    },
+    {
+      "label": "Investing.com / TipRanks / Barchart Analyst Coverage",
+      "url": "https://www.investing.com/",
+      "supports": "Named analyst ratings, price targets, and prior targets for UBS, Barclays, and RBC Capital"
+    }
+  ]
+}

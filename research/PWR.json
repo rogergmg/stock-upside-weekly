@@ -1,0 +1,52 @@
+{
+  "issuer_id": "Quanta Services, Inc.",
+  "symbol": "PWR",
+  "researched_at": "2026-11-21",
+  "research_close": {"close": 559.03, "close_date": "2026-11-20"},
+  "currency": "USD",
+  "earnings_at": "2026-10-29T08:30:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Chad Dillard", "firm": "Bernstein", "field": "target", "value": 775, "source_prior": null,
+     "issued_at": "2026-09-24", "public_at": "2026-09-24T23:59:59-04:00", "horizon_months": null,
+     "source": "https://site.financialmodelingprep.com/market-news/quanta-services-pwr-stock-775-price-target-22-upside"},
+    {"analyst": "Chad Dillard", "firm": "Bernstein", "field": "rating", "value": "Outperform (upgrade from Market Perform)", "bucket": "Buy",
+     "issued_at": "2026-09-24", "public_at": "2026-09-24T23:59:59-04:00",
+     "source": "https://site.financialmodelingprep.com/market-news/quanta-services-pwr-stock-775-price-target-22-upside"},
+    {"analyst": "Citi analyst (name not confirmed)", "firm": "Citi", "field": "target", "value": 733, "source_prior": 640,
+     "issued_at": "2026-04-27", "public_at": "2026-04-27T23:59:59-04:00", "horizon_months": null,
+     "source": "https://finance.yahoo.com/markets/stocks/articles/citi-raises-price-target-quanta-091309127.html"},
+    {"analyst": "Citi analyst (name not confirmed)", "firm": "Citi", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-04-27", "public_at": "2026-04-27T23:59:59-04:00",
+     "source": "https://finance.yahoo.com/markets/stocks/articles/citi-raises-price-target-quanta-091309127.html"},
+    {"analyst": "Jamie Cook", "firm": "Truist", "field": "target", "value": 643, "source_prior": 548,
+     "issued_at": "2026-02-20", "public_at": "2026-02-20T23:59:59-05:00", "horizon_months": null,
+     "source": "https://finviz.com/news/324650/truist-raises-the-price-target-on-quanta-services-inc-pwr-to-643-and-maintains-a-buy-rating"},
+    {"analyst": "Jamie Cook", "firm": "Truist", "field": "rating", "value": "Buy", "bucket": "Buy",
+     "issued_at": "2026-02-20", "public_at": "2026-02-20T23:59:59-05:00",
+     "source": "https://finviz.com/news/324650/truist-raises-the-price-target-on-quanta-services-inc-pwr-to-643-and-maintains-a-buy-rating"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E: FY2027 adjusted diluted EPS (the earnings an investor is pricing at the Nov-2027 target date) x justified P/E. FY2026 adjusted EPS guidance midpoint $18.10 (range $17.90-$18.30) grown by an assumed 2027 rate; management says 'strong double-digit' 2027 adjusted EPS growth. Listing is the US common share (USD), no ADR conversion. Share count held roughly flat (about 152-153M diluted).",
+    "bear": 424.6, "base": 593.6, "bull": 759.0,
+    "cases": {
+      "bear": {"driver": "2027 adjusted EPS growth slows to about 7% as supply-chain/labor limits and acquisition digestion cap conversion of the $63.7B backlog; 765kV work slips", "assumption": "EPS $19.30 at 22x", "target": 424.6},
+      "base": {"driver": "About 17% adjusted EPS growth in 2027 on record backlog and 2026 guide raise (revenue $41.3-41.6B)", "assumption": "EPS $21.20 at 28x", "target": 593.6},
+      "bull": {"driver": "About 27% EPS growth as 765kV transmission and data-center work enter backlog and margins expand", "assumption": "EPS $23.00 at 33x", "target": 759.0}
+    },
+    "implied_by_close": "At base EPS $21.20 the $559.03 close implies 26.4x (30.9x the 2026 guide midpoint). The 3 named targets are stale and horizon-undocumented; the Yahoo Finance aggregate mean of $769.78 (30 analysts) implies 36.3x on base EPS, or EPS about $27.50 at 28x (about 30% above the model).",
+    "sensitivity": "One turn of P/E moves the base target by $21.20 (3.8 pp of the close). $1 of 2027 EPS moves it by $28.",
+    "watch_metric": "Total backlog (record $63.7B at Q3 2026) and adjusted EPS guidance for 2027, especially whether 765kV transmission projects convert into backlog",
+    "next_disclosure": "Q4/FY2026 results and 2027 guidance, expected around late February 2027 (date not confirmed)"
+  },
+  "dividend_per_share": 0.52,
+  "analyst_notes": "Only three named analysts with dated calls could be sourced (Bernstein upgrade to Outperform at $775 on 2026-09-24, Citi $733 on 2026-04-27, Truist $643 on 2026-02-20); all predate the 2026-10-29 earnings release, so none reflect the Q3 beat and guide raise. Aggregator snippets suggest post-Q3 raises (e.g. Truist, TD Cowen, Jefferies, Citi at roughly $830-960) but dates, authors and values could not be verified, so they are excluded. Targets have no documented 12-month horizon so they stay out of the weighted target; the published aggregate (mean $769.78) sits well above the model, which needs either about 36x on base EPS or about $27.50 of 2027 EPS.",
+  "sources": [
+    {"label": "Quanta Q3 2026 results (Zacks summary)", "url": "https://www.zacks.com/stock/news/3018963/pwr-q3-earnings-beat-on-electric-strength-2026-view-raised-stock-up", "supports": "Q3 adjusted EPS $6.06, 2026 EPS/revenue/FCF guidance, backlog $63.7B"},
+    {"label": "Quanta Q3 2026 press release (8-K ex. 99.1)", "url": "https://www.sec.gov/Archives/edgar/data/0001050915/000119312526436949/d77812dex991.htm", "supports": "Q3 2026 results and guidance (not opened directly; host blocked)"},
+    {"label": "Quanta Q3 2026 press release (Finviz)", "url": "https://finviz.com/news/411212/quanta-services-reports-third-quarter-2026-results", "supports": "Earnings release, GAAP EPS $4.55, guidance"},
+    {"label": "Bernstein upgrade", "url": "https://site.financialmodelingprep.com/market-news/quanta-services-pwr-stock-775-price-target-22-upside", "supports": "Bernstein $775 target and upgrade, 2026-09-24"},
+    {"label": "Citi target raise", "url": "https://finance.yahoo.com/markets/stocks/articles/citi-raises-price-target-quanta-091309127.html", "supports": "Citi $733 from $640, Buy, 2026-04-27"},
+    {"label": "Truist target raise", "url": "https://finviz.com/news/324650/truist-raises-the-price-target-on-quanta-services-inc-pwr-to-643-and-maintains-a-buy-rating", "supports": "Truist $643 from $548, Buy, 2026-02-20"}
+  ]
+}

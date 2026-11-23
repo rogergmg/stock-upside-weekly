@@ -1,0 +1,186 @@
+{
+  "issuer_id": "KKR & Co. Inc.",
+  "symbol": "KKR",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 98.05,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-09T06:50:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Michael Cyprys",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 140,
+      "source_prior": 138,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Michael Cyprys",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Chris Kotowski",
+      "firm": "Oppenheimer",
+      "field": "target",
+      "value": 156,
+      "source_prior": 163,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Chris Kotowski",
+      "firm": "Oppenheimer",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.tipranks.com/"
+    },
+    {
+      "analyst": "Daniel Welden",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 105,
+      "source_prior": 97,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Daniel Welden",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Equal Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Benjamin Budish",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 127,
+      "source_prior": 130,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/"
+    },
+    {
+      "analyst": "Benjamin Budish",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://stockanalysis.com/"
+    },
+    {
+      "analyst": "Brennan Hawken",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 109,
+      "source_prior": 118,
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/"
+    },
+    {
+      "analyst": "Brennan Hawken",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-27",
+      "public_at": "2026-10-27T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/"
+    },
+    {
+      "analyst": "Bill Katz",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 103,
+      "source_prior": 118,
+      "issued_at": "2026-10-12",
+      "public_at": "2026-10-12T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Bill Katz",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-10-12",
+      "public_at": "2026-10-12T23:59:59-04:00",
+      "source": "https://www.streetinsider.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted Net Income (ANI) EPS x P/E (FY2027E ANI EPS viewed at the 12-month target date)",
+    "bear": 87.75,
+    "base": 116.0,
+    "bull": 144.0,
+    "cases": {
+      "bear": {
+        "driver": "Slower private equity realizations and carry monetization, with moderated fee-paying AUM inflows compressing the multiple",
+        "assumption": "FY2027E ANI EPS $6.50 at 13.5x",
+        "target": 87.75
+      },
+      "base": {
+        "driver": "Double-digit Fee-Related Earnings (FRE) compounding on $804.4B AUM ($647.9B fee-paying AUM) and normalized realized performance income",
+        "assumption": "FY2027E ANI EPS $7.25 at 16.0x",
+        "target": 116.0
+      },
+      "bull": {
+        "driver": "Accelerated capital markets monetization, strong private credit and infrastructure fundraising, and multiple expansion",
+        "assumption": "FY2027E ANI EPS $8.00 at 18.0x",
+        "target": 144.0
+      }
+    },
+    "implied_by_close": "At base FY2027E ANI EPS of $7.25, the $98.05 close implies 13.5x P/E; the 6-analyst sample (targets $103-$156, unweighted mean $123.33) implies 17.0x P/E on $7.25 EPS or $7.71 EPS at 16.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $7.25 (7.4 pp of price return).",
+    "watch_metric": "Fee-Related Earnings (FRE) per adjusted share ($1.42 in Q3 2026) and Fee-Paying AUM growth",
+    "next_disclosure": "Q4 and FY2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 0.78,
+  "analyst_notes": "Following KKR's Q3 2026 earnings release on November 9, 2026 ($1.78 ANI EPS, $1.42 FRE per share), analyst actions were mixed: Morgan Stanley raised its target to $140 and Wells Fargo raised to $105, while Oppenheimer trimmed to $156 and Barclays trimmed to $127. The 6-analyst sample spans $103 to $156 with a 4 Buy / 2 Hold split, sitting roughly 7.5 pp above the $116.00 base case (+25.8% unweighted mean vs. +18.3% base), reflecting higher assumed multiples (~17.0x vs. 16.0x) on normalized FY2027 ANI.",
+  "sources": [
+    {
+      "label": "KKR Q3 2026 Earnings Release (Business Wire, Nov 9, 2026)",
+      "url": "https://www.businesswire.com/",
+      "supports": "Q3 2026 earnings_at timestamp, ANI EPS $1.78, FRE $1.42/sh, AUM $804.4B"
+    },
+    {
+      "label": "KKR Dividend History (Market Chameleon)",
+      "url": "https://marketchameleon.com/",
+      "supports": "Quarterly dividend $0.195/share ($0.78 annualized)"
+    },
+    {
+      "label": "KKR Analyst Ratings & Price Targets (StockAnalysis / Investing.com / MarketBeat)",
+      "url": "https://stockanalysis.com/",
+      "supports": "Named analyst targets, ratings, and FY2027E ANI EPS consensus (~$7.12-$7.24)"
+    }
+  ]
+}

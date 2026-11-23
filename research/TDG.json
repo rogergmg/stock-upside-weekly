@@ -1,0 +1,196 @@
+{
+  "issuer_id": "TransDigm Group Incorporated",
+  "symbol": "TDG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 1217.28,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-10T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Kristine Liwag",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 1405,
+      "source_prior": 1300,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/TDG/forecast/"
+    },
+    {
+      "analyst": "Kristine Liwag",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/TDG/forecast/"
+    },
+    {
+      "analyst": "Gavin Parsons",
+      "firm": "UBS",
+      "field": "target",
+      "value": 1481,
+      "source_prior": 1509,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/tdg/forecast/"
+    },
+    {
+      "analyst": "Gavin Parsons",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/tdg/forecast/"
+    },
+    {
+      "analyst": "Gautam Khanna",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 1350,
+      "source_prior": 1300,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/tdg/forecast/"
+    },
+    {
+      "analyst": "Gautam Khanna",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/tdg/forecast/"
+    },
+    {
+      "analyst": "Ken Herbert",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 1300,
+      "source_prior": 1200,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/tdg/forecast"
+    },
+    {
+      "analyst": "Ken Herbert",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Sector Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://www.tipranks.com/stocks/tdg/forecast"
+    },
+    {
+      "analyst": "Seth Seifman",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 1415,
+      "source_prior": 1450,
+      "issued_at": "2026-09-17",
+      "public_at": "2026-09-17T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/tdg/forecast"
+    },
+    {
+      "analyst": "Seth Seifman",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-09-17",
+      "public_at": "2026-09-17T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/tdg/forecast"
+    },
+    {
+      "analyst": "Noah Poponak",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 1745,
+      "source_prior": 1972,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.futunn.com/en/stock/TDG-US/analyst-ratings"
+    },
+    {
+      "analyst": "Noah Poponak",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://www.futunn.com/en/stock/TDG-US/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted Diluted EPS x justified P/E (FY2028E Adjusted EPS viewed at the 12-month target date in Nov 2027, anchored on FY2026 actuals of $41.35 and initial FY2027 guidance midpoint of $47.51).",
+    "bear": 1067.0,
+    "base": 1371.5,
+    "bull": 1582.0,
+    "cases": {
+      "bear": {
+        "driver": "Commercial aftermarket deceleration, acquisition integration drag, and higher-for-longer net interest expense (~$2.26B in FY2027)",
+        "assumption": "FY2028E Adjusted EPS $48.50 at 22.0x P/E",
+        "target": 1067.0
+      },
+      "base": {
+        "driver": "Steady commercial aftermarket and defense growth (~11% FY2028E EPS growth off FY2027E $47.51 midpoint) with ~52% EBITDA As Defined margin",
+        "assumption": "FY2028E Adjusted EPS $52.75 at 26.0x P/E",
+        "target": 1371.5
+      },
+      "bull": {
+        "driver": "Stronger commercial aerospace aftermarket pricing, faster margin recovery post-acquisitions, and accretive capital deployment",
+        "assumption": "FY2028E Adjusted EPS $56.50 at 28.0x P/E",
+        "target": 1582.0
+      }
+    },
+    "implied_by_close": "At Base FY2028E Adjusted EPS ($52.75), the $1,217.28 close implies 23.1x (or 25.6x FY2027E guidance midpoint of $47.51); the 6-analyst sample targets ($1,300 to $1,745) imply 24.6x to 33.1x Base EPS, or $50.00 to $67.12 EPS at 26.0x.",
+    "sensitivity": "One turn of P/E on Base FY2028E Adjusted EPS moves the base target by $52.75 (4.3 pp of price return).",
+    "watch_metric": "Commercial aftermarket organic revenue growth and EBITDA As Defined margin (~52% FY2027 guidance)",
+    "next_disclosure": "Q1 FY2027 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q4 FY2026 earnings on Nov 10, 2026 (FY2026 Adjusted EPS $41.35; FY2027 Adjusted EPS guidance midpoint $47.51), Morgan Stanley ($1,405 from $1,300), TD Cowen ($1,350 from $1,300), and RBC ($1,300 from $1,200) raised targets while UBS trimmed to $1,481 (from $1,509). Note that BofA's Ronald Epstein cut to $1,550 on Nov 23, 2026, which is excluded as post-cutoff. The independent base case ($1,371.50, +12.7%) sits near the middle of post-earnings Hold/Buy targets, while Goldman's $1,745 target implies ~33.1x Base FY2028E EPS.",
+  "sources": [
+    {
+      "label": "TransDigm Q4 & FY2026 Earnings Release (Nov 10, 2026)",
+      "url": "https://www.prnewswire.com/news-releases/transdigm-group-reports-fiscal-2026-fourth-quarter-and-year-end-results-302950000.html",
+      "supports": "Q4 FY2026 earnings timestamp, FY2026 revenue ($10.56B), Adjusted EPS ($41.35), EBITDA As Defined ($5.563B), FY2027 guidance ($11.95B-$12.15B sales, $6.27B EBITDA, $47.51 Adjusted EPS)"
+    },
+    {
+      "label": "MarketBeat TDG Analyst Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/TDG/forecast/",
+      "supports": "Morgan Stanley (Kristine Liwag) $1,405 Equal-Weight call on 2026-11-11"
+    },
+    {
+      "label": "StockAnalysis TDG Forecast",
+      "url": "https://stockanalysis.com/stocks/tdg/forecast/",
+      "supports": "UBS (Gavin Parsons) $1,481 Buy (12-month horizon) and TD Cowen (Gautam Khanna) $1,350 Buy on 2026-11-11"
+    },
+    {
+      "label": "TipRanks TDG Forecast",
+      "url": "https://www.tipranks.com/stocks/tdg/forecast",
+      "supports": "RBC Capital (Ken Herbert) $1,300 Sector Perform on 2026-11-11 and JPMorgan (Seth Seifman) $1,415 Neutral on 2026-09-17"
+    },
+    {
+      "label": "Futunn TDG Analyst Ratings",
+      "url": "https://www.futunn.com/en/stock/TDG-US/analyst-ratings",
+      "supports": "Goldman Sachs (Noah Poponak) $1,745 Buy"
+    }
+  ]
+}

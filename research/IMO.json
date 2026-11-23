@@ -1,0 +1,64 @@
+{
+  "issuer_id": "Imperial Oil Limited",
+  "symbol": "IMO",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 128.70,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-30T07:30:00-04:00",
+  "coverage": "unavailable",
+  "events": [],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS in CAD converted to USD at the 2026-11-13 close FX rate of 1 USD = 1.4270 CAD, or 1 CAD = 0.7008 USD, for NYSE: IMO).",
+    "bear": 96.72,
+    "base": 127.00,
+    "bull": 154.83,
+    "cases": {
+      "bear": {
+        "driver": "Weaker crude/WCS differentials and softer refining crack spreads",
+        "assumption": "FY2027E EPS C$12.00 (US$8.41) at 11.5x P/E",
+        "target": 96.72
+      },
+      "base": {
+        "driver": "Mid-cycle oil/refining margins, ~450 kb/d upstream, ongoing NCIB buybacks",
+        "assumption": "FY2027E EPS C$14.50 (US$10.16) at 12.5x P/E",
+        "target": 127.00
+      },
+      "bull": {
+        "driver": "Elevated crude prices, tight WCS differentials, strong downstream utilization",
+        "assumption": "FY2027E EPS C$17.00 (US$11.91) at 13.0x P/E",
+        "target": 154.83
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of US$10.16, the $128.70 close implies 12.67x P/E; the published Street consensus target (~$116.00 USD) implies 11.42x P/E or US$9.28 EPS at 12.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $10.16 (7.9 pp of price return).",
+    "watch_metric": "Upstream gross production (kb/d vs. 441-460 kb/d guidance), downstream refinery utilization (91-93% guidance), and NCIB share repurchase pace.",
+    "next_disclosure": "Q4 2026 earnings news release (estimated January 29, 2027) and Form 10-K (estimated February 17, 2027)."
+  },
+  "dividend_per_share": 2.44,
+  "analyst_notes": "Published Street consensus for IMO (NYSE) sits around $116.00 USD (C$159.55 CAD) with a cautious Hold/Reduce/Underperform tilt from covering firms including RBC Capital (Greg Pardy), TD Cowen (Menno Hulshof), CIBC (Dennis Fong), BMO Capital (Randy Ollenberger), and Scotiabank. The ~10% gap between consensus (~$116) and our base case ($127.00, -1.3% vs. close) reflects analysts applying ~11.4x forward P/E due to valuation concerns after strong share-price appreciation. Individual dated broker notes with exact USD target timestamps were not available in public summaries.",
+  "sources": [
+    {
+      "label": "Imperial Oil Q3 2026 Results (Oct 30, 2026)",
+      "url": "https://www.imperialoil.ca/news/news-releases",
+      "supports": "Q3 2026 EPS C$5.11, cash flow, production, and 478.8M diluted shares"
+    },
+    {
+      "label": "Imperial Oil 2026 Guidance & Key Dates",
+      "url": "https://www.imperialoil.ca/investors",
+      "supports": "2026 capex C$2.0-2.2B, production 441-460 kb/d, C$0.87/qtr dividend, Q4 2026 release dates"
+    },
+    {
+      "label": "MarketBeat IMO Analyst Consensus",
+      "url": "https://www.marketbeat.com/stocks/NYSE/IMO/forecast/",
+      "supports": "Street consensus target (~$116 USD) and Hold/Reduce rating distribution"
+    },
+    {
+      "label": "Investing.com USD/CAD Historical",
+      "url": "https://www.investing.com/currencies/usd-cad-historical-data",
+      "supports": "2026-11-13 USD/CAD close (~1.4270 CAD per USD)"
+    }
+  ]
+}

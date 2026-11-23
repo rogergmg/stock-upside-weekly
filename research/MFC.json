@@ -1,0 +1,86 @@
+{
+  "issuer_id": "Manulife Financial Corporation",
+  "symbol": "MFC",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 44.06,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-04T17:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Darko Mihelic",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 46.95,
+      "source_prior": 38.54,
+      "issued_at": "2026-08-07",
+      "public_at": "2026-08-07T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MFC/analyst-ratings"
+    },
+    {
+      "analyst": "Darko Mihelic",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-08-07",
+      "public_at": "2026-08-07T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/MFC/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Core EPS x justified P/E (FY2027 Core EPS viewed at the 12-month target date), converted from CAD reporting currency at the 2026-11-13 USD/CAD close of 1.4271 (1 CAD = 0.7007 USD), cross-checked against 3Q26 Adjusted BVPS of C$41.78 (US$29.28) and 17.8% Core ROE.",
+    "bear": 37.03,
+    "base": 46.02,
+    "bull": 55.39,
+    "cases": {
+      "bear": {
+        "driver": "ALDA return headwinds, slower Asia growth, or persistent Global WAM net outflows",
+        "assumption": "FY2027 Core EPS US$3.22 (C$4.60) at 11.5x P/E",
+        "target": 37.03
+      },
+      "base": {
+        "driver": "Steady Asia & North America insurance growth, Core ROE ~18%, disciplined capital return",
+        "assumption": "FY2027 Core EPS US$3.54 (C$5.05) at 13.0x P/E",
+        "target": 46.02
+      },
+      "bull": {
+        "driver": "Core ROE exceeds 18%+ target, Global WAM returns to net inflows, multiple expansion",
+        "assumption": "FY2027 Core EPS US$3.82 (C$5.45) at 14.5x P/E",
+        "target": 55.39
+      }
+    },
+    "implied_by_close": "At base FY2027 Core EPS of US$3.54 (C$5.05), the $44.06 close implies 12.4x forward Core P/E; RBC's $46.95 USD (C$67.00) target implies 13.3x base Core EPS or US$3.61 EPS at 13.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $3.54 (8.0 pp at the $44.06 close).",
+    "watch_metric": "Core ROE (17.8% in 3Q26 vs. 18%+ 2027 target) and Global WAM net flows (-$3.6B in 3Q26 vs. -$6.2B in 3Q25)",
+    "next_disclosure": "Q4 2026 earnings release (expected mid-February 2027)"
+  },
+  "dividend_per_share": 1.36,
+  "analyst_notes": "RBC Capital Markets' Darko Mihelic raised his target from C$55 ($38.54 USD) to C$67 ($46.95 USD) with an Outperform rating on 2026-08-07, predating the 2026-11-04 3Q26 earnings release (+6.6% implied upside vs. +4.4% base case). Other covering Canadian lifeco analysts (including BMO's Tom MacKinnon at C$70 / $49.05 USD and Desjardins' Doug Young at C$63 / $44.15 USD) maintain targets in the C$61–C$70 range, though exact 2026 publication dates for those notes were not verified in public sources.",
+  "sources": [
+    {
+      "label": "Manulife 3Q26 Financial Results (Nov 4, 2026)",
+      "url": "https://www.manulife.com/en/investors/results-and-reports.html",
+      "supports": "3Q26 Core EPS C$1.24, Diluted EPS C$0.82, Core ROE 17.8%, LICAT 136%, BVPS C$28.06, Adjusted BVPS C$41.78, Global WAM net outflows $3.6B"
+    },
+    {
+      "label": "Manulife Common Share Dividends",
+      "url": "https://www.manulife.com/en/investors/shareholder-information/dividends.html",
+      "supports": "2026 quarterly dividend of C$0.485 per common share (C$1.94 annualized)"
+    },
+    {
+      "label": "Benzinga MFC Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/MFC/analyst-ratings",
+      "supports": "RBC Capital Markets (Darko Mihelic) Outperform rating and C$67 price target (raised from C$55) on 2026-08-07"
+    },
+    {
+      "label": "Investing.com USD/CAD Historical Data",
+      "url": "https://www.investing.com/currencies/usd-cad-historical-data",
+      "supports": "USD/CAD exchange rate of 1.4271 on 2026-11-13"
+    }
+  ]
+}

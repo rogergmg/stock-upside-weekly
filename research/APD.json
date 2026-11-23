@@ -1,0 +1,185 @@
+{
+  "issuer_id": "Air Products and Chemicals, Inc.",
+  "symbol": "APD",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 316.53,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T06:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Matthew DeYoe",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 335,
+      "source_prior": 314,
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Matthew DeYoe",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-10",
+      "public_at": "2026-11-10T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Patrick Cunningham",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 335,
+      "source_prior": 312,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Patrick Cunningham",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Abigail Eberts",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 350,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Abigail Eberts",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Arun Viswanathan",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 359,
+      "source_prior": 346,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Arun Viswanathan",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Aleksey Yefremov",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 346,
+      "source_prior": 353,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "Aleksey Yefremov",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "John McNulty",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 362,
+      "source_prior": 365,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    },
+    {
+      "analyst": "John McNulty",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/apd/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted EPS x P/E (FY2027E Adjusted EPS viewed at the 12-month target date)",
+    "bear": 268.13,
+    "base": 329.59,
+    "bull": 371.25,
+    "cases": {
+      "bear": {
+        "driver": "Industrial gas volume softness and project execution headwinds compress the multiple",
+        "assumption": "FY2027E Adjusted EPS $13.75 at 19.5x P/E",
+        "target": 268.13
+      },
+      "base": {
+        "driver": "Steady core industrial gas growth and disciplined CapEx ($3.0B-$3.5B) per FY2027 guidance",
+        "assumption": "FY2027E Adjusted EPS $14.33 (guidance midpoint) at 23.0x P/E",
+        "target": 329.59
+      },
+      "bull": {
+        "driver": "Faster electronics/semiconductor gas ramp and stronger operating leverage",
+        "assumption": "FY2027E Adjusted EPS $14.85 at 25.0x P/E",
+        "target": 371.25
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $14.33, the $316.53 close implies 22.1x; the 6-analyst equal-weight target of $347.83 implies 24.3x (or $15.12 EPS at 23.0x).",
+    "sensitivity": "One turn of P/E moves the base target by $14.33 (4.5 pp).",
+    "watch_metric": "Q1 FY2027 Adjusted EPS (guided $3.35-$3.45) and FY2027 CapEx pace ($3.0B-$3.5B)",
+    "next_disclosure": "Q1 FY2027 earnings release (expected early February 2027)"
+  },
+  "dividend_per_share": 7.24,
+  "analyst_notes": "All six named analysts updated their views between November 6 and November 10, 2026, following the November 5 Q4 FY2026 earnings release. Targets cluster tightly between $335 and $362 (equal-weight $347.83, +9.9% vs. close), which is 5.8 pp above our $329.59 base case (+4.1%) and implies either a 24.3x multiple on $14.33 EPS or $15.12 EPS at 23.0x. Neutral-rated firms (BofA, Citi) raised targets to $335, while Buy-rated firms (Wells Fargo, Barclays, RBC, BMO) sit at $346-$362.",
+  "sources": [
+    {
+      "label": "Air Products Q4 & Full-Year FY2026 Earnings Release",
+      "url": "https://www.airproducts.com/news-center",
+      "supports": "FY2026 Adjusted EPS ($13.45), Q4 Adjusted EPS ($3.61), FY2027 guidance ($14.15-$14.50), CapEx ($3.0B-$3.5B)"
+    },
+    {
+      "label": "Air Products Dividend Declaration (Oct 2026)",
+      "url": "https://www.airproducts.com/investors",
+      "supports": "Quarterly dividend $1.81/share ($7.24 annualized)"
+    },
+    {
+      "label": "StockAnalysis APD Analyst Forecasts",
+      "url": "https://stockanalysis.com/stocks/apd/forecast/",
+      "supports": "Named analyst ratings, price targets, prior targets, and November 2026 revision dates"
+    }
+  ]
+}

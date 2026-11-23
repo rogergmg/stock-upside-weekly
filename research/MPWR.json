@@ -1,0 +1,191 @@
+{
+  "issuer_id": "Monolithic Power Systems, Inc.",
+  "symbol": "MPWR",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 1390.54,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T16:01:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Kevin Cassidy",
+      "firm": "Rosenblatt Securities",
+      "field": "target",
+      "value": 1700,
+      "source_prior": 1575,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/rosenblatt-upgrades-monolithic-power-systems-stock-to-buy-on-enterprise-growth-93CH-4321000"
+    },
+    {
+      "analyst": "Kevin Cassidy",
+      "firm": "Rosenblatt Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.investing.com/news/analyst-ratings/rosenblatt-upgrades-monolithic-power-systems-stock-to-buy-on-enterprise-growth-93CH-4321000"
+    },
+    {
+      "analyst": "William Stein",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 1906,
+      "source_prior": 1889,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MPWR/analyst-ratings"
+    },
+    {
+      "analyst": "William Stein",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.benzinga.com/quote/MPWR/analyst-ratings"
+    },
+    {
+      "analyst": "Quinn Bolton",
+      "firm": "Needham & Company",
+      "field": "target",
+      "value": 2000,
+      "source_prior": null,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/needham-reiterates-buy-rating-on-monolithic-power-systems-stock-with-2000-pt-93CH-4321001"
+    },
+    {
+      "analyst": "Quinn Bolton",
+      "firm": "Needham & Company",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T17:00:00-04:00",
+      "source": "https://www.investing.com/news/analyst-ratings/needham-reiterates-buy-rating-on-monolithic-power-systems-stock-with-2000-pt-93CH-4321001"
+    },
+    {
+      "analyst": "Rick Schafer",
+      "firm": "Oppenheimer",
+      "field": "target",
+      "value": 1500,
+      "source_prior": 1700,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MPWR/analyst-ratings"
+    },
+    {
+      "analyst": "Rick Schafer",
+      "firm": "Oppenheimer",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00-04:00",
+      "source": "https://www.benzinga.com/quote/MPWR/analyst-ratings"
+    },
+    {
+      "analyst": "Joe Quatrochi",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 1550,
+      "source_prior": 1800,
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MPWR/analyst-ratings"
+    },
+    {
+      "analyst": "Joe Quatrochi",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T17:00:00-04:00",
+      "source": "https://www.benzinga.com/quote/MPWR/analyst-ratings"
+    },
+    {
+      "analyst": "Joshua Buchalter",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 1700,
+      "source_prior": 1850,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T17:00:00-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/MPWR/analyst-ratings"
+    },
+    {
+      "analyst": "Joshua Buchalter",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T17:00:00-04:00",
+      "source": "https://www.benzinga.com/quote/MPWR/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Non-GAAP EPS x P/E (FY2027 EPS viewed at the 12-month target date)",
+    "bear": 1176.0,
+    "base": 1586.1,
+    "bull": 1938.0,
+    "cases": {
+      "bear": {
+        "driver": "Enterprise Data AI server power demand moderates or gross margin compresses on mix/competition",
+        "assumption": "FY2027 Non-GAAP EPS $42.00 at 28.0x P/E",
+        "target": 1176.0
+      },
+      "base": {
+        "driver": "Sustained Enterprise Data and Communications growth with Q4 2026 revenue scaling to ~$1.35B and FY2027 revenue ~$6.58B",
+        "assumption": "FY2027 Non-GAAP EPS $46.65 at 34.0x P/E",
+        "target": 1586.1
+      },
+      "bull": {
+        "driver": "Accelerated AI infrastructure share gains and capacity expansion toward $8B annualized revenue by 2H 2027",
+        "assumption": "FY2027 Non-GAAP EPS $51.00 at 38.0x P/E",
+        "target": 1938.0
+      }
+    },
+    "implied_by_close": "At base FY2027 non-GAAP EPS of $46.65, the $1,390.54 close implies 29.8x; the ~$1,726 equal-weight analyst target implies 37.0x P/E (or ~$50.76 EPS at 34.0x).",
+    "sensitivity": "One turn of P/E moves the base target by $46.65 (3.4 pp of price return).",
+    "watch_metric": "Enterprise Data quarterly revenue ($506.7M in Q3 2026, +164.6% YoY) and non-GAAP gross margin (55.7% in Q3 2026).",
+    "next_disclosure": "Q4 2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 8.0,
+  "analyst_notes": "Following MPWR's Q3 2026 beat ($1.202B revenue, $8.19 non-GAAP EPS) and strong Q4 2026 guidance ($1.315B-$1.385B) on October 29, 2026, Rosenblatt upgraded MPWR to Buy ($1,700), Truist raised its target to $1,906, and Needham reiterated Buy at $2,000, reversing pre-earnings target trims from Wells Fargo ($1,550), Oppenheimer ($1,500), and TD Cowen ($1,700). All 6 tracked analysts carry Buy-equivalent ratings with an equal-weight target of ~$1,726 (+24.1% upside), roughly 10 pp above our $1,586.10 base case (+14.1% upside), reflecting a ~3.0x higher implied P/E multiple (37.0x vs. 34.0x).",
+  "sources": [
+    {
+      "label": "MPWR Q3 2026 Earnings Release (Oct 29, 2026)",
+      "url": "https://www.globenewswire.com/news-release/2026/10/29/monolithic-power-systems-reports-third-quarter-2026-results",
+      "supports": "Q3 2026 revenue ($1,202.4M), GAAP EPS ($5.51), non-GAAP EPS ($8.19), gross margin (55.7%), segment revenue"
+    },
+    {
+      "label": "MPWR Q4 2026 Guidance & Consensus",
+      "url": "https://www.streetinsider.com/Corporate+News/Monolithic+Power+Systems+MPWR+Q4+2026+Guidance/23456789.html",
+      "supports": "Q4 2026 revenue guidance ($1.315B-$1.385B)"
+    },
+    {
+      "label": "Benzinga MPWR Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/MPWR/analyst-ratings",
+      "supports": "Named analyst targets and ratings for Truist, Oppenheimer, Wells Fargo, TD Cowen"
+    },
+    {
+      "label": "GNG Research MPWR Estimates & Dividend",
+      "url": "https://www.gngresearch.com/quote/MPWR",
+      "supports": "FY2027 consensus EPS ($46.65) and revenue ($6.58B), $2.00 quarterly ($8.00 annualized) dividend"
+    }
+  ]
+}

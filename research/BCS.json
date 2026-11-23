@@ -1,0 +1,170 @@
+{
+  "issuer_id": "Barclays PLC",
+  "symbol": "BCS",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 22.87,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-22T07:00:00+01:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Chris Hallam",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 37.02,
+      "source_prior": 35.96,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Chris Hallam",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Jason Napier",
+      "firm": "UBS",
+      "field": "target",
+      "value": 31.20,
+      "source_prior": null,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Jason Napier",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Alvaro Serrano",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 30.67,
+      "source_prior": 32.26,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Alvaro Serrano",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Equal Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Joseph Dickerson",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 31.20,
+      "source_prior": null,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Joseph Dickerson",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Benjamin Toms",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 27.76,
+      "source_prior": null,
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    },
+    {
+      "analyst": "Benjamin Toms",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-23",
+      "public_at": "2026-10-23T17:00:00+01:00",
+      "source": "https://www.tipranks.com/stocks/gb:barc/forecast"
+    }
+  ],
+  "valuation": {
+    "method": "Forward TNAV per ADR x P/TBV (12-month horizon). Converted from BARC ordinary shares using 1 BCS ADR = 4 ordinary shares and GBP/USD = 1.322 as of 2026-11-13.",
+    "bear": 19.78,
+    "base": 26.47,
+    "bull": 31.97,
+    "cases": {
+      "bear": {
+        "driver": "10.0% sustainable RoTE amid UK macro/credit headwinds",
+        "assumption": "Forward TNAV £4.40/ord (£17.60/ADR = $23.27) at 0.85x P/TBV",
+        "target": 19.78
+      },
+      "base": {
+        "driver": "12.5% sustainable RoTE (in line with >12% FY2026 guidance) and ongoing buybacks",
+        "assumption": "Forward TNAV £4.55/ord (£18.20/ADR = $24.06) at 1.10x P/TBV",
+        "target": 26.47
+      },
+      "bull": {
+        "driver": "14.0% sustainable RoTE (matching 13.8% YTD Q3 2026 pace) with strong IB and UK NII",
+        "assumption": "Forward TNAV £4.65/ord (£18.60/ADR = $24.59) at 1.30x P/TBV",
+        "target": 31.97
+      }
+    },
+    "implied_by_close": "At base forward TNAV of $24.06 (£18.20/ADR at 1.322 GBP/USD), the $22.87 close implies 0.95x P/TBV; the Street consensus target (~$29.00) implies 1.21x P/TBV.",
+    "sensitivity": "Each 0.10x turn of P/TBV on base forward TNAV ($24.06/ADR) moves the base target by $2.41 (+10.5 pp).",
+    "watch_metric": "Group Return on Tangible Equity (RoTE) vs. >12% target and CET1 capital distribution capacity",
+    "next_disclosure": "FY2026 Full Year Results on February 9, 2027"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q3 2026 results on October 22, 2026 (RoTE 11.7% in Q3, 13.8% YTD; TNAV 410p; £500m buyback), Street sentiment remains broadly constructive with Buy/Outperform ratings from Goldman Sachs (700p / $37.02), UBS (590p / $31.20), Jefferies (590p / $31.20), and RBC Capital (525p / $27.76), while Morgan Stanley holds an Equal Weight (580p / $30.67) stance. Most UK-listed BARC targets imply ~1.2x+ P/TBV on forward TNAV, sitting above our 1.10x base case ($26.47) due to higher assumed sustainable RoTE or lower cost of equity.",
+  "sources": [
+    {
+      "label": "Barclays Q3 2026 Results & Investor Relations",
+      "url": "https://home.barclays/investor-relations/",
+      "supports": "Q3 2026 release date (2026-10-22), TNAV 410p, CET1 14.2%, RoTE 11.7% (13.8% YTD), £500m buyback, FY2026 results date (2027-02-09)"
+    },
+    {
+      "label": "ADR.com Barclays PLC Depositary Receipt Profile",
+      "url": "https://www.adr.com/",
+      "supports": "1 BCS ADR = 4 BARC ordinary shares"
+    },
+    {
+      "label": "TipRanks Barclays (BARC) Analyst Consensus",
+      "url": "https://www.tipranks.com/stocks/gb:barc/forecast",
+      "supports": "Named analyst ratings and GBp price targets (Goldman Sachs, UBS, Morgan Stanley, Jefferies, RBC Capital)"
+    },
+    {
+      "label": "StockAnalysis BCS Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/bcs/forecast/",
+      "supports": "BCS ADR consensus price target (~$29.00) and rating distribution"
+    }
+  ]
+}

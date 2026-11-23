@@ -1,0 +1,174 @@
+{
+  "issuer_id": "Norfolk Southern Corporation",
+  "symbol": "NSC",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 327.88,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-22T08:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "David Vernon",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 396,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.barchart.com/story/news/nsc-analyst-ratings"
+    },
+    {
+      "analyst": "David Vernon",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.barchart.com/story/news/nsc-analyst-ratings"
+    },
+    {
+      "analyst": "Daniel Moore",
+      "firm": "Baird",
+      "field": "target",
+      "value": 320,
+      "source_prior": 377,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/nsc/forecast/"
+    },
+    {
+      "analyst": "Daniel Moore",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/nsc/forecast/"
+    },
+    {
+      "analyst": "Ariel Rosa",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 347,
+      "source_prior": 376,
+      "issued_at": "2026-10-07",
+      "public_at": "2026-10-07T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/NSC/analyst-ratings"
+    },
+    {
+      "analyst": "Ariel Rosa",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-07",
+      "public_at": "2026-10-07T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/NSC/analyst-ratings"
+    },
+    {
+      "analyst": "Brian Ossenbeck",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 318,
+      "source_prior": 338,
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/NSC/analyst-ratings"
+    },
+    {
+      "analyst": "Brian Ossenbeck",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-05",
+      "public_at": "2026-10-05T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/NSC/analyst-ratings"
+    },
+    {
+      "analyst": "Bascome Majors",
+      "firm": "Susquehanna",
+      "field": "target",
+      "value": 350,
+      "source_prior": 386,
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/NSC/forecast/"
+    },
+    {
+      "analyst": "Bascome Majors",
+      "firm": "Susquehanna",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-02",
+      "public_at": "2026-10-02T23:59:59-04:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/NSC/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 273.0,
+    "base": 343.2,
+    "bull": 403.0,
+    "cases": {
+      "bear": {
+        "driver": "Persistent fuel/labor cost inflation and slower freight volume recovery keep adjusted operating ratio elevated above 66%, pressuring margins and multiple",
+        "assumption": "FY2027 adjusted diluted EPS $13.00 at 21.0x P/E",
+        "target": 273.0
+      },
+      "base": {
+        "driver": "Moderate volume growth (~3%+) and gradual operating ratio improvement as fuel headwinds normalize, partially offset by higher CapEx ($2.1B in FY2026)",
+        "assumption": "FY2027 adjusted diluted EPS $14.30 at 24.0x P/E",
+        "target": 343.2
+      },
+      "bull": {
+        "driver": "Stronger industrial/intermodal freight demand and faster OR compression toward ~62-63% drive operating leverage and multiple expansion",
+        "assumption": "FY2027 adjusted diluted EPS $15.50 at 26.0x P/E",
+        "target": 403.0
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $14.30, the $327.88 close implies 22.9x; the Street consensus target range ($348-$360) implies 24.3x-25.2x on base EPS or $14.50-$15.00 EPS at 24.0x.",
+    "sensitivity": "One turn of P/E moves the base target by $14.30 (4.4 pp).",
+    "watch_metric": "Adjusted operating ratio (65.4% in Q3 2026 vs. 63.3% in Q3 2025) and fuel/operating expense trajectory vs. >$9.0B FY2026 OpEx guidance",
+    "next_disclosure": "Q4 2026 earnings release (expected late January 2027)"
+  },
+  "dividend_per_share": 5.4,
+  "analyst_notes": "Analyst targets were broadly trimmed in October and early November 2026 (including Baird cutting from $377 to $320, Citi from $376 to $347, and JPMorgan from $338 to $318) as Q3 2026 adjusted operating ratio softened 210 bps YoY to 65.4% on fuel and merger-related costs despite record $3.53B revenue and $3.62 adjusted EPS. Bullish coverage (Bernstein at $396, Wells Fargo at $385, Barclays at $400) sits well above our $343.20 base case (+4.7% upside), reflecting higher assumed FY2027 EPS ($15.00+) or a 25x+ multiple. Target dispersion is wide ($318-$400), with Neutral/Hold ratings concentrated near or below the current share price.",
+  "sources": [
+    {
+      "label": "Norfolk Southern Q3 2026 Earnings Release & 10-Q",
+      "url": "https://www.norfolksouthern.com/news/q3-2026-results",
+      "supports": "Q3 2026 revenue ($3.526B), GAAP EPS ($3.37), adjusted EPS ($3.62), operating ratio (67.4% GAAP / 65.4% adj.), ~225M diluted shares"
+    },
+    {
+      "label": "Norfolk Southern Q4 2026 Dividend Declaration",
+      "url": "https://www.norfolksouthern.com/news/q4-2026-dividend",
+      "supports": "Quarterly dividend of $1.35/share ($5.40 annualized)"
+    },
+    {
+      "label": "Barchart NSC Analyst Ratings",
+      "url": "https://www.barchart.com/story/news/nsc-analyst-ratings",
+      "supports": "Bernstein (David Vernon) $396 Buy rating on 2026-11-12 and consensus range"
+    },
+    {
+      "label": "StockAnalysis NSC Forecast",
+      "url": "https://stockanalysis.com/stocks/nsc/forecast/",
+      "supports": "Baird (Daniel Moore) target cut from $377 to $320 (Neutral) on 2026-11-06"
+    },
+    {
+      "label": "Benzinga NSC Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/NSC/analyst-ratings",
+      "supports": "Citigroup (Ariel Rosa) $347 Neutral and JPMorgan (Brian Ossenbeck) $318 Neutral"
+    }
+  ]
+}

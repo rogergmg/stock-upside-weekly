@@ -1,0 +1,236 @@
+{
+  "issuer_id": "Republic Services, Inc.",
+  "symbol": "RSG",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 252.99,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-29T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Tami Zakaria",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 295,
+      "source_prior": 265,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/RSG/forecast/"
+    },
+    {
+      "analyst": "Tami Zakaria",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/RSG/forecast/"
+    },
+    {
+      "analyst": "John Eade",
+      "firm": "Argus Research",
+      "field": "target",
+      "value": 275,
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/RSG/analyst-ratings"
+    },
+    {
+      "analyst": "John Eade",
+      "firm": "Argus Research",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-12",
+      "public_at": "2026-11-12T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/RSG/analyst-ratings"
+    },
+    {
+      "analyst": "Jerry Revich",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 270,
+      "source_prior": 234,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/rsg/forecast/"
+    },
+    {
+      "analyst": "Jerry Revich",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/rsg/forecast/"
+    },
+    {
+      "analyst": "Bryan Burgmeier",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 281,
+      "source_prior": 259,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/rsg/forecast/"
+    },
+    {
+      "analyst": "Bryan Burgmeier",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/rsg/forecast/"
+    },
+    {
+      "analyst": "Connor Cerniglia",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 230,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T15:59:00-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/rsg/forecast/"
+    },
+    {
+      "analyst": "Connor Cerniglia",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T15:59:00-05:00",
+      "source": "https://stockanalysis.com/stocks/rsg/forecast/"
+    },
+    {
+      "analyst": "Sabahat Khan",
+      "firm": "RBC Capital Markets",
+      "field": "target",
+      "value": 277,
+      "source_prior": 272,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/rsg/forecast"
+    },
+    {
+      "analyst": "Sabahat Khan",
+      "firm": "RBC Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/rsg/forecast"
+    },
+    {
+      "analyst": "Konark Gupta",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 236,
+      "source_prior": 242,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/rsg/forecast"
+    },
+    {
+      "analyst": "Konark Gupta",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/rsg/forecast"
+    },
+    {
+      "analyst": "Devin Dodge",
+      "firm": "BMO Capital Markets",
+      "field": "target",
+      "value": 244,
+      "source_prior": 250,
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/rsg/forecast"
+    },
+    {
+      "analyst": "Devin Dodge",
+      "firm": "BMO Capital Markets",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-30",
+      "public_at": "2026-10-30T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/rsg/forecast"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date)",
+    "bear": 211.4,
+    "base": 252.0,
+    "bull": 283.9,
+    "cases": {
+      "bear": {
+        "driver": "Slower solid-waste volume recovery and margin compression from cost inflation",
+        "assumption": "FY2027E EPS $7.55 at 28.0x P/E",
+        "target": 211.4
+      },
+      "base": {
+        "driver": "Disciplined core pricing (~6%), steady Environmental Solutions growth, and share repurchases",
+        "assumption": "FY2027E EPS $8.00 at 31.5x P/E",
+        "target": 252.0
+      },
+      "bull": {
+        "driver": "Positive solid-waste volume inflection in 2027, EBITDA margin expansion, and accelerated buybacks",
+        "assumption": "FY2027E EPS $8.35 at 34.0x P/E",
+        "target": 283.9
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $8.00, the $252.99 close implies 31.6x; an average analyst target around $263.50 implies 32.9x at $8.00 EPS or $8.37 EPS at 31.5x.",
+    "sensitivity": "One turn of P/E on base FY2027E EPS ($8.00) moves the base target by $8.00 (3.2 pp of upside).",
+    "watch_metric": "Solid-waste volume growth, core price vs. cost inflation spread, and Adjusted EBITDA margin.",
+    "next_disclosure": "Q4 & FY2026 earnings release (expected mid-February 2027) and FY2027 guidance."
+  },
+  "dividend_per_share": 2.68,
+  "analyst_notes": "All eight tracked analysts updated their targets or ratings following Republic Services' Q3 2026 earnings release on October 29, 2026, with J.P. Morgan ($295) and Argus ($275) upgrading the stock in mid-November. Bullish targets ($270-$295) sit 7-17% above our $252.00 base case, reflecting expectations for a 2027 volume inflection and multiple expansion toward 33-34x FY2027E EPS, whereas Hold-rated Bernstein ($230) and Scotiabank ($236) imply a more conservative 28.8-29.5x multiple.",
+  "sources": [
+    {
+      "label": "Republic Services Q3 2026 Earnings Release & 10-Q",
+      "url": "https://investor.republicservices.com/",
+      "supports": "Q3 2026 EPS ($1.93 GAAP / $1.94 adj.), revenue ($4.56B), FY2026 guidance, $0.67 quarterly dividend, and $5B buyback authorization"
+    },
+    {
+      "label": "MarketBeat RSG Analyst Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/RSG/forecast/",
+      "supports": "J.P. Morgan (Tami Zakaria) upgrade to Overweight and $295 target, plus consensus FY2027 EPS"
+    },
+    {
+      "label": "StockAnalysis RSG Analyst Forecast",
+      "url": "https://stockanalysis.com/stocks/rsg/forecast/",
+      "supports": "Wells Fargo ($270), Citigroup ($281), Bernstein ($230) targets and ratings, and FY2026 EPS consensus"
+    },
+    {
+      "label": "TipRanks RSG Analyst Forecast",
+      "url": "https://www.tipranks.com/stocks/rsg/forecast",
+      "supports": "RBC Capital ($277), Scotiabank ($236), and BMO Capital Markets ($244) targets and ratings"
+    },
+    {
+      "label": "Benzinga RSG Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/RSG/analyst-ratings",
+      "supports": "Argus Research (John Eade) upgrade to Buy and $275 target"
+    }
+  ]
+}

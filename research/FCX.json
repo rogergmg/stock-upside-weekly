@@ -1,0 +1,238 @@
+{
+  "issuer_id": "Freeport-McMoRan Inc.",
+  "symbol": "FCX",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 59.24,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-27T08:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Vitaly Kononov",
+      "firm": "Freedom Broker",
+      "field": "target",
+      "value": 68,
+      "source_prior": 75,
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Vitaly Kononov",
+      "firm": "Freedom Broker",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-02",
+      "public_at": "2026-11-02T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Daniel Major",
+      "firm": "UBS",
+      "field": "target",
+      "value": 85,
+      "source_prior": 88,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Daniel Major",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Timna Tanners",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 79,
+      "source_prior": 87,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Timna Tanners",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Bill Peterson",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 90,
+      "source_prior": 92,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/fcx/forecast/"
+    },
+    {
+      "analyst": "Bill Peterson",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/fcx/forecast/"
+    },
+    {
+      "analyst": "Orest Wowkodaw",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 78,
+      "source_prior": 80,
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/fcx/forecast/"
+    },
+    {
+      "analyst": "Orest Wowkodaw",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-10-28",
+      "public_at": "2026-10-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/fcx/forecast/"
+    },
+    {
+      "analyst": "Richard Garchitorena",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 84,
+      "source_prior": 83,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Richard Garchitorena",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.benzinga.com/quote/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Alexander Hacking",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 84,
+      "source_prior": 67,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/stock/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Alexander Hacking",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "source": "https://www.gurufocus.com/stock/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Bob Brackett",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 47,
+      "source_prior": 54,
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.gurufocus.com/stock/FCX/analyst-ratings"
+    },
+    {
+      "analyst": "Bob Brackett",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-09-15",
+      "public_at": "2026-09-15T23:59:59-04:00",
+      "source": "https://www.gurufocus.com/stock/FCX/analyst-ratings"
+    }
+  ],
+  "valuation": {
+    "method": "EV/EBITDA (FY2027E EBITDA viewed at the 12-month target date, less Q3 2026 net debt of $5.06B [$9.40B total debt - $4.34B cash] and divided by 1,443.0M diluted shares)",
+    "bear": 47.43,
+    "base": 67.12,
+    "bull": 90.05,
+    "cases": {
+      "bear": {
+        "driver": "Lower copper price realizations, slower Grasberg ramp-up, and elevated energy/reagent cost inflation",
+        "assumption": "FY2027E EBITDA $10.50B at 7.0x EV/EBITDA ($73.50B EV - $5.06B net debt) / 1,443.0M shares",
+        "target": 47.43
+      },
+      "base": {
+        "driver": "3.7B lbs FY2027E copper sales as Grasberg ramps toward ~80% capacity by mid-2027, ~$1.90/lb net cash cost",
+        "assumption": "FY2027E EBITDA $12.74B at 8.0x EV/EBITDA ($101.92B EV - $5.06B net debt) / 1,443.0M shares",
+        "target": 67.12
+      },
+      "bull": {
+        "driver": "Stronger copper/gold realizations and full Grasberg volume-driven unit cost dilution",
+        "assumption": "FY2027E EBITDA $15.00B at 9.0x EV/EBITDA ($135.00B EV - $5.06B net debt) / 1,443.0M shares",
+        "target": 90.05
+      }
+    },
+    "implied_by_close": "At the $59.24 close, equity value is $85.48B ($90.54B EV), implying 7.1x base FY2027E EBITDA of $12.74B; at 8.0x, the close implies $11.32B EBITDA. Street consensus targets (~$76-$78) imply ~9.0x-9.2x base EBITDA.",
+    "sensitivity": "One turn of EV/EBITDA moves the base target by $8.83 (+13.2%, or +14.9 pp of return at the $59.24 close).",
+    "watch_metric": "Grasberg block cave underground ramp-up toward ~80% capacity by mid-2027 and consolidated unit net cash costs (guided ~$1.90/lb).",
+    "next_disclosure": "Q4 2026 earnings release (expected late January 2027)"
+  },
+  "dividend_per_share": 0.6,
+  "analyst_notes": "Following Q3 2026 earnings on October 27, 2026, several brokers trimmed price targets slightly (UBS $88 to $85, Wells Fargo $87 to $79, JPMorgan $92 to $90, Scotiabank $80 to $78, Freedom Broker $75 to $68) due to higher 2027 capex ($5.2B) and minor volume trims, while maintaining mostly Buy/Overweight ratings. Street consensus (~$76-$78) sits ~15 pp above our $67.12 base case (+13.3% upside), reflecting higher assumed EV/EBITDA multiples (~9.0x vs. 8.0x) or stronger copper realizations. Target dispersion is wide ($47 at Bernstein to $90 at JPMorgan), and pre-earnings calls from Citigroup and Bernstein are aging.",
+  "sources": [
+    {
+      "label": "FCX Q3 2026 Earnings Release (Oct 27, 2026)",
+      "url": "https://investors.fcx.com/investors/news-releases/default.aspx",
+      "supports": "Q3 2026 EPS ($0.88), revenue ($7.55B), Grasberg ramp-up, and 2026-2027 guidance"
+    },
+    {
+      "label": "FCX Q3 2026 Balance Sheet & Share Count",
+      "url": "https://www.investing.com/equities/freeport-mcmoran-balance-sheet",
+      "supports": "Total debt ($9.4B), cash ($4.335B), and diluted shares (1,443.0M)"
+    },
+    {
+      "label": "FCX Dividend History",
+      "url": "https://investors.fcx.com/investors/stock-information/dividend-history/default.aspx",
+      "supports": "Quarterly dividend of $0.15/share ($0.075 base + $0.075 variable; $0.60 annualized)"
+    },
+    {
+      "label": "Benzinga FCX Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/FCX/analyst-ratings",
+      "supports": "Named analyst targets and ratings for Freedom Broker, UBS, Wells Fargo, and Barclays"
+    },
+    {
+      "label": "StockAnalysis FCX Forecast",
+      "url": "https://stockanalysis.com/stocks/fcx/forecast/",
+      "supports": "Named analyst targets and ratings for JPMorgan and Scotiabank"
+    }
+  ]
+}

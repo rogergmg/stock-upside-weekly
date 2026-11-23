@@ -1,0 +1,191 @@
+{
+  "issuer_id": "The Travelers Companies, Inc.",
+  "symbol": "TRV",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 403.23,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-10-16T07:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Yaron Kinar",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 373,
+      "source_prior": 371,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Yaron Kinar",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Harry Fong",
+      "firm": "Roth MKM",
+      "field": "target",
+      "value": 460,
+      "source_prior": 425,
+      "issued_at": "2026-10-16",
+      "public_at": "2026-10-16T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Harry Fong",
+      "firm": "Roth MKM",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-16",
+      "public_at": "2026-10-16T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Mark Hughes",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 435,
+      "source_prior": 425,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Mark Hughes",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Meyer Shields",
+      "firm": "Keefe, Bruyette & Woods",
+      "field": "target",
+      "value": 382,
+      "source_prior": 372,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Meyer Shields",
+      "firm": "Keefe, Bruyette & Woods",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Pablo Singzon",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 379,
+      "source_prior": 352,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Pablo Singzon",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Bob Huang",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 350,
+      "source_prior": 330,
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    },
+    {
+      "analyst": "Bob Huang",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Underweight",
+      "bucket": "Sell",
+      "issued_at": "2026-10-19",
+      "public_at": "2026-10-19T23:59:59-04:00",
+      "source": "https://www.stockanalysis.com/stocks/trv/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E Core EPS viewed at the 12-month target date)",
+    "bear": 342.0,
+    "base": 406.25,
+    "bull": 459.0,
+    "cases": {
+      "bear": {
+        "driver": "Elevated catastrophe losses, faster commercial lines pricing moderation, and lower reserve releases push combined ratio above 92%",
+        "assumption": "EPS $28.50 at 12.0x",
+        "target": 342.0
+      },
+      "base": {
+        "driver": "Underlying combined ratio holds near 85%-86% and after-tax net investment income remains durable above $3.6B, supporting normalized FY2027E earnings",
+        "assumption": "EPS $31.25 at 13.0x",
+        "target": 406.25
+      },
+      "bull": {
+        "driver": "Benign catastrophe activity, disciplined commercial and personal rate retention, and continued share buybacks lift FY2027E EPS toward the top of Street estimates",
+        "assumption": "EPS $34.00 at 13.5x",
+        "target": 459.0
+      }
+    },
+    "implied_by_close": "At base EPS of $31.25 the $403.23 close implies 12.90x; the published Street consensus target (~$376.63-$384.08) implies 12.05x-12.29x at base EPS or $28.97-$29.54 EPS at 13.0x",
+    "sensitivity": "One turn of P/E moves the base target by $31.25 (7.7 pp)",
+    "watch_metric": "Consolidated underlying combined ratio (vs. 85%-86% target range) and after-tax net investment income",
+    "next_disclosure": "Q4 2026 earnings release (expected January 20-21, 2027)"
+  },
+  "dividend_per_share": 5.0,
+  "analyst_notes": "Following Q3 2026 earnings on October 16, 2026 (Core EPS $9.18, consolidated combined ratio 86.8%), all six tracked analysts raised their price targets, with Roth MKM ($460) and Truist ($435) maintaining Buy ratings while KBW ($382), J.P. Morgan ($379), Mizuho ($373), and Morgan Stanley ($350) stayed Neutral/Underweight. The Street consensus target (~$376.63-$384.08) sits roughly 5%-7% below the $403.23 close, reflecting caution on valuation after the stock's rally and expected EPS normalization from ~$36+ in FY2026 to ~$31.11 in FY2027. Our base case ($406.25, +0.7% upside) is slightly above consensus, assuming a 13.0x multiple on $31.25 FY2027E EPS.",
+  "sources": [
+    {
+      "label": "TRV Q3 2026 Earnings Release",
+      "url": "https://www.insurancejournal.com/news/national/2026/10/16/",
+      "supports": "Q3 2026 Core EPS ($9.18), Net EPS ($9.04), combined ratio (86.8%), underlying combined ratio (84.1%), net investment income ($1.098B pre-tax), book value ($141.48) and adjusted book value ($172.47)"
+    },
+    {
+      "label": "StockAnalysis TRV Analyst Forecast",
+      "url": "https://www.stockanalysis.com/stocks/trv/forecast/",
+      "supports": "12-month target horizon, named analyst targets/ratings (Harry Fong, Mark Hughes, Meyer Shields, Pablo Singzon, Bob Huang, Yaron Kinar), and consensus target ($376.63)"
+    },
+    {
+      "label": "Seeking Alpha / Zacks TRV 2027 EPS Estimates",
+      "url": "https://seekingalpha.com/symbol/TRV/earnings/estimates",
+      "supports": "FY2027 consensus EPS (~$31.11, range $28.61-$34.20) and FY2026 EPS (~$36.27-$36.80)"
+    },
+    {
+      "label": "Travelers Dividend History",
+      "url": "https://www.dividend.com/stocks/financials/insurance/property-casualty-insurance/trv-the-travelers-companies/",
+      "supports": "Quarterly dividend of $1.25 per share ($5.00 annualized)"
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "issuer_id": "Apollo Global Management, Inc.",
+  "symbol": "APO",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 123.47,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-03T07:00:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Bill Katz",
+      "firm": "TD Cowen",
+      "field": "target",
+      "value": 136,
+      "source_prior": 154,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Bill Katz",
+      "firm": "TD Cowen",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Kenneth Worthington",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 157,
+      "source_prior": 153,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Kenneth Worthington",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Benjamin Budish",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 156,
+      "source_prior": 157,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Benjamin Budish",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Crispin Love",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 145,
+      "source_prior": 159,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Crispin Love",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.investing.com/"
+    },
+    {
+      "analyst": "Brennan Hawken",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 124,
+      "source_prior": 134,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/"
+    },
+    {
+      "analyst": "Brennan Hawken",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Market Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.benzinga.com/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward Adjusted Net Income (ANI) per share x justified P/E at the 12-month target date (FY2027E ANI/share)",
+    "bear": 109.38,
+    "base": 142.83,
+    "bull": 177.38,
+    "cases": {
+      "bear": {
+        "driver": "Slower SRE growth from spread compression and lower alternative investment returns, with multiple compression",
+        "assumption": "FY2027E ANI/share $8.75 at 12.5x P/E",
+        "target": 109.38
+      },
+      "base": {
+        "driver": "Management-targeted >20% FRE growth and ~10% SRE growth supported by record $114B quarterly origination and $1.074T AUM",
+        "assumption": "FY2027E ANI/share $9.85 at 14.5x P/E",
+        "target": 142.83
+      },
+      "bull": {
+        "driver": "Above-target FRE expansion (>20%), Athene alternative returns above 11% baseline, and multiple expansion",
+        "assumption": "FY2027E ANI/share $10.75 at 16.5x P/E",
+        "target": 177.38
+      }
+    },
+    "implied_by_close": "At base FY2027E ANI/share of $9.85, the $123.47 close implies 12.5x P/E; the Street consensus target (~$145-$148) implies ~14.7x-15.0x at base EPS, or $10.00-$10.21 EPS at 14.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $9.85 (+8.0 pp of price return).",
+    "watch_metric": "Fee-Related Earnings (FRE) growth, Spread-Related Earnings (SRE) ex-notable items, and quarterly gross origination volume",
+    "next_disclosure": "Q4 2026 earnings release and FY2026 Form 10-K (expected February 2027)"
+  },
+  "dividend_per_share": 2.25,
+  "analyst_notes": "Following Q3 2026 earnings on November 3, 2026 ($2.07 ANI/share vs. $2.22 consensus, record $802M FRE, and $909M SRE ex-notables), most covering analysts trimmed price targets (TD Cowen $154->$136, Piper Sandler $159->$145, BMO $134->$124, Barclays $157->$156) while JPMorgan raised to $157 from $153. The sample of 5 named analysts averages $143.60 (+16.3% upside), closely aligned with our $142.83 base case (+15.7% upside). Target horizons are marked null where brokerages did not explicitly state 12-month horizons in the cited summaries.",
+  "sources": [
+    {
+      "label": "Apollo Q3 2026 Earnings Release",
+      "url": "https://ir.apollo.com/",
+      "supports": "Q3 2026 FRE ($802M), SRE ($909M ex-notables), ANI ($2.07/share), AUM ($1.074T), dividend ($0.5625/quarter)"
+    },
+    {
+      "label": "MarketBeat APO Consensus & Estimates",
+      "url": "https://www.marketbeat.com/",
+      "supports": "FY2027E consensus EPS (~$9.82-$9.86) and Street average price target (~$145-$148)"
+    },
+    {
+      "label": "Benzinga / StreetInsider Analyst Rating Updates",
+      "url": "https://www.benzinga.com/",
+      "supports": "Post-Q3 2026 named analyst target revisions and ratings (Nov 4, 2026)"
+    }
+  ]
+}

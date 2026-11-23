@@ -1,0 +1,238 @@
+{
+  "issuer_id": "Becton, Dickinson and Company",
+  "symbol": "BDX",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 218.03,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T06:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Larry Biegelsen",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 242,
+      "source_prior": 170,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/wells-fargo-upgrades-bdx-stock-rating-raises-price-target-to-242-93CH-4339123"
+    },
+    {
+      "analyst": "Larry Biegelsen",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/wells-fargo-upgrades-bdx-stock-rating-raises-price-target-to-242-93CH-4339123"
+    },
+    {
+      "analyst": "Joanna Wuensch",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 241,
+      "source_prior": 208,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/BDX/analyst-ratings"
+    },
+    {
+      "analyst": "Joanna Wuensch",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/BDX/analyst-ratings"
+    },
+    {
+      "analyst": "Vijay Kumar",
+      "firm": "Evercore ISI",
+      "field": "target",
+      "value": 230,
+      "source_prior": 210,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/BDX/analyst-ratings"
+    },
+    {
+      "analyst": "Vijay Kumar",
+      "firm": "Evercore ISI",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/BDX/analyst-ratings"
+    },
+    {
+      "analyst": "Kendall Au",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 225,
+      "source_prior": 190,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/BDX/analyst-ratings"
+    },
+    {
+      "analyst": "Kendall Au",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Sector Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/BDX/analyst-ratings"
+    },
+    {
+      "analyst": "Robert Marcus",
+      "firm": "JPMorgan",
+      "field": "target",
+      "value": 202,
+      "source_prior": 170,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.benzinga.com/quote/BDX/analyst-ratings"
+    },
+    {
+      "analyst": "Robert Marcus",
+      "firm": "JPMorgan",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.benzinga.com/quote/BDX/analyst-ratings"
+    },
+    {
+      "analyst": "Jason Bednar",
+      "firm": "Piper Sandler",
+      "field": "target",
+      "value": 200,
+      "source_prior": 175,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/bdx/forecast/"
+    },
+    {
+      "analyst": "Jason Bednar",
+      "firm": "Piper Sandler",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/bdx/forecast/"
+    },
+    {
+      "analyst": "Matthew Taylor",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 242,
+      "source_prior": 210,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/news/analyst-ratings/jefferies-raises-bdx-price-target-to-242-maintains-buy-rating-93CH-4339200"
+    },
+    {
+      "analyst": "Matthew Taylor",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/jefferies-raises-bdx-price-target-to-242-maintains-buy-rating-93CH-4339200"
+    },
+    {
+      "analyst": "Travis Steed",
+      "firm": "BofA Securities",
+      "field": "target",
+      "value": 225,
+      "source_prior": 200,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://stockanalysis.com/stocks/bdx/forecast/"
+    },
+    {
+      "analyst": "Travis Steed",
+      "firm": "BofA Securities",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://stockanalysis.com/stocks/bdx/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027 adjusted diluted EPS viewed at the 12-month target date)",
+    "bear": 182.7,
+    "base": 224.4,
+    "bull": 251.6,
+    "cases": {
+      "bear": {
+        "driver": "Alaris capital comparison headwind (~200 bps), China softness, and inflationary margin pressure",
+        "assumption": "FY2027 adjusted EPS $12.60 at 14.5x",
+        "target": 182.7
+      },
+      "base": {
+        "driver": "Low single-digit constant-currency revenue growth and flat operating margins per management FY2027 guidance",
+        "assumption": "FY2027 adjusted EPS $13.20 (guidance midpoint of $13.10-$13.30) at 17.0x",
+        "target": 224.4
+      },
+      "bull": {
+        "driver": "Stronger Interventional and BioPharma Systems growth with productivity-led margin expansion",
+        "assumption": "FY2027 adjusted EPS $13.60 at 18.5x",
+        "target": 251.6
+      }
+    },
+    "implied_by_close": "At base FY2027 EPS of $13.20, the $218.03 close implies 16.5x; the equal-weight named-analyst target of $225.88 implies 17.1x (or $13.29 EPS at 17.0x).",
+    "sensitivity": "One turn of P/E moves the base target by $13.20 (6.1 pp)",
+    "watch_metric": "Constant-currency revenue growth (ex-Alaris headwind) and adjusted operating margin in Q1 FY2027",
+    "next_disclosure": "Q1 FY2027 earnings release (expected early February 2027)"
+  },
+  "dividend_per_share": 4.24,
+  "analyst_notes": "Following BDX's Q4 FY2026 earnings release on 2026-11-05, all 8 tracked analysts raised their price targets on 2026-11-06, including a Wells Fargo upgrade to Overweight ($170 to $242). The equal-weight target of $225.88 (+3.6% upside) sits very close to the independent base case of $224.40 (+2.9% upside), with a 0.7 pp gap reflecting roughly 0.1x higher implied P/E. Target dispersion remains wide ($200 to $242), split evenly between 4 Buy and 4 Hold ratings.",
+  "sources": [
+    {
+      "label": "BD Q4 & FY2026 Earnings Release (2026-11-05)",
+      "url": "https://investors.bd.com/news-releases/news-release-details/bd-reports-fourth-quarter-and-full-fiscal-year-2026-results",
+      "supports": "Q4/FY2026 revenue, adjusted EPS, free cash flow, FY2027 guidance ($13.10-$13.30)"
+    },
+    {
+      "label": "BD Dividend Increase Announcement (2026-11-05)",
+      "url": "https://www.prnewswire.com/news-releases/bd-increases-dividend-for-55th-consecutive-fiscal-year-302599123.html",
+      "supports": "Quarterly dividend $1.06/share ($4.24 indicated annual rate)"
+    },
+    {
+      "label": "Benzinga BDX Analyst Ratings",
+      "url": "https://www.benzinga.com/quote/BDX/analyst-ratings",
+      "supports": "Citigroup, Evercore ISI, RBC Capital, JPMorgan 2026-11-06 analyst calls"
+    },
+    {
+      "label": "StockAnalysis BDX Forecast",
+      "url": "https://stockanalysis.com/stocks/bdx/forecast/",
+      "supports": "Piper Sandler and BofA Securities 2026-11-06 analyst calls"
+    },
+    {
+      "label": "Investing.com BDX Analyst Ratings",
+      "url": "https://www.investing.com/news/analyst-ratings/wells-fargo-upgrades-bdx-stock-rating-raises-price-target-to-242-93CH-4339123",
+      "supports": "Wells Fargo and Jefferies 2026-11-06 analyst calls"
+    }
+  ]
+}

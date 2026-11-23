@@ -1,0 +1,170 @@
+{
+  "issuer_id": "Cummins Inc.",
+  "symbol": "CMI",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 452.18,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-05T07:30:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Adam Seiden",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 600,
+      "source_prior": 675,
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.lighthorse.io"
+    },
+    {
+      "analyst": "Adam Seiden",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-09",
+      "public_at": "2026-11-09T23:59:59-05:00",
+      "source": "https://www.lighthorse.io"
+    },
+    {
+      "analyst": "Jerry Revich",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 520,
+      "source_prior": 608,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.lighthorse.io"
+    },
+    {
+      "analyst": "Jerry Revich",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.lighthorse.io"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 637,
+      "source_prior": 779,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.lighthorse.io"
+    },
+    {
+      "analyst": "Jamie Cook",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.lighthorse.io"
+    },
+    {
+      "analyst": "Kyle Menges",
+      "firm": "Citigroup",
+      "field": "target",
+      "value": 525,
+      "source_prior": 630,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.lighthorse.io"
+    },
+    {
+      "analyst": "Kyle Menges",
+      "firm": "Citigroup",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.lighthorse.io"
+    },
+    {
+      "analyst": "Tami Zakaria",
+      "firm": "JPMorgan Chase & Co.",
+      "field": "target",
+      "value": 465,
+      "source_prior": 600,
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com"
+    },
+    {
+      "analyst": "Tami Zakaria",
+      "firm": "JPMorgan Chase & Co.",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-06",
+      "public_at": "2026-11-06T23:59:59-05:00",
+      "source": "https://www.marketbeat.com"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E diluted EPS viewed at the 12-month target date)",
+    "bear": 392.0,
+    "base": 498.75,
+    "bull": 608.0,
+    "cases": {
+      "bear": {
+        "driver": "North America heavy-duty truck cycle softens further and pickup demand remains weak, compressing margins",
+        "assumption": "EPS $24.50 at 16.0x",
+        "target": 392.0
+      },
+      "base": {
+        "driver": "Power Systems and data center power generation strength offsets moderate truck/pickup softness, with ~18% EBITDA margin",
+        "assumption": "EPS $28.50 at 17.5x",
+        "target": 498.75
+      },
+      "bull": {
+        "driver": "EPA 2027 pre-buy accelerates heavy-duty truck demand alongside sustained data center power generation growth",
+        "assumption": "EPS $32.00 at 19.0x",
+        "target": 608.0
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $28.50, the $452.18 close implies 15.9x P/E; the 5 named post-Q3 analyst targets (unweighted average $549.40, undocumented horizon) imply 19.3x at base EPS or $31.39 EPS at 17.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $28.50 (6.3 pp)",
+    "watch_metric": "Power Systems and Engine segment EBITDA margins and full-year 2027 revenue/margin guidance",
+    "next_disclosure": "Q4 & FY2026 earnings release (expected February 2027)"
+  },
+  "dividend_per_share": 8.8,
+  "analyst_notes": "Following Q3 2026 earnings on Nov 5, 2026, all 5 named analysts in the sample (Barclays, Wells Fargo, Truist, Citigroup, JPMorgan) cut their price targets by 11% to 22.5% while maintaining their ratings (4 Buy/Overweight, 1 Neutral). The simple mean of their targets ($549.40) implies +21.5% upside, 11.2 pp above the independent base case (+10.3%), which translates to either ~1.8 turns higher P/E (19.3x vs. 17.5x) or ~$2.89 higher FY2027E EPS ($31.39 vs. $28.50).",
+  "sources": [
+    {
+      "label": "Cummins Q3 2026 Earnings Release & 10-Q",
+      "url": "https://www.cummins.com",
+      "supports": "Q3 2026 revenue $9.4B, diluted EPS $8.25, 9M 2026 EPS $19.70, FY2026 guidance (~10% revenue growth, ~18.2% EBITDA margin)"
+    },
+    {
+      "label": "Cummins FY2025 Form 10-K",
+      "url": "https://www.cummins.com",
+      "supports": "FY2025 revenue $33.67B, diluted EPS $20.50, ~138.6M diluted shares"
+    },
+    {
+      "label": "Cummins Q3 2026 Dividend Declaration",
+      "url": "https://www.cummins.com",
+      "supports": "Quarterly dividend $2.20/share ($8.80 annualized)"
+    },
+    {
+      "label": "MarketBeat & Lighthorse CMI Analyst Ratings",
+      "url": "https://www.marketbeat.com",
+      "supports": "Post-Q3 2026 analyst target and rating updates (Barclays, Wells Fargo, Truist, Citigroup, JPMorgan)"
+    }
+  ]
+}

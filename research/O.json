@@ -1,0 +1,230 @@
+{
+  "issuer_id": "Realty Income Corporation",
+  "symbol": "O",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 58.82,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-11-02T16:05:00-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "James Feldman",
+      "firm": "Wells Fargo",
+      "field": "target",
+      "value": 61,
+      "source_prior": 59,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.marketbeat.com/stocks/NYSE/O/forecast/"
+    },
+    {
+      "analyst": "James Feldman",
+      "firm": "Wells Fargo",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://www.marketbeat.com/stocks/NYSE/O/forecast/"
+    },
+    {
+      "analyst": "Linda Tsai",
+      "firm": "Truist Securities",
+      "field": "target",
+      "value": 63,
+      "source_prior": 60,
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Linda Tsai",
+      "firm": "Truist Securities",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-11-05",
+      "public_at": "2026-11-05T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/"
+    },
+    {
+      "analyst": "Brad Heffern",
+      "firm": "RBC Capital",
+      "field": "target",
+      "value": 61,
+      "source_prior": 60,
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Brad Heffern",
+      "firm": "RBC Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-04",
+      "public_at": "2026-11-04T23:59:59-05:00",
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Richard Hightower",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 61,
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Richard Hightower",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Equal-Weight",
+      "bucket": "Hold",
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Haendel St. Juste",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 59,
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Haendel St. Juste",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-10-20",
+      "public_at": "2026-10-20T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Simon Yarmak",
+      "firm": "Stifel",
+      "field": "target",
+      "value": 63.75,
+      "source_prior": 70.75,
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Simon Yarmak",
+      "firm": "Stifel",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-10-15",
+      "public_at": "2026-10-15T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Nicholas Yulico",
+      "firm": "Scotiabank",
+      "field": "target",
+      "value": 59,
+      "source_prior": 67,
+      "issued_at": "2026-09-24",
+      "public_at": "2026-09-24T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.tipranks.com/stocks/o/forecast"
+    },
+    {
+      "analyst": "Nicholas Yulico",
+      "firm": "Scotiabank",
+      "field": "rating",
+      "value": "Sector Perform",
+      "bucket": "Hold",
+      "issued_at": "2026-09-24",
+      "public_at": "2026-09-24T23:59:59-04:00",
+      "source": "https://www.tipranks.com/stocks/o/forecast"
+    },
+    {
+      "analyst": "Wesley Golladay",
+      "firm": "Robert W. Baird",
+      "field": "target",
+      "value": 65,
+      "issued_at": "2026-08-15",
+      "public_at": "2026-08-15T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    },
+    {
+      "analyst": "Wesley Golladay",
+      "firm": "Robert W. Baird",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-08-15",
+      "public_at": "2026-08-15T23:59:59-04:00",
+      "source": "https://www.investing.com/equities/realty-income-consensus-estimates"
+    }
+  ],
+  "valuation": {
+    "method": "Forward AFFO per share x P/AFFO multiple (FY2027E AFFO viewed at the 12-month target date)",
+    "bear": 54.0,
+    "base": 62.1,
+    "bull": 70.5,
+    "cases": {
+      "bear": {
+        "driver": "Higher-for-longer Treasury yields compress acquisition spreads and slow external growth",
+        "assumption": "FY2027E AFFO $4.50 at 12.0x",
+        "target": 54.0
+      },
+      "base": {
+        "driver": "Steady ~3.3% AFFO growth from $4.455 FY2026 midpoint, supported by $10B investment volume at ~6.8% initial cash yield",
+        "assumption": "FY2027E AFFO $4.60 at 13.5x",
+        "target": 62.1
+      },
+      "bull": {
+        "driver": "Lower benchmark yields widen investment spreads and accelerate European and private capital JV contributions",
+        "assumption": "FY2027E AFFO $4.70 at 15.0x",
+        "target": 70.5
+      }
+    },
+    "implied_by_close": "At base FY2027E AFFO of $4.60, the $58.82 close implies 12.8x P/AFFO; the $61.72 equal-weight analyst target implies 13.4x P/AFFO or $4.57 AFFO at 13.5x.",
+    "sensitivity": "One turn of P/AFFO moves the base target by $4.60 (7.8 pp).",
+    "watch_metric": "FY2027 AFFO per share growth, initial cash investment yield vs. weighted average cost of capital, and 10-year Treasury yield.",
+    "next_disclosure": "Q4 2026 earnings release and FY2027 AFFO guidance (expected February 2027)."
+  },
+  "dividend_per_share": 3.288,
+  "analyst_notes": "Following Realty Income's Q3 2026 earnings release on November 2, 2026 (AFFO of $1.12/sh and raised FY2026 AFFO guidance of $4.45-$4.46/sh), Wells Fargo ($61 from $59), Truist ($63 from $60), and RBC Capital ($61 from $60) edged targets higher while keeping predominantly Hold/Equal-Weight stances. Earlier in the fall, Scotiabank downgraded to Sector Perform ($59 from $67) and Stifel trimmed its target ($63.75 from $70.75) due to interest rate sensitivity and compressed acquisition spreads. The $61.72 equal-weight sample target sits closely in line with our $62.10 base case (+4.9% vs +5.6% upside), with cautious Hold ratings reflecting competition from risk-free Treasury yields.",
+  "sources": [
+    {
+      "label": "Realty Income Q3 2026 Earnings Release (Nov 2, 2026)",
+      "url": "https://www.realtyincome.com/investors/press-releases",
+      "supports": "Q3 2026 AFFO ($1.12/sh), FY2026 AFFO guidance ($4.45-$4.46/sh), $10B investment volume, 6.8% initial cash yield"
+    },
+    {
+      "label": "MarketBeat Realty Income (O) Analyst Forecast",
+      "url": "https://www.marketbeat.com/stocks/NYSE/O/forecast/",
+      "supports": "Wells Fargo and Truist analyst ratings and price targets"
+    },
+    {
+      "label": "Investing.com Realty Income (O) Consensus Estimates",
+      "url": "https://www.investing.com/equities/realty-income-consensus-estimates",
+      "supports": "RBC Capital, Barclays, Mizuho, Stifel, and Baird ratings and price targets"
+    },
+    {
+      "label": "TipRanks Realty Income (O) Forecast",
+      "url": "https://www.tipranks.com/stocks/o/forecast",
+      "supports": "Scotiabank downgrade and $59 price target, dividend history"
+    }
+  ]
+}

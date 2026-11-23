@@ -1,0 +1,165 @@
+{
+  "issuer_id": "NetEase, Inc.",
+  "symbol": "NTES",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 122.18,
+    "close_date": "2026-11-13"
+  },
+  "currency": "USD",
+  "earnings_at": "2026-08-20T08:00:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Daniel Chen",
+      "firm": "J.P. Morgan",
+      "field": "target",
+      "value": 180.0,
+      "source_prior": null,
+      "issued_at": "2026-08-25",
+      "public_at": "2026-08-25T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Daniel Chen",
+      "firm": "J.P. Morgan",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-25",
+      "public_at": "2026-08-25T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Lincoln Kong",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 168.0,
+      "source_prior": 169.0,
+      "issued_at": "2026-08-24",
+      "public_at": "2026-08-24T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Lincoln Kong",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-24",
+      "public_at": "2026-08-24T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Saiyi He",
+      "firm": "CMB International Securities",
+      "field": "target",
+      "value": 160.0,
+      "source_prior": 155.0,
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Saiyi He",
+      "firm": "CMB International Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Jiong Shao",
+      "firm": "Barclays",
+      "field": "target",
+      "value": 132.0,
+      "source_prior": null,
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Jiong Shao",
+      "firm": "Barclays",
+      "field": "rating",
+      "value": "Hold",
+      "bucket": "Hold",
+      "issued_at": "2026-08-21",
+      "public_at": "2026-08-21T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Yang Liu",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 163.0,
+      "source_prior": null,
+      "issued_at": "2026-09-28",
+      "public_at": "2026-09-28T23:59:59-04:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    },
+    {
+      "analyst": "Yang Liu",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-09-28",
+      "public_at": "2026-09-28T23:59:59-04:00",
+      "source": "https://stockanalysis.com/stocks/ntes/forecast/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E (FY2027E non-GAAP diluted EPS per ADS in USD viewed at the 12-month target date; 1 ADS = 5 ordinary shares)",
+    "bear": 120.0,
+    "base": 161.0,
+    "bull": 193.75,
+    "cases": {
+      "bear": {
+        "driver": "Gaming revenue softness, domestic competition, and slower pipeline monetization",
+        "assumption": "FY2027E EPS $12.00 per ADS at 10.0x P/E",
+        "target": 120.0
+      },
+      "base": {
+        "driver": "Steady core franchise performance, Where Winds Meet global contribution, and 2027 pipeline launches",
+        "assumption": "FY2027E EPS $14.00 per ADS at 11.5x P/E",
+        "target": 161.0
+      },
+      "bull": {
+        "driver": "Stronger-than-expected global game launches (e.g., Ananta), margin expansion, and ongoing buybacks",
+        "assumption": "FY2027E EPS $15.50 per ADS at 12.5x P/E",
+        "target": 193.75
+      }
+    },
+    "implied_by_close": "At base FY2027E EPS of $14.00, the $122.18 close implies 8.7x P/E; the 5-analyst weighted target (~$161.18) implies 11.5x P/E at base EPS (or $14.02 EPS at 11.5x).",
+    "sensitivity": "One turn of P/E moves the base target by $14.00 (11.5 pp of upside).",
+    "watch_metric": "Online games net revenue growth and deferred revenue balance",
+    "next_disclosure": "Q3 2026 earnings release (scheduled November 19, 2026)"
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "Following Q2 2026 earnings on August 20, 2026, 4 of the 5 tracked named analysts updated or reiterated their views in late August (J.P. Morgan at $180, Goldman Sachs at $168 from $169, CMB International at $160 from $155, Barclays at $132), and Morgan Stanley reiterated Overweight at $163 on September 28, 2026. The 5-analyst sample is skewed toward Buy (4 Buy, 1 Hold) and sits closely in line with the $161.00 base case (~0.1 pp gap), with Barclays' $132 Hold target reflecting a more conservative stance on near-term entertainment spending.",
+  "sources": [
+    {
+      "label": "NetEase Q2 2026 Unaudited Financial Results (Aug 20, 2026)",
+      "url": "https://ir.netease.com/news-releases/news-release-details/netease-announces-second-quarter-2026-unaudited-financial-results",
+      "supports": "Q2 2026 earnings release date, EPS per ADS, and 1:5 ADS ratio"
+    },
+    {
+      "label": "StockAnalysis NTES Analyst Forecast & Targets",
+      "url": "https://stockanalysis.com/stocks/ntes/forecast/",
+      "supports": "Named analyst ratings, price targets, and FY2026/FY2027 consensus EPS"
+    },
+    {
+      "label": "TipRanks NTES Analyst Ratings",
+      "url": "https://www.tipranks.com/stocks/ntes/forecast",
+      "supports": "Analyst names, firms, and 12-month target horizon"
+    }
+  ]
+}

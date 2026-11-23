@@ -1,0 +1,235 @@
+{
+  "issuer_id": "Anthropic, PBC",
+  "symbol": "ANT",
+  "researched_at": "2026-11-21",
+  "research_close": {
+    "close": 88.91,
+    "close_date": "2026-11-20"
+  },
+  "currency": "USD",
+  "earnings_at": null,
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Pierre Ferragu",
+      "firm": "New Street Research",
+      "field": "target",
+      "value": 105,
+      "horizon_months": null,
+      "issued_at": "2026-11-17",
+      "public_at": "2026-11-17T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/new-street-initiates-anthropic-stock-coverage-with-buy-rating-93CH-5032748"
+    },
+    {
+      "analyst": "Pierre Ferragu",
+      "firm": "New Street Research",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-17",
+      "public_at": "2026-11-17T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/new-street-initiates-anthropic-stock-coverage-with-buy-rating-93CH-5032748"
+    },
+    {
+      "analyst": "Scott Berg",
+      "firm": "Needham",
+      "field": "target",
+      "value": 150,
+      "horizon_months": null,
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://investing.com/news/analyst-ratings/needham-initiates-anthropic-stock-coverage-with-buy-rating-150-target-93CH-5038370"
+    },
+    {
+      "analyst": "Scott Berg",
+      "firm": "Needham",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://investing.com/news/analyst-ratings/needham-initiates-anthropic-stock-coverage-with-buy-rating-150-target-93CH-5038370"
+    },
+    {
+      "analyst": "Ben Reitzes",
+      "firm": "Melius Research",
+      "field": "target",
+      "value": 155,
+      "horizon_months": null,
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/melius-initiates-anthropic-stock-with-buy-rating-on-margin-outlook-93CH-5038470"
+    },
+    {
+      "analyst": "Ben Reitzes",
+      "firm": "Melius Research",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://www.investing.com/news/analyst-ratings/melius-initiates-anthropic-stock-with-buy-rating-on-margin-outlook-93CH-5038470"
+    },
+    {
+      "analyst": "Patrick Walravens",
+      "firm": "Citizens JMP",
+      "field": "target",
+      "value": 125,
+      "horizon_months": null,
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://www.gurufocus.com/news/9210068/ant-initiates-coverage-by-citizens-price-target-announced-at-125"
+    },
+    {
+      "analyst": "Patrick Walravens",
+      "firm": "Citizens JMP",
+      "field": "rating",
+      "value": "Market Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://www.gurufocus.com/news/9210068/ant-initiates-coverage-by-citizens-price-target-announced-at-125"
+    },
+    {
+      "analyst": "Alex Zukin",
+      "firm": "Wolfe Research",
+      "field": "target",
+      "value": 135,
+      "horizon_months": null,
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://www.defenseworld.net/2026/11/21/anthropic-pbc-nasdaqant-now-covered-by-analysts-at-seaport-research-partners.html"
+    },
+    {
+      "analyst": "Alex Zukin",
+      "firm": "Wolfe Research",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://www.defenseworld.net/2026/11/21/anthropic-pbc-nasdaqant-now-covered-by-analysts-at-seaport-research-partners.html"
+    },
+    {
+      "analyst": "Jay Goldberg",
+      "firm": "Seaport Research Partners",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://www.defenseworld.net/2026/11/21/anthropic-pbc-nasdaqant-now-covered-by-analysts-at-seaport-research-partners.html"
+    },
+    {
+      "analyst": "Arjun Bhatia",
+      "firm": "William Blair",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-19",
+      "public_at": "2026-11-19T23:59:59-05:00",
+      "source": "https://www.defenseworld.net/2026/11/21/anthropic-pbc-nasdaqant-now-covered-by-william-blair.html"
+    }
+  ],
+  "valuation": {
+    "method": "Loss-making growth company: forward EV/revenue. Target-date (Nov 2027) investor prices NTM revenue (about FY2028). Equity = (NTM revenue x EV/revenue + net cash at target date) / ~18.5B fully diluted shares (about 18.1B implied by the $1.5T fully diluted value at the $83 IPO price, plus about 2% dilution). Net cash starts near $213B (about $131.8B cash and short-term investments at 2026-09-30 plus about $81.3B IPO proceeds) and is reduced for compute capex burn; debt and exact diluted count are not verified from the filing, so net cash and share count are model assumptions. USD listing, no FX. Operating loss was only $1.26B on $33.2B 9M revenue; the $104B net loss is mostly non-cash fair-value changes.",
+    "bear": 43.24,
+    "base": 90.27,
+    "bull": 151.35,
+    "cases": {
+      "bear": {
+        "driver": "Growth slows sharply (Seaport flags a Q3 slowdown); NTM revenue about $140B vs $81B Oct-2026 run-rate; AI-multiple compression; heavy compute cash burn.",
+        "assumption": "NTM revenue $140B x 5x EV/revenue + $100B net cash = $800B equity / 18.5B shares",
+        "target": 43.24
+      },
+      "base": {
+        "driver": "Run-rate $81B (Oct 2026) keeps compounding: FY2026 about $53-55B, FY2027 about $120B, NTM revenue at target date about $190B; operating margin moves toward breakeven-plus.",
+        "assumption": "NTM revenue $190B x 8x EV/revenue + $150B net cash = $1,670B equity / 18.5B shares",
+        "target": 90.27
+      },
+      "bull": {
+        "driver": "Enterprise adoption sustains hypergrowth, NTM revenue about $260B (in line with Needham-style FY2027-28 revenue of about $150B+ and rising); margins on path to 30%.",
+        "assumption": "NTM revenue $260B x 10x EV/revenue + $200B net cash = $2,800B equity / 18.5B shares",
+        "target": 151.35
+      }
+    },
+    "implied_by_close": "At base NTM revenue of $190B the close (about $1.64T on 18.5B shares; about $1.4T EV after about $200B net cash) implies about 7.4x EV/revenue; the equal-weight analyst target of about $134 implies about 12.3x, or about $230B of NTM revenue at 8x.",
+    "sensitivity": "One turn of EV/revenue moves the base target by $10.27 (11.6% of the base, 11.5% of the close); $10B of NTM revenue at 8x moves it by $4.32.",
+    "watch_metric": "Quarterly revenue and run-rate growth (Q3 2026 revenue $17.0B vs $11.6B in Q2) and operating margin; the base needs run-rate to reach about $190B by Q3 2027 with operating loss near breakeven.",
+    "next_disclosure": "First public-company earnings report (Q4 2026), expected early 2027; date not yet announced in sources found."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "All named calls are initiations from 2026-11-17 to 2026-11-19 (IPO week), so there are no revisions yet and no earnings release since listing; five targets run $105 to $155 (equal-weight about $134, range 48%), versus the $88.91 close. Gap to the base is about 12.3x versus 7.4x EV/revenue at $190B NTM revenue, or equivalently about $300B+ of NTM revenue at 8x; Melius uses 6x 2029 revenue of $430B on a two-year target and William Blair 17-20x revenue (implied $130-150, no formal target), so the horizons and revenue years differ. Lead IPO underwriters are research-restricted, so the sample is concentrated in independents; no target horizon is documented as 12 months, so none enters the weighted target. Citizens, Wolfe, Seaport and William Blair dates are from secondary reports (initiation week), and Seaport has no target.",
+  "sources": [
+    {
+      "label": "CNBC: IPO debut, $1.8T market cap",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "supports": "IPO price $83, debut, market cap"
+    },
+    {
+      "label": "CNBC: first full trading day fall",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+      "supports": "2026-11-20 close, $88.91 reference"
+    },
+    {
+      "label": "CNBC: Anthropic IPO raises $81B",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "supports": "Offering size, proceeds"
+    },
+    {
+      "label": "Amended S-1 coverage",
+      "url": "https://filinginsights.substack.com/p/anthropics-amended-s-1-adds-a-third",
+      "supports": "Q3 revenue, compute commitments"
+    },
+    {
+      "label": "SEC EDGAR Form S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm",
+      "supports": "Filing (secondary figures not verified against it)"
+    },
+    {
+      "label": "Market cap and shares explainer",
+      "url": "https://wolf.financial/blog/anthropic-market-cap",
+      "supports": "Shares outstanding, diluted count"
+    },
+    {
+      "label": "Investing.com: New Street",
+      "url": "https://www.investing.com/news/analyst-ratings/new-street-initiates-anthropic-stock-coverage-with-buy-rating-93CH-5032748",
+      "supports": "Ferragu Buy, $105"
+    },
+    {
+      "label": "Investing.com: Needham",
+      "url": "https://investing.com/news/analyst-ratings/needham-initiates-anthropic-stock-coverage-with-buy-rating-150-target-93CH-5038370",
+      "supports": "Berg Buy, $150; 18x FY2027 revenue"
+    },
+    {
+      "label": "Investing.com: Melius",
+      "url": "https://www.investing.com/news/analyst-ratings/melius-initiates-anthropic-stock-with-buy-rating-on-margin-outlook-93CH-5038470",
+      "supports": "Reitzes Buy, $155, two-year, 6x 2029 revenue"
+    },
+    {
+      "label": "GuruFocus: Citizens",
+      "url": "https://www.gurufocus.com/news/9210068/ant-initiates-coverage-by-citizens-price-target-announced-at-125",
+      "supports": "Walravens $125"
+    },
+    {
+      "label": "Defense World: Seaport",
+      "url": "https://www.defenseworld.net/2026/11/21/anthropic-pbc-nasdaqant-now-covered-by-analysts-at-seaport-research-partners.html",
+      "supports": "Goldberg Neutral, no target; Wolfe $135"
+    },
+    {
+      "label": "GuruFocus: William Blair",
+      "url": "https://www.gurufocus.com/news/9212677/ant-initiated-coverage-by-william-blair-rated-outperform",
+      "supports": "Bhatia Outperform, no target"
+    },
+    {
+      "label": "MarketBeat ANT forecast",
+      "url": "https://www.marketbeat.com/stocks/NASDAQ/ANT/forecast/",
+      "supports": "Coverage cross-check"
+    },
+    {
+      "label": "TipRanks via Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/8950026/anthropic-stock-why-are-analysts-divided-after-record-ipo/",
+      "supports": "Analyst divergence summary"
+    }
+  ]
+}

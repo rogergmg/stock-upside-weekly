@@ -1,0 +1,43 @@
+{
+  "issuer_id": "Intuit Inc.",
+  "symbol": "INTU",
+  "researched_at": "2026-11-18",
+  "research_close": {"close": 341.7, "close_date": "2026-11-13"},
+  "currency": "USD",
+  "earnings_at": "2026-08-25T16:05:00-04:00",
+  "coverage": "partial",
+  "events": [
+    {"analyst": "Siti Panigrahi", "firm": "Mizuho", "field": "target", "value": 430, "source_prior": null, "issued_at": "2026-08-17", "public_at": "2026-08-17T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/"},
+    {"analyst": "Siti Panigrahi", "firm": "Mizuho", "field": "rating", "value": "Outperform", "bucket": "Buy", "issued_at": "2026-08-17", "public_at": "2026-08-17T23:59:59-04:00", "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/"},
+    {"analyst": "Truist analyst", "firm": "Truist", "field": "target", "value": 350, "source_prior": 410, "issued_at": "2026-08-03", "public_at": "2026-08-03T23:59:59-04:00", "horizon_months": null, "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/"},
+    {"analyst": "Truist analyst", "firm": "Truist", "field": "rating", "value": "Hold", "bucket": "Hold", "issued_at": "2026-08-03", "public_at": "2026-08-03T23:59:59-04:00", "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/"},
+    {"analyst": "Morgan Stanley analyst", "firm": "Morgan Stanley", "field": "target", "value": 315, "source_prior": 335, "issued_at": "2026-08-26", "public_at": "2026-08-26T23:59:59-04:00", "horizon_months": null, "source": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026"},
+    {"analyst": "Morgan Stanley analyst", "firm": "Morgan Stanley", "field": "rating", "value": "Equal Weight", "bucket": "Hold", "issued_at": "2026-08-26", "public_at": "2026-08-26T23:59:59-04:00", "source": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026"},
+    {"analyst": "Piper Sandler analyst", "firm": "Piper Sandler", "field": "target", "value": 290, "source_prior": null, "issued_at": "2026-08-26", "public_at": "2026-08-26T23:59:59-04:00", "horizon_months": null, "source": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026"},
+    {"analyst": "JPMorgan analyst", "firm": "JPMorgan", "field": "target", "value": 331, "source_prior": null, "issued_at": "2026-08-26", "public_at": "2026-08-26T23:59:59-04:00", "horizon_months": null, "source": "https://www.barchart.com/story/news/4138017/jpmorgan-just-downgraded-intuit-stock-here-s-why"},
+    {"analyst": "JPMorgan analyst", "firm": "JPMorgan", "field": "rating", "value": "Neutral", "bucket": "Hold", "issued_at": "2026-08-26", "public_at": "2026-08-26T23:59:59-04:00", "source": "https://www.barchart.com/story/news/4138017/jpmorgan-just-downgraded-intuit-stock-here-s-why"}
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E, forward period viewed at the 12-month target date (Nov 2027) taken as FY2028 (July 2028) non-GAAP diluted EPS. Anchor: FY2027 guidance of revenue $23.28-23.51B (+9-10%) and non-GAAP EPS $22.88-$23.12; from Aug 1 2026 Intuit no longer excludes share-based compensation, so this is not comparable with FY2026 $24.27. FY2028 EPS is my own assumption: bear $22.50, base $25.50 (about 10% growth), bull $28.00. Per share of the USD Nasdaq listing; no ADR or FX conversion applies.",
+    "bear": 270.0,
+    "base": 382.0,
+    "bull": 504.0,
+    "cases": {
+      "bear": {"driver": "AI disruption of TurboTax and small-business software caps growth at mid single digits and the multiple compresses", "assumption": "FY28 EPS $22.50 at 12x", "target": 270.0},
+      "base": {"driver": "Revenue grows 9-10% as guided, consumer recovers slowly, buybacks add to EPS", "assumption": "FY28 EPS $25.50 at 15x", "target": 382.0},
+      "bull": {"driver": "Mailchimp/QuickBooks AI-led growth re-accelerates revenue toward low double digits and the multiple re-rates", "assumption": "FY28 EPS $28.00 at 18x", "target": 504.0}
+    },
+    "implied_by_close": "At FY2027 guide midpoint EPS $23.00 the close of $341.70 implies 14.9x; at base FY2028 EPS $25.50 it implies 13.4x. The named Aug-2026 targets average about $337 (range $290-$430), which is 13.2x base EPS, or EPS $22.5 at 15x.",
+    "sensitivity": "One turn of P/E moves the base target by $25.50 (7.5% of the close).",
+    "watch_metric": "Consumer/TurboTax revenue growth against the 4-6% guide and non-GAAP operating margin on the new SBC-inclusive basis.",
+    "next_disclosure": "Q1 FY2027 results (guide: revenue $4.294-4.313B, EPS $2.44-$2.48), expected late November 2026."
+  },
+  "dividend_per_share": null,
+  "analyst_notes": "After the Aug 25 FY2027 guide, firms cut targets: Morgan Stanley $315 from $335, JPMorgan downgraded to Neutral at $331, Piper Sandler $290; Truist held at $350 (from $410) before results and Mizuho stayed Outperform at $430. Targets average about $337, near the close and below the $382 base, a gap equal to roughly 1.5 turns of P/E or about $2.5 of EPS. No horizon is documented, so none enters the weighted target; the sample is thin, comes from aggregators, and some figures conflict across sources.",
+  "sources": [
+    {"label": "Intuit Q4 FY2026 earnings release (8-K)", "url": "https://www.sec.gov/Archives/edgar/data/0000896878/000089687826000029/fy26q4earningspressrelease.htm", "supports": "FY2027 guidance, EPS, SBC change, earnings date"},
+    {"label": "MarketBeat Truist/Intuit Aug 2026", "url": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/", "supports": "Truist target and rating, Mizuho target"},
+    {"label": "Sentisense Intuit target cuts Aug 26 2026", "url": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026", "supports": "Piper and Morgan Stanley targets"},
+    {"label": "Barchart JPMorgan downgrades Intuit", "url": "https://www.barchart.com/story/news/4138017/jpmorgan-just-downgraded-intuit-stock-here-s-why", "supports": "JPMorgan downgrade and target"}
+  ]
+}

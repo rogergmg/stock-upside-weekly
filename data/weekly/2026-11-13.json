@@ -2,7 +2,7 @@
   "universe": "US-listed equities (NYSE, Nasdaq, NYSE American) with whole-company market cap > US$50B",
   "reference_session": "2026-11-13",
   "cutoff_usd": 50000000000,
-  "built_at": "2026-11-18T16:13:45.925482+00:00",
+  "built_at": "2026-11-23T11:42:45.907229+00:00",
   "fetched_at": "2026-11-16T16:37:07.100992+00:00",
   "universe_source": "https://api.nasdaq.com/api/screener/stocks",
   "counts": {
@@ -16,10 +16,10 @@
     "rank_eligible": 310,
     "rank_excluded": 0,
     "rank_unverified": 0,
-    "rank_valued": 177,
+    "rank_valued": 182,
     "rank_with_named_targets": 2,
-    "rank_matched": 177,
-    "researched": 177
+    "rank_matched": 182,
+    "researched": 182
   },
   "ranked": [
     {
@@ -120,6 +120,27 @@
         "bear": -37.85380956147388,
         "base": 28.812103818035954,
         "bull": 116.94670116721845
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "BN",
+      "issuer_id": "Brookfield Corporation",
+      "close": 40.97,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 89630250169,
+        "high": 102427856873
+      },
+      "scenarios_pct": {
+        "bear": -5.540639492311447,
+        "base": 28.142543324383695,
+        "bull": 64.02245545521113
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -611,6 +632,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "TT",
+      "issuer_id": "Trane Technologies plc",
+      "close": 417.99,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 89666140674,
+        "high": 93361706870
+      },
+      "scenarios_pct": {
+        "bear": -11.00265556592263,
+        "base": 13.878322447905452,
+        "bull": 37.20423933586928
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "CSCO",
       "issuer_id": "Cisco Systems, Inc.",
       "close": 95.64,
@@ -729,6 +771,27 @@
         "bear": -13.201703445605885,
         "base": 12.195121951219512,
         "bull": 39.06310491676345
+      },
+      "base_total_return_pct": null,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "INTU",
+      "issuer_id": "Intuit Inc.",
+      "close": 341.7,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 89488250376,
+        "high": 93140832024
+      },
+      "scenarios_pct": {
+        "bear": -20.983318700614575,
+        "base": 11.793971319871233,
+        "bull": 47.49780509218613
       },
       "base_total_return_pct": null,
       "analyst_upside_pct": null,
@@ -1493,6 +1556,27 @@
       "analyst_minus_base_pp": null
     },
     {
+      "symbol": "PNC",
+      "issuer_id": "The PNC Financial Services Group, Inc.",
+      "close": 232.29,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 90316435587,
+        "high": 94010914985
+      },
+      "scenarios_pct": {
+        "bear": -22.295406603814197,
+        "base": 6.461750398209135,
+        "bull": 26.479831245425977
+      },
+      "base_total_return_pct": 9.905721296655043,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
       "symbol": "TMO",
       "issuer_id": "Thermo Fisher Scientific Inc.",
       "close": 700.22,
@@ -1907,6 +1991,27 @@
         "bull": 27.66976725617789
       },
       "base_total_return_pct": 7.245798235458501,
+      "analyst_upside_pct": null,
+      "target_count": 0,
+      "coverage": "partial",
+      "analyst_minus_base_pp": null
+    },
+    {
+      "symbol": "EMR",
+      "issuer_id": "Emerson Electric Co.",
+      "close": 166.38,
+      "close_date": "2026-11-13",
+      "currency": "USD",
+      "market_cap_usd": {
+        "low": 89450546640,
+        "high": 93118376520
+      },
+      "scenarios_pct": {
+        "bear": -25.351604760187524,
+        "base": 4.459670633489602,
+        "bull": 27.71967784589494
+      },
+      "base_total_return_pct": 5.727851905277077,
       "analyst_upside_pct": null,
       "target_count": 0,
       "coverage": "partial",
@@ -3743,26 +3848,6 @@
   "omitted": [
     {
       "symbol": "CCZ",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "PNC",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "TT",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "BN",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "INTU",
-      "reason": "independent valuation unavailable"
-    },
-    {
-      "symbol": "EMR",
       "reason": "independent valuation unavailable"
     },
     {
@@ -70503,6 +70588,1464 @@
           "status_at_cutoff": "unknown or different horizon"
         }
       ]
+    },
+    "PNC": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 232.29,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 EPS viewed at the 12-month target date. Q3 2026 GAAP diluted EPS $4.97 ($5.09 adjusted), 9M GAAP $13.91, ~401m diluted shares, NII $4.2bn (+2% q/q), NIM 2.94%, ROTCE 18.3%, CET1 9.8%, TBVPS $107.64. FY2026 adjusted EPS approx $19.3 (9M plus Q4 near $5.2, adjusting for FirstBank integration items); FY2027 EPS from NII growth on fixed-asset repricing and loan growth, FirstBank synergies and buybacks. Official FY guidance not found in the release.",
+        "bear": 180.5,
+        "base": 247.3,
+        "bull": 293.8,
+        "cases": {
+          "bear": {
+            "driver": "Credit costs rise, NII growth stalls, rate cuts compress margin",
+            "assumption": "EPS $19.00 at 9.5x",
+            "target": 180.5
+          },
+          "base": {
+            "driver": "NII and fee growth, FirstBank synergies, steady buybacks",
+            "assumption": "EPS $21.50 at 11.5x",
+            "target": 247.3
+          },
+          "bull": {
+            "driver": "Faster repricing, operating leverage, capital return, benign credit",
+            "assumption": "EPS $23.50 at 12.5x",
+            "target": 293.8
+          }
+        },
+        "implied_by_close": "At base EPS $21.50 the close of $232.29 implies 10.8x; the analyst-weighted target (about $277) implies 12.9x or EPS about $24.1 at 11.5x",
+        "sensitivity": "One turn of P/E moves the base target by $21.5 (9.3 pp of the close)",
+        "watch_metric": "Net interest income growth and net interest margin (NIM 2.94% in Q3 2026) together with net charge-offs",
+        "next_disclosure": "Q4 2026 earnings release, mid-January 2027"
+      },
+      "dividend_per_share": 8.0,
+      "analyst_notes": "Named July 2026 calls raised targets by about $5-30 to $264-285, all after Q2 results; coverage is firm-level and unnamed in the sources. Analyst targets average about $276 versus a $247 base, a gap of roughly 12 pp, equal to about 1.3x of P/E or $2.6 of FY2027 EPS. The sample predates the Q3 release and the horizon is undocumented, so these targets carry no weight in the 12-month weighted target.",
+      "sources": [
+        {
+          "label": "PNC Q3 2026 earnings release",
+          "url": "https://finviz.com/news/402817/pnc-reports-third-quarter-2026-net-income-of-21-billion-497-diluted-eps-or-509-as-adjusted",
+          "supports": "EPS, shares, book value, dividend"
+        },
+        {
+          "label": "MarketBeat PNC analyst actions July 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "supports": "JPMorgan, Wells Fargo, Baird, Truist targets and ratings"
+        },
+        {
+          "label": "Benzinga PNC price target moves",
+          "url": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60496329",
+          "supports": "Stephens, Barclays targets"
+        },
+        {
+          "label": "Q3 2026 earnings analysis",
+          "url": "https://beancount.io/blog/2026/10/26/pnc-fy2026-q3-earnings-analysis",
+          "supports": "NII, NIM context"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-15T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": 120.0,
+        "max_weight_pct": 26.923820644655027,
+        "contributors": [
+          {
+            "analyst": "JPMorgan analyst (unnamed)",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-07-29",
+            "age_days": 107,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+            "weight": 0.2692382064465503
+          },
+          {
+            "analyst": "Robert W. Baird analyst (unnamed)",
+            "firm": "Robert W. Baird",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-07-16",
+            "age_days": 120,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+            "weight": 0.24358726451781657
+          },
+          {
+            "analyst": "Truist analyst (unnamed)",
+            "firm": "Truist",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-07-16",
+            "age_days": 120,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+            "weight": 0.24358726451781657
+          },
+          {
+            "analyst": "Wells Fargo analyst (unnamed)",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-07-16",
+            "age_days": 120,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+            "weight": 0.24358726451781657
+          }
+        ],
+        "counts": {
+          "Buy": 3,
+          "Hold": 1,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 75.64127354821835,
+          "Hold": 24.358726451781656,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Barclays analyst (unnamed)",
+          "firm": "Barclays",
+          "field": "target",
+          "value": 284.0,
+          "source_prior": 277,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60496329",
+          "prior_observed": null,
+          "revision_pct": 2.5270758122743597,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "JPMorgan analyst (unnamed)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 269.5,
+          "source_prior": 264.5,
+          "issued_at": "2026-07-29",
+          "public_at": "2026-07-29T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "prior_observed": null,
+          "revision_pct": 1.8903591682419618,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Robert W. Baird analyst (unnamed)",
+          "firm": "Robert W. Baird",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Robert W. Baird analyst (unnamed)",
+          "firm": "Robert W. Baird",
+          "field": "target",
+          "value": 280.0,
+          "source_prior": 250,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "prior_observed": null,
+          "revision_pct": 12.00000000000001,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Stephens analyst (unnamed)",
+          "firm": "Stephens",
+          "field": "target",
+          "value": 275.0,
+          "source_prior": 265,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.benzinga.com/analyst-stock-ratings/price-target/26/07/60496329",
+          "prior_observed": null,
+          "revision_pct": 3.7735849056603765,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Truist analyst (unnamed)",
+          "firm": "Truist",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Truist analyst (unnamed)",
+          "firm": "Truist",
+          "field": "target",
+          "value": 264.0,
+          "source_prior": 257,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "prior_observed": null,
+          "revision_pct": 2.7237354085603016,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Wells Fargo analyst (unnamed)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Wells Fargo analyst (unnamed)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 285.0,
+          "source_prior": 270,
+          "issued_at": "2026-07-16",
+          "public_at": "2026-07-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/jpmorgan-chase-co-issues-positive-forecast-for-the-pnc-financial-services-group-nysepnc-stock-price-2026-07-29/",
+          "prior_observed": null,
+          "revision_pct": 5.555555555555558,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "TT": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 417.99,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E: FY2027 EPS viewed at the 12-month target date. USD listing, no ADR conversion. Q3 2026 adjusted EPS $4.86 (+25%), revenue $6.8B (+18%), backlog $12.5B; FY2026 adjusted EPS guidance reaffirmed at $15.20-15.30. FY2027 EPS is my assumption, not a sourced figure; P/E multiples are judgment vs. Trane's and large-cap HVAC peers' history.",
+        "bear": 372.0,
+        "base": 476.0,
+        "bull": 573.5,
+        "cases": {
+          "bear": {
+            "driver": "Data-center and commercial HVAC orders slow, residential stays weak, margin gains stall",
+            "assumption": "EPS $15.50 at 24x",
+            "target": 372.0
+          },
+          "base": {
+            "driver": "Backlog converts, high-single to low-double-digit organic growth, modest margin expansion",
+            "assumption": "EPS $17.00 at 28x",
+            "target": 476.0
+          },
+          "bull": {
+            "driver": "Data-center cooling demand and pricing keep growth above 12%, buybacks add",
+            "assumption": "EPS $18.50 at 31x",
+            "target": 573.5
+          }
+        },
+        "implied_by_close": "At base EPS $17.00 the close implies 24.6x; the roughly $536 MarketBeat consensus target implies 31.5x or EPS about $19.1 at 28x",
+        "sensitivity": "One turn of P/E moves the base target by $17.00 (4.1 pp)",
+        "watch_metric": "Organic bookings and backlog conversion in Commercial HVAC, plus adjusted EPS vs. the $15.20-15.30 guide",
+        "next_disclosure": "Q4 2026 earnings, late January or early February 2027 (date not confirmed)"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Analysts are not named in the sources found, so calls are listed by firm. After Q3 (Oct 29) Citigroup trimmed to $549 from $566 and the shares fell to about $418, so the stock sits roughly 22% below the ~$536 consensus. The gap to my $476 base is about 1.5 turns of P/E at $17 EPS or about $2 of EPS at 28x. Most targets pre-date the earnings release and the horizon is undocumented, so none enter the weighted target.",
+      "sources": [
+        {
+          "label": "Q3 2026 earnings release (8-K ex. 99.1)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001466258/000146625826000001/exhibit991-q32026earningsr.htm",
+          "supports": "EPS, revenue, backlog, guidance"
+        },
+        {
+          "label": "MarketBeat Citigroup target cut",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/",
+          "supports": "Citi, Wells Fargo, Evercore, Mizuho targets; Q3 EPS date"
+        },
+        {
+          "label": "MarketBeat Mizuho",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-target-raised-at-mizuho-2026-10-15/",
+          "supports": "Mizuho target"
+        },
+        {
+          "label": "MarketBeat RBC",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-expected-to-rise-royal-bank-of-canada-analyst-says-2026-10-14/",
+          "supports": "RBC target"
+        },
+        {
+          "label": "MarketBeat JPMorgan",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-rated-overweight-in-new-coverage-at-jpmorgan-chase-co-2026-10-09/",
+          "supports": "JPMorgan coverage"
+        },
+        {
+          "label": "MarketBeat Wells Fargo",
+          "url": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-now-covered-by-analysts-at-wells-fargo-company-2026-09-25/",
+          "supports": "Wells Fargo coverage"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-10-29T06:30:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 6,
+        "post_earnings": 1,
+        "earnings_order_unknown": 0,
+        "median_age_days": 32.5,
+        "max_weight_pct": 20.84737961796106,
+        "contributors": [
+          {
+            "analyst": "Citigroup analyst (not named)",
+            "firm": "Citigroup",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-02",
+            "age_days": 11,
+            "after_earnings": true,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/",
+            "weight": 0.2084737961796106
+          },
+          {
+            "analyst": "Evercore ISI analyst (not named)",
+            "firm": "Evercore ISI",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-07-31",
+            "age_days": 105,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/",
+            "weight": 0.10107467838998006
+          },
+          {
+            "analyst": "JPMorgan analyst (not named)",
+            "firm": "JPMorgan",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-10-09",
+            "age_days": 35,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-rated-overweight-in-new-coverage-at-jpmorgan-chase-co-2026-10-09/",
+            "weight": 0.17329131973723985
+          },
+          {
+            "analyst": "Mizuho analyst (not named)",
+            "firm": "Mizuho",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-10-15",
+            "age_days": 29,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-target-raised-at-mizuho-2026-10-15/",
+            "weight": 0.18148698069664138
+          },
+          {
+            "analyst": "Royal Bank of Canada analyst (not named)",
+            "firm": "Royal Bank of Canada",
+            "value": "Sector Perform",
+            "bucket": "Hold",
+            "issued_at": "2026-10-14",
+            "age_days": 30,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-expected-to-rise-royal-bank-of-canada-analyst-says-2026-10-14/",
+            "weight": 0.18009460282816062
+          },
+          {
+            "analyst": "Wells Fargo analyst (not named)",
+            "firm": "Wells Fargo",
+            "value": "Overweight",
+            "bucket": "Buy",
+            "issued_at": "2026-09-25",
+            "age_days": 49,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-now-covered-by-analysts-at-wells-fargo-company-2026-09-25/",
+            "weight": 0.1555786221683676
+          }
+        ],
+        "counts": {
+          "Buy": 4,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 63.841841647519814,
+          "Hold": 36.1581583524802,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Citigroup analyst (not named)",
+          "firm": "Citigroup",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Citigroup analyst (not named)",
+          "firm": "Citigroup",
+          "field": "target",
+          "value": 549.0,
+          "source_prior": 566,
+          "horizon_months": null,
+          "issued_at": "2026-11-02",
+          "public_at": "2026-11-02T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/",
+          "prior_observed": null,
+          "revision_pct": -3.0035335689045928,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Evercore ISI analyst (not named)",
+          "firm": "Evercore ISI",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Evercore ISI analyst (not named)",
+          "firm": "Evercore ISI",
+          "field": "target",
+          "value": 565.0,
+          "source_prior": 560,
+          "horizon_months": null,
+          "issued_at": "2026-07-31",
+          "public_at": "2026-07-31T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-given-new-54900-price-target-at-citigroup-2026-11-02/",
+          "prior_observed": null,
+          "revision_pct": 0.8928571428571397,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "JPMorgan analyst (not named)",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-rated-overweight-in-new-coverage-at-jpmorgan-chase-co-2026-10-09/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "JPMorgan analyst (not named)",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 550.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-10-09",
+          "public_at": "2026-10-09T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-rated-overweight-in-new-coverage-at-jpmorgan-chase-co-2026-10-09/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Mizuho analyst (not named)",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-target-raised-at-mizuho-2026-10-15/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Mizuho analyst (not named)",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 485.0,
+          "source_prior": 475,
+          "horizon_months": null,
+          "issued_at": "2026-10-15",
+          "public_at": "2026-10-15T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-target-raised-at-mizuho-2026-10-15/",
+          "prior_observed": null,
+          "revision_pct": 2.1052631578947434,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Royal Bank of Canada analyst (not named)",
+          "firm": "Royal Bank of Canada",
+          "field": "rating",
+          "value": "Sector Perform",
+          "bucket": "Hold",
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-expected-to-rise-royal-bank-of-canada-analyst-says-2026-10-14/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Royal Bank of Canada analyst (not named)",
+          "firm": "Royal Bank of Canada",
+          "field": "target",
+          "value": 502.0,
+          "source_prior": 496,
+          "horizon_months": null,
+          "issued_at": "2026-10-14",
+          "public_at": "2026-10-14T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-stock-price-expected-to-rise-royal-bank-of-canada-analyst-says-2026-10-14/",
+          "prior_observed": null,
+          "revision_pct": 1.2096774193548487,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Wells Fargo analyst (not named)",
+          "firm": "Wells Fargo",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-09-25",
+          "public_at": "2026-09-25T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-now-covered-by-analysts-at-wells-fargo-company-2026-09-25/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Wells Fargo analyst (not named)",
+          "firm": "Wells Fargo",
+          "field": "target",
+          "value": 536.0,
+          "source_prior": null,
+          "horizon_months": null,
+          "issued_at": "2026-09-25",
+          "public_at": "2026-09-25T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/analyst-trane-technologies-nyse-tt-now-covered-by-analysts-at-wells-fargo-company-2026-09-25/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "BN": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 40.97,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward distributable earnings per share (2027E, viewed at the 12-month date) x multiple. USD-listed ordinary shares, no ADR conversion. DE/share levels are model assumptions, not sourced company figures.",
+        "bear": 38.7,
+        "base": 52.5,
+        "bull": 67.2,
+        "cases": {
+          "bear": {
+            "driver": "Slower fundraising and asset sales",
+            "assumption": "DE/share $4.30 at 9.0x",
+            "target": 38.7
+          },
+          "base": {
+            "driver": "Steady fee-related and carried-interest growth",
+            "assumption": "DE/share $5.00 at 10.5x",
+            "target": 52.5
+          },
+          "bull": {
+            "driver": "Strong realizations and capital deployment",
+            "assumption": "DE/share $5.60 at 12.0x",
+            "target": 67.2
+          }
+        },
+        "implied_by_close": "At base DE/share $5.00 the close implies 8.2x; the analyst average target of about $56 implies 11.2x or DE of $5.45 at 10.5x",
+        "sensitivity": "One turn of multiple moves the base target by $5.00 (12.2 pp)",
+        "watch_metric": "Distributable earnings before realizations per share",
+        "next_disclosure": "Q4 2026 results, expected February 2027"
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "Seven named Buy-rated analysts; all sampled targets are $51-$61 with no horizon documented, so none enter the weighted target. Morgan Stanley and Goldman cut targets by $2-5 in the last quarter while keeping Buy. A JPMorgan $64 target dated Nov 16 is after the reference close and excluded. Earnings release date not verified.",
+      "sources": [
+        {
+          "label": "StockAnalysis BN analyst ratings",
+          "url": "https://stockanalysis.com/stocks/bn/ratings/",
+          "supports": "analyst calls"
+        },
+        {
+          "label": "StockAnalysis BN quarterly financials",
+          "url": "https://stockanalysis.com/stocks/bn/financials/?p=quarterly",
+          "supports": "quarterly EPS, revenue"
+        },
+        {
+          "label": "Brookfield investor reports",
+          "url": "https://bn.brookfield.com/reports-filings",
+          "supports": "company filings"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": null,
+      "split_adjusted": null,
+      "ratings": {
+        "count": 5,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": 57,
+        "max_weight_pct": 24.14846205090974,
+        "contributors": [
+          {
+            "analyst": "Alexander Blostein",
+            "firm": "Goldman Sachs",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-08-18",
+            "age_days": 87,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/stocks/bn/ratings/",
+            "weight": 0.15330191886214778
+          },
+          {
+            "analyst": "Bart Dziarski",
+            "firm": "RBC Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-05",
+            "age_days": 39,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/stocks/bn/ratings/",
+            "weight": 0.2218691512097673
+          },
+          {
+            "analyst": "Cherilyn Radbourne",
+            "firm": "TD Cowen",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-15",
+            "age_days": 59,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/stocks/bn/ratings/",
+            "weight": 0.1901959948552916
+          },
+          {
+            "analyst": "Etienne Ricard",
+            "firm": "BMO Capital",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-09-17",
+            "age_days": 57,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/stocks/bn/ratings/",
+            "weight": 0.19314831456369588
+          },
+          {
+            "analyst": "Michael Cyprys",
+            "firm": "Morgan Stanley",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-10-16",
+            "age_days": 28,
+            "after_earnings": null,
+            "source": "https://stockanalysis.com/stocks/bn/ratings/",
+            "weight": 0.2414846205090974
+          }
+        ],
+        "counts": {
+          "Buy": 5,
+          "Hold": 0,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 100.0,
+          "Hold": 0.0,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": null,
+        "earnings_order_unknown": null,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Alexander Blostein",
+          "firm": "Goldman Sachs",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-08-18",
+          "public_at": "2026-08-18T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Alexander Blostein",
+          "firm": "Goldman Sachs",
+          "field": "target",
+          "value": 54.0,
+          "source_prior": 56,
+          "issued_at": "2026-08-18",
+          "public_at": "2026-08-18T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "revision_pct": -3.57142857142857,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Bart Dziarski",
+          "firm": "RBC Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Bart Dziarski",
+          "firm": "RBC Capital",
+          "field": "target",
+          "value": 61.0,
+          "issued_at": "2026-10-05",
+          "public_at": "2026-10-05T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Cherilyn Radbourne",
+          "firm": "TD Cowen",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-15",
+          "public_at": "2026-09-15T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Cherilyn Radbourne",
+          "firm": "TD Cowen",
+          "field": "target",
+          "value": 61.0,
+          "issued_at": "2026-09-15",
+          "public_at": "2026-09-15T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Etienne Ricard",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-09-17",
+          "public_at": "2026-09-17T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Etienne Ricard",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 51.0,
+          "issued_at": "2026-09-17",
+          "public_at": "2026-09-17T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Michael Cyprys",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Michael Cyprys",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 54.0,
+          "source_prior": 59,
+          "issued_at": "2026-10-16",
+          "public_at": "2026-10-16T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/bn/ratings/",
+          "prior_observed": null,
+          "revision_pct": -8.47457627118644,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "INTU": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 341.7,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E, forward period viewed at the 12-month target date (Nov 2027) taken as FY2028 (July 2028) non-GAAP diluted EPS. Anchor: FY2027 guidance of revenue $23.28-23.51B (+9-10%) and non-GAAP EPS $22.88-$23.12; from Aug 1 2026 Intuit no longer excludes share-based compensation, so this is not comparable with FY2026 $24.27. FY2028 EPS is my own assumption: bear $22.50, base $25.50 (about 10% growth), bull $28.00. Per share of the USD Nasdaq listing; no ADR or FX conversion applies.",
+        "bear": 270.0,
+        "base": 382.0,
+        "bull": 504.0,
+        "cases": {
+          "bear": {
+            "driver": "AI disruption of TurboTax and small-business software caps growth at mid single digits and the multiple compresses",
+            "assumption": "FY28 EPS $22.50 at 12x",
+            "target": 270.0
+          },
+          "base": {
+            "driver": "Revenue grows 9-10% as guided, consumer recovers slowly, buybacks add to EPS",
+            "assumption": "FY28 EPS $25.50 at 15x",
+            "target": 382.0
+          },
+          "bull": {
+            "driver": "Mailchimp/QuickBooks AI-led growth re-accelerates revenue toward low double digits and the multiple re-rates",
+            "assumption": "FY28 EPS $28.00 at 18x",
+            "target": 504.0
+          }
+        },
+        "implied_by_close": "At FY2027 guide midpoint EPS $23.00 the close of $341.70 implies 14.9x; at base FY2028 EPS $25.50 it implies 13.4x. The named Aug-2026 targets average about $337 (range $290-$430), which is 13.2x base EPS, or EPS $22.5 at 15x.",
+        "sensitivity": "One turn of P/E moves the base target by $25.50 (7.5% of the close).",
+        "watch_metric": "Consumer/TurboTax revenue growth against the 4-6% guide and non-GAAP operating margin on the new SBC-inclusive basis.",
+        "next_disclosure": "Q1 FY2027 results (guide: revenue $4.294-4.313B, EPS $2.44-$2.48), expected late November 2026."
+      },
+      "dividend_per_share": null,
+      "analyst_notes": "After the Aug 25 FY2027 guide, firms cut targets: Morgan Stanley $315 from $335, JPMorgan downgraded to Neutral at $331, Piper Sandler $290; Truist held at $350 (from $410) before results and Mizuho stayed Outperform at $430. Targets average about $337, near the close and below the $382 base, a gap equal to roughly 1.5 turns of P/E or about $2.5 of EPS. No horizon is documented, so none enters the weighted target; the sample is thin, comes from aggregators, and some figures conflict across sources.",
+      "sources": [
+        {
+          "label": "Intuit Q4 FY2026 earnings release (8-K)",
+          "url": "https://www.sec.gov/Archives/edgar/data/0000896878/000089687826000029/fy26q4earningspressrelease.htm",
+          "supports": "FY2027 guidance, EPS, SBC change, earnings date"
+        },
+        {
+          "label": "MarketBeat Truist/Intuit Aug 2026",
+          "url": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/",
+          "supports": "Truist target and rating, Mizuho target"
+        },
+        {
+          "label": "Sentisense Intuit target cuts Aug 26 2026",
+          "url": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026",
+          "supports": "Piper and Morgan Stanley targets"
+        },
+        {
+          "label": "Barchart JPMorgan downgrades Intuit",
+          "url": "https://www.barchart.com/story/news/4138017/jpmorgan-just-downgraded-intuit-stock-here-s-why",
+          "supports": "JPMorgan downgrade and target"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-08-25T16:05:00-04:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 2,
+        "earnings_order_unknown": 0,
+        "median_age_days": 83.5,
+        "max_weight_pct": 26.520292370022858,
+        "contributors": [
+          {
+            "analyst": "JPMorgan analyst",
+            "firm": "JPMorgan",
+            "value": "Neutral",
+            "bucket": "Hold",
+            "issued_at": "2026-08-26",
+            "age_days": 79,
+            "after_earnings": true,
+            "source": "https://www.barchart.com/story/news/4138017/jpmorgan-just-downgraded-intuit-stock-here-s-why",
+            "weight": 0.2652029237002286
+          },
+          {
+            "analyst": "Morgan Stanley analyst",
+            "firm": "Morgan Stanley",
+            "value": "Equal Weight",
+            "bucket": "Hold",
+            "issued_at": "2026-08-26",
+            "age_days": 79,
+            "after_earnings": true,
+            "source": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026",
+            "weight": 0.2652029237002286
+          },
+          {
+            "analyst": "Siti Panigrahi",
+            "firm": "Mizuho",
+            "value": "Outperform",
+            "bucket": "Buy",
+            "issued_at": "2026-08-17",
+            "age_days": 88,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/",
+            "weight": 0.24744307726433196
+          },
+          {
+            "analyst": "Truist analyst",
+            "firm": "Truist",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-08-03",
+            "age_days": 102,
+            "after_earnings": false,
+            "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/",
+            "weight": 0.22215107533521092
+          }
+        ],
+        "counts": {
+          "Buy": 1,
+          "Hold": 3,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 24.744307726433195,
+          "Hold": 75.25569227356681,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "source": "https://www.barchart.com/story/news/4138017/jpmorgan-just-downgraded-intuit-stock-here-s-why",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "JPMorgan analyst",
+          "firm": "JPMorgan",
+          "field": "target",
+          "value": 331.0,
+          "source_prior": null,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.barchart.com/story/news/4138017/jpmorgan-just-downgraded-intuit-stock-here-s-why",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Equal Weight",
+          "bucket": "Hold",
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "source": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Morgan Stanley analyst",
+          "firm": "Morgan Stanley",
+          "field": "target",
+          "value": 315.0,
+          "source_prior": 335,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026",
+          "prior_observed": null,
+          "revision_pct": -5.970149253731338,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Piper Sandler analyst",
+          "firm": "Piper Sandler",
+          "field": "target",
+          "value": 290.0,
+          "source_prior": null,
+          "issued_at": "2026-08-26",
+          "public_at": "2026-08-26T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://app.sentisense.ai/stories/analysts-slash-intuit-price-targets-on-aug-26-new-low-of-290-set-by-piper-sandle-08262026",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Siti Panigrahi",
+          "firm": "Mizuho",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-08-17",
+          "public_at": "2026-08-17T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Siti Panigrahi",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 430.0,
+          "source_prior": null,
+          "issued_at": "2026-08-17",
+          "public_at": "2026-08-17T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Truist analyst",
+          "firm": "Truist",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-08-03",
+          "public_at": "2026-08-03T23:59:59-04:00",
+          "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Truist analyst",
+          "firm": "Truist",
+          "field": "target",
+          "value": 350.0,
+          "source_prior": 410,
+          "issued_at": "2026-08-03",
+          "public_at": "2026-08-03T23:59:59-04:00",
+          "horizon_months": null,
+          "source": "https://www.marketbeat.com/instant-alerts/intuits-intu-hold-rating-reaffirmed-at-truist-financial-2026-08-03/",
+          "prior_observed": null,
+          "revision_pct": -14.634146341463417,
+          "direction": "cut",
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
+    },
+    "EMR": {
+      "researched_at": "2026-11-18",
+      "research_close": {
+        "close": 166.38,
+        "close_date": "2026-11-13"
+      },
+      "valuation": {
+        "method": "Forward EPS x P/E. Company FY2027 (Sep-2027) adjusted EPS guide about $7.25 on about 5% sales growth; at the Nov-2027 target date the market looks at FY2028 EPS, modelled at about +9% on the guide. Share count, net debt and FY2026 totals were not sourced in detail; the model uses EPS only. Native USD listing, no ADR conversion.",
+        "bear": 124.2,
+        "base": 173.8,
+        "bull": 212.5,
+        "cases": {
+          "bear": {
+            "driver": "Project orders fade, margins flat, multiple de-rates",
+            "assumption": "FY2028 EPS $6.90 at 18x",
+            "target": 124.2
+          },
+          "base": {
+            "driver": "Long-cycle orders (+14% underlying in Q4) convert, mid-single-digit sales growth, margin gains",
+            "assumption": "FY2028 EPS $7.90 at 22x",
+            "target": 173.8
+          },
+          "bull": {
+            "driver": "LNG and data-centre automation demand, buybacks, higher margin",
+            "assumption": "FY2028 EPS $8.50 at 25x",
+            "target": 212.5
+          }
+        },
+        "implied_by_close": "At FY2027 guide EPS $7.25 the close implies 22.9x; the named-analyst average target (about $182) implies about 23x on $7.90 or EPS near $8.3 at 22x",
+        "sensitivity": "One turn of P/E moves the base target by $7.90 (about 4.7 pp)",
+        "watch_metric": "Underlying orders growth and segment EBITDA margin versus the FY2027 EPS guide of about $7.25",
+        "next_disclosure": "Fiscal Q1 2027 earnings, expected early February 2027"
+      },
+      "dividend_per_share": 2.11,
+      "analyst_notes": "Four named analysts were verified with dated calls after the Nov 4 earnings; all raised targets (+$5 to +$10) and ratings are two Buy, two Hold. Their targets ($160-$196) bracket the base case; the Hold-rated names sit near the close. A Morgan Stanley Nov 17 note is after the reference close and excluded. Sample is small and horizons are undocumented, so targets stay out of the weighted figure.",
+      "sources": [
+        {
+          "label": "StockAnalysis EMR analyst actions",
+          "url": "https://stockanalysis.com/stocks/emr/forecast/",
+          "supports": "Named analyst ratings and targets"
+        },
+        {
+          "label": "247WallSt Emerson Q4 2026 earnings",
+          "url": "https://247wallst.com/cards/emerson-electric-q4-2026-earnings-emr-01m6k6sewjjxsehx6z2esnsnff",
+          "supports": "Q4 EPS, FY2027 EPS guide $7.25, release date"
+        },
+        {
+          "label": "MarketBeat EMR price target",
+          "url": "https://www.marketbeat.com/stocks/NYSE/EMR/price-target/",
+          "supports": "Consensus target about $163, close $166.26 reference"
+        }
+      ],
+      "coverage": "partial",
+      "earnings_at": "2026-11-04T06:53:00-05:00",
+      "split_adjusted": null,
+      "ratings": {
+        "count": 4,
+        "post_earnings": 4,
+        "earnings_order_unknown": 0,
+        "median_age_days": 4.5,
+        "max_weight_pct": 25.627809878334602,
+        "contributors": [
+          {
+            "analyst": "Brett Linzey",
+            "firm": "Mizuho Securities",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/emr/forecast/",
+            "weight": 0.24470499088940223
+          },
+          {
+            "analyst": "Chris Dankert",
+            "firm": "D.A. Davidson",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-12",
+            "age_days": 1,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/emr/forecast/",
+            "weight": 0.256278098783346
+          },
+          {
+            "analyst": "Daniel DiCicco",
+            "firm": "BMO Capital",
+            "value": "Hold",
+            "bucket": "Hold",
+            "issued_at": "2026-11-06",
+            "age_days": 7,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/emr/forecast/",
+            "weight": 0.24470499088940223
+          },
+          {
+            "analyst": "Varun Govindaraj",
+            "firm": "Bernstein",
+            "value": "Buy",
+            "bucket": "Buy",
+            "issued_at": "2026-11-11",
+            "age_days": 2,
+            "after_earnings": true,
+            "source": "https://stockanalysis.com/stocks/emr/forecast/",
+            "weight": 0.2543119194378495
+          }
+        ],
+        "counts": {
+          "Buy": 2,
+          "Hold": 2,
+          "Sell": 0
+        },
+        "weighted_pct": {
+          "Buy": 49.90169103272517,
+          "Hold": 50.09830896727483,
+          "Sell": 0.0
+        }
+      },
+      "targets": {
+        "count": 0,
+        "post_earnings": 0,
+        "earnings_order_unknown": 0,
+        "median_age_days": null,
+        "max_weight_pct": null,
+        "contributors": [],
+        "target": null,
+        "upside_pct": null,
+        "range": null,
+        "median": null
+      },
+      "sensitivity": {
+        "45": {
+          "target": null,
+          "upside_pct": null
+        },
+        "90": {
+          "target": null,
+          "upside_pct": null
+        },
+        "180": {
+          "target": null,
+          "upside_pct": null
+        },
+        "equal": {
+          "target": null,
+          "upside_pct": null
+        }
+      },
+      "history": [
+        {
+          "analyst": "Brett Linzey",
+          "firm": "Mizuho Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/emr/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Brett Linzey",
+          "firm": "Mizuho Securities",
+          "field": "target",
+          "value": 190.0,
+          "source_prior": 180,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/emr/forecast/",
+          "prior_observed": null,
+          "revision_pct": 5.555555555555558,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Chris Dankert",
+          "firm": "D.A. Davidson",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/emr/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Chris Dankert",
+          "firm": "D.A. Davidson",
+          "field": "target",
+          "value": 160.0,
+          "source_prior": 155,
+          "issued_at": "2026-11-12",
+          "public_at": "2026-11-12T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/emr/forecast/",
+          "prior_observed": null,
+          "revision_pct": 3.2258064516129004,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Daniel DiCicco",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Hold",
+          "bucket": "Hold",
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/emr/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Daniel DiCicco",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 181.0,
+          "source_prior": 175,
+          "issued_at": "2026-11-06",
+          "public_at": "2026-11-06T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/emr/forecast/",
+          "prior_observed": null,
+          "revision_pct": 3.4285714285714253,
+          "direction": "raise",
+          "status_at_cutoff": "unknown or different horizon"
+        },
+        {
+          "analyst": "Varun Govindaraj",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "source": "https://stockanalysis.com/stocks/emr/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "active"
+        },
+        {
+          "analyst": "Varun Govindaraj",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 196.0,
+          "source_prior": null,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://stockanalysis.com/stocks/emr/forecast/",
+          "prior_observed": null,
+          "status_at_cutoff": "unknown or different horizon"
+        }
+      ]
     }
   },
   "failures": [],
@@ -70652,6 +72195,11 @@
         "kind": "new"
       },
       {
+        "symbol": "BN",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "BNS",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -70792,6 +72340,11 @@
         "kind": "new"
       },
       {
+        "symbol": "EMR",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "ENB",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -70898,6 +72451,11 @@
       },
       {
         "symbol": "INTC",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
+        "symbol": "INTU",
         "researched_at": "2026-11-18",
         "kind": "new"
       },
@@ -71137,6 +72695,11 @@
         "kind": "new"
       },
       {
+        "symbol": "PNC",
+        "researched_at": "2026-11-18",
+        "kind": "new"
+      },
+      {
         "symbol": "PSX",
         "researched_at": "2026-11-18",
         "kind": "new"
@@ -71299,6 +72862,11 @@
       {
         "symbol": "TSM",
         "researched_at": "2026-11-16",
+        "kind": "new"
+      },
+      {
+        "symbol": "TT",
+        "researched_at": "2026-11-18",
         "kind": "new"
       },
       {
@@ -71762,6 +73330,22 @@
         "horizon_months": null
       },
       {
+        "symbol": "EMR",
+        "firm": "D.A. Davidson",
+        "analyst": "Chris Dankert",
+        "issued_at": "2026-11-12",
+        "source": "https://stockanalysis.com/stocks/emr/forecast/",
+        "currency": null,
+        "rating": "Hold",
+        "bucket": "Hold",
+        "prior_rating": null,
+        "target": 160.0,
+        "prior_target": 155,
+        "direction": "raise",
+        "revision_pct": 3.2258064516129004,
+        "horizon_months": null
+      },
+      {
         "symbol": "CVS",
         "firm": "Wells Fargo",
         "analyst": "Wells Fargo analyst",
@@ -71932,6 +73516,22 @@
         "bucket": "Hold",
         "prior_rating": null,
         "target": 50.33,
+        "prior_target": null,
+        "direction": null,
+        "revision_pct": null,
+        "horizon_months": null
+      },
+      {
+        "symbol": "EMR",
+        "firm": "Bernstein",
+        "analyst": "Varun Govindaraj",
+        "issued_at": "2026-11-11",
+        "source": "https://stockanalysis.com/stocks/emr/forecast/",
+        "currency": null,
+        "rating": "Buy",
+        "bucket": "Buy",
+        "prior_rating": null,
+        "target": 196.0,
         "prior_target": null,
         "direction": null,
         "revision_pct": null,

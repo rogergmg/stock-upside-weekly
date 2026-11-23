@@ -1,0 +1,32 @@
+{
+ "issuer_id":"Emerson Electric Co.","symbol":"EMR","researched_at":"2026-11-18",
+ "research_close":{"close":166.38,"close_date":"2026-11-13"},"currency":"USD",
+ "earnings_at":"2026-11-04T06:53:00-05:00","coverage":"partial",
+ "events":[
+ {"analyst":"Chris Dankert","firm":"D.A. Davidson","field":"target","value":160,"source_prior":155,"issued_at":"2026-11-12","public_at":"2026-11-12T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/emr/forecast/"},
+ {"analyst":"Chris Dankert","firm":"D.A. Davidson","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-11-12","public_at":"2026-11-12T23:59:59-05:00","source":"https://stockanalysis.com/stocks/emr/forecast/"},
+ {"analyst":"Varun Govindaraj","firm":"Bernstein","field":"target","value":196,"source_prior":null,"issued_at":"2026-11-11","public_at":"2026-11-11T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/emr/forecast/"},
+ {"analyst":"Varun Govindaraj","firm":"Bernstein","field":"rating","value":"Buy","bucket":"Buy","issued_at":"2026-11-11","public_at":"2026-11-11T23:59:59-05:00","source":"https://stockanalysis.com/stocks/emr/forecast/"},
+ {"analyst":"Brett Linzey","firm":"Mizuho Securities","field":"target","value":190,"source_prior":180,"issued_at":"2026-11-06","public_at":"2026-11-06T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/emr/forecast/"},
+ {"analyst":"Brett Linzey","firm":"Mizuho Securities","field":"rating","value":"Buy","bucket":"Buy","issued_at":"2026-11-06","public_at":"2026-11-06T23:59:59-05:00","source":"https://stockanalysis.com/stocks/emr/forecast/"},
+ {"analyst":"Daniel DiCicco","firm":"BMO Capital","field":"target","value":181,"source_prior":175,"issued_at":"2026-11-06","public_at":"2026-11-06T23:59:59-05:00","horizon_months":null,"source":"https://stockanalysis.com/stocks/emr/forecast/"},
+ {"analyst":"Daniel DiCicco","firm":"BMO Capital","field":"rating","value":"Hold","bucket":"Hold","issued_at":"2026-11-06","public_at":"2026-11-06T23:59:59-05:00","source":"https://stockanalysis.com/stocks/emr/forecast/"}
+ ],
+ "valuation":{
+ "method":"Forward EPS x P/E. Company FY2027 (Sep-2027) adjusted EPS guide about $7.25 on about 5% sales growth; at the Nov-2027 target date the market looks at FY2028 EPS, modelled at about +9% on the guide. Share count, net debt and FY2026 totals were not sourced in detail; the model uses EPS only. Native USD listing, no ADR conversion.",
+ "bear":124.2,"base":173.8,"bull":212.5,
+ "cases":{
+ "bear":{"driver":"Project orders fade, margins flat, multiple de-rates","assumption":"FY2028 EPS $6.90 at 18x","target":124.2},
+ "base":{"driver":"Long-cycle orders (+14% underlying in Q4) convert, mid-single-digit sales growth, margin gains","assumption":"FY2028 EPS $7.90 at 22x","target":173.8},
+ "bull":{"driver":"LNG and data-centre automation demand, buybacks, higher margin","assumption":"FY2028 EPS $8.50 at 25x","target":212.5}},
+ "implied_by_close":"At FY2027 guide EPS $7.25 the close implies 22.9x; the named-analyst average target (about $182) implies about 23x on $7.90 or EPS near $8.3 at 22x",
+ "sensitivity":"One turn of P/E moves the base target by $7.90 (about 4.7 pp)",
+ "watch_metric":"Underlying orders growth and segment EBITDA margin versus the FY2027 EPS guide of about $7.25",
+ "next_disclosure":"Fiscal Q1 2027 earnings, expected early February 2027"},
+ "dividend_per_share":2.11,
+ "analyst_notes":"Four named analysts were verified with dated calls after the Nov 4 earnings; all raised targets (+$5 to +$10) and ratings are two Buy, two Hold. Their targets ($160-$196) bracket the base case; the Hold-rated names sit near the close. A Morgan Stanley Nov 17 note is after the reference close and excluded. Sample is small and horizons are undocumented, so targets stay out of the weighted figure.",
+ "sources":[
+ {"label":"StockAnalysis EMR analyst actions","url":"https://stockanalysis.com/stocks/emr/forecast/","supports":"Named analyst ratings and targets"},
+ {"label":"247WallSt Emerson Q4 2026 earnings","url":"https://247wallst.com/cards/emerson-electric-q4-2026-earnings-emr-01m6k6sewjjxsehx6z2esnsnff","supports":"Q4 EPS, FY2027 EPS guide $7.25, release date"},
+ {"label":"MarketBeat EMR price target","url":"https://www.marketbeat.com/stocks/NYSE/EMR/price-target/","supports":"Consensus target about $163, close $166.26 reference"}
+ ]}

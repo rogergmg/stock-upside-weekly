@@ -1,0 +1,182 @@
+{
+ "issuer_id": "Brookfield Corporation",
+ "symbol": "BN",
+ "researched_at": "2026-11-18",
+ "research_close": {
+  "close": 40.97,
+  "close_date": "2026-11-13"
+ },
+ "currency": "USD",
+ "earnings_at": null,
+ "coverage": "partial",
+ "events": [
+  {
+   "analyst": "Dean Wilkinson",
+   "firm": "CIBC",
+   "field": "target",
+   "value": 57,
+   "issued_at": "2026-11-13",
+   "public_at": "2026-11-13T23:59:59-05:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Dean Wilkinson",
+   "firm": "CIBC",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-11-13",
+   "public_at": "2026-11-13T23:59:59-05:00",
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Michael Cyprys",
+   "firm": "Morgan Stanley",
+   "field": "target",
+   "value": 54,
+   "source_prior": 59,
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Michael Cyprys",
+   "firm": "Morgan Stanley",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-16",
+   "public_at": "2026-10-16T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Bart Dziarski",
+   "firm": "RBC Capital",
+   "field": "target",
+   "value": 61,
+   "issued_at": "2026-10-05",
+   "public_at": "2026-10-05T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Bart Dziarski",
+   "firm": "RBC Capital",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-10-05",
+   "public_at": "2026-10-05T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Etienne Ricard",
+   "firm": "BMO Capital",
+   "field": "target",
+   "value": 51,
+   "issued_at": "2026-09-17",
+   "public_at": "2026-09-17T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Etienne Ricard",
+   "firm": "BMO Capital",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-17",
+   "public_at": "2026-09-17T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Cherilyn Radbourne",
+   "firm": "TD Cowen",
+   "field": "target",
+   "value": 61,
+   "issued_at": "2026-09-15",
+   "public_at": "2026-09-15T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Cherilyn Radbourne",
+   "firm": "TD Cowen",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-09-15",
+   "public_at": "2026-09-15T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Alexander Blostein",
+   "firm": "Goldman Sachs",
+   "field": "target",
+   "value": 54,
+   "source_prior": 56,
+   "issued_at": "2026-08-18",
+   "public_at": "2026-08-18T23:59:59-04:00",
+   "horizon_months": null,
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  },
+  {
+   "analyst": "Alexander Blostein",
+   "firm": "Goldman Sachs",
+   "field": "rating",
+   "value": "Buy",
+   "bucket": "Buy",
+   "issued_at": "2026-08-18",
+   "public_at": "2026-08-18T23:59:59-04:00",
+   "source": "https://stockanalysis.com/stocks/bn/ratings/"
+  }
+ ],
+ "valuation": {
+  "method": "Forward distributable earnings per share (2027E, viewed at the 12-month date) x multiple. USD-listed ordinary shares, no ADR conversion. DE/share levels are model assumptions, not sourced company figures.",
+  "bear": 38.7,
+  "base": 52.5,
+  "bull": 67.2,
+  "cases": {
+   "bear": {
+    "driver": "Slower fundraising and asset sales",
+    "assumption": "DE/share $4.30 at 9.0x",
+    "target": 38.7
+   },
+   "base": {
+    "driver": "Steady fee-related and carried-interest growth",
+    "assumption": "DE/share $5.00 at 10.5x",
+    "target": 52.5
+   },
+   "bull": {
+    "driver": "Strong realizations and capital deployment",
+    "assumption": "DE/share $5.60 at 12.0x",
+    "target": 67.2
+   }
+  },
+  "implied_by_close": "At base DE/share $5.00 the close implies 8.2x; the analyst average target of about $56 implies 11.2x or DE of $5.45 at 10.5x",
+  "sensitivity": "One turn of multiple moves the base target by $5.00 (12.2 pp)",
+  "watch_metric": "Distributable earnings before realizations per share",
+  "next_disclosure": "Q4 2026 results, expected February 2027"
+ },
+ "dividend_per_share": null,
+ "analyst_notes": "Seven named Buy-rated analysts; all sampled targets are $51-$61 with no horizon documented, so none enter the weighted target. Morgan Stanley and Goldman cut targets by $2-5 in the last quarter while keeping Buy. A JPMorgan $64 target dated Nov 16 is after the reference close and excluded. Earnings release date not verified.",
+ "sources": [
+  {
+   "label": "StockAnalysis BN analyst ratings",
+   "url": "https://stockanalysis.com/stocks/bn/ratings/",
+   "supports": "analyst calls"
+  },
+  {
+   "label": "StockAnalysis BN quarterly financials",
+   "url": "https://stockanalysis.com/stocks/bn/financials/?p=quarterly",
+   "supports": "quarterly EPS, revenue"
+  },
+  {
+   "label": "Brookfield investor reports",
+   "url": "https://bn.brookfield.com/reports-filings",
+   "supports": "company filings"
+  }
+ ]
+}

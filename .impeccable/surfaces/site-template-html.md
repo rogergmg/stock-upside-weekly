@@ -51,6 +51,7 @@ related_targets: ["site/index.html"]
 - **Below the cards:**
   - the "All 294 stocks" table panel on the left: search with a `/` hint, a sector filter, and a sticky sortable header;
   - a sticky "This week" panel on the right.
+- **Row detail:** cases, then Valuation and Analysts side by side, then an always-open "Analyst ratings" section (current Buy/Hold/Sell mix, a tally of upgrades, downgrades and target changes, and every analyst action with its date and source). Roger, 2026-11-23: he wants to see the ratings and rating changes on each stock, as on the old page.
 
 **FORM.** The canon (category standard), chosen over the dealt Share Certificate direction. Its craft bar is Linear and Stripe Dashboard. seed: seed:79118e55235bf58e
 

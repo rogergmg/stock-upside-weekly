@@ -231,6 +231,13 @@ details.more > summary:hover, details.inline > summary:hover { text-decoration: 
 details[open] > summary svg { rotate: 90deg; }
 details.inline { margin-top: 10px; }
 details.inline .kv { margin-top: 10px; }
+.rsum { display: flex; flex-wrap: wrap; gap: 12px 40px; margin-top: 4px; }
+.rsum-c { min-width: 240px; flex: 0 1 340px; }
+.rsum-c h4 { margin: 0 0 6px; font-size: 12.5px; font-weight: 500; color: var(--muted); }
+.rsum-c .mix { margin-top: 0; }
+.chg { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0 0 4px; font-size: 13.5px; }
+.chg b { font-weight: 600; font-variant-numeric: tabular-nums; }
+.dsec h3 .src { margin-left: 8px; font-size: 12px; font-weight: 400; color: var(--muted); }
 .hist { margin-top: 12px; overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
 .hist .grid th { position: static; font-size: 11.5px; }
 .hist .grid th, .hist .grid td { padding: 7px 10px; font-size: 12.5px; }
@@ -322,6 +329,19 @@ details.inline .kv { margin-top: 10px; }
   .dcols, .mcols { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 720px) {
+  /* Analyst actions stack into small cards: action and date, analyst and source, rating and target. */
+  .dsec h3 .src { display: block; margin: 2px 0 0; }
+  .hist .grid thead { display: none; }
+  .hist .grid tr { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-areas: "act date" "who src" "rat tgt" "rat chg"; gap: 4px 12px; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  .hist .grid tbody tr:last-child { border-bottom: 0; }
+  .hist .grid td { display: block; padding: 0 !important; border: 0; white-space: normal; }
+  .hist .grid td:nth-child(1) { grid-area: act; } .hist .grid td:nth-child(2) { grid-area: rat; text-align: left; }
+  .hist .grid td:nth-child(3) { grid-area: who; } .hist .grid td:nth-child(4) { grid-area: tgt; }
+  .hist .grid td:nth-child(5) { grid-area: chg; } .hist .grid td:nth-child(6) { grid-area: date; text-align: right; color: var(--muted); }
+  .hist .grid td:nth-child(7) { grid-area: src; text-align: right; }
+  .hist .grid td .na { display: none; }
+  .hist .grid tr.divider, .hist .grid tr:has(td.empty) { display: block; padding: 0; }
+  .hist .grid tr.divider td, .hist .grid td.empty { padding: 8px 12px !important; }
   :root { --bar-h: 56px; --top: calc(env(safe-area-inset-top, 0px) + var(--bar-h)); }
   #rows [data-sym] { scroll-margin-top: calc(var(--top) + 12px); }
   .bar-in { padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px)); gap: 12px; }
@@ -627,6 +647,7 @@ details.inline .kv { margin-top: 10px; }
     const rows = Object.values(groups).sort((a, b) => (a.day < b.day ? 1 : a.day > b.day ? -1 : 0));
     const earn = d.earnings_at ? d.earnings_at.slice(0, 10) : null;
     let h = "", divided = false;
+    const tally = {};
     rows.forEach(g => {
       if (earn && !divided && g.day <= earn) { h += `<tr class="divider"><td colspan="7">Before the last earnings release · ${day(earn)}</td></tr>`; divided = true; }
       const r = g.rating, t = g.target;
@@ -644,12 +665,13 @@ details.inline .kv { margin-top: 10px; }
       const tg = t ? (prior != null && prior !== t.value ? `${money(prior)} → ` : "") + `<b>${money(t.value)}</b>` : '<span class="na">—</span>';
       const status = [r, t].filter(Boolean).map(e => e.status_at_cutoff).filter(s => s && s !== "active");
       const src = (t || r).source;
+      tally[act] = (tally[act] || 0) + 1;
       h += `<tr><td class="l"><span class="act"><i class="${cls}" aria-hidden="true">${icon}</i>${act}</span></td><td class="l">${ratingTxt}</td>
         <td class="l">${esc(g.analyst)}<br><span class="note">${esc(g.firm)}</span></td><td>${tg}</td><td>${t && t.revision_pct != null ? pct(t.revision_pct) : '<span class="na">—</span>'}</td>
         <td class="l">${day(g.day)}${status.length ? `<br><span class="chip warn" title="Kept in the timeline, left out of the weighted target">${esc(status[0])}</span>` : ""}</td>
         <td class="l">${/^https?:/.test(src) ? `<a href="${esc(src)}" target="_blank" rel="noopener">Source</a>` : esc(src)}</td></tr>`;
     });
-    return { n: rows.length, html: `<table class="grid"><thead><tr><th class="l">Action</th><th class="l">Rating</th><th class="l">Analyst</th><th>Target</th><th>Change</th><th class="l">Date</th><th class="l">Source</th></tr></thead><tbody>${h}</tbody></table>` };
+    return { n: rows.length, tally, html: `<table class="grid"><thead><tr><th class="l">Action</th><th class="l">Rating</th><th class="l">Analyst</th><th>Target</th><th>Change</th><th class="l">Date</th><th class="l">Source</th></tr></thead><tbody>${h || '<tr><td colspan="7" class="empty">No named analyst calls recorded.</td></tr>'}</tbody></table>` };
   }
 
   function detail(k, d, r) {
@@ -688,15 +710,22 @@ details.inline .kv { margin-top: 10px; }
     ])}</details>` : "";
     const named = `<div class="blk"><h4>Named analysts${d.coverage ? ` <span class="chip" title="Named analysts we could find and date, not the full Street">${d.coverage === "unavailable" ? "coverage unavailable" : esc(d.coverage) + " coverage"}</span>` : ""}</h4>${t.count
       ? `<p>Recency-weighted target <b>${money(t.target, cur)}</b> ${pct(t.upside_pct)} from ${t.count} documented 12-month target${t.count > 1 ? "s" : ""} (90-day half-life).</p>${k.analyst_minus_base_pp != null ? `<p class="note">Gap to our base case: ${k.analyst_minus_base_pp >= 0 ? "+" : "−"}${Math.abs(k.analyst_minus_base_pp).toFixed(1)} pts</p>` : ""}${t.range ? strip(t.range[0], t.range[1], t.target, r.close, cur, "Weighted") : ""}`
-      : '<p class="muted">No named target with a documented 12-month horizon, so there is no weighted target.</p>'}${mix}${checks}</div>`;
+      : '<p class="muted">No named target with a documented 12-month horizon, so there is no weighted target.</p>'}${checks}</div>`;
     const tl = timeline(d);
+    // Only real changes are tallied: upgrades, downgrades, target raises and cuts.
+    const CHG = [["Upgrade", "upgrade", "upgrades", "pos"], ["Downgrade", "downgrade", "downgrades", "neg"], ["Target raised", "target raised", "targets raised", "pos"], ["Target cut", "target cut", "targets cut", "neg"]];
+    const chg = CHG.filter(([k]) => tl.tally[k]).map(([k, one, many, c]) => `<span class="${c}"><b>${tl.tally[k]}</b> ${tl.tally[k] > 1 ? many : one}</span>`).join("");
+    const ratings = `<section class="dsec"><h3>Analyst ratings <span class="src">Named analysts we could find and date, newest first</span></h3>
+      ${!tl.n && !mix ? '<p class="muted">No named analyst ratings or target changes found for this stock.</p>' : `<div class="rsum"><div class="rsum-c"><h4>Current ratings</h4>${mix || '<p class="muted">No mapped ratings.</p>'}</div>
+      <div class="rsum-c"><h4>Changes recorded</h4>${chg ? `<p class="chg">${chg}</p>` : '<p class="muted">No upgrades, downgrades or target changes recorded.</p>'}${tl.n ? `<p class="note">${tl.n} analyst action${tl.n > 1 ? "s" : ""} below, including reiterations.</p>` : ""}</div></div>
+      <div class="hist">${tl.html}</div>`}</section>`;
     const srcs = (d.sources || []).map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label || s.url)}</a>${s.supports ? `<span class="note">· ${esc(s.supports)}</span>` : ""}</li>`).join("");
     return `<div class="dgrid">
       ${d.split_adjusted ? `<p class="splitnote"><span class="chip warn">Split-adjusted</span>${esc(String(d.split_adjusted.note).replace("valuation text above is", "the case and valuation text is"))}</p>` : ""}
       <div class="cases">${caseCard("bear")}${caseCard("base")}${caseCard("bull")}</div>
       <div class="dcols"><section class="dsec"><h3>Valuation</h3>${valuation}</section><section class="dsec"><h3>Analysts</h3>${street}${named}</section></div>
       ${d.analyst_notes ? `<section class="dsec"><h3>Analyst notes</h3><p class="prose">${researchText(d.analyst_notes)}</p></section>` : ""}
-      ${tl.n ? `<details class="more"><summary>${ICON.chev}Analyst timeline · ${tl.n} action${tl.n > 1 ? "s" : ""}</summary><div class="hist">${tl.html}</div></details>` : ""}
+      ${ratings}
       ${srcs ? `<section class="dsec"><h3>Sources</h3><ol class="srcs">${srcs}</ol></section>` : ""}
     </div>`;
   }

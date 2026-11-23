@@ -1,6 +1,6 @@
 ---
 name: Stock Upside Weekly
-description: A calm, precise research dashboard that ranks 12-month upside for large US stocks, with our estimate and the Wall St. average kept apart.
+description: A calm, precise research dashboard that ranks our 12-month price targets for large US stocks from the latest close, with the Wall St. average as a quiet, separate reference.
 colors:
   canvas: "#f6f7f9"
   panel: "#ffffff"
@@ -286,6 +286,10 @@ A slate-and-paper neutral system with a single blue accent and three tinted stat
 ### Named Rules
 **The Two Bases Rule.** Our estimate and the Wall St. average are never blended into one number. Each has its own labelled column and its own sort, and `#` always shows our rank, even when the list is sorted by something else (a sort note says so).
 
+**The Our-View-Leads Rule.** The page is about three numbers: the close, our 12-month target and the upside between them. They get the weight (semibold target, coloured pill, card headline). Wall St. is a reference: muted grey, the last column, absent from the cards, its weekly moves listed last.
+
+**The Dated Close Rule.** Prices are named by when they were set: "Close · Nov 20", "Prices at the Nov 20, 2026 close", "from the Nov 13 close of $110.63". Never "now", "today" or "current".
+
 **The Meaningful Colour Rule.** Green and red mean gain and loss, and their direct analogues (Buy and Sell, upgrade and downgrade, a target strip's high and low). Amber means caution. Blue means you can act here, or this is selected, sorted or current. No hue is ever decorative.
 
 **The Wash Not Fill Rule.** State colour appears as text, or as text on its own 13%-strength wash. There are no solid green or red blocks.
@@ -329,7 +333,7 @@ Panels share one inner rhythm: 16px horizontal inset, 14px head padding, 8px met
 - At 1180px the rail stacks below the stocks panel, becomes a two-column grid of groups, loses its stickiness, and a "This week" jump link appears under the cards.
 - At 1040px the table scrolls horizontally, its header stops sticking, and the range text beside each bar hides.
 - At 900px the nav hides, and detail and methodology columns stack.
-- At 720px the table is replaced by the phone list, the card scroller widens each card to 78%, a sort select (our target, Wall St., company) appears beside the sector filter because the table header is gone, inputs grow to 16px text and 42px height, the week groups go single-column, and kbd hints hide.
+- At 720px the table is replaced by the phone list, the card scroller widens each card to 78%, a sort select (our upside, Wall St. avg, company) appears beside the sector filter because the table header is gone, inputs grow to 16px text and 42px height, the week groups go single-column, and kbd hints hide.
 - At 380px the "Prices as of" stamp hides.
 
 ### Named Rules
@@ -362,13 +366,13 @@ Data marks are round: 4px stroke caps on range bars, a 5px base-case dot with a 
 Quiet, always present. Panel-white with a hairline bottom border, sticky under the safe area. The brand mark is a 24px blue rounded tile with a white rising line. Nav links are 13.5px medium muted text in 6px by 10px pills; hover fills with the hover tone, and the current section (scrollspy) turns blue on the action wash.
 
 ### Top-upside cards
-The first thing read. Five equal cards, each a button that opens its stock in the list. Top line: ticker and a `#rank` badge. Then the company name (ellipsised), the "Our estimate" label, the display-size base-case return in gain or loss colour, "Target $X · now $Y", and a "from X last week" line. Below sits a full-width range bar with bear and bull end labels, and a ruled footer row with the Wall St. target return. Hover lifts 2px with the lift shadow and a stronger border (0.2s, standard ease, motion-gated).
+The first thing read. Five equal cards, each a button that opens its stock in the list. Top line: ticker and a `#rank` badge. Then the company name (ellipsised), the "Our 12-month upside" label, the display-size base-case return in gain or loss colour, and the price pair: "Close · Nov 20" over the closing price, an arrow, then "Our target" over our base-case price (target in semibold ink, close in body tone). A "from X last week" line follows, then a full-width range bar with bear and bull end labels. Wall St. does not appear on the cards. Hover lifts 2px with the lift shadow and a stronger border (0.2s, standard ease, motion-gated).
 
 ### Stocks table
-The reference list. A panel head with title, count line, search (with a `/` kbd hint inside the field) and a sector select. Under it, a meta strip carries the legend (range band, base-case dot, ghost ring) on the left and the kbd row (↑ ↓ move, Enter open, Esc close) on the right. Columns: `#`, Company (ticker, optional stale chip, muted name), Price, Our target (price then return pill), Bear to bull (range bar plus range text), Wall St. target (muted price then coloured return), and a chevron. Headers are 12px muted on the sunk tone and stick under the top bar; sortable headers are buttons that turn blue and semibold with an arrow when active. Rows hover to the hover tone; the open row takes the action wash and its chevron rotates 90 degrees and turns blue. Pending rows are muted with a "Research pending" chip.
+The reference list. A panel head with title, count line, search (with a `/` kbd hint inside the field) and a sector select. Under it, a meta strip carries the legend (range band, base-case dot, ghost ring) on the left and the kbd row (↑ ↓ move, Enter open, Esc close) on the right. Columns: `#`, Company (ticker, optional stale chip, muted name), Close, Our target (semibold ink), Upside (return pill, the default sort), Bear to bull (range bar plus range text), Wall St. avg (13px muted grey price and return, last, a quiet reference), and a chevron. Headers are 12px muted on the sunk tone and stick under the top bar; sortable headers are buttons that turn blue and semibold with an arrow when active. Rows hover to the hover tone; the open row takes the action wash and its chevron rotates 90 degrees and turns blue. Pending rows are muted with a "Research pending" chip.
 
 ### Phone list rows
-Each row is a full-width button: rank, ticker and name, and on the right the base-case pill over "to $target". A second line holds the range bar and "Wall St. +X%". The open row takes the action wash and its detail opens beneath on the sunk tone.
+Each row is a full-width button: rank, ticker and name, and on the right the upside pill over "$close → **$target**". A second line holds the range bar and "Bear X% · Bull Y%". Wall St. lives in the row detail on phones. The open row takes the action wash and its detail opens beneath on the sunk tone.
 
 ### Row detail
 Opens in a sunk well under the row with a 0.24s fade-and-drop reveal (motion-gated).
@@ -380,7 +384,7 @@ Opens in a sunk well under the row with a 0.24s fade-and-drop reveal (motion-gat
 - **Sources:** a numbered list of links with muted notes on what each one supports.
 
 ### This week panel
-The change log. Sticky beside the list on desktop and scrolls inside itself. Groups (Estimate moves, Analyst calls, Street targets, Crossed $50B, Fresh research) each have a subhead with a count badge, a muted hint, three rows and a "Show N more" disclosure. Rows are 38px buttons (44px on phones): ticker, a two-line muted description with the new value in ink, and a pill on the right. Fresh research uses chips, blue for a first research and grey for a refresh. Below 1180px, where the rail stacks under the list, a full-width jump link under the cards ("This week: N estimate moves · N analyst calls · N crossed $50B", with a down arrow) takes readers straight to it.
+The change log. Sticky beside the list on desktop and scrolls inside itself. Groups (Estimate moves, Analyst calls, Crossed $50B, Fresh research, Street targets last) each have a subhead with a count badge, a muted hint, three rows and a "Show N more" disclosure. Rows are 38px buttons (44px on phones): ticker, a two-line muted description with the new value in ink, and a pill on the right. Fresh research uses chips, blue for a first research and grey for a refresh. Below 1180px, where the rail stacks under the list, a full-width jump link under the cards ("This week: N estimate moves · N analyst calls · N crossed $50B", with a down arrow) takes readers straight to it.
 
 ### Methodology panel
 A funnel of 10px sunk steps (big tabular count over a muted caption), two prose columns, and a "Not in the list" disclosure holding a framed table of stocks outside the cutoff with amber "unverified" or grey "below $XB" chips. Jumping to one of those names flashes its row with the action wash for 2.6s.

@@ -40,14 +40,14 @@ related_targets: ["site/index.html"]
 - **Dark theme:** a near-black canvas (#0b0e14) with raised panels.
 
 **STORY.**
-1. Roger sees the five highest-upside names at a glance, each with its range and Wall St.'s view.
+1. Roger sees the five highest-upside names at a glance: the close, our 12-month target, the upside and the range.
 2. He scans the whole ranked list, with this week's changes beside it.
 3. He opens any row to read the bear, base and bull reasoning, the analyst evidence and the sources.
 
 **FIRST VIEWPORT.**
 - **Top bar (sticky, 64px):** brand mark and name on the left; in-page nav (Top upside, All stocks, This week, Methodology) in the centre; "Prices as of …" on the right (theme follows the artifact viewer; no page-level switch).
 - **Header:** "Top upside" at 24px semibold, with a one-line basis and disclaimer under it.
-- **Cards:** a row of five top-upside cards. Each holds the ticker and rank, the name, the big base-case figure, "from X last week", and a range bar on the shared scale with a ghost ring for last week. Wall St. sits on a ruled footer row.
+- **Cards:** a row of five top-upside cards. Each holds the ticker and rank, the name, the big base-case figure, "from X last week", and a range bar on the shared scale with a ghost ring for last week. Each card also shows "Close · date → Our target". Wall St. is not on the cards (Roger, 2026-11-23: our estimate, the close and our future price matter more).
 - **Below the cards:**
   - the "All 294 stocks" table panel on the left: search with a `/` hint, a sector filter, and a sticky sortable header;
   - a sticky "This week" panel on the right.

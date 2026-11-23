@@ -20,8 +20,8 @@ The visit succeeds when Roger can see those changes quickly and open the reasoni
 
 ## Positioning
 Two separate views of upside that are never blended:
-- **Independent valuation:** bear, base and bull targets built from filings and stated assumptions.
-- **Street consensus:** the provider's aggregate analyst target, shown as published.
+- **Independent valuation (the headline):** bear, base and bull targets built from filings and stated assumptions. The page leads with the close, our 12-month target and the upside between them.
+- **Street consensus (a reference):** the provider's aggregate analyst target, shown as published, quietly and after ours.
 
 Named-analyst targets are weighted by recency with a 90-day half-life, and only calls with a documented 12-month horizon count. Every number traces to a dated source.
 
@@ -64,4 +64,6 @@ Known gaps:
 ## Brand Commitments
 - **Look:** the category standard for research dashboards, executed at the craft level of Linear and Stripe Dashboard. Roger chose this on 2026-11-23 over more expressive directions.
 - **Never trading-app hype:** no neon, no casino energy, no loud green and red fills. It should feel calm and trustworthy.
+- **Our view leads:** our estimate, the closing price and our 12-month target carry the design; Wall St. is a muted reference.
+- **Dated prices:** prices are described by their close date ("at the Nov 20 close"), never as "now" or "today".
 - **Better, not barer:** when the page needs to be easier to read, improve hierarchy and disclosure rather than deleting content.

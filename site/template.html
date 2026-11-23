@@ -87,13 +87,16 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .card-name { font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 10px; }
 .card-k { font-size: 12px; color: var(--muted); }
 .card-v { font-size: 28px; font-weight: 600; line-height: 1.15; letter-spacing: -.025em; font-variant-numeric: tabular-nums; }
-.card-t { font-size: 12.5px; color: var(--muted); font-variant-numeric: tabular-nums; margin-top: 2px; }
-.card-t b { font-weight: 600; color: var(--fg); }
+.card-px { display: flex; align-items: flex-end; gap: 10px; margin: 10px 0 2px; }
+.px { display: grid; gap: 1px; min-width: 0; }
+.px small { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+.px b { font-size: 15px; font-weight: 600; color: var(--fg); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.px b.px-c { font-weight: 500; color: var(--fg2); }
+.px-arrow { flex: none; color: var(--muted); margin-bottom: 3px; }
 .was { font-size: 12px; color: var(--muted); min-height: 18px; }
 .card .rbar { width: 100%; height: auto; margin-top: 12px; }
 .card-rng { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.card-ws { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 12.5px; color: var(--muted); }
-.card-ws > span:last-child { font-size: 13.5px; font-weight: 600; font-variant-numeric: tabular-nums; }
+
 
 /* Range bar (shared scale) and target strip */
 .rbar { display: block; overflow: visible; }
@@ -178,9 +181,8 @@ tr.pending:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
 .co-t { display: flex; align-items: center; gap: 6px; }
 .co b { font-weight: 600; color: var(--fg); }
 .co small { font-size: 12.5px; color: var(--muted); max-width: 30ch; overflow: hidden; text-overflow: ellipsis; }
-.tgt { display: inline-flex; align-items: center; justify-content: flex-end; gap: 10px; }
-.tp { font-weight: 500; color: var(--fg); }
-.tp.ws { font-weight: 400; color: var(--muted); }
+.grid td.tp { font-weight: 600; color: var(--fg); }
+.ws-cell { display: inline-flex; gap: 8px; font-size: 13px; color: var(--muted); }
 .rcell { display: inline-flex; align-items: center; gap: 10px; }
 .rcell .rbar { width: 140px; height: auto; }
 .rtxt { min-width: 92px; font-size: 12px; color: var(--muted); }
@@ -289,7 +291,8 @@ details.inline .kv { margin-top: 10px; }
 .mrow .rk { width: auto; font-size: 12px; }
 .mrow .co small { max-width: none; }
 .mright { display: grid; justify-items: end; gap: 2px; }
-.mright small { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mright small { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.mright small b { font-weight: 600; color: var(--fg); }
 .msub { grid-column: 2 / 4; display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: 12.5px; color: var(--muted); }
 .msub .rbar { width: 132px; height: auto; flex: none; }
 .mdetail { background: var(--sunk); border-top: 1px solid var(--line); }
@@ -382,7 +385,7 @@ details.inline .kv { margin-top: 10px; }
             <kbd aria-hidden="true">/</kbd>
           </label>
           <select id="sector" aria-label="Filter by sector"><option value="">All sectors</option></select>
-          <select id="sortsel" class="m-only" aria-label="Sort stocks"><option value="base">By our target</option><option value="street">By Wall St.</option><option value="co">By company</option></select>
+          <select id="sortsel" class="m-only" aria-label="Sort stocks"><option value="base">By our upside</option><option value="street">By Wall St. avg</option><option value="co">By company</option></select>
         </div>
       </div>
       <div class="list-meta" id="list-meta"></div>
@@ -422,6 +425,7 @@ details.inline .kv { margin-top: 10px; }
   const capRange = c => c ? `$${(c.low / 1e9).toFixed(1)}B – $${(c.high / 1e9).toFixed(1)}B` : "n/a";
   const day = (s, o) => s ? new Date(s.length === 10 ? s + "T12:00:00" : s).toLocaleDateString("en-US", o || { month: "short", day: "numeric", year: "numeric" }) : "n/a";
   const shortDay = s => day(s, { month: "short", day: "numeric" });
+  const closeDay = shortDay(D.reference_session);
   const rec = v => { const s = String(v || "").replace(/_/g, " "); return s && s !== "none" ? s[0].toUpperCase() + s.slice(1) : ""; };
   const reduced = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -430,6 +434,7 @@ details.inline .kv { margin-top: 10px; }
     down: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 2v7.5M2.5 6 6 9.5 9.5 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     same: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6h7.5M6.5 3 9.5 6 6.5 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     dot: '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><circle cx="6" cy="6" r="2.4" fill="currentColor"/></svg>',
+    arrow: '<svg class="px-arrow" width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9.5 4.5 13 8l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     chev: '<svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true"><path d="M5.5 3.5 9 7l-3.5 3.5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     sortDown: '<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 8V2M2.5 5.5 5 8l2.5-2.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>',
     sortUp: '<svg width="10" height="10" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 2v6M2.5 4.5 5 2l2.5 2.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>'
@@ -463,7 +468,7 @@ details.inline .kv { margin-top: 10px; }
       <circle class="dot ${s.base >= 0 ? "pos" : "neg"}" cx="${x(s.base)}" cy="${y}" r="5"/></svg>`;
   }
 
-  // Analyst target strip: low to high, the average, and today's close.
+  // Analyst target strip: low to high, the average, and the latest close.
   function strip(lo, hi, avg, close, cur, label = "Average") {
     if (lo == null || hi == null || close == null) return "";
     const a = Math.min(lo, close), b = Math.max(hi, close), pad = (b - a) * 0.08 || 1, W = 380, y = 12;
@@ -477,9 +482,9 @@ details.inline .kv { margin-top: 10px; }
 
   // Header
   $("#asof").dateTime = D.reference_session;
-  $("#asof").innerHTML = `<span class="asof-k">Prices as of </span>${day(D.reference_session)}`;
+  $("#asof").innerHTML = `<span class="asof-k">Prices at the </span>${day(D.reference_session)} close`;
   const upCount = D.ranked.filter(r => r.scenarios_pct.base >= 0).length, negCount = D.ranked.length - upCount;
-  $("#lede").innerHTML = `Our 12-month base case for the ${elig.length} US stocks over $${cutB}B, with the Wall St. average beside it, never blended. Research output, not investment advice.`;
+  $("#lede").innerHTML = `Our 12-month price targets for the ${elig.length} US stocks over $${cutB}B, measured from the ${day(D.reference_session)} close. Research output, not investment advice.`;
 
 
   // Top upside cards
@@ -487,18 +492,18 @@ details.inline .kv { margin-top: 10px; }
     const top = D.ranked.slice(0, 5);
     if (!top.length) { $("#cards").innerHTML = '<p class="empty">No names have deep research yet. The first batch arrives with the next weekly run.</p>'; return; }
     $("#cards").innerHTML = top.map(r => {
-      const s = r.scenarios_pct, i = iss[r.symbol] || {}, a = i.aggregate || {}, prev = prevBase[r.symbol];
+      const s = r.scenarios_pct, i = iss[r.symbol] || {}, prev = prevBase[r.symbol];
       const was = prev != null ? `${s.base >= prev ? "Up" : "Down"} from ${sgn(prev)} last week` : newThisWeek.has(r.symbol) ? "New research this week" : "";
-      return `<button type="button" class="card" data-sym="${esc(r.symbol)}" aria-label="${esc(r.symbol)}, ${esc(i.name)}. Our estimate ${sgn(s.base)}. Wall St. ${a.upside_pct != null ? sgn(a.upside_pct) : "n/a"}. Show details">
+      const cl = money(r.close, i.currency), tg = money(baseTarget(r.symbol), i.currency);
+      return `<button type="button" class="card" data-sym="${esc(r.symbol)}" aria-label="${esc(r.symbol)}, ${esc(i.name)}. Our 12-month estimate ${sgn(s.base)}: from the ${closeDay} close of ${cl} to a ${tg} target. Show details">
         <span class="card-top"><span class="tk">${esc(r.symbol)}</span><span class="rank">#${rk[r.symbol].rank}</span></span>
         <span class="card-name">${esc(i.name)}</span>
-        <span class="card-k">Our estimate</span>
+        <span class="card-k">Our 12-month upside</span>
         <span class="card-v ${s.base >= 0 ? "pos" : "neg"}">${sgn(s.base)}</span>
-        <span class="card-t"><span class="nw">Target <b>${money(baseTarget(r.symbol), i.currency)}</b> ·</span> <span class="nw">now ${money(r.close, i.currency)}</span></span>
+        <span class="card-px"><span class="px"><small>Close · ${closeDay}</small><b class="px-c">${cl}</b></span>${ICON.arrow}<span class="px"><small>Our target</small><b>${tg}</b></span></span>
         <span class="was">${was}</span>
         ${rangeBar(s, prev)}
-        <span class="card-rng"><span>Bear ${sgn(s.bear, 0)}</span><span>Bull ${sgn(s.bull, 0)}</span></span>
-        <span class="card-ws"><span>Wall St. target</span>${pct(a.upside_pct)}</span></button>`;
+        <span class="card-rng"><span>Bear ${sgn(s.bear, 0)}</span><span>Bull ${sgn(s.bull, 0)}</span></span></button>`;
     }).join("");
   }
   $("#cards").addEventListener("click", e => { const b = e.target.closest("[data-sym]"); if (b) showStock(b.dataset.sym); });
@@ -529,13 +534,13 @@ details.inline .kv { margin-top: 10px; }
       <span class="d">${sgn(m.prev_base)} → <strong>${sgn(m.base)}</strong> · ${m.re_researched ? "re-researched" : m.price_change_pct != null ? "price " + sgn(m.price_change_pct) : "price move"}</span><span class="v">${pts(m.delta_pp)}</span></button>`,
       "No base case moved.", { hint: "Change in our base case, largest first." });
     add("Analyst calls", X.analyst_calls, call, "No named-analyst actions on researched names this week.", { hint: "Named analysts on researched names." });
-    if (!first) add("Street targets", X.street_moves, m => `<button type="button" class="crow" ${go(m.symbol)}><b>${esc(m.symbol)}</b>
-      <span class="d">avg ${tgt(m.prev_mean, m.symbol)} → <strong>${tgt(m.mean, m.symbol)}</strong>${m.recommendation !== m.prev_recommendation && rec(m.recommendation) ? " · " + esc(rec(m.prev_recommendation) || "none") + " → <strong>" + esc(rec(m.recommendation)) + "</strong>" : ""}</span><span class="v">${pill(m.target_change_pct)}</span></button>`,
-      "No average target moved 2% or more.", { hint: "Yahoo Finance average target, moves of 2% or more." });
     if (!first) add(`Crossed $${cutB}B`, X.crossings, m => `<button type="button" class="crow" ${go(m.symbol)} title="${esc(m.name || "")}"><b>${esc(m.symbol)}</b>
       <span class="d">${st(m.prev_status)} → <strong>${st(m.status)}</strong></span><span class="v num">${cap(m.market_cap_usd)}</span></button>`, "No name entered or left the list.");
     add(first ? "Researched this run" : "Fresh research", X.research, r => `<button type="button" class="chip${r.kind === "new" ? " acc" : ""}" ${go(r.symbol)} title="${esc((iss[r.symbol] || {}).name || "")} · ${r.kind === "new" ? "first research" : "refreshed"}">${esc(r.symbol)}</button>`,
       "No new research this week.", { chips: true, hint: "Blue marks a first research; grey a refresh." });
+    if (!first) add("Street targets", X.street_moves, m => `<button type="button" class="crow" ${go(m.symbol)}><b>${esc(m.symbol)}</b>
+      <span class="d">avg ${tgt(m.prev_mean, m.symbol)} → <strong>${tgt(m.mean, m.symbol)}</strong>${m.recommendation !== m.prev_recommendation && rec(m.recommendation) ? " · " + esc(rec(m.prev_recommendation) || "none") + " → <strong>" + esc(rec(m.recommendation)) + "</strong>" : ""}</span><span class="v">${pill(m.target_change_pct)}</span></button>`,
+      "No average target moved 2% or more.", { hint: "Yahoo Finance average target, moves of 2% or more." });
     const SHOW = 3, CHIPS = 18;
     const body = groups.map(g => {
       const n = g.items.length;
@@ -554,7 +559,7 @@ details.inline .kv { margin-top: 10px; }
   const sectors = [...new Set(elig.map(r => r.sector).filter(Boolean))].sort();
   $("#sector").insertAdjacentHTML("beforeend", sectors.map(s => `<option>${esc(s)}</option>`).join(""));
   const sort = { key: "base", dir: -1 };
-  const SORT_LABEL = { co: "company", base: "our target", street: "Wall St. target" };
+  const SORT_LABEL = { co: "company", base: "our upside", street: "the Wall St. average" };
   const GET = { co: r => r.symbol, base: r => rk[r.symbol] ? rk[r.symbol].scenarios_pct.base : null, street: r => (r.aggregate || {}).upside_pct };
   const byRank = (p, q) => ((rk[p.symbol] || {}).rank || 1e9) - ((rk[q.symbol] || {}).rank || 1e9) || p.symbol.localeCompare(q.symbol);
   function ordered(rows) {
@@ -574,7 +579,7 @@ details.inline .kv { margin-top: 10px; }
   // Our base-case price target (split-adjusted in the build), falling back to close × (1 + base return).
   const baseTarget = sym => { const v = ((D.details[sym] || {}).valuation || {}).base, k = rk[sym];
     return v != null && v !== "" && isFinite(+v) ? +v : k ? k.close * (1 + k.scenarios_pct.base / 100) : null; };
-  const street = (a, cur) => a.mean != null ? `<span class="tgt"><span class="tp ws">${money(a.mean, cur)}</span>${pct(a.upside_pct)}</span>` : pct(a.upside_pct);
+  const street = (a, cur) => a.mean != null || a.upside_pct != null ? `<span class="ws-cell">${a.mean != null ? money(a.mean, cur) : ""}<span>${a.upside_pct != null ? sgn(a.upside_pct) : "n/a"}</span></span>` : '<span class="na">n/a</span>';
   function nameCell(sym, d) {
     const r = iss[sym] || {}, extra = r.other_classes && r.other_classes.length ? ` · also ${r.other_classes.join(", ")}` : "";
     return `<span class="co"><span class="co-t"><b>${esc(sym)}</b>${d && stale(d.researched_at) ? '<span class="chip warn" title="Research is more than 120 days old">stale</span>' : ""}</span><small title="${esc(r.name)}${esc(extra)}">${esc(r.name)}${esc(extra)}</small></span>`;
@@ -586,26 +591,27 @@ details.inline .kv { margin-top: 10px; }
     $("#stocks-sub").textContent = filtered ? `${rows.length} of ${elig.length} match` : `${elig.length} stocks · ${upCount} with upside, ${negCount} negative${elig.length > D.ranked.length ? ` · ${elig.length - D.ranked.length} awaiting research` : ""}`;
     const empty = elig.length ? "No stocks match. Clear the search or pick another sector." : "No stocks in the list yet.";
     let h = sort.key !== "base" ? `<p class="sortnote">Sorted by ${SORT_LABEL[sort.key]}. The # column keeps our rank by base case.</p>` : "";
-    h += `<div class="tablewrap"><table class="grid"><thead><tr><th scope="col" class="rk" title="Our rank by base-case 12-month return">#</th>${th("co", "Company", "l")}<th scope="col">Price</th>`
-      + `${th("base", "Our target", "", "Our base-case 12-month price target and the return it implies. Sorts by the return.")}<th scope="col" class="l" title="Our bear and bull cases on one shared scale. The dot is the base case; a hollow ring is last week's base case.">Bear to bull</th>`
-      + `${th("street", "Wall St. target", "", "Yahoo Finance average analyst target and its return from this week's close. Sorts by the return.")}<th scope="col" class="chev"><span class="sr">Details</span></th></tr></thead><tbody>`;
-    if (!rows.length) h += `<tr><td colspan="7" class="empty">${empty}</td></tr>`;
+    h += `<div class="tablewrap"><table class="grid"><thead><tr><th scope="col" class="rk" title="Our rank by base-case 12-month return">#</th>${th("co", "Company", "l")}<th scope="col" title="Closing price on ${day(D.reference_session)}">Close</th>`
+      + `<th scope="col" title="Our base-case price 12 months out">Our target</th>${th("base", "Upside", "", "Our base-case 12-month price return from the close. The default ranking.")}`
+      + `<th scope="col" class="l" title="Our bear and bull cases on one shared scale. The dot is the base case; a hollow ring is last week's base case.">Bear to bull</th>`
+      + `${th("street", "Wall St. avg", "", "Yahoo Finance average analyst target and its return from the close. A reference only, never blended into ours.")}<th scope="col" class="chev"><span class="sr">Details</span></th></tr></thead><tbody>`;
+    if (!rows.length) h += `<tr><td colspan="8" class="empty">${empty}</td></tr>`;
     rows.forEach(r => {
       const k = rk[r.symbol], a = r.aggregate || {}, d = D.details[r.symbol];
-      if (!k) { h += `<tr class="pending" data-sym="${esc(r.symbol)}" tabindex="-1"><td class="rk">–</td><td class="l">${nameCell(r.symbol)}</td><td>${money(r.close, r.currency)}</td><td><span class="chip">Research pending</span></td><td class="l"></td><td>${street(a, r.currency)}</td><td class="chev"></td></tr>`; return; }
+      if (!k) { h += `<tr class="pending" data-sym="${esc(r.symbol)}" tabindex="-1"><td class="rk">–</td><td class="l">${nameCell(r.symbol)}</td><td>${money(r.close, r.currency)}</td><td><span class="na">—</span></td><td><span class="chip">Research pending</span></td><td class="l"></td><td>${street(a, r.currency)}</td><td class="chev"></td></tr>`; return; }
       const s = k.scenarios_pct, isOpen = open === r.symbol;
       h += `<tr class="row${isOpen ? " open" : ""}" data-sym="${esc(r.symbol)}" tabindex="-1" aria-expanded="${isOpen}">
-        <td class="rk">${k.rank}</td><td class="l">${nameCell(r.symbol, d)}</td><td>${money(k.close, r.currency)}</td><td><span class="tgt"><span class="tp">${money(baseTarget(r.symbol), r.currency)}</span>${pill(s.base)}</span></td>
+        <td class="rk">${k.rank}</td><td class="l">${nameCell(r.symbol, d)}</td><td>${money(k.close, r.currency)}</td><td class="tp">${money(baseTarget(r.symbol), r.currency)}</td><td>${pill(s.base)}</td>
         <td class="l"><span class="rcell">${rangeBar(s, prevBase[r.symbol])}<span class="rtxt">${sgn(s.bear, 0)} to ${sgn(s.bull, 0)}</span></span></td><td>${street(a, r.currency)}</td><td class="chev">${ICON.chev}</td></tr>`;
-      if (isOpen) h += `<tr class="detail"><td colspan="7">${detail(k, d || {}, r)}</td></tr>`;
+      if (isOpen) h += `<tr class="detail"><td colspan="8">${detail(k, d || {}, r)}</td></tr>`;
     });
     h += `</tbody></table></div><ol class="mlist">`;
     h += rows.map(r => {
       const k = rk[r.symbol], a = r.aggregate || {}, d = D.details[r.symbol];
-      if (!k) return `<li><div class="mrow pending" data-sym="${esc(r.symbol)}" tabindex="-1"><span class="rk">–</span>${nameCell(r.symbol)}<span class="chip">Pending</span><span class="msub"><span>Research pending</span><span>Wall St. ${pct(a.upside_pct)}</span></span></div></li>`;
+      if (!k) return `<li><div class="mrow pending" data-sym="${esc(r.symbol)}" tabindex="-1"><span class="rk">–</span>${nameCell(r.symbol)}<span class="chip">Pending</span><span class="msub"><span>Research pending</span><span>Close ${money(r.close, r.currency)}</span></span></div></li>`;
       const s = k.scenarios_pct, isOpen = open === r.symbol;
-      return `<li><button type="button" class="mrow" data-sym="${esc(r.symbol)}" tabindex="-1" aria-expanded="${isOpen}"><span class="rk">${k.rank}</span>${nameCell(r.symbol, d)}<span class="mright">${pill(s.base)}<small>to ${money(baseTarget(r.symbol), r.currency)}</small></span>
-        <span class="msub">${rangeBar(s, prevBase[r.symbol])}<span>Wall St. ${pct(a.upside_pct)}</span></span></button>${isOpen ? `<div class="mdetail">${detail(k, d || {}, r)}</div>` : ""}</li>`;
+      return `<li><button type="button" class="mrow" data-sym="${esc(r.symbol)}" tabindex="-1" aria-expanded="${isOpen}"><span class="rk">${k.rank}</span>${nameCell(r.symbol, d)}<span class="mright">${pill(s.base)}<small>${money(k.close, r.currency)} → <b>${money(baseTarget(r.symbol), r.currency)}</b></small></span>
+        <span class="msub">${rangeBar(s, prevBase[r.symbol])}<span>Bear ${sgn(s.bear, 0)} · Bull ${sgn(s.bull, 0)}</span></span></button>${isOpen ? `<div class="mdetail">${detail(k, d || {}, r)}</div>` : ""}</li>`;
     }).join("") || `<li class="empty">${empty}</li>`;
     $("#rows").innerHTML = h + "</ol>";
     $("#sortsel").value = sort.key;
@@ -661,7 +667,7 @@ details.inline .kv { margin-top: 10px; }
       v.watch_metric && ["What to watch", researchText(v.watch_metric)],
       v.next_disclosure && ["Next report", esc(v.next_disclosure)],
       d.dividend_per_share != null && ["Dividends", `${money(d.dividend_per_share, cur)} expected; base-case total return ${pct(k.base_total_return_pct)}`],
-      ["Researched", `${day(d.researched_at)}${d.research_close ? ` · price then ${money(d.research_close.close, cur)} (${day(d.research_close.close_date)} close)` : ""}${stale(d.researched_at) ? ' <span class="chip warn">stale</span>' : ""}`],
+      ["Researched", `${day(d.researched_at)}${d.research_close ? `, from the ${day(d.research_close.close_date)} close of ${money(d.research_close.close, cur)}` : ""}${stale(d.researched_at) ? ' <span class="chip warn">stale</span>' : ""}`],
       ["Market cap", `${cap(r.market_cap_usd)} <span class="note">(range ${capRange(r.market_cap_usd)})</span>`],
       false
     ]);
@@ -780,7 +786,7 @@ details.inline .kv { margin-top: 10px; }
   $("#mcols").innerHTML = `<div><h3>How the estimates work</h3>
       <p>Eligibility needs a verified whole-company market cap strictly above $${cutB}B (a stricter filter than the stock-upside-analysis skill's $20B floor), one row per issuer, with extra share classes folded in.</p>
       <p>Our bear, base and bull targets are built from filings and stated operating assumptions. Returns are price-only over 12 months unless a dividend line is shown. The list ranks by the unrounded base case, and the range bars share one scale (${sgn(LO, 0)} to ${sgn(HI, 0)}) so rows compare.</p>
-      <p>Named-analyst targets count only with a documented 12-month horizon. Each analyst gets one vote, halving with every 90 days of age. Wall St. is the provider's published average and is never blended into our estimate.</p></div>
+      <p>Named-analyst targets count only with a documented 12-month horizon. Each analyst gets one vote, halving with every 90 days of age. Wall St. is the provider's published average, shown as a reference and never blended into our estimate.</p></div>
     <div><h3>Data</h3>
       <p>Universe from the <a href="https://www.nasdaq.com/market-activity/stocks/screener" target="_blank" rel="noopener">Nasdaq stock screener</a>. Closes, shares and average targets from Yahoo Finance via yfinance. Deep research cites its own sources inside each row.</p>
       <p>Prices as of the ${day(D.reference_session)} close. Market data fetched ${day(D.fetched_at)}; page built ${day(D.built_at)}.</p>

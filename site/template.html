@@ -48,6 +48,7 @@ h4 { font-size: 12.5px; font-weight: 600; }
 .pill.pos { background: var(--up-soft); } .pill.neg { background: var(--down-soft); }
 .chip { display: inline-flex; align-items: center; font: 500 11.5px/18px var(--font); padding: 0 8px; border-radius: 999px; background: var(--bg); color: var(--muted); border: 1px solid var(--line); white-space: nowrap; }
 .chip.acc { background: var(--accent-soft); color: var(--accent); border-color: var(--accent-line); }
+.chip.ok { background: var(--up-soft); color: var(--up); border-color: transparent; }
 .chip.warn { background: var(--warn-soft); color: var(--warn); border-color: transparent; }
 button.chip { cursor: pointer; }
 button.chip:hover { border-color: var(--line2); color: var(--fg); }
@@ -273,13 +274,46 @@ details.inline .kv { margin-top: 10px; }
 .syms { display: flex; flex-wrap: wrap; gap: 6px; padding: 4px 16px 10px; }
 
 /* Methodology */
-.method-body { display: grid; gap: 22px; padding: 18px 16px 20px; }
-.funnel { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: stretch; gap: 8px; }
-.funnel li { display: grid; min-width: 150px; padding: 10px 14px; background: var(--sunk); border: 1px solid var(--line); border-radius: 10px; }
-.funnel b { font-size: 18px; font-weight: 600; letter-spacing: -.015em; font-variant-numeric: tabular-nums; }
-.funnel span { font-size: 12.5px; color: var(--muted); }
-.mcols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
-.mcols p { margin: 6px 0 0; max-width: 72ch; font-size: 13.5px; color: var(--fg2); }
+.method-body { display: grid; gap: 24px; padding: 20px 18px 22px; }
+.mblock { display: grid; gap: 10px; }
+.mblock-h { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+.funnel { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px; }
+.funnel li { position: relative; display: grid; align-content: start; gap: 2px; padding: 12px 14px; background: var(--sunk); border: 1px solid var(--line); border-radius: 10px; }
+.funnel li:not(:last-child)::after { content: "›"; position: absolute; right: -9px; top: 50%; translate: 0 -50%; z-index: 1; width: 16px; height: 16px; display: grid; place-items: center; font-size: 13px; font-weight: 600; color: var(--muted); background: var(--card); border: 1px solid var(--line); border-radius: 999px; line-height: 1; }
+.funnel .f-step { font-size: 11px; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); }
+.funnel b { font-size: 20px; font-weight: 600; line-height: 1.2; letter-spacing: -.018em; font-variant-numeric: tabular-nums; margin-top: 2px; }
+.funnel .f-lbl { font-size: 13px; font-weight: 500; color: var(--fg); }
+.funnel .f-sub { font-size: 12px; color: var(--muted); line-height: 1.35; }
+.mcards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.mcard { display: grid; align-content: start; gap: 10px; padding: 14px 16px; background: var(--sunk); border: 1px solid var(--line); border-radius: 10px; }
+.mcard.lead { background: var(--card); border-color: var(--accent-line); box-shadow: inset 0 0 0 1px var(--accent-line); }
+.mcard-h { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.mcard-h h4 { font-size: 13.5px; color: var(--fg); }
+.mcard-p { margin: 0; font-size: 13px; color: var(--fg2); line-height: 1.45; }
+.mcard-viz { padding: 10px 12px; background: var(--card); border: 1px solid var(--line); border-radius: 8px; display: grid; gap: 6px; }
+.mcard-viz .rbar { width: 100%; height: auto; display: block; }
+.mcard.lead .mcard-viz { background: var(--sunk); }
+.mviz-lbl { display: flex; justify-content: space-between; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.mviz-lbl b { font-weight: 600; color: var(--fg); }
+.decay { display: grid; gap: 5px; }
+.decay-r { display: grid; grid-template-columns: 52px minmax(0, 1fr) 34px; align-items: center; gap: 8px; font-size: 11.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.decay-r b { text-align: right; color: var(--fg2); font-weight: 600; }
+.decay-bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+.decay-bar i { display: block; height: 100%; background: var(--accent); border-radius: 999px; }
+.mviz-sep { font-size: 12px; color: var(--muted); line-height: 1.4; }
+.mviz-sep b { color: var(--fg2); font-weight: 600; }
+.mpts { margin: 0; padding: 0; list-style: none; display: grid; gap: 6px; font-size: 12.5px; color: var(--fg2); line-height: 1.45; }
+.mpts li { position: relative; padding-left: 13px; }
+.mpts li::before { content: ""; position: absolute; left: 0; top: 7px; width: 5px; height: 5px; border-radius: 50%; background: var(--line2); }
+.mcard.lead .mpts li::before { background: var(--accent); }
+.mpts b { color: var(--fg); font-weight: 600; }
+.mcols { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.mbox { display: grid; align-content: start; gap: 12px; padding: 14px 16px; background: var(--sunk); border: 1px solid var(--line); border-radius: 10px; }
+.mbox-h { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 10px; }
+.mhealth { display: flex; flex-wrap: wrap; gap: 6px; }
+.mrules { margin: 0; padding: 0; list-style: none; display: grid; gap: 9px; font-size: 13px; color: var(--fg2); line-height: 1.45; }
+.mrules b { color: var(--fg); font-weight: 600; }
+.mbox .kv { grid-template-columns: 112px minmax(0, 1fr); gap: 8px 14px; }
 .outside .tablewrap { margin-top: 12px; overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
 .outside .grid th { position: static; }
 .outside tr.hit > td { background: var(--accent-soft); }
@@ -326,7 +360,10 @@ details.inline .kv { margin-top: 10px; }
 }
 @media (max-width: 900px) {
   .nav { display: none; }
-  .dcols, .mcols { grid-template-columns: minmax(0, 1fr); }
+  .dcols, .mcols, .mcards { grid-template-columns: minmax(0, 1fr); }
+  .funnel { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .funnel li:last-child { grid-column: 1 / -1; }
+  .funnel li::after { display: none; }
 }
 @media (max-width: 720px) {
   /* Analyst actions stack into small cards: action and date, analyst and source, rating and target. */
@@ -366,9 +403,9 @@ details.inline .kv { margin-top: 10px; }
   .stocks .tablewrap { display: none; }
   .mlist { display: block; }
   .cases { grid-template-columns: minmax(0, 1fr); }
-  .kv { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .kv, .mbox .kv { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   .kv dt { margin-top: 8px; font-size: 12px; }
-  .funnel li { min-width: 0; flex: 1 1 40%; }
+  .kv dt:first-child { margin-top: 0; }
   details.more > summary, details.inline > summary, .wgroup details > summary { min-height: 32px; }
 }
 @media (max-width: 380px) { .msub { flex-wrap: wrap; } .asof { display: none; } }
@@ -417,7 +454,14 @@ details.inline .kv { margin-top: 10px; }
   <section class="panel" id="method" aria-labelledby="method-title">
     <div class="panel-head"><div><h2 id="method-title">Methodology and data</h2><p class="sub" id="method-sub"></p></div></div>
     <div class="method-body">
-      <ol class="funnel" id="funnel" aria-label="Screen counts"></ol>
+      <div class="mblock">
+        <div class="mblock-h"><h3>How stocks reach the list</h3><span class="note" id="funnel-note"></span></div>
+        <ol class="funnel" id="funnel" aria-label="Screen counts"></ol>
+      </div>
+      <div class="mblock">
+        <div class="mblock-h"><h3>Three numbers, never blended</h3><span class="note">Every return stays labeled by its source</span></div>
+        <div class="mcards" id="mcards"></div>
+      </div>
       <div class="mcols" id="mcols"></div>
       <details class="inline outside" id="outside"></details>
     </div>
@@ -663,12 +707,11 @@ details.inline .kv { margin-top: 10px; }
       const ratingTxt = r ? (r.prior_observed != null && r.prior_observed !== r.value ? `${esc(r.prior_observed)} → ` : "") + `<b>${esc(r.value)}</b>` : '<span class="na">—</span>';
       const prior = t ? (t.source_prior != null ? t.source_prior : t.prior_observed) : null;
       const tg = t ? (prior != null && prior !== t.value ? `${money(prior)} → ` : "") + `<b>${money(t.value)}</b>` : '<span class="na">—</span>';
-      const status = [r, t].filter(Boolean).map(e => e.status_at_cutoff).filter(s => s && s !== "active");
       const src = (t || r).source;
       tally[act] = (tally[act] || 0) + 1;
       h += `<tr><td class="l"><span class="act"><i class="${cls}" aria-hidden="true">${icon}</i>${act}</span></td><td class="l">${ratingTxt}</td>
         <td class="l">${esc(g.analyst)}<br><span class="note">${esc(g.firm)}</span></td><td>${tg}</td><td>${t && t.revision_pct != null ? pct(t.revision_pct) : '<span class="na">—</span>'}</td>
-        <td class="l">${day(g.day)}${status.length ? `<br><span class="chip warn" title="Kept in the timeline, left out of the weighted target">${esc(status[0])}</span>` : ""}</td>
+        <td class="l">${day(g.day)}</td>
         <td class="l">${/^https?:/.test(src) ? `<a href="${esc(src)}" target="_blank" rel="noopener">Source</a>` : esc(src)}</td></tr>`;
     });
     return { n: rows.length, tally, html: `<table class="grid"><thead><tr><th class="l">Action</th><th class="l">Rating</th><th class="l">Analyst</th><th>Target</th><th>Change</th><th class="l">Date</th><th class="l">Source</th></tr></thead><tbody>${h || '<tr><td colspan="7" class="empty">No named analyst calls recorded.</td></tr>'}</tbody></table>` };
@@ -809,19 +852,81 @@ details.inline .kv { margin-top: 10px; }
   });
 
   // Methodology and data
-  const steps = [[C.listings_checked, "listings screened"], [C.issuers, "issuers"], [C.eligible, `above $${cutB}B`], [C.rank_valued, "valued in depth"], [C.rank_with_named_targets, "with named-analyst targets"]];
-  $("#funnel").innerHTML = steps.map(([n, l]) => `<li><b>${n == null ? "n/a" : n}</b><span>${l}</span></li>`).join("");
-  $("#method-sub").textContent = `${D.universe}. Updated every Saturday after Friday's close.`;
-  $("#mcols").innerHTML = `<div><h3>How the estimates work</h3>
-      <p>Eligibility needs a verified whole-company market cap strictly above $${cutB}B (a stricter filter than the stock-upside-analysis skill's $20B floor), one row per issuer, with extra share classes folded in.</p>
-      <p>Our bear, base and bull targets are built from filings and stated operating assumptions. Returns are price-only over 12 months unless a dividend line is shown. The list ranks by the unrounded base case, and the range bars share one scale (${sgn(LO, 0)} to ${sgn(HI, 0)}) so rows compare.</p>
-      <p>Named-analyst targets count only with a documented 12-month horizon. Each analyst gets one vote, halving with every 90 days of age. Wall St. is the provider's published average, shown as a reference and never blended into our estimate.</p></div>
-    <div><h3>Data</h3>
-      <p>Universe from the <a href="https://www.nasdaq.com/market-activity/stocks/screener" target="_blank" rel="noopener">Nasdaq stock screener</a>. Closes, shares and average targets from Yahoo Finance via yfinance. Deep research cites its own sources inside each row.</p>
-      <p>Prices as of the ${day(D.reference_session)} close. Market data fetched ${day(D.fetched_at)}; page built ${day(D.built_at)}.</p>
-      <p>${D.failures.length ? `${D.failures.length} listings failed to load this week. ` : "Every listing loaded this week. "}${D.rejected.length ? `${D.rejected.length} research files were rejected by validation.` : "No research files were rejected."}</p></div>`;
+  const steps = [
+    [C.listings_checked, "Listings screened", "US stocks from Nasdaq"],
+    [C.issuers, "Unique companies", "Extra share classes merged"],
+    [C.eligible, `Above $${cutB}B`, "Verified whole-company cap"],
+    [C.rank_valued, "Valued in depth", "Independent 3-case models"],
+    [C.rank_with_named_targets, "With analyst targets", "Verified 12-month calls"]
+  ];
+  $("#method-sub").textContent = `Plain-English guide to how stocks are filtered, valued, and updated every Saturday after Friday's close.`;
+  $("#funnel-note").textContent = `${day(D.reference_session)} close`;
+  $("#funnel").innerHTML = steps.map(([n, l, sub], i) => `<li><span class="f-step">Step ${i + 1}</span><b>${n == null ? "n/a" : n}</b><span class="f-lbl">${l}</span><span class="f-sub">${sub}</span></li>`).join("");
+  $("#mcards").innerHTML = `
+    <div class="mcard lead">
+      <div class="mcard-h"><h4>Our estimate</h4><span class="chip acc">Ranks the list</span></div>
+      <p class="mcard-p">Independent 12-month Bear, Base, and Bull price targets built from filings and stated assumptions.</p>
+      <div class="mcard-viz">
+        ${rangeBar({ bear: -25, base: 18, bull: 55 })}
+        <div class="mviz-lbl"><span>${sgn(LO, 0)}</span><b>Bear · Base · Bull</b><span>${sgn(HI, 0)}</span></div>
+      </div>
+      <ul class="mpts">
+        <li>The table sorts by the unrounded <b>Base case</b> price return.</li>
+        <li>Returns are <b>price-only</b>; expected dividends sit on their own line inside each row.</li>
+        <li>Every row bar uses one shared scale so downside and upside compare at a glance.</li>
+      </ul>
+    </div>
+    <div class="mcard">
+      <div class="mcard-h"><h4>Named analysts</h4><span class="chip">Inside each stock</span></div>
+      <p class="mcard-p">Individual calls we can trace to a named analyst, firm, and date — weighted so fresher calls matter more.</p>
+      <div class="mcard-viz">
+        <div class="decay" aria-label="Recency weighting: today 100%, 90 days 50%, 180 days 25%">
+          <div class="decay-r"><span>Today</span><span class="decay-bar"><i style="width:100%"></i></span><b>100%</b></div>
+          <div class="decay-r"><span>90 days</span><span class="decay-bar"><i style="width:50%"></i></span><b>50%</b></div>
+          <div class="decay-r"><span>180 days</span><span class="decay-bar"><i style="width:25%"></i></span><b>25%</b></div>
+        </div>
+      </div>
+      <ul class="mpts">
+        <li>Each analyst gets <b>one vote</b>; its weight halves every 90 days.</li>
+        <li>Only targets with a documented <b>12-month horizon</b> enter the weighted average.</li>
+        <li>Other dated calls still appear in the timeline and rating mix.</li>
+      </ul>
+    </div>
+    <div class="mcard">
+      <div class="mcard-h"><h4>Wall St. average</h4><span class="chip">Reference only</span></div>
+      <p class="mcard-p">Yahoo Finance's published consensus price target across covering analysts.</p>
+      <div class="mcard-viz">
+        <p class="mviz-sep" style="margin:0"><b>Never blended</b> into our estimate or default rank — kept in its own column as a quiet sanity check.</p>
+      </div>
+      <ul class="mpts">
+        <li>Sortable on its own if you want to compare against broad Street sentiment.</li>
+        <li>Yahoo Finance does not disclose individual analyst names, dates, or target ages.</li>
+      </ul>
+    </div>`;
+  const loadChip = D.failures.length ? `<span class="chip warn">${D.failures.length} listings failed</span>` : `<span class="chip ok">All listings loaded</span>`;
+  const valChip = D.rejected.length ? `<span class="chip warn">${D.rejected.length} files rejected</span>` : `<span class="chip ok">0 files rejected</span>`;
+  $("#mcols").innerHTML = `
+    <div class="mbox">
+      <div class="mbox-h"><h3>Who gets in</h3></div>
+      <ul class="mrules">
+        <li><b>Strictly above $${cutB}B:</b> A company's verified whole-company market value must sit above $${cutB}B (stricter than the $20B research floor).</li>
+        <li><b>One row per company:</b> Extra share classes (like Alphabet's GOOG/GOOGL) fold into one issuer so nothing is double-counted.</li>
+        <li><b>Never guessed:</b> Market cap is close × shares outstanding, widened ±2% and checked against the screener. If that range crosses $${cutB}B, the stock is marked <em>unverified</em> and held out below.</li>
+        <li><b>One weekly cutoff:</b> Prices and analyst calls stop at the ${day(D.reference_session)} close so every stock compares on the same date.</li>
+      </ul>
+    </div>
+    <div class="mbox">
+      <div class="mbox-h"><h3>Data and this week's run</h3><div class="mhealth">${loadChip}${valChip}</div></div>
+      <dl class="kv">
+        <dt>Universe</dt><dd><a href="https://www.nasdaq.com/market-activity/stocks/screener" target="_blank" rel="noopener">Nasdaq stock screener</a> · ${esc(D.universe)}</dd>
+        <dt>Market data</dt><dd>Yahoo Finance (via yfinance) for closes, share counts, and Wall St. averages</dd>
+        <dt>Deep research</dt><dd>SEC filings, earnings releases, and dated broker notes — cited inside every stock row</dd>
+        <dt>Price cutoff</dt><dd>${day(D.reference_session)} market close</dd>
+        <dt>Updated</dt><dd>Data fetched ${day(D.fetched_at)} · Page built ${day(D.built_at)}</dd>
+      </dl>
+    </div>`;
   $("#outside").innerHTML = `<summary>${ICON.chev}Not in the list · ${outside.length} names below $${cutB}B or unverified</summary>
-    <p class="note" style="margin:8px 0 0">A cap range is close × shares outstanding, widened to include the screener's figure and ±2% for share-count lag. A range that straddles $${cutB}B is marked unverified rather than guessed.</p>
+    <p class="note" style="margin:8px 0 0">Shown for transparency: companies whose cap sits below $${cutB}B, or whose ±2% cap range straddles $${cutB}B (marked unverified rather than guessed).</p>
     <div class="tablewrap" tabindex="0" role="region" aria-label="Stocks not in the list"><table class="grid"><thead><tr><th class="l">Company</th><th class="l">Status</th><th>Price</th><th>Cap range</th><th class="l">Sector</th></tr></thead><tbody>${outside.map(r =>
       `<tr id="x-${esc(r.symbol)}" tabindex="-1"><td class="l">${nameCell(r.symbol)}</td><td class="l"><span class="chip ${r.status === "unverified" ? "warn" : ""}">${r.status === "unverified" ? "unverified" : `below $${cutB}B`}</span></td><td>${money(r.close, r.currency)}</td><td>${capRange(r.market_cap_usd)}</td><td class="l">${esc(r.sector)}</td></tr>`).join("")
       || '<tr><td colspan="5" class="empty">Every screened issuer is in the list.</td></tr>'}</tbody></table></div>`;

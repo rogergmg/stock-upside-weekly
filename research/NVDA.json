@@ -1,227 +1,477 @@
 {
- "issuer_id": "NVIDIA Corporation",
- "symbol": "NVDA",
- "researched_at": "2026-11-16",
- "research_close": {
-  "close": 162.85,
-  "close_date": "2026-11-13"
- },
- "currency": "USD",
- "earnings_at": "2026-08-26T16:20:00-04:00",
- "coverage": "partial",
- "events": [
-  {
-   "analyst": "Matt Bryson",
-   "firm": "Wedbush",
-   "field": "target",
-   "value": 345,
-   "source_prior": 330,
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "horizon_months": null,
-   "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+  "issuer_id": "NVIDIA Corporation",
+  "symbol": "NVDA",
+  "researched_at": "2026-11-23",
+  "research_close": {
+    "close": 165.05,
+    "close_date": "2026-11-23"
   },
-  {
-   "analyst": "Matt Bryson",
-   "firm": "Wedbush",
-   "field": "rating",
-   "value": "Outperform",
-   "bucket": "Buy",
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+  "currency": "USD",
+  "earnings_at": "2026-11-17T16:20:51-05:00",
+  "coverage": "partial",
+  "events": [
+    {
+      "analyst": "Matt Bryson",
+      "firm": "Wedbush",
+      "field": "target",
+      "value": 345,
+      "source_prior": 330,
+      "issued_at": "2026-08-27",
+      "public_at": "2026-08-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+    },
+    {
+      "analyst": "Matt Bryson",
+      "firm": "Wedbush",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-08-27",
+      "public_at": "2026-08-27T23:59:59-04:00",
+      "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+    },
+    {
+      "analyst": "Matt Bryson",
+      "firm": "Wedbush",
+      "field": "target",
+      "value": 275,
+      "source_prior": 345,
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T12:45:00-05:00",
+      "horizon_months": null,
+      "source": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html"
+    },
+    {
+      "analyst": "Matt Bryson",
+      "firm": "Wedbush",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-13",
+      "public_at": "2026-11-13T12:45:00-05:00",
+      "source": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html"
+    },
+    {
+      "analyst": "Matt Bryson",
+      "firm": "Wedbush",
+      "field": "target",
+      "value": 293,
+      "source_prior": 275,
+      "issued_at": "2026-11-18",
+      "public_at": "2026-11-18T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/news.php?id=27373561&classic=1"
+    },
+    {
+      "analyst": "Matt Bryson",
+      "firm": "Wedbush",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-18",
+      "public_at": "2026-11-18T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/news.php?id=27373561&classic=1"
+    },
+    {
+      "analyst": "Joseph Moore",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 300,
+      "source_prior": 288,
+      "issued_at": "2026-08-27",
+      "public_at": "2026-08-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+    },
+    {
+      "analyst": "Joseph Moore",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-08-27",
+      "public_at": "2026-08-27T23:59:59-04:00",
+      "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+    },
+    {
+      "analyst": "Joseph Moore",
+      "firm": "Morgan Stanley",
+      "field": "target",
+      "value": 260,
+      "source_prior": 267,
+      "issued_at": "2026-11-18",
+      "public_at": "2026-11-18T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24260+at+Morgan+Stanley/27365633.html"
+    },
+    {
+      "analyst": "Joseph Moore",
+      "firm": "Morgan Stanley",
+      "field": "rating",
+      "value": "Overweight",
+      "bucket": "Buy",
+      "issued_at": "2026-11-18",
+      "public_at": "2026-11-18T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24260+at+Morgan+Stanley/27365633.html"
+    },
+    {
+      "analyst": "Vijay Rakesh",
+      "firm": "Mizuho",
+      "field": "target",
+      "value": 220,
+      "source_prior": 250,
+      "issued_at": "2026-11-16",
+      "public_at": "2026-11-16T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+Mizuho/27346950.html"
+    },
+    {
+      "analyst": "Vijay Rakesh",
+      "firm": "Mizuho",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-16",
+      "public_at": "2026-11-16T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+Mizuho/27346950.html"
+    },
+    {
+      "analyst": "Blayne Curtis",
+      "firm": "Jefferies",
+      "field": "target",
+      "value": 250,
+      "source_prior": 300,
+      "issued_at": "2026-11-18",
+      "public_at": "2026-11-18T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24250+at+Jefferies/27365715.html"
+    },
+    {
+      "analyst": "Blayne Curtis",
+      "firm": "Jefferies",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-18",
+      "public_at": "2026-11-18T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24250+at+Jefferies/27365715.html"
+    },
+    {
+      "analyst": "Timothy Arcuri",
+      "firm": "UBS",
+      "field": "target",
+      "value": 220,
+      "source_prior": 240,
+      "issued_at": "2026-11-18",
+      "public_at": "2026-11-18T23:59:59-05:00",
+      "horizon_months": null,
+      "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+UBS/27365910.html"
+    },
+    {
+      "analyst": "Timothy Arcuri",
+      "firm": "UBS",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-18",
+      "public_at": "2026-11-18T23:59:59-05:00",
+      "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+UBS/27365910.html"
+    },
+    {
+      "analyst": "Tristan Gerra",
+      "firm": "Baird",
+      "field": "target",
+      "value": 200,
+      "source_prior": 500,
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "horizon_months": 12,
+      "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
+    },
+    {
+      "analyst": "Tristan Gerra",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-11",
+      "public_at": "2026-11-11T23:59:59-05:00",
+      "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
+    },
+    {
+      "analyst": "Tristan Gerra",
+      "firm": "Baird",
+      "field": "target",
+      "value": 200,
+      "source_prior": 200,
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "Tristan Gerra",
+      "firm": "Baird",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "James Schneider",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 300,
+      "source_prior": 285,
+      "issued_at": "2026-08-27",
+      "public_at": "2026-08-27T23:59:59-04:00",
+      "horizon_months": null,
+      "source": "https://finbold.com/analysts-raise-nvidia-stock-price-target/"
+    },
+    {
+      "analyst": "James Schneider",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Neutral",
+      "bucket": "Hold",
+      "issued_at": "2026-08-27",
+      "public_at": "2026-08-27T23:59:59-04:00",
+      "source": "https://finbold.com/analysts-raise-nvidia-stock-price-target/"
+    },
+    {
+      "analyst": "James Schneider",
+      "firm": "Goldman Sachs",
+      "field": "target",
+      "value": 220,
+      "source_prior": 220,
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "James Schneider",
+      "firm": "Goldman Sachs",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "Atif Malik",
+      "firm": "Citi",
+      "field": "target",
+      "value": 240,
+      "source_prior": 225,
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "Atif Malik",
+      "firm": "Citi",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "Harsh Kumar",
+      "firm": "BMO Capital",
+      "field": "target",
+      "value": 240,
+      "source_prior": 240,
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "Harsh Kumar",
+      "firm": "BMO Capital",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "Ben Reitzes",
+      "firm": "Melius Research",
+      "field": "target",
+      "value": 220,
+      "source_prior": 185,
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "horizon_months": 12,
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "Ben Reitzes",
+      "firm": "Melius Research",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:33:00-05:00",
+      "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+    },
+    {
+      "analyst": "Vivek Arya",
+      "firm": "Bank of America Securities",
+      "field": "target",
+      "value": 280,
+      "source_prior": 280,
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T09:12:47-05:00",
+      "horizon_months": null,
+      "source": "https://finbold.com/wall-street-analyst-issues-new-nvidia-stock-price-target/"
+    },
+    {
+      "analyst": "Vivek Arya",
+      "firm": "Bank of America Securities",
+      "field": "rating",
+      "value": "Buy",
+      "bucket": "Buy",
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T09:12:47-05:00",
+      "source": "https://finbold.com/wall-street-analyst-issues-new-nvidia-stock-price-target/"
+    },
+    {
+      "analyst": "Stacy Rasgon",
+      "firm": "Bernstein",
+      "field": "target",
+      "value": 200,
+      "source_prior": 200,
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:46:09-05:00",
+      "horizon_months": null,
+      "source": "https://financefeeds.com/bernstein-upgrades-nvidia-price-target-outperform/"
+    },
+    {
+      "analyst": "Stacy Rasgon",
+      "firm": "Bernstein",
+      "field": "rating",
+      "value": "Outperform",
+      "bucket": "Buy",
+      "issued_at": "2026-11-23",
+      "public_at": "2026-11-23T11:46:09-05:00",
+      "source": "https://financefeeds.com/bernstein-upgrades-nvidia-price-target-outperform/"
+    }
+  ],
+  "valuation": {
+    "method": "Forward EPS x P/E on FY2028 (year ending Jan 2028) non-GAAP diluted EPS (which includes stock-based compensation, per NVIDIA's reporting basis), viewed at the Nov 2027 12-month target date. Q3 FY27 delivered $115.84B revenue (+103% YoY, Data Center $107.6B), 74.9% non-GAAP gross margin, $8.84B non-GAAP opex, and $2.68 non-GAAP EPS on 24.19B diluted shares; Q4 FY27 (14-week) guidance of $130.0B revenue (zero China Data Center compute), 71.0-72.0% gross margin, $10.7B non-GAAP opex, and 17% tax implies ~$2.85 Q4 EPS and ~$9.62 FY27 EPS (~$423.7B revenue). Balance sheet holds $53.5B cash and marketable debt securities vs $32.4B long-term debt, with $227.3B buyback authorization remaining, $518B supply/lease/other commitments, and $118B partner credit guarantees. USD listing, no FX.",
+    "bear": 104.0,
+    "base": 210.25,
+    "bull": 310.5,
+    "cases": {
+      "bear": {
+        "driver": "AI capex digestion or neocloud financing stress stalls FY28 revenue near Q4's 13-week run-rate ($500B, +18% YoY), Rubin/memory costs compress gross margin to 69% ($46B opex, 23.8B shares), and SEC accounting/disclosure scrutiny plus $118B guarantee exposure keep the multiple compressed",
+        "assumption": "FY28 EPS $10.40 at 10.0x",
+        "target": 104.0
+      },
+      "base": {
+        "driver": "Vera Rubin NVL72 ramp drives FY28 revenue to $640B (+51% YoY, below management's ~75% growth outlook), gross margin stabilizes at 71.5% (Q4 guide midpoint), $48B opex, 17% tax, and buybacks lower diluted shares to 23.5B; Jensen Huang's Nov 22 reinstatement removes CEO-succession risk, but SEC probe and $518B supply/lease commitments cap multiple at 14.5x",
+        "assumption": "FY28 EPS $14.50 at 14.5x",
+        "target": 210.25
+      },
+      "bull": {
+        "driver": "Rubin ramp tracks near ~72% FY28 revenue growth ($730B), gross margin recovers to 73.0% on maturing yields ($50B opex, 23.3B shares), and an uneventful Q3 10-Q filing plus resolution of the SEC inquiry re-rates shares toward 18x",
+        "assumption": "FY28 EPS $17.25 at 18.0x",
+        "target": 310.5
+      }
+    },
+    "implied_by_close": "At base FY28 EPS of $14.50, the $165.05 close implies 11.4x. The engine's 5-analyst 12-month-horizon weighted target ($224.00, +35.7% vs +27.4% base) implies 15.4x base EPS, or $15.45 EPS at 14.5x; the broader 56-analyst Yahoo Finance mean ($244.18, +47.9%) implies 16.8x base EPS or $16.84 EPS at 14.5x.",
+    "sensitivity": "One turn of P/E moves the base target by $14.50 (8.8 pp of the close); $1.00 of FY28 EPS moves it by $14.50 (8.8 pp).",
+    "watch_metric": "Filing of the delayed Q3 FY27 Form 10-Q (risk factors/SEC disclosure), Q4 FY27 gross margin vs 71.0-72.0% guide, and accounts receivable/DSO (64 days in Q3) alongside neocloud credit-guarantee exposure",
+    "next_disclosure": "Q3 FY2027 Form 10-Q (expected by Dec 4, 2026) and Q4 FY2027 earnings release (late February 2027)"
   },
-  {
-   "analyst": "Matt Bryson",
-   "firm": "Wedbush",
-   "field": "target",
-   "value": 275,
-   "source_prior": 345,
-   "issued_at": "2026-11-13",
-   "public_at": "2026-11-13T12:45:00-05:00",
-   "horizon_months": null,
-   "source": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html"
-  },
-  {
-   "analyst": "Matt Bryson",
-   "firm": "Wedbush",
-   "field": "rating",
-   "value": "Outperform",
-   "bucket": "Buy",
-   "issued_at": "2026-11-13",
-   "public_at": "2026-11-13T12:45:00-05:00",
-   "source": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html"
-  },
-  {
-   "analyst": "William Stein",
-   "firm": "Truist",
-   "field": "target",
-   "value": 346,
-   "source_prior": 307,
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "horizon_months": null,
-   "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
-  },
-  {
-   "analyst": "Joseph Moore",
-   "firm": "Morgan Stanley",
-   "field": "target",
-   "value": 300,
-   "source_prior": 288,
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "horizon_months": null,
-   "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
-  },
-  {
-   "analyst": "Joseph Moore",
-   "firm": "Morgan Stanley",
-   "field": "rating",
-   "value": "Overweight",
-   "bucket": "Buy",
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
-  },
-  {
-   "analyst": "Rick Shafer",
-   "firm": "Oppenheimer",
-   "field": "target",
-   "value": 315,
-   "source_prior": 265,
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "horizon_months": null,
-   "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
-  },
-  {
-   "analyst": "Rick Shafer",
-   "firm": "Oppenheimer",
-   "field": "rating",
-   "value": "Outperform",
-   "bucket": "Buy",
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
-  },
-  {
-   "analyst": "James Schneider",
-   "firm": "Goldman Sachs",
-   "field": "target",
-   "value": 300,
-   "source_prior": 285,
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "horizon_months": null,
-   "source": "https://finbold.com/analysts-raise-nvidia-stock-price-target/"
-  },
-  {
-   "analyst": "James Schneider",
-   "firm": "Goldman Sachs",
-   "field": "rating",
-   "value": "Neutral",
-   "bucket": "Hold",
-   "issued_at": "2026-08-27",
-   "public_at": "2026-08-27T23:59:59-04:00",
-   "source": "https://finbold.com/analysts-raise-nvidia-stock-price-target/"
-  },
-  {
-   "analyst": "Tristan Gerra",
-   "firm": "Baird",
-   "field": "target",
-   "value": 200,
-   "source_prior": 500,
-   "issued_at": "2026-11-11",
-   "public_at": "2026-11-11T23:59:59-05:00",
-   "horizon_months": 12,
-   "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
-  },
-  {
-   "analyst": "Tristan Gerra",
-   "firm": "Baird",
-   "field": "rating",
-   "value": "Neutral",
-   "bucket": "Hold",
-   "issued_at": "2026-11-11",
-   "public_at": "2026-11-11T23:59:59-05:00",
-   "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
-  }
- ],
- "valuation": {
-  "method": "Forward EPS x P/E. Earnings period priced at the Nov 2027 target date is FY2028 (year to Jan 2028), non-GAAP diluted EPS including stock compensation, on about 24.2B diluted shares, 17% tax. Q3 FY27 guide: revenue $108B, 74% gross margin, $9.0B opex implies about $70.9B operating income and EPS near $2.46. USD listing, no FX.",
-  "bear": 99.0,
-  "base": 203.0,
-  "bull": 297.0,
-  "cases": {
-   "bear": {
-    "driver": "Data center digestion and supply or visibility problems in 2027 (Baird's thesis), gross margin near 70%, leadership transition and export limits keep multiple compressed",
-    "assumption": "EPS $11.00 at 9x",
-    "target": 99.0
-   },
-   "base": {
-    "driver": "Rubin ramp keeps revenue growing but below the Street, margin about 73-74%, buybacks offset dilution; EPS about 7% below the $15.5-15.75 consensus",
-    "assumption": "EPS $14.50 at 14x",
-    "target": 203.0
-   },
-   "bull": {
-    "driver": "Guide-and-beat cadence continues, FY2028 EPS matches or beats consensus and the CEO transition proves orderly, restoring a premium multiple",
-    "assumption": "EPS $16.50 at 18x",
-    "target": 297.0
-   }
-  },
-  "implied_by_close": "At base EPS $14.50 the $162.85 close implies 11.2x. The engine's only active 12-month-horizon target (Baird $200) implies 13.8x base EPS, or EPS $14.29 at 14x; the broader named-target set (Wedbush $275, Morgan Stanley $300, Oppenheimer $315, Goldman $300, Truist $346) implies roughly 19-24x base EPS.",
-  "sensitivity": "One turn of P/E moves the base target by $14.50 (8.9 pp of the close); $1 of EPS moves it by $14.",
-  "watch_metric": "Data center revenue and Q4 FY27 revenue guidance versus the $108B Q3 guide, plus gross margin at or above 74% and commentary on Rubin timing and China",
-  "next_disclosure": "Q3 FY2027 results, scheduled Nov 17, 2026 (after close; date per company notice, results not yet released as of Nov 16)"
- },
- "dividend_per_share": 1.0,
- "analyst_notes": "Named calls before the Nov 13 close split into stale post-Q2 raises (Aug 27: Wedbush, Truist, Morgan Stanley, Oppenheimer, Goldman at $300-346) and sharp November resets (Wedbush $345 to $275, Baird $500 to $200 with a downgrade to Neutral). Only Baird's target documents a 12-month horizon, so the engine's weighted target rests on that single call ($200); the other targets have a null horizon and sit well above it. Many other cuts reported (HSBC Hold $170, Evercore, Rosenblatt, Bernstein, Craig-Hallum, BofA) lacked a named analyst or a verifiable pre-close time and are excluded, as are Nov 16 cuts (Barclays, TD Cowen, Mizuho) that postdate the reference close. Wedbush's $275 uses 17.5x FY2028 EPS of $15.53; my base EPS is about 7% below that, so the gap to the Street is mostly multiple.",
- "sources": [
-  {
-   "label": "8-K Q2 FY2027 press release (SEC)",
-   "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000073/q2fy27pr.htm",
-   "supports": "Revenue, EPS, diluted shares, cash, debt, Q3 outlook, dividend"
-  },
-  {
-   "label": "NVIDIA Q2 FY2027 results release",
-   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
-   "supports": "Guidance, tax rate, buyback authorization"
-  },
-  {
-   "label": "247WallSt: HSBC downgrade, Nov 13 close",
-   "url": "https://247wallst.com/investing/2026/11/14/hsbc-just-downgraded-nvidia-and-cut-its-target-to-170/",
-   "supports": "Close $162.85, Huang resignation Nov 12, weekly decline"
-  },
-  {
-   "label": "Globe and Mail: post-Q2 target changes",
-   "url": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/",
-   "supports": "Wedbush, Truist, Morgan Stanley, Oppenheimer Aug 27 calls"
-  },
-  {
-   "label": "Finbold: post-Q2 targets",
-   "url": "https://finbold.com/analysts-raise-nvidia-stock-price-target/",
-   "supports": "Goldman Sachs call, Mizuho multiple"
-  },
-  {
-   "label": "Yahoo Finance Canada: Wedbush cut",
-   "url": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html",
-   "supports": "Wedbush $275 on 17.5x FY2028 EPS $15.53"
-  },
-  {
-   "label": "Finbold: Baird downgrade",
-   "url": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/",
-   "supports": "Baird Neutral, $200 from $500"
-  },
-  {
-   "label": "MarketBeat: Rosenblatt cut Nov 13",
-   "url": "https://www.marketbeat.com/instant-alerts/analyst-nvidia-nasdaq-nvda-stock-price-target-cut-by-rosenblatt-securities-2026-11-13/",
-   "supports": "Unnamed-analyst broker actions, consensus"
-  },
-  {
-   "label": "FourWeekMBA: P/E and consensus EPS",
-   "url": "https://fourweekmba.com/ai-nvidias-11x-p-e-rests-on-3-94-a-quarter-q2-earned-2-22/",
-   "supports": "FY2028 EPS consensus about $15.75, Q3 consensus"
-  }
- ]
+  "dividend_per_share": 1.0,
+  "analyst_notes": "Twelve named analysts updated NVDA across the Nov 16-23 window covering Q3 FY27 earnings (Nov 17) and Jensen Huang's Nov 22 CEO reinstatement (filed Nov 23): post-Q3 cuts (Morgan Stanley to $260, Jefferies to $250, UBS to $220) gave way on Nov 23 to upgrades and raises (Citi $225 to $240, Melius Hold to Buy $185 to $220, Bernstein Market Perform to Outperform at $200, while BofA reiterated $280, BMO $240, Goldman $220, Baird Hold $200). Five Nov 23 calls carry a documented 12-month horizon via StockAnalysis (plus Baird's prior Finbold note) and produce a $224.00 weighted target (+35.7%), 8.3 pp above our $210.25 base case (+27.4%); the gap reflects roughly 1.0 turn of P/E or ~7% higher FY28 EPS (Street FY28 EPS consensus sits near $15.70-$16.60 vs our $14.50). The seven calls without a documented horizon ($200-$293, including Wedbush $293 and BofA $280) sit slightly higher and remain in the rating mix (11 Buy, 1 Hold), while the 56-analyst Yahoo Finance aggregate averages $244.18.",
+  "sources": [
+    {
+      "label": "SEC Form 8-K Q3 FY2027 press release (0001045810-26-000088)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27pr.htm",
+      "supports": "Q3 FY27 revenue, EPS, diluted shares, balance sheet, cash flow, Q4 FY27 guidance, dividend, buybacks"
+    },
+    {
+      "label": "SEC Form 8-K Q3 FY2027 CFO Commentary",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000088/q3fy27cfocommentary.htm",
+      "supports": "Data Center breakdown, China Hopper revenue, $518B commitments, $118B guarantees, DSO, 10-Q timing"
+    },
+    {
+      "label": "SEC Form 8-K CEO Reinstatement (0001045810-26-000090)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nvda-20261122.htm",
+      "supports": "Board reinstatement of Jensen Huang as President and CEO effective Nov 22, 2026"
+    },
+    {
+      "label": "StockAnalysis: NVDA analyst forecast and ratings",
+      "url": "https://stockanalysis.com/stocks/nvda/forecast/",
+      "supports": "12-month target horizon and Nov 23 calls from Citi (Atif Malik), Baird (Tristan Gerra), BMO (Harsh Kumar), Goldman Sachs (James Schneider), Melius (Ben Reitzes)"
+    },
+    {
+      "label": "FinanceFeeds: Bernstein upgrades NVDA to Outperform",
+      "url": "https://financefeeds.com/bernstein-upgrades-nvidia-price-target-outperform/",
+      "supports": "Stacy Rasgon Nov 23 upgrade to Outperform, $200 target"
+    },
+    {
+      "label": "Finbold: BofA reiterates NVDA Buy $280",
+      "url": "https://finbold.com/wall-street-analyst-issues-new-nvidia-stock-price-target/",
+      "supports": "Vivek Arya Nov 23 Buy rating and $280 price target"
+    },
+    {
+      "label": "StreetInsider: Wedbush raises NVDA PT to $293",
+      "url": "https://www.streetinsider.com/news.php?id=27373561&classic=1",
+      "supports": "Matt Bryson Nov 18 Outperform, $293 target from $275"
+    },
+    {
+      "label": "StreetInsider: Morgan Stanley lowers NVDA PT to $260",
+      "url": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24260+at+Morgan+Stanley/27365633.html",
+      "supports": "Joseph Moore Nov 18 Overweight, $260 target from $267"
+    },
+    {
+      "label": "StreetInsider: Jefferies lowers NVDA PT to $250",
+      "url": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24250+at+Jefferies/27365715.html",
+      "supports": "Blayne Curtis Nov 18 Buy, $250 target from $300"
+    },
+    {
+      "label": "StreetInsider: UBS lowers NVDA PT to $220",
+      "url": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+UBS/27365910.html",
+      "supports": "Timothy Arcuri Nov 18 Buy, $220 target from $240"
+    },
+    {
+      "label": "StreetInsider: Mizuho lowers NVDA PT to $220",
+      "url": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+Mizuho/27346950.html",
+      "supports": "Vijay Rakesh Nov 16 Outperform, $220 target from $250"
+    },
+    {
+      "label": "Finbold: Baird cuts NVDA PT to $200",
+      "url": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/",
+      "supports": "Tristan Gerra Nov 11 cut to $200 from $500, Neutral, 12-month horizon"
+    },
+    {
+      "label": "Globe and Mail: post-Q2 FY27 target upgrades",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/",
+      "supports": "Aug 27 prior calls for Wedbush ($345) and Morgan Stanley ($300)"
+    },
+    {
+      "label": "Yahoo Finance Canada: Wedbush Nov 13 cut",
+      "url": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html",
+      "supports": "Matt Bryson Nov 13 cut to $275 from $345"
+    },
+    {
+      "label": "Finbold: post-Q2 FY27 Goldman Sachs target",
+      "url": "https://finbold.com/analysts-raise-nvidia-stock-price-target/",
+      "supports": "James Schneider Aug 27 Neutral, $300 target from $285"
+    }
+  ]
 }

@@ -679,15 +679,25 @@
           "source": "https://ca.finance.yahoo.com/news/nvidia-shares-fall-wedbush-cuts-174500655.html"
         },
         {
-          "analyst": "William Stein",
-          "firm": "Truist",
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
           "field": "target",
-          "value": 346,
-          "source_prior": 307,
-          "issued_at": "2026-08-27",
-          "public_at": "2026-08-27T23:59:59-04:00",
+          "value": 293,
+          "source_prior": 275,
+          "issued_at": "2026-11-18",
+          "public_at": "2026-11-18T23:59:59-05:00",
           "horizon_months": null,
-          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+          "source": "https://www.streetinsider.com/news.php?id=27373561&classic=1"
+        },
+        {
+          "analyst": "Matt Bryson",
+          "firm": "Wedbush",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-18",
+          "public_at": "2026-11-18T23:59:59-05:00",
+          "source": "https://www.streetinsider.com/news.php?id=27373561&classic=1"
         },
         {
           "analyst": "Joseph Moore",
@@ -711,25 +721,130 @@
           "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
         },
         {
-          "analyst": "Rick Shafer",
-          "firm": "Oppenheimer",
+          "analyst": "Joseph Moore",
+          "firm": "Morgan Stanley",
           "field": "target",
-          "value": 315,
-          "source_prior": 265,
-          "issued_at": "2026-08-27",
-          "public_at": "2026-08-27T23:59:59-04:00",
+          "value": 260,
+          "source_prior": 267,
+          "issued_at": "2026-11-18",
+          "public_at": "2026-11-18T23:59:59-05:00",
           "horizon_months": null,
-          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+          "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24260+at+Morgan+Stanley/27365633.html"
         },
         {
-          "analyst": "Rick Shafer",
-          "firm": "Oppenheimer",
+          "analyst": "Joseph Moore",
+          "firm": "Morgan Stanley",
+          "field": "rating",
+          "value": "Overweight",
+          "bucket": "Buy",
+          "issued_at": "2026-11-18",
+          "public_at": "2026-11-18T23:59:59-05:00",
+          "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24260+at+Morgan+Stanley/27365633.html"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho",
+          "field": "target",
+          "value": 220,
+          "source_prior": 250,
+          "issued_at": "2026-11-16",
+          "public_at": "2026-11-16T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+Mizuho/27346950.html"
+        },
+        {
+          "analyst": "Vijay Rakesh",
+          "firm": "Mizuho",
           "field": "rating",
           "value": "Outperform",
           "bucket": "Buy",
-          "issued_at": "2026-08-27",
-          "public_at": "2026-08-27T23:59:59-04:00",
-          "source": "https://www.theglobeandmail.com/investing/markets/stocks/MPWR/pressreleases/4226450/nvidia-nvda-earns-price-target-upgrades-after-monster-q2/"
+          "issued_at": "2026-11-16",
+          "public_at": "2026-11-16T23:59:59-05:00",
+          "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+Mizuho/27346950.html"
+        },
+        {
+          "analyst": "Blayne Curtis",
+          "firm": "Jefferies",
+          "field": "target",
+          "value": 250,
+          "source_prior": 300,
+          "issued_at": "2026-11-18",
+          "public_at": "2026-11-18T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24250+at+Jefferies/27365715.html"
+        },
+        {
+          "analyst": "Blayne Curtis",
+          "firm": "Jefferies",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-18",
+          "public_at": "2026-11-18T23:59:59-05:00",
+          "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24250+at+Jefferies/27365715.html"
+        },
+        {
+          "analyst": "Timothy Arcuri",
+          "firm": "UBS",
+          "field": "target",
+          "value": 220,
+          "source_prior": 240,
+          "issued_at": "2026-11-18",
+          "public_at": "2026-11-18T23:59:59-05:00",
+          "horizon_months": null,
+          "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+UBS/27365910.html"
+        },
+        {
+          "analyst": "Timothy Arcuri",
+          "firm": "UBS",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-18",
+          "public_at": "2026-11-18T23:59:59-05:00",
+          "source": "https://www.streetinsider.com/Analyst+Comments/NVIDIA+%28NVDA%29+PT+Lowered+to+%24220+at+UBS/27365910.html"
+        },
+        {
+          "analyst": "Tristan Gerra",
+          "firm": "Baird",
+          "field": "target",
+          "value": 200,
+          "source_prior": 500,
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "horizon_months": 12,
+          "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
+        },
+        {
+          "analyst": "Tristan Gerra",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-11",
+          "public_at": "2026-11-11T23:59:59-05:00",
+          "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
+        },
+        {
+          "analyst": "Tristan Gerra",
+          "firm": "Baird",
+          "field": "target",
+          "value": 200,
+          "source_prior": 200,
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "horizon_months": 12,
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+        },
+        {
+          "analyst": "Tristan Gerra",
+          "firm": "Baird",
+          "field": "rating",
+          "value": "Neutral",
+          "bucket": "Hold",
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
         },
         {
           "analyst": "James Schneider",
@@ -753,32 +868,137 @@
           "source": "https://finbold.com/analysts-raise-nvidia-stock-price-target/"
         },
         {
-          "analyst": "Tristan Gerra",
-          "firm": "Baird",
+          "analyst": "James Schneider",
+          "firm": "Goldman Sachs",
           "field": "target",
-          "value": 200,
-          "source_prior": 500,
-          "issued_at": "2026-11-11",
-          "public_at": "2026-11-11T23:59:59-05:00",
+          "value": 220,
+          "source_prior": 220,
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
           "horizon_months": 12,
-          "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
         },
         {
-          "analyst": "Tristan Gerra",
-          "firm": "Baird",
+          "analyst": "James Schneider",
+          "firm": "Goldman Sachs",
           "field": "rating",
-          "value": "Neutral",
-          "bucket": "Hold",
-          "issued_at": "2026-11-11",
-          "public_at": "2026-11-11T23:59:59-05:00",
-          "source": "https://finbold.com/wall-street-analyst-slashes-nvidia-stock-price-target-by-60/"
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "target",
+          "value": 240,
+          "source_prior": 225,
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "horizon_months": 12,
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+        },
+        {
+          "analyst": "Atif Malik",
+          "firm": "Citi",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+        },
+        {
+          "analyst": "Harsh Kumar",
+          "firm": "BMO Capital",
+          "field": "target",
+          "value": 240,
+          "source_prior": 240,
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "horizon_months": 12,
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+        },
+        {
+          "analyst": "Harsh Kumar",
+          "firm": "BMO Capital",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+        },
+        {
+          "analyst": "Ben Reitzes",
+          "firm": "Melius Research",
+          "field": "target",
+          "value": 220,
+          "source_prior": 185,
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "horizon_months": 12,
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+        },
+        {
+          "analyst": "Ben Reitzes",
+          "firm": "Melius Research",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:33:00-05:00",
+          "source": "https://stockanalysis.com/stocks/nvda/forecast/"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "Bank of America Securities",
+          "field": "target",
+          "value": 280,
+          "source_prior": 280,
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T09:12:47-05:00",
+          "horizon_months": null,
+          "source": "https://finbold.com/wall-street-analyst-issues-new-nvidia-stock-price-target/"
+        },
+        {
+          "analyst": "Vivek Arya",
+          "firm": "Bank of America Securities",
+          "field": "rating",
+          "value": "Buy",
+          "bucket": "Buy",
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T09:12:47-05:00",
+          "source": "https://finbold.com/wall-street-analyst-issues-new-nvidia-stock-price-target/"
+        },
+        {
+          "analyst": "Stacy Rasgon",
+          "firm": "Bernstein",
+          "field": "target",
+          "value": 200,
+          "source_prior": 200,
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:46:09-05:00",
+          "horizon_months": null,
+          "source": "https://financefeeds.com/bernstein-upgrades-nvidia-price-target-outperform/"
+        },
+        {
+          "analyst": "Stacy Rasgon",
+          "firm": "Bernstein",
+          "field": "rating",
+          "value": "Outperform",
+          "bucket": "Buy",
+          "issued_at": "2026-11-23",
+          "public_at": "2026-11-23T11:46:09-05:00",
+          "source": "https://financefeeds.com/bernstein-upgrades-nvidia-price-target-outperform/"
         }
       ],
-      "earnings_at": "2026-08-26T16:20:00-04:00",
+      "earnings_at": "2026-11-17T16:20:51-05:00",
       "valuation": {
-        "bear": 99.0,
-        "base": 203.0,
-        "bull": 297.0
+        "bear": 104.0,
+        "base": 210.25,
+        "bull": 310.5
       },
       "dividend_per_share": 1.0
     },

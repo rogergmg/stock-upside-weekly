@@ -1,4 +1,23 @@
 {
   "reference_session": "2026-11-23",
-  "rejected": []
+  "rejected": [
+    {
+      "file": "BE.json",
+      "errors": [
+        "listing not in this week's universe"
+      ]
+    },
+    {
+      "file": "LITE.json",
+      "errors": [
+        "listing not in this week's universe"
+      ]
+    },
+    {
+      "file": "XYZ.json",
+      "errors": [
+        "listing not in this week's universe"
+      ]
+    }
+  ]
 }

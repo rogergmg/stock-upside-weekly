@@ -263,13 +263,13 @@ The world rejects two things by name: the trading-app look (neon, hype, casino d
 A slate-and-paper neutral system with a single blue accent and three tinted state hues; every state colour has a soft wash partner so it can appear as tinted pill or text, never as a loud fill. Each light token has a `dark-` sibling that replaces it under `prefers-color-scheme: dark` (unless the reader chose light) and under `:root[data-theme="dark"]`.
 
 ### Primary
-- **Action Blue** (`action-blue`; dark `dark-action-blue`): links, the brand mark, the active sort header, the current nav item, focus rings, disclosure summaries ("Show 179 more", "Weighting checks"), and the average marker on the analyst target strip.
+- **Action Blue** (`action-blue`; dark `dark-action-blue`): links, the active sort header, the current nav item, focus rings, disclosure summaries ("Show 179 more", "Weighting checks"), and the average marker on the analyst target strip.
 - **Action Wash** (`action-wash`): the selected state. Open table rows, open phone rows, the current nav pill, the "Our estimate" chip, and the briefly highlighted row in "Not in the list".
 - **Action Line** (`action-line`): the border of accent chips and the double hairline around the base-case card.
 - **Range Band** (`range-band`): the pale blue bear-to-bull band on every range bar and its legend swatch.
 
 ### Secondary (state hues)
-- **Gain Green** (`gain-green` on `gain-wash`): positive returns, Buy counts and segments, upgrades and raised targets, the high end of a target strip.
+- **Gain Green** (`gain-green` on `gain-wash`): positive returns, the rising arrow half of the brand monogram, Buy counts and segments, upgrades and raised targets, the high end of a target strip.
 - **Loss Red** (`loss-red` on `loss-wash`): negative returns, Sell counts and segments, downgrades and cut targets, the low end of a target strip.
 - **Caution Amber** (`caution-amber` on `caution-wash`): stale research, unverified market caps, split-adjusted notes, non-active analyst calls, and the footer disclaimer line.
 
@@ -363,7 +363,7 @@ Data marks are round: 4px stroke caps on range bars, a 5px base-case dot with a 
 ## Components
 
 ### Top bar
-Quiet, always present. Panel-white with a hairline bottom border, sticky under the safe area. The brand mark is a 24px blue rounded tile with a white rising line. Nav links are 13.5px medium muted text in 6px by 10px pills; hover fills with the hover tone, and the current section (scrollspy) turns blue on the action wash.
+Quiet, always present. Panel-white with a hairline bottom border, sticky under the safe area. The brand mark is a 24px geometric "U" monogram whose left descending stem in red (`#dc2626` light / `#f05252` dark) reverses at the base into an intense green rising arrow (`#16a34a` light / `#22c55e` dark). Nav links are 13.5px medium muted text in 6px by 10px pills; hover fills with the hover tone, and the current section (scrollspy) turns blue on the action wash.
 
 ### Top-upside cards
 The first thing read. Five equal cards, each a button that opens its stock in the list. Top line: ticker and a `#rank` badge. Then the company name (ellipsised), the "Our 12-month upside" label, the display-size base-case return in gain or loss colour, and the price pair: "Close · Nov 20" over the closing price, an arrow, then "Our target" over our base-case price (target in semibold ink, close in body tone). A "from X last week" line follows, then a full-width range bar with bear and bull end labels. Wall St. does not appear on the cards. Hover lifts 2px with the lift shadow and a stronger border (0.2s, standard ease, motion-gated).

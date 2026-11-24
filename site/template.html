@@ -1,4 +1,4 @@
-<title>Stock Upside Weekly</title>
+<title>Stock Upside</title>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cstyle%3Epath{fill:none;stroke-width:5.2;stroke-linecap:round;stroke-linejoin:round}.a{stroke:%23dc2626}.b{stroke:%2316a34a;stroke-linecap:butt}.c{stroke:%2316a34a}@media(prefers-color-scheme:dark){.a{stroke:%23f05252}.b,.c{stroke:%2322c55e}}%3C/style%3E%3Cpath class='a' d='M10.5 17.5V27.75A11.25 11.25 0 0 0 21.75 39'/%3E%3Cpath class='b' d='M21.75 39A11.25 11.25 0 0 0 33 27.75V10.5'/%3E%3Cpath class='c' d='M27.4 15.8 33 9.8 38.6 15.8'/%3E%3C/svg%3E">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -438,7 +438,7 @@ details.inline .kv { margin-top: 10px; }
 
 <header class="bar">
   <div class="bar-in">
-    <a class="brand" href="#top"><svg width="24" height="24" viewBox="0 0 48 48" aria-hidden="true"><path d="M10.5 17.5V27.75A11.25 11.25 0 0 0 21.75 39" fill="none" stroke="var(--brand-dn)" stroke-width="5.2" stroke-linecap="round"/><path d="M21.75 39A11.25 11.25 0 0 0 33 27.75V10.5" fill="none" stroke="var(--brand-up)" stroke-width="5.2" stroke-linecap="butt"/><path d="M27.4 15.8 33 9.8 38.6 15.8" fill="none" stroke="var(--brand-up)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Stock Upside Weekly</a>
+    <a class="brand" href="#top"><svg width="24" height="24" viewBox="0 0 48 48" aria-hidden="true"><path d="M10.5 17.5V27.75A11.25 11.25 0 0 0 21.75 39" fill="none" stroke="var(--brand-dn)" stroke-width="5.2" stroke-linecap="round"/><path d="M21.75 39A11.25 11.25 0 0 0 33 27.75V10.5" fill="none" stroke="var(--brand-up)" stroke-width="5.2" stroke-linecap="butt"/><path d="M27.4 15.8 33 9.8 38.6 15.8" fill="none" stroke="var(--brand-up)" stroke-width="5.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Stock Upside</a>
     <nav class="nav" aria-label="Sections">
       <a href="#top">Top upside</a><a href="#stocks">All stocks</a><a href="#week">This week</a><a href="#method">Methodology</a>
     </nav>
@@ -984,7 +984,7 @@ details.inline .kv { margin-top: 10px; }
     <div class="tablewrap" tabindex="0" role="region" aria-label="Stocks not in the list"><table class="grid"><thead><tr><th class="l">Company</th><th class="l">Status</th><th>Price</th><th>Cap range</th><th class="l">Sector</th></tr></thead><tbody>${outside.map(r =>
       `<tr id="x-${esc(r.symbol)}" tabindex="-1"><td class="l">${nameCell(r.symbol)}</td><td class="l"><span class="chip ${r.status === "unverified" ? "warn" : ""}">${r.status === "unverified" ? "unverified" : `below $${cutB}B`}</span></td><td>${money(r.close, r.currency)}</td><td>${capRange(r.market_cap_usd)}</td><td class="l">${esc(r.sector)}</td></tr>`).join("")
       || '<tr><td colspan="5" class="empty">Every screened issuer is in the list.</td></tr>'}</tbody></table></div>`;
-  $("#foot").innerHTML = `<p class="disc">Research output, not investment advice. Figures come from public sources and model assumptions that can be wrong.</p><p>Stock Upside Weekly · ${day(D.reference_session)} edition</p>`;
+  $("#foot").innerHTML = `<p class="disc">Research output, not investment advice. Figures come from public sources and model assumptions that can be wrong.</p><p>Stock Upside · ${day(D.reference_session)} edition</p>`;
 
   $("#list-meta").innerHTML = `<p class="legend"><span><i class="lg-band"></i>Bear to bull range</span><span><i class="lg-dot"></i>Base case</span><span><i class="lg-ghost"></i>Last week's base case</span></p>
     <span class="keys"><kbd>↑</kbd><kbd>↓</kbd> move <kbd>Enter</kbd> open <kbd>Esc</kbd> close</span>`;

@@ -10,7 +10,7 @@ web
 Roger, for his own investing. He opens the page once a week, after the Saturday refresh, to catch up on the US large-cap universe. It is a private, single-reader tool, not a team or client product.
 
 ## Product Purpose
-Stock Upside Weekly estimates the 12-month price upside of every US-listed stock with a whole-company market cap above US$50B, using the `stock-upside-analysis` skill's method. Each weekly visit should show **what changed this week**:
+Stock Upside estimates the 12-month price upside of every US-listed stock with a whole-company market cap above US$50B, using the `stock-upside-analysis` skill's method. Each weekly visit should show **what changed this week**:
 - names newly researched;
 - moves in base-case returns;
 - rating and target changes by named analysts;

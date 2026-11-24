@@ -1,4 +1,4 @@
-# Stock Upside Weekly
+# Stock Upside
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
@@ -9,7 +9,7 @@ Weekly 12-month upside estimates for every US-listed company with a verified mar
 
 ## Why This Exists
 
-Most stock screeners blend analyst consensus, momentum, and opaque scores into a single number. **Stock Upside Weekly** separates independent valuation from Wall Street consensus and traces every figure back to a dated source:
+Most stock screeners blend analyst consensus, momentum, and opaque scores into a single number. **Stock Upside** separates independent valuation from Wall Street consensus and traces every figure back to a dated source:
 
 - **Independent valuation leads** — Bear, base, and bull 12-month targets are built from SEC filings and stated operating assumptions, ranked by unrounded base-case 12-month price return.
 - **Street consensus stays separate** — Provider aggregate targets are displayed quietly in their own column and never blended with the base-case model.

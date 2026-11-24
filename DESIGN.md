@@ -1,5 +1,5 @@
 ---
-name: Stock Upside Weekly
+name: Stock Upside
 description: A calm, precise research dashboard that ranks our 12-month price targets for large US stocks from the latest close, with the Wall St. average as a quiet, separate reference.
 colors:
   canvas: "#f6f7f9"
@@ -238,7 +238,7 @@ components:
     padding: "0 5px"
 ---
 
-# Design System: Stock Upside Weekly
+# Design System: Stock Upside
 
 ## Overview
 
